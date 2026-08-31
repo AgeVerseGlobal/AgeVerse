@@ -1,0 +1,320 @@
+/* =========================================================
+   AGEVERSE — DATE DIFFERENCE CALCULATOR
+   Isolated Premium Styling
+   ========================================================= */
+
+.date-difference-card {
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  padding: 28px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 15px 40px rgba(15, 23, 42, 0.08);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   LABELS
+   ========================================================= */
+
+.date-difference-card label {
+  display: block;
+
+  margin-top: 3px;
+  margin-bottom: 4px;
+
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   DATE INPUT AREA
+   ========================================================= */
+
+.date-difference-card .date-input,
+.date-difference-card .date-input-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/*
+   DateInput already controls the actual
+   DD / MM / YYYY inputs, so we intentionally
+   don't override its internal layout here.
+*/
+
+
+/* =========================================================
+   BUTTON SPACING
+   ========================================================= */
+
+.date-difference-calculate {
+  width: 100%;
+  min-height: 52px;
+
+  margin-top: 12px;
+  margin-bottom: 6px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+  );
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 750;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 24px rgba(79, 70, 229, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.date-difference-calculate:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 28px rgba(79, 70, 229, 0.32);
+}
+
+.date-difference-calculate:active {
+  transform: scale(0.98);
+}
+
+
+/* =========================================================
+   RESET BUTTON
+   ========================================================= */
+
+.date-difference-reset {
+  width: 100%;
+  min-height: 43px;
+
+  margin-top: 6px;
+
+  border: 1px solid #dbe2ea;
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  color: #64748b;
+
+  font-size: 13px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.date-difference-reset:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  color: #334155;
+}
+
+.date-difference-reset:active {
+  transform: scale(0.98);
+}
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.date-difference-error {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 4px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background: #fff1f2;
+
+  border: 1px solid #fecdd3;
+
+  color: #be123c;
+
+  text-align: center;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  animation: ddErrorShow 0.25s ease;
+}
+
+@keyframes ddErrorShow {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   EMPTY RESULT
+   ========================================================= */
+
+.date-difference-empty {
+  width: 100%;
+  min-height: 420px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 30px 20px;
+
+  box-sizing: border-box;
+
+  color: #64748b;
+}
+
+.date-difference-empty::before {
+  content: "📅";
+
+  width: 76px;
+  height: 76px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 23px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  box-shadow:
+    0 8px 22px rgba(79, 70, 229, 0.10);
+
+  font-size: 36px;
+}
+
+.date-difference-empty h2 {
+  margin: 0 0 8px;
+
+  color: #4f46e5;
+
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.date-difference-empty p {
+  max-width: 340px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .date-difference-card {
+    padding: 22px;
+
+    border-radius: 21px;
+  }
+
+  .date-difference-empty {
+    min-height: 300px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 430px) {
+
+  .date-difference-card {
+    padding: 18px;
+
+    border-radius: 19px;
+  }
+
+  .date-difference-calculate {
+    min-height: 49px;
+
+    font-size: 15px;
+  }
+
+  .date-difference-empty {
+    min-height: 250px;
+
+    padding: 20px 15px;
+  }
+
+  .date-difference-empty::before {
+    width: 65px;
+    height: 65px;
+
+    font-size: 30px;
+  }
+}

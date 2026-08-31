@@ -1,0 +1,314 @@
+/* =========================================================
+   AGEVERSE — PREMIUM CALCULATOR LAYOUT
+   Shared by calculator pages
+   ========================================================= */
+
+.calculator-page {
+  min-height: calc(100vh - 140px);
+
+  padding: 40px 20px 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(99, 102, 241, 0.08),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(124, 58, 237, 0.07),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #f8fafc,
+      #eef2ff
+    );
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
+
+.calculator-container {
+  width: 100%;
+
+  max-width: 1300px;
+
+  display: grid;
+
+  grid-template-columns: 420px minmax(0, 1fr);
+
+  gap: 28px;
+
+  align-items: start;
+}
+
+
+/* =========================================================
+   LEFT CALCULATOR PANEL
+========================================================= */
+
+.calculator-left {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.98),
+      rgba(248, 250, 252, 0.98)
+    );
+
+  border-radius: 26px;
+
+  padding: 30px;
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 18px 45px rgba(15, 23, 42, 0.09);
+
+  position: sticky;
+
+  top: 95px;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   LEFT TITLE
+========================================================= */
+
+.calculator-left h1 {
+  margin: 0;
+
+  font-size: 34px;
+
+  line-height: 1.2;
+
+  font-weight: 800;
+
+  letter-spacing: -0.7px;
+
+  color: #1e1b4b;
+}
+
+
+/* =========================================================
+   LEFT SUBTITLE
+========================================================= */
+
+.calculator-left > p {
+  margin: 11px 0 26px;
+
+  color: #64748b;
+
+  font-size: 15px;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   RIGHT RESULT PANEL
+========================================================= */
+
+.calculator-right {
+  width: 100%;
+
+  min-height: 520px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.98),
+      rgba(248, 250, 252, 0.98)
+    );
+
+  border-radius: 26px;
+
+  padding: 30px;
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 18px 45px rgba(15, 23, 42, 0.09);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   EMPTY RIGHT PANEL
+========================================================= */
+
+.calculator-right:empty {
+  min-height: 520px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .calculator-container {
+    grid-template-columns:
+      360px minmax(0, 1fr);
+
+    gap: 22px;
+  }
+
+  .calculator-left {
+    padding: 26px;
+  }
+
+  .calculator-right {
+    padding: 26px;
+  }
+
+  .calculator-left h1 {
+    font-size: 30px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE / TABLET
+========================================================= */
+
+@media (max-width: 992px) {
+
+  .calculator-page {
+    padding:
+      30px
+      15px
+      50px;
+  }
+
+
+  .calculator-container {
+    grid-template-columns: 1fr;
+
+    max-width: 760px;
+  }
+
+
+  .calculator-left {
+    position: static;
+
+    top: auto;
+
+    padding: 26px;
+  }
+
+
+  .calculator-right {
+    margin-top: 0;
+
+    min-height: auto;
+
+    padding: 26px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .calculator-page {
+    padding:
+      20px
+      10px
+      40px;
+  }
+
+
+  .calculator-left {
+    padding: 21px;
+
+    border-radius: 21px;
+  }
+
+
+  .calculator-right {
+    padding: 16px;
+
+    border-radius: 21px;
+  }
+
+
+  .calculator-left h1 {
+    font-size: 27px;
+  }
+
+
+  .calculator-left > p {
+    font-size: 14px;
+
+    margin-bottom: 21px;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .calculator-left {
+    padding: 17px;
+  }
+
+
+  .calculator-right {
+    padding: 12px;
+  }
+
+
+  .calculator-left h1 {
+    font-size: 24px;
+  }
+
+}
+
+
+/* =========================================================
+   AGE CALCULATOR RESULT AREA — LIGHT MODE
+========================================================= */
+
+.age-calculator-result-area {
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}

@@ -1,0 +1,1290 @@
+/* =========================================================
+   AGEVERSE — PREGNANCY CALCULATOR
+   Premium Compact Edition
+   ========================================================= */
+
+.pregnancy-card {
+  width: 100%;
+  max-width: 760px;
+  box-sizing: border-box;
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.07);
+
+  box-shadow:
+    0 14px 34px
+    rgba(15, 23, 42, 0.07);
+}
+
+
+/* =========================================================
+   FORM FIELD
+   ========================================================= */
+
+.pregnancy-field {
+  margin-bottom: 12px;
+}
+
+.pregnancy-field label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #334155;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.pregnancy-field small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  line-height: 1.35;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   DATE INPUT
+   Scoped ONLY to Pregnancy Calculator
+   ========================================================= */
+
+.pregnancy-card .date-input-wrapper {
+  width: 100%;
+
+  min-height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding: 7px 10px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 12px;
+
+  transition:
+    border-color .2s ease,
+    box-shadow .2s ease,
+    background .2s ease;
+}
+
+.pregnancy-card .date-input-wrapper:focus-within {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, .11);
+}
+
+
+/* DD / MM */
+
+.pregnancy-card .date-part {
+  width: 48px;
+  min-width: 48px;
+
+  flex: 0 0 48px;
+
+  padding: 0;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  text-align: center;
+
+  font-size: 15px;
+  font-weight: 650;
+
+  color: #334155;
+
+  box-sizing: border-box;
+}
+
+
+/* YYYY */
+
+.pregnancy-card .date-part.year {
+  width: 68px;
+  min-width: 68px;
+
+  flex: 0 0 68px;
+}
+
+.pregnancy-card .date-part::placeholder {
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.pregnancy-card .date-separator {
+  flex: 0 0 auto;
+
+  color: #94a3b8;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.pregnancy-error {
+  margin: 8px 0 10px;
+
+  padding: 9px 11px;
+
+  border-radius: 11px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fef2f2,
+      #fff7f7
+    );
+
+  border: 1px solid #fecaca;
+
+  color: #b91c1c;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   MAIN BUTTONS
+   Calculate prominent
+   Reset below it
+   ========================================================= */
+
+.pregnancy-buttons {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  margin-top: 13px;
+}
+
+.pregnancy-buttons button {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border-radius: 12px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    opacity .18s ease;
+}
+
+.pregnancy-calculate-button {
+  min-height: 48px;
+
+  padding: 11px 14px;
+
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #7c3aed
+    );
+
+  border: 1px solid #6366f1;
+
+  font-size: 13px;
+
+  box-shadow:
+    0 8px 20px
+    rgba(99, 102, 241, .22);
+}
+
+.pregnancy-reset-button {
+  min-height: 37px;
+
+  padding: 8px 12px;
+
+  color: #475569;
+
+  background: #f8fafc;
+
+  border: 1px solid #cbd5e1;
+
+  font-size: 11px;
+}
+
+.pregnancy-buttons button:hover {
+  transform: translateY(-1px);
+}
+
+.pregnancy-buttons button:active {
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   INFORMATION
+   ========================================================= */
+
+.pregnancy-info {
+  margin-top: 12px;
+
+  padding: 10px 11px;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eff6ff,
+      #f8fafc
+    );
+
+  border: 1px solid #dbeafe;
+}
+
+.pregnancy-info strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: #1e40af;
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.pregnancy-info p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  line-height: 1.45;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   EMPTY RESULT
+   ========================================================= */
+
+.pregnancy-empty-result {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 25px 18px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid
+    rgba(15, 23, 42, .07);
+
+  box-shadow:
+    0 14px 34px
+    rgba(15, 23, 42, .07);
+}
+
+.pregnancy-empty-icon {
+  width: 54px;
+  height: 54px;
+
+  margin: 0 auto 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fce7f3,
+      #f5f3ff
+    );
+
+  font-size: 28px;
+}
+
+.pregnancy-empty-result h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 19px;
+
+  font-weight: 850;
+}
+
+.pregnancy-empty-result p {
+  max-width: 500px;
+
+  margin: 7px auto 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  line-height: 1.55;
+
+  font-weight: 600;
+}
+
+.pregnancy-empty-hint {
+  margin-top: 11px;
+
+  color: #6366f1;
+
+  font-size: 9px;
+
+  font-weight: 750;
+}
+
+
+/* =========================================================
+   RESULT CARD
+   ========================================================= */
+
+.pregnancy-result-card {
+  width: 100%;
+
+  max-width: 760px;
+
+  box-sizing: border-box;
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid
+    rgba(15, 23, 42, .07);
+
+  box-shadow:
+    0 14px 34px
+    rgba(15, 23, 42, .07);
+
+  animation:
+    pregnancyResultShow
+    .35s ease;
+}
+
+@keyframes pregnancyResultShow {
+
+  from {
+    opacity: 0;
+    transform: translateY(9px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   RESULT HEADER
+   ========================================================= */
+
+.pregnancy-result-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  padding-bottom: 13px;
+
+  margin-bottom: 13px;
+
+  border-bottom:
+    1px solid #e5e7eb;
+}
+
+.pregnancy-result-icon {
+  width: 43px;
+  height: 43px;
+
+  flex: 0 0 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fce7f3,
+      #f5f3ff
+    );
+
+  font-size: 23px;
+}
+
+.pregnancy-result-header h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 19px;
+
+  font-weight: 850;
+}
+
+.pregnancy-result-header p {
+  margin: 2px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   DATE PANELS
+   ========================================================= */
+
+.pregnancy-date-panel,
+.pregnancy-due-date-panel {
+  padding: 12px;
+
+  margin-bottom: 10px;
+
+  text-align: center;
+
+  border-radius: 15px;
+}
+
+.pregnancy-date-panel {
+  background:
+    linear-gradient(
+      135deg,
+      #fdf2f8,
+      #f8fafc
+    );
+
+  border: 1px solid #fbcfe8;
+}
+
+.pregnancy-due-date-panel {
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+}
+
+.pregnancy-date-panel span,
+.pregnancy-due-date-panel span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.pregnancy-date-panel span {
+  color: #be185d;
+}
+
+.pregnancy-due-date-panel span {
+  color: #6366f1;
+}
+
+.pregnancy-date-panel strong,
+.pregnancy-due-date-panel strong {
+  display: block;
+
+  font-size: 19px;
+
+  font-weight: 850;
+
+  line-height: 1.3;
+}
+
+.pregnancy-date-panel strong {
+  color: #9d174d;
+}
+
+.pregnancy-due-date-panel strong {
+  color: #312e81;
+}
+
+.pregnancy-due-date-panel small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   SECTION TITLE
+   ========================================================= */
+
+.pregnancy-section-title {
+  margin: 13px 0 7px;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 850;
+}
+
+
+/* =========================================================
+   AGE GRID
+   ========================================================= */
+
+.pregnancy-age-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 8px;
+}
+
+.pregnancy-age-box {
+  min-height: 80px;
+
+  padding: 9px 5px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fdf2f8,
+      #f5f3ff
+    );
+
+  border: 1px solid #f3d0e2;
+}
+
+.pregnancy-age-box strong {
+  color: #be185d;
+
+  font-size: 26px;
+
+  font-weight: 850;
+
+  line-height: 1;
+}
+
+.pregnancy-age-box span {
+  margin-top: 6px;
+
+  color: #64748b;
+
+  font-size: 8px;
+
+  font-weight: 750;
+
+  text-transform: uppercase;
+
+  letter-spacing: .3px;
+}
+
+
+/* =========================================================
+   TRIMESTER
+   ========================================================= */
+
+.pregnancy-trimester-box {
+  padding: 11px;
+
+  text-align: center;
+
+  border-radius: 13px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fdf2f8,
+      #fff7fb
+    );
+
+  border: 1px solid #fbcfe8;
+}
+
+.pregnancy-trimester-box strong {
+  display: block;
+
+  color: #9d174d;
+
+  font-size: 14px;
+
+  font-weight: 850;
+}
+
+.pregnancy-trimester-box span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   PROGRESS
+   ========================================================= */
+
+.pregnancy-progress-box {
+  padding: 10px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.pregnancy-progress-top {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 6px;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  font-weight: 750;
+}
+
+.pregnancy-progress-top strong {
+  color: #be185d;
+
+  font-size: 11px;
+
+  font-weight: 850;
+}
+
+.pregnancy-progress-track {
+  width: 100%;
+
+  height: 7px;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+
+  background: #e2e8f0;
+}
+
+.pregnancy-progress-fill {
+  height: 100%;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ec4899,
+      #8b5cf6
+    );
+
+  transition:
+    width .4s ease;
+}
+
+
+/* =========================================================
+   REMAINING
+   ========================================================= */
+
+.pregnancy-remaining-box {
+  margin-top: 11px;
+
+  padding: 11px;
+
+  text-align: center;
+
+  border-radius: 13px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eff6ff,
+      #f8fafc
+    );
+
+  border: 1px solid #dbeafe;
+}
+
+.pregnancy-remaining-box span {
+  display: block;
+
+  color: #1d4ed8;
+
+  font-size: 9px;
+
+  font-weight: 750;
+}
+
+.pregnancy-remaining-box strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #1e40af;
+
+  font-size: 19px;
+
+  font-weight: 850;
+}
+
+.pregnancy-remaining-box small {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #64748b;
+
+  font-size: 8px;
+
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.pregnancy-status-box,
+.pregnancy-due-status {
+  margin-top: 11px;
+
+  padding: 11px;
+
+  text-align: center;
+
+  border-radius: 13px;
+}
+
+.pregnancy-status-box {
+  background:
+    linear-gradient(
+      135deg,
+      #fff7ed,
+      #fffbeb
+    );
+
+  border: 1px solid #fed7aa;
+}
+
+.pregnancy-status-box strong {
+  color: #9a3412;
+
+  font-size: 12px;
+
+  font-weight: 850;
+}
+
+.pregnancy-status-box p,
+.pregnancy-due-status p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  line-height: 1.45;
+}
+
+.pregnancy-due-status {
+  background:
+    linear-gradient(
+      135deg,
+      #f0fdf4,
+      #f7fff9
+    );
+
+  border: 1px solid #bbf7d0;
+}
+
+.pregnancy-due-status strong {
+  color: #166534;
+
+  font-size: 12px;
+
+  font-weight: 850;
+}
+
+
+/* =========================================================
+   DISCLAIMER
+   ========================================================= */
+
+.pregnancy-disclaimer {
+  margin-top: 13px;
+
+  padding: 10px 11px;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.pregnancy-disclaimer strong {
+  display: block;
+
+  color: #475569;
+
+  font-size: 9px;
+
+  font-weight: 850;
+}
+
+.pregnancy-disclaimer p {
+  margin: 3px 0 0;
+
+  color: #64748b;
+
+  font-size: 8px;
+
+  line-height: 1.45;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   RESULT ACTION BUTTONS
+   ========================================================= */
+
+.pregnancy-result-actions {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 8px;
+
+  margin-top: 13px;
+
+  padding-top: 12px;
+
+  border-top:
+    1px solid #e2e8f0;
+}
+
+.pregnancy-action-button {
+  min-height: 39px;
+
+  padding: 7px 8px;
+
+  border-radius: 10px;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform .16s ease,
+    box-shadow .16s ease,
+    background .16s ease,
+    border-color .16s ease;
+}
+
+
+/* Copy */
+
+.pregnancy-copy-button {
+  color: #1d4ed8;
+
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+}
+
+
+/* Share */
+
+.pregnancy-share-button {
+  color: #047857;
+
+  background: #ecfdf5;
+
+  border: 1px solid #a7f3d0;
+}
+
+
+/* Download */
+
+.pregnancy-download-button {
+  color: #7c3aed;
+
+  background: #f5f3ff;
+
+  border: 1px solid #ddd6fe;
+}
+
+
+/* Print */
+
+.pregnancy-print-button {
+  color: #475569;
+
+  background: #f8fafc;
+
+  border: 1px solid #cbd5e1;
+}
+
+.pregnancy-action-button:hover {
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 4px 11px
+    rgba(15, 23, 42, .08);
+}
+
+.pregnancy-action-button:active {
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   ACTION MESSAGE
+   ========================================================= */
+
+.pregnancy-action-message {
+  margin-top: 8px;
+
+  padding: 8px 10px;
+
+  border-radius: 9px;
+
+  background: #f0fdf4;
+
+  color: #166534;
+
+  border: 1px solid #bbf7d0;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.pregnancy-result-footer {
+  margin-top: 13px;
+
+  padding-top: 10px;
+
+  border-top:
+    1px solid #e5e7eb;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  font-size: 9px;
+
+  font-weight: 600;
+}
+
+.pregnancy-result-footer strong {
+  color: #6366f1;
+}
+
+
+/* =========================================================
+   PRINT
+   Only Pregnancy Result
+   Prevent blank second page
+   ========================================================= */
+
+@media print {
+
+  @page {
+    size: auto;
+    margin: 10mm;
+  }
+
+  html,
+  body {
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #ffffff !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  .pregnancy-result-card,
+  .pregnancy-result-card * {
+    visibility: visible !important;
+  }
+
+  .pregnancy-result-card {
+
+    position: absolute !important;
+
+    left: 0 !important;
+    top: 0 !important;
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    padding: 12px !important;
+
+    border: none !important;
+
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    background: #ffffff !important;
+
+    animation: none !important;
+  }
+
+  .pregnancy-result-actions,
+  .pregnancy-action-message {
+    display: none !important;
+  }
+
+  .pregnancy-empty-result,
+  .pregnancy-card {
+    display: none !important;
+  }
+
+  .pregnancy-result-header {
+    padding-bottom: 9px !important;
+    margin-bottom: 9px !important;
+  }
+
+  .pregnancy-date-panel,
+  .pregnancy-due-date-panel {
+    padding: 9px !important;
+    margin-bottom: 7px !important;
+  }
+
+  .pregnancy-section-title {
+    margin: 9px 0 5px !important;
+  }
+
+  .pregnancy-age-box {
+    min-height: 62px !important;
+  }
+
+  .pregnancy-disclaimer {
+    margin-top: 9px !important;
+  }
+
+  .pregnancy-result-footer {
+    margin-top: 9px !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .pregnancy-card,
+  .pregnancy-result-card {
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  .pregnancy-empty-result {
+    padding: 22px 15px;
+    border-radius: 18px;
+  }
+
+  .pregnancy-card .date-input-wrapper {
+    min-height: 40px;
+    gap: 5px;
+    padding: 7px 8px;
+  }
+
+  .pregnancy-card .date-part {
+    width: 43px;
+    min-width: 43px;
+    flex-basis: 43px;
+    font-size: 14px;
+  }
+
+  .pregnancy-card .date-part.year {
+    width: 62px;
+    min-width: 62px;
+    flex-basis: 62px;
+  }
+
+  .pregnancy-age-box {
+    min-height: 73px;
+  }
+
+  .pregnancy-age-box strong {
+    font-size: 24px;
+  }
+
+  .pregnancy-result-actions {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 7px;
+  }
+
+  .pregnancy-action-button {
+    min-height: 38px;
+    font-size: 9px;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+  .pregnancy-card,
+  .pregnancy-result-card {
+    padding: 13px;
+  }
+
+  .pregnancy-card .date-part {
+    width: 40px;
+    min-width: 40px;
+    flex-basis: 40px;
+  }
+
+  .pregnancy-card .date-part.year {
+    width: 58px;
+    min-width: 58px;
+    flex-basis: 58px;
+  }
+
+  .pregnancy-age-box {
+    min-height: 68px;
+  }
+
+  .pregnancy-age-box strong {
+    font-size: 22px;
+  }
+
+}
+
+
+/* =========================================================
+   END
+   ========================================================= */

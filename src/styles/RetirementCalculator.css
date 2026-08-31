@@ -1,0 +1,608 @@
+/* =========================================================
+   AGEVERSE — RETIREMENT CALCULATOR
+   Premium Safe UI Edition
+   Existing JSX compatible
+   ========================================================= */
+
+.retirement-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 20px;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f8fafc
+  );
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow:
+    0 12px 30px rgba(15, 23, 42, 0.07);
+}
+
+
+/* =========================================================
+   FIELD
+   ========================================================= */
+
+.retirement-field {
+  margin-bottom: 18px;
+}
+
+.retirement-field > label {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 750;
+}
+
+
+/* =========================================================
+   NUMBER INPUT
+   ========================================================= */
+
+.retirement-number-wrapper {
+  min-height: 50px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.retirement-number-wrapper:focus-within {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.12);
+}
+
+.retirement-number-icon {
+  padding-left: 14px;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.retirement-number-wrapper input {
+  width: 100%;
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  padding: 13px 10px;
+
+  border: 0;
+  outline: none;
+
+  background: transparent;
+
+  color: #1e293b;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.retirement-number-unit {
+  padding-right: 14px;
+
+  color: #64748b;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   REMINDER CARD
+   ========================================================= */
+
+.retirement-reminder-box {
+  margin-top: 6px;
+  margin-bottom: 18px;
+
+  padding: 15px;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f8fafc,
+      #f5f7ff
+    );
+
+  border: 1px solid #e2e8f0;
+}
+
+.retirement-reminder-header {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 13px;
+}
+
+.retirement-reminder-icon {
+  width: 40px;
+  height: 40px;
+
+  flex: 0 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  font-size: 20px;
+}
+
+.retirement-reminder-header h3 {
+  margin: 0;
+
+  color: #1e293b;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.retirement-reminder-header p {
+  margin: 3px 0 0;
+
+  color: #64748b;
+
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   REMINDER OPTIONS
+   ========================================================= */
+
+.retirement-reminder-options {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 8px;
+}
+
+.retirement-reminder-option {
+  width: 100%;
+  min-height: 44px;
+
+  box-sizing: border-box;
+
+  padding: 8px 7px;
+
+  border-radius: 12px;
+
+  border: 1px solid #dbe2ea;
+
+  background: #ffffff;
+
+  color: #475569;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.retirement-reminder-option:hover {
+  transform: translateY(-1px);
+
+  border-color: #a5b4fc;
+
+  box-shadow:
+    0 5px 12px
+    rgba(79, 70, 229, 0.08);
+}
+
+.retirement-reminder-option:focus-visible {
+  outline: none;
+
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.12);
+}
+
+.retirement-reminder-option.active {
+  color: #ffffff;
+
+  border-color: transparent;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  box-shadow:
+    0 6px 15px
+    rgba(79, 70, 229, 0.20);
+}
+
+
+/* =========================================================
+   CUSTOM REMINDER
+   ========================================================= */
+
+.retirement-custom-reminder {
+  margin-top: 10px;
+
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+}
+
+.retirement-custom-reminder label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #475569;
+
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.retirement-custom-input {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.retirement-custom-input input {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+
+  box-sizing: border-box;
+
+  padding: 9px 11px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 11px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  color: #1e293b;
+
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.retirement-custom-input input:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.10);
+}
+
+.retirement-custom-input span {
+  color: #64748b;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.retirement-buttons {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    120px;
+
+  gap: 10px;
+
+  margin-top: 5px;
+}
+
+.retirement-calculate-button,
+.retirement-reset-button {
+  min-height: 46px;
+
+  box-sizing: border-box;
+
+  border-radius: 13px;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.retirement-calculate-button {
+  border: 0;
+
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  box-shadow:
+    0 8px 18px
+    rgba(79, 70, 229, 0.22);
+}
+
+.retirement-calculate-button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 11px 22px
+    rgba(79, 70, 229, 0.28);
+}
+
+.retirement-calculate-button:active,
+.retirement-reset-button:active {
+  transform: translateY(0);
+}
+
+.retirement-reset-button {
+  border: 1px solid #cbd5e1;
+
+  color: #475569;
+
+  background: #ffffff;
+}
+
+.retirement-reset-button:hover {
+  transform: translateY(-2px);
+
+  border-color: #94a3b8;
+
+  box-shadow:
+    0 6px 14px
+    rgba(15, 23, 42, 0.08);
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.retirement-error {
+  margin-top: 11px;
+
+  padding: 10px 12px;
+
+  box-sizing: border-box;
+
+  border-radius: 11px;
+
+  color: #b91c1c;
+
+  background: #fef2f2;
+
+  border: 1px solid #fecaca;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  line-height: 1.45;
+}
+
+
+/* =========================================================
+   EMPTY RESULT
+   ========================================================= */
+
+.retirement-empty-result {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 30px 22px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow:
+    0 12px 30px
+    rgba(15, 23, 42, 0.06);
+}
+
+.retirement-empty-icon {
+  width: 54px;
+  height: 54px;
+
+  margin: 0 auto 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  font-size: 27px;
+}
+
+.retirement-empty-result h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.retirement-empty-result p {
+  max-width: 420px;
+
+  margin: 7px auto 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.6;
+}
+
+.retirement-empty-hint {
+  margin-top: 14px;
+
+  color: #6366f1;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .retirement-card {
+    padding: 16px;
+
+    border-radius: 18px;
+  }
+
+  .retirement-field {
+    margin-bottom: 16px;
+  }
+
+  .retirement-reminder-box {
+    padding: 13px;
+
+    border-radius: 16px;
+  }
+
+  .retirement-reminder-option {
+    min-height: 43px;
+
+    font-size: 10.5px;
+  }
+
+  .retirement-buttons {
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+  }
+
+  .retirement-empty-result {
+    padding: 24px 17px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+  .retirement-card {
+    padding: 14px;
+  }
+
+  .retirement-reminder-box {
+    padding: 11px;
+  }
+
+  .retirement-reminder-options {
+    gap: 7px;
+  }
+
+  .retirement-reminder-option {
+    min-height: 42px;
+
+    padding: 7px 5px;
+
+    font-size: 10px;
+  }
+
+  .retirement-custom-input {
+    align-items: stretch;
+
+    flex-direction: column;
+  }
+
+  .retirement-custom-input span {
+    text-align: left;
+  }
+
+  .retirement-calculate-button,
+  .retirement-reset-button {
+    min-height: 44px;
+  }
+}

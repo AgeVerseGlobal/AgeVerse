@@ -1,0 +1,1243 @@
+/* =========================================================
+   AGEVERSE.GLOBAL
+   DISCOUNT CALCULATOR
+========================================================= */
+
+.discount-calculator-page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 20px 34px;
+}
+
+/* =========================================================
+   MAIN LAYOUT
+========================================================= */
+
+.discount-calculator-layout {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns:
+    minmax(0, 0.92fr)
+    minmax(0, 1.08fr);
+
+  gap: 22px;
+  align-items: start;
+}
+
+/* =========================================================
+   COMMON CARDS
+========================================================= */
+
+.discount-calculator-card,
+.discount-calculator-result-card,
+.discount-calculator-empty-result {
+  box-sizing: border-box;
+
+  border-radius: 22px;
+
+  border: 1px solid
+    rgba(99, 102, 241, 0.14);
+
+  box-shadow:
+    0 10px 30px
+    rgba(15, 23, 42, 0.08);
+}
+
+/* =========================================================
+   INPUT CARD
+========================================================= */
+
+.discount-calculator-card {
+  width: 100%;
+  padding: 23px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #eef4ff 0%,
+      #ffffff 72%,
+      #fafaff 100%
+    );
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.discount-calculator-header,
+.discount-calculator-result-header {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+
+  padding-bottom: 17px;
+
+  border-bottom: 1px solid
+    rgba(100, 116, 139, 0.18);
+}
+
+.discount-calculator-icon,
+.discount-calculator-result-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+
+  width: 52px;
+  height: 52px;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #dbeafe,
+      #ede9fe
+    );
+
+  color: #4f46e5;
+
+  font-size: 25px;
+
+  box-shadow:
+    0 5px 14px
+    rgba(79, 70, 229, 0.12);
+}
+
+.discount-calculator-header h1 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 22px;
+  font-weight: 800;
+
+  line-height: 1.3;
+}
+
+.discount-calculator-header p,
+.discount-calculator-result-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   MODE
+========================================================= */
+
+.discount-calculator-mode-section {
+  margin-top: 18px;
+}
+
+.discount-calculator-mode-section label,
+.discount-calculator-field label,
+.discount-rate-row label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.discount-calculator-mode-section select,
+.discount-calculator-field input,
+.discount-rate-row input {
+  width: 100%;
+
+  min-height: 46px;
+
+  padding: 10px 13px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #dbe3ef;
+
+  border-radius: 13px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  color: #1e293b;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.discount-calculator-mode-section select {
+  cursor: pointer;
+}
+
+.discount-calculator-mode-section select:focus,
+.discount-calculator-field input:focus,
+.discount-rate-row input:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.11);
+}
+
+.discount-calculator-field {
+  margin-top: 16px;
+}
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.discount-calculator-description {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 12px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.78);
+
+  border: 1px solid
+    rgba(99, 102, 241, 0.09);
+
+  color: #64748b;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   MULTIPLE / QUANTITY SECTIONS
+========================================================= */
+
+.discount-multiple-section,
+.discount-quantity-section {
+  margin-top: 18px;
+}
+
+.discount-section-heading {
+  color: #334155;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.discount-rate-row {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+
+  margin-top: 12px;
+}
+
+.discount-helper {
+  margin-top: 10px;
+
+  padding: 10px 12px;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+
+  color: #64748b;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   QUANTITY SLABS
+========================================================= */
+
+.discount-slab {
+  margin-top: 11px;
+
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+}
+
+.discount-slab-title {
+  color: #4338ca;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.discount-calculator-error {
+  margin-top: 14px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background: #fff1f2;
+
+  border: 1px solid #fecdd3;
+
+  color: #be123c;
+
+  font-size: 13px;
+
+  line-height: 1.45;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.discount-calculator-buttons {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    130px;
+
+  gap: 10px;
+
+  margin-top: 19px;
+}
+
+.discount-calculator-buttons button {
+  min-height: 45px;
+
+  padding: 10px 15px;
+
+  border-radius: 13px;
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.07);
+
+  font-size: 14px;
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.discount-calculator-buttons button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 9px 20px
+    rgba(15, 23, 42, 0.10);
+}
+
+.discount-calculator-calculate {
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #6366f1
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 7px 16px
+    rgba(79, 70, 229, 0.20);
+}
+
+.discount-calculator-reset {
+  background: #ffffff;
+  color: #475569;
+}
+
+/* =========================================================
+   INFO
+========================================================= */
+
+.discount-calculator-info {
+  margin-top: 17px;
+
+  padding: 14px;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.80);
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.06);
+}
+
+.discount-calculator-info-title {
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.discount-calculator-info p {
+  margin: 6px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+}
+
+/* =========================================================
+   EMPTY RESULT
+========================================================= */
+
+.discount-calculator-empty-result {
+  width: 100%;
+
+  min-height: 450px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 32px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f7f9ff,
+      #ffffff
+    );
+}
+
+.discount-calculator-empty-icon {
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #dbeafe,
+      #ede9fe
+    );
+
+  font-size: 32px;
+
+  box-shadow:
+    0 7px 18px
+    rgba(79, 70, 229, 0.12);
+}
+
+.discount-calculator-empty-result h2 {
+  margin: 17px 0 7px;
+
+  color: #1e293b;
+
+  font-size: 22px;
+}
+
+.discount-calculator-empty-result p {
+  max-width: 470px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  line-height: 1.55;
+}
+
+.discount-calculator-empty-points {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 16px;
+}
+
+.discount-calculator-empty-points span {
+  padding: 7px 11px;
+
+  border-radius: 30px;
+
+  background: #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 11px;
+
+  font-weight: 750;
+}
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.discount-calculator-result-card {
+  width: 100%;
+
+  padding: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #fbfcff
+    );
+}
+
+/* =========================================================
+   RESULT HEADER
+========================================================= */
+
+.discount-calculator-result-header h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 21px;
+
+  line-height: 1.3;
+}
+
+/* =========================================================
+   INPUT SUMMARY
+========================================================= */
+
+.discount-input-summary {
+  margin-top: 15px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.discount-input-summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 9px;
+
+  margin-top: 9px;
+}
+
+.discount-summary-item {
+  padding: 10px;
+
+  border-radius: 11px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+}
+
+.discount-summary-item span,
+.discount-breakdown-row span,
+.discount-flow-item span,
+.discount-saving-card span {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.discount-summary-item strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #312e81;
+
+  font-size: 14px;
+}
+
+/* =========================================================
+   MAIN RESULT
+========================================================= */
+
+.discount-main-result {
+  margin-top: 14px;
+
+  padding: 22px;
+
+  text-align: center;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+}
+
+.discount-main-result span {
+  display: block;
+
+  color: #6366f1;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+.discount-main-result strong {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #312e81;
+
+  font-size: 32px;
+
+  line-height: 1.2;
+}
+
+.discount-main-result small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #64748b;
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   SAVING CARD
+========================================================= */
+
+.discount-saving-card {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+
+  margin-top: 14px;
+}
+
+.discount-saving-card > div {
+  padding: 13px;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  text-align: center;
+}
+
+.discount-saving-card strong {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #312e81;
+
+  font-size: 17px;
+}
+
+/* =========================================================
+   BREAKDOWN
+========================================================= */
+
+.discount-breakdown,
+.discount-calculation-flow {
+  margin-top: 14px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+}
+
+.discount-breakdown-row {
+  display: grid;
+
+  grid-template-columns:
+    1.1fr
+    1fr
+    1fr
+    1fr;
+
+  gap: 8px;
+
+  margin-top: 9px;
+
+  padding: 10px;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+.discount-breakdown-row strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #334155;
+
+  font-size: 12px;
+}
+
+/* =========================================================
+   FLOW
+========================================================= */
+
+.discount-flow-box {
+  display: grid;
+
+  grid-template-columns:
+    1fr
+    30px
+    1fr;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-top: 9px;
+}
+
+.discount-flow-item {
+  padding: 11px;
+
+  text-align: center;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+.discount-flow-item strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #334155;
+
+  font-size: 14px;
+}
+
+.discount-flow-operator {
+  text-align: center;
+
+  color: #6366f1;
+
+  font-size: 18px;
+
+  font-weight: 800;
+}
+
+.discount-flow-arrow {
+  grid-column: 1 / -1;
+
+  text-align: center;
+
+  color: #6366f1;
+
+  font-size: 18px;
+}
+
+.discount-flow-result {
+  grid-column: 1 / -1;
+
+  padding: 11px;
+
+  text-align: center;
+
+  border-radius: 11px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+}
+
+.discount-flow-result span {
+  display: block;
+
+  color: #6366f1;
+
+  font-size: 10px;
+
+  font-weight: 750;
+}
+
+.discount-flow-result strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #312e81;
+
+  font-size: 19px;
+}
+
+/* =========================================================
+   EQUATION
+========================================================= */
+
+.discount-equation {
+  margin-top: 11px;
+
+  padding: 12px 14px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.discount-equation div {
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.discount-equation strong {
+  display: block;
+
+  margin-top: 6px;
+
+  color: #334155;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  word-break: break-word;
+}
+
+/* =========================================================
+   IMPORTANT
+========================================================= */
+
+.discount-important {
+  margin-top: 12px;
+
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.discount-important strong {
+  color: #475569;
+
+  font-size: 10px;
+}
+
+.discount-important p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   RESULT ACTIONS
+========================================================= */
+
+.discount-result-actions {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 7px;
+
+  margin-top: 14px;
+}
+
+.discount-result-actions button {
+  min-height: 42px;
+
+  padding: 7px 5px;
+
+  border-radius: 11px;
+
+  border: 1px solid #e2e8f0;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 10px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.discount-result-actions button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 6px 14px
+    rgba(15, 23, 42, 0.09);
+}
+
+.discount-action-copy:hover {
+  border-color: #6366f1 !important;
+}
+
+.discount-action-pdf:hover {
+  border-color: #2563eb !important;
+}
+
+.discount-action-share:hover {
+  border-color: #7c3aed !important;
+}
+
+.discount-action-print:hover {
+  border-color: #475569 !important;
+}
+
+.discount-action-new:hover {
+  border-color: #0f766e !important;
+}
+
+/* =========================================================
+   MESSAGES
+========================================================= */
+
+.discount-action-message,
+.discount-pdf-message {
+  margin-top: 10px;
+
+  padding: 9px 11px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+.discount-action-message {
+  background: #f0fdf4;
+
+  border: 1px solid #bbf7d0;
+
+  color: #15803d;
+}
+
+.discount-pdf-message {
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+
+  color: #1d4ed8;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.discount-result-footer {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  margin-top: 17px;
+
+  padding-top: 12px;
+
+  border-top: 1px solid #e5e7eb;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.discount-result-footer strong {
+  color: #6366f1;
+
+  font-weight: 800;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+  .discount-calculator-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-calculator-empty-result {
+    min-height: 330px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+  .discount-calculator-page {
+    padding: 15px 12px 25px;
+  }
+
+  .discount-calculator-card,
+  .discount-calculator-result-card {
+    padding: 18px;
+
+    border-radius: 19px;
+  }
+
+  .discount-rate-row,
+  .discount-input-summary-grid,
+  .discount-saving-card {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-calculator-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-result-actions {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .discount-calculator-header h1 {
+    font-size: 20px;
+  }
+
+  .discount-main-result strong {
+    font-size: 27px;
+  }
+
+  .discount-breakdown-row {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .discount-flow-box {
+    grid-template-columns:
+      1fr 25px 1fr;
+  }
+
+  .discount-calculator-empty-result {
+    min-height: 300px;
+
+    padding: 25px 18px;
+  }
+
+  .discount-calculator-empty-result h2 {
+    font-size: 20px;
+  }
+}
+
+/* =========================================================
+   VERY SMALL
+========================================================= */
+
+@media (max-width: 380px) {
+  .discount-result-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-flow-box {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-flow-operator {
+    transform: rotate(90deg);
+  }
+
+  .discount-breakdown-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   PRINT
+========================================================= */
+
+@media print {
+  @page {
+    size: A4 portrait;
+
+    margin: 8mm;
+  }
+
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #ffffff !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  #discount-result-export,
+  #discount-result-export * {
+    visibility: visible !important;
+  }
+
+  #discount-result-export {
+    position: absolute !important;
+
+    left: 0 !important;
+    top: 0 !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+
+    padding: 15px !important;
+
+    box-sizing: border-box !important;
+
+    border: 1px solid #cbd5e1 !important;
+
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    background: #ffffff !important;
+
+    color: #111827 !important;
+  }
+
+  .discount-result-actions,
+  .discount-action-message,
+  .discount-pdf-message {
+    display: none !important;
+  }
+
+  .discount-calculator-result-header h2,
+  .discount-calculator-result-header p,
+  .discount-summary-item strong,
+  .discount-breakdown-row strong,
+  .discount-flow-item strong,
+  .discount-flow-result strong,
+  .discount-saving-card strong,
+  .discount-equation strong {
+    color: #111827 !important;
+  }
+
+  .discount-input-summary,
+  .discount-breakdown,
+  .discount-calculation-flow,
+  .discount-saving-card > div,
+  .discount-equation,
+  .discount-important {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .discount-result-footer {
+    border-top:
+      1px solid #cbd5e1 !important;
+
+    color: #64748b !important;
+  }
+
+  .discount-result-footer strong {
+    color: #4f46e5 !important;
+  }
+}

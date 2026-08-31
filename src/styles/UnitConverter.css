@@ -1,0 +1,1033 @@
+/* =========================================================
+   AGEVERSE — UNIT CONVERTER
+   PREMIUM LIGHT + DARK MODE
+========================================================= */
+
+
+/* =========================================================
+   BASE
+========================================================= */
+
+.unit-converter-card,
+.unit-converter-result-card,
+.unit-converter-empty-result {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   INPUT CARD
+========================================================= */
+
+.unit-converter-card {
+  padding: 22px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #edf5ff 0%,
+      #ffffff 78%
+    );
+
+  border:
+    1px solid
+    rgba(59, 130, 246, 0.14);
+
+  box-shadow:
+    0 10px 28px
+    rgba(15, 23, 42, 0.07);
+}
+
+
+/* =========================================================
+   FIELD
+========================================================= */
+
+.unit-converter-field {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  min-width: 0;
+}
+
+
+.unit-converter-field label {
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 750;
+}
+
+
+.unit-converter-field input,
+.unit-converter-field select {
+
+  width: 100%;
+
+  min-height: 46px;
+
+  padding: 10px 13px;
+
+  box-sizing: border-box;
+
+  border:
+    1px solid
+    #dbe3ef;
+
+  border-radius: 13px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  color: #1e293b;
+
+  font-family:
+    inherit;
+
+  font-size: 14px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+
+.unit-converter-field input:focus,
+.unit-converter-field select:focus {
+
+  border-color:
+    #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.10);
+}
+
+
+/* =========================================================
+   UNIT ROW
+========================================================= */
+
+.unit-converter-unit-row {
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    48px
+    minmax(0, 1fr);
+
+  align-items: end;
+
+  gap: 12px;
+
+  margin-top: 17px;
+}
+
+
+/* =========================================================
+   VALUE FIELD
+========================================================= */
+
+.unit-converter-value-field {
+
+  margin-top: 17px;
+
+}
+
+
+/* =========================================================
+   SWAP
+========================================================= */
+
+.unit-converter-swap {
+
+  width: 48px;
+
+  height: 46px;
+
+  border:
+    1px solid
+    #dbe3ef;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  color: #4f46e5;
+
+  font-size: 23px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 12px
+    rgba(15, 23, 42, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+
+.unit-converter-swap:hover {
+
+  transform:
+    rotate(180deg);
+
+  background:
+    #f5f3ff;
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.unit-converter-error {
+
+  margin-top: 15px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background: #fff1f2;
+
+  border:
+    1px solid
+    #fecdd3;
+
+  color: #be123c;
+
+  font-size: 13px;
+
+  line-height: 1.45;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.unit-converter-buttons {
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 130px;
+
+  gap: 10px;
+
+  margin-top: 19px;
+}
+
+
+.unit-converter-buttons button {
+
+  min-height: 45px;
+
+  border-radius: 13px;
+
+  padding: 10px 15px;
+
+  border:
+    1px solid
+    rgba(15, 23, 42, 0.07);
+
+  font-size: 14px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.unit-converter-calculate {
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #6366f1
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 7px 16px
+    rgba(79, 70, 229, 0.20);
+}
+
+
+.unit-converter-reset {
+
+  background: #ffffff;
+
+  color: #475569;
+}
+
+
+.unit-converter-buttons button:hover {
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 9px 20px
+    rgba(15, 23, 42, 0.10);
+}
+
+
+/* =========================================================
+   INFO
+========================================================= */
+
+.unit-converter-info {
+
+  margin-top: 17px;
+
+  padding: 14px;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.80);
+
+  border:
+    1px solid
+    rgba(15, 23, 42, 0.06);
+}
+
+
+.unit-converter-info strong {
+
+  color: #334155;
+
+  font-size: 13px;
+}
+
+
+.unit-converter-info p {
+
+  margin:
+    6px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   EMPTY RESULT
+========================================================= */
+
+.unit-converter-empty-result {
+
+  min-height: 330px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 30px;
+
+  text-align: center;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f8fafc,
+      #ffffff
+    );
+
+  border:
+    1px solid
+    #e2e8f0;
+}
+
+
+.unit-converter-empty-result > div {
+
+  font-size: 52px;
+
+  line-height: 1;
+}
+
+
+.unit-converter-empty-result h2 {
+
+  margin:
+    16px 0 7px;
+
+  color: #1e293b;
+
+  font-size: 22px;
+}
+
+
+.unit-converter-empty-result p {
+
+  max-width: 470px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  line-height: 1.55;
+}
+
+
+.unit-converter-empty-result span {
+
+  margin-top: 14px;
+
+  padding:
+    7px 12px;
+
+  border-radius: 30px;
+
+  background:
+    #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.unit-converter-result-card {
+
+  padding: 21px;
+
+  border-radius: 22px;
+
+  background: #ffffff;
+
+  border:
+    1px solid
+    #e2e8f0;
+
+  box-shadow:
+    0 12px 30px
+    rgba(15, 23, 42, 0.08);
+}
+
+
+/* =========================================================
+   RESULT HEADER
+========================================================= */
+
+.unit-converter-result-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding-bottom: 16px;
+
+  border-bottom:
+    1px solid
+    #e5e7eb;
+}
+
+
+.unit-converter-result-icon {
+
+  width: 52px;
+
+  height: 52px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #e0e7ff,
+      #f5f3ff
+    );
+
+  font-size: 28px;
+}
+
+
+.unit-converter-result-header h2 {
+
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 21px;
+
+  line-height: 1.3;
+}
+
+
+.unit-converter-result-header p {
+
+  margin:
+    4px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   SUMMARY
+========================================================= */
+
+.unit-converter-summary-title {
+
+  margin:
+    18px 0 9px;
+
+  color: #334155;
+
+  font-size: 14px;
+
+  font-weight: 800;
+}
+
+
+.unit-converter-summary-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 9px;
+}
+
+
+.unit-converter-summary-box {
+
+  min-width: 0;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f8fafc,
+      #ffffff
+    );
+
+  border:
+    1px solid
+    #e5e7eb;
+}
+
+
+.unit-converter-summary-box span {
+
+  display: block;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  text-transform:
+    uppercase;
+}
+
+
+.unit-converter-summary-box strong {
+
+  display: block;
+
+  margin-top: 5px;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  line-height: 1.35;
+
+  word-break:
+    break-word;
+}
+
+
+.unit-converter-summary-box small {
+
+  display: block;
+
+  margin-top: 3px;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   MAIN RESULT
+========================================================= */
+
+.unit-converter-main-result {
+
+  margin-top: 13px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border:
+    1px solid
+    #e0e7ff;
+}
+
+
+.unit-converter-main-result span {
+
+  display: block;
+
+  color: #6366f1;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  text-transform:
+    uppercase;
+}
+
+
+.unit-converter-main-result strong {
+
+  display: block;
+
+  margin-top: 5px;
+
+  color: #312e81;
+
+  font-size: 30px;
+
+  line-height: 1.2;
+
+  word-break:
+    break-word;
+}
+
+
+.unit-converter-main-result small {
+
+  display: block;
+
+  margin-top: 4px;
+
+  color: #64748b;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   EQUATION
+========================================================= */
+
+.unit-converter-equation {
+
+  margin-top: 11px;
+
+  padding: 12px 14px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border:
+    1px solid
+    #e5e7eb;
+}
+
+
+.unit-converter-equation span {
+
+  color: #64748b;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+
+.unit-converter-equation strong {
+
+  color: #334155;
+
+  font-size: 12px;
+
+  text-align: right;
+
+  word-break:
+    break-word;
+}
+
+
+/* =========================================================
+   IMPORTANT
+========================================================= */
+
+.unit-converter-important {
+
+  margin-top: 14px;
+
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border:
+    1px solid
+    #e5e7eb;
+}
+
+
+.unit-converter-important strong {
+
+  color: #475569;
+
+  font-size: 10px;
+}
+
+
+.unit-converter-important p {
+
+  margin:
+    5px 0 0;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.unit-converter-result-footer {
+
+  margin-top: 16px;
+
+  padding-top: 11px;
+
+  border-top:
+    1px solid
+    #e5e7eb;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+
+.unit-converter-result-footer strong {
+
+  color: #6366f1;
+}
+
+
+/* =========================================================
+   RESULT ACTIONS
+========================================================= */
+
+.unit-converter-result-actions {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 8px;
+
+  margin-top: 14px;
+}
+
+
+.unit-converter-result-actions button {
+
+  min-height: 40px;
+
+  padding: 8px 7px;
+
+  border-radius: 11px;
+
+  border:
+    1px solid
+    #e2e8f0;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 11px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.unit-converter-result-actions button:hover {
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 6px 14px
+    rgba(15, 23, 42, 0.09);
+}
+
+
+/* =========================================================
+   ACTION MESSAGE
+========================================================= */
+
+.unit-converter-action-message {
+
+  margin-top: 10px;
+
+  padding: 9px 11px;
+
+  border-radius: 10px;
+
+  background:
+    #f0fdf4;
+
+  border:
+    1px solid
+    #bbf7d0;
+
+  color: #15803d;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   TABLET
+   ORIGINAL LAYOUT — UNCHANGED
+========================================================= */
+
+@media (max-width: 800px) {
+
+  .unit-converter-result-actions {
+
+    grid-template-columns:
+      repeat(2, 1fr);
+
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ORIGINAL LAYOUT — UNCHANGED
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .unit-converter-card,
+  .unit-converter-result-card {
+
+    padding: 18px;
+
+    border-radius: 19px;
+
+  }
+
+
+  .unit-converter-unit-row {
+
+    grid-template-columns:
+      1fr;
+
+    gap: 10px;
+
+  }
+
+
+  .unit-converter-swap {
+
+    width: 100%;
+
+    height: 40px;
+
+    order: 2;
+
+  }
+
+
+  .unit-converter-unit-row
+  .unit-converter-field:first-child {
+
+    order: 1;
+
+  }
+
+
+  .unit-converter-unit-row
+  .unit-converter-field:last-child {
+
+    order: 3;
+
+  }
+
+
+  .unit-converter-summary-grid {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+
+  .unit-converter-buttons {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+
+  .unit-converter-result-header h2 {
+
+    font-size: 19px;
+
+  }
+
+
+  .unit-converter-main-result strong {
+
+    font-size: 27px;
+
+  }
+
+
+  .unit-converter-equation {
+
+    flex-direction:
+      column;
+
+  }
+
+
+  .unit-converter-equation strong {
+
+    text-align:
+      left;
+
+  }
+
+}
+
+
+/* =========================================================
+   PRINT SAFETY
+   ORIGINAL PRINT BEHAVIOUR — UNCHANGED
+========================================================= */
+
+@media print {
+
+  .unit-converter-result-actions,
+  .unit-converter-action-message {
+
+    display:
+      none !important;
+
+  }
+
+
+  .unit-converter-result-card {
+
+    box-shadow:
+      none !important;
+
+  }
+
+
+  .unit-converter-result-card {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+}
