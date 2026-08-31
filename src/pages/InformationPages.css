@@ -275,47 +275,76 @@
     width: 100%;
   }
 }
-/* Information pages: remove dark-mode tile effect */
+
+
+/* =========================================
+   INFORMATION PAGES - DARK MODE
+   Keep tiles, remove dark strips behind them
+========================================= */
 
 html.dark-mode .info-page,
 body.dark-mode .info-page {
-  background: var(--background) !important;
+  background: #0f1b2d !important;
+  min-height: 100vh;
 }
+
+/*
+  Make the complete content area the same
+  background as the page. This removes the
+  darker/black horizontal strip behind tiles.
+*/
+
+html.dark-mode .info-content,
+body.dark-mode .info-content {
+  background: #0f1b2d !important;
+}
+
+/*
+  Sections themselves must not create a
+  different background strip.
+*/
+
+html.dark-mode .info-section,
+body.dark-mode .info-section {
+  background: transparent !important;
+}
+
+/* Keep all tiles/cards visible */
 
 html.dark-mode .info-introduction,
 body.dark-mode .info-introduction,
+html.dark-mode .info-card,
+body.dark-mode .info-card,
 html.dark-mode .info-language-card,
 body.dark-mode .info-language-card,
 html.dark-mode .info-cta,
 body.dark-mode .info-cta,
-html.dark-mode .info-card,
-body.dark-mode .info-card,
 html.dark-mode .info-contact-card,
 body.dark-mode .info-contact-card,
 html.dark-mode .info-notice,
 body.dark-mode .info-notice {
-  background: var(--background) !important;
-  box-shadow: none !important;
+  background: #1b2a40 !important;
+  border-color: rgba(148, 163, 184, 0.22) !important;
 }
 
-/* Keep borders subtle so sections do not look like dark tiles */
+/* Preserve tile shadows but avoid heavy black appearance */
 
 html.dark-mode .info-introduction,
 body.dark-mode .info-introduction,
+html.dark-mode .info-card,
+body.dark-mode .info-card,
 html.dark-mode .info-language-card,
 body.dark-mode .info-language-card,
 html.dark-mode .info-cta,
 body.dark-mode .info-cta,
-html.dark-mode .info-card,
-body.dark-mode .info-card,
 html.dark-mode .info-contact-card,
 body.dark-mode .info-contact-card,
 html.dark-mode .info-notice,
 body.dark-mode .info-notice {
-  border-color: rgba(148, 163, 184, 0.16) !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
-/* Small inner icons can remain visually separated */
+/* Icon boxes */
 
 html.dark-mode .info-section-icon,
 body.dark-mode .info-section-icon,
@@ -329,6 +358,29 @@ html.dark-mode .info-number,
 body.dark-mode .info-number,
 html.dark-mode .info-notice-icon,
 body.dark-mode .info-notice-icon {
-  background: var(--surface-soft) !important;
-  border-color: rgba(148, 163, 184, 0.18) !important;
+  background: #101f35 !important;
+  border-color: rgba(148, 163, 184, 0.22) !important;
+}
+
+/* Text */
+
+html.dark-mode .info-page h1,
+body.dark-mode .info-page h1,
+html.dark-mode .info-page h2,
+body.dark-mode .info-page h2,
+html.dark-mode .info-page h3,
+body.dark-mode .info-page h3 {
+  color: #f8fafc !important;
+}
+
+html.dark-mode .info-page p,
+body.dark-mode .info-page p,
+html.dark-mode .info-page li,
+body.dark-mode .info-page li {
+  color: #cbd5e1 !important;
+}
+
+html.dark-mode .info-page a,
+body.dark-mode .info-page a {
+  color: #93c5fd;
 }
