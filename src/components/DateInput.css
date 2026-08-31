@@ -1,0 +1,131 @@
+/* =========================================================
+   AGEVERSE — DATE INPUT
+   FINAL CLEAN VERSION
+   Dark Mode / Light Mode / No White Spot
+========================================================= */
+
+.date-input-wrapper {
+  width: 100%;
+  min-height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+  padding: 13px 14px;
+
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  background-image: none;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+
+  box-shadow: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.date-input-wrapper .date-part {
+  width: 52px;
+  min-width: 0;
+
+  padding: 0;
+  margin: 0;
+
+  border: 0;
+  outline: 0;
+
+  background-color: transparent !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #334155;
+}
+
+.date-input-wrapper .date-part.year {
+  width: 70px;
+}
+
+
+/* =========================================================
+   PLACEHOLDER
+========================================================= */
+
+.date-input-wrapper .date-part::placeholder {
+  color: #64748b;
+  font-weight: 600;
+  opacity: 1;
+}
+
+
+/* =========================================================
+   SEPARATOR
+========================================================= */
+
+.date-input-wrapper .date-separator {
+  color: #94a3b8;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  background: transparent !important;
+}
+
+
+/* =========================================================
+   FOCUS
+========================================================= */
+
+.date-input-wrapper:focus-within {
+  background-color: #ffffff;
+
+  border-color: #4f46e5;
+
+  box-shadow:
+    0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .date-input-wrapper {
+    min-height: 50px;
+
+    padding: 12px 10px;
+
+    gap: 6px;
+  }
+
+  .date-input-wrapper .date-part {
+    width: 45px;
+    font-size: 15px;
+  }
+
+  .date-input-wrapper .date-part.year {
+    width: 62px;
+  }
+}

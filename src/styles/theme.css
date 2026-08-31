@@ -1,0 +1,7618 @@
+/* =========================================================
+   AGEVERSE — CENTRALIZED THEME SYSTEM
+   All application colors must use these variables.
+========================================================= */
+
+:root {
+  /* Brand */
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary: #7c3aed;
+
+  /* Page */
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-soft: #f1f5f9;
+
+  /* Text */
+  --text: #1e293b;
+  --text-heading: #172033;
+  --text-light: #64748b;
+  --text-muted: #94a3b8;
+
+  /* Border */
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  /* Status */
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #d97706;
+  --info: #0284c7;
+
+  /* Form */
+  --input-background: #ffffff;
+  --input-text: #1e293b;
+  --input-border: #cbd5e1;
+  --placeholder: #94a3b8;
+
+  /* Card */
+  --card-background: #ffffff;
+  --card-border: #e2e8f0;
+
+  /* Overlay */
+  --overlay: rgba(15, 23, 42, 0.5);
+
+  /* Shadow */
+  --shadow:
+    0 10px 30px rgba(15, 23, 42, 0.08);
+
+  --shadow-lg:
+    0 20px 50px rgba(15, 23, 42, 0.12);
+
+  /* Radius */
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 22px;
+
+  /* Transition */
+  --theme-transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+
+  color-scheme: light;
+}
+
+
+/* =========================================================
+   DARK MODE
+   One class on <html> controls the complete website.
+========================================================= */
+
+html.dark-mode {
+
+  /* Brand */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #7c3aed;
+
+  /* Page — premium navy palette */
+  --background: #050b1c;
+  --surface: #0d172b;
+  --surface-soft: #111d33;
+
+  /* Text */
+  --text: #e2e8f0;
+  --text-heading: #f8fafc;
+  --text-light: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Border */
+  --border: #263858;
+  --border-strong: #31456b;
+
+  /* Status */
+  --success: #4ade80;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --info: #38bdf8;
+
+  /* Form */
+  --input-background: #101b30;
+  --input-text: #f1f5f9;
+  --input-border: #31456b;
+  --placeholder: #94a3b8;
+
+  /* Card */
+  --card-background: #0d172b;
+  --card-border: #263858;
+
+  /* Overlay */
+  --overlay: rgba(0, 0, 0, 0.65);
+
+  /* Shadow */
+  --shadow:
+    0 10px 30px rgba(0, 0, 0, 0.25);
+
+  --shadow-lg:
+    0 20px 50px rgba(0, 0, 0, 0.35);
+
+  color-scheme: dark;
+}
+
+
+/* =========================================================
+   GLOBAL PAGE
+========================================================= */
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: var(--background);
+  color: var(--text);
+}
+
+
+/* =========================================================
+   GLOBAL TRANSITION
+========================================================= */
+
+html,
+body,
+#root,
+button,
+input,
+select,
+textarea,
+.card,
+.section,
+.surface,
+.calc-card,
+.feature-card,
+.testimonial-card,
+.home-card,
+.hero-card {
+  transition: var(--theme-transition);
+}
+
+
+/* =========================================================
+   BODY
+========================================================= */
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+
+/* =========================================================
+   COMMON TEXT
+========================================================= */
+
+.container {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-heading);
+}
+
+p,
+span,
+label {
+  color: inherit;
+}
+
+
+/* =========================================================
+   COMMON SURFACES
+========================================================= */
+
+.card,
+.section,
+.surface,
+.calc-card,
+.feature-card,
+.testimonial-card,
+.home-card,
+.hero-card,
+.calculator-left,
+.calculator-right {
+  background: var(--card-background);
+  color: var(--text);
+  border-color: var(--card-border);
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+========================================================= */
+
+input,
+select,
+textarea {
+  background: var(--input-background);
+  color: var(--input-text);
+  border-color: var(--input-border);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--placeholder);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: var(--input-background);
+  color: var(--input-text);
+  border-color: var(--primary);
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+button {
+  color: inherit;
+}
+
+
+/* =========================================================
+   LINKS
+========================================================= */
+
+a {
+  color: inherit;
+}
+
+
+/* =========================================================
+   DARK MODE — GLOBAL OVERRIDE
+========================================================= */
+
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode #root {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   DARK MODE — COMMON ELEMENTS
+========================================================= */
+
+html.dark-mode .card,
+html.dark-mode .section,
+html.dark-mode .surface,
+html.dark-mode .calc-card,
+html.dark-mode .feature-card,
+html.dark-mode .testimonial-card,
+html.dark-mode .home-card,
+html.dark-mode .hero-card,
+html.dark-mode .calculator-left,
+html.dark-mode .calculator-right {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+}
+
+
+/* =========================================================
+   DARK MODE — TEXT
+========================================================= */
+
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode h6 {
+  color: var(--text-heading) !important;
+}
+
+html.dark-mode p,
+html.dark-mode span,
+html.dark-mode label {
+  color: inherit;
+}
+
+
+/* =========================================================
+   DARK MODE — FORM
+========================================================= */
+
+html.dark-mode input,
+html.dark-mode select,
+html.dark-mode textarea {
+  background: var(--input-background) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+html.dark-mode input::placeholder,
+html.dark-mode textarea::placeholder {
+  color: var(--placeholder) !important;
+}
+
+
+/* =========================================================
+   DARK MODE — SELECTION
+========================================================= */
+
+::selection {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   DARK MODE — SCROLLBAR
+========================================================= */
+
+html.dark-mode {
+  scrollbar-color: #475569 #0f172a;
+}
+
+html.dark-mode ::-webkit-scrollbar {
+  background: #0f172a;
+}
+
+html.dark-mode ::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
+
+html.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* =========================================================
+   AGEVERSE — CENTRALIZED COMPONENT DARK MODE RULES
+   Merged from the global dark-mode stylesheet and all
+   individual component/page stylesheets.
+   Dark mode is controlled only by html.dark-mode.
+========================================================= */
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   AGEVERSE
+   CENTRALIZED DARK MODE
+   AFFECTED CALCULATORS — BATCH SYSTEM
+========================================================= */
+
+
+/* =========================================================
+   1. AFFECTED CALCULATOR SCOPE
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+) {
+  color: var(--text) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   2. MAIN CALCULATOR CARDS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-calculator-card"],
+  [class*="fd-calculator-card"],
+  [class*="discount-calculator-card"],
+  [class*="emi-calculator-card"],
+  [class*="gst-calculator-card"],
+  [class*="percentage-calculator-card"],
+  [class*="dog-age-calculator-card"],
+  [class*="unit-converter-card"]
+) {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   3. RESULT CARDS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-calculator-result-card"],
+  [class*="fd-calculator-result-card"],
+  [class*="discount-calculator-result-card"],
+  [class*="emi-calculator-result-card"],
+  [class*="gst-calculator-result-card"],
+  [class*="percentage-calculator-result-card"],
+  [class*="dog-age-result-card"],
+  [class*="unit-converter-result-card"]
+) {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   4. EMPTY RESULT
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-calculator-empty-result"],
+  [class*="fd-calculator-empty-result"],
+  [class*="discount-calculator-empty-result"],
+  [class*="emi-calculator-empty-result"],
+  [class*="gst-calculator-empty-result"],
+  [class*="percentage-calculator-empty-result"],
+  [class*="dog-age-empty-result"],
+  [class*="unit-converter-empty-result"]
+) {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   5. NESTED SURFACES
+   Summary / Info / Box / Panel / Equation / Flow
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(
+  [class*="summary"],
+  [class*="info"],
+  [class*="equation"],
+  [class*="flow-box"],
+  [class*="metric-card"],
+  [class*="breakdown"],
+  [class*="tax-summary"],
+  [class*="senior-section"],
+  [class*="stepup-section"],
+  [class*="mode-section"],
+  [class*="quantity-section"],
+  [class*="multiple-section"],
+  [class*="compounding-section"]
+) {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   6. ALL MAIN RESULT BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-main-result"],
+  [class*="fd-main-result"],
+  [class*="discount-main-result"],
+  [class*="emi-calculator-main-result"],
+  [class*="gst-calculator-main-result"],
+  [class*="percentage-calculator-main-result"],
+  [class*="dog-age-main-result"],
+  [class*="unit-converter-main-result"]
+) {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   7. SUMMARY ITEMS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="summary-item"],
+  [class*="summary-box"],
+  [class*="metric-card"],
+  [class*="tax-summary-item"]
+) {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   8. FLOW BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="flow-box"],
+  [class*="flow-item"],
+  [class*="flow-result"],
+  [class*="calculation-flow"]
+) {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   9. INPUT FIELDS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(input, select, textarea) {
+  background: var(--input-background) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   10. PLACEHOLDER
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+input::placeholder {
+  color: var(--placeholder) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   11. HEADINGS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--text-heading) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   12. NORMAL TEXT
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(p, label) {
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   13. STRONG / RESULT VALUES
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+strong {
+  color: var(--text-heading) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   14. RESULT HEADERS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="result-header"],
+  [class*="result-title"],
+  [class*="section-heading"],
+  [class*="summary-title"]
+) {
+  color: var(--text-heading) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   15. RESULT FOOTERS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="result-footer"],
+  [class*="action-message"]
+) {
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   16. ACTION AREA
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="result-actions"],
+  [class*="calculator-buttons"],
+  [class*="action-copy"]
+) {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   17. SECONDARY BUTTONS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="result-actions"],
+  [class*="calculator-buttons"]
+)
+button {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   18. CALCULATE / PRIMARY BUTTON
+========================================================= */
+
+/* =========================================================
+   PRIMARY / CALCULATE BUTTONS
+   IMPORTANT:
+   Only actual buttons or role=button elements.
+   Do NOT target normal sections containing "calculate".
+========================================================= */
+
+html.dark-mode
+:is(
+  button[class*="calculate"],
+  button[class*="primary"],
+  [role="button"][class*="calculate"],
+  [role="button"][class*="primary"]
+) {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   19. TABLES
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"]
+)
+table {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"]
+)
+th {
+  background: var(--surface-soft) !important;
+  color: var(--text-heading) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"]
+)
+td {
+  background: transparent !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   20. REMOVE LIGHT GRADIENTS FROM CONTENT SURFACES
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(
+  [class*="summary"],
+  [class*="info"],
+  [class*="equation"],
+  [class*="flow-box"],
+  [class*="metric"],
+  [class*="breakdown"],
+  [class*="tax-summary"]
+) {
+  background-image: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   21. FOCUS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+:is(input, select, textarea):focus {
+  border-color: var(--primary) !important;
+  outline-color: var(--primary) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   22. DIVIDERS
+========================================================= */
+
+html.dark-mode
+:is(
+  [class*="sip-"],
+  [class*="fd-"],
+  [class*="discount-"],
+  [class*="emi-"],
+  [class*="gst-"],
+  [class*="percentage-"],
+  [class*="dog-age-"],
+  [class*="unit-converter-"]
+)
+hr {
+  border-color: var(--border) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   23. OPTIONS
+========================================================= */
+
+html.dark-mode option {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   CENTRAL DARK MODE FIX
+   Discount Calculator - Saving Cards
+========================================================= */
+
+html.dark-mode .discount-saving-card {
+  background: var(--dark-card-bg, #172554) !important;
+  color: var(--dark-text, #f8fafc) !important;
+  border-color: var(--dark-border, #334155) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .discount-saving-card > div {
+  background: var(--dark-card-bg, #172554) !important;
+  color: var(--dark-text, #f8fafc) !important;
+  border-color: var(--dark-border, #334155) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .discount-saving-card > div * {
+  color: inherit !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   LOGO — DARK MODE FIX
+   ========================================================= */
+
+html.dark-mode .calculator-logo,
+html.dark-mode .result-logo,
+html.dark-mode .calculator-header-logo,
+html.dark-mode .result-header-logo {
+  background: var(--dark-card-bg, #172554) !important;
+  border-color: var(--dark-border, #334155) !important;
+  box-shadow: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Logo wrapper / icon container */
+html.dark-mode main .logo,
+html.dark-mode main .logo-container,
+html.dark-mode main .icon-container,
+html.dark-mode main .calculator-icon,
+html.dark-mode main .result-icon {
+  background: var(--dark-card-bg, #172554) !important;
+  border-color: var(--dark-border, #334155) !important;
+  box-shadow: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   CENTRAL DARK MODE — LOGO BACKGROUND
+========================================================= */
+
+html.dark-mode main img[alt*="logo" i],
+html.dark-mode main svg,
+html.dark-mode main [class*="logo"],
+html.dark-mode main [class*="Logo"] {
+  background: transparent !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Logo के पीछे वाला common wrapper */
+html.dark-mode main [class*="logo-container"],
+html.dark-mode main [class*="logo-wrapper"],
+html.dark-mode main [class*="logo-box"],
+html.dark-mode main [class*="icon-container"],
+html.dark-mode main [class*="calculator-icon"],
+html.dark-mode main [class*="result-icon"] {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* अगर logo किसी card के अंदर है */
+html.dark-mode main [class*="calculator-card"] img,
+html.dark-mode main [class*="result-card"] img {
+  background: transparent !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   DARK MODE — PRE-CALCULATION LOGO + RESULT DISCLAIMER
+========================================================= */
+
+/* 1. Before calculation: logo/icon के पीछे का light background */
+html.dark-mode main [class*="logo"],
+html.dark-mode main [class*="Logo"],
+html.dark-mode main [class*="calculator-icon"],
+html.dark-mode main [class*="result-icon"],
+html.dark-mode main [class*="icon-container"] {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Logo/image को transparent रखो */
+html.dark-mode main [class*="logo"] img,
+html.dark-mode main [class*="Logo"] img,
+html.dark-mode main [class*="calculator-icon"] img {
+  background: transparent !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* 2. After calculation: Disclaimer box */
+html.dark-mode main [class*="disclaimer"],
+html.dark-mode main [class*="Disclaimer"],
+html.dark-mode main [class*="disclaimer-box"],
+html.dark-mode main [class*="disclaimer-container"] {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Disclaimer के अंदर का text */
+html.dark-mode main [class*="disclaimer"] *,
+html.dark-mode main [class*="Disclaimer"] *,
+html.dark-mode main [class*="disclaimer-box"] *,
+html.dark-mode main [class*="disclaimer-container"] * {
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Disclaimer heading */
+html.dark-mode main [class*="disclaimer"] strong,
+html.dark-mode main [class*="disclaimer"] b,
+html.dark-mode main [class*="disclaimer"] h1,
+html.dark-mode main [class*="disclaimer"] h2,
+html.dark-mode main [class*="disclaimer"] h3 {
+  color: var(--text-heading) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* =========================================================
+   AGEVERSE — GLOBAL PREMIUM NAVY DARK THEME
+   Palette: #050b1c / #0d172b / #111d33 / #2563eb / #7c3aed
+   These rules only change dark-mode appearance; calculator
+   calculations and layout logic remain untouched.
+========================================================= */
+
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode #root {
+  background: #050b1c !important;
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .header {
+  background: rgba(5, 11, 28, 0.94) !important;
+  border-bottom-color: rgba(129, 140, 248, 0.16) !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.32) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .header-actions button {
+  background: #111d33 !important;
+  border-color: #263858 !important;
+  color: #e2e8f0 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .header-actions button:hover {
+  background: #17264a !important;
+  border-color: #3b5ca8 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Shared calculator background and panels */
+html.dark-mode .calculator-page,
+html.dark-mode .age-page {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(37, 99, 235, 0.16), transparent 32%),
+    radial-gradient(circle at 85% 85%, rgba(124, 58, 237, 0.12), transparent 32%),
+    #050b1c !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .calculator-left,
+html.dark-mode .calculator-right,
+html.dark-mode .age-card,
+html.dark-mode .result-card,
+html.dark-mode .hero-card,
+html.dark-mode .feature-card,
+html.dark-mode .testimonial-card,
+html.dark-mode .faq-card {
+  background: #0d172b !important;
+  border-color: #263858 !important;
+  color: #e2e8f0 !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .calculator-left h1,
+html.dark-mode .age-page h1,
+html.dark-mode .result-card h2,
+html.dark-mode .feature-section h2,
+html.dark-mode .testimonial-section h2,
+html.dark-mode .faq-section h2 {
+  color: #f8fafc !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .calculator-left > p,
+html.dark-mode .age-page > p,
+html.dark-mode .feature-subtitle,
+html.dark-mode .testimonial-subtitle,
+html.dark-mode .feature-card p,
+html.dark-mode .testimonial-card p,
+html.dark-mode .faq-card p {
+  color: #94a3b8 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Inputs and labels — prevents accidental white/light patches */
+html.dark-mode input,
+html.dark-mode select,
+html.dark-mode textarea,
+html.dark-mode .date-input-wrapper,
+html.dark-mode .specific-date-field,
+html.dark-mode .date-mode,
+html.dark-mode .calculation-period,
+html.dark-mode .time-grid div,
+html.dark-mode .age-empty-result-hint {
+  background-color: #101b30 !important;
+  background-image: none !important;
+  border-color: #263858 !important;
+  color: #e2e8f0 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode label,
+html.dark-mode .calculator-field label,
+html.dark-mode .calculate-till-label,
+html.dark-mode .specific-date-field label {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode input::placeholder,
+html.dark-mode textarea::placeholder,
+html.dark-mode .date-part::placeholder {
+  color: #64748b !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Age calculator inner surfaces */
+html.dark-mode .age-boxes div {
+  background: linear-gradient(145deg, #111d33, #17264a) !important;
+  border-color: #2d4775 !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22) !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .age-boxes strong {
+  color: #60a5fa !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .age-boxes span,
+html.dark-mode .time-grid div {
+  color: #cbd5e1 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .result-card h3 {
+  background: linear-gradient(135deg, #101b30, #16254a) !important;
+  border-color: #263858 !important;
+  color: #cbd5e1 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Keep the birthday status warm while the rest of the UI stays navy. */
+html.dark-mode .birthday-box {
+  background: linear-gradient(135deg, #2a1a12, #30220f) !important;
+  border-color: #75401f !important;
+  color: #fdba74 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Home sections */
+html.dark-mode .feature-section,
+html.dark-mode .testimonial-section {
+  background: #071027 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .faq-section {
+  background: #050b1c !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .hero-card,
+html.dark-mode .mini-card,
+html.dark-mode .secondary {
+  border-color: #263858 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode .secondary {
+  background: #111d33 !important;
+  color: #e2e8f0 !important;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Common inner tiles/panels */
+html.dark-mode [class*="info"],
+html.dark-mode [class*="summary"],
+html.dark-mode [class*="breakdown"],
+html.dark-mode [class*="metric"],
+html.dark-mode [class*="flow-box"],
+html.dark-mode [class*="section-box"],
+html.dark-mode [class*="input-box"] {
+  border-color: #263858;
+}
+
+/* SOURCE: styles/dark-mode.css */
+/* Do not allow generic page surfaces to reintroduce browser white. */
+html.dark-mode main {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/dark-mode.css */
+html.dark-mode main > * {
+  color: inherit;
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   AGEVERSE — CENTRALIZED DARK MODE
+   CALCULATOR GRID
+========================================================= */
+
+html.dark-mode .calculator-section {
+  color: var(--text);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+html.dark-mode .category-title {
+  color: var(--text-heading);
+  border-left-color: var(--primary);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   CALCULATOR CARDS
+========================================================= */
+
+html.dark-mode .calc-card.age,
+html.dark-mode .calc-card.health,
+html.dark-mode .calc-card.family,
+html.dark-mode .calc-card.utility,
+html.dark-mode .calc-card.pet {
+  background: var(--card-background);
+  color: var(--text);
+  border-color: var(--card-border);
+  box-shadow: var(--shadow);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+html.dark-mode .calc-card h3 {
+  color: var(--text-heading);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   CARD DESCRIPTION
+========================================================= */
+
+html.dark-mode .calc-card p {
+  color: var(--text);
+  opacity: 0.78;
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   BADGES
+========================================================= */
+
+html.dark-mode .live-badge,
+html.dark-mode .coming-badge,
+html.dark-mode .featured-badge {
+  background: var(--surface-soft);
+  border-color: var(--border);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+html.dark-mode .live-badge {
+  color: var(--success);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+html.dark-mode .coming-badge {
+  color: var(--warning);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+html.dark-mode .featured-badge {
+  color: var(--warning);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   CALCULATOR BUTTON
+========================================================= */
+
+html.dark-mode .calc-card button {
+  background: var(--surface-soft);
+  color: var(--text-heading);
+  border-color: var(--border);
+  box-shadow: var(--shadow);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+html.dark-mode .calc-card button:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   FEATURED CARD
+========================================================= */
+
+html.dark-mode .calc-card.featured {
+  border-color: var(--success);
+}
+
+/* SOURCE: components/CalculatorGrid.css */
+/* =========================================================
+   ICON
+========================================================= */
+
+html.dark-mode .calc-icon {
+  background: transparent;
+}
+
+/* SOURCE: components/CalculatorLayout.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .calculator-page {
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(37, 99, 235, 0.16),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 85% 85%,
+      rgba(124, 58, 237, 0.12),
+      transparent 32%
+    ),
+    #050b1c;
+}
+
+/* SOURCE: components/CalculatorLayout.css */
+html.dark-mode .calculator-left,
+html.dark-mode .calculator-right {
+  background: #0d172b;
+
+  border-color: #263858;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* SOURCE: components/CalculatorLayout.css */
+html.dark-mode .calculator-left h1 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/CalculatorLayout.css */
+html.dark-mode .calculator-left > p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/CalculatorLayout.css */
+/* =========================================================
+   AGE CALCULATOR — RESULT AREA DARK MODE
+   ISOLATED: DOES NOT AFFECT HEALTH PROFILE
+========================================================= */
+
+html.dark-mode .age-calculator-layout
+.age-calculator-result-area {
+
+  background: #172033;
+
+  border: 1px solid #26324a;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.30);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .date-difference-result-card {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.30);
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-header h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-header p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #24265a,
+      #30265b
+    );
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-period-card {
+  background:
+    linear-gradient(
+      135deg,
+      #1e293b,
+      #20264a
+    );
+
+  border-color: #334155;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-period-item span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-period-item strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-period-arrow {
+  background: #263246;
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-section h3 {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-age-boxes > div {
+  background:
+    linear-gradient(
+      145deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-age-boxes strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-age-boxes span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-weekdays > div {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-weekdays span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-weekdays strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-time-grid > div {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-time-grid > div:hover {
+  background: #263246;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-time-grid strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-time-grid span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-actions {
+  border-color: #334155;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-footer {
+  border-color: #334155;
+  color: #64748b;
+}
+
+/* SOURCE: components/DateDifferenceResultCard.css */
+html.dark-mode .dd-result-footer strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .date-input-wrapper {
+  background-color: #101b30 !important;
+  background-image: none !important;
+
+  border-color: #31456b !important;
+
+  box-shadow: none !important;
+
+  color-scheme: dark;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   DARK MODE — EVERY CHILD
+   This is the important part.
+========================================================= */
+
+html.dark-mode .date-input-wrapper,
+html.dark-mode .date-input-wrapper *,
+html.dark-mode .date-input-wrapper input,
+html.dark-mode .date-input-wrapper .date-part {
+  background-image: none !important;
+}
+
+/* SOURCE: components/DateInput.css */
+/* Input itself must stay transparent */
+html.dark-mode .date-input-wrapper .date-part,
+html.dark-mode .date-input-wrapper input {
+  background-color: transparent !important;
+
+  color: #e2e8f0 !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  outline: none !important;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   DARK MODE PLACEHOLDER
+========================================================= */
+
+html.dark-mode .date-input-wrapper .date-part::placeholder {
+  color: #94a3b8 !important;
+  opacity: 1 !important;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   DARK MODE SEPARATOR
+========================================================= */
+
+html.dark-mode .date-input-wrapper .date-separator {
+  color: #64748b !important;
+  background: transparent !important;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   DARK MODE FOCUS
+========================================================= */
+
+html.dark-mode .date-input-wrapper:focus-within {
+  background-color: #101b30 !important;
+
+  border-color: #6366f1 !important;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.16) !important;
+}
+
+/* SOURCE: components/DateInput.css */
+/* =========================================================
+   CHROME / EDGE AUTOFILL SAFETY
+   Prevents white/yellow input patches.
+========================================================= */
+
+html.dark-mode
+.date-input-wrapper
+input:-webkit-autofill,
+html.dark-mode
+.date-input-wrapper
+input:-webkit-autofill:hover,
+html.dark-mode
+.date-input-wrapper
+input:-webkit-autofill:focus,
+html.dark-mode
+.date-input-wrapper
+input:-webkit-autofill:active {
+
+  -webkit-text-fill-color: #e2e8f0 !important;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #101b30 inset !important;
+
+  box-shadow:
+    0 0 0 1000px #101b30 inset !important;
+
+  background-color: #101b30 !important;
+
+  transition:
+    background-color 9999s ease-in-out 0s;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .event-result-card {
+  background: linear-gradient(
+    145deg,
+    #172033,
+    #141c2d
+  );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.30);
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-result-header {
+  border-color: #334155;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-result-icon {
+  background: linear-gradient(
+    135deg,
+    #24265a,
+    #30265b
+  );
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-result-title h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-result-title p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* Event information */
+
+html.dark-mode .event-info-item {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-info-label {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-info-item strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* Countdown */
+
+html.dark-mode .countdown-heading {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .countdown-box {
+  background: linear-gradient(
+    145deg,
+    #202a4a,
+    #25204a
+  );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .countdown-box strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .countdown-box span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* Status */
+
+html.dark-mode .event-status.upcoming {
+  color: #86efac;
+
+  background: linear-gradient(
+    135deg,
+    #10291c,
+    #132d20
+  );
+
+  border-color: #245c38;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-status.completed {
+  color: #cbd5e1;
+
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* Actions */
+
+html.dark-mode .event-action.share {
+  color: #c7d2fe;
+  background: #24265a;
+  border-color: #3b4380;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-action.copy {
+  color: #7dd3fc;
+  background: #102a3b;
+  border-color: #24506a;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-action.download {
+  color: #86efac;
+  background: #10291c;
+  border-color: #245c38;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-action.print {
+  color: #fdba74;
+  background: #302116;
+  border-color: #7c3f1d;
+}
+
+/* SOURCE: components/EventResultCard.css */
+/* Footer */
+
+html.dark-mode .event-result-footer {
+  border-color: #334155;
+  color: #64748b;
+}
+
+/* SOURCE: components/EventResultCard.css */
+html.dark-mode .event-result-footer strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/FAQSection.css */
+/* =========================================================
+   DARK MODE REFINEMENT
+========================================================= */
+
+html.dark-mode .faq-eyebrow {
+  background: rgba(79, 70, 229, 0.18);
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-number {
+  background: rgba(79, 70, 229, 0.18);
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-card {
+  background:
+    linear-gradient(
+      135deg,
+      #111827 0%,
+      #172033 100%
+    );
+
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-card:hover {
+  border-color: rgba(129, 140, 248, 0.35);
+
+  box-shadow:
+    0 14px 35px rgba(0, 0, 0, 0.32);
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-open {
+  border-color: rgba(129, 140, 248, 0.40);
+
+  box-shadow:
+    0 14px 38px rgba(79, 70, 229, 0.18);
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-toggle {
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-footer {
+  background:
+    linear-gradient(
+      135deg,
+      #172033,
+      #111827
+    );
+}
+
+/* SOURCE: components/FAQSection.css */
+html.dark-mode .faq-footer-icon {
+  background: #1e293b;
+  box-shadow:
+    0 5px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* SOURCE: components/FeatureBar.css */
+/* =========================================================
+   DARK MODE — MATCH GLOBAL PREMIUM NAVY THEME
+========================================================= */
+
+html.dark-mode .feature-bar {
+  background:
+    linear-gradient(
+      90deg,
+      #071027 0%,
+      #10204a 28%,
+      #172b5c 52%,
+      #24154d 78%,
+      #071027 100%
+    );
+
+  border-bottom: 1px solid rgba(129, 140, 248, 0.18);
+
+  box-shadow:
+    0 5px 18px rgba(0, 0, 0, 0.32);
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-bar::before {
+  background: rgba(37, 99, 235, 0.12);
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-bar::after {
+  background: rgba(124, 58, 237, 0.16);
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-track .feature-button {
+  background: rgba(15, 30, 61, 0.72);
+  border-color: rgba(129, 140, 248, 0.22);
+  color: #f8fafc;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 3px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-track .feature-button:hover {
+  background: rgba(37, 99, 235, 0.28);
+  border-color: rgba(129, 140, 248, 0.42);
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-track .feature-button::after {
+  color: #a78bfa;
+}
+
+/* SOURCE: components/FeatureBar.css */
+html.dark-mode .feature-button:focus-visible {
+  outline-color: #93c5fd;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   AGEVERSE — DARK MODE
+========================================================= */
+
+html.dark-mode {
+  background: #0f172a;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   HEADER
+========================================================= */
+
+html.dark-mode .header {
+  background: rgba(5, 11, 28, 0.94);
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .brand h1 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .brand p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .header-actions button {
+  background: #111d33;
+
+  color: #e2e8f0;
+
+  border-color:
+    rgba(255, 255, 255, 0.08);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .header-actions button:hover {
+  background: #17264a;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   HERO
+========================================================= */
+
+html.dark-mode .home-hero {
+  background:
+    linear-gradient(
+      135deg,
+      #111827,
+      #0f172a
+    );
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .hero-content h1 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .hero-content h1 span {
+  color: #818cf8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .hero-content p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .hero-card {
+  background: #111d33;
+
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.28);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .mini-card {
+  background: #312e81;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .mini-result strong {
+  color: #818cf8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .mini-result span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .secondary {
+  background: #111d33;
+
+  color: #e2e8f0;
+
+  border-color:
+    rgba(255, 255, 255, 0.12) !important;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   FEATURE SECTION
+========================================================= */
+
+html.dark-mode .feature-section {
+  background: #111827;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .feature-section h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .feature-subtitle {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .feature-card {
+  background: #111d33;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.20);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .feature-card p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   CALCULATOR SECTION
+========================================================= */
+
+html.dark-mode .calculator-section {
+  background: transparent;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .category-title {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+/* Keep category gradients attractive in dark mode */
+
+html.dark-mode .calc-card.age {
+  background:
+    linear-gradient(
+      145deg,
+      #312e81,
+      #1e293b
+    );
+
+  color: #e0e7ff;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card.health {
+  background:
+    linear-gradient(
+      145deg,
+      #065f46,
+      #1e293b
+    );
+
+  color: #d1fae5;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card.family {
+  background:
+    linear-gradient(
+      145deg,
+      #831843,
+      #1e293b
+    );
+
+  color: #fce7f3;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card.utility {
+  background:
+    linear-gradient(
+      145deg,
+      #1e40af,
+      #1e293b
+    );
+
+  color: #dbeafe;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card.pet {
+  background:
+    linear-gradient(
+      145deg,
+      #9a3412,
+      #1e293b
+    );
+
+  color: #ffedd5;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-icon {
+  background:
+    rgba(255, 255, 255, 0.12);
+
+  border-color:
+    rgba(255, 255, 255, 0.15);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card button {
+  background: rgba(255, 255, 255, 0.12);
+
+  color: #f8fafc;
+
+  border-color:
+    rgba(255, 255, 255, 0.12);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .calc-card button:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   TESTIMONIALS
+========================================================= */
+
+html.dark-mode .testimonial-section {
+  background: #111827;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .testimonial-section h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .testimonial-subtitle {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .testimonial-card {
+  background: #111d33;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.20);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .testimonial-card p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   FAQ
+========================================================= */
+
+html.dark-mode .faq-section {
+  background: #0f172a;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .faq-section h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .faq-card {
+  background: #111d33;
+
+  border-color:
+    rgba(255, 255, 255, 0.08);
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .faq-card h3 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/Header.css */
+html.dark-mode .faq-card p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/Header.css */
+/* =========================================================
+   FOOTER
+========================================================= */
+
+html.dark-mode .footer {
+  background: #020617;
+}
+
+/* SOURCE: components/PetDateInput.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .pet-date-input-wrapper {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: components/PetDateInput.css */
+html.dark-mode .pet-date-input-wrapper:focus-within {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* SOURCE: components/PetDateInput.css */
+html.dark-mode .pet-date-part {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/PetDateInput.css */
+html.dark-mode .pet-date-part::placeholder {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/PetDateInput.css */
+html.dark-mode .pet-date-separator {
+  color: #64748b;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .result-card {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.30);
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-card h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* Age boxes */
+
+html.dark-mode .age-boxes div {
+  background:
+    linear-gradient(
+      145deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+
+  box-shadow:
+    0 7px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .age-boxes strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .age-boxes span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* Total time */
+
+html.dark-mode .time-grid div {
+  background: #1e293b;
+
+  border-color: #334155;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .time-grid div:hover {
+  background: #263246;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* Birth date */
+
+html.dark-mode .result-card h3 {
+  background:
+    linear-gradient(
+      135deg,
+      #1e293b,
+      #20264a
+    );
+
+  border-color: #334155;
+
+  color: #cbd5e1;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* Birthday */
+
+html.dark-mode .birthday-box {
+  background:
+    linear-gradient(
+      135deg,
+      #302116,
+      #332716
+    );
+
+  border-color: #7c3f1d;
+
+  color: #fb923c;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* Download divider */
+
+html.dark-mode .download-section {
+  border-color: #334155;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .result-header h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-header p {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-header-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #24265a,
+      #30265b
+    );
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+/* SOURCE: components/ResultCard.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .calculation-period {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .calculation-period span {
+  color: #94a3b8;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .calculation-period strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .period-arrow {
+  color: #a5b4fc;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* DARK MODE */
+
+html.dark-mode .birthday-box {
+  color: #fb923c;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .birthday-date {
+  color: #fed7aa;
+}
+
+/* SOURCE: components/ResultCard.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .result-actions button {
+  background: #1e293b;
+
+  border-color: #334155;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-actions button:hover {
+  background: #263246;
+
+  border-color: #6366f1;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-actions .result-new-button {
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #8b5cf6
+    );
+
+  border-color: transparent;
+
+  color: #ffffff;
+}
+
+/* SOURCE: components/ResultCard.css */
+html.dark-mode .result-actions .result-new-button:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   AGEVERSE — DARK MODE
+   USER EXPERIENCES / TESTIMONIAL SECTION
+========================================================= */
+
+html.dark-mode .testimonial-section {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   HEADER
+========================================================= */
+
+html.dark-mode .testimonial-eyebrow {
+  background: var(--surface-soft) !important;
+  color: var(--primary) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+html.dark-mode .testimonial-section h2 {
+  color: var(--text-heading) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+html.dark-mode .testimonial-subtitle {
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   TESTIMONIAL CARD
+========================================================= */
+
+html.dark-mode .testimonial-card {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+
+  border-color: var(--card-border) !important;
+
+  box-shadow: var(--shadow) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   CARD HOVER
+========================================================= */
+
+html.dark-mode .testimonial-card:hover {
+  border-color: var(--primary) !important;
+
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   USER NAME
+========================================================= */
+
+html.dark-mode .user-details h3 {
+  color: var(--text-heading) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   USER ROLE
+========================================================= */
+
+html.dark-mode .user-details span {
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   VERIFIED BADGE
+========================================================= */
+
+html.dark-mode .verified-badge {
+  background: rgba(34, 197, 94, 0.15) !important;
+  color: var(--success) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   RATING
+========================================================= */
+
+html.dark-mode .rating {
+  color: #fbbf24 !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   QUOTE MARK
+========================================================= */
+
+html.dark-mode .quote-mark {
+  color: rgba(129, 140, 248, 0.22) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   REVIEW TEXT
+========================================================= */
+
+html.dark-mode .testimonial-review {
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+/* =========================================================
+   FOOTER
+========================================================= */
+
+html.dark-mode .testimonial-footer {
+  border-top-color: var(--border) !important;
+  color: var(--text-light) !important;
+}
+
+/* SOURCE: components/TestimonialSection.css */
+html.dark-mode .testimonial-footer span:last-child {
+  background: rgba(34, 197, 94, 0.15) !important;
+  color: var(--success) !important;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .date-difference-card {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.30);
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-card label {
+  color: #e2e8f0;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-reset {
+  background: #1e293b;
+
+  border-color: #334155;
+
+  color: #cbd5e1;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-reset:hover {
+  background: #263246;
+
+  border-color: #475569;
+
+  color: #f1f5f9;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-error {
+  background: #351923;
+
+  border-color: #713044;
+
+  color: #fda4af;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-empty {
+  color: #94a3b8;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-empty::before {
+  background:
+    linear-gradient(
+      135deg,
+      #24265a,
+      #30265b
+    );
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-empty h2 {
+  color: #a5b4fc;
+}
+
+/* SOURCE: pages/DateDifferenceCalculator.css */
+html.dark-mode .date-difference-empty p {
+  color: #94a3b8;
+}
+
+/* SOURCE: pages/EventPicker.css */
+/* =========================================================
+   DARK MODE
+   Scoped only to Event Picker
+   ========================================================= */
+
+html.dark-mode .event-option {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .event-option p {
+  color: #cbd5e1;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .event-option:hover {
+  background: #263246;
+  border-color: #6366f1;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .event-option.active {
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #8b5cf6
+    );
+
+  border-color: transparent;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .event-option.active p {
+  color: #ffffff;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .custom-event-box {
+  background: #1b2639;
+  border-color: #334155;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .custom-event-box label {
+  color: #e2e8f0;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .custom-event-box input {
+  background: #1e293b;
+  border-color: #475569;
+  color: #f1f5f9;
+}
+
+/* SOURCE: pages/EventPicker.css */
+html.dark-mode .custom-event-box input:focus {
+  border-color: #818cf8;
+}
+
+/* SOURCE: pages/ageCalculator.css */
+/* =========================================================
+   AGEVERSE — AGE CALCULATOR
+   FINAL CLEAN / CENTRALIZED THEME VERSION
+
+   IMPORTANT:
+   - No page-level dark-mode CSS
+   - No html.dark-mode selectors
+   - No local dark-mode overrides
+   - Theme colors are controlled by the centralized app/theme system
+   - This file only controls Age Calculator layout/components
+========================================================= */
+
+
+/* =========================================================
+   DATE INPUT
+========================================================= */
+
+.date-input-wrapper {
+  width: 100%;
+  min-height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+  padding: 13px 14px;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+
+  box-shadow: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .discount-calculator-card,
+body.dark .discount-calculator-card,
+html.dark .discount-calculator-card,
+[data-theme="dark"] .discount-calculator-card {
+  background:
+    linear-gradient(
+      145deg,
+      #1d2440,
+      #171b31
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.22);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.24);
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-result-card,
+body.dark .discount-calculator-result-card,
+html.dark .discount-calculator-result-card,
+[data-theme="dark"] .discount-calculator-result-card,
+html.dark-mode .discount-calculator-empty-result,
+body.dark .discount-calculator-empty-result,
+html.dark .discount-calculator-empty-result,
+[data-theme="dark"] .discount-calculator-empty-result {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.28);
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-header h1,
+body.dark .discount-calculator-header h1,
+html.dark .discount-calculator-header h1,
+[data-theme="dark"] .discount-calculator-header h1,
+html.dark-mode .discount-calculator-result-header h2,
+body.dark .discount-calculator-result-header h2,
+html.dark .discount-calculator-result-header h2,
+[data-theme="dark"] .discount-calculator-result-header h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-header p,
+body.dark .discount-calculator-header p,
+html.dark .discount-calculator-header p,
+[data-theme="dark"] .discount-calculator-header p,
+html.dark-mode .discount-calculator-result-header p,
+body.dark .discount-calculator-result-header p,
+html.dark .discount-calculator-result-header p,
+[data-theme="dark"] .discount-calculator-result-header p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-mode-section label,
+body.dark .discount-calculator-mode-section label,
+html.dark .discount-calculator-mode-section label,
+[data-theme="dark"] .discount-calculator-mode-section label,
+html.dark-mode .discount-calculator-field label,
+body.dark .discount-calculator-field label,
+html.dark .discount-calculator-field label,
+[data-theme="dark"] .discount-calculator-field label,
+html.dark-mode .discount-rate-row label,
+body.dark .discount-rate-row label,
+html.dark .discount-rate-row label,
+[data-theme="dark"] .discount-rate-row label {
+  color: #d8deee;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-mode-section select,
+body.dark .discount-calculator-mode-section select,
+html.dark .discount-calculator-mode-section select,
+[data-theme="dark"] .discount-calculator-mode-section select,
+html.dark-mode .discount-calculator-field input,
+body.dark .discount-calculator-field input,
+html.dark .discount-calculator-field input,
+[data-theme="dark"] .discount-calculator-field input,
+html.dark-mode .discount-rate-row input,
+body.dark .discount-rate-row input,
+html.dark .discount-rate-row input,
+[data-theme="dark"] .discount-rate-row input {
+  background: #111629;
+
+  border-color: #303952;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-description,
+body.dark .discount-calculator-description,
+html.dark .discount-calculator-description,
+[data-theme="dark"] .discount-calculator-description,
+html.dark-mode .discount-calculator-info,
+body.dark .discount-calculator-info,
+html.dark .discount-calculator-info,
+[data-theme="dark"] .discount-calculator-info,
+html.dark-mode .discount-helper,
+body.dark .discount-helper,
+html.dark .discount-helper,
+[data-theme="dark"] .discount-helper {
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-section-heading,
+body.dark .discount-section-heading,
+html.dark .discount-section-heading,
+[data-theme="dark"] .discount-section-heading,
+html.dark-mode .discount-calculator-info-title,
+body.dark .discount-calculator-info-title,
+html.dark .discount-calculator-info-title,
+[data-theme="dark"] .discount-calculator-info-title {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-slab,
+body.dark .discount-slab,
+html.dark .discount-slab,
+[data-theme="dark"] .discount-slab,
+html.dark-mode .discount-input-summary,
+body.dark .discount-input-summary,
+html.dark .discount-input-summary,
+[data-theme="dark"] .discount-input-summary,
+html.dark-mode .discount-breakdown,
+body.dark .discount-breakdown,
+html.dark .discount-breakdown,
+[data-theme="dark"] .discount-breakdown,
+html.dark-mode .discount-calculation-flow,
+body.dark .discount-calculation-flow,
+html.dark .discount-calculation-flow,
+[data-theme="dark"] .discount-calculation-flow,
+html.dark-mode .discount-saving-card > div,
+body.dark .discount-saving-card > div,
+html.dark .discount-saving-card > div,
+[data-theme="dark"] .discount-saving-card > div {
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-summary-item,
+body.dark .discount-summary-item,
+html.dark .discount-summary-item,
+[data-theme="dark"] .discount-summary-item,
+html.dark-mode .discount-breakdown-row,
+body.dark .discount-breakdown-row,
+html.dark .discount-breakdown-row,
+[data-theme="dark"] .discount-breakdown-row,
+html.dark-mode .discount-flow-item,
+body.dark .discount-flow-item,
+html.dark .discount-flow-item,
+[data-theme="dark"] .discount-flow-item {
+  background: #1c2339;
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-summary-item span,
+body.dark .discount-summary-item span,
+html.dark .discount-summary-item span,
+[data-theme="dark"] .discount-summary-item span,
+html.dark-mode .discount-breakdown-row span,
+body.dark .discount-breakdown-row span,
+html.dark .discount-breakdown-row span,
+[data-theme="dark"] .discount-breakdown-row span,
+html.dark-mode .discount-flow-item span,
+body.dark .discount-flow-item span,
+html.dark .discount-flow-item span,
+[data-theme="dark"] .discount-flow-item span,
+html.dark-mode .discount-saving-card span,
+body.dark .discount-saving-card span,
+html.dark .discount-saving-card span,
+[data-theme="dark"] .discount-saving-card span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-summary-item strong,
+body.dark .discount-summary-item strong,
+html.dark .discount-summary-item strong,
+[data-theme="dark"] .discount-summary-item strong,
+html.dark-mode .discount-breakdown-row strong,
+body.dark .discount-breakdown-row strong,
+html.dark .discount-breakdown-row strong,
+[data-theme="dark"] .discount-breakdown-row strong,
+html.dark-mode .discount-flow-item strong,
+body.dark .discount-flow-item strong,
+html.dark .discount-flow-item strong,
+[data-theme="dark"] .discount-flow-item strong,
+html.dark-mode .discount-saving-card strong,
+body.dark .discount-saving-card strong,
+html.dark .discount-saving-card strong,
+[data-theme="dark"] .discount-saving-card strong {
+  color: #e0e7ff;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-equation,
+body.dark .discount-equation,
+html.dark .discount-equation,
+[data-theme="dark"] .discount-equation,
+html.dark-mode .discount-important,
+body.dark .discount-important,
+html.dark .discount-important,
+[data-theme="dark"] .discount-important {
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-equation strong,
+body.dark .discount-equation strong,
+html.dark .discount-equation strong,
+[data-theme="dark"] .discount-equation strong {
+  color: #dbeafe;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-info p,
+body.dark .discount-calculator-info p,
+html.dark .discount-calculator-info p,
+[data-theme="dark"] .discount-calculator-info p,
+html.dark-mode .discount-important p,
+body.dark .discount-important p,
+html.dark .discount-important p,
+[data-theme="dark"] .discount-important p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-result-actions button,
+body.dark .discount-result-actions button,
+html.dark .discount-result-actions button,
+[data-theme="dark"] .discount-result-actions button {
+  background: #1c2339;
+
+  border-color: #303952;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-calculator-reset,
+body.dark .discount-calculator-reset,
+html.dark .discount-calculator-reset,
+[data-theme="dark"] .discount-calculator-reset {
+  background: #1c2339;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/DiscountCalculator.css */
+html.dark-mode .discount-result-footer,
+body.dark .discount-result-footer,
+html.dark .discount-result-footer,
+[data-theme="dark"] .discount-result-footer {
+  border-top-color: #303952;
+
+  color: #7f8aa5;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .emi-calculator-card,
+body.dark .emi-calculator-card,
+html.dark .emi-calculator-card,
+[data-theme="dark"] .emi-calculator-card {
+  background:
+    linear-gradient(
+      145deg,
+      #1d2440,
+      #171b31
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.22);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.24);
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-result-card,
+body.dark .emi-calculator-result-card,
+html.dark .emi-calculator-result-card,
+[data-theme="dark"] .emi-calculator-result-card {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.28);
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-empty-result,
+body.dark .emi-calculator-empty-result,
+html.dark .emi-calculator-empty-result,
+[data-theme="dark"] .emi-calculator-empty-result {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-header h1,
+body.dark .emi-calculator-header h1,
+html.dark .emi-calculator-header h1,
+[data-theme="dark"] .emi-calculator-header h1,
+html.dark-mode .emi-calculator-result-header h2,
+body.dark .emi-calculator-result-header h2,
+html.dark .emi-calculator-result-header h2,
+[data-theme="dark"] .emi-calculator-result-header h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-header p,
+body.dark .emi-calculator-header p,
+html.dark .emi-calculator-header p,
+[data-theme="dark"] .emi-calculator-header p,
+html.dark-mode .emi-calculator-result-header p,
+body.dark .emi-calculator-result-header p,
+html.dark .emi-calculator-result-header p,
+[data-theme="dark"] .emi-calculator-result-header p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-field label,
+body.dark .emi-calculator-field label,
+html.dark .emi-calculator-field label,
+[data-theme="dark"] .emi-calculator-field label {
+  color: #d8deee;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-field input,
+body.dark .emi-calculator-field input,
+html.dark .emi-calculator-field input,
+[data-theme="dark"] .emi-calculator-field input,
+html.dark-mode .emi-calculator-field select,
+body.dark .emi-calculator-field select,
+html.dark .emi-calculator-field select,
+[data-theme="dark"] .emi-calculator-field select {
+  background: #111629;
+
+  border-color: #303952;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-info,
+body.dark .emi-calculator-info,
+html.dark .emi-calculator-info,
+[data-theme="dark"] .emi-calculator-info,
+html.dark-mode .emi-calculator-input-summary,
+body.dark .emi-calculator-input-summary,
+html.dark .emi-calculator-input-summary,
+[data-theme="dark"] .emi-calculator-input-summary,
+html.dark-mode .emi-calculator-summary-card,
+body.dark .emi-calculator-summary-card,
+html.dark .emi-calculator-summary-card,
+[data-theme="dark"] .emi-calculator-summary-card,
+html.dark-mode .emi-calculator-flow,
+body.dark .emi-calculator-flow,
+html.dark .emi-calculator-flow,
+[data-theme="dark"] .emi-calculator-flow,
+html.dark-mode .emi-calculator-share-summary,
+body.dark .emi-calculator-share-summary,
+html.dark .emi-calculator-share-summary,
+[data-theme="dark"] .emi-calculator-share-summary,
+html.dark-mode .emi-calculator-equation,
+body.dark .emi-calculator-equation,
+html.dark .emi-calculator-equation,
+[data-theme="dark"] .emi-calculator-equation,
+html.dark-mode .emi-calculator-important,
+body.dark .emi-calculator-important,
+html.dark .emi-calculator-important,
+[data-theme="dark"] .emi-calculator-important {
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-info-title,
+body.dark .emi-calculator-info-title,
+html.dark .emi-calculator-info-title,
+[data-theme="dark"] .emi-calculator-info-title,
+html.dark-mode .emi-calculator-section-heading,
+body.dark .emi-calculator-section-heading,
+html.dark .emi-calculator-section-heading,
+[data-theme="dark"] .emi-calculator-section-heading {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-info p,
+body.dark .emi-calculator-info p,
+html.dark .emi-calculator-info p,
+[data-theme="dark"] .emi-calculator-info p,
+html.dark-mode .emi-calculator-important p,
+body.dark .emi-calculator-important p,
+html.dark .emi-calculator-important p,
+[data-theme="dark"] .emi-calculator-important p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-summary-item,
+body.dark .emi-calculator-summary-item,
+html.dark .emi-calculator-summary-item,
+[data-theme="dark"] .emi-calculator-summary-item,
+html.dark-mode .emi-repayment-item,
+body.dark .emi-repayment-item,
+html.dark .emi-repayment-item,
+[data-theme="dark"] .emi-repayment-item,
+html.dark-mode .emi-flow-row,
+body.dark .emi-flow-row,
+html.dark .emi-flow-row,
+[data-theme="dark"] .emi-flow-row,
+html.dark-mode .emi-composition-grid > div,
+body.dark .emi-composition-grid > div,
+html.dark .emi-composition-grid > div,
+[data-theme="dark"] .emi-composition-grid > div {
+  background: #1c2339;
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-summary-item span,
+body.dark .emi-calculator-summary-item span,
+html.dark .emi-calculator-summary-item span,
+[data-theme="dark"] .emi-calculator-summary-item span,
+html.dark-mode .emi-repayment-item span,
+body.dark .emi-repayment-item span,
+html.dark .emi-repayment-item span,
+[data-theme="dark"] .emi-repayment-item span,
+html.dark-mode .emi-composition-grid span,
+body.dark .emi-composition-grid span,
+html.dark .emi-composition-grid span,
+[data-theme="dark"] .emi-composition-grid span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-summary-item strong,
+body.dark .emi-calculator-summary-item strong,
+html.dark .emi-calculator-summary-item strong,
+[data-theme="dark"] .emi-calculator-summary-item strong,
+html.dark-mode .emi-repayment-item strong,
+body.dark .emi-repayment-item strong,
+html.dark .emi-repayment-item strong,
+[data-theme="dark"] .emi-repayment-item strong,
+html.dark-mode .emi-composition-grid strong,
+body.dark .emi-composition-grid strong,
+html.dark .emi-composition-grid strong,
+[data-theme="dark"] .emi-composition-grid strong {
+  color: #e0e7ff;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-equation strong,
+body.dark .emi-calculator-equation strong,
+html.dark .emi-calculator-equation strong,
+[data-theme="dark"] .emi-calculator-equation strong {
+  color: #dbeafe;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-equation small,
+body.dark .emi-calculator-equation small,
+html.dark .emi-calculator-equation small,
+[data-theme="dark"] .emi-calculator-equation small {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-result-actions button,
+body.dark .emi-calculator-result-actions button,
+html.dark .emi-calculator-result-actions button,
+[data-theme="dark"] .emi-calculator-result-actions button {
+  background: #1c2339;
+
+  border-color: #303952;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-reset,
+body.dark .emi-calculator-reset,
+html.dark .emi-calculator-reset,
+[data-theme="dark"] .emi-calculator-reset {
+  background: #1c2339;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/EmiCalculator.css */
+html.dark-mode .emi-calculator-result-footer,
+body.dark .emi-calculator-result-footer,
+html.dark .emi-calculator-result-footer,
+[data-theme="dark"] .emi-calculator-result-footer {
+  border-top-color: #303952;
+
+  color: #7f8aa5;
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .event-time-picker {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.20);
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #202a4a,
+      #25204a
+    );
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-heading h3 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-heading p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-input-box {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-input-box input {
+  color: #f1f5f9;
+}
+
+/* SOURCE: styles/EventTimePicker.css */
+html.dark-mode .event-time-input-box:focus-within {
+  border-color: #818cf8;
+
+  box-shadow:
+    0 0 0 3px rgba(129, 140, 248, 0.13);
+}
+
+/* SOURCE: styles/GstCalculator.css */
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark-mode .gst-calculator-card,
+body.dark .gst-calculator-card,
+html.dark .gst-calculator-card,
+[data-theme="dark"] .gst-calculator-card {
+  background:
+    linear-gradient(
+      145deg,
+      #1d2440,
+      #171b31
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.22);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.24);
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-result-card,
+body.dark .gst-calculator-result-card,
+html.dark .gst-calculator-result-card,
+[data-theme="dark"] .gst-calculator-result-card {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.28);
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-empty-result,
+body.dark .gst-calculator-empty-result,
+html.dark .gst-calculator-empty-result,
+[data-theme="dark"] .gst-calculator-empty-result {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-header h1,
+body.dark .gst-calculator-header h1,
+html.dark .gst-calculator-header h1,
+[data-theme="dark"] .gst-calculator-header h1,
+html.dark-mode .gst-calculator-result-header h2,
+body.dark .gst-calculator-result-header h2,
+html.dark .gst-calculator-result-header h2,
+[data-theme="dark"] .gst-calculator-result-header h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-header p,
+body.dark .gst-calculator-header p,
+html.dark .gst-calculator-header p,
+[data-theme="dark"] .gst-calculator-header p,
+html.dark-mode .gst-calculator-result-header p,
+body.dark .gst-calculator-result-header p,
+html.dark .gst-calculator-result-header p,
+[data-theme="dark"] .gst-calculator-result-header p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-mode-section label,
+body.dark .gst-calculator-mode-section label,
+html.dark .gst-calculator-mode-section label,
+[data-theme="dark"] .gst-calculator-mode-section label,
+html.dark-mode .gst-calculator-field label,
+body.dark .gst-calculator-field label,
+html.dark .gst-calculator-field label,
+[data-theme="dark"] .gst-calculator-field label,
+html.dark-mode .gst-calculator-tax-section > label,
+body.dark .gst-calculator-tax-section > label,
+html.dark .gst-calculator-tax-section > label,
+[data-theme="dark"] .gst-calculator-tax-section > label {
+  color: #d8deee;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-mode-section select,
+body.dark .gst-calculator-mode-section select,
+html.dark .gst-calculator-mode-section select,
+[data-theme="dark"] .gst-calculator-mode-section select,
+html.dark-mode .gst-calculator-field select,
+body.dark .gst-calculator-field select,
+html.dark .gst-calculator-field select,
+[data-theme="dark"] .gst-calculator-field select,
+html.dark-mode .gst-calculator-field input,
+body.dark .gst-calculator-field input,
+html.dark .gst-calculator-field input,
+[data-theme="dark"] .gst-calculator-field input {
+  background: #111629;
+
+  border-color: #303952;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-description,
+body.dark .gst-calculator-description,
+html.dark .gst-calculator-description,
+[data-theme="dark"] .gst-calculator-description {
+  background: rgba(30, 41, 59, 0.70);
+
+  border-color:
+    rgba(129, 140, 248, 0.15);
+
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-info,
+body.dark .gst-calculator-info,
+html.dark .gst-calculator-info,
+[data-theme="dark"] .gst-calculator-info,
+html.dark-mode .gst-calculator-input-summary,
+body.dark .gst-calculator-input-summary,
+html.dark .gst-calculator-input-summary,
+[data-theme="dark"] .gst-calculator-input-summary,
+html.dark-mode .gst-calculator-tax-summary,
+body.dark .gst-calculator-tax-summary,
+html.dark .gst-calculator-tax-summary,
+[data-theme="dark"] .gst-calculator-tax-summary,
+html.dark-mode .gst-calculator-calculation-flow,
+body.dark .gst-calculator-calculation-flow,
+html.dark .gst-calculator-calculation-flow,
+[data-theme="dark"] .gst-calculator-calculation-flow,
+html.dark-mode .gst-calculator-equation,
+body.dark .gst-calculator-equation,
+html.dark .gst-calculator-equation,
+[data-theme="dark"] .gst-calculator-equation,
+html.dark-mode .gst-calculator-important,
+body.dark .gst-calculator-important,
+html.dark .gst-calculator-important,
+[data-theme="dark"] .gst-calculator-important {
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-info-title,
+body.dark .gst-calculator-info-title,
+html.dark .gst-calculator-info-title,
+[data-theme="dark"] .gst-calculator-info-title,
+html.dark-mode .gst-calculator-section-heading,
+body.dark .gst-calculator-section-heading,
+html.dark .gst-calculator-section-heading,
+[data-theme="dark"] .gst-calculator-section-heading {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-info p,
+body.dark .gst-calculator-info p,
+html.dark .gst-calculator-info p,
+[data-theme="dark"] .gst-calculator-info p,
+html.dark-mode .gst-calculator-important p,
+body.dark .gst-calculator-important p,
+html.dark .gst-calculator-important p,
+[data-theme="dark"] .gst-calculator-important p {
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-tax-option,
+body.dark .gst-tax-option,
+html.dark .gst-tax-option,
+[data-theme="dark"] .gst-tax-option {
+  background: #1c2339;
+
+  border-color: #303952;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-tax-option:has(input:checked),
+body.dark .gst-tax-option:has(input:checked),
+html.dark .gst-tax-option:has(input:checked),
+[data-theme="dark"] .gst-tax-option:has(input:checked) {
+  background: #252c4b;
+
+  border-color: #818cf8;
+
+  color: #c7d2fe;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-summary-item,
+body.dark .gst-calculator-summary-item,
+html.dark .gst-calculator-summary-item,
+[data-theme="dark"] .gst-calculator-summary-item,
+html.dark-mode .gst-tax-summary-item,
+body.dark .gst-tax-summary-item,
+html.dark .gst-tax-summary-item,
+[data-theme="dark"] .gst-tax-summary-item,
+html.dark-mode .gst-calculator-flow-row,
+body.dark .gst-calculator-flow-row,
+html.dark .gst-calculator-flow-row,
+[data-theme="dark"] .gst-calculator-flow-row {
+  background: #1c2339;
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-summary-item span,
+body.dark .gst-calculator-summary-item span,
+html.dark .gst-calculator-summary-item span,
+[data-theme="dark"] .gst-calculator-summary-item span,
+html.dark-mode .gst-tax-summary-item span,
+body.dark .gst-tax-summary-item span,
+html.dark .gst-tax-summary-item span,
+[data-theme="dark"] .gst-tax-summary-item span,
+html.dark-mode .gst-calculator-flow-row span,
+body.dark .gst-calculator-flow-row span,
+html.dark .gst-calculator-flow-row span,
+[data-theme="dark"] .gst-calculator-flow-row span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-summary-item strong,
+body.dark .gst-calculator-summary-item strong,
+html.dark .gst-calculator-summary-item strong,
+[data-theme="dark"] .gst-calculator-summary-item strong,
+html.dark-mode .gst-tax-summary-item strong,
+body.dark .gst-tax-summary-item strong,
+html.dark .gst-tax-summary-item strong,
+[data-theme="dark"] .gst-tax-summary-item strong,
+html.dark-mode .gst-calculator-flow-row strong,
+body.dark .gst-calculator-flow-row strong,
+html.dark .gst-calculator-flow-row strong,
+[data-theme="dark"] .gst-calculator-flow-row strong {
+  color: #e0e7ff;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-equation strong,
+body.dark .gst-calculator-equation strong,
+html.dark .gst-calculator-equation strong,
+[data-theme="dark"] .gst-calculator-equation strong {
+  color: #dbeafe;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-result-actions button,
+body.dark .gst-calculator-result-actions button,
+html.dark .gst-calculator-result-actions button,
+[data-theme="dark"] .gst-calculator-result-actions button {
+  background: #1c2339;
+
+  border-color: #303952;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-reset,
+body.dark .gst-calculator-reset,
+html.dark .gst-calculator-reset,
+[data-theme="dark"] .gst-calculator-reset {
+  background: #1c2339;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/GstCalculator.css */
+html.dark-mode .gst-calculator-result-footer,
+body.dark .gst-calculator-result-footer,
+html.dark .gst-calculator-result-footer,
+[data-theme="dark"] .gst-calculator-result-footer {
+  border-top-color: #303952;
+
+  color: #7f8aa5;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* =========================================================
+   AGEVERSE — HEALTH PROFILE DARK MODE
+   ONLY THEME OVERRIDES
+   NO LAYOUT / CALCULATION CHANGES
+========================================================= */
+
+html.dark-mode .health-card,
+html.dark-mode .health-result-card {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Section headings */
+
+html.dark-mode .health-card h2 {
+  color: #dbeafe;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Labels */
+
+html.dark-mode .health-field label {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Inputs */
+
+html.dark-mode .health-field input,
+html.dark-mode .health-field select {
+  background: #172033;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-field input::placeholder {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-field input:hover,
+html.dark-mode .health-field select:hover {
+  border-color: #64748b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-field input:focus,
+html.dark-mode .health-field select:focus {
+  background: #1e293b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Normal option buttons */
+
+html.dark-mode .option {
+  background: #172033;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Activity cards */
+
+html.dark-mode .activity-card {
+  background: #172033;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .activity-card small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .activity-card.active {
+  background: #14351f;
+  color: #86efac;
+  border-color: #4ade80;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Reset button */
+
+html.dark-mode .health-reset {
+  background: #172033;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-reset:hover {
+  background: #263449;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Result header */
+
+html.dark-mode .health-header h2 {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-header p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Wellness summary */
+
+html.dark-mode .wellness-summary {
+  background:
+    linear-gradient(
+      135deg,
+      #14251a,
+      #193522
+    );
+
+  border-color: #315b3b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .wellness-greeting {
+  color: #f1f5f9;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .wellness-subtitle {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .wellness-status {
+  background: #17351f;
+  border-color: #315b3b;
+  color: #86efac;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Score */
+
+html.dark-mode .wellness-score-number {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .wellness-score-label {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Progress background */
+
+html.dark-mode .wellness-bar {
+  background: #334155;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Health boxes */
+
+html.dark-mode .health-box {
+  background: #172033;
+  border-color: #334155;
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.22);
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-box span {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-box small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* BMI */
+
+html.dark-mode .bmi-gauge-card {
+  background: #172033;
+  border-color: #334155;
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.22);
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-status {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-colors {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-gauge-heading span {
+  color: #86efac;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-gauge-heading small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-message {
+  background: #17251b;
+  border-color: #315b3b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .bmi-message p {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Dashboard cards */
+
+html.dark-mode .dashboard-card,
+html.dark-mode .personalized-plan {
+  background: #172033;
+  border-color: #334155;
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.22);
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .dashboard-card h3,
+html.dark-mode .personalized-plan h3 {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .dashboard-subtitle {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Nutrition */
+
+html.dark-mode .nutrition-mini-grid > div {
+  border-color: #334155;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .nutrition-mini-grid span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Challenge + Tips */
+
+html.dark-mode .challenge-card li,
+html.dark-mode .health-tips li {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Food */
+
+html.dark-mode .food-item {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .food-item:not(:last-child)::after {
+  color: #64748b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Lifestyle */
+
+html.dark-mode .lifestyle-title {
+  border-color: #334155;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .lifestyle-grid > div {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .lifestyle-grid strong {
+  color: #f1f5f9;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Disclaimer */
+
+html.dark-mode .health-disclaimer {
+  background: #172033;
+  border-color: #334155;
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-disclaimer strong {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Generated by */
+
+html.dark-mode .generated-by {
+  color: #64748b;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Dark mode — keep active selections bright */
+html.dark-mode .health-container .option.active {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #6366f1
+  ) !important;
+
+  border-color: #60a5fa !important;
+  color: #ffffff !important;
+
+  box-shadow:
+    0 6px 18px rgba(96, 165, 250, 0.25) !important;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Dark mode selected diet */
+html.dark-mode .health-container .option.active.veg {
+  background: linear-gradient(
+    135deg,
+    #15803d,
+    #4ade80
+  ) !important;
+
+  border-color: #4ade80 !important;
+  color: #ffffff !important;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-container .option.active.nonveg {
+  background: linear-gradient(
+    135deg,
+    #b91c1c,
+    #f87171
+  ) !important;
+
+  border-color: #f87171 !important;
+  color: #ffffff !important;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-container .option.active.vegan {
+  background: linear-gradient(
+    135deg,
+    #4d7c0f,
+    #84cc16
+  ) !important;
+
+  border-color: #a3e635 !important;
+  color: #ffffff !important;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+/* Dark mode selected Activity */
+html.dark-mode .health-container .activity-card.active {
+  background: linear-gradient(
+    135deg,
+    #14532d,
+    #166534
+  ) !important;
+
+  border: 2px solid #4ade80 !important;
+  color: #ffffff !important;
+
+  box-shadow:
+    0 6px 20px rgba(74, 222, 128, 0.20) !important;
+}
+
+/* SOURCE: styles/HealthProfile.css */
+html.dark-mode .health-container .activity-card.active small {
+  color: #bbf7d0 !important;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+/* =========================================================
+   DARK MODE COMPATIBILITY
+   Does not modify any other calculator.
+========================================================= */
+
+html.dark-mode .percentage-calculator-card,
+body.dark .percentage-calculator-card,
+html.dark .percentage-calculator-card,
+[data-theme="dark"] .percentage-calculator-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #1d2440,
+      #171b31
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.22);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.24);
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-result-card,
+body.dark .percentage-calculator-result-card,
+html.dark .percentage-calculator-result-card,
+[data-theme="dark"] .percentage-calculator-result-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+
+  box-shadow:
+    0 12px 32px
+    rgba(0, 0, 0, 0.28);
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-empty-result,
+body.dark .percentage-calculator-empty-result,
+html.dark .percentage-calculator-empty-result,
+[data-theme="dark"] .percentage-calculator-empty-result {
+
+  background:
+    linear-gradient(
+      145deg,
+      #1b2038,
+      #15192d
+    );
+
+  border-color:
+    rgba(129, 140, 248, 0.20);
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-header h1,
+body.dark .percentage-calculator-header h1,
+html.dark .percentage-calculator-header h1,
+[data-theme="dark"] .percentage-calculator-header h1,
+
+html.dark-mode .percentage-calculator-result-header h2,
+body.dark .percentage-calculator-result-header h2,
+html.dark .percentage-calculator-result-header h2,
+[data-theme="dark"] .percentage-calculator-result-header h2 {
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-header p,
+body.dark .percentage-calculator-header p,
+html.dark .percentage-calculator-header p,
+[data-theme="dark"] .percentage-calculator-header p,
+
+html.dark-mode .percentage-calculator-result-header p,
+body.dark .percentage-calculator-result-header p,
+html.dark .percentage-calculator-result-header p,
+[data-theme="dark"] .percentage-calculator-result-header p {
+
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-mode-section label,
+body.dark .percentage-calculator-mode-section label,
+html.dark .percentage-calculator-mode-section label,
+[data-theme="dark"] .percentage-calculator-mode-section label,
+
+html.dark-mode .percentage-calculator-field label,
+body.dark .percentage-calculator-field label,
+html.dark .percentage-calculator-field label,
+[data-theme="dark"] .percentage-calculator-field label {
+
+  color: #d8deee;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-mode-section select,
+body.dark .percentage-calculator-mode-section select,
+html.dark .percentage-calculator-mode-section select,
+[data-theme="dark"] .percentage-calculator-mode-section select,
+
+html.dark-mode .percentage-calculator-field input,
+body.dark .percentage-calculator-field input,
+html.dark .percentage-calculator-field input,
+[data-theme="dark"] .percentage-calculator-field input {
+
+  background: #111629;
+
+  border-color: #303952;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-description,
+body.dark .percentage-calculator-description,
+html.dark .percentage-calculator-description,
+[data-theme="dark"] .percentage-calculator-description {
+
+  background: rgba(30, 41, 59, 0.70);
+
+  border-color:
+    rgba(129, 140, 248, 0.15);
+
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-info,
+body.dark .percentage-calculator-info,
+html.dark .percentage-calculator-info,
+[data-theme="dark"] .percentage-calculator-info,
+
+html.dark-mode .percentage-calculator-input-summary,
+body.dark .percentage-calculator-input-summary,
+html.dark .percentage-calculator-input-summary,
+[data-theme="dark"] .percentage-calculator-input-summary,
+
+html.dark-mode .percentage-calculator-calculation-flow,
+body.dark .percentage-calculator-calculation-flow,
+html.dark .percentage-calculator-calculation-flow,
+[data-theme="dark"] .percentage-calculator-calculation-flow,
+
+html.dark-mode .percentage-calculator-equation,
+body.dark .percentage-calculator-equation,
+html.dark .percentage-calculator-equation,
+[data-theme="dark"] .percentage-calculator-equation,
+
+html.dark-mode .percentage-calculator-important,
+body.dark .percentage-calculator-important,
+html.dark .percentage-calculator-important,
+[data-theme="dark"] .percentage-calculator-important {
+
+  background: rgba(15, 23, 42, 0.62);
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-info-title,
+body.dark .percentage-calculator-info-title,
+html.dark .percentage-calculator-info-title,
+[data-theme="dark"] .percentage-calculator-info-title,
+
+html.dark-mode .percentage-calculator-section-heading,
+body.dark .percentage-calculator-section-heading,
+html.dark .percentage-calculator-section-heading,
+[data-theme="dark"] .percentage-calculator-section-heading {
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-info p,
+body.dark .percentage-calculator-info p,
+html.dark .percentage-calculator-info p,
+[data-theme="dark"] .percentage-calculator-info p,
+
+html.dark-mode .percentage-calculator-important p,
+body.dark .percentage-calculator-important p,
+html.dark .percentage-calculator-important p,
+[data-theme="dark"] .percentage-calculator-important p {
+
+  color: #aeb8cf;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-summary-item,
+body.dark .percentage-calculator-summary-item,
+html.dark .percentage-calculator-summary-item,
+[data-theme="dark"] .percentage-calculator-summary-item,
+
+html.dark-mode .percentage-calculator-flow-row,
+body.dark .percentage-calculator-flow-row,
+html.dark .percentage-calculator-flow-row,
+[data-theme="dark"] .percentage-calculator-flow-row {
+
+  background: #1c2339;
+
+  border-color: #303952;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-summary-item span,
+body.dark .percentage-calculator-summary-item span,
+html.dark .percentage-calculator-summary-item span,
+[data-theme="dark"] .percentage-calculator-summary-item span,
+
+html.dark-mode .percentage-calculator-flow-row span,
+body.dark .percentage-calculator-flow-row span,
+html.dark .percentage-calculator-flow-row span {
+
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-summary-item strong,
+body.dark .percentage-calculator-summary-item strong,
+html.dark .percentage-calculator-summary-item strong,
+[data-theme="dark"] .percentage-calculator-summary-item strong,
+
+html.dark-mode .percentage-calculator-flow-row strong,
+body.dark .percentage-calculator-flow-row strong,
+html.dark .percentage-calculator-flow-row strong {
+
+  color: #e0e7ff;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-equation strong,
+body.dark .percentage-calculator-equation strong,
+html.dark .percentage-calculator-equation strong,
+[data-theme="dark"] .percentage-calculator-equation strong {
+
+  color: #dbeafe;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-result-actions button,
+body.dark .percentage-calculator-result-actions button,
+html.dark .percentage-calculator-result-actions button,
+[data-theme="dark"] .percentage-calculator-result-actions button {
+
+  background: #1c2339;
+
+  border-color: #303952;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-reset,
+body.dark .percentage-calculator-reset,
+html.dark .percentage-calculator-reset,
+[data-theme="dark"] .percentage-calculator-reset {
+
+  background: #1c2339;
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PercentageCalculator.css */
+html.dark-mode .percentage-calculator-result-footer,
+body.dark .percentage-calculator-result-footer,
+html.dark .percentage-calculator-result-footer,
+[data-theme="dark"] .percentage-calculator-result-footer {
+
+  border-top-color: #303952;
+
+  color: #7f8aa5;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .pregnancy-card,
+html.dark-mode .pregnancy-empty-result,
+html.dark-mode .pregnancy-result-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 18px 42px
+    rgba(0, 0, 0, .30);
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-field label {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-field small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-card
+.date-input-wrapper {
+
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-card
+.date-input-wrapper:focus-within {
+
+  border-color: #818cf8;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(129, 140, 248, .14);
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-card
+.date-part {
+
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-card
+.date-part::placeholder {
+
+  color: #64748b;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-card
+.date-separator {
+
+  color: #64748b;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-reset-button {
+
+  background: #1e293b;
+
+  border-color: #334155;
+
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-info {
+
+  background:
+    linear-gradient(
+      135deg,
+      #172554,
+      #172033
+    );
+
+  border-color: #263f75;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-info strong {
+  color: #93c5fd;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-info p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-empty-result h2,
+html.dark-mode
+.pregnancy-result-header h2 {
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode
+.pregnancy-empty-result p,
+html.dark-mode
+.pregnancy-result-header p {
+
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-empty-hint {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-result-header {
+  border-color: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-date-panel {
+
+  background:
+    linear-gradient(
+      135deg,
+      #3b1d35,
+      #252038
+    );
+
+  border-color: #713f5c;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-date-panel strong,
+html.dark-mode .pregnancy-date-panel span {
+  color: #f9a8d4;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-date-panel {
+
+  background:
+    linear-gradient(
+      135deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-date-panel strong {
+  color: #c7d2fe;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-date-panel span {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-date-panel small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-section-title {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-age-box {
+
+  background:
+    linear-gradient(
+      145deg,
+      #3b1d35,
+      #252038
+    );
+
+  border-color: #713f5c;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-age-box strong {
+  color: #f9a8d4;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-age-box span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-trimester-box {
+
+  background:
+    linear-gradient(
+      135deg,
+      #3b1d35,
+      #252038
+    );
+
+  border-color: #713f5c;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-trimester-box strong {
+  color: #f9a8d4;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-trimester-box span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-progress-box {
+
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-progress-track {
+  background: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-progress-top {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-progress-top strong {
+  color: #f9a8d4;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-remaining-box {
+
+  background:
+    linear-gradient(
+      135deg,
+      #172554,
+      #172033
+    );
+
+  border-color: #263f75;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-remaining-box span {
+  color: #93c5fd;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-remaining-box strong {
+  color: #bfdbfe;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-remaining-box small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-status-box {
+
+  background:
+    linear-gradient(
+      135deg,
+      #302116,
+      #332816
+    );
+
+  border-color: #7c3f1d;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-status-box strong {
+  color: #fed7aa;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-status-box p {
+  color: #a8a29e;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-status {
+
+  background:
+    linear-gradient(
+      135deg,
+      #10291c,
+      #132d20
+    );
+
+  border-color: #245c38;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-status strong {
+  color: #86efac;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-due-status p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-disclaimer {
+
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-disclaimer strong {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-disclaimer p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-result-actions {
+  border-top-color: #334155;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-copy-button {
+  background: #172554;
+  border-color: #1e40af;
+  color: #bfdbfe;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-share-button {
+  background: #052e16;
+  border-color: #166534;
+  color: #bbf7d0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-download-button {
+  background: #2e1065;
+  border-color: #6d28d9;
+  color: #ddd6fe;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-print-button {
+  background: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-action-message {
+  background: #052e16;
+  border-color: #166534;
+  color: #bbf7d0;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-result-footer {
+  border-color: #334155;
+  color: #64748b;
+}
+
+/* SOURCE: styles/PregnancyCalculator.css */
+html.dark-mode .pregnancy-result-footer strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .reminder-picker {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.20);
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #302116,
+      #332716
+    );
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-heading h3 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-heading p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-option {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-option:hover {
+  background: #263246;
+  border-color: #6366f1;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-option-icon {
+  background: #263246;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .reminder-option.active {
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #8b5cf6
+    );
+
+  border-color: transparent;
+  color: #ffffff;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .custom-reminder-box {
+  background: #1b2639;
+  border-color: #334155;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .custom-reminder-title {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .custom-reminder-controls input,
+html.dark-mode .custom-reminder-controls select {
+  background: #1e293b;
+  border-color: #475569;
+  color: #f1f5f9;
+}
+
+/* SOURCE: styles/ReminderPicker.css */
+html.dark-mode .custom-reminder-controls input:focus,
+html.dark-mode .custom-reminder-controls select:focus {
+  border-color: #818cf8;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .retirement-card,
+html.dark-mode .retirement-empty-result {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 16px 38px
+    rgba(0, 0, 0, 0.25);
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-field > label {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-number-wrapper {
+  background: #1e293b;
+
+  border-color: #475569;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-number-wrapper input {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-number-unit {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reminder-box {
+  background:
+    linear-gradient(
+      145deg,
+      #1b2639,
+      #1b2340
+    );
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reminder-header h3 {
+  color: #f1f5f9;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reminder-header p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reminder-option {
+  background: #1e293b;
+
+  border-color: #475569;
+
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reminder-option.active {
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #8b5cf6
+    );
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-custom-reminder {
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-custom-reminder label {
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-custom-input input {
+  background: #172033;
+
+  border-color: #475569;
+
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-custom-input span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-reset-button {
+  background: #1e293b;
+
+  border-color: #475569;
+
+  color: #cbd5e1;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-empty-result h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-empty-result p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementCalculator.css */
+html.dark-mode .retirement-error {
+  color: #fca5a5;
+
+  background: #351b21;
+
+  border-color: #6b2733;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+html.dark-mode .retirement-result-card {
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #141c2d
+    );
+
+  border-color: #26324a;
+
+  box-shadow:
+    0 18px 42px
+    rgba(0,0,0,.30);
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-result-header {
+  border-color: #334155;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-result-title h2 {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-result-title p {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-date-panel {
+  background:
+    linear-gradient(
+      135deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-date-panel strong {
+  color: #c7d2fe;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-date-panel small {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-section-title {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-countdown-box {
+  background:
+    linear-gradient(
+      145deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-countdown-box strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-countdown-box span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-time-row > div {
+  background: #1e293b;
+
+  border-color: #334155;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-time-row strong {
+  color: #e2e8f0;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-time-row span {
+  color: #94a3b8;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-completed {
+  background:
+    linear-gradient(
+      135deg,
+      #10291c,
+      #132d20
+    );
+
+  border-color: #245c38;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-completed h3,
+html.dark-mode .retirement-completed p {
+  color: #86efac;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-wish {
+  background: rgba(15,23,42,.35);
+
+  color: #bbf7d0;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-reminder-result {
+  background:
+    linear-gradient(
+      135deg,
+      #302116,
+      #332816
+    );
+
+  border-color: #7c3f1d;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-reminder-result-icon {
+  background: #1e293b;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-reminder-result span {
+  color: #fdba74;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-reminder-result strong {
+  color: #fed7aa;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-reminder-result small {
+  color: #a8a29e;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-result-footer {
+  border-color: #334155;
+
+  color: #64748b;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-result-footer strong {
+  color: #a5b4fc;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.share {
+  color: #c7d2fe;
+
+  background: #24265a;
+
+  border-color: #3b4380;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.copy {
+  color: #7dd3fc;
+
+  background: #102a3b;
+
+  border-color: #24506a;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.download {
+  color: #86efac;
+
+  background: #10291c;
+
+  border-color: #245c38;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.print {
+  color: #fdba74;
+
+  background: #302116;
+
+  border-color: #7c3f1d;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+/* =========================================================
+   DOB LINE — DARK MODE CLEANUP
+   ========================================================= */
+
+html.dark-mode .retirement-dob-line {
+  color: #cbd5e1;
+
+  background:
+    linear-gradient(
+      135deg,
+      #202a4a,
+      #25204a
+    );
+
+  border-color: #35416a;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-dob-line strong {
+  color: #f8fafc;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+/* =========================================================
+   ACTION BUTTONS — DARK MODE POLISH
+   ========================================================= */
+
+html.dark-mode .retirement-result-actions {
+  gap: 9px;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action {
+  color: #e2e8f0;
+  font-weight: 750;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.share {
+  color: #c7d2fe;
+  background: #24265a;
+  border-color: #4b5794;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.copy {
+  color: #7dd3fc;
+  background: #102a3b;
+  border-color: #2c6380;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.download {
+  color: #86efac;
+  background: #10291c;
+  border-color: #2f7047;
+}
+
+/* SOURCE: styles/RetirementResultCard.css */
+html.dark-mode .retirement-action.print {
+  color: #fdba74;
+  background: #302116;
+  border-color: #8a4b25;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* =========================================================
+   DARK MODE
+   ONLY COLORS ARE OVERRIDDEN
+   LIGHT MODE REMAINS UNCHANGED
+========================================================= */
+
+
+/* ---------- INPUT CARD ---------- */
+
+html.dark .unit-converter-card,
+body.dark .unit-converter-card,
+html.dark-mode .unit-converter-card,
+body[data-theme="dark"] .unit-converter-card,
+.dark .unit-converter-card,
+[data-theme="dark"] .unit-converter-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #172554 0%,
+      #111827 78%
+    ) !important;
+
+  border-color:
+    rgba(96, 165, 250, 0.22) !important;
+
+  box-shadow:
+    0 10px 28px
+    rgba(0, 0, 0, 0.30) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- LABELS ---------- */
+
+html.dark .unit-converter-field label,
+body.dark .unit-converter-field label,
+html.dark-mode .unit-converter-field label,
+body[data-theme="dark"] .unit-converter-field label,
+.dark .unit-converter-field label,
+[data-theme="dark"] .unit-converter-field label {
+
+  color:
+    #e2e8f0 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- INPUT + SELECT ---------- */
+
+html.dark .unit-converter-field input,
+html.dark .unit-converter-field select,
+body.dark .unit-converter-field input,
+body.dark .unit-converter-field select,
+html.dark-mode .unit-converter-field input,
+html.dark-mode .unit-converter-field select,
+body[data-theme="dark"] .unit-converter-field input,
+body[data-theme="dark"] .unit-converter-field select,
+.dark .unit-converter-field input,
+.dark .unit-converter-field select,
+[data-theme="dark"] .unit-converter-field input,
+[data-theme="dark"] .unit-converter-field select {
+
+  background:
+    #1e293b !important;
+
+  color:
+    #f8fafc !important;
+
+  border-color:
+    #475569 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- SELECT OPTIONS ---------- */
+
+html.dark .unit-converter-field select option,
+body.dark .unit-converter-field select option,
+html.dark-mode .unit-converter-field select option,
+body[data-theme="dark"] .unit-converter-field select option,
+.dark .unit-converter-field select option,
+[data-theme="dark"] .unit-converter-field select option {
+
+  background:
+    #1e293b !important;
+
+  color:
+    #f8fafc !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- PLACEHOLDER ---------- */
+
+html.dark .unit-converter-field input::placeholder,
+body.dark .unit-converter-field input::placeholder,
+html.dark-mode .unit-converter-field input::placeholder,
+body[data-theme="dark"] .unit-converter-field input::placeholder,
+.dark .unit-converter-field input::placeholder,
+[data-theme="dark"] .unit-converter-field input::placeholder {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- FOCUS ---------- */
+
+html.dark .unit-converter-field input:focus,
+html.dark .unit-converter-field select:focus,
+body.dark .unit-converter-field input:focus,
+body.dark .unit-converter-field select:focus,
+html.dark-mode .unit-converter-field input:focus,
+html.dark-mode .unit-converter-field select:focus,
+body[data-theme="dark"] .unit-converter-field input:focus,
+body[data-theme="dark"] .unit-converter-field select:focus,
+.dark .unit-converter-field input:focus,
+.dark .unit-converter-field select:focus,
+[data-theme="dark"] .unit-converter-field input:focus,
+[data-theme="dark"] .unit-converter-field select:focus {
+
+  border-color:
+    #818cf8 !important;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(129, 140, 248, 0.16) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- SWAP ---------- */
+
+html.dark .unit-converter-swap,
+body.dark .unit-converter-swap,
+html.dark-mode .unit-converter-swap,
+body[data-theme="dark"] .unit-converter-swap,
+.dark .unit-converter-swap,
+[data-theme="dark"] .unit-converter-swap {
+
+  background:
+    #1e293b !important;
+
+  color:
+    #a5b4fc !important;
+
+  border-color:
+    #475569 !important;
+
+  box-shadow:
+    0 4px 12px
+    rgba(0, 0, 0, 0.22) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-swap:hover,
+body.dark .unit-converter-swap:hover,
+html.dark-mode .unit-converter-swap:hover,
+body[data-theme="dark"] .unit-converter-swap:hover,
+.dark .unit-converter-swap:hover,
+[data-theme="dark"] .unit-converter-swap:hover {
+
+  background:
+    #312e81 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- ERROR ---------- */
+
+html.dark .unit-converter-error,
+body.dark .unit-converter-error,
+html.dark-mode .unit-converter-error,
+body[data-theme="dark"] .unit-converter-error,
+.dark .unit-converter-error,
+[data-theme="dark"] .unit-converter-error {
+
+  background:
+    #450a0a !important;
+
+  border-color:
+    #7f1d1d !important;
+
+  color:
+    #fda4af !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- CALCULATE ---------- */
+
+html.dark .unit-converter-calculate,
+body.dark .unit-converter-calculate,
+html.dark-mode .unit-converter-calculate,
+body[data-theme="dark"] .unit-converter-calculate,
+.dark .unit-converter-calculate,
+[data-theme="dark"] .unit-converter-calculate {
+
+  background:
+    linear-gradient(
+      135deg,
+      #6366f1,
+      #818cf8
+    ) !important;
+
+  color:
+    #ffffff !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- RESET ---------- */
+
+html.dark .unit-converter-reset,
+body.dark .unit-converter-reset,
+html.dark-mode .unit-converter-reset,
+body[data-theme="dark"] .unit-converter-reset,
+.dark .unit-converter-reset,
+[data-theme="dark"] .unit-converter-reset {
+
+  background:
+    #1e293b !important;
+
+  color:
+    #cbd5e1 !important;
+
+  border-color:
+    #475569 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- INFO ---------- */
+
+html.dark .unit-converter-info,
+body.dark .unit-converter-info,
+html.dark-mode .unit-converter-info,
+body[data-theme="dark"] .unit-converter-info,
+.dark .unit-converter-info,
+[data-theme="dark"] .unit-converter-info {
+
+  background:
+    rgba(30, 41, 59, 0.90) !important;
+
+  border-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-info strong,
+body.dark .unit-converter-info strong,
+html.dark-mode .unit-converter-info strong,
+body[data-theme="dark"] .unit-converter-info strong,
+.dark .unit-converter-info strong,
+[data-theme="dark"] .unit-converter-info strong {
+
+  color:
+    #e2e8f0 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-info p,
+body.dark .unit-converter-info p,
+html.dark-mode .unit-converter-info p,
+body[data-theme="dark"] .unit-converter-info p,
+.dark .unit-converter-info p,
+[data-theme="dark"] .unit-converter-info p {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* =========================================================
+   DARK EMPTY RESULT
+========================================================= */
+
+html.dark .unit-converter-empty-result,
+body.dark .unit-converter-empty-result,
+html.dark-mode .unit-converter-empty-result,
+body[data-theme="dark"] .unit-converter-empty-result,
+.dark .unit-converter-empty-result,
+[data-theme="dark"] .unit-converter-empty-result {
+
+  background:
+    linear-gradient(
+      145deg,
+      #111827,
+      #1e293b
+    ) !important;
+
+  border-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-empty-result h2,
+body.dark .unit-converter-empty-result h2,
+html.dark-mode .unit-converter-empty-result h2,
+body[data-theme="dark"] .unit-converter-empty-result h2,
+.dark .unit-converter-empty-result h2,
+[data-theme="dark"] .unit-converter-empty-result h2 {
+
+  color:
+    #f1f5f9 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-empty-result p,
+body.dark .unit-converter-empty-result p,
+html.dark-mode .unit-converter-empty-result p,
+body[data-theme="dark"] .unit-converter-empty-result p,
+.dark .unit-converter-empty-result p,
+[data-theme="dark"] .unit-converter-empty-result p {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-empty-result span,
+body.dark .unit-converter-empty-result span,
+html.dark-mode .unit-converter-empty-result span,
+body[data-theme="dark"] .unit-converter-empty-result span,
+.dark .unit-converter-empty-result span,
+[data-theme="dark"] .unit-converter-empty-result span {
+
+  background:
+    #312e81 !important;
+
+  color:
+    #c7d2fe !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* =========================================================
+   DARK RESULT CARD
+========================================================= */
+
+html.dark .unit-converter-result-card,
+body.dark .unit-converter-result-card,
+html.dark-mode .unit-converter-result-card,
+body[data-theme="dark"] .unit-converter-result-card,
+.dark .unit-converter-result-card,
+[data-theme="dark"] .unit-converter-result-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #111827,
+      #0f172a
+    ) !important;
+
+  border-color:
+    #334155 !important;
+
+  box-shadow:
+    0 12px 30px
+    rgba(0, 0, 0, 0.35) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- RESULT HEADER ---------- */
+
+html.dark .unit-converter-result-header,
+body.dark .unit-converter-result-header,
+html.dark-mode .unit-converter-result-header,
+body[data-theme="dark"] .unit-converter-result-header,
+.dark .unit-converter-result-header,
+[data-theme="dark"] .unit-converter-result-header {
+
+  border-bottom-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-result-icon,
+body.dark .unit-converter-result-icon,
+html.dark-mode .unit-converter-result-icon,
+body[data-theme="dark"] .unit-converter-result-icon,
+.dark .unit-converter-result-icon,
+[data-theme="dark"] .unit-converter-result-icon {
+
+  background:
+    linear-gradient(
+      135deg,
+      #312e81,
+      #1e1b4b
+    ) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-result-header h2,
+body.dark .unit-converter-result-header h2,
+html.dark-mode .unit-converter-result-header h2,
+body[data-theme="dark"] .unit-converter-result-header h2,
+.dark .unit-converter-result-header h2,
+[data-theme="dark"] .unit-converter-result-header h2 {
+
+  color:
+    #f8fafc !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-result-header p,
+body.dark .unit-converter-result-header p,
+html.dark-mode .unit-converter-result-header p,
+body[data-theme="dark"] .unit-converter-result-header p,
+.dark .unit-converter-result-header p,
+[data-theme="dark"] .unit-converter-result-header p {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- SUMMARY ---------- */
+
+html.dark .unit-converter-summary-title,
+body.dark .unit-converter-summary-title,
+html.dark-mode .unit-converter-summary-title,
+body[data-theme="dark"] .unit-converter-summary-title,
+.dark .unit-converter-summary-title,
+[data-theme="dark"] .unit-converter-summary-title {
+
+  color:
+    #e2e8f0 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-summary-box,
+body.dark .unit-converter-summary-box,
+html.dark-mode .unit-converter-summary-box,
+body[data-theme="dark"] .unit-converter-summary-box,
+.dark .unit-converter-summary-box,
+[data-theme="dark"] .unit-converter-summary-box {
+
+  background:
+    linear-gradient(
+      145deg,
+      #1e293b,
+      #172033
+    ) !important;
+
+  border-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-summary-box span,
+body.dark .unit-converter-summary-box span,
+html.dark-mode .unit-converter-summary-box span,
+body[data-theme="dark"] .unit-converter-summary-box span,
+.dark .unit-converter-summary-box span,
+[data-theme="dark"] .unit-converter-summary-box span {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-summary-box strong,
+body.dark .unit-converter-summary-box strong,
+html.dark-mode .unit-converter-summary-box strong,
+body[data-theme="dark"] .unit-converter-summary-box strong,
+.dark .unit-converter-summary-box strong,
+[data-theme="dark"] .unit-converter-summary-box strong {
+
+  color:
+    #f1f5f9 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-summary-box small,
+body.dark .unit-converter-summary-box small,
+html.dark-mode .unit-converter-summary-box small,
+body[data-theme="dark"] .unit-converter-summary-box small,
+.dark .unit-converter-summary-box small,
+[data-theme="dark"] .unit-converter-summary-box small {
+
+  color:
+    #64748b !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- MAIN RESULT ---------- */
+
+html.dark .unit-converter-main-result,
+body.dark .unit-converter-main-result,
+html.dark-mode .unit-converter-main-result,
+body[data-theme="dark"] .unit-converter-main-result,
+.dark .unit-converter-main-result,
+[data-theme="dark"] .unit-converter-main-result {
+
+  background:
+    linear-gradient(
+      135deg,
+      #1e1b4b,
+      #312e81
+    ) !important;
+
+  border-color:
+    #4338ca !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-main-result span,
+body.dark .unit-converter-main-result span,
+html.dark-mode .unit-converter-main-result span,
+body[data-theme="dark"] .unit-converter-main-result span,
+.dark .unit-converter-main-result span,
+[data-theme="dark"] .unit-converter-main-result span {
+
+  color:
+    #a5b4fc !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-main-result strong,
+body.dark .unit-converter-main-result strong,
+html.dark-mode .unit-converter-main-result strong,
+body[data-theme="dark"] .unit-converter-main-result strong,
+.dark .unit-converter-main-result strong,
+[data-theme="dark"] .unit-converter-main-result strong {
+
+  color:
+    #ffffff !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-main-result small,
+body.dark .unit-converter-main-result small,
+html.dark-mode .unit-converter-main-result small,
+body[data-theme="dark"] .unit-converter-main-result small,
+.dark .unit-converter-main-result small,
+[data-theme="dark"] .unit-converter-main-result small {
+
+  color:
+    #cbd5e1 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- EQUATION ---------- */
+
+html.dark .unit-converter-equation,
+body.dark .unit-converter-equation,
+html.dark-mode .unit-converter-equation,
+body[data-theme="dark"] .unit-converter-equation,
+.dark .unit-converter-equation,
+[data-theme="dark"] .unit-converter-equation {
+
+  background:
+    #1e293b !important;
+
+  border-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-equation span,
+body.dark .unit-converter-equation span,
+html.dark-mode .unit-converter-equation span,
+body[data-theme="dark"] .unit-converter-equation span,
+.dark .unit-converter-equation span,
+[data-theme="dark"] .unit-converter-equation span {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-equation strong,
+body.dark .unit-converter-equation strong,
+html.dark-mode .unit-converter-equation strong,
+body[data-theme="dark"] .unit-converter-equation strong,
+.dark .unit-converter-equation strong,
+[data-theme="dark"] .unit-converter-equation strong {
+
+  color:
+    #e2e8f0 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- IMPORTANT BOX ---------- */
+
+html.dark .unit-converter-important,
+body.dark .unit-converter-important,
+html.dark-mode .unit-converter-important,
+body[data-theme="dark"] .unit-converter-important,
+.dark .unit-converter-important,
+[data-theme="dark"] .unit-converter-important {
+
+  background:
+    #1e293b !important;
+
+  border-color:
+    #334155 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-important strong,
+body.dark .unit-converter-important strong,
+html.dark-mode .unit-converter-important strong,
+body[data-theme="dark"] .unit-converter-important strong,
+.dark .unit-converter-important strong,
+[data-theme="dark"] .unit-converter-important strong {
+
+  color:
+    #cbd5e1 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-important p,
+body.dark .unit-converter-important p,
+html.dark-mode .unit-converter-important p,
+body[data-theme="dark"] .unit-converter-important p,
+.dark .unit-converter-important p,
+[data-theme="dark"] .unit-converter-important p {
+
+  color:
+    #94a3b8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- RESULT FOOTER ---------- */
+
+html.dark .unit-converter-result-footer,
+body.dark .unit-converter-result-footer,
+html.dark-mode .unit-converter-result-footer,
+body[data-theme="dark"] .unit-converter-result-footer,
+.dark .unit-converter-result-footer,
+[data-theme="dark"] .unit-converter-result-footer {
+
+  border-top-color:
+    #334155 !important;
+
+  color:
+    #64748b !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-result-footer strong,
+body.dark .unit-converter-result-footer strong,
+html.dark-mode .unit-converter-result-footer strong,
+body[data-theme="dark"] .unit-converter-result-footer strong,
+.dark .unit-converter-result-footer strong,
+[data-theme="dark"] .unit-converter-result-footer strong {
+
+  color:
+    #818cf8 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- RESULT ACTIONS ---------- */
+
+html.dark .unit-converter-result-actions button,
+body.dark .unit-converter-result-actions button,
+html.dark-mode .unit-converter-result-actions button,
+body[data-theme="dark"] .unit-converter-result-actions button,
+.dark .unit-converter-result-actions button,
+[data-theme="dark"] .unit-converter-result-actions button {
+
+  background:
+    #1e293b !important;
+
+  color:
+    #e2e8f0 !important;
+
+  border-color:
+    #475569 !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+html.dark .unit-converter-result-actions button:hover,
+body.dark .unit-converter-result-actions button:hover,
+html.dark-mode .unit-converter-result-actions button:hover,
+body[data-theme="dark"] .unit-converter-result-actions button:hover,
+.dark .unit-converter-result-actions button:hover,
+[data-theme="dark"] .unit-converter-result-actions button:hover {
+
+  background:
+    #334155 !important;
+
+  box-shadow:
+    0 6px 14px
+    rgba(0, 0, 0, 0.25) !important;
+}
+
+/* SOURCE: styles/UnitConverter.css */
+/* ---------- ACTION MESSAGE ---------- */
+
+html.dark .unit-converter-action-message,
+body.dark .unit-converter-action-message,
+html.dark-mode .unit-converter-action-message,
+body[data-theme="dark"] .unit-converter-action-message,
+.dark .unit-converter-action-message,
+[data-theme="dark"] .unit-converter-action-message {
+
+  background:
+    #052e16 !important;
+
+  border-color:
+    #166534 !important;
+
+  color:
+    #86efac !important;
+}
+/* =========================================================
+   AGEVERSE — FINAL DARK MODE CALCULATOR SURFACE PATCH
+   Fixes:
+   Percentage / GST / EMI / Discount / SIP / FD / RD / Dog Age
+   Age Calculator + common nested cards
+   ========================================================= */
+
+html.dark-mode main {
+
+  /* -------------------------------------------------------
+     1. COMMON INNER CARDS / TIPS / INFO BOXES
+     ------------------------------------------------------- */
+
+  [class*="quick-tip"],
+  [class*="quickTip"],
+  [class*="tip-card"],
+  [class*="tip-box"],
+  [class*="info-card"],
+  [class*="info-box"],
+  [class*="help-card"],
+  [class*="how-it-works"],
+  [class*="howItWorks"],
+  [class*="about-card"],
+  [class*="about-box"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text-light) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  /* -------------------------------------------------------
+     2. TEXT INSIDE THESE BOXES
+     ------------------------------------------------------- */
+
+  [class*="quick-tip"] *,
+  [class*="quickTip"] *,
+  [class*="tip-card"] *,
+  [class*="tip-box"] *,
+  [class*="info-card"] *,
+  [class*="info-box"] *,
+  [class*="help-card"] *,
+  [class*="how-it-works"] *,
+  [class*="howItWorks"] *,
+  [class*="about-card"] *,
+  [class*="about-box"] * {
+    color: inherit;
+  }
+
+
+  /* Headings inside tips/info */
+  [class*="quick-tip"] h1,
+  [class*="quick-tip"] h2,
+  [class*="quick-tip"] h3,
+  [class*="quick-tip"] h4,
+  [class*="quick-tip"] strong,
+
+  [class*="tip-card"] h1,
+  [class*="tip-card"] h2,
+  [class*="tip-card"] h3,
+  [class*="tip-card"] h4,
+  [class*="tip-card"] strong,
+
+  [class*="info-card"] h1,
+  [class*="info-card"] h2,
+  [class*="info-card"] h3,
+  [class*="info-card"] h4,
+  [class*="info-card"] strong,
+
+  [class*="about-card"] h1,
+  [class*="about-card"] h2,
+  [class*="about-card"] h3,
+  [class*="about-card"] h4,
+  [class*="about-card"] strong {
+    color: var(--text-heading) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     3. RESULT BADGES / CHIPS
+     White pills seen in SIP / Dog Age etc.
+     ------------------------------------------------------- */
+
+  [class*="result"] [class*="badge"],
+  [class*="result"] [class*="Badge"],
+  [class*="result"] [class*="chip"],
+  [class*="result"] [class*="Chip"],
+  [class*="result"] [class*="tag"],
+  [class*="result"] [class*="Tag"],
+  [class*="result"] [class*="pill"],
+  [class*="result"] [class*="Pill"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text-light) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     4. EMPTY RESULT BADGES
+     ------------------------------------------------------- */
+
+  [class*="empty"] [class*="badge"],
+  [class*="empty"] [class*="Badge"],
+  [class*="empty"] [class*="chip"],
+  [class*="empty"] [class*="Chip"],
+  [class*="empty"] [class*="pill"],
+  [class*="empty"] [class*="Pill"] {
+    background: var(--surface-soft) !important;
+    color: var(--text-light) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     5. GENERIC CALCULATOR SUB-SECTIONS
+     ------------------------------------------------------- */
+
+  [class*="summary-box"],
+  [class*="summary-card"],
+  [class*="summary-item"],
+  [class*="metric-card"],
+  [class*="breakdown-card"],
+  [class*="section-card"],
+  [class*="calculation-box"],
+  [class*="calculation-card"],
+  [class*="details-card"],
+  [class*="details-box"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     6. INPUT WRAPPERS
+     ------------------------------------------------------- */
+
+  [class*="input-group"],
+  [class*="input-wrapper"],
+  [class*="field-group"],
+  [class*="form-group"] {
+    color: var(--text) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     7. DOG AGE CALCULATOR
+     ------------------------------------------------------- */
+
+  [class*="dog-age"] [class*="tip"],
+  [class*="dog-age"] [class*="about"],
+  [class*="dog-age"] [class*="info"],
+  [class*="dog-age"] [class*="card"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     8. SIP / FD / RD
+     ------------------------------------------------------- */
+
+  [class*="sip"] [class*="tip"],
+  [class*="sip"] [class*="info"],
+  [class*="sip"] [class*="summary"],
+  [class*="fd"] [class*="tip"],
+  [class*="fd"] [class*="info"],
+  [class*="fd"] [class*="summary"],
+  [class*="rd"] [class*="tip"],
+  [class*="rd"] [class*="info"],
+  [class*="rd"] [class*="summary"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     9. EMI / GST / DISCOUNT / PERCENTAGE
+     ------------------------------------------------------- */
+
+  [class*="emi"] [class*="tip"],
+  [class*="emi"] [class*="info"],
+  [class*="emi"] [class*="summary"],
+
+  [class*="gst"] [class*="tip"],
+  [class*="gst"] [class*="info"],
+  [class*="gst"] [class*="summary"],
+
+  [class*="discount"] [class*="tip"],
+  [class*="discount"] [class*="info"],
+  [class*="discount"] [class*="summary"],
+
+  [class*="percentage"] [class*="tip"],
+  [class*="percentage"] [class*="info"],
+  [class*="percentage"] [class*="summary"] {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     10. AGE CALCULATOR — INNER PANELS
+     ------------------------------------------------------- */
+
+  [class*="age-calculator"] [class*="tip"],
+  [class*="age-calculator"] [class*="info"],
+  [class*="age-calculator"] [class*="summary"],
+  [class*="age-calculator"] [class*="section"],
+  [class*="age-calculator"] [class*="card"] {
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     11. AGE CALCULATOR — CALCULATE AGE TILL AREA
+     ------------------------------------------------------- */
+
+  [class*="age-calculator"] [class*="calculate-age"],
+  [class*="age-calculator"] [class*="age-till"],
+  [class*="age-calculator"] [class*="calculation-mode"],
+  [class*="age-calculator"] [class*="mode-selector"] {
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     12. AGE CALCULATOR — INFO MESSAGE
+     ------------------------------------------------------- */
+
+  [class*="age-calculator"] [class*="message"],
+  [class*="age-calculator"] [class*="notice"],
+  [class*="age-calculator"] [class*="alert"],
+  [class*="age-calculator"] [class*="status"] {
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* -------------------------------------------------------
+     13. DARK MODE — WHITE SURFACE FALLBACK
+     Only inside calculator content.
+     Does NOT touch buttons / inputs / images.
+     ------------------------------------------------------- */
+
+  [class*="calculator"] > div:not(
+    [class*="button"],
+    [class*="action"],
+    [class*="input"],
+    [class*="header"]
+  ) {
+    border-color: var(--border);
+  }
+
+
+  /* -------------------------------------------------------
+     14. SVG / ICON CONTAINERS
+     ------------------------------------------------------- */
+
+  [class*="icon-box"],
+  [class*="icon-container"],
+  [class*="calculator-icon"],
+  [class*="result-icon"] {
+    background-image: none !important;
+    border-color: var(--border) !important;
+  }
+
+}
+
+
+/* =========================================================
+   FINAL DARK MODE — FORM CONTROLS
+   ========================================================= */
+
+html.dark-mode main input,
+html.dark-mode main select,
+html.dark-mode main textarea {
+  background: var(--input-background) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+html.dark-mode main input::placeholder,
+html.dark-mode main textarea::placeholder {
+  color: var(--placeholder) !important;
+}
+
+
+/* =========================================================
+   FINAL DARK MODE — SELECT OPTION
+   ========================================================= */
+
+html.dark-mode option {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   FINAL DARK MODE — DISABLED RESET BUTTON
+   Keep disabled buttons visually different
+   ========================================================= */
+
+html.dark-mode main button:disabled {
+  color: var(--text-muted) !important;
+  border-color: var(--border) !important;
+}
+/* =========================================================
+   AGEVERSE — FINAL CALCULATOR DARK SURFACE SYSTEM
+   SOURCE-BASED FIX
+   ========================================================= */
+
+html.dark-mode {
+
+  /* =======================================================
+     COMMON CALCULATOR INNER SURFACES
+     ======================================================= */
+
+  .calculator-left,
+  .calculator-right {
+    background: var(--card-background) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--card-border) !important;
+    box-shadow: var(--shadow) !important;
+  }
+
+
+  /* =======================================================
+     SIP / FD / RD / DOG AGE
+     LEFT SIDE INNER SURFACES
+     ======================================================= */
+
+  .sip-calculator-page
+  :is(
+    .sip-stepup-section,
+    .sip-calculator-info,
+    .sip-calculator-error
+  ),
+
+  .fd-calculator-page
+  :is(
+    .fd-senior-section,
+    .fd-calculator-info,
+    .fd-calculator-error
+  ),
+
+  .rd-calculator-page
+  :is(
+    .rd-compounding-section,
+    .rd-calculator-info,
+    .rd-calculator-error
+  ),
+
+  .dog-age-calculator-page
+  :is(
+    .dog-age-info-section,
+    .dog-age-calculator-info,
+    .dog-age-calculator-error
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  /* =======================================================
+     SIP / FD / RD / DOG AGE — INFO/TIP TEXT
+     ======================================================= */
+
+  .sip-calculator-page
+  :is(
+    .sip-stepup-section,
+    .sip-calculator-info
+  ) *,
+
+  .fd-calculator-page
+  :is(
+    .fd-senior-section,
+    .fd-calculator-info
+  ) *,
+
+  .rd-calculator-page
+  :is(
+    .rd-compounding-section,
+    .rd-calculator-info
+  ) *,
+
+  .dog-age-calculator-page
+  :is(
+    .dog-age-info-section,
+    .dog-age-calculator-info
+  ) * {
+    border-color: var(--border);
+  }
+
+
+  /* =======================================================
+     DOG AGE — EXACT LIGHT SURFACES
+     ======================================================= */
+
+  .dog-age-calculator-page
+  :is(
+    .dog-age-input-summary,
+    .dog-age-summary-item,
+    .dog-age-metric-card,
+    .dog-age-flow-box,
+    .dog-age-equation,
+    .dog-age-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  /* Dog age flow result keeps an accent but becomes dark */
+  .dog-age-calculator-page .dog-age-flow-result {
+    background: #123524 !important;
+    color: #86efac !important;
+    border-color: #166534 !important;
+  }
+
+
+  /* Dog age next birthday */
+  .dog-age-calculator-page .dog-age-next-birthday {
+    background: #2d2115 !important;
+    background-image: none !important;
+    color: #fbbf24 !important;
+    border-color: #854d0e !important;
+  }
+
+
+  /* =======================================================
+     SIP / FD / RD — RESULT INNER SURFACES
+     ======================================================= */
+
+  .sip-calculator-page
+  :is(
+    .sip-calculator-input-summary,
+    .sip-calculator-summary-item,
+    .sip-calculator-main-result,
+    .sip-calculator-summary-card,
+    .sip-repayment-item,
+    .sip-calculator-flow,
+    .sip-flow-row,
+    .sip-calculator-equation,
+    .sip-calculator-important
+  ),
+
+  .fd-calculator-page
+  :is(
+    .fd-calculator-input-summary,
+    .fd-summary-item,
+    .fd-calculator-main-result,
+    .fd-metric-card,
+    .fd-flow-item,
+    .fd-flow-result,
+    .fd-equation,
+    .fd-important
+  ),
+
+  .rd-calculator-page
+  :is(
+    .rd-calculator-input-summary,
+    .rd-summary-item,
+    .rd-calculator-main-result,
+    .rd-metric-card,
+    .rd-flow-item,
+    .rd-flow-result,
+    .rd-equation,
+    .rd-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  /* =======================================================
+     SIP / FD / RD — MAIN RESULT AREAS
+     ======================================================= */
+
+  .sip-calculator-page
+  :is(
+    .sip-main-result,
+    .sip-calculator-main-result
+  ),
+
+  .fd-calculator-page
+  .fd-calculator-main-result,
+
+  .rd-calculator-page
+  .rd-calculator-main-result {
+    background: #172554 !important;
+    background-image: none !important;
+    border-color: #334155 !important;
+    color: #f8fafc !important;
+  }
+
+
+  /* =======================================================
+     EMI
+     ======================================================= */
+
+  .emi-calculator-page
+  :is(
+    .emi-calculator-info,
+    .emi-calculator-input-summary,
+    .emi-calculator-summary-item,
+    .emi-calculator-summary-card,
+    .emi-repayment-item,
+    .emi-calculator-flow,
+    .emi-flow-row,
+    .emi-calculator-share-summary,
+    .emi-composition-grid > div,
+    .emi-calculator-equation,
+    .emi-calculator-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  /* EMI full repayment/result row */
+  .emi-calculator-page .emi-repayment-full,
+  .emi-calculator-page .emi-flow-result {
+    background: #172554 !important;
+    background-image: none !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+  }
+
+
+  /* =======================================================
+     GST
+     ======================================================= */
+
+  .gst-calculator-page
+  :is(
+    .gst-calculator-description,
+    .gst-calculator-info,
+    .gst-calculator-input-summary,
+    .gst-calculator-summary-item,
+    .gst-calculator-tax-summary,
+    .gst-tax-summary-item,
+    .gst-calculator-calculation-flow,
+    .gst-calculator-flow-row,
+    .gst-calculator-equation,
+    .gst-calculator-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  .gst-calculator-page .gst-calculator-flow-result {
+    background: #172554 !important;
+    background-image: none !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+  }
+
+
+  /* GST tax option */
+  .gst-calculator-page .gst-tax-option {
+    background: var(--input-background) !important;
+    color: var(--text) !important;
+    border-color: var(--input-border) !important;
+  }
+
+  .gst-calculator-page .gst-tax-option:has(input:checked) {
+    background: #1e1b4b !important;
+    color: #c7d2fe !important;
+    border-color: #6366f1 !important;
+  }
+
+
+  /* =======================================================
+     DISCOUNT
+     ======================================================= */
+
+  .discount-calculator-page
+  :is(
+    .discount-calculator-description,
+    .discount-helper,
+    .discount-slab,
+    .discount-calculator-info,
+    .discount-input-summary,
+    .discount-summary-item,
+    .discount-calculation-flow,
+    .discount-breakdown-row,
+    .discount-flow-item,
+    .discount-equation,
+    .discount-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  .discount-calculator-page .discount-flow-result {
+    background: #172554 !important;
+    background-image: none !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+  }
+
+
+  .discount-calculator-page .discount-saving-card > div {
+    background: var(--surface-soft) !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* =======================================================
+     PERCENTAGE
+     ======================================================= */
+
+  .percentage-calculator-page
+  :is(
+    .percentage-calculator-description,
+    .percentage-calculator-info,
+    .percentage-calculator-input-summary,
+    .percentage-calculator-summary-item,
+    .percentage-calculator-calculation-flow,
+    .percentage-calculator-flow-row,
+    .percentage-calculator-equation,
+    .percentage-calculator-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+    box-shadow: none !important;
+  }
+
+
+  .percentage-calculator-page .percentage-calculator-flow-result {
+    background: #172554 !important;
+    background-image: none !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+  }
+
+
+  /* =======================================================
+     UNIT CONVERTER
+     ======================================================= */
+
+  .unit-converter-card,
+  .unit-converter-result-card {
+    background: var(--card-background) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--card-border) !important;
+  }
+
+
+  .unit-converter-card .unit-converter-info,
+  .unit-converter-result-card
+  :is(
+    .unit-converter-summary-box,
+    .unit-converter-equation,
+    .unit-converter-important
+  ) {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  .unit-converter-result-card .unit-converter-main-result {
+    background: #1e1b4b !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    border-color: #4338ca !important;
+  }
+
+
+  /* =======================================================
+     ALL CALCULATOR INPUTS
+     ======================================================= */
+
+  .sip-calculator-page input,
+  .fd-calculator-page input,
+  .fd-calculator-page select,
+
+  .rd-calculator-page input,
+
+  .dog-age-calculator-page input,
+
+  .emi-calculator-page input,
+  .emi-calculator-page select,
+
+  .gst-calculator-page input,
+  .gst-calculator-page select,
+
+  .discount-calculator-page input,
+
+  .percentage-calculator-page input,
+  .percentage-calculator-page select,
+
+  .unit-converter-card input,
+  .unit-converter-card select {
+    background: var(--input-background) !important;
+    color: var(--input-text) !important;
+    border-color: var(--input-border) !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — LEFT PANEL
+     ======================================================= */
+
+  .age-calculator-layout .calculator-left {
+    background: var(--card-background) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--card-border) !important;
+  }
+
+
+  .age-calculator-layout .calculator-left h1,
+  .age-calculator-layout .calculator-left label,
+  .age-calculator-layout .calculate-till-label {
+    color: var(--text-heading) !important;
+  }
+
+
+  .age-calculator-layout .calculator-left > p {
+    color: var(--text-light) !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — DATE INPUT
+     ======================================================= */
+
+  .age-calculator-layout .date-input-wrapper {
+    background: var(--input-background) !important;
+    background-image: none !important;
+    border-color: var(--input-border) !important;
+  }
+
+
+  .age-calculator-layout .date-input-wrapper .date-part {
+    color: var(--input-text) !important;
+  }
+
+
+  .age-calculator-layout
+  .date-input-wrapper .date-part::placeholder {
+    color: var(--placeholder) !important;
+  }
+
+
+  .age-calculator-layout .date-input-wrapper .date-separator {
+    color: var(--text-muted) !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — TODAY / SPECIFIC DATE
+     ======================================================= */
+
+  .age-calculator-layout .date-mode {
+    background: var(--surface-soft) !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  .age-calculator-layout .date-mode:hover {
+    background: #1e293b !important;
+    color: #c7d2fe !important;
+    border-color: #6366f1 !important;
+  }
+
+
+  .age-calculator-layout .date-mode.active {
+    background: linear-gradient(
+      135deg,
+      #2563eb,
+      #4f46e5
+    ) !important;
+
+    color: #ffffff !important;
+    border-color: transparent !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — SPECIFIC DATE
+     ======================================================= */
+
+  .age-calculator-layout .specific-date-field {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — TODAY INFO
+     ======================================================= */
+
+  .age-calculator-layout .today-info {
+    background: #123524 !important;
+    background-image: none !important;
+    color: #bbf7d0 !important;
+    border-color: #166534 !important;
+  }
+
+
+  .age-calculator-layout .today-info strong {
+    color: #86efac !important;
+  }
+
+
+  .age-calculator-layout .today-info small {
+    color: #bbf7d0 !important;
+  }
+
+
+  .age-calculator-layout .today-info-icon {
+    background: #14532d !important;
+    color: #bbf7d0 !important;
+  }
+
+
+  /* =======================================================
+     AGE CALCULATOR — EMPTY RESULT
+     ======================================================= */
+
+  .age-calculator-layout .age-empty-result {
+    background: transparent !important;
+    color: var(--text) !important;
+  }
+
+
+  .age-calculator-layout .age-empty-result-icon {
+    background: #1e1b4b !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+  }
+
+
+  .age-calculator-layout .age-empty-result h2 {
+    color: var(--text-heading) !important;
+  }
+
+
+  .age-calculator-layout .age-empty-result p {
+    color: var(--text-light) !important;
+  }
+
+
+  .age-calculator-layout .age-empty-result-hint {
+    background: var(--surface-soft) !important;
+    color: var(--text-light) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* =======================================================
+     AGE RESULT CARD
+     ResultCard is shared with Age Calculator
+     ======================================================= */
+
+  html.dark-mode .result-card {
+    background: var(--card-background) !important;
+    background-image: none !important;
+    color: var(--text) !important;
+    border-color: var(--card-border) !important;
+    box-shadow: var(--shadow) !important;
+  }
+
+
+  html.dark-mode .result-card h2,
+  html.dark-mode .result-card h3 {
+    color: var(--text-heading) !important;
+  }
+
+
+  html.dark-mode .result-header-icon {
+    background: #1e1b4b !important;
+    background-image: none !important;
+  }
+
+
+  html.dark-mode .result-header h2 {
+    color: var(--text-heading) !important;
+  }
+
+
+  html.dark-mode .result-header p {
+    color: var(--text-light) !important;
+  }
+
+
+  /* Age result boxes */
+  html.dark-mode .age-boxes div {
+    background: #172554 !important;
+    background-image: none !important;
+    border-color: #334155 !important;
+    color: var(--text) !important;
+  }
+
+
+  html.dark-mode .age-boxes strong {
+    color: #60a5fa !important;
+  }
+
+
+  html.dark-mode .age-boxes span {
+    color: #cbd5e1 !important;
+  }
+
+
+  /* Total time */
+  html.dark-mode .time-grid div {
+    background: var(--surface-soft) !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  html.dark-mode .time-grid div:hover {
+    background: #1e293b !important;
+  }
+
+
+  /* Born on */
+  html.dark-mode .result-card h3 {
+    background: var(--surface-soft) !important;
+    background-image: none !important;
+    color: var(--text-light) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  /* Birthday */
+  html.dark-mode .birthday-box {
+    background: #2d2115 !important;
+    background-image: none !important;
+    color: #fbbf24 !important;
+    border-color: #854d0e !important;
+  }
+
+
+  /* =======================================================
+     COMMON RESULT ACTION BUTTONS
+     ======================================================= */
+
+  html.dark-mode .result-actions button,
+  html.dark-mode .ageverse-global-result-actions button {
+    background: var(--surface-soft) !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+
+
+  html.dark-mode .result-actions button:hover,
+  html.dark-mode .ageverse-global-result-actions button:hover {
+    background: #1e293b !important;
+    color: #ffffff !important;
+    border-color: var(--border-strong) !important;
+  }
+
+
+  /* =======================================================
+     ERROR
+     ======================================================= */
+
+  .age-calculator-layout .error,
+  .sip-calculator-page .sip-calculator-error,
+  .fd-calculator-page .fd-calculator-error,
+  .rd-calculator-page .rd-calculator-error,
+  .dog-age-calculator-page .dog-age-calculator-error,
+  .emi-calculator-page .emi-calculator-error,
+  .gst-calculator-page .gst-calculator-error,
+  .discount-calculator-page .discount-calculator-error,
+  .percentage-calculator-page .percentage-calculator-error,
+  .unit-converter-card .unit-converter-error {
+    background: #3f1720 !important;
+    color: #fda4af !important;
+    border-color: #881337 !important;
+  }
+
+}
+/* =========================================================
+   AGEVERSE — FINAL RESULT CARD DARK MODE
+   CENTRALIZED FIX
+   IMPORTANT:
+   - Result cards only
+   - Does not change calculator input side
+   - Does not change calculation logic
+   - Does not require DarkModeSurfaceNormalizer
+========================================================= */
+
+
+/* =========================================================
+   1. ALL AFFECTED RESULT CARDS
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card,
+
+  .sip-calculator-result-card,
+  .fd-calculator-result-card,
+  .rd-calculator-result-card,
+  .discount-calculator-result-card,
+  .emi-calculator-result-card,
+  .gst-calculator-result-card,
+  .percentage-calculator-result-card,
+  .dog-age-result-card,
+  .unit-converter-result-card
+) {
+  background: var(--card-background) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* =========================================================
+   2. EMPTY RESULT CARDS
+========================================================= */
+
+html.dark-mode
+:is(
+  .age-empty-result,
+  .sip-calculator-empty-result,
+  .fd-calculator-empty-result,
+  .rd-calculator-empty-result,
+  .discount-calculator-empty-result,
+  .emi-calculator-empty-result,
+  .gst-calculator-empty-result,
+  .percentage-calculator-empty-result,
+  .dog-age-empty-result,
+  .unit-converter-empty-result
+) {
+  background: var(--card-background) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+}
+
+
+/* =========================================================
+   3. RESULT HEADER
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-header,
+
+  .sip-result-header,
+  .fd-result-header,
+  .rd-result-header,
+  .discount-calculator-result-header,
+  .emi-calculator-result-header,
+  .gst-calculator-result-header,
+  .percentage-calculator-result-header,
+  .dog-age-result-header,
+  .unit-converter-result-header
+) {
+  background: transparent !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   4. SUMMARY / INFO BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-input-summary,
+  .fd-input-summary,
+  .rd-input-summary,
+  .discount-calculator-input-summary,
+  .emi-calculator-input-summary,
+  .gst-calculator-input-summary,
+  .percentage-calculator-input-summary,
+  .dog-age-input-summary,
+  .unit-converter-input-summary,
+
+  .sip-summary-item,
+  .fd-summary-item,
+  .rd-summary-item,
+  .discount-summary-item,
+  .emi-summary-item,
+  .gst-summary-item,
+  .percentage-calculator-summary-item,
+  .dog-age-summary-item,
+  .unit-converter-summary-box,
+
+  .sip-metric-card,
+  .fd-metric-card,
+  .rd-metric-card,
+  .discount-metric-card,
+  .emi-metric-card,
+  .gst-metric-card,
+  .percentage-metric-card,
+  .dog-age-metric-card
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   5. MAIN RESULT BOX
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-main-result,
+  .fd-main-result,
+  .rd-main-result,
+  .discount-main-result,
+  .emi-main-result,
+  .gst-main-result,
+  .percentage-calculator-main-result,
+  .dog-age-main-result,
+  .unit-converter-main-result
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   6. FLOW / CALCULATION BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-flow-box,
+  .fd-flow-box,
+  .rd-flow-box,
+  .discount-flow-box,
+  .emi-flow-box,
+  .gst-flow-box,
+  .percentage-calculator-flow-box,
+  .dog-age-flow-box,
+  .unit-converter-flow-box,
+
+  .sip-flow-item,
+  .fd-flow-item,
+  .rd-flow-item,
+  .discount-flow-item,
+  .emi-flow-item,
+  .gst-flow-item,
+  .percentage-calculator-flow-row,
+  .dog-age-flow-item,
+
+  .sip-flow-result,
+  .fd-flow-result,
+  .rd-flow-result,
+  .discount-flow-result,
+  .emi-flow-result,
+  .gst-flow-result,
+  .percentage-calculator-flow-result,
+  .dog-age-flow-result
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   7. EQUATION BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-equation,
+  .fd-equation,
+  .rd-equation,
+  .discount-equation,
+  .emi-equation,
+  .gst-equation,
+  .percentage-calculator-equation,
+  .dog-age-equation,
+  .unit-converter-equation
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   8. IMPORTANT / INFORMATION BOXES
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-important,
+  .fd-important,
+  .rd-important,
+  .discount-important,
+  .emi-important,
+  .gst-important,
+  .percentage-calculator-important,
+  .dog-age-important,
+  .unit-converter-important
+) {
+  background: #172033 !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   9. RESULT FOOTER
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-footer,
+
+  .sip-result-footer,
+  .fd-result-footer,
+  .rd-result-footer,
+  .discount-calculator-result-footer,
+  .emi-calculator-result-footer,
+  .gst-calculator-result-footer,
+  .percentage-calculator-result-footer,
+  .dog-age-result-footer,
+  .unit-converter-result-footer
+) {
+  background: transparent !important;
+  background-image: none !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   10. RESULT TITLES / HEADINGS
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card h1,
+  .result-card h2,
+  .result-card h3,
+  .result-card h4,
+  .result-card h5,
+  .result-card h6,
+
+  .sip-calculator-result-card h1,
+  .sip-calculator-result-card h2,
+  .sip-calculator-result-card h3,
+
+  .fd-calculator-result-card h1,
+  .fd-calculator-result-card h2,
+  .fd-calculator-result-card h3,
+
+  .rd-calculator-result-card h1,
+  .rd-calculator-result-card h2,
+  .rd-calculator-result-card h3,
+
+  .discount-calculator-result-card h1,
+  .discount-calculator-result-card h2,
+  .discount-calculator-result-card h3,
+
+  .emi-calculator-result-card h1,
+  .emi-calculator-result-card h2,
+  .emi-calculator-result-card h3,
+
+  .gst-calculator-result-card h1,
+  .gst-calculator-result-card h2,
+  .gst-calculator-result-card h3,
+
+  .percentage-calculator-result-card h1,
+  .percentage-calculator-result-card h2,
+  .percentage-calculator-result-card h3,
+
+  .dog-age-result-card h1,
+  .dog-age-result-card h2,
+  .dog-age-result-card h3,
+
+  .unit-converter-result-card h1,
+  .unit-converter-result-card h2,
+  .unit-converter-result-card h3
+) {
+  color: var(--text-heading) !important;
+}
+
+
+/* =========================================================
+   11. RESULT NORMAL TEXT
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card p,
+  .result-card span,
+  .result-card label,
+
+  .sip-calculator-result-card p,
+  .sip-calculator-result-card span,
+
+  .fd-calculator-result-card p,
+  .fd-calculator-result-card span,
+
+  .rd-calculator-result-card p,
+  .rd-calculator-result-card span,
+
+  .discount-calculator-result-card p,
+  .discount-calculator-result-card span,
+
+  .emi-calculator-result-card p,
+  .emi-calculator-result-card span,
+
+  .gst-calculator-result-card p,
+  .gst-calculator-result-card span,
+
+  .percentage-calculator-result-card p,
+  .percentage-calculator-result-card span,
+
+  .dog-age-result-card p,
+  .dog-age-result-card span,
+
+  .unit-converter-result-card p,
+  .unit-converter-result-card span
+) {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   12. RESULT ICON CONTAINERS
+   Fixes white square/circle behind icons
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-header-icon,
+  .result-header-icon,
+  .sip-result-icon,
+  .fd-result-icon,
+  .rd-result-icon,
+  .discount-calculator-result-icon,
+  .emi-calculator-result-icon,
+  .gst-calculator-result-icon,
+  .percentage-calculator-result-icon,
+  .dog-age-result-icon,
+  .unit-converter-result-icon,
+
+  .age-empty-result-icon,
+  .sip-calculator-empty-icon,
+  .fd-calculator-empty-icon,
+  .rd-calculator-empty-icon,
+  .discount-calculator-empty-icon,
+  .emi-calculator-empty-icon,
+  .gst-calculator-empty-icon,
+  .percentage-calculator-empty-icon,
+  .dog-age-empty-icon,
+  .unit-converter-empty-icon
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   13. RESULT BADGES / CHIPS
+   Fixes white pills visible in empty result
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card .badge,
+  .result-card .pill,
+  .result-card .chip,
+
+  .sip-calculator-result-card .badge,
+  .sip-calculator-result-card .pill,
+  .sip-calculator-result-card .chip,
+
+  .fd-calculator-result-card .badge,
+  .fd-calculator-result-card .pill,
+  .fd-calculator-result-card .chip,
+
+  .rd-calculator-result-card .badge,
+  .rd-calculator-result-card .pill,
+  .rd-calculator-result-card .chip,
+
+  .discount-calculator-result-card .badge,
+  .discount-calculator-result-card .pill,
+  .discount-calculator-result-card .chip,
+
+  .emi-calculator-result-card .badge,
+  .emi-calculator-result-card .pill,
+  .emi-calculator-result-card .chip,
+
+  .gst-calculator-result-card .badge,
+  .gst-calculator-result-card .pill,
+  .gst-calculator-result-card .chip,
+
+  .percentage-calculator-result-card .badge,
+  .percentage-calculator-result-card .pill,
+  .percentage-calculator-result-card .chip,
+
+  .dog-age-result-card .badge,
+  .dog-age-result-card .pill,
+  .dog-age-result-card .chip,
+
+  .unit-converter-result-card .badge,
+  .unit-converter-result-card .pill,
+  .unit-converter-result-card .chip
+) {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   14. TABLES INSIDE RESULT
+========================================================= */
+
+html.dark-mode
+:is(
+  .sip-calculator-result-card table,
+  .fd-calculator-result-card table,
+  .rd-calculator-result-card table
+) {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode
+:is(
+  .sip-calculator-result-card th,
+  .fd-calculator-result-card th,
+  .rd-calculator-result-card th
+) {
+  background: var(--surface-soft) !important;
+  color: var(--text-heading) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode
+:is(
+  .sip-calculator-result-card td,
+  .fd-calculator-result-card td,
+  .rd-calculator-result-card td
+) {
+  background: transparent !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   15. RESULT ACTION AREA
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-actions,
+  .sip-result-actions,
+  .sip-calculator-result-actions,
+  .fd-result-actions,
+  .rd-result-actions,
+  .discount-calculator-result-actions,
+  .emi-calculator-result-actions,
+  .gst-calculator-result-actions,
+  .percentage-calculator-result-actions,
+  .dog-age-result-actions,
+  .unit-converter-result-actions
+) {
+  background: transparent !important;
+  background-image: none !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   16. AGE CALCULATOR — RESULT CARD
+========================================================= */
+
+html.dark-mode .result-card {
+  background: var(--card-background) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+html.dark-mode .result-card .calculation-period,
+html.dark-mode .result-card .age-boxes div,
+html.dark-mode .result-card .time-grid div,
+html.dark-mode .result-card .birthday-box {
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .result-card .calculation-period,
+html.dark-mode .result-card .time-grid div {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+}
+
+html.dark-mode .result-card .age-boxes div {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+}
+
+html.dark-mode .result-card .birthday-box {
+  background: #2b2118 !important;
+  background-image: none !important;
+}
+
+
+/* =========================================================
+   17. REMOVE LIGHT GRADIENTS INSIDE RESULT CARDS
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card,
+  .sip-calculator-result-card,
+  .fd-calculator-result-card,
+  .rd-calculator-result-card,
+  .discount-calculator-result-card,
+  .emi-calculator-result-card,
+  .gst-calculator-result-card,
+  .percentage-calculator-result-card,
+  .dog-age-result-card,
+  .unit-converter-result-card
+)
+:is(
+  .summary,
+  .summary-item,
+  .summary-box,
+  .metric-card,
+  .flow-box,
+  .flow-item,
+  .flow-result,
+  .equation,
+  .main-result,
+  .input-summary,
+  .calculation-flow,
+  .breakdown,
+  .info,
+  .important
+) {
+  background-image: none !important;
+}
+
+
+/* =========================================================
+   18. RESULT CARD LINKS / STRONG
+========================================================= */
+
+html.dark-mode
+:is(
+  .result-card strong,
+  .sip-calculator-result-card strong,
+  .fd-calculator-result-card strong,
+  .rd-calculator-result-card strong,
+  .discount-calculator-result-card strong,
+  .emi-calculator-result-card strong,
+  .gst-calculator-result-card strong,
+  .percentage-calculator-result-card strong,
+  .dog-age-result-card strong,
+  .unit-converter-result-card strong
+) {
+  color: var(--text-heading) !important;
+}

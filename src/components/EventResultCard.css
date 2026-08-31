@@ -1,0 +1,510 @@
+/* =========================================================
+   AGEVERSE — EVENT RESULT CARD
+   Premium Compact Edition
+   ========================================================= */
+
+.event-result-card {
+  width: 100%;
+  max-width: 760px;
+  box-sizing: border-box;
+
+  padding: 20px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f8fafc
+  );
+
+  border: 1px solid rgba(
+    15,
+    23,
+    42,
+    0.07
+  );
+
+  box-shadow:
+    0 16px 38px rgba(
+      15,
+      23,
+      42,
+      0.08
+    );
+
+  animation:
+    eventResultShow
+    0.4s ease;
+}
+
+@keyframes eventResultShow {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.event-result-header {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  padding-bottom: 16px;
+  margin-bottom: 15px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.event-result-icon {
+  width: 46px;
+  height: 46px;
+
+  flex: 0 0 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    #eef2ff,
+    #f5f3ff
+  );
+
+  font-size: 24px;
+}
+
+.event-result-title {
+  min-width: 0;
+}
+
+.event-result-title h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 20px;
+  font-weight: 800;
+
+  line-height: 1.25;
+
+  overflow-wrap: anywhere;
+}
+
+.event-result-title p {
+  margin: 3px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   EVENT INFORMATION
+   ========================================================= */
+
+.event-info-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+
+  margin-bottom: 16px;
+}
+
+.event-info-item {
+  padding: 12px 13px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.event-info-label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #64748b;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.event-info-item strong {
+  display: block;
+
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 750;
+
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   COUNTDOWN HEADING
+   ========================================================= */
+
+.countdown-heading {
+  margin: 4px 0 10px;
+
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   COUNTDOWN — HORIZONTAL
+   ========================================================= */
+
+.event-countdown-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 9px;
+
+  width: 100%;
+
+  margin-bottom: 13px;
+}
+
+.countdown-box {
+  min-width: 0;
+  min-height: 88px;
+
+  padding: 10px 6px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  box-sizing: border-box;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    145deg,
+    #eef2ff,
+    #f5f3ff
+  );
+
+  border: 1px solid #e0e7ff;
+
+  box-shadow:
+    0 5px 15px rgba(
+      79,
+      70,
+      229,
+      0.06
+    );
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.countdown-box:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 9px 20px rgba(
+      79,
+      70,
+      229,
+      0.11
+    );
+}
+
+.countdown-box strong {
+  color: #4f46e5;
+
+  font-size: 30px;
+  font-weight: 850;
+
+  line-height: 1;
+}
+
+.countdown-box span {
+  margin-top: 7px;
+
+  color: #64748b;
+
+  font-size: 10px;
+  font-weight: 750;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.35px;
+}
+
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.event-status {
+  padding: 10px 13px;
+
+  border-radius: 13px;
+
+  text-align: center;
+
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.event-status.upcoming {
+  color: #166534;
+
+  background: linear-gradient(
+    135deg,
+    #f0fdf4,
+    #f7fff9
+  );
+
+  border: 1px solid #bbf7d0;
+}
+
+.event-status.completed {
+  color: #475569;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+
+/* =========================================================
+   REMINDER
+   ========================================================= */
+
+.event-reminder-result {
+  margin-top: 13px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.event-reminder-result-header {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  margin-bottom: 10px;
+}
+
+.event-reminder-result-header span {
+  font-size: 16px;
+}
+
+.event-reminder-result-header strong {
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.event-reminder-result-content {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.event-reminder-result-content > div {
+  min-width: 0;
+}
+
+.event-reminder-result-content span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.event-reminder-result-content strong {
+  display: block;
+
+  color: #334155;
+
+  font-size: 12px;
+  font-weight: 750;
+
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.event-result-footer {
+  margin-top: 16px;
+
+  padding-top: 12px;
+
+  border-top: 1px solid #e5e7eb;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.event-result-footer strong {
+  color: #6366f1;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .event-result-card {
+    padding: 17px;
+
+    border-radius: 20px;
+  }
+
+  .event-result-header {
+    gap: 10px;
+
+    padding-bottom: 13px;
+
+    margin-bottom: 13px;
+  }
+
+  .event-result-icon {
+    width: 42px;
+    height: 42px;
+
+    flex-basis: 42px;
+
+    border-radius: 12px;
+
+    font-size: 21px;
+  }
+
+  .event-result-title h2 {
+    font-size: 18px;
+  }
+
+  .event-info-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 8px;
+  }
+
+  /* Keep all four countdown boxes horizontal */
+  .event-countdown-grid {
+    grid-template-columns:
+      repeat(4, minmax(0, 1fr));
+
+    gap: 6px;
+  }
+
+  .countdown-box {
+    min-height: 70px;
+
+    padding: 8px 3px;
+  }
+
+  .countdown-box strong {
+    font-size: 24px;
+  }
+
+  .countdown-box span {
+    margin-top: 5px;
+
+    font-size: 8px;
+
+    letter-spacing: 0.15px;
+  }
+
+  .event-reminder-result-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 360px) {
+  .event-result-card {
+    padding: 14px;
+  }
+
+  .event-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-countdown-grid {
+    gap: 4px;
+  }
+
+  .countdown-box {
+    min-height: 66px;
+
+    padding: 7px 2px;
+
+    border-radius: 12px;
+  }
+
+  .countdown-box strong {
+    font-size: 20px;
+  }
+
+  .countdown-box span {
+    font-size: 7px;
+  }
+}

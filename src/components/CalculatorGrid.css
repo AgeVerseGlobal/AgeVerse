@@ -1,0 +1,500 @@
+/* =========================================================
+   AGEVERSE — PREMIUM CALCULATOR GRID
+   CLEAN FINAL VERSION
+========================================================= */
+
+.calculator-section {
+  width: min(92%, 1240px);
+  margin: 42px auto 60px;
+}
+
+
+/* =========================================================
+   CATEGORY
+========================================================= */
+
+.category-block {
+  margin-bottom: 42px;
+}
+
+.category-block:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+
+  margin: 0 0 18px;
+  padding-left: 12px;
+
+  min-height: 36px;
+
+  border-left: 4px solid #4f46e5;
+
+  color: #172033;
+
+  font-size: 26px;
+  font-weight: 750;
+  line-height: 1.2;
+
+  letter-spacing: -0.4px;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.calculator-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(255px, 1fr));
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   PREMIUM CARD
+========================================================= */
+
+.calc-card {
+  position: relative;
+
+  min-height: 275px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 21px;
+
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(15, 23, 42, 0.07);
+
+  box-shadow:
+    0 8px 22px rgba(15, 23, 42, 0.07);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+
+/* =========================================================
+   REMOVE OLD GLOW / SHINE
+========================================================= */
+
+.calc-card::before {
+  display: none !important;
+  content: none !important;
+}
+
+.calc-card::after {
+  display: none !important;
+  content: none !important;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.calc-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 32px rgba(15, 23, 42, 0.12);
+
+  border-color:
+    rgba(15, 23, 42, 0.12);
+}
+
+
+/* =========================================================
+   CATEGORY BACKGROUNDS
+========================================================= */
+
+.calc-card.age {
+  background:
+    linear-gradient(
+      145deg,
+      #e9edff 0%,
+      #ffffff 78%
+    );
+
+  color: #312e81;
+}
+
+
+.calc-card.health {
+  background:
+    linear-gradient(
+      145deg,
+      #e8f9f0 0%,
+      #ffffff 78%
+    );
+
+  color: #065f46;
+}
+
+
+.calc-card.family {
+  background:
+    linear-gradient(
+      145deg,
+      #fceef6 0%,
+      #ffffff 78%
+    );
+
+  color: #831843;
+}
+
+
+.calc-card.utility {
+  background:
+    linear-gradient(
+      145deg,
+      #edf5ff 0%,
+      #ffffff 78%
+    );
+
+  color: #1e40af;
+}
+
+
+.calc-card.pet {
+  background:
+    linear-gradient(
+      145deg,
+      #fff4e8 0%,
+      #ffffff 78%
+    );
+
+  color: #9a3412;
+}
+
+
+/* =========================================================
+   CALCULATOR ICON — CLEAN PREMIUM
+========================================================= */
+
+.calc-icon {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 14px 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+
+  font-family:
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Noto Color Emoji",
+    sans-serif;
+
+  font-size: 48px;
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+.calc-card h3 {
+  margin: 0 0 9px;
+
+  font-size: 20px;
+  font-weight: 750;
+
+  line-height: 1.3;
+
+  letter-spacing: -0.25px;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.calc-card p {
+  margin: 0 0 13px;
+
+  color: inherit;
+
+  font-size: 14px;
+
+  line-height: 1.55;
+
+  opacity: 0.68;
+
+  flex: 1;
+}
+
+
+/* =========================================================
+   BADGES
+========================================================= */
+
+.live-badge,
+.coming-badge,
+.featured-badge {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: max-content;
+
+  min-height: 27px;
+
+  box-sizing: border-box;
+
+  margin: 0 0 8px;
+
+  padding: 5px 11px;
+
+  border-radius: 50px;
+
+  background: rgba(255, 255, 255, 0.90);
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 3px 9px rgba(15, 23, 42, 0.05);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+
+.live-badge {
+  color: #059669;
+}
+
+
+.coming-badge {
+  color: #d97706;
+}
+
+
+.featured-badge {
+  background: #fff7d6;
+
+  color: #92400e;
+}
+
+
+/* =========================================================
+   FEATURED CARD
+========================================================= */
+
+.calc-card.featured {
+  border:
+    1px solid rgba(16, 185, 129, 0.30);
+
+  box-shadow:
+    0 9px 25px rgba(16, 185, 129, 0.07);
+}
+
+.calc-card.featured:hover {
+  box-shadow:
+    0 17px 38px rgba(16, 185, 129, 0.13);
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.calc-card button {
+  width: 100%;
+
+  min-height: 43px;
+
+  margin-top: 5px;
+  padding: 10px 15px;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgba(15, 23, 42, 0.07);
+
+  border-radius: 13px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #334155;
+
+  font-size: 14px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 13px rgba(15, 23, 42, 0.06);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+
+.calc-card button:hover {
+  transform: translateY(-2px);
+
+  background: #ffffff;
+
+  box-shadow:
+    0 9px 19px rgba(15, 23, 42, 0.10);
+}
+
+
+.calc-card button:active {
+  transform: scale(0.98);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .calculator-section {
+    width: 92%;
+    margin: 36px auto 50px;
+  }
+
+  .calculator-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 15px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .calculator-section {
+    width: 92%;
+    margin: 30px auto 42px;
+  }
+
+  .category-block {
+    margin-bottom: 32px;
+  }
+
+  .category-title {
+    font-size: 23px;
+
+    margin-bottom: 14px;
+
+    padding-left: 10px;
+
+    border-left-width: 4px;
+  }
+
+  .calculator-grid {
+    grid-template-columns: 1fr;
+
+    gap: 13px;
+  }
+
+  .calc-card {
+    min-height: 0;
+
+    padding: 19px;
+
+    border-radius: 20px;
+  }
+
+  /* MOBILE ICON */
+
+  .calc-icon {
+    width: 55px;
+    height: 55px;
+
+    flex-basis: 55px;
+
+    margin-bottom: 13px;
+
+    border-radius: 16px;
+
+    font-size: 31px;
+  }
+
+  .calc-card h3 {
+    font-size: 19px;
+  }
+
+  .calc-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .calc-card button {
+    min-height: 42px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL PHONE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .calculator-section {
+    width: 94%;
+  }
+
+  .category-title {
+    font-size: 21px;
+  }
+
+  .calc-card {
+    padding: 17px;
+    border-radius: 18px;
+  }
+
+  .calc-icon {
+    width: 53px;
+    height: 53px;
+
+    flex-basis: 53px;
+
+    font-size: 29px;
+
+    margin-bottom: 12px;
+  }
+
+}

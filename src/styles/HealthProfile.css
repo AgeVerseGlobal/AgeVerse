@@ -1,0 +1,1761 @@
+/* =========================================================
+   AGEVERSE — COMPLETE HEALTH PROFILE
+   FINAL PREMIUM DESIGN
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
+.health-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.health-card {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid #e6ece8;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.health-card h2 {
+  margin: 20px 0 14px;
+  font-size: 20px;
+  color: #183b24;
+  border-left: 4px solid #2e7d32;
+  padding-left: 10px;
+}
+
+
+/* =========================================================
+   INPUT GRID
+   ========================================================= */
+
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.health-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.health-field label {
+  font-size: 14px;
+  font-weight: 650;
+  color: #37423a;
+}
+
+
+/* =========================================================
+   PREMIUM INPUTS
+   ========================================================= */
+
+.health-field input,
+.health-field select {
+  width: 100%;
+  height: 48px;
+  border-radius: 13px;
+  border: 1px solid #dce5de;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #263238;
+  background: #fbfdfb;
+  outline: none;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.035);
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.health-field input::placeholder {
+  color: #9aa49e;
+}
+
+.health-field input:hover,
+.health-field select:hover {
+  border-color: #b8cdbd;
+}
+
+.health-field input:focus,
+.health-field select:focus {
+  border-color: #2e7d32;
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(46, 125, 50, 0.10);
+}
+
+
+/* =========================================================
+   OPTION BUTTONS
+   ========================================================= */
+
+.option-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 8px 0 18px;
+}
+
+.option {
+  flex: 1;
+  min-width: 110px;
+  min-height: 43px;
+
+  padding: 10px 14px;
+
+  border-radius: 12px;
+  border: 1px solid #dfe6e1;
+
+  background: #ffffff;
+  color: #344038;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.option:hover {
+  border-color: #8fb99a;
+  box-shadow: 0 5px 15px rgba(46, 125, 50, 0.09);
+  transform: translateY(-1px);
+}
+
+.option:active {
+  transform: scale(0.98);
+}
+
+
+/* =========================================================
+   GENDER
+   ========================================================= */
+
+.option.active {
+  background: linear-gradient(
+    135deg,
+    #1565c0,
+    #2979ff
+  );
+
+  border-color: #1565c0;
+  color: #ffffff;
+
+  box-shadow:
+    0 6px 15px rgba(21, 101, 192, 0.20);
+}
+
+
+/* =========================================================
+   DIET COLORS
+   ========================================================= */
+
+.option.active.veg {
+  background: linear-gradient(
+    135deg,
+    #2e7d32,
+    #66bb6a
+  ) !important;
+
+  border-color: #2e7d32 !important;
+  color: #ffffff !important;
+}
+
+.option.active.nonveg {
+  background: linear-gradient(
+    135deg,
+    #c62828,
+    #ef5350
+  ) !important;
+
+  border-color: #c62828 !important;
+  color: #ffffff !important;
+}
+
+.option.active.vegan {
+  background: linear-gradient(
+    135deg,
+    #558b2f,
+    #8bc34a
+  ) !important;
+
+  border-color: #558b2f !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   ACTIVITY LEVEL
+   ========================================================= */
+
+.option-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.activity-card {
+  min-height: 82px;
+
+  padding: 13px;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe6e1;
+  border-radius: 14px;
+
+  color: #344038;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.activity-card small {
+  display: block;
+  margin-top: 6px;
+
+  font-size: 11px;
+  line-height: 1.3;
+
+  color: #6c776f;
+  font-weight: 450;
+}
+
+.activity-card:hover {
+  border-color: #9abca2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+}
+
+.activity-card.active {
+  border: 1.5px solid #2e7d32;
+  background: #f1f8f2;
+  color: #1b5e20;
+
+  box-shadow:
+    0 5px 15px rgba(46, 125, 50, 0.10);
+}
+
+
+/* =========================================================
+   BUTTON AREA
+   ========================================================= */
+
+.health-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 20px;
+}
+
+
+/* =========================================================
+   CALCULATE BUTTON
+   ========================================================= */
+
+.health-primary {
+  width: 100%;
+  height: 52px;
+
+  border: none;
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #304ffe,
+    #5e35f1
+  );
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 20px rgba(63, 81, 181, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.health-primary:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 11px 25px rgba(63, 81, 181, 0.30);
+}
+
+
+/* =========================================================
+   RESET BUTTON
+   ========================================================= */
+
+.health-reset {
+  align-self: center;
+
+  width: 130px;
+  height: 38px;
+
+  border-radius: 11px;
+
+  border: 1px solid #d8dedb;
+
+  background: #ffffff;
+
+  color: #45524a;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.health-reset:hover {
+  background: #f7f9f7;
+  border-color: #b8c3bc;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.health-error {
+  margin-top: 12px;
+
+  padding: 10px 12px;
+
+  border-radius: 10px;
+
+  background: #fff1f1;
+  border: 1px solid #ffcdd2;
+
+  color: #c62828;
+
+  text-align: center;
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   RESULT CARD
+   ========================================================= */
+
+.health-result-card {
+  width: 100%;
+
+  background: #ffffff;
+
+  border-radius: 22px;
+
+  padding: 20px;
+
+  border: 1px solid #e5ebe7;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.07);
+
+  margin-top: 18px;
+}
+
+
+/* =========================================================
+   WELLNESS SUMMARY
+   ========================================================= */
+
+.wellness-summary {
+  display: grid;
+
+  grid-template-columns: 190px 1fr 100px;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 20px 22px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f7fcf8,
+      #eef8f0
+    );
+
+  border: 1px solid #e1eee3;
+
+  margin-bottom: 20px;
+}
+
+
+/* Greeting */
+
+.wellness-greeting {
+  font-size: 19px;
+  font-weight: 750;
+  color: #17221b;
+}
+
+.wellness-subtitle {
+  margin-top: 5px;
+
+  font-size: 12px;
+
+  color: #68736c;
+}
+
+
+/* Status */
+
+.wellness-status {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  width: fit-content;
+
+  margin: 12px 0 0;
+
+  padding: 7px 13px;
+
+  border-radius: 10px;
+
+  background: #edf8ef;
+
+  border: 1px solid #cfe8d2;
+
+  color: #2e7d32;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wellness-icon {
+  font-size: 17px;
+}
+
+
+/* Score */
+
+.wellness-score-area {
+  text-align: center;
+}
+
+.wellness-score-number {
+  font-size: 27px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.wellness-score-label {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #657069;
+}
+
+
+/* Progress */
+
+.wellness-bar {
+  width: 100%;
+  height: 10px;
+
+  margin-top: 12px;
+
+  background: #dce3df;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.wellness-progress {
+  height: 100%;
+
+  border-radius: 20px;
+
+  transition: width 0.08s linear;
+
+  min-width: 0;
+}
+
+.wellness-progress-good {
+  background: linear-gradient(
+    90deg,
+    #2e7d32,
+    #43a047
+  );
+}
+
+.wellness-progress-warning {
+  background: linear-gradient(
+    90deg,
+    #f9a825,
+    #ffb74d
+  );
+}
+
+.wellness-progress-danger {
+  background: linear-gradient(
+    90deg,
+    #d32f2f,
+    #ef5350
+  );
+}
+
+.score-text {
+  margin-top: 8px;
+
+  font-size: 12px;
+
+  color: #48554d;
+
+  font-weight: 550;
+}
+
+
+/* Health logo */
+
+.wellness-logo {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 75px;
+  height: 75px;
+
+  margin-left: auto;
+
+  border-radius: 50%;
+
+  font-size: 36px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #d8f4df,
+      #ffffff
+    );
+
+  border: 1px solid #c9e7cf;
+
+  box-shadow:
+    0 6px 18px rgba(46, 125, 50, 0.12);
+}
+
+
+/* =========================================================
+   RESULT HEADER
+   ========================================================= */
+
+.health-header {
+  margin: 4px 4px 12px;
+}
+
+.health-header h2 {
+  margin: 0;
+
+  border: none;
+
+  padding: 0;
+
+  font-size: 17px;
+
+  color: #17221b;
+}
+
+.health-header p {
+  margin: 4px 0 0;
+
+  font-size: 11px;
+
+  color: #748078;
+}
+
+
+/* =========================================================
+   HEALTH SUMMARY — 5 + 5
+   ========================================================= */
+
+.health-grid-result {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, 1fr);
+
+  gap: 10px;
+
+  margin-bottom: 14px;
+}
+
+.health-box {
+  min-height: 92px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  padding: 10px 7px;
+
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #e7ece8;
+
+  box-shadow:
+    0 3px 10px rgba(0, 0, 0, 0.025);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.health-box:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 18px rgba(0, 0, 0, 0.06);
+}
+
+.health-box span {
+  display: block;
+
+  font-size: 11px;
+
+  color: #435047;
+
+  font-weight: 650;
+}
+
+.health-box strong {
+  display: block;
+
+  margin-top: 7px;
+
+  font-size: 20px;
+
+  line-height: 1.1;
+
+  color: #27833b;
+}
+
+.health-box small {
+  display: block;
+
+  margin-top: 4px;
+
+  font-size: 9px;
+
+  color: #6d7771;
+}
+
+
+/* =========================================================
+   BMI GAUGE
+   ========================================================= */
+
+.bmi-gauge-card {
+  margin-top: 14px;
+
+  padding: 17px 18px;
+
+  background: #ffffff;
+
+  border-radius: 17px;
+
+  border: 1px solid #e5ebe7;
+
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.035);
+
+  text-align: center;
+}
+
+.bmi-value {
+  font-size: 26px;
+
+  font-weight: 800;
+
+  color: #27833b;
+}
+
+.bmi-status {
+  font-size: 13px;
+
+  font-weight: 650;
+
+  margin: 4px;
+
+  color: #39463e;
+}
+
+.bmi-scale {
+  height: 11px;
+
+  margin-top: 27px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ef5350 0%,
+      #ef5350 20%,
+      #ffb74d 20%,
+      #ffb74d 35%,
+      #66bb6a 35%,
+      #66bb6a 65%,
+      #ffb74d 65%,
+      #ffb74d 80%,
+      #ef5350 80%,
+      #ef5350 100%
+    );
+
+  position: relative;
+}
+
+.bmi-pointer {
+  position: absolute;
+
+  top: -20px;
+
+  transform:
+    translateX(-50%);
+
+  font-size: 20px;
+
+  color: #263238;
+
+  transition:
+    left 0.8s ease;
+}
+
+.bmi-colors {
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 9px;
+
+  margin-top: 7px;
+
+  color: #6b756e;
+}
+
+.bmi-gauge-card p {
+  margin: 10px 0 0;
+
+  color: #566159;
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   THREE COLUMN SECTION
+   Nutrition | Challenge | Tips
+   ========================================================= */
+
+.health-three-column {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 12px;
+
+  margin-top: 12px;
+}
+
+.dashboard-card {
+  min-height: 112px;
+
+  padding: 14px;
+
+  border-radius: 15px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5ebe7;
+
+  box-shadow:
+    0 4px 13px rgba(0, 0, 0, 0.035);
+}
+
+.dashboard-card h3 {
+  margin: 0 0 4px;
+
+  font-size: 13px;
+
+  color: #26342b;
+}
+
+.dashboard-subtitle {
+  margin: 0 0 10px;
+
+  font-size: 9px;
+
+  color: #7a847e;
+}
+
+
+/* =========================================================
+   NUTRITION MINI GRID
+   ========================================================= */
+
+.nutrition-mini-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  margin-top: 12px;
+}
+
+.nutrition-mini-grid > div {
+  text-align: center;
+
+  border-right: 1px solid #e5ebe7;
+}
+
+.nutrition-mini-grid > div:last-child {
+  border-right: none;
+}
+
+.nutrition-mini-grid span {
+  display: block;
+
+  font-size: 9px;
+
+  color: #667169;
+}
+
+.nutrition-mini-grid strong {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 14px;
+
+  color: #2e7d32;
+}
+
+
+/* =========================================================
+   CHALLENGE + TIPS
+   ========================================================= */
+
+.challenge-card ul,
+.health-tips ul {
+  margin: 8px 0 0;
+
+  padding-left: 16px;
+}
+
+.challenge-card li,
+.health-tips li {
+  margin-bottom: 5px;
+
+  font-size: 10px;
+
+  line-height: 1.35;
+
+  color: #465149;
+}
+
+
+/* =========================================================
+   PERSONALIZED DIET PLAN
+   ========================================================= */
+
+.personalized-plan {
+  margin-top: 12px;
+
+  padding: 14px 16px;
+
+  border-radius: 15px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5ebe7;
+
+  box-shadow:
+    0 4px 13px rgba(0, 0, 0, 0.035);
+}
+
+.personalized-plan h3 {
+  margin: 0;
+
+  text-align: center;
+
+  font-size: 13px;
+
+  color: #26342b;
+}
+
+.personalized-plan .dashboard-subtitle {
+  text-align: center;
+
+  margin-top: 3px;
+}
+
+.food-list {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 8px;
+}
+
+.food-item {
+  font-size: 10px;
+
+  color: #4c5850;
+
+  font-weight: 550;
+}
+
+.food-item:not(:last-child)::after {
+  content: " • ";
+
+  margin-left: 10px;
+
+  color: #8a958e;
+}
+
+
+/* =========================================================
+   LIFESTYLE
+   ========================================================= */
+
+.lifestyle-title {
+  margin-top: 14px !important;
+
+  padding-top: 12px;
+
+  border-top: 1px solid #edf1ee;
+}
+
+.lifestyle-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 8px;
+
+  margin-top: 10px;
+}
+
+.lifestyle-grid > div {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 5px;
+
+  font-size: 10px;
+
+  color: #4b5750;
+}
+
+.lifestyle-grid strong {
+  font-size: 10px;
+
+  color: #26342b;
+}
+
+.lifestyle-grid span {
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   DISCLAIMER
+   ========================================================= */
+
+.health-disclaimer {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 10px;
+
+  margin-top: 12px;
+
+  padding: 11px 13px;
+
+  border-radius: 13px;
+
+  background: #f3f8ff;
+
+  border: 1px solid #dce9f7;
+
+  color: #5c6873;
+
+  font-size: 9px;
+
+  line-height: 1.45;
+}
+
+.disclaimer-icon {
+  flex-shrink: 0;
+
+  font-size: 21px;
+
+  color: #4b86c5;
+}
+
+.health-disclaimer strong {
+  color: #3d4b57;
+}
+
+
+/* =========================================================
+   GENERATED BY
+   ========================================================= */
+
+.generated-by {
+  text-align: center;
+
+  margin-top: 8px;
+
+  font-size: 9px;
+
+  color: #87918b;
+}
+
+
+/* =========================================================
+   SCORE ANIMATION
+   ========================================================= */
+
+.score-text {
+  animation:
+    scorePop 0.6s ease;
+}
+
+@keyframes scorePop {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .health-grid-result {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+  .health-three-column {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .health-container {
+    padding: 6px;
+  }
+
+  .health-card {
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  .health-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .option-group {
+    flex-direction: column;
+  }
+
+  .option {
+    width: 100%;
+  }
+
+  .option-list {
+    grid-template-columns: 1fr;
+  }
+
+  .wellness-summary {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .wellness-status {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wellness-logo {
+    margin: auto;
+  }
+
+  .health-grid-result {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .health-three-column {
+    grid-template-columns: 1fr;
+  }
+
+  .lifestyle-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .health-buttons {
+    gap: 8px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 430px) {
+
+  .health-grid-result {
+    grid-template-columns: 1fr;
+  }
+
+  .lifestyle-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .health-result-card {
+    padding: 13px;
+  }
+
+  .wellness-summary {
+    padding: 16px;
+  }
+
+}
+/* =================================
+   PREMIUM BMI GAUGE LOGO
+================================= */
+
+.bmi-gauge-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.bmi-gauge-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.bmi-gauge-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bmi-gauge-heading span {
+  font-size: 21px;
+  font-weight: 750;
+  color: #1b5e20;
+}
+
+.bmi-gauge-heading small {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #78909c;
+}
+
+
+/* BMI Status Colours */
+
+.bmi-underweight {
+  color: #e65100;
+}
+
+.bmi-healthy {
+  color: #2e7d32;
+}
+
+.bmi-overweight {
+  color: #ef6c00;
+}
+
+.bmi-obesity {
+  color: #c62828;
+}
+
+
+/* BMI Message */
+
+.bmi-message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7px;
+  margin: 18px auto 0;
+  max-width: 600px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #f8fbf8;
+  border: 1px solid #e8f0e8;
+}
+
+.bmi-message span {
+  flex-shrink: 0;
+}
+
+.bmi-message p {
+  margin: 0;
+  color: #546e7a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* Pointer */
+
+.bmi-pointer {
+  position: absolute;
+  top: -23px;
+  transform: translateX(-50%);
+  transition: left .8s ease;
+  z-index: 3;
+}
+
+.bmi-pointer span {
+  font-size: 22px;
+  color: #263238;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .bmi-gauge-logo {
+    width: 38px;
+    height: 38px;
+  }
+
+  .bmi-gauge-heading span {
+    font-size: 19px;
+  }
+
+  .bmi-message {
+    font-size: 13px;
+  }
+
+}
+/* =========================================
+   BMI SCALE - EXACT PROPORTIONAL NUMBERS
+========================================= */
+
+.bmi-scale-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.bmi-scale-numbers {
+  position: relative;
+  width: 100%;
+  height: 22px;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #607d8b;
+}
+
+.bmi-scale-numbers span {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.bmi-scale-numbers span:nth-child(1) {
+  left: 0%;
+  transform: translateX(0);
+}
+
+.bmi-scale-numbers span:nth-child(2) {
+  left: 25%;
+}
+
+.bmi-scale-numbers span:nth-child(3) {
+  left: 55%;
+}
+
+.bmi-scale-numbers span:nth-child(4) {
+  left: 75%;
+}
+
+.bmi-scale-numbers span:nth-child(5) {
+  left: 100%;
+  transform: translateX(-100%);
+}
+/* ==========================================
+   WELLNESS SHIELD LOGO
+========================================== */
+
+.wellness-logo {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wellness-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 18px;
+  display: block;
+  box-shadow: 0 6px 18px rgba(0,0,0,.10);
+}
+
+
+/* ==========================================
+   WELLNESS HEADER LAYOUT
+========================================== */
+
+.wellness-summary {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr auto;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* ==========================================
+   SCORE AREA
+========================================== */
+
+.wellness-score-area {
+  text-align: center;
+}
+
+.wellness-score-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1b5e20;
+  line-height: 1.1;
+}
+
+.wellness-score-label {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #607d8b;
+  font-weight: 600;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  .wellness-summary {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .wellness-intro {
+    text-align: center;
+  }
+
+  .wellness-score-area {
+    width: 100%;
+  }
+
+  .wellness-logo {
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+  }
+
+}
+.generated-by {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 13px;
+  color: #607d8b;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* =====================================================
+   WELLNESS HEADER - IMAGE FIT FIX
+===================================================== */
+
+.wellness-summary {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.9fr) minmax(300px, 2fr) 90px;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+
+/* Left side */
+
+.wellness-intro {
+  min-width: 0;
+}
+
+
+/* Score section gets maximum available width */
+
+.wellness-score-area {
+  width: 100%;
+  min-width: 0;
+}
+
+
+/* Wellness progress bar */
+
+.wellness-bar {
+  width: 100%;
+  height: 14px;
+  background: #e1e7e4;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.wellness-progress {
+  height: 100%;
+  width: 0;
+  border-radius: 20px;
+  transition: width 0.08s linear;
+}
+
+
+/* =====================================================
+   WELLNESS SHIELD IMAGE
+===================================================== */
+
+.wellness-logo {
+  width: 78px;
+  height: 78px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+
+.wellness-logo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+
+  display: block;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 900px) {
+
+  .wellness-summary {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .wellness-intro {
+    text-align: center;
+  }
+
+  .wellness-score-area {
+    width: 100%;
+  }
+
+  .wellness-logo {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+  }
+
+}
+/* =========================================================
+   HEALTH PROFILE — ACTIVE SELECTION FIX
+   Keeps selected Gender / Goal / Activity clearly visible
+   in both Light & Dark Mode
+========================================================= */
+
+/* Gender / Goal / Diet / General option selected state */
+.health-container .option.active {
+  background: linear-gradient(
+    135deg,
+    #1565c0,
+    #2979ff
+  ) !important;
+
+  border-color: #1565c0 !important;
+  color: #ffffff !important;
+
+  box-shadow:
+    0 6px 16px rgba(21, 101, 192, 0.28) !important;
+}
+
+
+/* Selected Vegetarian */
+.health-container .option.active.veg {
+  background: linear-gradient(
+    135deg,
+    #2e7d32,
+    #66bb6a
+  ) !important;
+
+  border-color: #2e7d32 !important;
+  color: #ffffff !important;
+}
+
+
+/* Selected Non-Vegetarian */
+.health-container .option.active.nonveg {
+  background: linear-gradient(
+    135deg,
+    #c62828,
+    #ef5350
+  ) !important;
+
+  border-color: #c62828 !important;
+  color: #ffffff !important;
+}
+
+
+/* Selected Vegan */
+.health-container .option.active.vegan {
+  background: linear-gradient(
+    135deg,
+    #558b2f,
+    #8bc34a
+  ) !important;
+
+  border-color: #558b2f !important;
+  color: #ffffff !important;
+}
+
+
+/* Selected Activity Level */
+.health-container .activity-card.active {
+  background: linear-gradient(
+    135deg,
+    #e8f5e9,
+    #dcedc8
+  ) !important;
+
+  border: 2px solid #2e7d32 !important;
+  color: #1b5e20 !important;
+
+  box-shadow:
+    0 6px 18px rgba(46, 125, 50, 0.18) !important;
+}
+
+
+/* Text inside selected Activity */
+.health-container .activity-card.active small {
+  color: #33691e !important;
+}
+
+/* =========================================================
+   EMPTY RESULT — BEFORE CALCULATION
+   The placeholder stays visible, but the global five-button
+   action bar is not rendered until a real result card exists.
+========================================================= */
+
+.health-empty-result {
+  width: 100%;
+  min-height: 460px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 25px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  color: #64748b;
+}
+
+.health-empty-result-icon {
+  width: 88px;
+  height: 88px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  box-shadow:
+    0 12px 30px rgba(79, 70, 229, 0.12);
+
+  font-size: 42px;
+}
+
+.health-empty-result h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.health-empty-result p {
+  max-width: 360px;
+
+  margin: 10px 0 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .health-empty-result {
+    min-height: 300px;
+    padding: 30px 18px;
+  }
+
+  .health-empty-result-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
+    border-radius: 22px;
+  }
+
+  .health-empty-result h2 {
+    font-size: 21px;
+  }
+
+  .health-empty-result p {
+    font-size: 13px;
+  }
+}

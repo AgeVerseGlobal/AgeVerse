@@ -1,0 +1,900 @@
+/* =========================================================
+   AGEVERSE — PREMIUM RESULT CARD
+   ========================================================= */
+
+.result-card {
+  width: 100%;
+  max-width: 760px;
+
+  padding: 28px;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f8fafc
+    );
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 18px 45px rgba(15, 23, 42, 0.08);
+
+  animation: resultCardShow 0.45s ease;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   RESULT CARD ANIMATION
+========================================================= */
+
+@keyframes resultCardShow {
+
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   HEADINGS
+========================================================= */
+
+.result-card h2 {
+  margin: 8px 0 20px;
+
+  text-align: center;
+
+  color: #1e1b4b;
+
+  font-size: 22px;
+
+  font-weight: 800;
+
+  letter-spacing: -0.3px;
+}
+
+
+/* =========================================================
+   AGE RESULT
+========================================================= */
+
+.age-boxes {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 14px;
+
+  margin-bottom: 28px;
+}
+
+
+.age-boxes div {
+  position: relative;
+
+  overflow: hidden;
+
+  min-height: 125px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+
+  box-shadow:
+    0 6px 18px rgba(79, 70, 229, 0.07);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.age-boxes div::before {
+  content: "";
+
+  position: absolute;
+
+  width: 70px;
+  height: 70px;
+
+  top: -35px;
+  right: -35px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(99, 102, 241, 0.10);
+}
+
+
+.age-boxes div:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 12px 25px rgba(79, 70, 229, 0.13);
+}
+
+
+.age-boxes strong {
+  display: block;
+
+  position: relative;
+
+  font-size: 42px;
+
+  line-height: 1;
+
+  font-weight: 850;
+
+  color: #4f46e5;
+}
+
+
+.age-boxes span {
+  position: relative;
+
+  margin-top: 9px;
+
+  color: #64748b;
+
+  font-size: 13px;
+
+  font-weight: 650;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.4px;
+}
+
+
+/* =========================================================
+   TOTAL TIME
+========================================================= */
+
+.time-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 12px;
+
+  margin-bottom: 22px;
+}
+
+
+.time-grid div {
+  min-height: 78px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  padding: 12px;
+
+  border-radius: 16px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+
+  color: #334155;
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+  line-height: 1.5;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.time-grid div:hover {
+  transform: translateY(-2px);
+
+  background: #f1f5f9;
+
+  box-shadow:
+    0 7px 18px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =========================================================
+   BIRTH DAY
+========================================================= */
+
+.result-card h3 {
+  margin: 22px 0;
+
+  padding: 14px;
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f8fafc,
+      #eef2ff
+    );
+
+  border: 1px solid #e2e8f0;
+
+  text-align: center;
+
+  color: #475569;
+
+  font-size: 14px;
+
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   NEXT BIRTHDAY
+========================================================= */
+
+.birthday-box {
+  margin-top: 18px;
+
+  padding: 20px;
+
+  border-radius: 19px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fff7ed,
+      #fffbeb
+    );
+
+  border: 1px solid #fed7aa;
+
+  text-align: center;
+
+  color: #ea580c;
+
+  font-size: 16px;
+
+  font-weight: 750;
+
+  line-height: 1.7;
+
+  box-shadow:
+    0 7px 20px rgba(234, 88, 12, 0.07);
+}
+
+
+.birthday-box::first-line {
+  font-size: 17px;
+}
+
+
+/* =========================================================
+   RESULT ACTIONS
+========================================================= */
+
+.result-actions {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 22px;
+
+  flex-wrap: wrap;
+}
+
+
+.result-actions button {
+  min-height: 44px;
+
+  padding: 11px 20px;
+
+  border: none;
+
+  border-radius: 13px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  color: #ffffff;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 7px 18px rgba(79, 70, 229, 0.20);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.result-actions button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 23px rgba(79, 70, 229, 0.28);
+}
+
+
+.result-actions button:active {
+  transform: scale(0.97);
+}
+
+
+/* =========================================================
+   DOWNLOAD
+========================================================= */
+
+.download-section {
+  text-align: center;
+
+  margin-top: 18px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid #e5e7eb;
+}
+
+
+.download-section button {
+  min-height: 46px;
+
+  padding: 12px 25px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 20px rgba(22, 163, 74, 0.20);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.download-section button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 11px 24px rgba(22, 163, 74, 0.28);
+}
+
+
+.download-section button:active {
+  transform: scale(0.97);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .result-card {
+    padding: 21px;
+
+    border-radius: 22px;
+  }
+
+
+  .result-card h2 {
+    font-size: 20px;
+  }
+
+
+  .age-boxes {
+    grid-template-columns:
+      repeat(3, 1fr);
+
+    gap: 9px;
+  }
+
+
+  .age-boxes div {
+    min-height: 105px;
+
+    padding: 12px;
+
+    border-radius: 16px;
+  }
+
+
+  .age-boxes strong {
+    font-size: 32px;
+  }
+
+
+  .age-boxes span {
+    font-size: 10px;
+  }
+
+
+  .time-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 9px;
+  }
+
+
+  .time-grid div {
+    min-height: 70px;
+
+    font-size: 13px;
+  }
+
+
+  .birthday-box {
+    padding: 16px;
+
+    font-size: 14px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 430px) {
+
+  .result-card {
+    padding: 16px;
+  }
+
+
+  .age-boxes {
+    gap: 7px;
+  }
+
+
+  .age-boxes div {
+    min-height: 92px;
+
+    padding: 8px;
+  }
+
+
+  .age-boxes strong {
+    font-size: 27px;
+  }
+
+
+  .age-boxes span {
+    font-size: 9px;
+  }
+
+
+  .time-grid div {
+    min-height: 65px;
+
+    font-size: 12px;
+  }
+
+
+  .result-actions {
+    flex-direction: column;
+  }
+
+
+  .result-actions button {
+    width: 100%;
+  }
+
+
+  .download-section button {
+    width: 100%;
+  }
+
+}
+/* =========================================================
+   PREMIUM RESULT HEADER
+========================================================= */
+
+.result-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.result-header-icon {
+  width: 52px;
+  height: 52px;
+
+  flex: 0 0 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  font-size: 25px;
+
+  box-shadow:
+    0 8px 20px rgba(79, 70, 229, 0.10);
+}
+
+.result-header h2 {
+  margin: 0;
+
+  text-align: left;
+
+  font-size: 23px;
+  font-weight: 800;
+
+  color: #1e1b4b;
+}
+
+.result-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .result-header {
+    justify-content: flex-start;
+  }
+
+  .result-header-icon {
+    width: 46px;
+    height: 46px;
+    flex-basis: 46px;
+    font-size: 22px;
+  }
+
+  .result-header h2 {
+    font-size: 20px;
+  }
+
+}
+/* =========================================================
+   CALCULATION PERIOD
+========================================================= */
+
+.calculation-period {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  margin: 0 auto 24px;
+  padding: 13px 16px;
+
+  max-width: 560px;
+
+  border-radius: 15px;
+
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.calculation-period > div:not(.period-arrow) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.calculation-period span {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.calculation-period strong {
+  font-size: 13px;
+  color: #334155;
+}
+
+.period-arrow {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6366f1;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 500px) {
+
+  .calculation-period {
+    gap: 10px;
+    padding: 11px;
+  }
+
+  .calculation-period strong {
+    font-size: 12px;
+  }
+
+  .period-arrow {
+    font-size: 17px;
+  }
+
+}
+/* =========================================================
+   PREMIUM BIRTHDAY DETAILS
+========================================================= */
+
+.birthday-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.birthday-count {
+  font-size: 30px;
+  font-weight: 850;
+  line-height: 1.2;
+}
+
+.birthday-count span {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.birthday-date {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.85;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+  .birthday-count {
+    font-size: 26px;
+  }
+
+  .birthday-count span {
+    font-size: 13px;
+  }
+
+  .birthday-date {
+    font-size: 12px;
+  }
+
+}
+/* =========================================================
+   AGEVERSE — RESULT ACTIONS
+   5 BUTTONS
+========================================================= */
+
+.result-actions {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 8px;
+
+  margin-top: 24px;
+
+  width: 100%;
+}
+
+.result-actions button {
+  min-height: 42px;
+
+  padding: 8px 7px;
+
+  border-radius: 11px;
+
+  border: 1px solid #dbe2ea;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.result-actions button:hover {
+  transform: translateY(-2px);
+
+  background: #f8fafc;
+
+  border-color: #a5b4fc;
+
+  box-shadow:
+    0 5px 14px rgba(15, 23, 42, 0.08);
+}
+
+.result-actions button:active {
+  transform: scale(0.97);
+}
+
+.result-actions button:disabled {
+  opacity: 0.6;
+
+  cursor: wait;
+
+  transform: none;
+}
+
+
+/* NEW */
+
+.result-actions .result-new-button {
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  color: #ffffff;
+
+  border-color: transparent;
+}
+
+.result-actions .result-new-button:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #4338ca,
+      #6d28d9
+    );
+
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   EXPORT MODE
+   Buttons must NOT appear inside
+   PNG / JPEG / PDF / Print
+========================================================= */
+
+html.ageverse-exporting
+.result-actions {
+  display: none !important;
+}
+
+
+/* OLD DOWNLOAD SECTION — REMOVE FROM EXPORT/UI */
+
+html.ageverse-exporting
+.download-section {
+  display: none !important;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .result-actions {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 9px;
+  }
+
+  .result-actions button {
+    font-size: 12px;
+
+    min-height: 44px;
+  }
+
+  .result-actions .result-new-button {
+    grid-column: span 2;
+  }
+
+}

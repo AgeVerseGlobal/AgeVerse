@@ -1,0 +1,1686 @@
+/* =========================================================
+   AGEVERSE
+   CENTRAL DARK MODE OVERRIDE
+   ---------------------------------------------------------
+   IMPORTANT:
+   - DARK MODE ONLY
+   - NO CALCULATION LOGIC CHANGE
+   - NO BUTTON FUNCTION CHANGE
+   - NO LIGHT MODE CHANGE
+   - ALL OVERRIDES CENTRALIZED HERE
+========================================================= */
+
+
+/* =========================================================
+   1. GLOBAL PAGE
+========================================================= */
+
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode #root {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode main {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   2. SIP / FD / RD / DOG AGE
+   PAGE BACKGROUND
+========================================================= */
+
+html.dark-mode .sip-calculator-page,
+html.dark-mode .fd-calculator-page,
+html.dark-mode .rd-calculator-page,
+html.dark-mode .dog-age-calculator-page {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   3. MAIN INPUT CARDS
+========================================================= */
+
+html.dark-mode .sip-calculator-card,
+html.dark-mode .fd-calculator-card,
+html.dark-mode .rd-calculator-card,
+html.dark-mode .dog-age-calculator-card {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* =========================================================
+   4. EMPTY RESULT CARDS
+========================================================= */
+
+html.dark-mode .sip-calculator-empty-result,
+html.dark-mode .fd-calculator-empty-result,
+html.dark-mode .rd-calculator-empty-result,
+html.dark-mode .dog-age-empty-result {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* =========================================================
+   5. RESULT CARDS
+========================================================= */
+
+html.dark-mode .sip-calculator-result-card,
+html.dark-mode .fd-calculator-result-card,
+html.dark-mode .rd-calculator-result-card,
+html.dark-mode .dog-age-result-card {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* =========================================================
+   6. HEADERS
+========================================================= */
+
+html.dark-mode .sip-calculator-header h1,
+html.dark-mode .fd-calculator-header h1,
+html.dark-mode .rd-calculator-header h1,
+html.dark-mode .dog-age-calculator-header h1,
+
+html.dark-mode .sip-result-header h2,
+html.dark-mode .fd-result-header h2,
+html.dark-mode .rd-result-header h2,
+html.dark-mode .dog-age-result-header h2 {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   7. DESCRIPTION / NORMAL TEXT
+========================================================= */
+
+html.dark-mode .sip-calculator-header p,
+html.dark-mode .fd-calculator-header p,
+html.dark-mode .rd-calculator-header p,
+html.dark-mode .dog-age-calculator-header p,
+
+html.dark-mode .sip-calculator-result-card p,
+html.dark-mode .fd-calculator-result-card p,
+html.dark-mode .rd-calculator-result-card p,
+html.dark-mode .dog-age-result-card p {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   8. LABELS
+========================================================= */
+
+html.dark-mode .sip-calculator-field label,
+html.dark-mode .fd-calculator-field label,
+html.dark-mode .rd-calculator-field label,
+html.dark-mode .dog-age-calculator-field label {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   9. INPUTS / SELECTS
+========================================================= */
+
+html.dark-mode .sip-calculator-field input,
+html.dark-mode .sip-calculator-field select,
+
+html.dark-mode .fd-calculator-field input,
+html.dark-mode .fd-calculator-field select,
+
+html.dark-mode .rd-calculator-field input,
+html.dark-mode .rd-calculator-field select,
+
+html.dark-mode .dog-age-calculator-field input,
+html.dark-mode .dog-age-calculator-field select {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   10. INPUT PLACEHOLDERS
+========================================================= */
+
+html.dark-mode .sip-calculator-field input::placeholder,
+html.dark-mode .fd-calculator-field input::placeholder,
+html.dark-mode .rd-calculator-field input::placeholder,
+html.dark-mode .dog-age-calculator-field input::placeholder {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   11. COMMON INNER BOXES
+========================================================= */
+
+html.dark-mode .sip-stepup-section,
+html.dark-mode .sip-calculator-info,
+
+html.dark-mode .fd-calculator-info,
+html.dark-mode .fd-input-summary,
+html.dark-mode .fd-metric-card,
+html.dark-mode .fd-flow-box,
+html.dark-mode .fd-flow-item,
+html.dark-mode .fd-flow-result,
+html.dark-mode .fd-equation,
+
+html.dark-mode .rd-calculator-info,
+html.dark-mode .rd-input-summary,
+html.dark-mode .rd-metric-card,
+html.dark-mode .rd-flow-box,
+html.dark-mode .rd-flow-item,
+html.dark-mode .rd-flow-result,
+html.dark-mode .rd-equation,
+
+html.dark-mode .dog-age-calculator-info,
+html.dark-mode .dog-age-input-summary,
+html.dark-mode .dog-age-metric-card,
+html.dark-mode .dog-age-flow-box,
+html.dark-mode .dog-age-flow-item,
+html.dark-mode .dog-age-flow-result,
+html.dark-mode .dog-age-equation {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   12. SUMMARY ITEMS
+========================================================= */
+
+html.dark-mode .sip-summary-item,
+html.dark-mode .fd-summary-item,
+html.dark-mode .rd-summary-item,
+html.dark-mode .dog-age-summary-item {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   13. RESULT METRICS
+========================================================= */
+
+html.dark-mode .sip-metric-card,
+html.dark-mode .fd-metric-card,
+html.dark-mode .rd-metric-card,
+html.dark-mode .dog-age-metric-card {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   14. MAIN RESULT
+========================================================= */
+
+html.dark-mode .sip-main-result,
+html.dark-mode .fd-main-result,
+html.dark-mode .rd-main-result,
+html.dark-mode .dog-age-main-result,
+html.dark-mode .dog-age-human-result {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   15. FLOW
+========================================================= */
+
+html.dark-mode .sip-flow-box,
+html.dark-mode .sip-flow-item,
+html.dark-mode .sip-flow-result,
+
+html.dark-mode .fd-flow-box,
+html.dark-mode .fd-flow-item,
+html.dark-mode .fd-flow-result,
+
+html.dark-mode .rd-flow-box,
+html.dark-mode .rd-flow-item,
+html.dark-mode .rd-flow-result,
+
+html.dark-mode .dog-age-flow-box,
+html.dark-mode .dog-age-flow-item,
+html.dark-mode .dog-age-flow-result {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   16. EQUATION / IMPORTANT
+========================================================= */
+
+html.dark-mode .sip-equation,
+html.dark-mode .fd-equation,
+html.dark-mode .rd-equation,
+html.dark-mode .dog-age-equation {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .sip-important,
+html.dark-mode .fd-important,
+html.dark-mode .rd-important,
+html.dark-mode .dog-age-important {
+  background: #292316 !important;
+  color: #f5d78a !important;
+  border-color: #5c4820 !important;
+}
+
+
+/* =========================================================
+   17. INNER TEXT
+========================================================= */
+
+html.dark-mode .sip-summary-item *,
+html.dark-mode .fd-summary-item *,
+html.dark-mode .rd-summary-item *,
+html.dark-mode .dog-age-summary-item *,
+
+html.dark-mode .sip-metric-card *,
+html.dark-mode .fd-metric-card *,
+html.dark-mode .rd-metric-card *,
+html.dark-mode .dog-age-metric-card *,
+
+html.dark-mode .sip-flow-item *,
+html.dark-mode .fd-flow-item *,
+html.dark-mode .rd-flow-item *,
+html.dark-mode .dog-age-flow-item *,
+
+html.dark-mode .sip-flow-result *,
+html.dark-mode .fd-flow-result *,
+html.dark-mode .rd-flow-result *,
+html.dark-mode .dog-age-flow-result * {
+  color: inherit;
+}
+
+
+/* =========================================================
+   18. TABLES
+========================================================= */
+
+html.dark-mode .sip-year-table,
+html.dark-mode .fd-year-table,
+html.dark-mode .rd-year-table {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .sip-year-table th,
+html.dark-mode .fd-year-table th,
+html.dark-mode .rd-year-table th {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .sip-year-table td,
+html.dark-mode .fd-year-table td,
+html.dark-mode .rd-year-table td {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   19. RESET BUTTONS
+========================================================= */
+
+html.dark-mode .sip-calculator-reset,
+html.dark-mode .fd-calculator-reset,
+html.dark-mode .rd-calculator-reset,
+html.dark-mode .dog-age-calculator-reset {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   20. CALCULATE BUTTONS
+========================================================= */
+
+html.dark-mode .sip-calculator-calculate,
+html.dark-mode .fd-calculator-calculate,
+html.dark-mode .rd-calculator-calculate,
+html.dark-mode .dog-age-calculator-calculate {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   21. RESULT ACTION BUTTONS
+========================================================= */
+
+html.dark-mode .sip-result-actions button,
+html.dark-mode .fd-result-actions button,
+html.dark-mode .rd-result-actions button,
+html.dark-mode .dog-age-result-actions button {
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   22. FOOTERS
+========================================================= */
+
+html.dark-mode .sip-result-footer,
+html.dark-mode .fd-result-footer,
+html.dark-mode .rd-result-footer,
+html.dark-mode .dog-age-result-footer {
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .sip-result-footer strong,
+html.dark-mode .fd-result-footer strong,
+html.dark-mode .rd-result-footer strong,
+html.dark-mode .dog-age-result-footer strong {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   23. SIP / FD / RD / DOG ICON BOXES
+========================================================= */
+
+html.dark-mode .sip-calculator-icon,
+html.dark-mode .sip-result-icon,
+html.dark-mode .sip-calculator-empty-icon,
+
+html.dark-mode .fd-calculator-icon,
+html.dark-mode .fd-result-icon,
+html.dark-mode .fd-calculator-empty-icon,
+
+html.dark-mode .rd-calculator-icon,
+html.dark-mode .rd-result-icon,
+html.dark-mode .rd-calculator-empty-icon,
+
+html.dark-mode .dog-age-calculator-icon,
+html.dark-mode .dog-age-result-icon,
+html.dark-mode .dog-age-empty-icon {
+  background: var(--surface-soft) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   24. AGE CALCULATOR
+========================================================= */
+
+html.dark-mode .age-calculator-page {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode .age-calculator-card,
+html.dark-mode .age-result-card,
+html.dark-mode .age-empty-result {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   AGE CALCULATOR INTERNAL BOXES
+========================================================= */
+
+html.dark-mode .age-input-card,
+html.dark-mode .age-input-section,
+html.dark-mode .age-date-section,
+html.dark-mode .age-date-box,
+html.dark-mode .age-info-box,
+html.dark-mode .age-summary,
+html.dark-mode .age-summary-box,
+html.dark-mode .age-time-card,
+html.dark-mode .age-total-time,
+html.dark-mode .age-result-section,
+html.dark-mode .age-result-content {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   AGE CALCULATOR INPUTS
+========================================================= */
+
+html.dark-mode .age-calculator-page input,
+html.dark-mode .age-calculator-page select,
+html.dark-mode .age-calculator-page textarea {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   AGE CALCULATOR TEXT
+========================================================= */
+
+html.dark-mode .age-calculator-page h1,
+html.dark-mode .age-calculator-page h2,
+html.dark-mode .age-calculator-page h3,
+html.dark-mode .age-calculator-page h4,
+html.dark-mode .age-calculator-page h5,
+html.dark-mode .age-calculator-page h6 {
+  color: var(--text) !important;
+}
+
+html.dark-mode .age-calculator-page p,
+html.dark-mode .age-calculator-page label {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   AGE CALCULATOR GREEN INFORMATION BOX
+========================================================= */
+
+html.dark-mode .age-calculator-page .age-info,
+html.dark-mode .age-calculator-page .age-notice,
+html.dark-mode .age-calculator-page .age-message {
+  background: #143523 !important;
+  color: #b7f7c9 !important;
+  border-color: #286044 !important;
+}
+
+
+/* =========================================================
+   AGE RESULT NUMBER CARDS
+========================================================= */
+
+html.dark-mode .age-calculator-page .age-result-card,
+html.dark-mode .age-calculator-page .age-metric-card {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   AGE EMPTY RESULT
+========================================================= */
+
+html.dark-mode .age-empty-result h2 {
+  color: var(--text) !important;
+}
+
+html.dark-mode .age-empty-result p {
+  color: var(--text-light) !important;
+}
+
+html.dark-mode .age-empty-result-hint {
+  background: var(--surface-soft) !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   25. UNIT CONVERTER
+   KEEP AS REFERENCE
+========================================================= */
+
+html.dark-mode .unit-converter-card,
+html.dark-mode .unit-converter-result-card,
+html.dark-mode .unit-converter-empty-result {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+html.dark-mode .unit-converter-field label {
+  color: var(--text) !important;
+}
+
+html.dark-mode .unit-converter-field input,
+html.dark-mode .unit-converter-field select {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .unit-converter-field input::placeholder {
+  color: var(--text-light) !important;
+}
+
+
+html.dark-mode .unit-converter-summary-box,
+html.dark-mode .unit-converter-main-result,
+html.dark-mode .unit-converter-equation,
+html.dark-mode .unit-converter-important,
+html.dark-mode .unit-converter-info {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+html.dark-mode .unit-converter-reset {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+html.dark-mode .unit-converter-calculate {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+}
+
+
+html.dark-mode .unit-converter-result-actions button {
+  border-color: var(--border) !important;
+}
+
+
+html.dark-mode .unit-converter-result-card h1,
+html.dark-mode .unit-converter-result-card h2,
+html.dark-mode .unit-converter-result-card h3,
+html.dark-mode .unit-converter-result-card h4 {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   26. DISCOUNT SAVING CARD
+========================================================= */
+
+html.dark-mode .discount-saving-card {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .discount-saving-card > div {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   27. SELECT OPTIONS
+========================================================= */
+
+html.dark-mode option {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   28. EVENT CALCULATOR — MAIN
+========================================================= */
+
+html.dark-mode .event-result-card,
+html.dark-mode .event-time-picker,
+html.dark-mode .event-reminder-box {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* =========================================================
+   29. EVENT HEADERS
+========================================================= */
+
+html.dark-mode .event-result-header,
+html.dark-mode .event-result-footer {
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .event-result-title h2,
+html.dark-mode .event-result-title p,
+html.dark-mode .event-info-label,
+html.dark-mode .event-info-item strong,
+html.dark-mode .countdown-heading,
+html.dark-mode .event-reminder-result-header strong,
+html.dark-mode .event-reminder-result-content strong,
+html.dark-mode .event-time-heading h3,
+html.dark-mode .reminder-heading h3,
+html.dark-mode .custom-reminder-title,
+html.dark-mode .custom-event-box label {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   30. EVENT NORMAL TEXT
+========================================================= */
+
+html.dark-mode .event-result-title p,
+html.dark-mode .event-info-label,
+html.dark-mode .event-reminder-result-content span,
+html.dark-mode .event-time-heading p,
+html.dark-mode .reminder-heading p {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   31. EVENT ICONS
+========================================================= */
+
+html.dark-mode .event-result-icon,
+html.dark-mode .event-time-icon,
+html.dark-mode .reminder-icon,
+html.dark-mode .reminder-option-icon {
+  background: var(--surface-soft) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   32. EVENT INNER BOXES
+========================================================= */
+
+html.dark-mode .event-info-item,
+html.dark-mode .event-reminder-result,
+html.dark-mode .custom-event-box,
+html.dark-mode .custom-reminder-box,
+html.dark-mode .event-time-input-box {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   33. EVENT INPUTS
+========================================================= */
+
+html.dark-mode .event-time-input-box input,
+html.dark-mode .custom-event-box input,
+html.dark-mode .custom-reminder-controls input,
+html.dark-mode .custom-reminder-controls select {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border-strong) !important;
+}
+
+
+/* =========================================================
+   34. EVENT INPUT PLACEHOLDER
+========================================================= */
+
+html.dark-mode .event-time-input-box input::placeholder,
+html.dark-mode .custom-event-box input::placeholder,
+html.dark-mode .custom-reminder-controls input::placeholder {
+  color: var(--placeholder) !important;
+}
+
+
+/* =========================================================
+   35. EVENT PICKER
+   FIX LIGHT PATCH IN DARK MODE
+========================================================= */
+
+html.dark-mode .event-picker {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+
+/* Event option */
+
+html.dark-mode .event-option {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+
+/* Event option text */
+
+html.dark-mode .event-option p,
+html.dark-mode .event-option span {
+  color: inherit !important;
+}
+
+
+/* Event option hover */
+
+html.dark-mode .event-option:hover {
+  background: var(--surface) !important;
+  background-image: none !important;
+  border-color: var(--primary) !important;
+}
+
+
+/* Active event */
+
+html.dark-mode .event-option.active {
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--secondary)
+  ) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+
+
+/* Active event text */
+
+html.dark-mode .event-option.active p,
+html.dark-mode .event-option.active span {
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   36. CUSTOM EVENT BOX
+========================================================= */
+
+html.dark-mode .custom-event-box {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .custom-event-box label {
+  color: var(--text) !important;
+}
+
+html.dark-mode .custom-event-box input {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .custom-event-box input:focus {
+  background: var(--surface) !important;
+  border-color: var(--primary) !important;
+}
+
+
+/* =========================================================
+   37. EVENT TIME PICKER
+   FIX INPUT AREA LIGHT PATCH
+========================================================= */
+
+html.dark-mode .event-time-picker {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* Time header */
+
+html.dark-mode .event-time-header {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+
+/* Time input wrapper */
+
+html.dark-mode .event-time-input-box {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* Time input */
+
+html.dark-mode .event-time-input-box input {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: var(--text) !important;
+}
+
+
+/* Time input focus */
+
+html.dark-mode .event-time-input-box:focus-within {
+  background: var(--surface-soft) !important;
+  border-color: var(--primary) !important;
+}
+
+
+/* =========================================================
+   38. REMINDER OPTIONS
+========================================================= */
+
+html.dark-mode .reminder-option {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+html.dark-mode .reminder-option:hover {
+  background: var(--surface) !important;
+  background-image: none !important;
+  border-color: var(--primary) !important;
+}
+
+html.dark-mode .reminder-option-text {
+  color: var(--text) !important;
+}
+
+html.dark-mode .reminder-option.active {
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--secondary)
+  ) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .reminder-option.active .reminder-option-text {
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   39. REMINDER CONTAINER
+========================================================= */
+
+html.dark-mode .event-reminder-box,
+html.dark-mode .custom-reminder-box {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* Reminder headings */
+
+html.dark-mode .reminder-heading,
+html.dark-mode .custom-reminder-title {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode .reminder-heading h3,
+html.dark-mode .custom-reminder-title {
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   40. CUSTOM REMINDER CONTROLS
+========================================================= */
+
+html.dark-mode .custom-reminder-controls {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode .custom-reminder-controls input,
+html.dark-mode .custom-reminder-controls select {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .custom-reminder-controls input:focus,
+html.dark-mode .custom-reminder-controls select:focus {
+  background: var(--surface-soft) !important;
+  border-color: var(--primary) !important;
+}
+
+
+/* =========================================================
+   41. REMINDER SELECT OPTIONS
+========================================================= */
+
+html.dark-mode .custom-reminder-controls select option,
+html.dark-mode .custom-reminder-controls option,
+html.dark-mode .event-reminder-box option {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   42. REMINDER RESULT
+========================================================= */
+
+html.dark-mode .event-reminder-result {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .event-reminder-result-header,
+html.dark-mode .event-reminder-result-content {
+  background: transparent !important;
+  background-image: none !important;
+  color: var(--text) !important;
+}
+
+
+/* =========================================================
+   43. COUNTDOWN
+========================================================= */
+
+html.dark-mode .countdown-box {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+html.dark-mode .countdown-box strong {
+  color: #a5b4fc !important;
+}
+
+html.dark-mode .countdown-box span,
+html.dark-mode .event-result-footer {
+  color: var(--text-light) !important;
+}
+
+
+/* =========================================================
+   44. EVENT STATUS
+========================================================= */
+
+html.dark-mode .event-status.upcoming {
+  background: #123522 !important;
+  color: #86efac !important;
+  border-color: #286044 !important;
+}
+
+html.dark-mode .event-status.completed {
+  background: var(--surface-soft) !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   45. EVENT REMINDER — NESTED LIGHT SURFACE SAFETY
+   Prevent white backgrounds from child elements
+========================================================= */
+
+html.dark-mode .event-reminder-box > *,
+html.dark-mode .event-reminder-box .reminder-heading > *,
+html.dark-mode .event-reminder-box .custom-reminder-box > *,
+html.dark-mode .event-reminder-box .custom-reminder-controls > * {
+  color: inherit;
+}
+
+
+/* Only elements which are actual visual surfaces */
+
+html.dark-mode .event-reminder-box .reminder-option,
+html.dark-mode .event-reminder-box .custom-reminder-box,
+html.dark-mode .event-reminder-box .custom-reminder-controls input,
+html.dark-mode .event-reminder-box .custom-reminder-controls select,
+html.dark-mode .event-reminder-box .event-reminder-result {
+  background-color: var(--surface-soft) !important;
+  background-image: none !important;
+}
+
+
+/* =========================================================
+   46. EVENT INPUT — BROWSER AUTOFILL
+========================================================= */
+
+html.dark-mode .event-time-input-box input:-webkit-autofill,
+html.dark-mode .custom-event-box input:-webkit-autofill,
+html.dark-mode .custom-reminder-controls input:-webkit-autofill {
+  -webkit-text-fill-color: var(--text) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--surface-soft) inset !important;
+  box-shadow: 0 0 0 1000px var(--surface-soft) inset !important;
+  transition: background-color 9999s ease-in-out 0s !important;
+}
+
+
+/* =========================================================
+   47. GENERAL FORM ELEMENT SAFETY IN EVENT CALCULATOR
+========================================================= */
+
+html.dark-mode .event-result-card input,
+html.dark-mode .event-result-card select,
+html.dark-mode .event-result-card textarea,
+html.dark-mode .event-time-picker input,
+html.dark-mode .event-time-picker select,
+html.dark-mode .event-reminder-box input,
+html.dark-mode .event-reminder-box select,
+html.dark-mode .event-reminder-box textarea {
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   48. EVENT FOOTER
+========================================================= */
+
+html.dark-mode .event-result-footer {
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* =========================================================
+   49. DARK MODE SURFACE SAFETY
+   Only known calculator surfaces
+========================================================= */
+
+html.dark-mode .sip-calculator-page .sip-calculator-card *,
+html.dark-mode .fd-calculator-page .fd-calculator-card *,
+html.dark-mode .rd-calculator-page .rd-calculator-card *,
+html.dark-mode .dog-age-calculator-page .dog-age-calculator-card * {
+  border-color: inherit;
+}
+
+
+/* =========================================================
+   50. DO NOT CHANGE IMAGES / ICONS / BUTTON FUNCTION
+========================================================= */
+
+/*
+   No global filter is applied.
+   No opacity is applied.
+   No pointer-events are changed.
+   No display/visibility is changed.
+   No calculation styles are modified.
+*/
+
+
+/* =========================================================
+   END — CENTRAL DARK MODE
+========================================================= */
+/* =========================================================
+   AGEVERSE — FIX #1
+   SIP / FD / RD / DOG AGE
+   RESULT CARD FULL WHITE BACKGROUND IN DARK MODE
+   ---------------------------------------------------------
+   ONLY DARK MODE VISUAL FIX
+   NO CALCULATION / BUTTON / FUNCTION CHANGE
+========================================================= */
+
+html.dark-mode #sip-result-export,
+html.dark-mode #fd-result-export,
+html.dark-mode #rd-result-export,
+html.dark-mode #dog-age-result-export {
+  background: var(--surface) !important;
+  background-color: var(--surface) !important;
+  background-image: none !important;
+
+  color: var(--text) !important;
+
+  border-color: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* Result card ke andar jo main white surfaces hain */
+
+html.dark-mode #sip-result-export .sip-input-summary,
+html.dark-mode #sip-result-export .sip-summary-item,
+html.dark-mode #sip-result-export .sip-metric-card,
+html.dark-mode #sip-result-export .sip-flow-box,
+html.dark-mode #sip-result-export .sip-equation,
+
+html.dark-mode #fd-result-export .fd-input-summary,
+html.dark-mode #fd-result-export .fd-summary-item,
+html.dark-mode #fd-result-export .fd-metric-card,
+html.dark-mode #fd-result-export .fd-flow-box,
+html.dark-mode #fd-result-export .fd-equation,
+
+html.dark-mode #rd-result-export .rd-input-summary,
+html.dark-mode #rd-result-export .rd-summary-item,
+html.dark-mode #rd-result-export .rd-metric-card,
+html.dark-mode #rd-result-export .rd-flow-box,
+html.dark-mode #rd-result-export .rd-equation,
+
+html.dark-mode #dog-age-result-export .dog-age-input-summary,
+html.dark-mode #dog-age-result-export .dog-age-summary-item,
+html.dark-mode #dog-age-result-export .dog-age-metric-card,
+html.dark-mode #dog-age-result-export .dog-age-flow-box,
+html.dark-mode #dog-age-result-export .dog-age-equation {
+  background: var(--surface-soft) !important;
+  background-color: var(--surface-soft) !important;
+  background-image: none !important;
+
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+
+/* Tables */
+
+html.dark-mode #sip-result-export .sip-year-table,
+html.dark-mode #fd-result-export .fd-year-table,
+html.dark-mode #rd-result-export .rd-year-table {
+  background: var(--surface) !important;
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode #sip-result-export .sip-year-table th,
+html.dark-mode #fd-result-export .fd-year-table th,
+html.dark-mode #rd-result-export .rd-year-table th {
+  background: var(--surface-soft) !important;
+  background-color: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode #sip-result-export .sip-year-table td,
+html.dark-mode #fd-result-export .fd-year-table td,
+html.dark-mode #rd-result-export .rd-year-table td {
+  background: var(--surface) !important;
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* =========================================================
+   AGE CALCULATOR — INPUT SIDE DARK MODE HARDENING
+   Scoped ONLY to .age-calculator-layout.
+   Other calculators are not affected.
+========================================================= */
+
+html.dark-mode .age-calculator-layout .calculator-left {
+  background: var(--card-background) !important;
+  color: var(--text) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+html.dark-mode .age-calculator-layout .calculator-left h1 {
+  color: var(--text-heading) !important;
+}
+
+html.dark-mode .age-calculator-layout .calculator-left > p {
+  color: var(--text-light) !important;
+}
+
+html.dark-mode .age-calculator-layout .calculator-left label,
+html.dark-mode .age-calculator-layout .calculate-till-label,
+html.dark-mode .age-calculator-layout .specific-date-field label {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-input-wrapper {
+  background: var(--input-background) !important;
+  background-image: none !important;
+  border-color: var(--input-border) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-input-wrapper .date-part,
+html.dark-mode .age-calculator-layout .date-input-wrapper input {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: var(--input-text) !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .age-calculator-layout .date-input-wrapper .date-part::placeholder {
+  color: var(--placeholder) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-input-wrapper .date-separator {
+  color: var(--text-muted) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-input-wrapper:focus-within {
+  background: var(--input-background) !important;
+  border-color: var(--primary) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-mode {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-mode:hover {
+  background: #1e293b !important;
+  color: var(--text-heading) !important;
+  border-color: var(--primary) !important;
+}
+
+html.dark-mode .age-calculator-layout .date-mode.active {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #4f46e5
+  ) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .age-calculator-layout .specific-date-field {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .age-calculator-layout .today-info {
+  background: #123524 !important;
+  background-image: none !important;
+  color: #bbf7d0 !important;
+  border-color: #166534 !important;
+}
+
+html.dark-mode .age-calculator-layout .today-info strong {
+  color: #86efac !important;
+}
+
+html.dark-mode .age-calculator-layout .today-info small {
+  color: #bbf7d0 !important;
+}
+
+html.dark-mode .age-calculator-layout .today-info-icon {
+  background: #14532d !important;
+  color: #bbf7d0 !important;
+}
+
+html.dark-mode .age-calculator-layout .age-calculator-buttons .reset {
+  background: var(--surface-soft) !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .age-calculator-layout .age-calculator-buttons .reset:hover {
+  background: #1e293b !important;
+  color: var(--text-heading) !important;
+  border-color: var(--border-strong) !important;
+}
+
+html.dark-mode .age-calculator-layout .error {
+  background: #3f1720 !important;
+  color: #fda4af !important;
+  border-color: #881337 !important;
+}
+/* =========================================================
+   AGEVERSE — CALCULATOR DARK MODE FINAL SURFACE FIX
+   ---------------------------------------------------------
+   ONLY DARK MODE
+   NO CALCULATION CHANGE
+   NO BUTTON FUNCTION CHANGE
+   NO LIGHT MODE CHANGE
+========================================================= */
+
+/* ---------- PAGE BACKGROUND ---------- */
+
+html.dark-mode .percentage-calculator-page,
+html.dark-mode .gst-calculator-page,
+html.dark-mode .emi-calculator-page,
+html.dark-mode .discount-calculator-page,
+html.dark-mode .sip-calculator-page,
+html.dark-mode .fd-calculator-page,
+html.dark-mode .rd-calculator-page,
+html.dark-mode .dog-age-calculator-page {
+  background: var(--background) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+}
+
+
+/* ---------- RESULT AREA ---------- */
+
+html.dark-mode .percentage-calculator-result-section,
+html.dark-mode .gst-calculator-result-section,
+html.dark-mode .emi-calculator-result-section,
+html.dark-mode .discount-calculator-result-section,
+html.dark-mode .sip-calculator-result-section,
+html.dark-mode .fd-calculator-result-section,
+html.dark-mode .rd-calculator-result-section,
+html.dark-mode .dog-age-result-section {
+  background: transparent !important;
+  background-image: none !important;
+  color: var(--text) !important;
+}
+
+
+/* ---------- EMPTY RESULT CARD ---------- */
+
+html.dark-mode .percentage-calculator-empty-result,
+html.dark-mode .gst-calculator-empty-result,
+html.dark-mode .emi-calculator-empty-result,
+html.dark-mode .discount-calculator-empty-result,
+html.dark-mode .sip-calculator-empty-result,
+html.dark-mode .fd-calculator-empty-result,
+html.dark-mode .rd-calculator-empty-result,
+html.dark-mode .dog-age-empty-result {
+  background: var(--surface) !important;
+  background-color: var(--surface) !important;
+  background-image: none !important;
+
+  color: var(--text) !important;
+
+  border-color: var(--border) !important;
+
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* ---------- RESULT CARD ---------- */
+
+html.dark-mode .percentage-calculator-result-card,
+html.dark-mode .gst-calculator-result-card,
+html.dark-mode .emi-calculator-result-card,
+html.dark-mode .discount-calculator-result-card,
+html.dark-mode .sip-calculator-result-card,
+html.dark-mode .fd-calculator-result-card,
+html.dark-mode .rd-calculator-result-card,
+html.dark-mode .dog-age-result-card {
+  background: var(--surface) !important;
+  background-color: var(--surface) !important;
+  background-image: none !important;
+
+  color: var(--text) !important;
+
+  border-color: var(--border) !important;
+
+  box-shadow: var(--shadow) !important;
+}
+
+
+/* ---------- EMPTY RESULT CHILDREN ---------- */
+
+html.dark-mode .percentage-calculator-empty-result *,
+html.dark-mode .gst-calculator-empty-result *,
+html.dark-mode .emi-calculator-empty-result *,
+html.dark-mode .discount-calculator-empty-result *,
+html.dark-mode .sip-calculator-empty-result *,
+html.dark-mode .fd-calculator-empty-result *,
+html.dark-mode .rd-calculator-empty-result *,
+html.dark-mode .dog-age-empty-result * {
+  color: inherit;
+}
+
+
+/* ---------- EMPTY RESULT ICON ---------- */
+
+html.dark-mode .percentage-calculator-empty-icon,
+html.dark-mode .gst-calculator-empty-icon,
+html.dark-mode .emi-calculator-empty-icon,
+html.dark-mode .discount-calculator-empty-icon,
+html.dark-mode .sip-calculator-empty-icon,
+html.dark-mode .fd-calculator-empty-icon,
+html.dark-mode .rd-calculator-empty-icon,
+html.dark-mode .dog-age-empty-icon {
+  background: var(--surface-soft) !important;
+  background-color: var(--surface-soft) !important;
+  background-image: none !important;
+
+  border-color: var(--border) !important;
+}
+
+
+/* ---------- EMPTY RESULT TEXT ---------- */
+
+html.dark-mode .percentage-calculator-empty-result h2,
+html.dark-mode .gst-calculator-empty-result h2,
+html.dark-mode .emi-calculator-empty-result h2,
+html.dark-mode .discount-calculator-empty-result h2,
+html.dark-mode .sip-calculator-empty-result h2,
+html.dark-mode .fd-calculator-empty-result h2,
+html.dark-mode .rd-calculator-empty-result h2,
+html.dark-mode .dog-age-empty-result h2 {
+  color: var(--text-heading) !important;
+}
+
+
+html.dark-mode .percentage-calculator-empty-result p,
+html.dark-mode .gst-calculator-empty-result p,
+html.dark-mode .emi-calculator-empty-result p,
+html.dark-mode .discount-calculator-empty-result p,
+html.dark-mode .sip-calculator-empty-result p,
+html.dark-mode .fd-calculator-empty-result p,
+html.dark-mode .rd-calculator-empty-result p,
+html.dark-mode .dog-age-empty-result p {
+  color: var(--text-light) !important;
+}
+
+
+/* ---------- RESULT CARD INNER SURFACES ---------- */
+
+html.dark-mode .percentage-calculator-result-card > *,
+html.dark-mode .gst-calculator-result-card > *,
+html.dark-mode .emi-calculator-result-card > *,
+html.dark-mode .discount-calculator-result-card > *,
+html.dark-mode .sip-calculator-result-card > *,
+html.dark-mode .fd-calculator-result-card > *,
+html.dark-mode .rd-calculator-result-card > *,
+html.dark-mode .dog-age-result-card > * {
+  border-color: var(--border) !important;
+}
+
+
+/* ---------- REMOVE WHITE GRADIENTS ---------- */
+
+html.dark-mode .percentage-calculator-result-card *,
+html.dark-mode .gst-calculator-result-card *,
+html.dark-mode .emi-calculator-result-card *,
+html.dark-mode .discount-calculator-result-card *,
+html.dark-mode .sip-calculator-result-card *,
+html.dark-mode .fd-calculator-result-card *,
+html.dark-mode .rd-calculator-result-card *,
+html.dark-mode .dog-age-result-card * {
+  background-image: none !important;
+}
+
+
+/* =========================================================
+   END — DARK MODE SURFACE FIX
+========================================================= */
+/* =========================================================
+   FINAL FIX — EMPTY RESULT POINTS / BADGES
+   Fixes:
+   Projection / Accurate / Growth
+   Maturity / Interest / etc.
+   DARK MODE ONLY
+========================================================= */
+
+html.dark-mode .sip-calculator-empty-points span,
+html.dark-mode .fd-calculator-empty-points span,
+html.dark-mode .rd-calculator-empty-points span,
+html.dark-mode .dog-age-empty-points span,
+html.dark-mode .percentage-calculator-empty-points span,
+html.dark-mode .gst-calculator-empty-points span,
+html.dark-mode .emi-calculator-empty-points span,
+html.dark-mode .discount-calculator-empty-points span {
+  background: var(--surface-soft) !important;
+  background-color: var(--surface-soft) !important;
+  background-image: none !important;
+
+  color: var(--text) !important;
+
+  border: 1px solid var(--border) !important;
+}
+
+
+/* Keep the badge container transparent */
+html.dark-mode .sip-calculator-empty-points,
+html.dark-mode .fd-calculator-empty-points,
+html.dark-mode .rd-calculator-empty-points,
+html.dark-mode .dog-age-empty-points,
+html.dark-mode .percentage-calculator-empty-points,
+html.dark-mode .gst-calculator-empty-points,
+html.dark-mode .emi-calculator-empty-points,
+html.dark-mode .discount-calculator-empty-points {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+
+/* Make sure badge text itself cannot inherit
+   the old light-mode purple/grey color */
+html.dark-mode .sip-calculator-empty-points span,
+html.dark-mode .fd-calculator-empty-points span,
+html.dark-mode .rd-calculator-empty-points span,
+html.dark-mode .dog-age-empty-points span,
+html.dark-mode .percentage-calculator-empty-points span,
+html.dark-mode .gst-calculator-empty-points span,
+html.dark-mode .emi-calculator-empty-points span,
+html.dark-mode .discount-calculator-empty-points span {
+  -webkit-text-fill-color: var(--text) !important;
+}
+
+/* =========================================================
+   PERCENTAGE CALCULATOR — DARK MODE ONLY
+   Scoped fix for result/input surfaces.
+   No other calculator is affected.
+========================================================= */
+
+html.dark-mode .percentage-calculator-card {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-header,
+html.dark-mode .percentage-calculator-header h1,
+html.dark-mode .percentage-calculator-header p,
+html.dark-mode .percentage-calculator-section-heading,
+html.dark-mode .percentage-calculator-field label,
+html.dark-mode .percentage-calculator-info-title {
+  color: var(--text) !important;
+}
+
+html.dark-mode .percentage-calculator-mode-section select,
+html.dark-mode .percentage-calculator-field input {
+  background: var(--input-background) !important;
+  background-color: var(--input-background) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+html.dark-mode .percentage-calculator-mode-section select option {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode .percentage-calculator-description,
+html.dark-mode .percentage-calculator-info {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-field input::placeholder {
+  color: var(--placeholder) !important;
+}
+
+html.dark-mode .percentage-calculator-reset,
+html.dark-mode .percentage-calculator-result-actions button {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-result-card {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-input-summary,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-calculation-flow,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-equation,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-important {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-summary-item,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-flow-row {
+  background: var(--surface) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-summary-item span,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-flow-row span,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-equation-label,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-important p {
+  color: var(--text-light) !important;
+}
+
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-summary-item strong,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-flow-row strong,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-equation strong,
+html.dark-mode .percentage-calculator-result-card .percentage-calculator-important strong {
+  color: var(--text-heading) !important;
+}
+
+html.dark-mode .percentage-calculator-main-result,
+html.dark-mode .percentage-calculator-flow-result {
+  background: var(--surface-soft) !important;
+  background-image: none !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  box-shadow: none !important;
+}
+
+html.dark-mode .percentage-calculator-main-result span,
+html.dark-mode .percentage-calculator-flow-result span {
+  color: #a5b4fc !important;
+}
+
+html.dark-mode .percentage-calculator-main-result strong,
+html.dark-mode .percentage-calculator-flow-result strong {
+  color: var(--text-heading) !important;
+}
+
+html.dark-mode .percentage-calculator-result-footer {
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+/* End Percentage Calculator scoped dark-mode fix */

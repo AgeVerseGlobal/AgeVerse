@@ -1,0 +1,1337 @@
+/* =========================================================
+   AGEVERSE.GLOBAL
+   GST CALCULATOR
+========================================================= */
+
+.gst-calculator-page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 20px 34px;
+}
+
+/* =========================================================
+   MAIN LAYOUT
+========================================================= */
+
+.gst-calculator-layout {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 22px;
+
+  align-items: start;
+}
+
+/* =========================================================
+   COMMON CARD
+========================================================= */
+
+.gst-calculator-card,
+.gst-calculator-result-card,
+.gst-calculator-empty-result {
+  box-sizing: border-box;
+
+  border-radius: 22px;
+
+  border: 1px solid
+    rgba(99, 102, 241, 0.14);
+
+  box-shadow:
+    0 10px 30px
+    rgba(15, 23, 42, 0.08);
+}
+
+/* =========================================================
+   INPUT CARD
+========================================================= */
+
+.gst-calculator-card {
+  width: 100%;
+
+  padding: 23px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #eef4ff 0%,
+      #ffffff 72%,
+      #fafaff 100%
+    );
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.gst-calculator-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding-bottom: 17px;
+
+  border-bottom: 1px solid
+    rgba(100, 116, 139, 0.18);
+}
+
+.gst-calculator-icon,
+.gst-calculator-result-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #dbeafe,
+      #ede9fe
+    );
+
+  color: #4f46e5;
+
+  box-shadow:
+    0 5px 14px
+    rgba(79, 70, 229, 0.12);
+}
+
+.gst-calculator-icon {
+  width: 52px;
+  height: 52px;
+
+  font-size: 25px;
+}
+
+.gst-calculator-header h1 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 22px;
+  font-weight: 800;
+
+  line-height: 1.3;
+}
+
+.gst-calculator-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   MODE
+========================================================= */
+
+.gst-calculator-mode-section {
+  margin-top: 18px;
+}
+
+.gst-calculator-mode-section label,
+.gst-calculator-field label,
+.gst-calculator-tax-section > label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 750;
+}
+
+.gst-calculator-mode-section select,
+.gst-calculator-field select,
+.gst-calculator-field input {
+  width: 100%;
+
+  min-height: 46px;
+
+  padding: 10px 13px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #dbe3ef;
+
+  border-radius: 13px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  color: #1e293b;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.gst-calculator-mode-section select:focus,
+.gst-calculator-field select:focus,
+.gst-calculator-field input:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(99, 102, 241, 0.11);
+}
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.gst-calculator-description {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 12px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.78);
+
+  border: 1px solid
+    rgba(99, 102, 241, 0.09);
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+.gst-calculator-description-icon {
+  flex: 0 0 auto;
+
+  font-size: 15px;
+}
+
+/* =========================================================
+   FIELDS
+========================================================= */
+
+.gst-calculator-field {
+  margin-top: 16px;
+}
+
+.gst-main-field {
+  margin-top: 18px;
+}
+
+.gst-calculator-field input {
+  cursor: text;
+}
+
+.gst-calculator-field input::placeholder {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   TAX TYPE
+========================================================= */
+
+.gst-calculator-tax-section {
+  margin-top: 17px;
+}
+
+.gst-tax-options {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.gst-tax-option {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  min-height: 44px;
+
+  padding: 9px 12px;
+
+  box-sizing: border-box;
+
+  border-radius: 12px;
+
+  border: 1px solid #dbe3ef;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.gst-tax-option:has(input:checked) {
+  border-color: #6366f1;
+
+  background: #eef2ff;
+
+  color: #4338ca;
+}
+
+.gst-tax-option input {
+  accent-color: #6366f1;
+}
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.gst-calculator-error {
+  margin-top: 14px;
+
+  padding: 11px 13px;
+
+  border-radius: 12px;
+
+  background: #fff1f2;
+
+  border: 1px solid #fecdd3;
+
+  color: #be123c;
+
+  font-size: 13px;
+
+  line-height: 1.45;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.gst-calculator-buttons {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    130px;
+
+  gap: 10px;
+
+  margin-top: 19px;
+}
+
+.gst-calculator-buttons button {
+  min-height: 45px;
+
+  padding: 10px 15px;
+
+  border-radius: 13px;
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.07);
+
+  font-size: 14px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.gst-calculator-buttons button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 9px 20px
+    rgba(15, 23, 42, 0.10);
+}
+
+.gst-calculator-calculate {
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #6366f1
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 7px 16px
+    rgba(79, 70, 229, 0.20);
+}
+
+.gst-calculator-reset {
+  background: #ffffff;
+
+  color: #475569;
+}
+
+/* =========================================================
+   QUICK TIP
+========================================================= */
+
+.gst-calculator-info {
+  margin-top: 17px;
+
+  padding: 14px;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.80);
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.06);
+}
+
+.gst-calculator-info-title {
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+.gst-calculator-info p {
+  margin: 6px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+}
+
+/* =========================================================
+   RESULT SECTION
+========================================================= */
+
+.gst-calculator-result-section {
+  width: 100%;
+  min-width: 0;
+}
+
+/* =========================================================
+   EMPTY RESULT
+========================================================= */
+
+.gst-calculator-empty-result {
+  width: 100%;
+
+  min-height: 450px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 32px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f7f9ff,
+      #ffffff
+    );
+}
+
+.gst-calculator-empty-icon {
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #dbeafe,
+      #ede9fe
+    );
+
+  font-size: 32px;
+
+  box-shadow:
+    0 7px 18px
+    rgba(79, 70, 229, 0.12);
+}
+
+.gst-calculator-empty-result h2 {
+  margin: 17px 0 7px;
+
+  color: #1e293b;
+
+  font-size: 22px;
+}
+
+.gst-calculator-empty-result p {
+  max-width: 470px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  line-height: 1.55;
+}
+
+.gst-calculator-empty-points {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 16px;
+}
+
+.gst-calculator-empty-points span {
+  padding: 7px 11px;
+
+  border-radius: 30px;
+
+  background: #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 11px;
+
+  font-weight: 750;
+}
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.gst-calculator-result-card {
+  width: 100%;
+
+  padding: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #fbfcff
+    );
+
+  overflow: hidden;
+}
+
+/*
+ * This is important for html2canvas:
+ * keep result card independent from surrounding
+ * application layout.
+ */
+
+.gst-calculator-result-card * {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   RESULT HEADER
+========================================================= */
+
+.gst-calculator-result-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid
+    rgba(100, 116, 139, 0.18);
+}
+
+.gst-calculator-result-icon {
+  width: 52px;
+  height: 52px;
+
+  font-size: 24px;
+}
+
+.gst-calculator-result-header h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 21px;
+
+  line-height: 1.3;
+}
+
+.gst-calculator-result-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+/* =========================================================
+   SECTION HEADING
+========================================================= */
+
+.gst-calculator-section-heading {
+  color: #334155;
+
+  font-size: 12px;
+
+  font-weight: 800;
+}
+
+/* =========================================================
+   INPUT SUMMARY
+========================================================= */
+
+.gst-calculator-input-summary {
+  margin-top: 15px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-calculator-input-summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 9px;
+
+  margin-top: 9px;
+}
+
+.gst-calculator-summary-item {
+  padding: 10px;
+
+  border-radius: 11px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-calculator-summary-item span {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.gst-calculator-summary-item strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #312e81;
+
+  font-size: 14px;
+
+  word-break: break-word;
+}
+
+/* =========================================================
+   MAIN RESULT
+========================================================= */
+
+.gst-calculator-main-result {
+  margin-top: 14px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+
+  box-shadow:
+    inset 0 1px 0
+    rgba(255, 255, 255, 0.75);
+}
+
+.gst-calculator-main-result span {
+  display: block;
+
+  color: #6366f1;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+.gst-calculator-main-result strong {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #312e81;
+
+  font-size: 30px;
+
+  line-height: 1.2;
+
+  word-break: break-word;
+}
+
+.gst-calculator-main-result small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #64748b;
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   TAX SUMMARY
+========================================================= */
+
+.gst-calculator-tax-summary {
+  margin-top: 14px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-tax-summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 9px;
+
+  margin-top: 9px;
+}
+
+.gst-tax-summary-item {
+  padding: 10px;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+.gst-tax-summary-item span {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+.gst-tax-summary-item strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #312e81;
+
+  font-size: 14px;
+}
+
+.gst-tax-summary-full {
+  grid-column: 1 / -1;
+}
+
+/* =========================================================
+   CALCULATION FLOW
+========================================================= */
+
+.gst-calculator-calculation-flow {
+  margin-top: 14px;
+
+  padding: 13px;
+
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-calculator-flow-box {
+  display: grid;
+
+  grid-template-columns:
+    1fr 30px 1fr;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-top: 9px;
+}
+
+.gst-calculator-flow-row {
+  padding: 10px;
+
+  text-align: center;
+
+  border-radius: 11px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+.gst-calculator-flow-row span {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+.gst-calculator-flow-row strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #334155;
+
+  font-size: 14px;
+}
+
+.gst-calculator-flow-operator {
+  text-align: center;
+
+  color: #6366f1;
+
+  font-size: 18px;
+
+  font-weight: 800;
+}
+
+.gst-calculator-flow-arrow {
+  grid-column: 1 / -1;
+
+  text-align: center;
+
+  color: #6366f1;
+
+  font-size: 18px;
+
+  line-height: 1;
+}
+
+.gst-calculator-flow-result {
+  grid-column: 1 / -1;
+
+  padding: 10px;
+
+  text-align: center;
+
+  border-radius: 11px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  border: 1px solid #e0e7ff;
+}
+
+.gst-calculator-flow-result span {
+  display: block;
+
+  color: #6366f1;
+
+  font-size: 9px;
+
+  font-weight: 750;
+}
+
+.gst-calculator-flow-result strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #312e81;
+
+  font-size: 18px;
+}
+
+/* =========================================================
+   EQUATION
+========================================================= */
+
+.gst-calculator-equation {
+  margin-top: 11px;
+
+  padding: 12px 14px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-calculator-equation-label {
+  color: #64748b;
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.gst-calculator-equation strong {
+  display: block;
+
+  margin-top: 6px;
+
+  color: #334155;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  word-break: break-word;
+}
+
+/* =========================================================
+   IMPORTANT NOTE
+========================================================= */
+
+.gst-calculator-important {
+  margin-top: 12px;
+
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.gst-calculator-important strong {
+  color: #475569;
+
+  font-size: 10px;
+}
+
+.gst-calculator-important p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   RESULT ACTIONS
+========================================================= */
+
+.gst-calculator-result-actions {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 7px;
+
+  margin-top: 14px;
+}
+
+.gst-calculator-result-actions button {
+  min-height: 42px;
+
+  padding: 7px 5px;
+
+  border-radius: 11px;
+
+  border: 1px solid #e2e8f0;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 10px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.gst-calculator-result-actions button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 6px 14px
+    rgba(15, 23, 42, 0.09);
+}
+
+.gst-action-copy:hover {
+  border-color: #6366f1 !important;
+}
+
+.gst-action-pdf:hover {
+  border-color: #2563eb !important;
+}
+
+.gst-action-share:hover {
+  border-color: #7c3aed !important;
+}
+
+.gst-action-print:hover {
+  border-color: #475569 !important;
+}
+
+.gst-action-new:hover {
+  border-color: #0f766e !important;
+}
+
+/* =========================================================
+   MESSAGES
+========================================================= */
+
+.gst-calculator-action-message,
+.gst-calculator-pdf-message {
+  margin-top: 10px;
+
+  padding: 9px 11px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+.gst-calculator-action-message {
+  background: #f0fdf4;
+
+  border: 1px solid #bbf7d0;
+
+  color: #15803d;
+}
+
+.gst-calculator-pdf-message {
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+
+  color: #1d4ed8;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.gst-calculator-result-footer {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  margin-top: 17px;
+
+  padding-top: 12px;
+
+  border-top: 1px solid #e5e7eb;
+
+  text-align: center;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.gst-calculator-result-footer strong {
+  color: #6366f1;
+
+  font-weight: 800;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 850px) {
+  .gst-calculator-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-empty-result {
+    min-height: 330px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+  .gst-calculator-page {
+    padding: 15px 12px 25px;
+  }
+
+  .gst-calculator-card,
+  .gst-calculator-result-card {
+    padding: 18px;
+
+    border-radius: 19px;
+  }
+
+  .gst-tax-options {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-input-summary-grid,
+  .gst-tax-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-result-actions {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .gst-calculator-header h1 {
+    font-size: 20px;
+  }
+
+  .gst-calculator-main-result strong {
+    font-size: 27px;
+  }
+
+  .gst-calculator-flow-box {
+    grid-template-columns:
+      1fr 25px 1fr;
+  }
+
+  .gst-calculator-empty-result {
+    min-height: 300px;
+
+    padding: 25px 18px;
+  }
+
+  .gst-calculator-empty-result h2 {
+    font-size: 20px;
+  }
+
+  .gst-calculator-equation strong {
+    font-size: 11px;
+  }
+}
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 380px) {
+  .gst-calculator-result-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-flow-box {
+    grid-template-columns: 1fr;
+  }
+
+  .gst-calculator-flow-operator {
+    transform: rotate(90deg);
+  }
+}
+
+/* =========================================================
+   PRINT FALLBACK
+   Normally our JSX opens a dedicated print window.
+   These rules protect normal browser printing too.
+========================================================= */
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+  }
+
+  .gst-calculator-page {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .gst-calculator-layout {
+    display: block !important;
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    margin: 0 !important;
+  }
+
+  .gst-calculator-card,
+  .gst-calculator-empty-result {
+    display: none !important;
+  }
+
+  .gst-calculator-result-section {
+    width: 100% !important;
+  }
+
+  .gst-calculator-result-card {
+    display: block !important;
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    padding: 18px !important;
+
+    box-shadow: none !important;
+
+    border:
+      1px solid
+      #cbd5e1 !important;
+
+    border-radius: 14px !important;
+
+    background: #ffffff !important;
+
+    color: #111827 !important;
+
+    break-inside: avoid !important;
+
+    page-break-inside: avoid !important;
+  }
+
+  .gst-calculator-result-actions,
+  .gst-calculator-action-message,
+  .gst-calculator-pdf-message {
+    display: none !important;
+  }
+
+  .gst-calculator-result-header h2,
+  .gst-calculator-result-header p,
+  .gst-calculator-summary-item strong,
+  .gst-tax-summary-item strong,
+  .gst-calculator-flow-row strong,
+  .gst-calculator-flow-result strong,
+  .gst-calculator-equation strong {
+    color: #111827 !important;
+  }
+
+  .gst-calculator-result-footer {
+    border-top:
+      1px solid
+      #cbd5e1 !important;
+
+    color: #64748b !important;
+  }
+
+  .gst-calculator-result-footer strong {
+    color: #4f46e5 !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+}

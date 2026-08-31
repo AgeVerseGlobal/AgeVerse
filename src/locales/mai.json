@@ -1,0 +1,154 @@
+{
+  "common": {
+    "app_name": "AgeVerse",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "share": "Share",
+    "copy": "Copy",
+    "download": "Download",
+    "result": "Result",
+    "calculators": "कैलकुलेटर",
+    "live": "Live",
+    "open_calculator": "Open Calculator"
+  },
+  "age": {
+    "title": "Advanced Age Calculator",
+    "subtitle": "Calculate your exact age with complete details.",
+    "date_of_birth": "Date of Birth",
+    "calculate_till": "Calculate Till",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "event": {
+    "title": "Event Calculator",
+    "subtitle": "Countdown for your special moments.",
+    "select_event": "Select Event",
+    "birthday": "Birthday",
+    "anniversary": "Anniversary",
+    "exam": "Exam",
+    "trip": "Trip / Vacation",
+    "party": "Party / Event",
+    "custom_event": "Custom Event",
+    "event_date": "Event Date"
+  },
+  "message": {
+    "select_dates": "Please select both dates.",
+    "select_event": "Please select event type.",
+    "enter_custom_event": "Please enter custom event name.",
+    "select_event_date": "Please select event date.",
+    "invalid_date": "Invalid date.",
+    "future_date": "Future date is not allowed."
+  },
+  "header": {
+    "tagline": "आजुक योजना, काल्हिक समृद्धि"
+  },
+  "theme": {
+    "dark_mode": "डार्क मोड करू",
+    "light_mode": "लाइट मोड करू",
+    "language": "भाषा"
+  },
+  "calculator_names": {
+    "age_calculator": "आयु कैलकुलेटर",
+    "event_calculator": "इवेंट कैलकुलेटर",
+    "date_difference": "तिथि अंतर",
+    "retirement_calculator": "रिटायरमेंट कैलकुलेटर",
+    "health_profile": "संपूर्ण स्वास्थ्य प्रोफाइल",
+    "pregnancy_calculator": "गर्भावस्था कैलकुलेटर",
+    "unit_converter": "यूनिट कन्वर्टर",
+    "percentage_calculator": "प्रतिशत कैलकुलेटर",
+    "gst_calculator": "GST कैलकुलेटर",
+    "emi_calculator": "EMI कैलकुलेटर",
+    "discount_calculator": "डिस्काउंट कैलकुलेटर",
+    "sip_calculator": "SIP कैलकुलेटर",
+    "fd_calculator": "FD कैलकुलेटर",
+    "rd_calculator": "RD कैलकुलेटर",
+    "dog_age_calculator": "कुत्ते की आयु कैलकुलेटर"
+  },
+  "footer": {
+    "description": "आयु, तिथि, स्वास्थ्य, वित्त आ दैनिक जीवन लेल स्मार्ट, भरोसेमंद आ सुविचारित कैलकुलेटर — बेहतर निर्णय लेबामे स्पष्टता आ आत्मविश्वासक संग सहायता करबाक लेल।",
+    "trust": "✓ सटीक • ✓ सरल • ✓ गोपनीयता केंद्रित",
+    "quick_links": "जरूरी लिंक",
+    "home": "होम",
+    "about": "AgeVerse के बारे में",
+    "contact": "सम्पर्क",
+    "information": "जानकारी",
+    "privacy": "गोपनीयता नीति",
+    "terms": "नियम आ शर्त",
+    "disclaimer": "अस्वीकरण",
+    "languages": "भाषा",
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "powered": "स्मार्ट दैनिक गणना लेल बनाओल गेल"
+  },
+  "category_names": {
+    "age": "🎂 Age & Date",
+    "health": "🏥 Health Suite",
+    "family": "👶 Family",
+    "utility": "🧮 Utility",
+    "pet": "🐶 Pet"
+  },
+  "calculator_desc": {},
+  "result_actions": {
+    "copy_image": "इमेज कॉपी करू",
+    "download_pdf": "PDF डाउनलोड करू",
+    "share_pdf": "PDF साझा करू",
+    "print": "प्रिंट करू",
+    "new": "नव",
+    "copy_success": "परिणामक इमेज सफलतापूर्वक कॉपी भेल।",
+    "copy_fallback": "ई ब्राउजर इमेज कॉपी समर्थित नहि करैत अछि, तेँ PNG सेव कएल गेल।",
+    "share_success": "PDF सफलतापूर्वक साझा भेल।",
+    "new_success": "कैलकुलेटर रीसेट भेल।",
+    "generic_error": "परिणाम तैयार नहि भ सकल।",
+    "aria_label": "परिणाम विकल्प"
+  },
+  "language_name": "🪷 मैथिली",
+  "bridge": {
+    "Currency Placeholder": "₹/$/¥ etc.",
+    "Percentage Placeholder": "%",
+    "Year/Month": "वर्ष/महीना",
+    "Example: My Wedding, Office Party...": "उदाहरण: हमर बियाह, ऑफिस पार्टी...",
+    "Increase your SIP amount every year by a fixed percentage.": "हर साल एक निश्चित प्रतिशत सँ अपन SIP राशि बढ़ाउ।",
+    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "उदाहरण: ₹5,000 मासिक SIP मे 10% सालाना स्टेप-अप होइ त दोसर साल ₹5,500, तेसर साल ₹6,050 आ आगाँ एही तरहेँ होयत।",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ई कैलकुलेटर दर्ज मासिक जमा आ अपेक्षित वार्षिक ब्याज दर के आधार पर अनुमानित परिपक्वता राशि देत अछि। ब्याज दर, जमा करबाक समय, बैंकक नियम, कर, जुर्माना वा अन्य लागू शर्तक अनुसार वास्तविक परिपक्वता राशि बदलि सकैत अछि।",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "ई कैलकुलेटर में देखाओल मानव आयु समतुल्यता एगो अनुमानित शैक्षिक आकलन अछि। अलग-अलग नस्ल, आकार आ कुकुर के वास्तविक उम्र बढ़बाक गति काफी अलग हो सकैत अछि।",
+    "BMI Gauge": "BMI गेज",
+    "Body Mass Index": "बॉडी मास इंडेक्स",
+    "Wellness Shield": "वेलनेस शील्ड",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "मानक चक्रवृद्धि ब्याज मॉडल: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ गणना नोट",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "RD की परिपक्वता का अनुमान त्रैमासिक चक्रवृद्धि के आधार पर लगाया जाता है, जो आवर्ती जमा की गणनाओं में सामान्यतः उपयोग होती है।",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "मानव आयु में रूपांतरण केवल एक अनुमान है। आपके कुत्ते के स्वास्थ्य के लिए नियमित पशु चिकित्सा देखभाल, पोषण और व्यायाम महत्वपूर्ण हैं।"
+  },
+  "Health_profile": {
+    "Enter your name": "अपन नाम दर्ज करू",
+    "Hello": "नमस्कार",
+    "g": "ग्राम",
+    "L": "लीटर",
+    "kg": "किलोग्राम",
+    "day": "दिन",
+    "✨ Generated by": "✨ AgeVerse.Global द्वारा जनरेट कएल गेल"
+  },
+  "calculation_notes": {
+    "fd": "ई अनुमानित प्रक्षेपण अछि। बैंक अपन उत्पाद नियम, दर स्लैब, दिन-गणना पद्धति, कर/TDS नियम आ अन्य लागू शर्तक कारण वास्तविक FD परिपक्वता अलग हो सकैत अछि।",
+    "rd": "ई कैलकुलेटर दर्ज मासिक जमा आ अपेक्षित वार्षिक ब्याज दर के आधार पर अनुमानित परिपक्वता राशि देत अछि। ब्याज दर, जमा करबाक समय, बैंकक नियम, कर, जुर्माना वा अन्य लागू शर्तक अनुसार वास्तविक परिपक्वता राशि बदलि सकैत अछि।",
+    "dog_age": "ई कैलकुलेटर में देखाओल मानव आयु समतुल्यता एगो अनुमानित शैक्षिक आकलन अछि। अलग-अलग नस्ल, आकार आ कुकुर के वास्तविक उम्र बढ़बाक गति काफी अलग हो सकैत अछि।",
+    "emi": "EMI दर्ज कएल ऋण राशि, वार्षिक ब्याज दर आ पुनर्भुगतान अवधिक आधार पर गणना कएल जाइत अछि। राउंडिंग, शुल्क, बीमा वा अन्य लागू शुल्कक कारण वास्तविक ऋणदाता EMI अलग भऽ सकैत अछि।"
+  },
+  "bmi_gauge": {
+    "underweight_message": "संतुलित पोषण आ स्वस्थ वजन बढ़ाबै पर ध्यान दिअ।",
+    "healthy_message": "अहाँक BMI स्वस्थ सीमा मे अछि। अपन जीवनशैली बनाए राखू।",
+    "overweight_message": "शारीरिक गतिविधि आ संतुलित कैलोरी सेवन पर ध्यान दिअ।",
+    "obesity_message": "नियमित शारीरिक गतिविधि आ स्वस्थ भोजनक आदत के सलाह देल जाइत अछि।"
+  },
+  "pregnancy": {
+    "empty_title": "गर्भावस्था कैलकुलेटर",
+    "empty_text": "अपन गर्भावस्थाक समय-सीमा आ प्रसव तिथिक अनुमान लगाबै लेल अपन अंतिम मासिक धर्मक पहिल दिन दर्ज करू।",
+    "empty_hint": "अहाँक परिणाम एतय देखाओल जायत।",
+    "lmp_help": "अपन अंतिम मासिक धर्मक पहिल दिन दर्ज करू।"
+  }
+}

@@ -1,0 +1,1243 @@
+/* =========================================================
+   DOG AGE CALCULATOR
+   AGEVERSE.GLOBAL
+========================================================= */
+
+.dog-age-calculator-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 18px 50px;
+  box-sizing: border-box;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f5f9ff 0%,
+      #eef5ff 50%,
+      #f8fbff 100%
+    );
+}
+
+.dog-age-calculator-layout {
+  width: min(1500px, 100%);
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(360px, 430px)
+    minmax(700px, 1fr);
+
+  gap: 26px;
+  align-items: start;
+}
+
+/* =========================================================
+   INPUT CARD
+========================================================= */
+
+.dog-age-calculator-card {
+  background: #ffffff;
+
+  border-radius: 22px;
+  padding: 26px;
+
+  box-shadow:
+    0 12px 35px rgba(31, 56, 100, 0.10),
+    0 3px 10px rgba(31, 56, 100, 0.05);
+
+  border: 1px solid #e7eef8;
+}
+
+.dog-age-calculator-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 25px;
+}
+
+.dog-age-calculator-icon {
+  width: 58px;
+  height: 58px;
+
+  border-radius: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 29px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fff0dc,
+      #ffe5c2
+    );
+
+  flex-shrink: 0;
+}
+
+.dog-age-calculator-header h1 {
+  margin: 0;
+
+  color: #172b4d;
+
+  font-size: 25px;
+  font-weight: 800;
+
+  line-height: 1.2;
+}
+
+.dog-age-calculator-header p {
+  margin: 7px 0 0;
+
+  color: #6d7d95;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   INPUT FIELDS
+========================================================= */
+
+.dog-age-calculator-field {
+  margin-bottom: 17px;
+}
+
+.dog-age-calculator-field label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #263954;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.dog-age-calculator-field input {
+  width: 100%;
+  height: 49px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d6e0ed;
+  border-radius: 12px;
+
+  padding: 0 14px;
+
+  background: #fbfdff;
+  color: #172b4d;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.dog-age-calculator-field input:focus {
+  border-color: #3977d6;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(57, 119, 214, 0.10);
+}
+
+/* =========================================================
+   INFO SECTION
+========================================================= */
+
+.dog-age-info-section {
+  margin-top: 5px;
+  margin-bottom: 19px;
+
+  padding: 17px;
+
+  border-radius: 15px;
+
+  border: 1px solid #f0dfc7;
+
+  background: #fffaf3;
+}
+
+.dog-age-section-heading {
+  color: #20385c;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.dog-age-info-title {
+  margin-top: 9px;
+
+  color: #74552c;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.dog-age-info-description {
+  margin-top: 5px;
+
+  color: #806f58;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.dog-age-calculator-error {
+  margin: 4px 0 17px;
+
+  padding: 12px 13px;
+
+  border-radius: 11px;
+
+  color: #a52b2b;
+
+  background: #fff2f2;
+
+  border: 1px solid #ffd3d3;
+
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.dog-age-calculator-buttons {
+  display: grid;
+
+  grid-template-columns:
+    1fr 0.7fr;
+
+  gap: 10px;
+
+  margin-top: 7px;
+}
+
+.dog-age-calculator-buttons button {
+  min-height: 47px;
+
+  border: 0;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.dog-age-calculator-buttons button:hover {
+  transform: translateY(-1px);
+}
+
+.dog-age-calculator-calculate {
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #3977d6,
+      #285db6
+    );
+
+  box-shadow:
+    0 7px 16px rgba(45, 102, 191, 0.20);
+}
+
+.dog-age-calculator-reset {
+  color: #344964;
+
+  background: #eef3f9;
+}
+
+/* =========================================================
+   TIP
+========================================================= */
+
+.dog-age-calculator-tip {
+  margin-top: 20px;
+
+  padding: 15px;
+
+  border-radius: 14px;
+
+  background: #f4f8fd;
+
+  border: 1px solid #e2ebf6;
+}
+
+.dog-age-calculator-tip-title {
+  color: #294c7c;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.dog-age-calculator-tip p {
+  margin: 6px 0 0;
+
+  color: #708097;
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   RESULT SECTION
+========================================================= */
+
+.dog-age-result-section {
+  min-width: 0;
+}
+
+.dog-age-empty-result {
+  min-height: 430px;
+
+  background: #ffffff;
+
+  border-radius: 22px;
+
+  border: 1px solid #e5edf7;
+
+  box-shadow:
+    0 12px 35px rgba(31, 56, 100, 0.08);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  padding: 35px;
+
+  box-sizing: border-box;
+}
+
+.dog-age-empty-icon {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 24px;
+
+  background: #fff1df;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+
+  margin-bottom: 18px;
+}
+
+.dog-age-empty-result h2 {
+  margin: 0;
+
+  color: #253a5a;
+
+  font-size: 21px;
+}
+
+.dog-age-empty-result p {
+  max-width: 510px;
+
+  margin: 10px 0 18px;
+
+  color: #77869a;
+
+  font-size: 13px;
+
+  line-height: 1.65;
+}
+
+.dog-age-empty-points {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 9px;
+}
+
+.dog-age-empty-points span {
+  padding: 7px 11px;
+
+  border-radius: 20px;
+
+  background: #f1f5fa;
+
+  color: #51647d;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.dog-age-result-card {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border-radius: 22px;
+
+  padding: 28px;
+
+  border: 1px solid #e0e9f5;
+
+  box-shadow:
+    0 12px 35px rgba(31, 56, 100, 0.10);
+}
+
+/* =========================================================
+   RESULT HEADER
+========================================================= */
+
+.dog-age-result-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #e7edf5;
+}
+
+.dog-age-result-icon {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 15px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #e9f8ef;
+
+  color: #23844a;
+
+  font-size: 24px;
+
+  font-weight: 900;
+}
+
+.dog-age-result-header h2 {
+  margin: 0;
+
+  color: #1d3557;
+
+  font-size: 22px;
+}
+
+.dog-age-result-header p {
+  margin: 5px 0 0;
+
+  color: #7a899e;
+
+  font-size: 12px;
+}
+
+/* =========================================================
+   INPUT SUMMARY
+========================================================= */
+
+.dog-age-input-summary {
+  margin-top: 22px;
+
+  padding: 18px;
+
+  border-radius: 15px;
+
+  background: #f7faff;
+
+  border: 1px solid #e1eaf6;
+}
+
+.dog-age-input-grid {
+  margin-top: 13px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.dog-age-summary-item {
+  padding: 12px;
+
+  background: #ffffff;
+
+  border: 1px solid #e6edf6;
+
+  border-radius: 11px;
+}
+
+.dog-age-summary-item span {
+  display: block;
+
+  color: #7a899c;
+
+  font-size: 10px;
+
+  margin-bottom: 5px;
+}
+
+.dog-age-summary-item strong {
+  display: block;
+
+  color: #263f62;
+
+  font-size: 13px;
+}
+
+/* =========================================================
+   MAIN RESULT
+========================================================= */
+
+.dog-age-main-result {
+  margin-top: 18px;
+
+  padding: 23px;
+
+  border-radius: 17px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fff3df,
+      #ffebcc
+    );
+
+  border: 1px solid #f5dfbc;
+}
+
+.dog-age-main-result span {
+  display: block;
+
+  color: #765f3d;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.dog-age-main-result strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #9a6724;
+
+  font-size: 30px;
+
+  line-height: 1.2;
+
+  font-weight: 900;
+}
+
+.dog-age-main-result small {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #8a765a;
+
+  font-size: 10px;
+}
+
+/* =========================================================
+   HUMAN RESULT
+========================================================= */
+
+.dog-age-human-result {
+  margin-top: 13px;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #edf5ff,
+      #e4efff
+    );
+
+  border: 1px solid #d7e6fa;
+}
+
+.dog-age-human-result span {
+  display: block;
+
+  color: #56708f;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.dog-age-human-result strong {
+  display: block;
+
+  margin-top: 6px;
+
+  color: #1f559b;
+
+  font-size: 29px;
+
+  font-weight: 900;
+}
+
+.dog-age-human-result small {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #6d819a;
+
+  font-size: 10px;
+}
+
+/* =========================================================
+   METRICS
+========================================================= */
+
+.dog-age-result-metrics {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 11px;
+
+  margin-top: 13px;
+}
+
+.dog-age-metric-card {
+  padding: 15px;
+
+  border-radius: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #e1e9f3;
+
+  text-align: center;
+}
+
+.dog-age-metric-card span {
+  display: block;
+
+  color: #74849a;
+
+  font-size: 11px;
+}
+
+.dog-age-metric-card strong {
+  display: block;
+
+  margin-top: 6px;
+
+  color: #274566;
+
+  font-size: 15px;
+}
+
+/* =========================================================
+   FLOW
+========================================================= */
+
+.dog-age-flow-section {
+  margin-top: 22px;
+}
+
+.dog-age-flow-box {
+  margin-top: 11px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  padding: 18px;
+
+  border-radius: 15px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e4ebf4;
+}
+
+.dog-age-flow-item {
+  flex: 1;
+
+  text-align: center;
+}
+
+.dog-age-flow-item span,
+.dog-age-flow-result span {
+  display: block;
+
+  color: #78889d;
+
+  font-size: 10px;
+}
+
+.dog-age-flow-item strong {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #334f70;
+
+  font-size: 14px;
+}
+
+.dog-age-flow-arrow {
+  color: #3977d6;
+
+  font-size: 22px;
+
+  font-weight: 900;
+}
+
+.dog-age-flow-result {
+  min-width: 200px;
+
+  padding: 13px;
+
+  border-radius: 12px;
+
+  background: #eaf7ef;
+
+  text-align: center;
+}
+
+.dog-age-flow-result strong {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #23804a;
+
+  font-size: 16px;
+}
+
+/* =========================================================
+   NEXT BIRTHDAY
+========================================================= */
+
+.dog-age-next-birthday {
+  margin-top: 19px;
+
+  padding: 15px;
+
+  border-radius: 13px;
+
+  background: #fff8ed;
+
+  border: 1px solid #f1dfbf;
+}
+
+.dog-age-next-birthday strong {
+  color: #765b20;
+
+  font-size: 12px;
+}
+
+.dog-age-next-birthday p {
+  margin: 6px 0 0;
+
+  color: #806f49;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+/* =========================================================
+   EQUATION
+========================================================= */
+
+.dog-age-equation {
+  margin-top: 19px;
+
+  padding: 15px 16px;
+
+  border-radius: 13px;
+
+  background: #f7faff;
+
+  border: 1px solid #e1eaf5;
+}
+
+.dog-age-equation div {
+  color: #59718e;
+
+  font-size: 11px;
+
+  font-weight: 800;
+}
+
+.dog-age-equation strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #334d6b;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+}
+
+/* =========================================================
+   IMPORTANT NOTE
+========================================================= */
+
+.dog-age-important {
+  margin-top: 14px;
+
+  padding: 15px;
+
+  border-radius: 13px;
+
+  background: #fffaf0;
+
+  border: 1px solid #f2e3bf;
+}
+
+.dog-age-important strong {
+  color: #765b20;
+
+  font-size: 12px;
+}
+
+.dog-age-important p {
+  margin: 6px 0 0;
+
+  color: #806f49;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+/* =========================================================
+   ACTIONS
+========================================================= */
+
+.dog-age-result-actions {
+  margin-top: 22px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 9px;
+}
+
+.dog-age-result-actions button {
+  min-height: 43px;
+
+  padding: 8px 9px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.dog-age-result-actions button:hover {
+  transform: translateY(-1px);
+
+  opacity: 0.93;
+}
+
+.dog-age-action-copy {
+  color: #ffffff;
+
+  background: #496f9f;
+}
+
+.dog-age-action-pdf {
+  color: #ffffff;
+
+  background: #b94747;
+}
+
+.dog-age-action-share {
+  color: #ffffff;
+
+  background: #39846c;
+}
+
+.dog-age-action-print {
+  color: #ffffff;
+
+  background: #596b82;
+}
+
+.dog-age-action-new {
+  color: #344964;
+
+  background: #e9eff6;
+}
+
+/* =========================================================
+   MESSAGES
+========================================================= */
+
+.dog-age-action-message,
+.dog-age-pdf-message {
+  margin-top: 11px;
+
+  padding: 10px;
+
+  border-radius: 9px;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+.dog-age-action-message {
+  color: #217244;
+
+  background: #edf9f1;
+
+  border: 1px solid #d2efd9;
+}
+
+.dog-age-pdf-message {
+  color: #355577;
+
+  background: #f1f6fc;
+
+  border: 1px solid #dce8f5;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.dog-age-result-footer {
+  margin-top: 19px;
+
+  padding-top: 14px;
+
+  border-top: 1px solid #e8edf3;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+
+  color: #8996a8;
+
+  font-size: 9px;
+}
+
+.dog-age-result-footer strong {
+  color: #58718f;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .dog-age-calculator-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-age-calculator-card {
+    max-width: 760px;
+
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  .dog-age-result-section {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 760px) {
+
+  .dog-age-calculator-page {
+    padding:
+      18px 10px 35px;
+  }
+
+  .dog-age-calculator-card,
+  .dog-age-result-card {
+    padding: 19px;
+
+    border-radius: 17px;
+  }
+
+  .dog-age-calculator-header h1 {
+    font-size: 22px;
+  }
+
+  .dog-age-input-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .dog-age-result-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-age-flow-box {
+    flex-direction: column;
+  }
+
+  .dog-age-flow-item,
+  .dog-age-flow-result {
+    width: 100%;
+
+    min-width: 0;
+
+    box-sizing: border-box;
+  }
+
+  .dog-age-flow-arrow {
+    transform: rotate(90deg);
+  }
+
+  .dog-age-result-actions {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .dog-age-result-actions button:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .dog-age-main-result strong {
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 460px) {
+
+  .dog-age-calculator-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-age-input-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-age-result-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-age-result-actions button:last-child {
+    grid-column: auto;
+  }
+
+}
+
+/* =========================================================
+   PRINT — A4
+========================================================= */
+
+@media print {
+
+  @page {
+    size: A4 portrait;
+    margin: 7mm;
+  }
+
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #ffffff !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  .dog-age-calculator-page,
+  .dog-age-calculator-page * {
+    visibility: visible !important;
+  }
+
+  .dog-age-calculator-page {
+    width: 100% !important;
+
+    min-height: 0 !important;
+
+    padding: 0 !important;
+
+    margin: 0 !important;
+
+    background: #ffffff !important;
+  }
+
+  .dog-age-calculator-layout {
+    display: block !important;
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    margin: 0 !important;
+  }
+
+  .dog-age-calculator-card,
+  .dog-age-empty-result {
+    display: none !important;
+  }
+
+  .dog-age-result-section {
+    width: 100% !important;
+  }
+
+  .dog-age-result-card {
+    width: 100% !important;
+
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    padding: 6mm !important;
+
+    border: 0 !important;
+
+    box-shadow: none !important;
+
+    border-radius: 0 !important;
+  }
+
+  .dog-age-result-actions,
+  .dog-age-action-message,
+  .dog-age-pdf-message {
+    display: none !important;
+  }
+
+  .dog-age-result-header {
+    padding-bottom: 4mm !important;
+  }
+
+  .dog-age-input-summary {
+    margin-top: 4mm !important;
+
+    padding: 4mm !important;
+  }
+
+  .dog-age-main-result,
+  .dog-age-human-result {
+    margin-top: 4mm !important;
+
+    padding: 5mm !important;
+  }
+
+  .dog-age-main-result strong,
+  .dog-age-human-result strong {
+    font-size: 25px !important;
+  }
+
+  .dog-age-result-metrics {
+    margin-top: 3mm !important;
+  }
+
+  .dog-age-metric-card {
+    padding: 3mm !important;
+  }
+
+  .dog-age-flow-section,
+  .dog-age-next-birthday {
+    margin-top: 5mm !important;
+  }
+
+  .dog-age-equation,
+  .dog-age-important {
+    margin-top: 4mm !important;
+  }
+
+  .dog-age-result-footer {
+    margin-top: 4mm !important;
+  }
+
+}
+
+/* =========================================================
+   EXPORT SAFETY
+========================================================= */
+
+#dog-age-result-export {
+  background: #ffffff !important;
+  color: #172b4d;
+}
+
+#dog-age-result-export * {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
