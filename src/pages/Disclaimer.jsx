@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./InformationPages.css";
+import { Link } from "react-router-dom";
 
 function Disclaimer() {
   const { t } = useTranslation();
@@ -82,6 +83,19 @@ function Disclaimer() {
           </div>
         </section>
       </div>
+      <section className="info-cta">
+      <div>
+      <h2>Explore AgeVerse Calculators</h2>
+      <p>
+      Explore Age, Date, Health, Financial and everyday calculators
+      available on AgeVerse.
+      </p>
+      </div>
+
+      <Link className="info-cta-button" to="/#calculators">
+      Explore Calculators
+    </Link>
+    </section>
     </main>
   );
 }

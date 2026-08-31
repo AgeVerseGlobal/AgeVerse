@@ -23,21 +23,7 @@ const calculatorLinks = [
 function Footer() {
   const { t } = useTranslation();
 
-  const handleCalculatorNavigation = () => {
-    // React Router renders the next route asynchronously.
-    // Scroll after that render so the user never remains at the footer.
-    const scrollToTop = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    };
-
-    requestAnimationFrame(() => {
-      requestAnimationFrame(scrollToTop);
-    });
-
-    window.setTimeout(scrollToTop, 120);
-  };
-
-  return (
+    return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
@@ -60,7 +46,7 @@ function Footer() {
         <div className="footer-column footer-calculators">
           <h3>{t("common.calculators")}</h3>
           {calculatorLinks.map(([key, route]) => (
-            <Link key={route} to={route} onClick={handleCalculatorNavigation}>{t(`calculator_names.${key}`)}</Link>
+            <Link key={route} to={route}>{t(`calculator_names.${key}`)}</Link>
           ))}
         </div>
 

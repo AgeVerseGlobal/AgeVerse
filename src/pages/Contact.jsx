@@ -74,7 +74,7 @@ function Contact() {
             <p>{t("contact_page.cta_text")}</p>
           </div>
 
-          <Link className="info-cta-button" to="/">
+          <Link className="info-cta-button" to="/#calculators">
             {t("contact_page.cta_button")}
           </Link>
         </section>

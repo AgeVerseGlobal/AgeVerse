@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./InformationPages.css";
+import { Link } from "react-router-dom";
 
 function PrivacyPolicy() {
   const { t } = useTranslation();
@@ -66,12 +67,14 @@ function PrivacyPolicy() {
 
                 <p>{section.text}</p>
               </article>
+            
             ))}
-          </div>
-        </section>
-      </div>
-    </main>
-  );
+                </div>
+                </section>
+        
+              </div>
+              </main>
+            );
 }
 
 export default PrivacyPolicy;
