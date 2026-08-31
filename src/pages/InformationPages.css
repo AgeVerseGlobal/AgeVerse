@@ -276,6 +276,7 @@
   }
 }
 /* Information pages: remove dark-mode tile effect */
+
 html.dark-mode .info-page,
 body.dark-mode .info-page {
   background: var(--background) !important;
@@ -298,6 +299,7 @@ body.dark-mode .info-notice {
 }
 
 /* Keep borders subtle so sections do not look like dark tiles */
+
 html.dark-mode .info-introduction,
 body.dark-mode .info-introduction,
 html.dark-mode .info-language-card,
@@ -314,6 +316,7 @@ body.dark-mode .info-notice {
 }
 
 /* Small inner icons can remain visually separated */
+
 html.dark-mode .info-section-icon,
 body.dark-mode .info-section-icon,
 html.dark-mode .info-language-icon,
@@ -329,4 +332,3 @@ body.dark-mode .info-notice-icon {
   background: var(--surface-soft) !important;
   border-color: rgba(148, 163, 184, 0.18) !important;
 }
-https://age-verse-nu.vercel.app/
