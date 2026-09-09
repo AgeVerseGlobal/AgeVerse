@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://age-verse-nu.vercel.app/sitemap.xml
