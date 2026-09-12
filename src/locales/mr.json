@@ -58,7 +58,11 @@
     "upcoming_event": "आगामी इव्हेंट",
     "passed_event": "इव्हेंट संपला आहे",
     "notification_permission": "ब्राउझर स्मरणपत्रांसाठी सूचना परवानगी आवश्यक असू शकते.",
-    "retirement_day_message": "निवृत्ती दिवस संदेश"
+    "retirement_day_message": "निवृत्ती दिवस संदेश",
+    "notification_permission_blocked": "सूचनांची परवानगी ब्लॉक केली आहे. रिमाइंडर मिळवण्यासाठी कृपया AgeVerseGlobal साठी सूचनांना परवानगी द्या.",
+    "event_reminder_not_configured": "इव्हेंट रिमाइंडर सेवा कॉन्फिगर केलेली नाही.",
+    "reminder_set": "रिमाइंडर सेट झाला",
+    "reminder_time": "रिमाइंडरची वेळ"
   },
   "age": {
     "title": "प्रगत वय कॅल्क्युलेटर",
@@ -565,7 +569,7 @@
     "🍗 Non-Vegetarian": "🍗 मांसाहारी",
     "🥗 Vegetarian": "🥗 शाकाहारी",
     "🏃 Activity Level": "🏃 हालचालीची पातळी",
-    "🏃 Body Age": "🏃 శరీराचे वय",
+    "🏃 Body Age": "🏃 शरीराचे वय",
     "💧 Water": "💧 पाणी",
     "🔥 BMR": "🔥 BMR",
     "⚖️ BMI": "⚖️ BMI",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "कृपया वैध गणनेची तारीख प्रविष्ट करा.",
     "Please enter a valid custom reminder time.": "कृपया वैध कस्टम रिमाइंडर वेळ प्रविष्ट करा.",
     "Please enter a valid date of birth.": "कृपया वैध जन्मतारीख प्रविष्ट करा.",
-    "Please enter a valid deposit amount greater than ₹0.": "कृपया ₹0 पेक्षा जास्त वैध ठेवीची रक्कम प्रविष्ट करा.",
+    "Please enter a valid deposit amount greater than 0.": "कृपया 0 पेक्षा जास्त वैध ठेवीची रक्कम प्रविष्ट करा.",
     "Please enter a valid discount between 0% and 100%.": "कृपया 0% ते 100% दरम्यानची वैध सूट प्रविष्ट करा.",
     "Please enter a valid event date and time.": "कृपया वैध इव्हेंट तारीख आणि वेळ प्रविष्ट करा.",
     "Please enter a valid expected return between 0% and 100%.": "कृपया 0% ते 100% दरम्यानचा वैध अपेक्षित परतावा प्रविष्ट करा.",
@@ -1225,12 +1229,12 @@
     "Celsius": "सेल्सियस",
     "Fahrenheit": "फॅरेनहाइट",
     "Kelvin": "केल्विन",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "वर्ष/महिना",
     "Example: My Wedding, Office Party...": "उदाहरण: माझे लग्न, ऑफिस पार्टी...",
     "Increase your SIP amount every year by a fixed percentage.": "दरवर्षी ठराविक टक्केवारीने तुमची SIP रक्कम वाढवा.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "उदाहरण: ₹5,000 मासिक SIP मध्ये 10% वार्षिक स्टेप-अप असल्यास दुसऱ्या वर्षी ₹5,500, तिसऱ्या वर्षी ₹6,050 आणि पुढे त्याचप्रमाणे होईल.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} मासिक SIP मध्ये 10% वार्षिक स्टेप-अप असल्यास दुसऱ्या वर्षी {{amount2}}, तिसऱ्या वर्षी {{amount3}} आणि पुढे त्याचप्रमाणे होईल.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "हा कॅल्क्युलेटर भरलेल्या मासिक ठेवी आणि अपेक्षित वार्षिक व्याजदरावर आधारित अंदाजे परिपक्वता मूल्य देतो. व्याजदर, ठेवण्याची वेळ, बँकेचे नियम, कर, दंड किंवा इतर लागू अटींनुसार प्रत्यक्ष परिपक्वता मूल्य बदलू शकते."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "पृष्ठ सापडले नाही",
     "description": "तुम्ही शोधत असलेले पृष्ठ अस्तित्वात नाही किंवा कदाचित हलवले गेले आहे.",
     "home_button": "मुख्यपृष्ठावर जा"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "सूचनांची परवानगी ब्लॉक केली आहे. रिमाइंडर मिळवण्यासाठी कृपया AgeVerseGlobal साठी सूचनांना परवानगी द्या.",
+  "Event reminder service is not configured.": "इव्हेंट रिमाइंडर सेवा कॉन्फिगर केलेली नाही.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} मासिक SIP मध्ये 10% वार्षिक स्टेप-अप असल्यास दुसऱ्या वर्षी {{amount2}}, तिसऱ्या वर्षी {{amount3}} आणि पुढे त्याचप्रमाणे होईल."
 }

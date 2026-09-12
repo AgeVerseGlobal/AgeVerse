@@ -11,5 +11,11 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/event-reminders/dispatch",
+      "schedule": "* * * * *"
+    }
   ]
 }

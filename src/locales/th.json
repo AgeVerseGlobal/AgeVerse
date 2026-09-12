@@ -58,7 +58,11 @@
     "upcoming_event": "กิจกรรมที่กำลังจะมาถึง",
     "passed_event": "กิจกรรมผ่านไปแล้ว",
     "notification_permission": "อาจต้องอนุญาตการแจ้งเตือนสำหรับการแจ้งเตือนผ่านเบราว์เซอร์",
-    "retirement_day_message": "ข้อความวันเกษียณ"
+    "retirement_day_message": "ข้อความวันเกษียณ",
+    "notification_permission_blocked": "สิทธิ์การแจ้งเตือนถูกบล็อก โปรดอนุญาตการแจ้งเตือนสำหรับ AgeVerseGlobal เพื่อรับการแจ้งเตือนเตือนความจำ",
+    "event_reminder_not_configured": "ยังไม่ได้ตั้งค่าบริการเตือนความจำกิจกรรม",
+    "reminder_set": "ตั้งการแจ้งเตือนแล้ว",
+    "reminder_time": "เวลาแจ้งเตือน"
   },
   "age": {
     "title": "เครื่องคำนวณอายุขั้นสูง",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "โปรดป้อนวันที่คำนวณที่ถูกต้อง",
     "Please enter a valid custom reminder time.": "โปรดป้อนเวลาแจ้งเตือนกำหนดเองที่ถูกต้อง",
     "Please enter a valid date of birth.": "โปรดป้อนวันเกิดที่ถูกต้อง",
-    "Please enter a valid deposit amount greater than ₹0.": "โปรดป้อนจำนวนเงินฝากที่ถูกต้องมากกว่า ₹0",
+    "Please enter a valid deposit amount greater than 0.": "โปรดป้อนจำนวนเงินฝากที่ถูกต้องมากกว่า 0",
     "Please enter a valid discount between 0% and 100%.": "โปรดป้อนส่วนลดที่ถูกต้องระหว่าง 0% ถึง 100%",
     "Please enter a valid event date and time.": "โปรดป้อนวันที่และเวลาของเหตุการณ์ที่ถูกต้อง",
     "Please enter a valid expected return between 0% and 100%.": "โปรดป้อนผลตอบแทนที่คาดหวังที่ถูกต้องระหว่าง 0% ถึง 100%",
@@ -1225,12 +1229,12 @@
     "Celsius": "เซลเซียส",
     "Fahrenheit": "ฟาเรนไฮต์",
     "Kelvin": "เคลวิน",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "ปี/เดือน",
     "Example: My Wedding, Office Party...": "ตัวอย่าง: งานแต่งงานของฉัน, งานเลี้ยงบริษัท...",
     "Increase your SIP amount every year by a fixed percentage.": "เพิ่มจำนวนเงิน SIP ของคุณทุกปีตามเปอร์เซ็นต์ที่กำหนด",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "ตัวอย่าง: SIP รายเดือน ₹5,000 ที่เพิ่มขึ้น 10% ต่อปี จะเป็น ₹5,500 ในปีที่สอง ₹6,050 ในปีที่สาม และเพิ่มขึ้นต่อไปในลักษณะเดียวกัน",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ตัวอย่าง: SIP รายเดือน {{amount1}} ที่เพิ่มขึ้น 10% ต่อปี จะเป็น {{amount2}} ในปีที่สอง {{amount3}} ในปีที่สาม และเพิ่มขึ้นต่อไปในลักษณะเดียวกัน",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "เครื่องคำนวณนี้ให้มูลค่าครบกำหนดโดยประมาณจากเงินฝากรายเดือนและอัตราดอกเบี้ยรายปีที่คาดหวังที่ป้อน มูลค่าจริงอาจแตกต่างกันตามอัตราดอกเบี้ย เวลาในการฝาก กฎของธนาคาร ภาษี ค่าปรับ หรือเงื่อนไขอื่นที่เกี่ยวข้อง"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "ไม่พบหน้า",
     "description": "หน้าที่คุณกำลังค้นหาไม่มีอยู่หรืออาจถูกย้ายไปแล้ว",
     "home_button": "ไปที่หน้าหลัก"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "สิทธิ์การแจ้งเตือนถูกบล็อก โปรดอนุญาตการแจ้งเตือนสำหรับ AgeVerseGlobal เพื่อรับการแจ้งเตือนเตือนความจำ",
+  "Event reminder service is not configured.": "ยังไม่ได้ตั้งค่าบริการเตือนความจำกิจกรรม",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ตัวอย่าง: SIP รายเดือน {{amount1}} ที่เพิ่มขึ้น 10% ต่อปี จะเป็น {{amount2}} ในปีที่สอง {{amount3}} ในปีที่สาม และเพิ่มขึ้นต่อไปในลักษณะเดียวกัน"
 }

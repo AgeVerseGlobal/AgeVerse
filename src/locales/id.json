@@ -58,7 +58,11 @@
     "upcoming_event": "Acara Mendatang",
     "passed_event": "Acara telah berlalu",
     "notification_permission": "Izin notifikasi mungkin diperlukan untuk pengingat browser.",
-    "retirement_day_message": "Pesan Hari Pensiun"
+    "retirement_day_message": "Pesan Hari Pensiun",
+    "notification_permission_blocked": "Izin notifikasi diblokir. Harap izinkan notifikasi untuk AgeVerseGlobal agar menerima pengingat.",
+    "event_reminder_not_configured": "Layanan pengingat acara belum dikonfigurasi.",
+    "reminder_set": "Pengingat diatur",
+    "reminder_time": "Waktu pengingat"
   },
   "age": {
     "title": "Kalkulator Usia Lanjutan",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "Harap masukkan tanggal perhitungan yang valid.",
     "Please enter a valid custom reminder time.": "Harap masukkan waktu pengingat khusus yang valid.",
     "Please enter a valid date of birth.": "Harap masukkan tanggal lahir yang valid.",
-    "Please enter a valid deposit amount greater than ₹0.": "Harap masukkan jumlah deposito yang valid lebih besar dari Rp 0.",
+    "Please enter a valid deposit amount greater than 0.": "Harap masukkan jumlah deposito yang valid lebih besar dari Rp 0.",
     "Please enter a valid discount between 0% and 100%.": "Harap masukkan diskon yang valid antara 0% dan 100%.",
     "Please enter a valid event date and time.": "Harap masukkan tanggal dan waktu acara yang valid.",
     "Please enter a valid expected return between 0% and 100%.": "Harap masukkan imbal hasil yang diharapkan yang valid antara 0% dan 100%.",
@@ -1225,12 +1229,12 @@
     "Celsius": "Celsius",
     "Fahrenheit": "Fahrenheit",
     "Kelvin": "Kelvin",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "Tahun/Bulan",
     "Example: My Wedding, Office Party...": "Contoh: Pernikahan Saya, Pesta Kantor...",
     "Increase your SIP amount every year by a fixed percentage.": "Tingkatkan jumlah SIP Anda setiap tahun dengan persentase tetap.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "Contoh: SIP bulanan ₹5.000 dengan kenaikan tahunan 10% menjadi ₹5.500 pada tahun kedua, ₹6.050 pada tahun ketiga, dan seterusnya.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Contoh: SIP bulanan {{amount1}} dengan kenaikan tahunan 10% menjadi {{amount2}} pada tahun kedua, {{amount3}} pada tahun ketiga, dan seterusnya.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Kalkulator ini memberikan nilai jatuh tempo estimasi berdasarkan setoran bulanan dan suku bunga tahunan yang diharapkan. Nilai jatuh tempo aktual dapat berbeda sesuai suku bunga, waktu setoran, aturan bank, pajak, denda, atau ketentuan lain yang berlaku."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "Halaman Tidak Ditemukan",
     "description": "Halaman yang Anda cari tidak ada atau mungkin telah dipindahkan.",
     "home_button": "Ke Beranda"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "Izin notifikasi diblokir. Harap izinkan notifikasi untuk AgeVerseGlobal agar menerima pengingat.",
+  "Event reminder service is not configured.": "Layanan pengingat acara belum dikonfigurasi.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Contoh: SIP bulanan {{amount1}} dengan kenaikan tahunan 10% menjadi {{amount2}} pada tahun kedua, {{amount3}} pada tahun ketiga, dan seterusnya."
 }

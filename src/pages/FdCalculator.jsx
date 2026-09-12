@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../styles/FdCalculator.css";
+import { currencyExample, formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "../components/ResultAttribution";
 const formatNumber = (value) =>
@@ -10,7 +11,6 @@ const formatNumber = (value) =>
     ? new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 }).format(value)
     : "—";
 
-const currency = (value) => `₹${formatNumber(value)}`;
 
 const FREQUENCIES = {
   monthly: { label: "Monthly", periods: 12 },
@@ -20,7 +20,8 @@ const FREQUENCIES = {
 };
 
 const FdCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currency = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [depositAmount, setDepositAmount] = useState("");
   const [annualRate, setAnnualRate] = useState("");
   const [tenureYears, setTenureYears] = useState("");
@@ -52,7 +53,7 @@ const FdCalculator = () => {
     const bonus = Number(seniorBonus || 0);
 
     if (!Number.isFinite(principal) || principal <= 0) {
-      setError("Please enter a valid deposit amount greater than ₹0.");
+      setError("Please enter a valid deposit amount greater than 0.");
       setResult(null);
       return;
     }
@@ -129,11 +130,6 @@ const FdCalculator = () => {
       estimatedInterest,
       growth,
       yearlyBreakdown,
-      calculationText: t("fd.calculation_projection", {
-        frequency: t(frequencyInfo.label),
-        rate: formatNumber(effectiveRate),
-        years: formatNumber(tenure),
-      }),
     });
   };
 
@@ -149,6 +145,14 @@ const FdCalculator = () => {
     setCopied(false);
     setPdfMessage("");
   };
+
+  const calculationText = result
+    ? t("fd.calculation_projection", {
+        frequency: t(result.frequencyLabel),
+        rate: formatNumber(result.effectiveRate),
+        years: formatNumber(result.tenureYears),
+      })
+    : "";
 
   const resultText = useMemo(() => {
     if (!result) return "";
@@ -168,9 +172,9 @@ const FdCalculator = () => {
       `Estimated Interest: ${currency(result.estimatedInterest)}`,
       `Maturity Value: ${currency(result.maturityValue)}`,
       "",
-      `Calculation: ${result.calculationText}`,
+      `Calculation: ${calculationText}`,
     ].join("\n");
-  }, [result]);
+  }, [result, calculationText]);
 
   const copyResult = async () => {
     if (!result) return;
@@ -365,7 +369,7 @@ const FdCalculator = () => {
               inputMode="decimal"
               min="1"
               value={depositAmount}
-              placeholder={t("Currency Placeholder")}
+              placeholder={currencyExample(100000, i18n.resolvedLanguage || i18n.language)}
               onChange={(e) => setDepositAmount(e.target.value)}
             />
           </div>
@@ -395,7 +399,7 @@ const FdCalculator = () => {
               max="100"
               step="0.01"
               value={tenureYears}
-              placeholder={t("Year/Month")}
+              placeholder="e.g. 5"
               onChange={(e) => setTenureYears(e.target.value)}
             />
           </div>
@@ -632,7 +636,7 @@ const FdCalculator = () => {
 
               <div className="fd-equation">
                 <div>📐 Calculation</div>
-                <strong>{result.calculationText}</strong>
+                <strong>{calculationText}</strong>
                 <span>
                   {t("Standard compound-interest model: A = P(1 + r/n)^(n×t)")}
                 </span>

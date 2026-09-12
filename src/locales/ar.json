@@ -58,7 +58,11 @@
     "upcoming_event": "حدث قادم",
     "passed_event": "انتهى الحدث",
     "notification_permission": "قد يلزم السماح بالإشعارات لتذكيرات المتصفح.",
-    "retirement_day_message": "رسالة يوم التقاعد"
+    "retirement_day_message": "رسالة يوم التقاعد",
+    "notification_permission_blocked": "تم حظر إذن الإشعارات. يرجى السماح بإشعارات AgeVerseGlobal لتلقي التذكير.",
+    "event_reminder_not_configured": "خدمة تذكير الأحداث غير مُهيأة.",
+    "reminder_set": "تم ضبط التذكير",
+    "reminder_time": "وقت التذكير"
   },
   "age": {
     "title": "حاسبة العمر المتقدمة",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "يرجى إدخال تاريخ حساب صالح.",
     "Please enter a valid custom reminder time.": "يرجى إدخال وقت تذكير مخصص صالح.",
     "Please enter a valid date of birth.": "يرجى إدخال تاريخ ميلاد صالح.",
-    "Please enter a valid deposit amount greater than ₹0.": "يرجى إدخال مبلغ وديعة صالح أكبر من ₹0.",
+    "Please enter a valid deposit amount greater than 0.": "يرجى إدخال مبلغ وديعة صالح أكبر من 0.",
     "Please enter a valid discount between 0% and 100%.": "يرجى إدخال خصم صالح بين 0% و 100%.",
     "Please enter a valid event date and time.": "يرجى إدخال تاريخ ووقت مناسبة صالحين.",
     "Please enter a valid expected return between 0% and 100%.": "يرجى إدخال عائد متوقع صالح بين 0% و 100%.",
@@ -1225,12 +1229,12 @@
     "Celsius": "سيليزيوس",
     "Fahrenheit": "فهرنهايت",
     "Kelvin": "كلفن",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "سنة/شهر",
     "Example: My Wedding, Office Party...": "مثال: حفل زفافي، حفلة المكتب...",
     "Increase your SIP amount every year by a fixed percentage.": "زد مبلغ SIP الخاص بك كل عام بنسبة مئوية ثابتة.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "مثال: يصبح استثمار SIP شهري بقيمة ₹5,000 مع زيادة سنوية 10% هو ₹5,500 في السنة الثانية و₹6,050 في السنة الثالثة وهكذا.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "مثال: يصبح استثمار SIP شهري بقيمة {{amount1}} مع زيادة سنوية 10% هو {{amount2}} في السنة الثانية و{{amount3}} في السنة الثالثة وهكذا.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "توفر هذه الحاسبة قيمة استحقاق تقديرية بناءً على الودائع الشهرية ومعدل الفائدة السنوي المتوقع المُدخل. قد تختلف قيمة الاستحقاق الفعلية وفقًا لمعدل الفائدة وتوقيت الإيداع وقواعد البنك والضرائب والغرامات أو الشروط الأخرى المطبقة."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "الصفحة غير موجودة",
     "description": "الصفحة التي تبحث عنها غير موجودة أو ربما تم نقلها.",
     "home_button": "الانتقال إلى الصفحة الرئيسية"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "تم حظر إذن الإشعارات. يرجى السماح بالإشعارات لـ AgeVerseGlobal لتلقي التذكير.",
+  "Event reminder service is not configured.": "خدمة تذكير الأحداث غير مُهيأة.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "مثال: يصبح استثمار SIP شهري بقيمة {{amount1}} مع زيادة سنوية 10% هو {{amount2}} في السنة الثانية و{{amount3}} في السنة الثالثة وهكذا."
 }

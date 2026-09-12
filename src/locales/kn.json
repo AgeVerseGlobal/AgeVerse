@@ -58,7 +58,11 @@
     "upcoming_event": "ಮುಂಬರುವ ಈವೆಂಟ್",
     "passed_event": "ಈವೆಂಟ್ ಮುಗಿದಿದೆ",
     "notification_permission": "ಬ್ರೌಸರ್ ಜ್ಞಾಪನೆಗಳಿಗೆ ಅಧಿಸೂಚನೆ ಅನುಮತಿ ಅಗತ್ಯವಾಗಬಹುದು.",
-    "retirement_day_message": "ನಿವೃತ್ತಿ ದಿನದ ಸಂದೇಶ"
+    "retirement_day_message": "ನಿವೃತ್ತಿ ದಿನದ ಸಂದೇಶ",
+    "notification_permission_blocked": "ಅಧಿಸೂಚನೆ ಅನುಮತಿಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಜ್ಞಾಪನೆಯನ್ನು ಪಡೆಯಲು ದಯವಿಟ್ಟು AgeVerseGlobal ಗೆ ಅಧಿಸೂಚನೆಗಳನ್ನು ಅನುಮತಿಸಿ.",
+    "event_reminder_not_configured": "ಈವೆಂಟ್ ಜ್ಞಾಪನೆ ಸೇವೆಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "reminder_set": "ಜ್ಞಾಪನೆಯನ್ನು ಹೊಂದಿಸಲಾಗಿದೆ",
+    "reminder_time": "ಜ್ಞಾಪನೆಯ ಸಮಯ"
   },
   "age": {
     "title": "ಸುಧಾರಿತ ವಯಸ್ಸಿನ ಕ್ಯಾಲ್ಕುಲೇಟರ್",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಲೆಕ್ಕಾಚಾರದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ.",
     "Please enter a valid custom reminder time.": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಕಸ್ಟಮ್ ರಿಮೈಂಡರ್ ಸಮಯವನ್ನು ನಮೂದಿಸಿ.",
     "Please enter a valid date of birth.": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ.",
-    "Please enter a valid deposit amount greater than ₹0.": "ದಯವಿಟ್ಟು ₹0 ಗಿಂತ ಹೆಚ್ಚಿನ ಮಾನ್ಯವಾದ ಠೇವಣಿ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ.",
+    "Please enter a valid deposit amount greater than 0.": "ದಯವಿಟ್ಟು 0 ಗಿಂತ ಹೆಚ್ಚಿನ ಮಾನ್ಯವಾದ ಠೇವಣಿ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ.",
     "Please enter a valid discount between 0% and 100%.": "ದಯವಿಟ್ಟು 0% ಮತ್ತು 100% ನಡುವಿನ ಮಾನ್ಯವಾದ ರಿಯಾಯಿತಿಯನ್ನು ನಮೂದಿಸಿ.",
     "Please enter a valid event date and time.": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಇವೆಂಟ್ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ನಮೂದಿಸಿ.",
     "Please enter a valid expected return between 0% and 100%.": "ದಯವಿಟ್ಟು 0% ಮತ್ತು 100% ನಡುವಿನ ಮಾನ್ಯವಾದ ನಿರೀಕ್ಷಿತ ಆದಾಯವನ್ನು ನಮೂದಿಸಿ.",
@@ -1225,12 +1229,12 @@
     "Celsius": "ಸೆಲ್ಸಿಯಸ್",
     "Fahrenheit": "ಫ್ಯಾರನ್‌ಹೀಟ್",
     "Kelvin": "ಕೆಲ್ವಿನ್",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "ವರ್ಷ/ತಿಂಗಳು",
     "Example: My Wedding, Office Party...": "ಉದಾಹರಣೆ: ನನ್ನ ಮದುವೆ, ಕಚೇರಿ ಪಾರ್ಟಿ...",
     "Increase your SIP amount every year by a fixed percentage.": "ಪ್ರತಿ ವರ್ಷ ನಿಗದಿತ ಶೇಕಡಾವಾರು ಮೂಲಕ ನಿಮ್ಮ SIP ಮೊತ್ತವನ್ನು ಹೆಚ್ಚಿಸಿ.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "ಉದಾಹರಣೆ: ₹5,000 ಮಾಸಿಕ SIP ಗೆ ವರ್ಷಕ್ಕೆ 10% ಸ್ಟೆಪ್-ಅಪ್ ಇದ್ದರೆ ಎರಡನೇ ವರ್ಷ ₹5,500, ಮೂರನೇ ವರ್ಷ ₹6,050 ಮತ್ತು ಮುಂದುವರಿಯುತ್ತದೆ.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ಉದಾಹರಣೆ: {{amount1}} ಮಾಸಿಕ SIP ಗೆ ವರ್ಷಕ್ಕೆ 10% ಸ್ಟೆಪ್-ಅಪ್ ಇದ್ದರೆ ಎರಡನೇ ವರ್ಷ {{amount2}}, ಮೂರನೇ ವರ್ಷ {{amount3}} ಮತ್ತು ಮುಂದುವರಿಯುತ್ತದೆ.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ಈ ಕ್ಯಾಲ್ಕುಲೇಟರ್ ನಮೂದಿಸಿದ ಮಾಸಿಕ ಠೇವಣಿಗಳು ಮತ್ತು ನಿರೀಕ್ಷಿತ ವಾರ್ಷಿಕ ಬಡ್ಡಿದರದ ಆಧಾರದ ಮೇಲೆ ಅಂದಾಜು ಪಕ್ವತೆಯ ಮೌಲ್ಯವನ್ನು ನೀಡುತ್ತದೆ. ಬಡ್ಡಿದರ, ಠೇವಣಿ ಸಮಯ, ಬ್ಯಾಂಕ್ ನಿಯಮಗಳು, ತೆರಿಗೆ, ದಂಡಗಳು ಅಥವಾ ಇತರ ಅನ್ವಯವಾಗುವ ಷರತ್ತುಗಳ ಪ್ರಕಾರ ನಿಜವಾದ ಪಕ್ವತೆಯ ಮೌಲ್ಯ ಬದಲಾಗಬಹುದು."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
     "description": "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ ಅಥವಾ ಸ್ಥಳಾಂತರಗೊಂಡಿರಬಹುದು.",
     "home_button": "ಮುಖಪುಟಕ್ಕೆ ಹೋಗಿ"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "ಅಧಿಸೂಚನೆ ಅನುಮತಿ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ರಿಮೈಂಡರ್ ಪಡೆಯಲು ದಯವಿಟ್ಟು AgeVerseGlobal ಗೆ ಅಧಿಸೂಚನೆಗಳನ್ನು ಅನುಮತಿಸಿ.",
+  "Event reminder service is not configured.": "ಈವೆಂಟ್ ರಿಮೈಂಡರ್ ಸೇವೆಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ಉದಾಹರಣೆ: {{amount1}} ಮಾಸಿಕ SIP ಗೆ ವರ್ಷಕ್ಕೆ 10% ಸ್ಟೆಪ್-ಅಪ್ ಇದ್ದರೆ ಎರಡನೇ ವರ್ಷ {{amount2}}, ಮೂರನೇ ವರ್ಷ {{amount3}} ಮತ್ತು ಮುಂದುವರಿಯುತ್ತದೆ."
 }

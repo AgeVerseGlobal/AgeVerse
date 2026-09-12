@@ -311,3 +311,45 @@
     font-size: 9px;
   }
 }
+/* Keep the selected reminder unmistakable in every theme. */
+.reminder-option[aria-pressed="true"],
+.reminder-option.active {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+  background-image: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 7px 16px rgba(79, 70, 229, 0.20) !important;
+}
+
+.reminder-option[aria-pressed="true"] .reminder-option-icon,
+.reminder-option.active .reminder-option-icon {
+  background: rgba(255, 255, 255, 0.16) !important;
+}
+
+
+/* =========================================================
+   FINAL DARK ACTIVE STATE
+   Keep selected reminder unmistakable in dark mode.
+========================================================= */
+html.dark-mode .event-reminder-box .reminder-option.active,
+html.dark .event-reminder-box .reminder-option.active,
+[data-theme="dark"] .event-reminder-box .reminder-option.active {
+  background-color: #4f46e5 !important;
+  background-image: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+  border-color: #818cf8 !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.34) !important;
+}
+
+html.dark-mode .event-reminder-box .reminder-option.active .reminder-option-text,
+html.dark .event-reminder-box .reminder-option.active .reminder-option-text,
+[data-theme="dark"] .event-reminder-box .reminder-option.active .reminder-option-text {
+  color: #ffffff !important;
+}
+
+html.dark-mode .event-reminder-box .reminder-option.active .reminder-option-icon,
+html.dark .event-reminder-box .reminder-option.active .reminder-option-icon,
+[data-theme="dark"] .event-reminder-box .reminder-option.active .reminder-option-icon {
+  background: rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+}

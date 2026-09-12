@@ -117,7 +117,6 @@ const PercentageCalculator = () => {
   ======================================================= */
 
   const isPercentageResult =
-    mode === "percentageOf" ||
     mode === "whatPercentage" ||
     mode === "increase" ||
     mode === "decrease" ||

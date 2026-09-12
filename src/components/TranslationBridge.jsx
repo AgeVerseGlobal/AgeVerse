@@ -18,11 +18,6 @@ function flattenStrings(value, prefix = "", output = {}) {
   return output;
 }
 
-function loadedLanguages() {
-  return (i18n.options.supportedLngs || []).filter(
-    (code) => code && code !== "cimode" && i18n.hasResourceBundle(code, "translation")
-  );
-}
 
 function dedupePairs(pairs) {
   const seen = new Set();
@@ -50,19 +45,24 @@ function buildTargetMap(language) {
     .sort((a, b) => b.from.length - a.from.length);
 }
 
-function buildRestoreMap() {
+function buildRestoreMap(language) {
+  if (!language || language === "en") return [];
+
   const english = flattenStrings(i18n.getResourceBundle("en", "translation"));
+  const locale = flattenStrings(i18n.getResourceBundle(language, "translation"));
   const pairs = [];
-  loadedLanguages().forEach((language) => {
-    const locale = flattenStrings(i18n.getResourceBundle(language, "translation"));
-    Object.keys(english).forEach((key) => {
-      if (locale[key] && locale[key] !== english[key]) pairs.push({ from: locale[key], to: english[key] });
-    });
-    const bridge = i18n.getResourceBundle(language, "translation")?.bridge || {};
-    Object.entries(bridge).forEach(([from, to]) => {
-      if (from && to && from !== to) pairs.push({ from: to, to: from });
-    });
+
+  Object.keys(english).forEach((key) => {
+    if (locale[key] && locale[key] !== english[key]) {
+      pairs.push({ from: locale[key], to: english[key] });
+    }
   });
+
+  const bridge = i18n.getResourceBundle(language, "translation")?.bridge || {};
+  Object.entries(bridge).forEach(([from, to]) => {
+    if (from && to && from !== to) pairs.push({ from: to, to: from });
+  });
+
   return dedupePairs(pairs).sort((a, b) => b.from.length - a.from.length);
 }
 
@@ -167,8 +167,10 @@ function TranslationBridge() {
     let queued = false;
     const pending = new Set();
     const bridgeMutations = new WeakSet();
-    let restoreMap = buildRestoreMap();
-    let targetMap = buildTargetMap(currentI18n.resolvedLanguage || currentI18n.language || "en");
+    let activeLanguage = currentI18n.resolvedLanguage || currentI18n.language || "en";
+    let previousLanguage = "en";
+    let restoreMap = buildRestoreMap(previousLanguage);
+    let targetMap = buildTargetMap(activeLanguage);
 
     const flush = () => {
       queued = false;
@@ -184,13 +186,24 @@ function TranslationBridge() {
       frame = requestAnimationFrame(flush);
     };
     const applyLanguage = (language) => {
+      previousLanguage = language === activeLanguage ? "en" : activeLanguage;
+      activeLanguage = language;
       document.documentElement.lang = language;
-      restoreMap = buildRestoreMap();
+      restoreMap = buildRestoreMap(previousLanguage);
       targetMap = buildTargetMap(language);
+      pending.clear();
+
+      // One immediate pass handles the current DOM; one animation-frame pass
+      // handles React's result-card commit after i18next changes. Avoiding the
+      // previous full-page third pass keeps language switching responsive.
       translatePage(restoreMap, targetMap, bridgeMutations);
+      requestAnimationFrame(() => {
+        if (disposed) return;
+        translatePage(restoreMap, targetMap, bridgeMutations);
+      });
     };
 
-    applyLanguage(currentI18n.resolvedLanguage || currentI18n.language || "en");
+    applyLanguage(activeLanguage);
     const handleLanguageChanged = (language) => applyLanguage(language);
     currentI18n.on("languageChanged", handleLanguageChanged);
 

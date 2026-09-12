@@ -58,7 +58,11 @@
     "upcoming_event": "今後のイベント",
     "passed_event": "イベント終了",
     "notification_permission": "ブラウザのリマインダーには通知の許可が必要な場合があります。",
-    "retirement_day_message": "退職日のメッセージ"
+    "retirement_day_message": "退職日のメッセージ",
+    "notification_permission_blocked": "通知の許可がブロックされています。リマインダーを受け取るには、AgeVerseGlobal の通知を許可してください。",
+    "event_reminder_not_configured": "イベントリマインダーサービスが設定されていません。",
+    "reminder_set": "リマインダーを設定しました",
+    "reminder_time": "リマインダーの時刻"
   },
   "age": {
     "title": "詳細年齢計算ツール",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "有効な計算日を入力してください。",
     "Please enter a valid custom reminder time.": "有効なカスタムリマインダー時間を入力してください。",
     "Please enter a valid date of birth.": "有効な生年月日を入力してください。",
-    "Please enter a valid deposit amount greater than ₹0.": "₹0より大きい有効な預金額を入力してください。",
+    "Please enter a valid deposit amount greater than 0.": "0より大きい有効な預金額を入力してください。",
     "Please enter a valid discount between 0% and 100%.": "0%から100%の間の有効な割引率を入力してください。",
     "Please enter a valid event date and time.": "有効なイベントの日時を入力してください。",
     "Please enter a valid expected return between 0% and 100%.": "0%から100%の間の有効な想定リターンを入力してください。",
@@ -1225,12 +1229,12 @@
     "Celsius": "摂氏 (℃)",
     "Fahrenheit": "華氏 (℉)",
     "Kelvin": "ケルビン (K)",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "年/月",
     "Example: My Wedding, Office Party...": "例：自分の結婚式、会社のパーティー…",
     "Increase your SIP amount every year by a fixed percentage.": "毎年、一定の割合でSIPの投資額を増やします。",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "例：月額₹5,000のSIPを毎年10%増額すると、2年目は₹5,500、3年目は₹6,050となり、その後も続きます。",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "例：月額{{amount1}}のSIPを毎年10%増額すると、2年目は{{amount2}}、3年目は{{amount3}}となり、その後も続きます。",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "この計算ツールは、入力された毎月の積立額と予想年利に基づいて満期額を推定します。実際の満期額は、金利、積立時期、銀行の規則、税金、手数料・罰則などにより異なる場合があります。"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "ページが見つかりません",
     "description": "お探しのページは存在しないか、移動された可能性があります。",
     "home_button": "ホームへ戻る"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "通知の許可がブロックされています。リマインダーを受け取るには、AgeVerseGlobalの通知を許可してください。",
+  "Event reminder service is not configured.": "イベントリマインダーサービスが設定されていません。",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "例：月額{{amount1}}のSIPを毎年10%増額すると、2年目は{{amount2}}、3年目は{{amount3}}となり、その後も続きます。"
 }

@@ -7,6 +7,86 @@ Notification Test + Retirement Reminder Support
 
 const SERVICE_WORKER_PATH = "/service-worker.js";
 
+const EVENT_REMINDER_CONFIG = "/api/event-reminders/config";
+const EVENT_REMINDER_SCHEDULE = "/api/event-reminders/schedule";
+const EVENT_REMINDER_CANCEL = "/api/event-reminders/cancel";
+
+function base64UrlToUint8Array(value) {
+  const padding = "=".repeat((4 - (value.length % 4)) % 4);
+  const base64 = (value + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const raw = atob(base64);
+  return Uint8Array.from(raw, (character) => character.charCodeAt(0));
+}
+
+async function getRetirementPushSubscription() {
+  const registration = await navigator.serviceWorker.ready;
+  const configResponse = await fetch(EVENT_REMINDER_CONFIG, {
+    headers: { Accept: "application/json" },
+    cache: "no-store",
+  });
+  const config = await configResponse.json().catch(() => ({}));
+  if (!configResponse.ok || !config.publicKey) {
+    throw new Error(config.error || "Retirement reminders are not configured on the server yet.");
+  }
+
+  let subscription = await registration.pushManager.getSubscription();
+  if (!subscription) {
+    subscription = await registration.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: base64UrlToUint8Array(config.publicKey),
+    });
+  }
+  return subscription;
+}
+
+export async function scheduleRetirementReminder({
+  retirementTimestamp,
+  reminderTimestamp,
+  reminderType,
+  customReminderDays = 0,
+}) {
+  if (!isNotificationSupported() || !("PushManager" in window) || !window.isSecureContext) {
+    throw new Error("This browser cannot receive background notifications.");
+  }
+  if (Notification.permission !== "granted") {
+    throw new Error("Notification permission is required for the retirement reminder.");
+  }
+
+  const subscription = await getRetirementPushSubscription();
+  const response = await fetch(EVENT_REMINDER_SCHEDULE, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      reminderKind: "retirement",
+      eventName: "Retirement",
+      eventTimestamp: Number(retirementTimestamp),
+      reminderTimestamp: Number(reminderTimestamp),
+      reminderType,
+      customReminderDays: Number(customReminderDays) || 0,
+      subscription: subscription.toJSON(),
+    }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok || !data.reminderId) {
+    throw new Error(data.error || "Unable to schedule the retirement reminder.");
+  }
+  return data.reminderId;
+}
+
+export async function cancelRetirementReminder(reminderId) {
+  if (!reminderId) return true;
+  try {
+    const response = await fetch(EVENT_REMINDER_CANCEL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ reminderId }),
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 /*
 =========================================================
 SERVICE WORKER

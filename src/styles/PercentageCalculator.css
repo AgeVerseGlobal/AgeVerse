@@ -770,6 +770,9 @@
 
 .percentage-calculator-calculation-flow {
   margin-top: 14px;
+  background-image: none;
+  box-shadow: none;
+  overflow: hidden;
 
   padding: 13px;
 
@@ -783,6 +786,8 @@
 
 .percentage-calculator-flow-box {
   display: grid;
+  background: transparent;
+  background-image: none;
 
   grid-template-columns:
     1fr 30px 1fr;

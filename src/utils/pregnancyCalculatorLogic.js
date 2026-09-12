@@ -329,6 +329,10 @@ function buildBaseResult(
       formatPregnancyDate(
         calculationDate
       ),
+
+    lmpDateValue: lmpDate,
+    dueDateValue: dueDate,
+    calculationDateValue: calculationDate,
   };
 }
 

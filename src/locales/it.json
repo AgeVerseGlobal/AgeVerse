@@ -58,7 +58,11 @@
     "upcoming_event": "Evento imminente",
     "passed_event": "Evento trascorso",
     "notification_permission": "Per i promemoria del browser potrebbe essere necessaria l’autorizzazione alle notifiche.",
-    "retirement_day_message": "Messaggio del giorno del pensionamento"
+    "retirement_day_message": "Messaggio del giorno del pensionamento",
+    "notification_permission_blocked": "Il permesso per le notifiche è bloccato. Consenti le notifiche per AgeVerseGlobal per ricevere il promemoria.",
+    "event_reminder_not_configured": "Il servizio di promemoria degli eventi non è configurato.",
+    "reminder_set": "Promemoria impostato",
+    "reminder_time": "Ora del promemoria"
   },
   "age": {
     "title": "Calcolatore di Età Avanzato",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "Inserisci una data di calcolo valida.",
     "Please enter a valid custom reminder time.": "Inserisci un orario di promemoria personalizzato valido.",
     "Please enter a valid date of birth.": "Inserisci una data di nascita valida.",
-    "Please enter a valid deposit amount greater than ₹0.": "Inserisci un importo di deposito valido maggiore di ₹0.",
+    "Please enter a valid deposit amount greater than 0.": "Inserisci un importo di deposito valido maggiore di 0.",
     "Please enter a valid discount between 0% and 100%.": "Inserisci uno sconto valido tra 0% e 100%.",
     "Please enter a valid event date and time.": "Inserisci una data e ora dell'evento valide.",
     "Please enter a valid expected return between 0% and 100%.": "Inserisci un rendimento previsto valido tra 0% e 100%.",
@@ -1225,12 +1229,12 @@
     "Celsius": "Celsius",
     "Fahrenheit": "Fahrenheit",
     "Kelvin": "Kelvin",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "Anno/Mese",
     "Example: My Wedding, Office Party...": "Esempio: Il mio matrimonio, festa in ufficio...",
     "Increase your SIP amount every year by a fixed percentage.": "Aumenta l’importo del tuo SIP ogni anno di una percentuale fissa.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "Esempio: un SIP mensile di ₹5.000 con un incremento annuo del 10% diventa ₹5.500 nel secondo anno, ₹6.050 nel terzo e così via.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Esempio: un SIP mensile di {{amount1}} con un incremento annuo del 10% diventa {{amount2}} nel secondo anno, {{amount3}} nel terzo e così via.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Questa calcolatrice fornisce un valore di scadenza stimato in base ai depositi mensili e al tasso di interesse annuo previsto inseriti. Il valore effettivo può variare in base al tasso, al momento del deposito, alle regole della banca, alle imposte, alle penalità o ad altre condizioni applicabili."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "Pagina non trovata",
     "description": "La pagina che stai cercando non esiste oppure è stata spostata.",
     "home_button": "Torna alla home"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "L’autorizzazione alle notifiche è bloccata. Consenti le notifiche per AgeVerseGlobal per ricevere il promemoria.",
+  "Event reminder service is not configured.": "Il servizio di promemoria degli eventi non è configurato.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Esempio: un SIP mensile di {{amount1}} con un incremento annuo del 10% diventa {{amount2}} nel secondo anno, {{amount3}} nel terzo e così via."
 }

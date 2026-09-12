@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import html2canvas from "html2canvas";
 import "../styles/DiscountCalculator.css";
+import { currencyExample, formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "./ResultAttribution";
 /* =========================================================
@@ -20,14 +21,14 @@ const formatNumber = (value) => {
    CURRENCY
 ========================================================= */
 
-const currency = (value) => `₹${formatNumber(value)}`;
 
 /* =========================================================
    DISCOUNT CALCULATOR
 ========================================================= */
 
 const DiscountCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currency = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [mode, setMode] = useState("single");
 
   const [price, setPrice] = useState("");
@@ -1136,7 +1137,7 @@ const DiscountCalculator = () => {
               inputMode="decimal"
               min="0"
               value={price}
-              placeholder={t("Currency Placeholder")}
+              placeholder={currencyExample(1000, i18n.resolvedLanguage || i18n.language)}
               onChange={(event) =>
                 setPrice(
                   event.target.value

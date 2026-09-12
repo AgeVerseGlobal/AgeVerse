@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../styles/SipCalculator.css";
+import { currencyExample, formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "../components/ResultAttribution";
 /* =========================================================
@@ -21,7 +22,6 @@ const formatNumber = (value) => {
    CURRENCY
 ========================================================= */
 
-const currency = (value) => `₹${formatNumber(value)}`;
 
 /* =========================================================
    SIP FREQUENCIES
@@ -55,7 +55,8 @@ const SIP_FREQUENCIES = {
 ========================================================= */
 
 const SipCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currency = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [sipAmount, setSipAmount] = useState("");
   const [frequency, setFrequency] = useState("monthly");
   const [annualReturn, setAnnualReturn] = useState("");
@@ -265,20 +266,6 @@ const SipCalculator = () => {
           )
         : initialSip;
 
-    const calculationText = stepUpEnabled
-      ? t("sip.calculation_projection_stepup", {
-          frequency: t(frequencyData.label),
-          amount: currency(initialSip),
-          stepUp: formatNumber(yearlyStepUp),
-          rate: formatNumber(returnRate),
-        })
-      : t("sip.calculation_projection", {
-          frequency: t(frequencyData.label),
-          amount: currency(initialSip),
-          years: formatNumber(investmentYears),
-          rate: formatNumber(returnRate),
-        });
-
     setResult({
       sipAmount: initialSip,
       frequency,
@@ -294,7 +281,6 @@ const SipCalculator = () => {
       maturityValue: portfolioValue,
       effectiveGrowth,
       yearlyBreakdown,
-      calculationText,
     });
   };
 
@@ -316,6 +302,22 @@ const SipCalculator = () => {
     setCopied(false);
     setPdfMessage("");
   };
+
+  const calculationText = result
+    ? result.stepUpEnabled
+      ? t("sip.calculation_projection_stepup", {
+          frequency: t(result.frequencyLabel),
+          amount: currency(result.sipAmount),
+          stepUp: formatNumber(result.stepUpRate),
+          rate: formatNumber(result.annualReturn),
+        })
+      : t("sip.calculation_projection", {
+          frequency: t(result.frequencyLabel),
+          amount: currency(result.sipAmount),
+          years: formatNumber(result.years),
+          rate: formatNumber(result.annualReturn),
+        })
+    : "";
 
   /* =======================================================
      RESULT TEXT
@@ -356,9 +358,9 @@ const SipCalculator = () => {
         result.maturityValue
       )}`,
       "",
-      `Calculation: ${result.calculationText}`,
+      `Calculation: ${calculationText}`,
     ].join("\n");
-  }, [result]);
+  }, [result, calculationText]);
 
   /* =======================================================
      COPY RESULT AS IMAGE
@@ -712,7 +714,7 @@ const SipCalculator = () => {
               inputMode="decimal"
               min="1"
               value={sipAmount}
-              placeholder={t("Currency Placeholder")}
+              placeholder={currencyExample(5000, i18n.resolvedLanguage || i18n.language)}
               onChange={(event) =>
                 setSipAmount(
                   event.target.value
@@ -806,7 +808,7 @@ const SipCalculator = () => {
               max="100"
               step="1"
               value={years}
-              placeholder={t("Year/Month")}
+              placeholder="e.g. 5"
               onChange={(event) =>
                 setYears(
                   event.target.value
@@ -879,7 +881,7 @@ const SipCalculator = () => {
             )}
 
             <div className="sip-helper">
-              {t("Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.")}
+              {t("Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.", { amount1: currencyExample(5000, i18n.resolvedLanguage || i18n.language), amount2: currencyExample(5500, i18n.resolvedLanguage || i18n.language), amount3: currencyExample(6050, i18n.resolvedLanguage || i18n.language) })}
             </div>
 
           </div>
@@ -1311,7 +1313,7 @@ const SipCalculator = () => {
                 </div>
 
                 <strong>
-                  {result.calculationText}
+                  {calculationText}
                 </strong>
 
               </div>

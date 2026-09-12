@@ -58,7 +58,11 @@
     "upcoming_event": "आबऽ वाला कार्यक्रम",
     "passed_event": "कार्यक्रम बीत गेल",
     "notification_permission": "ब्राउजर स्मरण लेल सूचना अनुमति जरूरी भऽ सकैत अछि।",
-    "retirement_day_message": "सेवानिवृत्ति दिनक संदेश"
+    "retirement_day_message": "सेवानिवृत्ति दिनक संदेश",
+    "notification_permission_blocked": "नोटिफिकेशनक अनुमति ब्लॉक कएल गेल अछि। रिमाइंडर प्राप्त करबाक लेल कृपया AgeVerseGlobal लेल नोटिफिकेशनक अनुमति दिअ।",
+    "event_reminder_not_configured": "इवेंट रिमाइंडर सेवा कॉन्फिगर नहि कएल गेल अछि।",
+    "reminder_set": "रिमाइंडर सेट भऽ गेल",
+    "reminder_time": "रिमाइंडरक समय"
   },
   "age": {
     "title": "उन्नत आयु कैलकुलेटर",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "कृपया वैध गणना तिथि दर्ज करू।",
     "Please enter a valid custom reminder time.": "कृपया वैध कस्टम रिमाइंडर समय दर्ज करू।",
     "Please enter a valid date of birth.": "कृपया वैध जन्म तिथि दर्ज करू।",
-    "Please enter a valid deposit amount greater than ₹0.": "कृपया ₹0 सँ बेसी वैध जमा राशि दर्ज करू।",
+    "Please enter a valid deposit amount greater than 0.": "कृपया 0 सँ बेसी वैध जमा राशि दर्ज करू।",
     "Please enter a valid discount between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध छूट दर्ज करू।",
     "Please enter a valid event date and time.": "कृपया वैध इवेंट तिथि आ समय दर्ज करू।",
     "Please enter a valid expected return between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध अपेक्षित रिटर्न दर्ज करू।",
@@ -1225,12 +1229,12 @@
     "Celsius": "सेल्सियस",
     "Fahrenheit": "फ़ारेनहाइट",
     "Kelvin": "केल्विन",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "वर्ष/महीना",
     "Example: My Wedding, Office Party...": "उदाहरण: हमर बियाह, ऑफिस पार्टी...",
     "Increase your SIP amount every year by a fixed percentage.": "हर वर्ष एकटा निश्चित प्रतिशत सँ अपन SIP राशि बढ़ाऊ।",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "उदाहरण: ₹5,000 के मासिक SIP मे 10% वार्षिक स्टेप-अप होबा पर दोसर वर्ष ₹5,500, तेसर वर्ष ₹6,050 आ आगू एहिना भऽ जाइत अछि।",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP मे 10% वार्षिक स्टेप-अप होबा पर दोसर वर्ष {{amount2}}, तेसर वर्ष {{amount3}} आ आगू एहिना भऽ जाइत अछि।",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ई कैलकुलेटर दर्ज कैल गेल मासिक जमा राशि आ अपेक्षित वार्षिक ब्याज दरक आधार पर अनुमानित परिपक्वता राशि दैत अछि। ब्याज दर, जमा समय, बैंकक नियम, कर, दंड वा अन्य लागू शर्त सभक अनुसार वास्तविक परिपक्वता राशि अलग भऽ सकैत अछि।"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "पेज नहि भेटल",
     "description": "जाहि पेज केँ अहाँ खोजि रहल छी, से मौजूद नहि अछि वा ओकरा स्थानांतरित कऽ देल गेल अछि।",
     "home_button": "होम पर जाऊ"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "नोटिफिकेशनक अनुमति ब्लॉक कएल गेल अछि। रिमाइंडर प्राप्त करबाक लेल कृपया AgeVerseGlobal लेल नोटिफिकेशनक अनुमति दिअ।",
+  "Event reminder service is not configured.": "इवेंट रिमाइंडर सेवा कॉन्फिगर नहि कएल गेल अछि।",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP मे 10% वार्षिक स्टेप-अप होबा पर दोसर वर्ष {{amount2}}, तेसर वर्ष {{amount3}} आ आगू एहिना भऽ जाइत अछि।"
 }

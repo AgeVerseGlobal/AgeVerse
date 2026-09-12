@@ -210,13 +210,6 @@ const DogAgeCalculator = () => {
         (1000 * 60 * 60 * 24)
     );
 
-    const calculationText = t("dog_age.calculation_text", {
-      years,
-      months,
-      days,
-      humanAge: formatNumber(humanAge),
-    });
-
     setResult({
       birthDate,
       calculationDate,
@@ -230,9 +223,17 @@ const DogAgeCalculator = () => {
       humanMonths,
       category,
       daysToNextBirthday,
-      calculationText,
     });
   };
+
+  const calculationText = result
+    ? t("dog_age.calculation_text", {
+        years: result.years,
+        months: result.months,
+        days: result.days,
+        humanAge: formatNumber(result.humanAge),
+      })
+    : "";
 
   /* =======================================================
      RESET
@@ -298,9 +299,9 @@ const DogAgeCalculator = () => {
       )} Years`,
       `Age Category: ${t(result.category)}`,
       "",
-      `Calculation: ${result.calculationText}`,
+      `Calculation: ${calculationText}`,
     ].join("\n");
-  }, [result]);
+  }, [result, calculationText]);
 
   /* =======================================================
      COPY RESULT AS IMAGE
@@ -1094,7 +1095,7 @@ const DogAgeCalculator = () => {
                 </div>
 
                 <strong>
-                  {result.calculationText}
+                  {calculationText}
                 </strong>
 
               </div>

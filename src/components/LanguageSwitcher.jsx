@@ -38,10 +38,13 @@ function LanguageSwitcher() {
     }
     setChanging(true);
     try {
-      await loadLanguage(language);
+      const loaded = await loadLanguage(language);
+      if (!loaded) throw new Error(`Unable to load language: ${language}`);
       await currentI18n.changeLanguage(language);
       localStorage.setItem("ageverse-language", language);
       setOpen(false);
+    } catch (error) {
+      console.error("Language switch failed:", error);
     } finally {
       setChanging(false);
     }

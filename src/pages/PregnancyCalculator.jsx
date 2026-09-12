@@ -14,6 +14,7 @@ import ResultAttribution from "../components/ResultAttribution";
 import DateInput from "../components/DateInput";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import { formatLocalizedDate } from "../utils/localizedDate";
 
 function PregnancyCalculator() {
 
@@ -105,6 +106,8 @@ function PregnancyCalculator() {
       return "";
     }
 
+    const unitWeeks = t("weeks");
+    const unitDays = t("days");
     let text = "";
 
     text += "AgeVerseGlobal — PREGNANCY CALCULATOR\n";
@@ -1308,7 +1311,7 @@ h3 {
           </span>
 
           <strong>
-            {result.lmpDate}
+            {formatLocalizedDate(result.lmpDateValue, { month: "long", day: "numeric", year: "numeric" })}
           </strong>
 
         </div>
@@ -1321,11 +1324,11 @@ h3 {
           </span>
 
           <strong>
-            {result.dueDate}
+            {formatLocalizedDate(result.dueDateValue, { month: "long", day: "numeric", year: "numeric" })}
           </strong>
 
           <small>
-            📌 {result.dueDateWithDay}
+            📌 {formatLocalizedDate(result.dueDateValue, { weekday: "long", month: "long", day: "numeric", year: "numeric" })}
           </small>
 
         </div>

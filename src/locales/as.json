@@ -58,7 +58,11 @@
     "upcoming_event": "আগন্তুক ইভেণ্ট",
     "passed_event": "ইভেণ্ট শেষ হৈছে",
     "notification_permission": "ব্ৰাউজাৰ ৰিমাইণ্ডাৰৰ বাবে জাননী অনুমতি প্ৰয়োজন হ’ব পাৰে।",
-    "retirement_day_message": "অৱসৰ দিনৰ বাৰ্তা"
+    "retirement_day_message": "অৱসৰ দিনৰ বাৰ্তা",
+    "notification_permission_blocked": "জাননী দিয়াৰ অনুমতি ব্লক কৰা হৈছে। সোঁৱৰনী লাভ কৰিবলৈ অনুগ্ৰহ কৰি AgeVerseGlobal-ৰ বাবে জাননী অনুমতি দিয়ক।",
+    "event_reminder_not_configured": "ইভেণ্ট ৰিমাইণ্ডাৰ সেৱা কনফিগাৰ কৰা হোৱা নাই।",
+    "reminder_set": "সোঁৱৰাই দিয়া নিৰ্ধাৰণ কৰা হৈছে",
+    "reminder_time": "সোঁৱৰাই দিয়াৰ সময়"
   },
   "age": {
     "title": "উন্নত বয়স কেলকুলেটৰ",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "অনুগ্ৰহ কৰি বৈধ গণনাৰ তারিখ লিখক।",
     "Please enter a valid custom reminder time.": "অনুগ্ৰহ কৰি বৈধ কষ্টম ৰিমাইণ্ডাৰ সময় লিখক।",
     "Please enter a valid date of birth.": "অনুগ্ৰহ কৰি বৈধ জন্ম তারিখ লিখক।",
-    "Please enter a valid deposit amount greater than ₹0.": "অনুগ্ৰহ কৰি ₹০ তকৈ অধিক বৈধ জমা পৰিমাণ লিখক।",
+    "Please enter a valid deposit amount greater than 0.": "অনুগ্ৰহ কৰি ০ তকৈ অধিক বৈধ জমা পৰিমাণ লিখক।",
     "Please enter a valid discount between 0% and 100%.": "অনুগ্ৰহ কৰি ০% ৰ পৰা ১০০% ৰ মাজত বৈধ ৰেহাই লিখক।",
     "Please enter a valid event date and time.": "অনুগ্ৰহ কৰি বৈধ ইভেন্টৰ তারিখ আৰু সময় লিখক।",
     "Please enter a valid expected return between 0% and 100%.": "অনুগ্ৰহ কৰি ০% ৰ পৰা ১০০% ৰ মাজত বৈধ প্ৰত্যাশিত ৰিটাৰ্ন লিখক।",
@@ -1080,7 +1084,7 @@
     "This wellness report is generated based on the": "এই ৱেলনেছ ৰিপৰ্ট ব্যৱহাৰকাৰীৰ দ্বাৰা প্ৰদান কৰা",
     "information provided by the user and is intended": "তথ্যৰ ওপৰত আধাৰিত কৰি প্ৰস্তুত কৰা হৈছে আৰু",
     "for educational and general wellness purposes only.": "কেৱল শৈক্ষিক আৰু সাধাৰণ স্বাস্থ্যৰ উদ্দেশ্যে ব্যৱহাৰযোগ্য।",
-    "It is not a substitute for professional medical": "ই কোনো বৃত্তিগত চিকিৎসাৰ পৰামৰ্শ, নিদান বা उपचारৰ",
+    "It is not a substitute for professional medical": "ই কোনো বৃত্তিগত চিকিৎসাৰ পৰামৰ্শ, নিদান বা চিকিৎসাৰ",
     "advice, diagnosis, or treatment.": "বিকল্প নহয়।",
     "This calculator provides an estimated pregnancy": "এই কেলকুলেটৰে প্ৰৱিষ্ট কৰা তারিখৰ আধাৰত",
     "timeline based on the date entered. It is intended": "গৰ্ভাৱস্থাৰ আনুমানিক সময়সীমা প্ৰদান কৰে। ই",
@@ -1119,7 +1123,7 @@
     "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "এই কেলকুলেটৰে প্ৰৱিষ্ট কৰা প্ৰত্যাশিত বাৰ্ষিক ৰিটাৰ্নৰ আধাৰত এক আনুমানিক হিচাপ প্ৰদান কৰে। বিনিয়োগ বজাৰৰ বিপদাশংকাৰ (Market Risk) অধীন হোৱাৰ বাবে প্ৰকৃত মিউচুৱেল ফাণ্ডৰ ৰিটাৰ্ন অধিক বা কম হ'ব পাৰে।",
     "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "RD ৰিটাৰ্ন বেংক বা বিত্তীয় প্ৰতিষ্ঠানে আগবঢ়োৱা সূদৰ হাৰৰ ওপৰত নিৰ্ভৰ কৰে। ইয়াত দেখুওৱা পৰিপক্বতা মূল্য এটা অনুমানহে।",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "এই কেলকুলেটৰে প্ৰৱিষ্ট কৰা মাহেকীয়া জমা আৰু প্ৰত্যাশিত বাৰ্ষিক সূদৰ হাৰৰ আধাৰত আনুমানিক পৰিপক্বতা মূল্য প্ৰদান কৰে। সূদৰ হাৰ, চক্ৰবৃদ্ধি পদ্ধতি আৰু প্ৰযোজ্য নিয়ম অনুসৰি প্ৰকৃত পৰিপক্বতা মূল্য সলনি হ'ব পাৰে।",
-    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "এই ৱেলনেছ ৰিপৰ্ট ব্যৱহাৰকাৰীৰ দ্বাৰা প্ৰদান কৰা তথ্যৰ ওপৰত আধাৰিত কৰি প্ৰস্তুত কৰা হৈছে আৰু কেৱল শৈক্ষিক তথা সাধাৰণ স্বাস্থ্যৰ উদ্দেশ্যে ব্যৱহাৰযোগ্য। ই কোনো বৃত্তিগত চিকিৎসাৰ পৰামৰ্শ, নিদান বা उपचारৰ বিকল্প নহয়।",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "এই ৱেলনেছ ৰিপৰ্ট ব্যৱহাৰকাৰীৰ দ্বাৰা প্ৰদান কৰা তথ্যৰ ওপৰত আধাৰিত কৰি প্ৰস্তুত কৰা হৈছে আৰু কেৱল শৈক্ষিক তথা সাধাৰণ স্বাস্থ্যৰ উদ্দেশ্যে ব্যৱহাৰযোগ্য। ই কোনো বৃত্তিগত চিকিৎসাৰ পৰামৰ্শ, নিদান বা চিকিৎসাৰ বিকল্প নহয়।",
     "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "এই কেলকুলেটৰে প্ৰৱিষ্ট কৰা তারিখৰ আধাৰত গৰ্ভাৱস্থাৰ আনুমানিক সময়সীমা প্ৰদান কৰে। ই কেৱল সাধাৰণ তথ্যৰ বাবেহে আৰু ইয়াক চিকিৎসাজনিত নিদান, চিকিৎসা বা অৰ্হতা প্ৰাপ্ত স্বাস্থ্যসেৱা প্ৰফেশ্বনেলৰ পৰামৰ্শৰ বিকল্প হিচাপে ব্যৱহাৰ কৰিব নালাগে। গৰ্ভাৱস্থাৰ তারিখ সলনি হ'ব পাৰে, গতিকে সঠিক মূল্যাংকন আৰু চিকিৎসাৰ সিদ্ধান্তৰ বাবে আপোনাৰ স্বাস্থ্যসেৱা প্ৰদানকাৰীৰ সৈতে পৰামৰ্শ কৰক।",
     "The selected LMP date is in the future.": "বাছনি কৰা শেষৰ ঋতুস্ৰাৱৰ (LMP) তারিখটো ভৱিষ্যতৰ হয়।",
     "Pregnancy calculation will begin from the selected LMP date.": "গৰ্ভাৱস্থাৰ গণনা বাছনি কৰা LMP তারিখৰ পৰা আৰম্ভ হ'ব।",
@@ -1225,12 +1229,12 @@
     "Celsius": "ছেলছিয়াছ (Celsius)",
     "Fahrenheit": "ফাৰেনহাইট (Fahrenheit)",
     "Kelvin": "কেলভিন (Kelvin)",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "বছৰ/মাহ",
     "Example: My Wedding, Office Party...": "উদাহৰণ: মোৰ বিয়া, অফিচ পাৰ্টি...",
     "Increase your SIP amount every year by a fixed percentage.": "প্ৰতি বছৰে এটা নিৰ্দিষ্ট শতাংশ অনুসৰি আপোনাৰ SIP ৰাশি বৃদ্ধি কৰক।",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "উদাহৰণ: ₹5,000 মাহেকীয়া SIP-ত বছৰি 10% ষ্টেপ-আপ থাকিলে দ্বিতীয় বছৰত ₹5,500, তৃতীয় বছৰত ₹6,050 আৰু তাৰ পিছত একেদৰে হয়।",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "উদাহৰণ: {{amount1}} মাহেকীয়া SIP-ত বছৰি 10% ষ্টেপ-আপ থাকিলে দ্বিতীয় বছৰত {{amount2}}, তৃতীয় বছৰত {{amount3}} আৰু তাৰ পিছত একেদৰে হয়।",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "এই কেলকুলেটৰে প্ৰৱিষ্ট কৰা মাহেকীয়া জমা আৰু প্ৰত্যাশিত বাৰ্ষিক সূদৰ হাৰৰ ওপৰত ভিত্তি কৰি আনুমানিক পৰিপক্বতা মূল্য প্ৰদান কৰে। সূদৰ হাৰ, জমাৰ সময়, বেংকৰ নিয়ম, কৰ, জৰিমনা বা অন্যান্য প্ৰযোজ্য চৰ্ত অনুসৰি প্ৰকৃত পৰিপক্বতা মূল্য সলনি হ’ব পাৰে।"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "পৃষ্ঠা পোৱা নগ’ল",
     "description": "আপুনি বিচৰা পৃষ্ঠাখন নাই বা হয়তো স্থানান্তৰ কৰা হৈছে।",
     "home_button": "হোমলৈ যাওক"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "জাননীৰ অনুমতি ব্লক কৰা হৈছে। ৰিমাইণ্ডাৰ লাভ কৰিবলৈ অনুগ্ৰহ কৰি AgeVerseGlobal-ৰ বাবে জাননী অনুমতি দিয়ক।",
+  "Event reminder service is not configured.": "ইভেণ্ট ৰিমাইণ্ডাৰ সেৱা কনফিগাৰ কৰা হোৱা নাই।",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "উদাহৰণ: {{amount1}} মাহেকীয়া SIP-ত বছৰি 10% ষ্টেপ-আপ থাকিলে দ্বিতীয় বছৰত {{amount2}}, তৃতীয় বছৰত {{amount3}} আৰু তাৰ পিছত একেদৰে হয়।"
 }

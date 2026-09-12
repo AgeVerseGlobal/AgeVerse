@@ -11,6 +11,11 @@ import ReminderPicker from "../components/ReminderPicker";
 
 import { calculateEvent } from "../utils/eventCalculatorLogic";
 import { calculateReminderTime } from "../utils/reminderLogic";
+import {
+  cancelEventReminder,
+  requestEventNotificationPermission,
+  scheduleEventReminder,
+} from "../utils/eventReminder";
 
 function EventCalculator() {
   const { t } = useTranslation();
@@ -33,6 +38,7 @@ function EventCalculator() {
   const [resetKey, setResetKey] = useState(0);
 
   const resultRef = useRef(null);
+  const scheduledReminderIdRef = useRef(null);
 
   /* =====================================================
      EVENT NAME
@@ -115,7 +121,7 @@ function EventCalculator() {
      CALCULATE
      ===================================================== */
 
-  function handleCalculate() {
+  async function handleCalculate() {
     setError("");
 
     if (!eventType) {
@@ -195,39 +201,60 @@ function EventCalculator() {
     const data =
       calculateEvent(eventDateTime);
 
+    const currentReminderId = scheduledReminderIdRef.current;
+    scheduledReminderIdRef.current = null;
+
+    if (currentReminderId) {
+      await cancelEventReminder(currentReminderId);
+    }
+
+    const eventName = getEventName();
+    const reminderTimestamp = reminderDate
+      ? reminderDate.getTime()
+      : null;
+
     setResult({
       ...data,
-
-      eventName:
-        getEventName(),
-
+      eventName,
       eventTime,
-
-      reminderType:
-        reminder.type,
-
-      reminderLabel:
-        getReminderLabel(),
-
-      /*
-       * Keep the actual reminder timestamp.
-       * Do NOT store a Hindi/English formatted string here.
-       * EventResultCard formats it according to current language.
-       */
-      reminderTimestamp:
-        reminderDate
-          ? reminderDate.getTime()
-          : null,
-
-      /*
-       * Kept for compatibility with existing code.
-       * The ResultCard will prefer reminderTimestamp.
-       */
-      reminderDate:
-        reminderDate
-          ? reminderDate.toISOString()
-          : "",
+      reminderType: reminder.type,
+      reminderLabel: getReminderLabel(),
+      reminderTimestamp,
+      reminderDate: reminderDate
+        ? reminderDate.toISOString()
+        : "",
     });
+
+    if (reminderTimestamp && reminderTimestamp > Date.now()) {
+      const permission =
+        await requestEventNotificationPermission();
+
+      if (permission === "granted") {
+        try {
+          const reminderId =
+            await scheduleEventReminder({
+              eventName,
+              eventTimestamp: eventDateObject.getTime(),
+              reminderTimestamp,
+            });
+
+          scheduledReminderIdRef.current = reminderId;
+        } catch (notificationError) {
+          setError(
+            notificationError?.message ||
+              "Reminder could not be scheduled."
+          );
+        }
+      } else if (permission === "denied") {
+        setError(
+          "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder."
+        );
+      } else if (permission === "unsupported") {
+        setError(
+          "This browser does not support background event reminders."
+        );
+      }
+    }
 
   }
 
@@ -281,6 +308,11 @@ function EventCalculator() {
      ===================================================== */
 
   function handleReset() {
+    if (scheduledReminderIdRef.current) {
+      cancelEventReminder(scheduledReminderIdRef.current);
+      scheduledReminderIdRef.current = null;
+    }
+
     setEventType("");
 
     setCustomEvent("");
@@ -320,9 +352,10 @@ function EventCalculator() {
             />
           </div>
         ) : (
-          <div className="empty-result">
+          <div className="empty-result event-empty-result">
+            <div className="event-empty-icon" aria-hidden="true">🎉</div>
             <h2>
-              🎉 Event Countdown
+              Event Countdown
             </h2>
 
             <p>
@@ -443,7 +476,7 @@ function EventCalculator() {
             CALCULATE
             ========================================= */}
 
-        <button type="submit">
+        <button type="submit" className="event-calculate-button">
           Calculate Countdown
         </button>
 
@@ -453,7 +486,7 @@ function EventCalculator() {
 
         <button
           type="button"
-          className="reset"
+          className="reset event-reset-button"
           onClick={handleReset}
         >
           Reset
@@ -465,7 +498,11 @@ function EventCalculator() {
 
         {error && (
           <div className="error">
-            {error}
+            {error === "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder."
+            ? t("common.notification_permission_blocked")
+            : error === "Event reminder service is not configured."
+            ? t("common.event_reminder_not_configured")
+            : error}
           </div>
         )}
       </form>

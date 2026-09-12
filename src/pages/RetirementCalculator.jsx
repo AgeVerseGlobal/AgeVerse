@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import "../styles/RetirementResultCard.css";
 import "../styles/RetirementCalculator.css";
@@ -15,6 +15,8 @@ import {
 import {
   setupRetirementNotifications,
   checkRetirementReminder,
+  scheduleRetirementReminder,
+  cancelRetirementReminder,
 } from "../utils/retirementNotification";
 
 
@@ -48,6 +50,7 @@ function RetirementCalculator() {
   const [error, setError] = useState("");
 
   const [resetKey, setResetKey] = useState(0);
+  const scheduledRetirementReminderId = useRef(null);
 
 
   /*
@@ -81,18 +84,32 @@ function RetirementCalculator() {
         return;
       }
 
+      if (data.reminderTimestamp && Number(data.reminderTimestamp) > Date.now()) {
+        if (scheduledRetirementReminderId.current) {
+          await cancelRetirementReminder(scheduledRetirementReminderId.current);
+          scheduledRetirementReminderId.current = null;
+        }
+
+        const reminderId = await scheduleRetirementReminder({
+          retirementTimestamp: data.retirementTimestamp,
+          reminderTimestamp: data.reminderTimestamp,
+          reminderType: data.reminderType,
+          customReminderDays: data.customReminderDays || 0,
+        });
+
+        scheduledRetirementReminderId.current = reminderId;
+        setResult((current) =>
+          current && current.retirementTimestamp === data.retirementTimestamp
+            ? { ...current, reminderId }
+            : current
+        );
+      }
+
       await checkRetirementReminder({
-        retirementTimestamp:
-          data.retirementTimestamp,
-
-        reminderType:
-          data.reminderType,
-
-        customReminderDays:
-          data.customReminderDays || 0,
-
-        retirementDate:
-          data.retirementDate,
+        retirementTimestamp: data.retirementTimestamp,
+        reminderType: data.reminderType,
+        customReminderDays: data.customReminderDays || 0,
+        retirementDate: data.retirementDate,
       });
     } catch (notificationError) {
       console.error(
@@ -425,7 +442,12 @@ function RetirementCalculator() {
    * RESET
    * =========================================================
    */
-  function handleReset() {
+  async function handleReset() {
+    if (scheduledRetirementReminderId.current) {
+      await cancelRetirementReminder(scheduledRetirementReminderId.current);
+      scheduledRetirementReminderId.current = null;
+    }
+
     setBirthDate("");
 
     setRetirementAge(60);
@@ -455,7 +477,12 @@ function RetirementCalculator() {
    * REMINDER SELECTOR
    * =========================================================
    */
-  function selectReminder(type) {
+  async function selectReminder(type) {
+    if (scheduledRetirementReminderId.current) {
+      await cancelRetirementReminder(scheduledRetirementReminderId.current);
+      scheduledRetirementReminderId.current = null;
+    }
+
     setRetirementReminder(type);
 
     setError("");
@@ -528,6 +555,10 @@ function RetirementCalculator() {
           <DateInput
             value={birthDate}
             onChange={(value) => {
+              if (scheduledRetirementReminderId.current) {
+                cancelRetirementReminder(scheduledRetirementReminderId.current);
+                scheduledRetirementReminderId.current = null;
+              }
               setBirthDate(value);
               setError("");
               setResult(null);
@@ -560,6 +591,10 @@ function RetirementCalculator() {
               max="100"
               value={retirementAge}
               onChange={(event) => {
+                if (scheduledRetirementReminderId.current) {
+                  cancelRetirementReminder(scheduledRetirementReminderId.current);
+                  scheduledRetirementReminderId.current = null;
+                }
                 setRetirementAge(
                   event.target.value
                 );

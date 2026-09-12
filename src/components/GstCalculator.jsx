@@ -1,6 +1,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/GstCalculator.css";
+import { formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "./ResultAttribution";
 /* =========================================================
@@ -306,7 +307,8 @@ const canvasToPdfBlob = async (canvas) => {
 ========================================================= */
 
 const GstCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currency = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [mode, setMode] =
     useState("addGst");
 
@@ -982,7 +984,7 @@ const printResult = async () => {
         "",
         activeMode.title,
         "",
-        `Input Amount: ₹${formatNumber(
+        `Input Amount: ${currency(
           result.inputAmount
         )}`,
         `GST Rate: ${formatNumber(
@@ -994,22 +996,22 @@ const printResult = async () => {
             : "IGST"
         }`,
         "",
-        `Base Amount: ₹${formatNumber(
+        `Base Amount: ${currency(
           result.baseAmount
         )}`,
-        `GST Amount: ₹${formatNumber(
+        `GST Amount: ${currency(
           result.gstAmount
         )}`,
-        `CGST: ₹${formatNumber(
+        `CGST: ${currency(
           result.cgst
         )}`,
-        `SGST: ₹${formatNumber(
+        `SGST: ${currency(
           result.sgst
         )}`,
-        `IGST: ₹${formatNumber(
+        `IGST: ${currency(
           result.igst
         )}`,
-        `Total Amount: ₹${formatNumber(
+        `Total Amount: ${currency(
           result.totalAmount
         )}`,
         "",
@@ -1188,7 +1190,7 @@ const printResult = async () => {
                 value={
                   customRate
                 }
-                placeholder="e.g. 18"
+                placeholder="18"
                 onChange={(
                   event
                 ) =>
@@ -1407,10 +1409,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.inputAmount
-                      )}
+                      {currency(result.inputAmount)}
                     </strong>
                   </div>
 
@@ -1465,10 +1464,7 @@ const printResult = async () => {
                 </span>
 
                 <strong>
-                  ₹
-                  {formatNumber(
-                    result.totalAmount
-                  )}
+                  {currency(result.totalAmount)}
                 </strong>
 
                 <small>
@@ -1493,10 +1489,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.baseAmount
-                      )}
+                      {currency(result.baseAmount)}
                     </strong>
                   </div>
 
@@ -1506,10 +1499,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.gstAmount
-                      )}
+                      {currency(result.gstAmount)}
                     </strong>
                   </div>
 
@@ -1522,10 +1512,7 @@ const printResult = async () => {
                         </span>
 
                         <strong>
-                          ₹
-                          {formatNumber(
-                            result.cgst
-                          )}
+                          {currency(result.cgst)}
                         </strong>
                       </div>
 
@@ -1535,10 +1522,7 @@ const printResult = async () => {
                         </span>
 
                         <strong>
-                          ₹
-                          {formatNumber(
-                            result.sgst
-                          )}
+                          {currency(result.sgst)}
                         </strong>
                       </div>
                     </>
@@ -1549,10 +1533,7 @@ const printResult = async () => {
                       </span>
 
                       <strong>
-                        ₹
-                        {formatNumber(
-                          result.igst
-                        )}
+                        {currency(result.igst)}
                       </strong>
                     </div>
                   )}
@@ -1577,10 +1558,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.baseAmount
-                      )}
+                      {currency(result.baseAmount)}
                     </strong>
                   </div>
 
@@ -1594,10 +1572,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.gstAmount
-                      )}
+                      {currency(result.gstAmount)}
                     </strong>
                   </div>
 
@@ -1612,10 +1587,7 @@ const printResult = async () => {
                     </span>
 
                     <strong>
-                      ₹
-                      {formatNumber(
-                        result.totalAmount
-                      )}
+                      {currency(result.totalAmount)}
                     </strong>
 
                   </div>

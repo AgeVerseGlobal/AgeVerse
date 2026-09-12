@@ -58,7 +58,11 @@
     "upcoming_event": "ਆਉਣ ਵਾਲਾ ਇਵੈਂਟ",
     "passed_event": "ਇਵੈਂਟ ਲੰਘ ਗਿਆ",
     "notification_permission": "ਬ੍ਰਾਊਜ਼ਰ ਰਿਮਾਈਂਡਰ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਲੋੜੀਂਦੀ ਹੋ ਸਕਦੀ ਹੈ।",
-    "retirement_day_message": "ਰਿਟਾਇਰਮੈਂਟ ਦਿਨ ਸੁਨੇਹਾ"
+    "retirement_day_message": "ਰਿਟਾਇਰਮੈਂਟ ਦਿਨ ਸੁਨੇਹਾ",
+    "notification_permission_blocked": "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਬਲੌਕ ਹੈ। ਰਿਮਾਈਂਡਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ AgeVerseGlobal ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।",
+    "event_reminder_not_configured": "ਇਵੈਂਟ ਰਿਮਾਈਂਡਰ ਸੇਵਾ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।",
+    "reminder_set": "ਰਿਮਾਈਂਡਰ ਸੈੱਟ ਹੋ ਗਿਆ",
+    "reminder_time": "ਰਿਮਾਈਂਡਰ ਦਾ ਸਮਾਂ"
   },
   "age": {
     "title": "ਉੱਨਤ ਉਮਰ ਕੈਲਕੁਲੇਟਰ",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "ਕਿਰਪਾ ਕਰਕੇ ਵੈਧ ਗਣਨਾ ਦੀ ਤਾਰੀਖ ਦਰਜ ਕਰੋ।",
     "Please enter a valid custom reminder time.": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਕਸਟਮ ਰਿਮਾਈਂਡਰ ਸਮਾਂ ਦਰਜ ਕਰੋ।",
     "Please enter a valid date of birth.": "ਕਿਰਪਾ ਕਰਕੇ ਵੈਧ ਜਨਮ ਤਾਰੀਖ ਦਰਜ ਕਰੋ।",
-    "Please enter a valid deposit amount greater than ₹0.": "ਕਿਰਪਾ ਕਰਕੇ ₹0 ਤੋਂ ਵੱਧ ਵੈਧ ਜਮ੍ਹਾਂ ਰਕਮ ਦਰਜ ਕਰੋ।",
+    "Please enter a valid deposit amount greater than 0.": "ਕਿਰਪਾ ਕਰਕੇ 0 ਤੋਂ ਵੱਧ ਵੈਧ ਜਮ੍ਹਾਂ ਰਕਮ ਦਰਜ ਕਰੋ।",
     "Please enter a valid discount between 0% and 100%.": "ਕਿਰਪਾ ਕਰਕੇ 0% ਤੋਂ 100% ਦੇ ਵਿਚਕਾਰ ਵੈਧ ਛੋਟ ਦਰਜ ਕਰੋ।",
     "Please enter a valid event date and time.": "ਕਿਰਪਾ ਕਰਕੇ ਵੈਧ ਈਵੈਂਟ ਦੀ ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ ਦਰਜ ਕਰੋ।",
     "Please enter a valid expected return between 0% and 100%.": "ਕਿਰਪਾ ਕਰਕੇ 0% ਤੋਂ 100% ਦੇ ਵਿਚਕਾਰ ਵੈਧ ਸੰਭਾਵਿਤ ਰਿਟਰਨ ਦਰਜ ਕਰੋ।",
@@ -1225,12 +1229,12 @@
     "Celsius": "ਸੈਲਸੀਅਸ",
     "Fahrenheit": "ਫਾਰਨਹਾਈਟ",
     "Kelvin": "ਕੈਲਵਿਨ",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "ਸਾਲ/ਮਹੀਨਾ",
     "Example: My Wedding, Office Party...": "ਉਦਾਹਰਨ: ਮੇਰਾ ਵਿਆਹ, ਦਫ਼ਤਰ ਪਾਰਟੀ...",
     "Increase your SIP amount every year by a fixed percentage.": "ਹਰ ਸਾਲ ਇੱਕ ਨਿਰਧਾਰਤ ਪ੍ਰਤੀਸ਼ਤ ਨਾਲ ਆਪਣੀ SIP ਰਕਮ ਵਧਾਓ।",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "ਉਦਾਹਰਨ: ₹5,000 ਦੀ ਮਾਸਿਕ SIP ਵਿੱਚ 10% ਸਾਲਾਨਾ ਸਟੈਪ-ਅੱਪ ਨਾਲ ਦੂਜੇ ਸਾਲ ₹5,500, ਤੀਜੇ ਸਾਲ ₹6,050 ਅਤੇ ਅੱਗੇ ਇਸੇ ਤਰ੍ਹਾਂ ਹੋਵੇਗੀ।",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ਉਦਾਹਰਨ: {{amount1}} ਦੀ ਮਾਸਿਕ SIP ਵਿੱਚ 10% ਸਾਲਾਨਾ ਸਟੈਪ-ਅੱਪ ਨਾਲ ਦੂਜੇ ਸਾਲ {{amount2}}, ਤੀਜੇ ਸਾਲ {{amount3}} ਅਤੇ ਅੱਗੇ ਇਸੇ ਤਰ੍ਹਾਂ ਹੋਵੇਗੀ।",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ਇਹ ਕੈਲਕੁਲੇਟਰ ਦਰਜ ਕੀਤੀਆਂ ਮਾਸਿਕ ਜਮ੍ਹਾਂ ਰਕਮਾਂ ਅਤੇ ਉਮੀਦ ਕੀਤੀ ਸਾਲਾਨਾ ਵਿਆਜ ਦਰ ਦੇ ਆਧਾਰ ’ਤੇ ਅਨੁਮਾਨਿਤ ਮੈਚਿਊਰਿਟੀ ਮੁੱਲ ਦਿੰਦਾ ਹੈ। ਵਿਆਜ ਦਰ, ਜਮ੍ਹਾਂ ਕਰਨ ਦੇ ਸਮੇਂ, ਬੈਂਕ ਦੇ ਨਿਯਮਾਂ, ਟੈਕਸ, ਜੁਰਮਾਨਿਆਂ ਜਾਂ ਹੋਰ ਲਾਗੂ ਸ਼ਰਤਾਂ ਅਨੁਸਾਰ ਅਸਲ ਮੈਚਿਊਰਿਟੀ ਮੁੱਲ ਵੱਖਰਾ ਹੋ ਸਕਦਾ ਹੈ।"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ",
     "description": "ਤੁਸੀਂ ਜਿਸ ਪੰਨੇ ਨੂੰ ਲੱਭ ਰਹੇ ਹੋ ਉਹ ਮੌਜੂਦ ਨਹੀਂ ਹੈ ਜਾਂ ਸ਼ਾਇਦ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।",
     "home_button": "ਹੋਮ ਤੇ ਜਾਓ"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਬਲੌਕ ਹੈ। ਰਿਮਾਈਂਡਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ AgeVerseGlobal ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।",
+  "Event reminder service is not configured.": "ਇਵੈਂਟ ਰਿਮਾਈਂਡਰ ਸੇਵਾ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੀ ਗਈ।",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ਉਦਾਹਰਨ: {{amount1}} ਦੀ ਮਾਸਿਕ SIP ਵਿੱਚ 10% ਸਾਲਾਨਾ ਸਟੈਪ-ਅੱਪ ਨਾਲ ਦੂਜੇ ਸਾਲ {{amount2}}, ਤੀਜੇ ਸਾਲ {{amount3}} ਅਤੇ ਅੱਗੇ ਇਸੇ ਤਰ੍ਹਾਂ ਹੋਵੇਗੀ।"
 }

@@ -16,21 +16,21 @@ const navigationLinks = [
 ];
 
 const calculatorLinks = [
-  { key: "age_calculator", path: "/age-calculator" },
-  { key: "event_calculator", path: "/event-calculator" },
-  { key: "date_difference", path: "/date-difference" },
-  { key: "retirement_calculator", path: "/retirement-calculator" },
-  { key: "health_profile", path: "/health-profile" },
-  { key: "pregnancy_calculator", path: "/pregnancy-calculator" },
-  { key: "unit_converter", path: "/utility/unit-converter" },
-  { key: "percentage_calculator", path: "/utility/percentage-calculator" },
-  { key: "gst_calculator", path: "/utility/gst-calculator" },
-  { key: "emi_calculator", path: "/utility/emi-calculator" },
-  { key: "discount_calculator", path: "/utility/discount-calculator" },
-  { key: "sip_calculator", path: "/utility/sip-calculator" },
-  { key: "fd_calculator", path: "/utility/fd-calculator" },
-  { key: "rd_calculator", path: "/utility/rd-calculator" },
-  { key: "dog_age_calculator", path: "/pet/dog-age-calculator" },
+  { key: "age_calculator", path: "/age-calculator", icon: "🎂" },
+  { key: "event_calculator", path: "/event-calculator", icon: "🎉" },
+  { key: "date_difference", path: "/date-difference", icon: "📅" },
+  { key: "retirement_calculator", path: "/retirement-calculator", icon: "👴" },
+  { key: "health_profile", path: "/health-profile", icon: "🏥" },
+  { key: "pregnancy_calculator", path: "/pregnancy-calculator", icon: "🤰" },
+  { key: "unit_converter", path: "/utility/unit-converter", icon: "📏" },
+  { key: "percentage_calculator", path: "/utility/percentage-calculator", icon: "📊" },
+  { key: "gst_calculator", path: "/utility/gst-calculator", icon: "🧾" },
+  { key: "emi_calculator", path: "/utility/emi-calculator", icon: "💳" },
+  { key: "discount_calculator", path: "/utility/discount-calculator", icon: "🏷️" },
+  { key: "sip_calculator", path: "/utility/sip-calculator", icon: "📈" },
+  { key: "fd_calculator", path: "/utility/fd-calculator", icon: "🏦" },
+  { key: "rd_calculator", path: "/utility/rd-calculator", icon: "💰" },
+  { key: "dog_age_calculator", path: "/pet/dog-age-calculator", icon: "🐶" },
 ];
 
 function isPathActive(currentPath, targetPath) {
@@ -149,14 +149,14 @@ function Header() {
               <div className="global-menu-divider" />
 
               <div className="global-menu-section">
-                {calculatorLinks.map(({ key, path }) => (
+                {calculatorLinks.map(({ key, path, icon }) => (
                   <Link
                     key={path}
                     className={`global-menu-item${isPathActive(location.pathname, path) ? " is-active" : ""}`}
                     to={path}
                     onClick={() => setMenuOpen(false)}
                   >
-                    <span className="global-menu-item-icon" aria-hidden="true">▣</span>
+                    <span className="global-menu-item-icon" aria-hidden="true">{icon}</span>
                     <span>{t(`calculator_names.${key}`)}</span>
                   </Link>
                 ))}

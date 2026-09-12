@@ -506,9 +506,7 @@ ${result.wishingMessage || ""}
 
     <small className="retirement-dob-day">
       📌{" "}
-      {new Date(
-        result.birthDate + "T00:00:00"
-      ) && formatLocalizedWeekday(new Date(result.birthDate + "T00:00:00"))}
+      {formatLocalizedWeekday(new Date(result.birthDate + "T00:00:00"))}
     </small>
   </div>
 )}
@@ -521,15 +519,22 @@ ${result.wishingMessage || ""}
       <div className="retirement-date-panel">
 
         <span>
-          📅 Retirement Date
+          📅 {t("Retirement Date")}
         </span>
 
         <strong>
-          {result.retirementDate}
+          {formatLocalizedDate(
+            new Date(result.retirementTimestamp),
+            {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            }
+          )}
         </strong>
 
         <small>
-          📌 {result.retirementDay}
+          📌 {formatLocalizedWeekday(new Date(result.retirementTimestamp))}
         </small>
 
       </div>

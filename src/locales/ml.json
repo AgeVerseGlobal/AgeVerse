@@ -58,11 +58,15 @@
     "upcoming_event": "വരാനിരിക്കുന്ന ഇവന്റ്",
     "passed_event": "കഴിഞ്ഞ ഇവന്റ്",
     "notification_permission": "ബ്രൗസർ ഓർമ്മപ്പെടുത്തലുകൾക്കായി അറിയിപ്പുകൾക്ക് അനുമതി ആവശ്യമായേക്കാം.",
-    "retirement_day_message": "വിരമിക്കൽ ദിവസ സന്ദേശം"
+    "retirement_day_message": "വിരമിക്കൽ ദിവസ സന്ദേശം",
+    "notification_permission_blocked": "അറിയിപ്പിനുള്ള അനുമതി തടഞ്ഞിരിക്കുന്നു. റിമൈൻഡർ ലഭിക്കാൻ AgeVerseGlobal-നായി അറിയിപ്പുകൾ അനുവദിക്കുക.",
+    "event_reminder_not_configured": "ഇവന്റ് റിമൈൻഡർ സേവനം കോൺഫിഗർ ചെയ്തിട്ടില്ല.",
+    "reminder_set": "ഓർമ്മപ്പെടുത്തൽ സജ്ജീകരിച്ചു",
+    "reminder_time": "ഓർമ്മപ്പെടുത്തൽ സമയം"
   },
   "age": {
     "title": "വിപുലമായ പ്രായ കാൽക്കുലേറ്റർ",
-    "subtitle": "పూర్ണ്ണമായ വിവരങ്ങളോടെ നിങ്ങളുടെ കൃത്യമായ പ്രായം കണക്കാക്കുക.",
+    "subtitle": "പൂർണ്ണമായ വിവരങ്ങളോടെ നിങ്ങളുടെ കൃത്യമായ പ്രായം കണക്കാക്കുക.",
     "date_of_birth": "ജനന തീയതി",
     "calculate_till": "കണക്കാക്കേണ്ട തീയതി",
     "years": "വർഷങ്ങൾ",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "ദയവായി സാധുവായ കണക്കുകൂട്ടൽ തീയതി നൽകുക.",
     "Please enter a valid custom reminder time.": "ദയവായി സാധുവായ കസ്റ്റം ഓർമ്മപ്പെടുത്തൽ സമയം നൽകുക.",
     "Please enter a valid date of birth.": "ദയവായി സാധുവായ ജനന തീയതി നൽകുക.",
-    "Please enter a valid deposit amount greater than ₹0.": "ദയവായി ₹0-ൽ കൂടുതലുള്ള സാധുവായ നിക്ഷേപ തുക നൽകുക.",
+    "Please enter a valid deposit amount greater than 0.": "ദയവായി 0-ൽ കൂടുതലുള്ള സാധുവായ നിക്ഷേപ തുക നൽകുക.",
     "Please enter a valid discount between 0% and 100%.": "ദയവായി 0% നും 100% നും ഇടയിലുള്ള സാധുവായ കിഴിവ് നൽകുക.",
     "Please enter a valid event date and time.": "ദയവായി സാധുവായ ഇവന്റ് തീയതിയും സമയവും നൽകുക.",
     "Please enter a valid expected return between 0% and 100%.": "ദയവായി 0% നും 100% നും ഇടയിലുള്ള സാധുവായ പ്രതീക്ഷിക്കുന്ന റിട്ടേൺ നൽകുക.",
@@ -1225,12 +1229,12 @@
     "Celsius": "സെൽഷ്യസ്",
     "Fahrenheit": "ഫാരൻഹീറ്റ്",
     "Kelvin": "കെൽവിൻ",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "വർഷം/മാസം",
     "Example: My Wedding, Office Party...": "ഉദാഹരണം: എന്റെ വിവാഹം, ഓഫീസ് പാർട്ടി...",
     "Increase your SIP amount every year by a fixed percentage.": "ഓരോ വർഷവും ഒരു നിശ്ചിത ശതമാനം പ്രകാരം നിങ്ങളുടെ SIP തുക വർധിപ്പിക്കുക.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "ഉദാഹരണം: ₹5,000 പ്രതിമാസ SIP-യിൽ 10% വാർഷിക സ്റ്റെപ്പ്-അപ്പ് നൽകിയാൽ രണ്ടാം വർഷം ₹5,500, മൂന്നാം വർഷം ₹6,050 എന്നിങ്ങനെ ആയിരിക്കും.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ഉദാഹരണം: {{amount1}} പ്രതിമാസ SIP-യിൽ 10% വാർഷിക സ്റ്റെപ്പ്-അപ്പ് നൽകിയാൽ രണ്ടാം വർഷം {{amount2}}, മൂന്നാം വർഷം {{amount3}} എന്നിങ്ങനെ ആയിരിക്കും.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ഈ കാൽക്കുലേറ്റർ നൽകിയ പ്രതിമാസ നിക്ഷേപങ്ങളും പ്രതീക്ഷിക്കുന്ന വാർഷിക പലിശനിരക്കും അടിസ്ഥാനമാക്കി കണക്കാക്കിയ കാലാവധി മൂല്യം നൽകുന്നു. പലിശനിരക്ക്, നിക്ഷേപ സമയം, ബാങ്ക് നിയമങ്ങൾ, നികുതി, പിഴകൾ അല്ലെങ്കിൽ മറ്റ് ബാധകമായ വ്യവസ്ഥകൾ അനുസരിച്ച് യഥാർത്ഥ കാലാവധി മൂല്യം വ്യത്യാസപ്പെടാം.",
     "PDF ready. Opening print dialog...": "PDF തയ്യാറാണ്. പ്രിന്റ് ഡയലോഗ് തുറക്കുന്നു..."
   },
@@ -1497,5 +1501,8 @@
     "title": "പേജ് കണ്ടെത്താനായില്ല",
     "description": "നിങ്ങൾ തിരയുന്ന പേജ് നിലവിലില്ല അല്ലെങ്കിൽ മാറ്റിയിരിക്കാം.",
     "home_button": "ഹോമിലേക്ക് പോകുക"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "അറിയിപ്പിനുള്ള അനുമതി തടഞ്ഞിരിക്കുന്നു. റിമൈൻഡർ ലഭിക്കാൻ AgeVerseGlobal-നായി അറിയിപ്പുകൾ അനുവദിക്കുക.",
+  "Event reminder service is not configured.": "ഇവന്റ് റിമൈൻഡർ സേവനം കോൺഫിഗർ ചെയ്തിട്ടില്ല.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ഉദാഹരണം: {{amount1}} പ്രതിമാസ SIP-യിൽ 10% വാർഷിക സ്റ്റെപ്പ്-അപ്പ് നൽകിയാൽ രണ്ടാം വർഷം {{amount2}}, മൂന്നാം വർഷം {{amount3}} എന്നിങ്ങനെ ആയിരിക്കും."
 }

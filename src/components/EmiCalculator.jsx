@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../styles/EmiCalculator.css";
+import { currencyExample, formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "./ResultAttribution";
 /* =========================================================
@@ -22,17 +23,15 @@ const formatNumber = (value, decimals = 2) => {
    CURRENCY
 ========================================================= */
 
-const formatCurrency = (value) => {
-  if (!Number.isFinite(value)) return "—";
-  return `₹${formatNumber(value)}`;
-};
+
 
 /* =========================================================
    EMI CALCULATOR
 ========================================================= */
 
 const EmiCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const formatMoney = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [loanAmount, setLoanAmount] = useState("");
   const [interestRate, setInterestRate] = useState("8.5");
   const [tenure, setTenure] = useState("");
@@ -153,7 +152,7 @@ const EmiCalculator = () => {
 
     const equation =
       monthlyRate === 0
-        ? `₹${formatNumber(principal)} ÷ ${months} months = ₹${formatNumber(emi)}`
+        ? `${formatMoney(principal)} ÷ ${months} months = ${formatMoney(emi)}`
         : `P × r × (1 + r)ⁿ ÷ ((1 + r)ⁿ − 1)`;
 
     setResult({
@@ -197,13 +196,13 @@ const EmiCalculator = () => {
         "",
         "Loan Summary",
         "",
-        `Loan Amount: ₹${formatNumber(result.principal)}`,
+        `Loan Amount: ${formatMoney(result.principal)}`,
         `Interest Rate: ${formatNumber(result.annualRate)}% p.a.`,
         `Loan Tenure: ${result.months} months`,
         "",
-        `Monthly EMI: ₹${formatNumber(result.emi)}`,
-        `Total Interest: ₹${formatNumber(result.totalInterest)}`,
-        `Total Payment: ₹${formatNumber(result.totalPayment)}`,
+        `Monthly EMI: ${formatMoney(result.emi)}`,
+        `Total Interest: ${formatMoney(result.totalInterest)}`,
+        `Total Payment: ${formatMoney(result.totalPayment)}`,
         "",
         `Principal: ${formatNumber(result.principalPercentage)}%`,
         `Interest: ${formatNumber(result.interestPercentage)}%`,
@@ -616,7 +615,7 @@ const EmiCalculator = () => {
               inputMode="decimal"
               min="0"
               value={loanAmount}
-              placeholder="e.g. 500000"
+              placeholder={currencyExample(500000, i18n.resolvedLanguage || i18n.language)}
               onChange={(event) =>
                 setLoanAmount(
                   event.target.value
@@ -836,7 +835,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.principal
                       )}
                     </strong>
@@ -890,7 +889,7 @@ const EmiCalculator = () => {
                 </span>
 
                 <strong>
-                  {formatCurrency(
+                  {formatMoney(
                     result.emi
                   )}
                 </strong>
@@ -917,7 +916,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.principal
                       )}
                     </strong>
@@ -929,7 +928,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.totalInterest
                       )}
                     </strong>
@@ -941,7 +940,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.totalPayment
                       )}
                     </strong>
@@ -968,7 +967,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.principal
                       )}
                     </strong>
@@ -986,7 +985,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.totalInterest
                       )}
                     </strong>
@@ -1004,7 +1003,7 @@ const EmiCalculator = () => {
                     </span>
 
                     <strong>
-                      {formatCurrency(
+                      {formatMoney(
                         result.totalPayment
                       )}
                     </strong>

@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../styles/RdCalculator.css";
+import { currencyExample, formatCurrency } from "../utils/currency";
 
 import ResultAttribution from "../components/ResultAttribution";
 /* =========================================================
@@ -21,7 +22,6 @@ const formatNumber = (value) => {
    CURRENCY
 ========================================================= */
 
-const currency = (value) => `₹${formatNumber(value)}`;
 
 /* =========================================================
    RD CALCULATOR
@@ -32,7 +32,8 @@ const currency = (value) => `₹${formatNumber(value)}`;
 ========================================================= */
 
 const RdCalculator = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currency = (value) => formatCurrency(value, i18n.resolvedLanguage || i18n.language);
   const [monthlyDeposit, setMonthlyDeposit] = useState("");
   const [annualRate, setAnnualRate] = useState("");
   const [years, setYears] = useState("");
@@ -186,12 +187,6 @@ const RdCalculator = () => {
         ? 0
         : (estimatedReturns / totalInvested) * 100;
 
-    const calculationText = t("rd.calculation_projection", {
-      amount: currency(monthlyDeposit),
-      years: formatNumber(investmentYears),
-      rate: formatNumber(rate),
-    });
-
     setResult({
       monthlyDeposit: deposit,
       annualRate: rate,
@@ -203,7 +198,6 @@ const RdCalculator = () => {
       effectiveGrowth,
       yearlyBreakdown,
       monthlyBreakdown,
-      calculationText,
     });
   };
 
@@ -221,6 +215,14 @@ const RdCalculator = () => {
     setCopied(false);
     setPdfMessage("");
   };
+
+  const calculationText = result
+    ? t("rd.calculation_projection", {
+        amount: currency(result.monthlyDeposit),
+        years: formatNumber(result.years),
+        rate: formatNumber(result.annualRate),
+      })
+    : "";
 
   /* =======================================================
      RESULT TEXT
@@ -256,9 +258,9 @@ const RdCalculator = () => {
         result.maturityValue
       )}`,
       "",
-      `Calculation: ${result.calculationText}`,
+      `Calculation: ${calculationText}`,
     ].join("\n");
-  }, [result]);
+  }, [result, calculationText]);
 
  /* =======================================================
    COPY RESULT AS IMAGE
@@ -673,7 +675,7 @@ const copyResult = async () => {
               inputMode="decimal"
               min="1"
               value={monthlyDeposit}
-              placeholder={t("Currency Placeholder")}
+              placeholder={currencyExample(5000, i18n.resolvedLanguage || i18n.language)}
               onChange={(event) =>
                 setMonthlyDeposit(
                   event.target.value
@@ -725,7 +727,7 @@ const copyResult = async () => {
               max="100"
               step="1"
               value={years}
-              placeholder={t("Year/Month")}
+              placeholder="e.g. 5"
               onChange={(event) =>
                 setYears(
                   event.target.value
@@ -1143,7 +1145,7 @@ const copyResult = async () => {
                 </div>
 
                 <strong>
-                  {result.calculationText}
+                  {calculationText}
                 </strong>
 
               </div>

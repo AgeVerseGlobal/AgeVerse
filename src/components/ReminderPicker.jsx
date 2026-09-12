@@ -197,6 +197,7 @@ function ReminderPicker({
               ? "reminder-option active"
               : "reminder-option"
           }
+          aria-pressed={selectedType === "none"}
           onClick={() =>
             handlePresetChange("none")
           }
@@ -222,6 +223,7 @@ function ReminderPicker({
               ? "reminder-option active"
               : "reminder-option"
           }
+          aria-pressed={selectedType === "24h"}
           onClick={() =>
             handlePresetChange("24h")
           }
@@ -247,6 +249,7 @@ function ReminderPicker({
               ? "reminder-option active"
               : "reminder-option"
           }
+          aria-pressed={selectedType === "1h"}
           onClick={() =>
             handlePresetChange("1h")
           }
@@ -272,6 +275,7 @@ function ReminderPicker({
               ? "reminder-option active"
               : "reminder-option"
           }
+          aria-pressed={selectedType === "10m"}
           onClick={() =>
             handlePresetChange("10m")
           }
@@ -297,6 +301,7 @@ function ReminderPicker({
               ? "reminder-option active"
               : "reminder-option"
           }
+          aria-pressed={selectedType === "custom"}
           onClick={() =>
             handlePresetChange("custom")
           }

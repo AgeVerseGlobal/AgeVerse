@@ -58,7 +58,11 @@
     "upcoming_event": "Próximo evento",
     "passed_event": "Evento passado",
     "notification_permission": "A permissão para notificações pode ser necessária para os lembretes do navegador.",
-    "retirement_day_message": "Mensagem do dia da aposentadoria"
+    "retirement_day_message": "Mensagem do dia da aposentadoria",
+    "notification_permission_blocked": "A permissão de notificações está bloqueada. Permita as notificações do AgeVerseGlobal para receber o lembrete.",
+    "event_reminder_not_configured": "O serviço de lembretes de eventos não está configurado.",
+    "reminder_set": "Lembrete definido",
+    "reminder_time": "Hora do lembrete"
   },
   "age": {
     "title": "Calculadora de Idade Avançada",
@@ -939,7 +943,7 @@
     "Please enter a valid calculation date.": "Por favor, insira uma data de cálculo válida.",
     "Please enter a valid custom reminder time.": "Por favor, insira um horário de lembrete personalizado válido.",
     "Please enter a valid date of birth.": "Por favor, insira uma data de nascimento válida.",
-    "Please enter a valid deposit amount greater than ₹0.": "Por favor, insira um valor de depósito válido maior que ₹0.",
+    "Please enter a valid deposit amount greater than 0.": "Por favor, insira um valor de depósito válido maior que 0.",
     "Please enter a valid discount between 0% and 100%.": "Por favor, insira um desconto válido entre 0% e 100%.",
     "Please enter a valid event date and time.": "Por favor, insira uma data e hora válidas do evento.",
     "Please enter a valid expected return between 0% and 100%.": "Por favor, insira um retorno esperado válido entre 0% e 100%.",
@@ -1223,12 +1227,12 @@
     "Celsius": "Celsius",
     "Fahrenheit": "Fahrenheit",
     "Kelvin": "Kelvin",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "Ano/Mês",
     "Example: My Wedding, Office Party...": "Exemplo: Meu casamento, festa do escritório...",
     "Increase your SIP amount every year by a fixed percentage.": "Aumente o valor do seu SIP todos os anos por uma percentagem fixa.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "Exemplo: um SIP mensal de ₹5.000 com aumento anual de 10% passa para ₹5.500 no segundo ano, ₹6.050 no terceiro e assim por diante.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Exemplo: um SIP mensal de {{amount1}} com aumento anual de 10% passa para {{amount2}} no segundo ano, {{amount3}} no terceiro e assim por diante.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Esta calculadora fornece um valor de maturidade estimado com base nos depósitos mensais e na taxa de juro anual esperada introduzida. O valor real pode variar conforme a taxa de juro, o momento do depósito, as regras do banco, impostos, penalizações ou outras condições aplicáveis.",
     "to see your complete result.": "para ver seu resultado completo.",
     "⏳ Estimated time remaining": "⏳ Tempo restante estimado"
@@ -1496,5 +1500,8 @@
     "title": "Página não encontrada",
     "description": "A página que você procura não existe ou pode ter sido movida.",
     "home_button": "Ir para a página inicial"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "A permissão de notificações está bloqueada. Permita as notificações do AgeVerseGlobal para receber o lembrete.",
+  "Event reminder service is not configured.": "O serviço de lembretes de eventos não está configurado.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Exemplo: um SIP mensal de {{amount1}} com aumento anual de 10% passa para {{amount2}} no segundo ano, {{amount3}} no terceiro e assim por diante."
 }

@@ -58,7 +58,11 @@
     "upcoming_event": "Próximo evento",
     "passed_event": "Evento pasado",
     "notification_permission": "Puede ser necesario permitir las notificaciones para los recordatorios del navegador.",
-    "retirement_day_message": "Mensaje del día de jubilación"
+    "retirement_day_message": "Mensaje del día de jubilación",
+    "notification_permission_blocked": "El permiso de notificaciones está bloqueado. Permite las notificaciones de AgeVerseGlobal para recibir el recordatorio.",
+    "event_reminder_not_configured": "El servicio de recordatorios de eventos no está configurado.",
+    "reminder_set": "Recordatorio configurado",
+    "reminder_time": "Hora del recordatorio"
   },
   "age": {
     "title": "Calculadora de edad avanzada",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "Por favor ingresa una fecha de cálculo válida.",
     "Please enter a valid custom reminder time.": "Por favor ingresa un tiempo de recordatorio personalizado válido.",
     "Please enter a valid date of birth.": "Por favor ingresa una fecha de nacimiento válida.",
-    "Please enter a valid deposit amount greater than ₹0.": "Por favor ingresa un monto de depósito válido mayor a ₹0.",
+    "Please enter a valid deposit amount greater than 0.": "Por favor ingresa un monto de depósito válido mayor a 0.",
     "Please enter a valid discount between 0% and 100%.": "Por favor ingresa un descuento válido entre 0% y 100%.",
     "Please enter a valid event date and time.": "Por favor ingresa una fecha y hora de evento válidas.",
     "Please enter a valid expected return between 0% and 100%.": "Por favor ingresa un retorno esperado válido entre 0% y 100%.",
@@ -1225,12 +1229,12 @@
     "Celsius": "Celsius",
     "Fahrenheit": "Fahrenheit",
     "Kelvin": "Kelvin",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "Año/Mes",
     "Example: My Wedding, Office Party...": "Ejemplo: Mi boda, fiesta de oficina...",
     "Increase your SIP amount every year by a fixed percentage.": "Aumenta el importe de tu SIP cada año en un porcentaje fijo.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "Ejemplo: una SIP mensual de ₹5.000 con un incremento anual del 10% pasa a ₹5.500 el segundo año, ₹6.050 el tercero y así sucesivamente.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Ejemplo: una SIP mensual de {{amount1}} con un incremento anual del 10% pasa a {{amount2}} el segundo año, {{amount3}} el tercero y así sucesivamente.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Esta calculadora proporciona un valor de vencimiento estimado según los depósitos mensuales y la tasa de interés anual esperada introducida. El valor real puede variar según la tasa, el momento del depósito, las reglas del banco, los impuestos, las penalizaciones u otras condiciones aplicables."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "Página no encontrada",
     "description": "La página que buscas no existe o ha sido trasladada.",
     "home_button": "Ir al inicio"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "El permiso de notificaciones está bloqueado. Permite las notificaciones de AgeVerseGlobal para recibir el recordatorio.",
+  "Event reminder service is not configured.": "El servicio de recordatorios de eventos no está configurado.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Ejemplo: una SIP mensual de {{amount1}} con un incremento anual del 10% pasa a {{amount2}} el segundo año, {{amount3}} el tercero y así sucesivamente."
 }

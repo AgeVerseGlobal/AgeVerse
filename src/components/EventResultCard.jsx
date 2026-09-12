@@ -13,7 +13,7 @@ import {
 import ResultAttribution from "./ResultAttribution";
 
 function EventResultCard({ result }) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   const cardRef = useRef(null);
 
@@ -22,11 +22,6 @@ function EventResultCard({ result }) {
   /* =====================================================
      CURRENT LANGUAGE
      ===================================================== */
-
-  const language =
-    i18n.resolvedLanguage ||
-    i18n.language ||
-    "en";
 
   const locale = getCurrentLocale();
 
@@ -37,6 +32,17 @@ function EventResultCard({ result }) {
   function formatEventDate(dateValue) {
     if (!dateValue) {
       return "";
+    }
+
+    if (typeof dateValue === "number" && Number.isFinite(dateValue)) {
+      const timestampDate = new Date(dateValue);
+      if (!Number.isNaN(timestampDate.getTime())) {
+        return formatLocalizedDate(timestampDate, {
+          month: "long",
+          day: "2-digit",
+          year: "numeric",
+        });
+      }
     }
 
     const value =
@@ -128,140 +134,32 @@ function EventResultCard({ result }) {
      ===================================================== */
 
   function formatReminderDate() {
-    /*
-     * reminderTimestamp is the source of truth.
-     * This means the display always follows the
-     * currently selected language.
-     */
+    let timestamp = result.reminderTimestamp;
 
-    let timestamp =
-      result.reminderTimestamp;
-
-    /*
-     * Compatibility fallback for older result objects.
-     */
-    if (
-      !timestamp &&
-      result.reminderDate
-    ) {
-      const parsed =
-        new Date(
-          result.reminderDate
-        );
-
-      if (
-        !Number.isNaN(
-          parsed.getTime()
-        )
-      ) {
-        timestamp =
-          parsed.getTime();
+    if (!timestamp && result.reminderDate) {
+      const parsed = new Date(result.reminderDate);
+      if (!Number.isNaN(parsed.getTime())) {
+        timestamp = parsed.getTime();
       }
     }
 
-    if (!timestamp) {
+    if (!Number.isFinite(Number(timestamp))) {
       return "";
     }
 
-    const date =
-      new Date(
-        Number(timestamp)
-      );
-
-    if (
-      Number.isNaN(
-        date.getTime()
-      )
-    ) {
+    const date = new Date(Number(timestamp));
+    if (Number.isNaN(date.getTime())) {
       return "";
     }
 
-    const parts =
-      new Intl.DateTimeFormat(
-        locale,
-        {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-          hour: "numeric",
-          minute: "2-digit",
-          hour12: true,
-        }
-      ).formatToParts(date);
-
-    if (language !== "hi") {
-      return parts
-        .map(
-          (part) =>
-            part.value
-        )
-        .join("");
-    }
-
-    /*
-     * Hindi:
-     *
-     * 9 बजे पूर्वाह्न
-     * 8 बजे अपराह्न
-     */
-
-    let hour = "";
-    let minute = "";
-    let dayPeriod = "";
-    let otherParts = "";
-
-    parts.forEach((part) => {
-      if (part.type === "hour") {
-        hour = part.value;
-      } else if (
-        part.type === "minute"
-      ) {
-        minute = part.value;
-      } else if (
-        part.type === "dayPeriod"
-      ) {
-        const value =
-          part.value.toLowerCase();
-
-        dayPeriod =
-          value === "am"
-            ? "पूर्वाह्न"
-            : value === "pm"
-              ? "अपराह्न"
-              : part.value;
-      } else {
-        otherParts +=
-          part.value;
-      }
-    });
-
-    /*
-     * Get the date portion separately so that
-     * Hindi month names remain correctly localized.
-     */
-    const datePart =
-      new Intl.DateTimeFormat(
-        "hi-IN",
-        {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-        }
-      ).format(date);
-
-    /*
-     * Whole hour:
-     * 9 बजे पूर्वाह्न
-     *
-     * With minutes:
-     * 9:30 बजे पूर्वाह्न
-     */
-    const timePart =
-      minute === "00"
-        ? `${hour} बजे`
-        : `${hour}:${minute} बजे`;
-
-    return `${datePart}, ${timePart} ${dayPeriod}`;
+    return new Intl.DateTimeFormat(locale, {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).format(date);
   }
 
   const reminderDisplay =
@@ -406,26 +304,26 @@ function EventResultCard({ result }) {
               </span>
 
               <strong>
-                Reminder Set
+                {t("common.reminder_set")}
               </strong>
             </div>
 
             <div className="event-reminder-result-content">
               <div>
                 <span>
-                  Reminder
+                  {t("common.reminder")}
                 </span>
 
                 <strong>
                   {result.reminderLabel ||
-                    "Reminder Set"}
+                    t("common.reminder_set")}
                 </strong>
               </div>
 
               {reminderDisplay && (
                 <div>
                   <span>
-                    Reminder Time
+                    {t("common.reminder_time")}
                   </span>
 
                   <strong>

@@ -58,7 +58,11 @@
     "upcoming_event": "예정된 이벤트",
     "passed_event": "이벤트가 지났습니다",
     "notification_permission": "브라우저 알림을 사용하려면 알림 권한이 필요할 수 있습니다.",
-    "retirement_day_message": "퇴직일 메시지"
+    "retirement_day_message": "퇴직일 메시지",
+    "notification_permission_blocked": "알림 권한이 차단되어 있습니다. 리마인더를 받으려면 AgeVerseGlobal의 알림을 허용해 주세요.",
+    "event_reminder_not_configured": "이벤트 리마인더 서비스가 구성되지 않았습니다.",
+    "reminder_set": "알림이 설정되었습니다",
+    "reminder_time": "알림 시간"
   },
   "age": {
     "title": "고급 나이 계산기",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "유효한 계산일을 입력하세요.",
     "Please enter a valid custom reminder time.": "유효한 사용자 지정 알림 시간을 입력하세요.",
     "Please enter a valid date of birth.": "유효한 생년월일을 입력하세요.",
-    "Please enter a valid deposit amount greater than ₹0.": "0보다 큰 유효한 예치 금액을 입력하세요.",
+    "Please enter a valid deposit amount greater than 0.": "0보다 큰 유효한 예치 금액을 입력하세요.",
     "Please enter a valid discount between 0% and 100%.": "0%에서 100% 사이의 유효한 할인율을 입력하세요.",
     "Please enter a valid event date and time.": "유효한 이벤트 날짜와 시간을 입력하세요.",
     "Please enter a valid expected return between 0% and 100%.": "0%에서 100% 사이의 유효한 예상 수익률을 입력하세요.",
@@ -1225,12 +1229,12 @@
     "Celsius": "섭씨",
     "Fahrenheit": "화씨",
     "Kelvin": "켈빈",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "년/월",
     "Example: My Wedding, Office Party...": "예: 내 결혼식, 회사 파티...",
     "Increase your SIP amount every year by a fixed percentage.": "매년 일정한 비율만큼 SIP 금액을 늘립니다.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "예: 월 ₹5,000 SIP에 연간 10% 스텝업을 적용하면 2년 차에는 ₹5,500, 3년 차에는 ₹6,050이 되고 이후에도 같은 방식으로 증가합니다.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "예: 월 {{amount1}} SIP에 연간 10% 스텝업을 적용하면 2년 차에는 {{amount2}}, 3년 차에는 {{amount3}}이 되고 이후에도 같은 방식으로 증가합니다.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "이 계산기는 입력한 월별 납입액과 예상 연이율을 기준으로 예상 만기 금액을 제공합니다. 실제 만기 금액은 이자율, 납입 시기, 은행 규정, 세금, 벌금 또는 기타 적용 조건에 따라 달라질 수 있습니다."
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "페이지를 찾을 수 없습니다",
     "description": "찾으시는 페이지가 존재하지 않거나 이동되었을 수 있습니다.",
     "home_button": "홈으로 이동"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "알림 권한이 차단되어 있습니다. 리마인더를 받으려면 AgeVerseGlobal의 알림을 허용해 주세요.",
+  "Event reminder service is not configured.": "이벤트 리마인더 서비스가 구성되지 않았습니다.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "예: 월 {{amount1}} SIP에 연간 10% 스텝업을 적용하면 2년 차에는 {{amount2}}, 3년 차에는 {{amount3}}이 되고 이후에도 같은 방식으로 증가합니다."
 }

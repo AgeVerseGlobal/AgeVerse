@@ -4,6 +4,12 @@ import { initReactI18next } from "react-i18next";
 // Keep English in the first JavaScript bundle. Other locales are loaded only
 // when selected, preventing the 3 MB locale collection from delaying startup.
 const localeModules = import.meta.glob("../locales/*.json");
+const localeLoaders = Object.fromEntries(
+  Object.entries(localeModules).map(([path, loader]) => [
+    path.split("/").pop().replace(/\.json$/, ""),
+    loader,
+  ])
+);
 const englishModule = await import("../locales/en.json");
 
 const supportedLngs = Object.keys(localeModules)
@@ -21,8 +27,7 @@ export async function loadLanguage(language) {
   if (!supportedLngs.includes(language)) return false;
   if (i18n.hasResourceBundle(language, "translation")) return true;
 
-  const path = `../locales/${language}.json`;
-  const loader = localeModules[path];
+  const loader = localeLoaders[language];
   if (!loader) return false;
 
   const module = await loader();

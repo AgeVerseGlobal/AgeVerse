@@ -58,7 +58,11 @@
     "upcoming_event": "Événement à venir",
     "passed_event": "Événement passé",
     "notification_permission": "L’autorisation des notifications peut être nécessaire pour les rappels du navigateur.",
-    "retirement_day_message": "Message du jour de la retraite"
+    "retirement_day_message": "Message du jour de la retraite",
+    "notification_permission_blocked": "L’autorisation des notifications est bloquée. Veuillez autoriser les notifications pour AgeVerseGlobal afin de recevoir le rappel.",
+    "event_reminder_not_configured": "Le service de rappels d’événements n’est pas configuré.",
+    "reminder_set": "Rappel configuré",
+    "reminder_time": "Heure du rappel"
   },
   "age": {
     "title": "Calculateur d'âge avancé",
@@ -940,7 +944,7 @@
     "Please enter a valid calculation date.": "Veuillez saisir une date de calcul valide.",
     "Please enter a valid custom reminder time.": "Veuillez saisir une heure de rappel personnalisée valide.",
     "Please enter a valid date of birth.": "Veuillez saisir une date de naissance valide.",
-    "Please enter a valid deposit amount greater than ₹0.": "Veuillez saisir un montant de dépôt valide supérieur à 0.",
+    "Please enter a valid deposit amount greater than 0.": "Veuillez saisir un montant de dépôt valide supérieur à 0.",
     "Please enter a valid discount between 0% and 100%.": "Veuillez saisir une remise valide entre 0 % et 100 %.",
     "Please enter a valid event date and time.": "Veuillez saisir une date et heure d'événement valides.",
     "Please enter a valid expected return between 0% and 100%.": "Veuillez saisir un rendement attendu valide entre 0 % et 100 %.",
@@ -1224,12 +1228,12 @@
     "Celsius": "Celsius",
     "Fahrenheit": "Fahrenheit",
     "Kelvin": "Kelvin",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "Année/Mois",
     "Example: My Wedding, Office Party...": "Exemple : Mon mariage, fête de bureau...",
     "Increase your SIP amount every year by a fixed percentage.": "Augmentez le montant de votre SIP chaque année d’un pourcentage fixe.",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "Exemple : un SIP mensuel de ₹5 000 avec une hausse annuelle de 10 % devient ₹5 500 la deuxième année, ₹6 050 la troisième, et ainsi de suite.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Exemple : un SIP mensuel de {{amount1}} avec une hausse annuelle de 10 % devient {{amount2}} la deuxième année, {{amount3}} la troisième, et ainsi de suite.",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Cette calculatrice fournit une valeur à l’échéance estimée selon les dépôts mensuels et le taux d’intérêt annuel prévu. La valeur réelle peut varier selon le taux, le moment du dépôt, les règles bancaires, la fiscalité, les pénalités ou d’autres conditions applicables.",
     "to see your complete result.": "pour voir votre résultat complet."
   },
@@ -1496,5 +1500,8 @@
     "title": "Page introuvable",
     "description": "La page que vous recherchez n’existe pas ou a été déplacée.",
     "home_button": "Retour à l’accueil"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "L’autorisation des notifications est bloquée. Veuillez autoriser les notifications pour AgeVerseGlobal afin de recevoir le rappel.",
+  "Event reminder service is not configured.": "Le service de rappel d’événements n’est pas configuré.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Exemple : un SIP mensuel de {{amount1}} avec une hausse annuelle de 10 % devient {{amount2}} la deuxième année, {{amount3}} la troisième, et ainsi de suite."
 }

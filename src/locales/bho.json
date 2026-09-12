@@ -58,7 +58,11 @@
     "upcoming_event": "आवे वाला कार्यक्रम",
     "passed_event": "कार्यक्रम बीत गइल",
     "notification_permission": "ब्राउजर रिमाइंडर खातिर नोटिफिकेशन के अनुमति लाग सकेला।",
-    "retirement_day_message": "रिटायरमेंट दिन के संदेश"
+    "retirement_day_message": "रिटायरमेंट दिन के संदेश",
+    "notification_permission_blocked": "सूचना के अनुमति ब्लॉक बा। रिमाइंडर पावे खातिर कृपया AgeVerseGlobal खातिर सूचना के अनुमति दीं।",
+    "event_reminder_not_configured": "इवेंट रिमाइंडर सेवा कॉन्फिगर नइखे कइल गइल।",
+    "reminder_set": "रिमाइंडर सेट हो गइल",
+    "reminder_time": "रिमाइंडर के समय"
   },
   "age": {
     "title": "उन्नत आयु कैलकुलेटर",
@@ -95,7 +99,7 @@
   "message": {
     "select_dates": "कृपया दुनु तिथि चुनीं।",
     "select_event": "कृपया इवेंट के प्रकार चुनीं।",
-    "enter_custom_event": "कृपया कस्टम इवेंट के नाम लिखੀं।",
+    "enter_custom_event": "कृपया कस्टम इवेंट के नाम लिखीं।",
     "select_event_date": "कृपया इवेंट तिथि चुनीं।",
     "invalid_date": "अमान्य तिथि।",
     "future_date": "भविष्य के तिथि मान्य नाखे।",
@@ -783,7 +787,7 @@
     "starts": "सुरू होला",
     "your complete": "राउर पूरा",
     "complete": "पूरा",
-    "see": "देखೀं",
+    "see": "देखीं",
     "the": "",
     "here": "इहाँ",
     "today": "आइसें",
@@ -941,7 +945,7 @@
     "Please enter a valid calculation date.": "कृपया मान्य गणना तिथि दर्ज़ करीं।",
     "Please enter a valid custom reminder time.": "कृपया मान्य कस्टम रिमाइंडर समय दर्ज़ करीं।",
     "Please enter a valid date of birth.": "कृपया मान्य जम्मा के तिथि दर्ज़ करीं।",
-    "Please enter a valid deposit amount greater than ₹0.": "कृपया ₹0 से बेसी मान्य जमा राशि दर्ज़ करीं।",
+    "Please enter a valid deposit amount greater than 0.": "कृपया 0 से बेसी मान्य जमा राशि दर्ज़ करीं।",
     "Please enter a valid discount between 0% and 100%.": "कृपया 0% से 100% के बीच मान्य छूट दर्ज़ करीं।",
     "Please enter a valid event date and time.": "कृपया मान्य इवेंट तिथि अउर समय दर्ज़ करीं।",
     "Please enter a valid expected return between 0% and 100%.": "कृपया 0% से 100% के बीच मान्य अपेक्षित रिटर्न दर्ज़ करीं।",
@@ -955,7 +959,7 @@
     "Please enter a valid original price.": "कृपया मान्य मूल कीमत दर्ज़ करीं।",
     "Please enter a valid quantity.": "कृपया मान्य मात्रा दर्ज़ करीं।",
     "Please enter both values.": "कृपया दुनु मान दर्ज़ करीं।",
-    "Please enter custom event name.": "कृपया कस्टम इवेंट के नाम लिखੀं।",
+    "Please enter custom event name.": "कृपया कस्टम इवेंट के नाम लिखीं।",
     "Please enter the amount.": "कृपया राशि दर्ज़ करीं।",
     "Please enter the annual interest rate.": "कृपया वार्षिक ब्याज दर दर्ज़ करीं।",
     "Please enter the expected annual interest rate.": "कृपया अपेक्षित वार्षिक ब्याज दर दर्ज़ करीं।",
@@ -1225,12 +1229,12 @@
     "Celsius": "सेल्सियस",
     "Fahrenheit": "फ़ारेनहाइट",
     "Kelvin": "केल्विन",
-    "Currency Placeholder": "₹/$/¥ etc.",
+    "Currency Placeholder": "e.g. 5,000",
     "Percentage Placeholder": "%",
     "Year/Month": "बरिस/महीना",
     "Example: My Wedding, Office Party...": "उदाहरण: हमार बियाह, ऑफिस पार्टी...",
     "Increase your SIP amount every year by a fixed percentage.": "हर बरिस एगो तय प्रतिशत से आपन SIP राशि बढ़ाईं।",
-    "Example: ₹5,000 Monthly SIP with a 10% yearly step-up becomes ₹5,500 in the second year, ₹6,050 in the third year, and so on.": "उदाहरण: ₹5,000 के मासिक SIP में 10% सालाना स्टेप-अप से दूसरा बरिस ₹5,500, तीसरा बरिस ₹6,050 आ आगे एही तरह होई।",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP में 10% सालाना स्टेप-अप से दूसरा बरिस {{amount2}}, तीसरा बरिस {{amount3}} आ आगे एही तरह होई।",
     "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ई कैलकुलेटर दर्ज मासिक जमा आ अपेक्षित सालाना ब्याज दर के आधार पर अनुमानित परिपक्वता राशि देला। ब्याज दर, जमा के समय, बैंक के नियम, कर, जुर्माना भा दोसरा लागू शर्त के हिसाब से असली परिपक्वता राशि अलग हो सकेला।"
   },
   "home": {
@@ -1496,5 +1500,8 @@
     "title": "पन्ना ना मिलल",
     "description": "रउरा जे पन्ना खोजत बानी ऊ मौजूद नइखे भा ओकर जगह बदल दिहल गइल बा।",
     "home_button": "होम पर जाईं"
-  }
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "सूचना के अनुमति ब्लॉक बा। रिमाइंडर पावे खातिर कृपया AgeVerseGlobal खातिर सूचना के अनुमति दीं।",
+  "Event reminder service is not configured.": "इवेंट रिमाइंडर सेवा कॉन्फिगर नइखे कइल गइल।",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP में 10% सालाना स्टेप-अप से दूसरा बरिस {{amount2}}, तीसरा बरिस {{amount3}} आ आगे एही तरह होई।"
 }
