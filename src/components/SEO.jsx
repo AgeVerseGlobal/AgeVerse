@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const SITE_URL = "https://age-verse-nu.vercel.app";
+const SITE_URL = "https://ageverseglobal.com";
+
 const SITE_LOGO_URL = `${SITE_URL}/logo512.png`;
 const SITE_OG_IMAGE_URL = `${SITE_URL}/branding/ageverse-og.jpg`;
 
@@ -96,7 +97,7 @@ const seoData = {
       "Calculate recurring deposit maturity amount and interest with AgeVerseGlobal's RD Calculator.",
   },
 
-  "/pet/dog-age-calculator": {
+  "/dog-age-calculator": {
     title: "Dog Age Calculator – Calculate Dog's Age | AgeVerseGlobal",
     description:
       "Convert your dog's age into equivalent human age with AgeVerseGlobal's free Dog Age Calculator.",
@@ -205,6 +206,7 @@ function setJsonLd(id, data) {
 
   script.textContent = JSON.stringify(data);
 }
+
 export default function SEO() {
   const location = useLocation();
 
@@ -213,6 +215,7 @@ export default function SEO() {
       location.pathname.replace(/\/+$/, "") || "/";
 
     const data = seoData[currentPath];
+
     const isNotFound = !data;
 
     if (isNotFound) {
@@ -224,7 +227,7 @@ export default function SEO() {
 
       setMetaRobots("noindex, follow");
 
-      setCanonical(`${SITE_URL}/`);
+      setCanonical(`${SITE_URL}${currentPath}`);
 
       setMetaProperty(
         "og:title",
@@ -245,12 +248,18 @@ export default function SEO() {
       setMetaProperty("og:site_name", "AgeVerseGlobal");
       setMetaProperty("og:image", SITE_OG_IMAGE_URL);
       setMetaProperty("og:image:alt", "AgeVerseGlobal logo");
+
       setMetaName("twitter:card", "summary_large_image");
-      setMetaName("twitter:title", "Page Not Found | AgeVerseGlobal");
+      setMetaName(
+        "twitter:title",
+        "Page Not Found | AgeVerseGlobal"
+      );
+
       setMetaName(
         "twitter:description",
         "The page you are looking for does not exist or may have been moved."
       );
+
       setMetaName("twitter:image", SITE_OG_IMAGE_URL);
 
       return;
@@ -276,12 +285,13 @@ export default function SEO() {
     setMetaProperty("og:site_name", "AgeVerseGlobal");
     setMetaProperty("og:image", SITE_OG_IMAGE_URL);
     setMetaProperty("og:image:alt", "AgeVerseGlobal logo");
+
     setMetaName("twitter:card", "summary_large_image");
     setMetaName("twitter:title", data.title);
     setMetaName("twitter:description", data.description);
     setMetaName("twitter:image", SITE_OG_IMAGE_URL);
-  }, [location.pathname]);
-      setJsonLd("ageverse-website-schema", {
+
+    setJsonLd("ageverse-website-schema", {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "AgeVerseGlobal",
@@ -297,6 +307,7 @@ export default function SEO() {
       url: `${SITE_URL}/`,
       logo: SITE_LOGO_URL,
     });
+  }, [location.pathname]);
 
   return null;
 }
