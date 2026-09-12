@@ -8,6 +8,7 @@ import DateInput from "../components/DateInput";
 import EventResultCard from "../components/EventResultCard";
 import EventTimePicker from "../components/EventTimePicker";
 import ReminderPicker from "../components/ReminderPicker";
+import { ENABLE_REMINDERS } from "../config/features";
 
 import { calculateEvent } from "../utils/eventCalculatorLogic";
 import { calculateReminderTime } from "../utils/reminderLogic";
@@ -467,10 +468,12 @@ function EventCalculator() {
             REMINDER
             ========================================= */}
 
-        <ReminderPicker
-          value={reminder}
-          onChange={setReminder}
-        />
+        {ENABLE_REMINDERS && (
+          <ReminderPicker
+            value={reminder}
+            onChange={setReminder}
+          />
+        )}
 
         {/* =========================================
             CALCULATE

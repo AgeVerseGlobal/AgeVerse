@@ -4,6 +4,7 @@ import "../styles/RetirementResultCard.css";
 import "../styles/RetirementCalculator.css";
 
 import CalculatorLayout from "../components/CalculatorLayout";
+import { ENABLE_REMINDERS } from "../config/features";
 import DateInput from "../components/DateInput";
 import RetirementResultCard from "../components/RetirementResultCard";
 import { useTranslation } from "react-i18next";
@@ -613,6 +614,8 @@ function RetirementCalculator() {
         </div>
 
 
+        {ENABLE_REMINDERS && (
+          <>
         {/* =================================================
             RETIREMENT REMINDER
         ================================================= */}
@@ -770,6 +773,9 @@ function RetirementCalculator() {
 
         </div>
 
+
+          </>
+        )}
 
         {/* =================================================
             ERROR
