@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://age-verse-nu.vercel.app/sitemap.xml
+Sitemap: https://ageverseglobal.com/sitemap.xml
