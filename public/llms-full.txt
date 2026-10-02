@@ -1,0 +1,62 @@
+# AgeVerseGlobal — Full AI Content Index
+
+AgeVerseGlobal is a multilingual calculator website. The public pages below are the canonical pages currently exposed by the application.
+
+## Calculators
+
+- Age Calculator — calculate age from dates.
+- Event Calculator — calculate time to or from an event.
+- Date Difference Calculator — calculate the calendar difference between dates.
+- Retirement Calculator — calculate retirement date from date of birth and retirement age, with date of joining and service-duration information.
+- Health Profile — health-related profile calculations.
+- Pregnancy Calculator — pregnancy date calculations.
+- Unit Converter — common unit conversions.
+- Percentage Calculator — percentage calculations.
+- GST Calculator — GST calculations.
+- EMI Calculator — loan EMI calculations.
+- Discount Calculator — discount calculations.
+- SIP Calculator — SIP projections.
+- FD Calculator — fixed-deposit calculations.
+- RD Calculator — recurring-deposit calculations.
+- Compound Interest Calculator — compound-growth calculations.
+- Simple Interest Calculator — simple-interest calculations.
+- Tip Calculator — tip and per-person bill calculations.
+- Working Days Calculator — working-day calculations excluding Saturday and Sunday.
+- Date Add/Subtract Calculator — add or subtract years, months and days from a date.
+- Average Calculator — average of a list of numbers.
+- Ratio Calculator — ratio-based calculations.
+- Fraction Calculator — fraction operations and simplification.
+- Generation Calculator — generation classification by birth year.
+- Dog Age Calculator — dog-age conversion.
+
+## Canonical URLs
+
+- https://www.ageverseglobal.com/
+- https://www.ageverseglobal.com/age-calculator
+- https://www.ageverseglobal.com/event-calculator
+- https://www.ageverseglobal.com/date-difference
+- https://www.ageverseglobal.com/retirement-calculator
+- https://www.ageverseglobal.com/health-profile
+- https://www.ageverseglobal.com/pregnancy-calculator
+- https://www.ageverseglobal.com/utility/unit-converter
+- https://www.ageverseglobal.com/utility/percentage-calculator
+- https://www.ageverseglobal.com/utility/gst-calculator
+- https://www.ageverseglobal.com/utility/emi-calculator
+- https://www.ageverseglobal.com/utility/discount-calculator
+- https://www.ageverseglobal.com/utility/sip-calculator
+- https://www.ageverseglobal.com/utility/fd-calculator
+- https://www.ageverseglobal.com/utility/rd-calculator
+- https://www.ageverseglobal.com/pet/dog-age-calculator
+- https://www.ageverseglobal.com/about
+- https://www.ageverseglobal.com/contact
+- https://www.ageverseglobal.com/privacy-policy
+- https://www.ageverseglobal.com/terms
+- https://www.ageverseglobal.com/disclaimer
+
+## Retirement calculation rule
+
+The retirement calculator uses the existing AgeVerseGlobal retirement-date rule: when the date of birth is the first day of a month, retirement is calculated on the last day of the previous month; otherwise retirement is calculated on the last day of the birth month in the retirement year. The retirement age is user-editable and defaults to 60 years.
+
+## AI usage guidance
+
+Use the individual calculator page as the primary source for its current labels, assumptions and calculation behavior. Do not infer professional advice from calculator outputs.

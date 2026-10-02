@@ -1,0 +1,85 @@
+/* =========================================================
+   AgeVerseGlobal — SIMPLE FEEDBACK WIDGET
+========================================================= */
+
+.ageverse-feedback-trigger {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1400;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid rgba(79, 70, 229, .28);
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--surface), var(--surface-soft));
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1px;
+  cursor: pointer;
+  box-shadow: 0 10px 26px rgba(79, 70, 229, .16);
+  animation: ageverse-feedback-pulse 3.2s ease-in-out infinite;
+}
+
+.ageverse-feedback-trigger:hover { transform: translateY(-2px); border-color: var(--primary); box-shadow: 0 14px 30px rgba(79, 70, 229, .23); animation: none; }
+.ageverse-feedback-trigger:focus-visible { outline: 3px solid rgba(79,70,229,.18); outline-offset: 3px; }
+
+@keyframes ageverse-feedback-pulse {
+  0%, 100% { box-shadow: 0 10px 26px rgba(79, 70, 229, .14); }
+  50% { box-shadow: 0 12px 30px rgba(79, 70, 229, .26); }
+}
+
+.ageverse-feedback-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1500;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  background: var(--overlay);
+  box-sizing: border-box;
+}
+
+.ageverse-feedback-modal {
+  width: min(460px, 100%);
+  max-height: min(680px, calc(100vh - 40px));
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, .25);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ageverse-feedback-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 17px; }
+.ageverse-feedback-title { font-size: 18px; font-weight: 800; color: var(--text-heading); }
+.ageverse-feedback-page { margin-top: 3px; color: var(--text-light); font-size: 11px; }
+.ageverse-feedback-close { width: 34px; height: 34px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-soft); color: var(--text); font-size: 20px; cursor: pointer; }
+.ageverse-feedback-form { display: flex; flex-direction: column; gap: 10px; }
+.ageverse-feedback-rating { margin: 0; padding: 0; border: 0; }
+.ageverse-feedback-rating legend, .ageverse-feedback-label { margin-bottom: 7px; color: var(--text); font-size: 12px; font-weight: 750; }
+.ageverse-feedback-stars { display: flex; gap: 5px; }
+.ageverse-feedback-stars button { border: 0; background: transparent; color: var(--border-strong); padding: 0 2px; font-size: 28px; line-height: 1; cursor: pointer; }
+.ageverse-feedback-stars button.is-selected { color: #f59e0b; }
+.ageverse-feedback-label { display: block; }
+.ageverse-feedback-form textarea { width: 100%; min-height: 105px; resize: vertical; border: 1px solid var(--input-border); border-radius: 11px; background: var(--input-background); color: var(--input-text); padding: 10px 11px; font: inherit; font-size: 13px; line-height: 1.5; box-sizing: border-box; outline: none; }
+.ageverse-feedback-form textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79,70,229,.10); }
+.ageverse-feedback-privacy { margin: 0; padding: 9px 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-soft); color: var(--text-light); font-size: 10px; line-height: 1.55; text-align: left; }
+.ageverse-feedback-status { padding: 8px 10px; border-radius: 9px; font-size: 11px; line-height: 1.4; }
+.ageverse-feedback-status.is-error { background: rgba(220,38,38,.09); color: var(--danger); }
+.ageverse-feedback-status.is-success { background: rgba(22,163,74,.09); color: var(--success); }
+.ageverse-feedback-submit { min-height: 42px; border: 0; border-radius: 11px; background: var(--primary); color: #fff; font: inherit; font-size: 12px; font-weight: 800; cursor: pointer; }
+.ageverse-feedback-submit:hover:not(:disabled) { background: var(--primary-hover); }
+.ageverse-feedback-submit:disabled { opacity: .65; cursor: wait; }
+
+@media (max-width: 600px) {
+  .ageverse-feedback-trigger { right: 12px; bottom: 12px; min-height: 42px; padding: 9px 13px; }
+  .ageverse-feedback-backdrop { padding: 12px; }
+  .ageverse-feedback-modal { border-radius: 17px; padding: 16px; max-height: calc(100vh - 24px); }
+}

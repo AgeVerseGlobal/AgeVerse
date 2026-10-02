@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/percentage-calculator",
+      "destination": "/utility/percentage-calculator",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
