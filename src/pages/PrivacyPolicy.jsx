@@ -23,6 +23,10 @@ function PrivacyPolicy() {
       text: t("privacy_page.cookies_text"),
     },
     {
+      title: t("privacy_page.advertising_title"),
+      text: t("privacy_page.advertising_text"),
+    },
+    {
       title: t("privacy_page.third_party_title"),
       text: t("privacy_page.third_party_text"),
     },
