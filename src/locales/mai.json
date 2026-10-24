@@ -1,0 +1,3390 @@
+{
+  "retirement": {
+    "calculate_subtitle": "अपन सेवानिवृत्ति तिथि आ बचल समय के गणना करू।",
+    "reminder_description": "चुनू जे AgeVerseGlobal अहाँ केँ कहिया याद दिलाबए।",
+    "service_completed": "सेवा पूरा भऽ गेल",
+    "total_service_at_retirement": "सेवानिवृत्तिक समय कुल सेवा अवधि",
+    "current_age": "वर्तमान आयु",
+    "age_at_retirement": "सेवानिवृत्तिक समय आयु",
+    "result_title": "रिटायरमेंट परिणाम",
+    "result_subtitle": "अहाँक रिटायरमेंट योजना के सारांश",
+    "date_of_birth": "जन्म तिथि",
+    "date_of_joining": "नौकरीमे जुड़बाक तिथि",
+    "retirement_date": "सेवानिवृत्ति तिथि",
+    "retirement_age": "सेवानिवृत्ति आयु",
+    "completed_title": "रिटायरमेंट पूरा भऽ गेल",
+    "empty_title": "रिटायरमेंट योजना",
+    "empty_text": "अपन जन्म तिथि चुनि कऽ रिटायरमेंट तिथि आ बचल समयक गणना करू।",
+    "empty_hint": "शुरू करबा लेल ऊपर अपन विवरण दर्ज करू।"
+  },
+  "common": {
+    "app_name": "AgeVerseGlobal",
+    "calculate": "गणना करू",
+    "reset": "रीसेट",
+    "submit": "जमा करू",
+    "cancel": "रद्द करू",
+    "share": "साझा करू",
+    "copy": "कॉपी करू",
+    "download": "डाउनलोड करू",
+    "result": "परिणाम",
+    "calculators": "कैलकुलेटर",
+    "live": "लाइव",
+    "open_calculator": "कैलकुलेटर खोलू",
+    "from": "सँ",
+    "till": "धरि",
+    "years": "वर्ष",
+    "months": "महीना",
+    "days": "दिन",
+    "weeks": "सप्ताह",
+    "hours": "घण्टा",
+    "minutes": "मिनट",
+    "seconds": "सेकेण्ड",
+    "explore_calculators_title": "AgeVerseGlobal केर कैलकुलेटर देखू",
+    "explore_calculators_text": "AgeVerseGlobal पर आयु, तिथि, स्वास्थ्य, वित्तीय आ रोजमर्रा गणनाक कैलकुलेटर देखू।",
+    "explore_calculators_button": "कैलकुलेटर देखू",
+    "next_birthday": "अगिला जन्मदिन",
+    "days_remaining": "बाँचल दिन",
+    "your_age": "अहाँक उमेर",
+    "total_time": "कुल समय",
+    "born_on": "जन्म तिथि",
+    "event_countdown": "कार्यक्रम काउंटडाउन",
+    "event_date": "कार्यक्रमक तिथि",
+    "event_time": "कार्यक्रमक समय",
+    "weekday": "सप्ताहक दिन",
+    "time_remaining": "बाँचल समय",
+    "total_days": "कुल दिन",
+    "exact_difference": "सटीक अन्तर",
+    "from_day": "सुरुआती दिन",
+    "to_day": "अन्तिम दिन",
+    "total_years": "कुल वर्ष",
+    "total_months": "कुल महीना",
+    "total_weeks": "कुल सप्ताह",
+    "total_hours": "कुल घण्टा",
+    "total_minutes": "कुल मिनट",
+    "total_seconds": "कुल सेकेण्ड",
+    "remaining_period": "बाँचल अवधि",
+    "live_countdown": "लाइव काउंटडाउन",
+    "reminder": "स्मरण",
+    "retirement_day": "सेवानिवृत्तिक दिन",
+    "one_day_before": "1 दिन पहिने",
+    "days_before": "दिन पहिने",
+    "not_specified": "निर्धारित नहि",
+    "upcoming_event": "आबऽ वाला कार्यक्रम",
+    "passed_event": "कार्यक्रम बीत गेल",
+    "notification_permission": "ब्राउजर स्मरण लेल सूचना अनुमति जरूरी भऽ सकैत अछि।",
+    "retirement_day_message": "सेवानिवृत्ति दिनक संदेश",
+    "notification_permission_blocked": "नोटिफिकेशनक अनुमति ब्लॉक कएल गेल अछि। रिमाइंडर प्राप्त करबाक लेल कृपया AgeVerseGlobal लेल नोटिफिकेशनक अनुमति दिअ।",
+    "event_reminder_not_configured": "इवेंट रिमाइंडर सेवा कॉन्फिगर नहि कएल गेल अछि।",
+    "reminder_set": "रिमाइंडर सेट भऽ गेल",
+    "reminder_time": "रिमाइंडरक समय",
+    "all_calculators": "सभटा कैलकुलेटर",
+    "explore_more_calculators": "आओर कैलकुलेटर देखू",
+    "show_less_calculators": "कम देखाउ",
+    "feedback": "प्रतिक्रिया",
+    "feedback_title": "अपन प्रतिक्रिया दिअ",
+    "feedback_rating": "रेटिंग",
+    "feedback_feedback": "अहाँक प्रतिक्रिया",
+    "feedback_placeholder": "अहाँ की सोचैत छी से बताउ...",
+    "feedback_privacy_notice": "अहाँक प्रतिक्रियामे अनुमानित देश/शहर आ देखल जा रहल पेज शामिल भ' सकैत अछि। हम अहाँक IP पता संग्रह नहि करैत छी आ नाम, ईमेल, फोन नंबर, OTP वा एहन निजी जानकारी नहि मांगैत छी।",
+    "feedback_success": "अहाँक प्रतिक्रियाक लेल धन्यवाद!",
+    "feedback_error": "अखन प्रतिक्रिया पठाब संभव नहि अछि। फेर प्रयास करू।",
+    "feedback_close": "बन्द करू",
+    "feedback_sending": "पठाओल जा रहल अछि...",
+    "feedback_rating_required": "कृपया रेटिंग चुनू।",
+    "feedback_message_required": "कृपया अपन प्रतिक्रिया लिखू.",
+    "about_short": "सम्बन्धमे",
+    "search_calculator": "कैलकुलेटर खोजू",
+    "search_calculator_help": "किछुए सेकण्डमे अपन जरूरतक कैल्कुलेटर खोजू।",
+    "search_calculator_placeholder": "कैलकुलेटर खोजू...",
+    "no_calculators_found": "कोनो कैल्कुलेटर नहि भेटल।",
+    "close": "बन्द करू",
+    "event_details_input": "कार्यक्रमक विवरण / जानकारी (वैकल्पिक)",
+    "event_details_placeholder": "एहि कार्यक्रमक बारेमे विवरण लिखू...",
+    "event_details": "कार्यक्रमक विवरण"
+  },
+  "age": {
+    "title": "उन्नत आयु कैलकुलेटर",
+    "subtitle": "पूरा विवरण के संग अपन सही आयु के गणना करू।",
+    "date_of_birth": "जन्म तिथि",
+    "calculate_till": "गणना के तिथि",
+    "years": "वर्ष",
+    "months": "महीना",
+    "days": "दिन",
+    "hours": "घंटा",
+    "minutes": "मिनट",
+    "seconds": "सेकंड",
+    "calculate_age_till": "आयु गणना के तिथि",
+    "today": "आइ",
+    "specific_date": "विशिष्ट तिथि",
+    "today_calculation_info": "आयु के गणना आइ धरि कैल जायत।",
+    "today_calculation_note": "वर्तमान तिथि अपने आप उपयोग कैल जायत।",
+    "empty_result_title": "अहाँक आयु के परिणाम",
+    "empty_result_text": "अपन पूरा आयु के परिणाम देखबा लेल आयु के गणना करू।",
+    "empty_result_hint": "📅 अपन जन्म तिथि चुनू आ गणना करू पर क्लिक करू"
+  },
+  "event": {
+    "title": "इवेंट कैलकुलेटर",
+    "subtitle": "अपन विशेष अवसर सभ लेल उलटी गिनती करू।",
+    "select_event": "इवेंट चुनू",
+    "birthday": "जन्मदिन",
+    "anniversary": "सालगिरह",
+    "exam": "परीक्षा",
+    "trip": "यात्रा / छुट्टी",
+    "party": "पार्टी / कार्यक्रम",
+    "custom_event": "कस्टम इवेंट",
+    "event_date": "इवेंट तिथि"
+  },
+  "message": {
+    "select_dates": "कृपया दुनू तिथि चुनू।",
+    "select_event": "कृपया इवेंट प्रकार चुनू।",
+    "enter_custom_event": "कृपया कस्टम इवेंट के नाम लिखू।",
+    "select_event_date": "कृपया इवेंट तिथि चुनू।",
+    "invalid_date": "अमान्य तिथि।",
+    "future_date": "भविष्य के तिथि मान्य नहि अछि।",
+    "from_date_greater_than_to_date": "प्रारंभ तिथि अंतिम तिथि सँ पैघ नहि भऽ सकैत अछि।"
+  },
+  "header": {
+    "tagline": "आइ के योजना, काल्हि के समृद्धि"
+  },
+  "theme": {
+    "dark_mode": "डार्क मोड करू",
+    "light_mode": "लाइट मोड करू",
+    "language": "भाषा"
+  },
+  "calculator_names": {
+    "age_calculator": "आयु कैलकुलेटर",
+    "event_calculator": "इवेंट कैलकुलेटर",
+    "date_difference": "तिथि अंतर",
+    "retirement_calculator": "रिटायरमेंट कैलकुलेटर",
+    "health_profile": "संपूर्ण स्वास्थ्य प्रोफाइल",
+    "pregnancy_calculator": "गर्भावस्था कैलकुलेटर",
+    "unit_converter": "यूनिट कन्वर्टर",
+    "percentage_calculator": "प्रतिशत कैलकुलेटर",
+    "gst_calculator": "GST कैलकुलेटर",
+    "emi_calculator": "EMI कैलकुलेटर",
+    "discount_calculator": "डिस्काउंट कैलकुलेटर",
+    "sip_calculator": "SIP कैलकुलेटर",
+    "fd_calculator": "FD कैलकुलेटर",
+    "rd_calculator": "RD कैलकुलेटर",
+    "dog_age_calculator": "कुकुर के आयु कैलकुलेटर"
+  },
+  "footer": {
+    "description": "आयु, तिथि, स्वास्थ्य, वित्त आ रोजमर्रा के जिंदगी लेल स्मार्ट, भरोसेमंद आ सुविचारित कैलकुलेटर — बेहतर निर्णय लेबए मे स्पष्टता आ आत्मविश्वास के संग अहाँक मदद करबा लेल।",
+    "trust": "✓ सटीक • ✓ सरल • ✓ गोपनीयता केंद्रित",
+    "quick_links": "त्वरित लिंक",
+    "home": "होम",
+    "about": "AgeVerseGlobal के बारे मे",
+    "contact": "संपर्क",
+    "information": "जानकारी",
+    "privacy": "गोपनीयता नीति",
+    "terms": "नियम आ शर्त",
+    "disclaimer": "अस्वीकरण",
+    "languages": "भाषासभ",
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "powered": "स्मार्ट रोजमर्रा के गणना सभ लेल बनाओल गेल"
+  },
+  "category_names": {
+    "age": "🎂 आयु आ तिथि",
+    "health": "🏥 स्वास्थ्य",
+    "family": "👶 परिवार",
+    "utility": "🧮 उपयोगिता",
+    "pet": "🐶 पालतू"
+  },
+  "calculator_desc": {
+    "age_calculator": "वर्ष, महीना आ दिन मे सटीक आयु के गणना करू।",
+    "event_calculator": "जन्मदिन, सालगिरह, परीक्षा आ अन्य अवसर के उलटी गिनती करू।",
+    "date_difference": "दू टा तिथि के बीच सटीक अंतर जानू।",
+    "retirement_calculator": "रिटायरमेंट के समयरेखा आ बचल अवधि के गणना करू।",
+    "health_profile": "BMI, BMR, कैलोरी, पोषण, पानि आ आहार योजना।",
+    "pregnancy_calculator": "गर्भावस्था के सप्ताह आ अनुमानित प्रसव तिथि देखू।",
+    "unit_converter": "लंबाई, वजन, तापमान, आयतन आ बहुत किछु बदलू।",
+    "percentage_calculator": "प्रतिशत, वृद्धि, कमी आ अंतर के गणना करू।",
+    "gst_calculator": "GST राशि आ टैक्स सहित आ टैक्स रहित कीमत के गणना करू।",
+    "emi_calculator": "ऋण EMI, ब्याज आ कुल पुनर्भुगतान के गणना करू।",
+    "discount_calculator": "छूट, बचत आ अंतिम बिक्री कीमत के गणना करू।",
+    "sip_calculator": "SIP निवेश वृद्धि आ अपेक्षित रिटर्न के अनुमान लगाऊ।",
+    "fd_calculator": "फिक्स्ड डिपॉजिट के परिपक्वता आ ब्याज के गणना करू।",
+    "rd_calculator": "आवर्ती जमा के परिपक्वता आ ब्याज के गणना करू।",
+    "dog_age_calculator": "अपन कुकुरक आयु आ मानव आयु समतुल्य के गणना करू।"
+  },
+  "result_actions": {
+    "copy_image": "इमेज कॉपी करू",
+    "download_pdf": "PDF डाउनलोड करू",
+    "share_pdf": "PDF साझा करू",
+    "print": "प्रिंट करू",
+    "new": "नया",
+    "copy_success": "परिणामक इमेज सफलतापूर्वक कॉपी भऽ गेल।",
+    "copy_fallback": "एहि ब्राउज़र मे इमेज कॉपी समर्थित नहि अछि, तेँ PNG सेव कएल गेल अछि।",
+    "share_success": "PDF सफलतापूर्वक साझा भऽ गेल।",
+    "new_success": "कैलकुलेटर रीसेट भऽ गेल।",
+    "generic_error": "परिणाम तैयार नहि कएल जा सकल।",
+    "aria_label": "परिणाम विकल्प",
+    "share_link_copied": "परिणामक लिंक कॉपी भऽ गेल। एकरा कोनो ऐपमे पेस्ट कऽ कऽ साझा करू।",
+    "share_download_fallback": "एतय शेयरिंग उपलब्ध नहि अछि, तेँ PDF सेव कऽ देल गेल अछि।"
+  },
+  "bridge": {
+    "Age": "आयु",
+    "Age Calculator": "आयु कैलकुलेटर",
+    "Age Category": "आयु श्रेणी",
+    "Age Summary": "आयु सारांश",
+    "Your Age": "अहाँक आयु",
+    "Your Age Result": "अहाँक आयु के परिणाम",
+    "Exact Age": "सटीक आयु",
+    "Birth Date": "जन्म तिथि",
+    "Date of Birth": "जन्म तिथि",
+    "Calculate Age": "आयु के गणना करू",
+    "Calculate Age On": "एहि तिथि पर आयु के गणना करू",
+    "Calculate Age Till": "एहि तिथि धरि आयु के गणना करू",
+    "Age will be calculated up to today": "आयु के गणना आज धरि कएल जाएत",
+    "Select your date of birth and click Calculate": "अपन जन्म तिथि चुनू आ गणना करू पर क्लिक करू",
+    "Calculate": "गणना करू",
+    "Calculate Your Age": "अपन आयु के गणना करू",
+    "Result": "परिणाम",
+    "Calculation": "गणना",
+    "Calculation Result": "गणना परिणाम",
+    "Calculation Type": "गणना प्रकार",
+    "Calculated by": "AgeVerseGlobal द्वारा गणना कएल गेल",
+    "Calculated between the selected dates": "चयनित तिथिसभ के बीच गणना कएल गेल",
+    "Calculated result": "गणना कएल गेल परिणाम",
+    "Input": "इनपुट",
+    "Input Details": "इनपुट विवरण",
+    "Input Amount": "इनपुट राशि",
+    "Input Summary": "इनपुट सारांश",
+    "Reset": "रीसेट",
+    "New": "नया",
+    "Copy": "कॉपी करू",
+    "Copy Result": "परिणाम कॉपी करू",
+    "Copy Image": "इमेज कॉपी करू",
+    "Share": "साझा करू",
+    "Share Result": "परिणाम साझा करू",
+    "Share PDF": "PDF साझा करू",
+    "Download": "डाउनलोड करू",
+    "Download PDF": "PDF डाउनलोड करू",
+    "Print": "प्रिंट करू",
+    "From": "सँ",
+    "To": "धरि",
+    "From Date": "प्रारंभ तिथि",
+    "To Date": "अंतिम तिथि",
+    "From Day": "प्रारंभ दिन",
+    "To Day": "अंतिम दिन",
+    "Till": "धरि",
+    "Specific Date": "विशिष्ट तिथि",
+    "Year": "वर्ष",
+    "Years": "वर्ष",
+    "Months": "महीना",
+    "Month": "महीना",
+    "Days": "दिन",
+    "Day": "दिन",
+    "Weeks": "सप्ताह",
+    "Week": "सप्ताह",
+    "Hours": "घंटा",
+    "Hour": "घंटा",
+    "Minutes": "मिनट",
+    "Minute": "मिनट",
+    "Seconds": "सेकंड",
+    "Second": "सेकंड",
+    "Total Years": "कुल वर्ष",
+    "Total Months": "कुल महीना",
+    "Total Weeks": "कुल सप्ताह",
+    "Total Days": "कुल दिन",
+    "Total Hours": "कुल घंटा",
+    "Total Minutes": "कुल मिनट",
+    "Total Seconds": "कुल सेकंड",
+    "Total Time": "कुल समय",
+    "Exact difference between the selected dates": "चयनित तिथिसभ के बीच सटीक अंतर",
+    "Date Difference": "तिथि अंतर",
+    "Date Difference Calculator": "तिथि अंतर कैलकुलेटर",
+    "Date Difference Result": "तिथि अंतर परिणाम",
+    "Exact Difference": "सटीक अंतर",
+    "Event Calculator": "इवेंट कैलकुलेटर",
+    "Event Countdown": "इवेंट के उल्टी गिनती",
+    "Event Date": "इवेंट तिथि",
+    "Select Event": "इवेंट चुनू",
+    "Calculate Countdown": "उल्टी गिनती के गणना करू",
+    "Calculate Difference": "अंतर के गणना करू",
+    "Custom Event Name": "कस्टम इवेंट नाम",
+    "Event Time": "इवेंट समय",
+    "Reminder": "रिमाइन्डर",
+    "Reminder Set": "रिमाइन्डर सेट अछि",
+    "Reminder Time": "रिमाइन्डर समय",
+    "No Reminder": "कोनो रिमाइन्डर नहि",
+    "1 Day Before": "1 दिन पहिने",
+    "1 Hour Before": "1 घंटा पहिने",
+    "10 Minutes Before": "10 मिनट पहिने",
+    "24 Hours Before": "24 घंटा पहिने",
+    "Days Before": "दिन पहिने",
+    "Hours Before": "घंटा पहिने",
+    "Minutes Before": "मिनट पहिने",
+    "Get notified before your event": "अपन इवेंट सँ पहिने सूचना प्राप्त करू",
+    "Choose when your event starts": "चुनू जे अहाँक इवेंट कहिया शुरू होइत अछि",
+    "Choose when AgeVerseGlobal should remind you.": "चुनू जे AgeVerseGlobal अहाँ के कहिया याद दिलाओत।",
+    "Smart tools for your everyday date calculations.": "अहाँक रोजमर्रा के तिथि गणना लेल स्मार्ट टूल।",
+    "Explore Calculators": "कैलकुलेटर देखू",
+    "Explore AgeVerseGlobal calculators to find the tool you need.": "अपन जरूरतक टूल खोजबाक लेल AgeVerseGlobal के कैलकुलेटर देखू।",
+    "Start Calculating": "गणना शुरू करू",
+    "Verified User": "सत्यापित उपयोगकर्ता",
+    "Free Forever": "सदैव निःशुल्क",
+    "Instant Calculation": "तुरंत गणना",
+    "Multiple Date Support": "अनेक तिथि समर्थन",
+    "Privacy Focused": "गोपनीयता केंद्रित",
+    "Fast": "तेज",
+    "Accurate": "सटीक",
+    "Detailed": "विस्तृत",
+    "Simple": "सरल",
+    "Premium": "प्रीमियम",
+    "Health & Wellness": "स्वास्थ्य आ कल्याण",
+    "Complete Health Profile": "संपूर्ण स्वास्थ्य प्रोफाइल",
+    "Personal Details": "व्यक्तिगत विवरण",
+    "Gender": "लिंग",
+    "Male": "पुरुष",
+    "Female": "महिला",
+    "Other": "अन्य",
+    "Senior Citizen": "वरिष्ठ नागरिक",
+    "Senior Citizen Rate": "वरिष्ठ नागरिक दर",
+    "Additional Senior Citizen Rate (%)": "अतिरिक्त वरिष्ठ नागरिक दर (%)",
+    "Goal": "लक्ष्य",
+    "Your Goal": "अहाँक लक्ष्य",
+    "Gain Weight": "वजन बढ़ेनाइ",
+    "Lose Weight": "वजन घटेनाइ",
+    "Maintain": "बनाए राखब",
+    "Diet Preference": "आहार पसंद",
+    "Vegetarian": "शाकाहारी",
+    "Non-Vegetarian": "मांसाहारी",
+    "Vegan": "वीगन",
+    "Activity Level": "गतिविधि स्तर",
+    "Sedentary": "निष्क्रिय",
+    "Lightly Active": "हल्का सक्रिय",
+    "Moderately Active": "मध्यम सक्रिय",
+    "Very Active": "बहुत सक्रिय",
+    "Extra Active": "अत्यधिक सक्रिय",
+    "Little or no exercise": "बहुत कम वा कोनो व्यायाम नहि",
+    "Light exercise": "हल्का व्यायाम",
+    "Exercise 3–5": "3–5 दिन व्यायाम",
+    "6–7 days/week": "6–7 दिन/सप्ताह",
+    "1–3 days/week": "1–3 दिन/सप्ताह",
+    "physical work": "शारीरिक काज",
+    "Health Score": "स्वास्थ्य स्कोर",
+    "Wellness Score": "वेलनेस स्कोर",
+    "Your Overall Wellness": "अहाँक समग्र स्वास्थ्य",
+    "Your personalized wellness report": "अहाँक व्यक्तिगत वेलनेस रिपोर्ट",
+    "Fill in your details to calculate your complete wellness result.": "अपन पूरा वेलनेस परिणाम जनबाक लेल अपन जानकारी भरू।",
+    "✨ Calculate Wellness": "✨ वेलनेस के गणना करू",
+    "Wellness": "वेलनेस",
+    "BMI Gauge": "BMI गेज",
+    "Body Mass Index": "बॉडी मास इंडेक्स",
+    "Healthy": "स्वस्थ",
+    "Healthy Range": "स्वस्थ सीमा",
+    "Underweight": "कम वजन",
+    "Overweight": "बेसी वजन",
+    "Obesity": "मोटापा",
+    "BMI": "BMI",
+    "BMR": "BMR",
+    "Water": "पानि",
+    "Liters/day": "लीटर/दिन",
+    "Ideal Weight": "आदर्श वजन",
+    "Matches real age": "वास्तविक आयु के अनुरूप",
+    "Body Age": "शारीरिक आयु",
+    "Protein": "प्रोटीन",
+    "Carbs": "कार्बोहाइड्रेट",
+    "Fat": "वसा",
+    "daily": "प्रतिदिन",
+    "Recommended daily nutrition": "अनुशंसित दैनिक पोषण",
+    "Nutrition Balance": "पोषण संतुलन",
+    "Personalized Diet Plan": "व्यक्तिगत आहार योजना",
+    "Food suggestions based on your selected diet": "अहाँक चुनल आहार के आधार पर भोजन सुझाव",
+    "Balanced Diet": "संतुलित आहार",
+    "Daily Lifestyle Goals": "दैनिक जीवनशैली लक्ष्य",
+    "Sleep:": "नींद:",
+    "Steps:": "कदम:",
+    "Nutrition:": "पोषण:",
+    "Water:": "पानि:",
+    "Today's Challenge": "आइ के चुनौती",
+    "Smart Health Tips": "स्मार्ट स्वास्थ्य सुझाव",
+    "Quick Tip": "तुरंत सुझाव",
+    "How it works": "ई कोना काज करैत अछि",
+    "Important": "महत्वपूर्ण",
+    "Calculation Note": "गणना नोट",
+    "Disclaimer:": "अस्वीकरण:",
+    "Generated by": "AgeVerseGlobal द्वारा जेनरेट कएल गेल",
+    "AgeVerseGlobal": "AgeVerseGlobal",
+    "Retirement Calculator": "रिटायरमेंट कैलकुलेटर",
+    "Retirement Planning": "रिटायरमेंट योजना",
+    "Retirement Result": "रिटायरमेंट परिणाम",
+    "Retirement Completed": "रिटायरमेंट पूरा भऽ गेल",
+    "Retirement Day": "सेवानिवृत्ति दिवस",
+    "Retirement Day Reminder": "सेवानिवृत्ति दिवस रिमाइन्डर",
+    "Retirement Day Message": "सेवानिवृत्ति दिवस सन्देश",
+    "Calculate Retirement": "सेवानिवृत्ति के गणना करू",
+    "Retirement Date": "सेवानिवृत्ति तिथि",
+    "Retirement Age": "सेवानिवृत्ति आयु",
+    "Event Completed": "इवेंट पूरा भऽ गेल",
+    "Upcoming Event": "आबय बला इवेंट",
+    "Time Remaining": "बाँकी समय",
+    "Remaining Period": "बाँकी अवधि",
+    "Estimated Time Remaining": "अनुमानित बाँकी समय",
+    "Live Countdown": "लाइव उल्टी गिनती",
+    "Next Birthday": "अगिला जन्मदिन",
+    "Birthday": "जन्मदिन",
+    "Anniversary": "वर्षगाँठ",
+    "Exam": "परीक्षा",
+    "Trip / Vacation": "यात्रा / छुट्टी",
+    "Party / Event": "पार्टी / कार्यक्रम",
+    "Custom": "कस्टम",
+    "Unit Converter": "इकाई कनवर्टर",
+    "Unit Conversion Result": "इकाई रूपांतरण परिणाम",
+    "Conversion": "रूपांतरण",
+    "Conversion Category": "रूपांतरण श्रेणी",
+    "Converted Value": "परिवर्तित मान",
+    "From Unit": "सँ इकाई",
+    "To Unit": "धरि इकाई",
+    "Swap units": "इकाई बदलू",
+    "Enter value": "मान दर्ज करू",
+    "Percentage Calculator": "प्रतिशत कैलकुलेटर",
+    "to see the complete percentage calculation.": "पूरा प्रतिशत गणना देखबाक लेल।",
+    "Discount Calculator": "डिस्काउंट कैलकुलेटर",
+    "Discount": "छूट",
+    "Discount (%)": "छूट (%)",
+    "Discount 1 (%)": "छूट 1 (%)",
+    "Discount 2 (%)": "छूट 2 (%)",
+    "Discount 3 (%) — Optional": "छूट 3 (%) — वैकल्पिक",
+    "Effective Discount": "प्रभावी छूट",
+    "Effective Rate": "प्रभावी दर",
+    "Final Price": "अंतिम कीमत",
+    "Final Selling Price": "अंतिम बिक्री कीमत",
+    "Original Price": "मूल कीमत",
+    "Original / Marked Price": "मूल / अंकित कीमत",
+    "Saving": "बचत",
+    "Savings": "बचत",
+    "Total Saving": "कुल बचत",
+    "Quantity-Based Discount Slabs": "मात्रा आधारित छूट स्लैब",
+    "Sequential Discounts": "क्रमिक छूट",
+    "GST Calculator": "GST कैलकुलेटर",
+    "GST": "GST",
+    "GST Rate": "GST दर",
+    "GST Amount": "GST राशि",
+    "Tax Type": "कर प्रकार",
+    "CGST": "CGST",
+    "SGST": "SGST",
+    "IGST": "IGST",
+    "CGST + SGST": "CGST + SGST",
+    "Custom GST Rate (%)": "कस्टम GST दर (%)",
+    "GST Breakdown": "GST विवरण",
+    "to see the complete GST calculation.": "पूरा GST गणना देखबाक लेल।",
+    "EMI Calculator": "EMI कैलकुलेटर",
+    "EMI Calculation Result": "EMI गणना परिणाम",
+    "Monthly EMI": "मासिक EMI",
+    "Loan Amount": "ऋण राशि",
+    "Loan Tenure": "ऋण अवधि",
+    "Annual Interest Rate (%)": "वार्षिक ब्याज दर (%)",
+    "Annual Interest": "वार्षिक ब्याज",
+    "Monthly Interest": "मासिक ब्याज",
+    "Interest Rate": "ब्याज दर",
+    "Interest Rate (% p.a.)": "ब्याज दर (% प्रति वर्ष)",
+    "Principal": "मूलधन",
+    "Principal Amount": "मूलधन राशि",
+    "Total Payment": "कुल भुगतान",
+    "Total Repayment": "कुल पुनर्भुगतान",
+    "Repayment Summary": "पुनर्भुगतान सारांश",
+    "Repayment Flow": "पुनर्भुगतान प्रवाह",
+    "Payment Composition": "भुगतान संरचना",
+    "Your complete loan repayment summary": "अहाँक ऋण पुनर्भुगतानक पूरा सारांश",
+    "SIP Calculator": "SIP कैलकुलेटर",
+    "SIP Calculation Result": "SIP गणना परिणाम",
+    "SIP Amount": "SIP राशि",
+    "SIP Investment Amount": "SIP निवेश राशि",
+    "SIP Frequency": "SIP आवृत्ति",
+    "Annual Return": "वार्षिक रिटर्न",
+    "Expected Annual Return (%)": "अपेक्षित वार्षिक रिटर्न (%)",
+    "Expected Return": "अपेक्षित रिटर्न",
+    "Annual Step-Up (%)": "वार्षिक स्टेप-अप (%)",
+    "Step-Up": "स्टेप-अप",
+    "Annual SIP Step-Up": "वार्षिक SIP स्टेप-अप",
+    "Investment & Wealth Projection": "निवेश आ संपत्ति प्रक्षेपण",
+    "Investment Period": "निवेश अवधि",
+    "Investment Period (Years)": "निवेश अवधि (वर्ष)",
+    "Total Invested": "कुल निवेश",
+    "Estimated Returns": "अनुमानित रिटर्न",
+    "Estimated Value": "अनुमानित मूल्य",
+    "FD Calculator": "FD कैलकुलेटर",
+    "FD Calculation Result": "FD गणना परिणाम",
+    "Fixed Deposit Maturity & Interest Projection": "फिक्स्ड डिपॉजिट परिपक्वता आ ब्याज प्रक्षेपण",
+    "Deposit Amount": "जमा राशि",
+    "Maturity Value": "परिपक्वता मूल्य",
+    "Estimated Interest": "अनुमानित ब्याज",
+    "Estimated Maturity Value": "अनुमानित परिपक्वता मूल्य",
+    "Interest Compounding": "ब्याज चक्रवृद्धि",
+    "Compounding Frequency": "चक्रवृद्धि आवृत्ति",
+    "Quarterly": "त्रैमासिक",
+    "Half-Yearly": "अर्धवार्षिक",
+    "Annual": "वार्षिक",
+    "Monthly": "मासिक",
+    "RD Calculator": "RD कैलकुलेटर",
+    "RD Calculation Result": "RD गणना परिणाम",
+    "Recurring Deposit & Maturity Projection": "आवर्ती जमा आ परिपक्वता प्रक्षेपण",
+    "Monthly RD Deposit": "मासिक RD जमा",
+    "Monthly RD": "मासिक RD",
+    "Total Deposited": "कुल जमा",
+    "Total Original": "कुल मूल राशि",
+    "Estimated future value of your RD": "अहाँक RD क अनुमानित भविष्य मूल्य",
+    "Dog Age Calculator": "कुकुर के आयु कैलकुलेटर",
+    "Dog Age Calculation Result": "कुकुर के आयु गणना परिणाम",
+    "Dog Age": "कुकुर के आयु",
+    "Dog's Birth Date": "कुकुर के जन्म तिथि",
+    "Your Dog's Exact Age": "अहाँक कुकुर के सटीक आयु",
+    "Human Age Equivalent": "मानव आयु समतुल्य",
+    "Human Equivalent": "मानव समतुल्य",
+    "Age & Human Equivalent Projection": "आयु आ मानव समतुल्य प्रक्षेपण",
+    "About Dog Age": "कुकुर के आयु के बारे मे",
+    "Category": "श्रेणी",
+    "Pregnancy Calculator": "गर्भावस्था कैलकुलेटर",
+    "Pregnancy Result": "गर्भावस्था परिणाम",
+    "Pregnancy Age": "गर्भावस्था आयु",
+    "Current Trimester": "वर्तमान तिमाही",
+    "Pregnancy Progress": "गर्भावस्था प्रगति",
+    "Progress": "प्रगति",
+    "Estimated Due Date": "अनुमानित प्रसव तिथि",
+    "Estimated Due Date Reached": "अनुमानित प्रसव तिथि आ गेल अछि",
+    "Calculate Pregnancy": "गर्भावस्था के गणना करू",
+    "Calculate Pregnancy On": "एहि तिथि पर गर्भावस्था के गणना करू",
+    "Until estimated due date": "अनुमानित प्रसव तिथि धरि",
+    "Enter the first day of your last menstrual period.": "अपन अंतिम मासिक धर्म के पहिल तिथि दर्ज करू।",
+    "First Day of Last Menstrual Period": "अंतिम मासिक धर्म के पहिल तिथि",
+    "Last Menstrual Period": "अंतिम मासिक धर्म",
+    "Pregnancy Not Started": "गर्भावस्था शुरू नहि भेल",
+    "Growth": "वृद्धि",
+    "Projection": "प्रक्षेपण",
+    "Price Flow": "कीमत प्रवाह",
+    "Investment Flow": "निवेश प्रवाह",
+    "Interest Growth": "ब्याज वृद्धि",
+    "FD Growth": "FD वृद्धि",
+    "Formula": "सूत्र",
+    "EMI Formula": "EMI सूत्र",
+    "Value": "मान",
+    "Opening Value": "प्रारंभिक मान",
+    "Original": "मूल",
+    "Before": "पहिने",
+    "After": "बाद",
+    "Period": "अवधि",
+    "Frequency": "आवृत्ति",
+    "Custom Rate": "कस्टम दर",
+    "Expected Annual Interest Rate (%)": "अपेक्षित वार्षिक ब्याज दर (%)",
+    "Total Interest": "कुल ब्याज",
+    "Total Amount": "कुल राशि",
+    "Invested": "निवेशित",
+    "Annual Rate": "वार्षिक दर",
+    "Base Amount": "मूल राशि",
+    "Amount after discount": "छूट के बाद राशि",
+    "Amount payable every month": "हर महीना देय राशि",
+    "Estimated value at the end of the selected tenure": "चुनल अवधि के अंत मे अनुमानित मूल्य",
+    "Estimated future value of your SIP": "अहाँक SIP क अनुमानित भविष्य मूल्य",
+    "✓ Accurate": "✓ सटीक",
+    "✓ Simple": "✓ सरल",
+    "✓ Privacy Focused": "✓ गोपनीयता केंद्रित",
+    "⚡ Fast": "⚡ तेज",
+    "📊 Detailed": "📊 विस्तृत",
+    "🔒 Simple": "🔒 सरल",
+    "💰 Savings": "💰 बचत",
+    "🚀 Annual SIP Step-Up": "🚀 वार्षिक SIP स्टेप-अप",
+    "🔢 Value": "🔢 मान",
+    "🧮 Calculate": "🧮 गणना करू",
+    "🧮 Calculate EMI": "🧮 EMI के गणना करू",
+    "🧮 Calculation": "🧮 गणना",
+    "📤 Share": "📤 साझा करू",
+    "📥 Download": "📥 डाउनलोड करू",
+    "📄 Download PDF": "📄 PDF डाउनलोड करू",
+    "📋 Copy": "📋 कॉपी करू",
+    "📋 Copy Image": "📋 इमेज कॉपी करू",
+    "🔄 New": "🔄 नया",
+    "🔄 Reset": "🔄 रीसेट",
+    "🖨️ Print": "🖨️ प्रिंट करू",
+    "📏 Convert": "📏 रूपांतरित करू",
+    "⚙️ Custom": "⚙️ कस्टम",
+    "🎯 Select Event": "🎯 इवेंट चुनू",
+    "🎯 Your Goal": "🎯 अहाँक लक्ष्य",
+    "👨 Male": "👨 पुरुष",
+    "👩 Female": "👩 महिला",
+    "🌱 Vegan": "🌱 वीगन",
+    "🍗 Non-Vegetarian": "🍗 मांसाहारी",
+    "🥗 Vegetarian": "🥗 शाकाहारी",
+    "🏃 Activity Level": "🏃 गतिविधि स्तर",
+    "🏃 Body Age": "🏃 शारीरिक आयु",
+    "💧 Water": "💧 पानि",
+    "🔥 BMR": "🔥 BMR",
+    "⚖️ BMI": "⚖️ BMI",
+    "🎯 Ideal Weight": "🎯 आदर्श वजन",
+    "🥩 Protein": "🥩 प्रोटीन",
+    "🍲 Carbs": "🍲 कार्बोहाइड्रेट",
+    "🥑 Fat": "🥑 वसा",
+    "💰 Growth": "💰 वृद्धि",
+    "💰 Maturity": "💰 परिपक्वता",
+    "💰 Repayment Summary": "💰 पुनर्भुगतान सारांश",
+    "💰 Total Saving": "💰 कुल बचत",
+    "💳 Loan Input Details": "💳 ऋण इनपुट विवरण",
+    "💵 Principal Deposit": "💵 मूलधन जमा",
+    "💵 Total Deposited": "💵 कुल जमा",
+    "💵 Total Invested": "💵 कुल निवेश",
+    "📌 Input Summary": "📌 इनपुट सारांश",
+    "📐 Formula": "📐 सूत्र",
+    "📐 Calculation": "📐 गणना",
+    "📈 Estimated Interest": "📈 अनुमानित ब्याज",
+    "📈 Estimated Returns": "📈 अनुमानित रिटर्न",
+    "📉 Discount": "📉 छूट",
+    "📊 Age Category": "📊 आयु श्रेणी",
+    "📊 Age Summary": "📊 आयु सारांश",
+    "📊 Growth": "📊 वृद्धि",
+    "📊 Health Summary": "📊 स्वास्थ्य सारांश",
+    "📊 Interest": "📊 ब्याज",
+    "📊 Interest Growth": "📊 ब्याज वृद्धि",
+    "📊 Investment Flow": "📊 निवेश प्रवाह",
+    "📊 Payment Composition": "📊 भुगतान संरचना",
+    "📊 Pregnancy Progress": "📊 गर्भावस्था प्रगति",
+    "📊 Price Flow": "📊 कीमत प्रवाह",
+    "📊 Projection": "📊 प्रक्षेपण",
+    "📊 Total Time": "📊 कुल समय",
+    "⏳ Estimated Time Remaining": "⏳ अनुमानित बाँकी समय",
+    "⏳ Exact Difference": "⏳ सटीक अंतर",
+    "⏳ Remaining Period": "⏳ बाँकी अवधि",
+    "⏳ Time Remaining": "⏳ बाँकी समय",
+    "⏳ Upcoming Event": "⏳ आबय बला इवेंट",
+    "⏱ Live Countdown": "⏱ लाइव उल्टी गिनती",
+    "⏰ Event Time": "⏰ इवेंट समय",
+    "⏰ Remind me before retirement": "⏰ रिटायरमेंट सँ पहिने याद दिलाउ",
+    "🌼 Pregnancy Not Started": "🌼 गर्भावस्था शुरू नहि भेल अछि",
+    "🌸 Current Trimester": "🌸 वर्तमान तिमाही",
+    "🎉 Event Countdown": "🎉 इवेंट उल्टी गिनती",
+    "🎉 Next Birthday": "🎉 अगिला जन्मदिन",
+    "🎉 Retirement Day": "🎉 रिटायरमेंट दिवस",
+    "🎂 Age": "🎂 आयु",
+    "🎂 Age Calculator": "🎂 आयु कैलकुलेटर",
+    "🎂 Date of Birth": "🎂 जन्म तिथि",
+    "🎂 Dog Age": "🎂 कुकुरक आयु",
+    "🎂 Exact Age": "🎂 सटीक आयु",
+    "🎂 Next Birthday": "🎂 अगिला जन्मदिन",
+    "🎂 Smart & Accurate Age Calculator": "🎂 स्मार्ट आ सटीक आयु कैलकुलेटर",
+    "🎂 Your Age": "🎂 अहाँक आयु",
+    "📅 Calculate Pregnancy On": "📅 एहि तिथि पर गर्भावस्था के गणना करू",
+    "📅 Estimated Due Date": "📅 अनुमानित प्रसव तिथि",
+    "📅 Event Date": "📅 इवेंट तिथि",
+    "📅 From": "📅 सँ",
+    "📅 From Date": "📅 प्रारंभ तिथि",
+    "📅 Retirement Date": "📅 रिटायरमेंट तिथि",
+    "📅 Specific Date": "📅 विशिष्ट तिथि",
+    "📅 Till": "📅 धरि",
+    "📅 To Date": "📅 अंतिम तिथि",
+    "📅 Total Days": "📅 कुल दिन",
+    "📅 Year-Wise Projection": "📅 वर्षवार प्रक्षेपण",
+    "📆 Weekday": "📆 सप्ताहक दिन",
+    "🩸 First Day of Last Menstrual Period": "🩸 अंतिम मासिक धर्मक पहिल तारीख",
+    "🪑 Sedentary": "🪑 निष्क्रिय",
+    "🪪 Your Name": "🪪 अहाँक नाम",
+    "🧾 Input Details": "🧾 इनपुट विवरण",
+    "🤰 Calculate Pregnancy": "🤰 गर्भावस्था के गणना करू",
+    "🍽️ Personalized Diet Plan": "🍽️ व्यक्तिगत आहार योजना",
+    "🌿 Daily Lifestyle Goals": "🌿 दैनिक जीवनशैली लक्ष्य",
+    "🏆 Today's Challenge": "🏆 आइ के चुनौती",
+    "💡 How it works": "💡 ई कोना काज करैत अछि",
+    "💡 Quick Tip": "💡 तुरंत सुझाव",
+    "💡 Smart Health Tips": "💡 स्मार्ट स्वास्थ्य सुझाव",
+    "⚖️ Maintain": "⚖️ बनाए राखू",
+    "⬆️ Gain Weight": "⬆️ वजन बढ़ाउ",
+    "⬇️ Lose Weight": "⬇️ वजन घटाउ",
+    "🧑 Approximate Human Age": "🧑 अनुमानित मानव आयु",
+    "🐾 About Dog Age": "🐾 कुकुरक आयु के बारे मे",
+    "🐾 Category": "🐾 श्रेणी",
+    "🐾 Human Equivalent": "🐾 मानव समतुल्य",
+    "🧮 Calculation Breakdown": "🧮 गणना विवरण",
+    "🧮 Conversion Category": "🧮 रूपांतरण श्रेणी",
+    "🧮 Repayment Flow": "🧮 पुनर्भुगतान प्रवाह",
+    "✦ HELP & INFORMATION": "✦ सहायता आ जानकारी",
+    "✦ USER EXPERIENCES": "✦ उपयोगकर्ता अनुभव",
+    "What Users Say": "उपयोगकर्ता की कहैत छथि",
+    "Why Choose AgeVerseGlobal?": "AgeVerseGlobal किएक चुनू?",
+    "Still have a question?": "की अखनो कोनो सवाल अछि?",
+    "NEW": "नया",
+    "days before": "दिन पहिने",
+    "days/week": "दिन/सप्ताह",
+    "kcal/day": "किलो कैलोरी/दिन",
+    "7–8 Hours": "7–8 घंटा",
+    "8000 Steps": "8000 कदम",
+    "Calculator Section": "कैलकुलेटर अनुभाग",
+    "Your Result Will Appear Here": "अहाँक परिणाम एतय देखाओल जाएत",
+    "Your result will appear here.": "अहाँक परिणाम एतय देखाओल जाएत।",
+    "Your EMI Result Will Appear Here": "अहाँक EMI परिणाम एतय देखाओल जाएत",
+    "Your retirement planning summary": "अहाँक रिटायरमेंट योजना के सारांश",
+    "Your pregnancy timeline summary": "अहाँक गर्भावस्था के समयरेखा के सारांश",
+    "Your complete result.": "अहाँक पूरा परिणाम।",
+    "to see the complete result.": "पूरा परिणाम देखबा लेल।",
+    "to see your complete FD projection.": "अपन पूरा FD प्रक्षेपण देखबा लेल।",
+    "to see your complete RD projection.": "अपन पूरा RD प्रक्षेपण देखबा लेल।",
+    "to see your complete SIP projection.": "अपन पूरा SIP प्रक्षेपण देखबा लेल।",
+    "Enter your details above to begin.": "शुरू करबा लेल ऊपर अपन विवरण दर्ज करू।",
+    "Enter your values and tap": "अपन मान दर्ज करू आ टैप करू",
+    "Enter your loan details and tap": "अपन ऋण के विवरण दर्ज करू आ टैप करू",
+    "Leave blank to calculate using today's date.": "आइ के तिथि के अनुसार गणना करबा लेल खाली छोड़ू।",
+    "The current date will be used automatically.": "वर्तमान तिथि अपने आप उपयोग कएल जाएत।",
+    "Optional": "वैकल्पिक",
+    "Optional additional rate for senior-citizen projection.": "वरिष्ठ नागरिक प्रक्षेपण लेल वैकल्पिक अतिरिक्त दर।",
+    "Quarterly Compounding": "त्रैमासिक चक्रवृद्धि",
+    "Compounding": "चक्रवृद्धि",
+    "Interest": "ब्याज",
+    "Weekly": "साप्ताहिक",
+    "Principal Deposit": "मूलधन जमा",
+    "Returns": "रिटर्न",
+    "Quantity": "मात्रा",
+    "From Quantity": "मात्रा सँ",
+    "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)": "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)",
+    "AgeVerseGlobal - Retirement Result": "AgeVerseGlobal - रिटायरमेंट परिणाम",
+    "AgeVerseGlobal EMI Calculator Result": "AgeVerseGlobal EMI कैलकुलेटर परिणाम",
+    "AgeVerseGlobal Pregnancy Calculator": "AgeVerseGlobal गर्भावस्था कैलकुलेटर",
+    "AgeVerseGlobal Pregnancy Result": "AgeVerseGlobal गर्भावस्था परिणाम",
+    "AgeVerseGlobal Unit Converter Result": "AgeVerseGlobal यूनिट कन्वर्टर परिणाम",
+    "AgeVerseGlobal Utility • Unit Converter": "AgeVerseGlobal यूटिलिटी • यूनिट कन्वर्टर",
+    "Verse": "Verse",
+    "Utility": "यूटिलिटी",
+    "Slab 1": "स्लैब 1",
+    "Slab 2": "स्लैब 2",
+    "Slab 3": "स्लैब 3",
+    "to see your complete result.": "अपन पूरा परिणाम देखबा लेल।",
+    "✓ Result image copied successfully.": "✓ परिणाम के इमेज सफलतापूर्वक कॉपी भऽ गेल।",
+    "Frequently Asked Questions": "अक्सर पुछल जाए बला प्रश्न",
+    "♡ Calories": "♡ कैलोरी",
+    "Instantly &amp; Accurately": "तुरंत आ सटीक",
+    "⚙️ Set Custom Reminder": "⚙️ कस्टम रिमाइंडर सेट करू",
+    "Calculate On": "एहि तिथि पर गणना करू",
+    "Cumulative Interest": "संचयी ब्याज",
+    "Hard exercise": "कठिन व्यायाम",
+    "Very hard training /": "बहुत कठिन प्रशिक्षण /",
+    "⚖️ Weight (kg)": "⚖️ वजन (किग्रा)",
+    "📏 Body Measurements": "📏 शरीर के माप",
+    "📏 Height (cm)": "📏 ऊँचाई (सेमी)",
+    "⏳ Estimated time remaining": "⏳ अनुमानित बाँकी समय",
+    "🟢 Today": "🟢 आइ",
+    "Select two dates to calculate the exact difference.": "सटीक अंतर जानबा लेल दू टा तिथि चुनू।",
+    "Utility • Unit Converter": "यूटिलिटी • यूनिट कन्वर्टर",
+    "Weight (kg)": "वजन (किग्रा)",
+    "Height (cm)": "ऊँचाई (सेमी)",
+    "Result image": "परिणाम के इमेज",
+    "Estimated time remaining": "अनुमानित बाँकी समय",
+    "Health Profile": "स्वास्थ्य प्रोफाइल",
+    "Weight": "वजन",
+    "Height": "ऊँचाई",
+    "Calories": "कैलोरी",
+    "Complete": "संपूर्ण",
+    "Health": "स्वास्थ्य",
+    "Countdown": "उल्टी गिनती",
+    "Difference": "अंतर",
+    "Select": "चुनू",
+    "Please": "कृपया",
+    "Enter": "दर्ज करू",
+    "Details": "विवरण",
+    "Name": "नाम",
+    "Time": "समय",
+    "Date": "तिथि",
+    "Amount": "राशि",
+    "Rate": "दर",
+    "Price": "कीमत",
+    "Total": "कुल",
+    "Estimated": "अनुमानित",
+    "Expected": "अपेक्षित",
+    "Final": "अंतिम",
+    "Payment": "भुगतान",
+    "Repayment": "पुनर्भुगतान",
+    "Investment": "निवेश",
+    "Maturity": "परिपक्वता",
+    "Deposit": "जमा",
+    "Loan": "ऋण",
+    "Tenure": "अवधि",
+    "Tax": "कर",
+    "Breakdown": "विवरण",
+    "Converted": "परिवर्तित",
+    "Unit": "इकाई",
+    "Swap": "बदलू",
+    "Event": "इवेंट",
+    "Retirement": "रिटायरमेंट",
+    "Pregnancy": "गर्भावस्था",
+    "Dog": "कुकुर",
+    "Human": "मानव",
+    "Equivalent": "समतुल्य",
+    "Current": "वर्तमान",
+    "Range": "सीमा",
+    "Body": "शरीर",
+    "Nutrition": "पोषण",
+    "Lifestyle": "जीवनशैली",
+    "Challenge": "चुनौती",
+    "Tips": "सुझाव",
+    "Personalized": "व्यक्तिगत",
+    "Plan": "योजना",
+    "Diet": "आहार",
+    "Sleep": "निन्न",
+    "Steps": "कदम",
+    "AgeVerseGlobal Utility": "AgeVerseGlobal उपयोगिता",
+    "Choose": "चुनू",
+    "when": "जखन",
+    "your": "अहाँक",
+    "event": "इवेंट",
+    "starts": "शुरू होइत अछि",
+    "your complete": "अहाँक पूरा",
+    "complete": "पूरा",
+    "see": "देखू",
+    "the": "",
+    "here": "एतय",
+    "today": "आइ",
+    "On": "पर",
+    "and": "आ",
+    "accurately": "सटीक रूप सँ",
+    "Calculate GST, tax amount and total amount quickly and accurately.": "GST, कर राशि आ कुल राशि केँ तेज आ सटीक गणना करू।",
+    "Calculate discount, savings and final selling price quickly.": "छूट, बचत आ अंतिम बिक्री कीमत केँ तेज गणना करू।",
+    "Calculate fixed deposit maturity, estimated interest and total value.": "फिक्स्ड डिपॉजिट केँ परिपक्वता, अनुमानित ब्याज आ कुल मूल्य केँ गणना करू।",
+    "Calculate your SIP investment, estimated returns and maturity value.": "अपन SIP निवेश, अनुमानित रिटर्न आ परिपक्वता मूल्य केँ गणना करू।",
+    "Calculate your dog's exact age and approximate human-age equivalent.": "अपन कुकुर केँ सटीक आयु आ अनुमानित मानव-आयु समतुल्य केँ गणना करू।",
+    "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.": "AgeVerseGlobal केँ संग अपन सटीक आयु वर्ष, महीना, दिन, घंटा, मिनट आ सेकंड मे गणना करू।",
+    "Calculate your monthly EMI, total interest and total repayment amount.": "अपन मासिक EMI, कुल ब्याज आ कुल पुनर्भुगतान राशि केँ गणना करू।",
+    "Calculate your recurring deposit, estimated interest and maturity value.": "अपन आवर्ती जमा, अनुमानित ब्याज आ परिपक्वता मूल्य केँ गणना करू।",
+    "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.": "EMI दर्ज ऋण राशि, वार्षिक ब्याज दर आ पुनर्भुगतान अवधि के आधार पर गणना कैल जाइत अछि। राउंडिंग, शुल्क, बीमा वा अन्य लागू शुल्कक कारण वास्तविक ऋणदाता EMI अलग भऽ सकैत अछि।",
+    "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.": "मासिक EMI आ पूरा पुनर्भुगतान सारांश देखबाक लेल ऋण राशि, वार्षिक ब्याज दर आ पुनर्भुगतान अवधि दर्ज करू।",
+    "Enter the price, choose the discount type and tap": "कीमत दर्ज करू, छूटक प्रकार चुनू आ दबाउ",
+    "Enter your SIP amount, frequency, expected return and investment period, then tap": "अपन SIP राशि, आवृत्ति, अपेक्षित रिटर्न आ निवेश अवधि दर्ज करू, फेर दबाउ",
+    "Enter your amount, select the GST rate and tap": "अपन राशि दर्ज करू, GST दर चुनू आ दबाउ",
+    "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap": "जमा राशि, अपेक्षित दर, निवेश अवधि आ चक्रवृद्धि आवृत्ति दर्ज करू, फेर दबाउ",
+    "Enter your monthly RD deposit, expected interest rate and investment period, then tap": "मासिक RD जमा, अपेक्षित ब्याज दर आ निवेश अवधि दर्ज करू, फेर दबाउ",
+    "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.": "उदाहरण: 1 वस्तु → 10%, 2 वस्तु → 15%, 3 वा अधिक वस्तु → 20%।",
+    "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.": "उदाहरण: 20% के बाद 10% छूट क्रमिक रूप सँ लागू होइत अछि, साधारण 30% छूट जकाँ नहि।",
+    "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.": "उदाहरण: 7.50% मूल दर + 0.50% अतिरिक्त दर = 8.00% अनुमानित प्रभावी दर।",
+    "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.": "FD केँ परिपक्वता जमा राशि, ब्याज दर, अवधि आ चक्रवृद्धि आवृत्ति पर निर्भर करैत अछि। बैंकक लागू नियमक अनुसार वास्तविक रिटर्न अलग भऽ सकैत अछि।",
+    "For sequential discounts, each discount is calculated on the price remaining after the previous discount.": "क्रमिक छूट मे प्रत्येक छूट पिछला छूटक बाद बचल कीमत पर लागू कैल जाइत अछि।",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "मानव-आयु रूपांतरण केवल एक अनुमान अछि। अहाँक कुकुरक स्वास्थ्य लेल नियमित पशु चिकित्सा देखभाल, पोषण आ व्यायाम महत्वपूर्ण अछि।",
+    "Quickly calculate percentages, increases, decreases and more.": "प्रतिशत, वृद्धि, कमी आ अन्य गणना जल्दी करू।",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "RD केँ परिपक्वताक अनुमान त्रैमासिक चक्रवृद्धि के आधार पर लगाओल जाइत अछि, जे आवर्ती जमा के गणना मे सामान्यतः उपयोग होइत अछि।",
+    "Select a category, enter a value and choose the units you want to convert.": "श्रेणी चुनू, मान दर्ज करू आ ओ इकाई चुनू जइ मे रूपांतरण करबाक अछि।",
+    "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.": "GST दर चुनू, निर्धारित करू जे राशि मे GST शामिल अछि वा नहि, आ फेर पूरा GST विवरण निकालू।",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "मानक चक्रवृद्धि ब्याज मॉडल: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ गणना नोट",
+    "ℹ️ Important": "ℹ️ महत्वपूर्ण",
+    "↻ Reset": "↻ रीसेट",
+    "⚧ Gender": "⚧ लिंग",
+    "⚧ Other": "⚧ अन्य",
+    "✅ Event Completed": "✅ इवेंट पूरा भऽ गेल",
+    "✍️ Custom Event Name": "✍️ कस्टम इवेंट नाम",
+    "✓ Amount after discount": "✓ छूटक बाद राशि",
+    "✓ Amount payable every month": "✓ हर महीना देय राशि",
+    "✓ Calculated between the selected dates": "✓ चुनल गेल तिथि सबहक बीच गणना कैल गेल",
+    "✓ Calculated result": "✓ गणना कैल गेल परिणाम",
+    "✓ Estimated future value of your RD": "✓ अहाँक RD केँ अनुमानित भविष्य मूल्य",
+    "✓ Estimated future value of your SIP": "✓ अहाँक SIP केँ अनुमानित भविष्य मूल्य",
+    "✓ Estimated value at the end of the selected tenure": "✓ चुनल गेल अवधि केँ अंत मे अनुमानित मूल्य",
+    "✓ Free Forever": "✓ सदैव निःशुल्क",
+    "✓ Instant Calculation": "✓ तुरंत गणना",
+    "✓ Multiple Date Support": "✓ अनेक तिथि सबहक समर्थन",
+    "✓ Result copied successfully.": "✓ परिणाम सफलतापूर्वक कॉपी भऽ गेल।",
+    "⭐ Health Score": "⭐ स्वास्थ्य स्कोर",
+    "🎉 Estimated Due Date Reached": "🎉 अनुमानित प्रसव तिथि आबि गेल अछि",
+    "🏃 Moderately Active": "🏃 मध्यम सक्रिय",
+    "🏋️ Extra Active": "🏋️ अत्यधिक सक्रिय",
+    "🏢 Retirement Age": "🏢 सेवानिवृत्ति आयु",
+    "🏦 FD Growth": "🏦 FD वृद्धि",
+    "🏦 Interest Compounding": "🏦 ब्याज चक्रवृद्धि",
+    "👤 Personal Details": "👤 व्यक्तिगत विवरण",
+    "👵 Senior Citizen Rate": "👵 वरिष्ठ नागरिक दर",
+    "👶 Pregnancy Age": "👶 गर्भावस्था आयु",
+    "💪 Very Active": "💪 बहुत सक्रिय",
+    "💰 GST Breakdown": "💰 GST विवरण",
+    "📅 1 Day Before": "📅 1 दिन पहिने",
+    "📅 Select your date of birth and click Calculate": "📅 अपन जन्म तिथि चुनू आ गणना करू पर क्लिक करू",
+    "📋 Copy Result": "📋 परिणाम कॉपी करू",
+    "📐 EMI Formula": "📐 EMI सूत्र",
+    "📤 Share PDF": "📤 PDF साझा करू",
+    "📤 Share Result": "📤 परिणाम साझा करू",
+    "📥 Download PDF": "📥 PDF डाउनलोड करू",
+    "🔕 No Reminder": "🔕 कोनो रिमाइंडर नहि",
+    "🔢 Sequential Discounts": "🔢 क्रमिक छूट",
+    "🚶 Lightly Active": "🚶 हल्का सक्रिय",
+    "🛒 Quantity-Based Discount Slabs": "🛒 मात्रा आधारित छूट स्लैब",
+    "🥗 Diet Preference": "🥗 आहार पसंद",
+    "🥗 Nutrition Balance": "🥗 पोषण संतुलन",
+    "🩸 Last Menstrual Period": "🩸 अंतिम मासिक धर्म",
+    "Add GST": "GST जोड़ू",
+    "Adult Dog": "वयस्क कुकुर",
+    "Age Calculations": "आयु गणना सब",
+    "Age Result": "आयु परिणाम",
+    "Amount Including GST": "GST सहित राशि",
+    "Both values cannot be zero.": "दुनू मान शून्य नहि भऽ सकैत अछि।",
+    "Birth date cannot be later than the calculation date.": "जन्म तिथि गणना तिथि सँ बाद के नहि भऽ सकैत अछि।",
+    "Canvas image creation failed.": "छवि बनेबा मे समस्या भेल।",
+    "Copy failed:": "कॉपी विफल भेल:",
+    "Copy image error:": "इमेज कॉपी त्रुटि:",
+    "Countdown for birthdays, anniversaries, exams and more.": "जन्मदिन, सालगिरह, परीक्षा आ आन अवसर सभक लेल उल्टा गिनती।",
+    "Custom Event": "कस्टम इवेंट",
+    "Custom Reminder": "कस्टम रिमाइंडर",
+    "Custom reminder must be between 1 and 3650 days.": "कस्टम रिमाइंडर 1 सँ 3650 दिनक बीच होबाक चाही।",
+    "Discount Calculator Result": "डिस्काउंट कैलकुलेटर परिणाम",
+    "Dog Age Calculator Result": "कुकुरक उमर कैलकुलेटर परिणाम",
+    "Dog age result image error:": "कुकुरक उमर परिणाम इमेज त्रुटि:",
+    "Download PDF error:": "PDF डाउनलोड त्रुटि:",
+    "Download failed:": "डाउनलोड विफल भेल:",
+    "EMI Calculator Result": "EMI कैलकुलेटर परिणाम",
+    "Enter age": "उमर दर्ज करू",
+    "Enter amount": "राशि दर्ज करू",
+    "Enter days": "दिन दर्ज करू",
+    "Event time": "इवेंट समय",
+    "Final Value": "अंतिम मान",
+    "Final value cannot be zero.": "अंतिम मान शून्य नहि भऽ सकैत अछि।",
+    "Find Original Value": "मूल मान खोजू",
+    "Find exact difference between any two dates.": "कोनो दू तिथिक बीच सटीक अंतर खोजू।",
+    "Find exact difference between two dates.": "दू तिथिक बीच सटीक अंतर खोजू।",
+    "First Value": "पहिल मान",
+    "GST Calculator Result": "GST कैलकुलेटर परिणाम",
+    "GST PDF error:": "GST PDF त्रुटि:",
+    "GST image copy error:": "GST इमेज कॉपी त्रुटि:",
+    "GST print dialog error:": "GST प्रिंट डायलॉग त्रुटि:",
+    "GST print window error:": "GST प्रिंट विंडो त्रुटि:",
+    "GST share error:": "GST साझा करय में त्रुटि:",
+    "Generated by AgeVerseGlobal": "AgeVerseGlobal द्वारा जेनरेट कएल गेल",
+    "Get a complete breakdown of base amount, GST and total amount.": "मूल राशि, GST आ कुल राशि क पूरा विवरण देखू।",
+    "Image clipboard copy failed:": "इमेज क्लिपबोर्ड कॉपी विफल भेल:",
+    "Investment Result": "निवेश परिणाम",
+    "Loan Summary": "ऋण सारांश",
+    "Maintain Weight": "वजन बनौने राखू",
+    "Multiple Discounts": "एक सँ बेसी छूट",
+    "New Value": "नव मान",
+    "Non Vegetarian": "मांसाहारी",
+    "Not specified": "निर्दिष्ट नहि अछि",
+    "Notification permission may be required for browser reminders.": "ब्राउज़र रिमाइंडर लेल सूचना क अनुमति आवश्यक भऽ सकैत अछि।",
+    "Opening print preview...": "प्रिंट पूर्वावलोकन खोलल जा रहल अछि...",
+    "Original Amount": "मूल राशि",
+    "Original Value": "मूल मान",
+    "Original value cannot be zero.": "मूल मान शून्य नहि भऽ सकैत अछि।",
+    "PDF blob could not be created.": "PDF तैयार नहि कएल जा सकल।",
+    "PDF blob not created.": "PDF तैयार नहि भेल।",
+    "PDF creation error:": "PDF बनावय में त्रुटि:",
+    "PDF download failed:": "PDF डाउनलोड विफल भेल:",
+    "PDF downloaded successfully.": "PDF सफलतापूर्वक डाउनलोड भऽ गेल।",
+    "PDF generation error:": "PDF जेनरेशन त्रुटि:",
+    "PDF generation failed:": "PDF जेनरेट नहि कएल जा सकल।",
+    "PDF opened successfully. Please press Ctrl + P to print.": "PDF सफलतापूर्वक खुलि गेल। प्रिंट करबाक लेल Ctrl + P दबाउ।",
+    "PDF ready. Opening print dialog...": "PDF तैयार अछि। प्रिंट डायलॉग खोलल जा रहल अछि...",
+    "PDF shared successfully.": "PDF सफलतापूर्वक साझा भऽ गेल।",
+    "PDF sharing error:": "PDF साझा करय में त्रुटि:",
+    "PDF sharing is not supported on this device.": "एहि डिवाइस पर PDF साझा करब समर्थित नहि अछि।",
+    "Percentage Calculator Result": "प्रतिशत कैलकुलेटर परिणाम",
+    "Percentage Change": "प्रतिशत परिवर्तन",
+    "Percentage Decrease": "प्रतिशत कमी",
+    "Percentage Difference": "प्रतिशत अंतर",
+    "Percentage Increase": "प्रतिशत वृद्धि",
+    "Percentage of a Number": "कोनो संख्या क प्रतिशत",
+    "Please allow pop-ups in your browser to print the PDF.": "PDF प्रिंट करबाक लेल ब्राउज़र में पॉप-अप क अनुमति दियौ।",
+    "Please allow pop-ups to print the result.": "परिणाम प्रिंट करबाक लेल पॉप-अप क अनुमति दियौ।",
+    "Please enter a valid GST rate between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध GST दर दर्ज करू।",
+    "Please enter a valid LMP date.": "कृपया वैध LMP तिथि दर्ज करू।",
+    "Please enter a valid age between 5 and 120 years.": "कृपया 5 सँ 120 वर्ष क बीच वैध उमर दर्ज करू।",
+    "Please enter a valid amount.": "कृपया वैध राशि दर्ज करू।",
+    "Please enter a valid annual interest rate between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध वार्षिक ब्याज दर दर्ज करू।",
+    "Please enter a valid annual interest rate between 0% and 30%.": "कृपया 0% सँ 30% क बीच वैध वार्षिक ब्याज दर दर्ज करू।",
+    "Please enter a valid annual step-up rate between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध वार्षिक स्टेप-अप दर दर्ज करू।",
+    "Please enter a valid calculation date.": "कृपया वैध गणना तिथि दर्ज करू।",
+    "Please enter a valid custom reminder time.": "कृपया वैध कस्टम रिमाइंडर समय दर्ज करू।",
+    "Please enter a valid date of birth.": "कृपया वैध जन्म तिथि दर्ज करू।",
+    "Please enter a valid deposit amount greater than 0.": "कृपया 0 सँ बेसी वैध जमा राशि दर्ज करू।",
+    "Please enter a valid discount between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध छूट दर्ज करू।",
+    "Please enter a valid event date and time.": "कृपया वैध इवेंट तिथि आ समय दर्ज करू।",
+    "Please enter a valid expected return between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध अपेक्षित रिटर्न दर्ज करू।",
+    "Please enter a valid height between 100 and 250 cm.": "कृपया 100 सँ 250 सेमी क बीच वैध ऊँचाई दर्ज करू।",
+    "Please enter a valid interest rate between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध ब्याज दर दर्ज करू।",
+    "Please enter a valid investment period between 1 and 100 years.": "कृपया 1 सँ 100 वर्ष क बीच वैध निवेश अवधि दर्ज करू।",
+    "Please enter a valid loan amount greater than 0.": "कृपया 0 सँ बेसी वैध ऋण राशि दर्ज करू।",
+    "Please enter a valid loan tenure.": "कृपया वैध ऋण अवधि दर्ज करू।",
+    "Please enter a valid monthly RD deposit.": "कृपया वैध मासिक RD जमा राशि दर्ज करू।",
+    "Please enter a valid number.": "कृपया वैध संख्या दर्ज करू।",
+    "Please enter a valid original price.": "कृपया वैध मूल कीमत दर्ज करू।",
+    "Please enter a valid quantity.": "कृपया वैध मात्रा दर्ज करू।",
+    "Please enter both values.": "कृपया दुनू मान दर्ज करू।",
+    "Please enter custom event name.": "कृपया कस्टम इवेंट क नाम दर्ज करू।",
+    "Please enter the amount.": "कृपया राशि दर्ज करू।",
+    "Please enter the annual interest rate.": "कृपया वार्षिक ब्याज दर दर्ज करू।",
+    "Please enter the expected annual interest rate.": "कृपया अपेक्षित वार्षिक ब्याज दर दर्ज करू।",
+    "Please enter the expected annual return.": "कृपया अपेक्षित वार्षिक रिटर्न दर्ज करू।",
+    "Please enter the investment period.": "कृपया निवेश अवधि दर्ज करू।",
+    "Please enter the loan amount.": "कृपया ऋण राशि दर्ज करू।",
+    "Please enter the loan tenure.": "कृपया ऋण अवधि दर्ज करू।",
+    "Please enter the original price.": "कृपया मूल कीमत दर्ज करू।",
+    "Please enter valid dates.": "कृपया वैध तिथि सभ दर्ज करू।",
+    "Please enter valid discount rates between 0% and 100%.": "कृपया 0% सँ 100% क बीच वैध छूट दर सभ दर्ज करू।",
+    "Please enter valid numbers.": "कृपया वैध संख्या सभ दर्ज करू।",
+    "Please enter valid quantity slabs.": "कृपया वैध मात्रा स्लैब दर्ज करू।",
+    "Please enter your date of birth.": "कृपया अपन जन्म तिथि दर्ज करू।",
+    "Please enter your deposit amount.": "कृपया अपन जमा राशि दर्ज करू।",
+    "Please enter your monthly RD deposit.": "कृपया अपन मासिक RD जमा राशि दर्ज करू।",
+    "Please fill all required details.": "कृपया सभ आवश्यक विवरण भरू।",
+    "Please select both dates.": "कृपया दुनू तिथि चुनू।",
+    "Please select event date.": "कृपया इवेंट तिथि चुनू।",
+    "Please select event time.": "कृपया इवेंट समय चुनू।",
+    "Please select event type.": "कृपया इवेंट प्रकार चुनू।",
+    "Please select the calculation date.": "कृपया गणना तिथि चुनू।",
+    "Please select your dog's birth date.": "कृपया अपन कुकुरक जन्म तिथि चुनू।",
+    "Please verify your weight. Please enter a value between 20 and 300 kg.": "कृपया अपन वजन जाँचू। 20 सँ 300 किग्रा केँ बीच मान दर्ज करू।",
+    "Preparing PDF for printing...": "प्रिंट केँ लेल PDF तैयार कएल जा रहल अछि...",
+    "Preparing PDF for sharing...": "साझा करबाक लेल PDF तैयार कएल जा रहल अछि...",
+    "Preparing PDF...": "PDF तैयार कएल जा रहल अछि...",
+    "Preparing image...": "इमेज तैयार कएल जा रहल अछि...",
+    "Print failed:": "प्रिंट विफल भेल:",
+    "Print generation failed:": "प्रिंट तैयार करबा मे विफलता:",
+    "Result card not found.": "परिणाम कार्ड नहि भेटल।",
+    "Result copied successfully.": "परिणाम सफलतापूर्वक कॉपी भऽ गेल।",
+    "Result element not found.": "परिणाम तत्व नहि भेटल।",
+    "Retirement age must be between 1 and 100 years.": "रिटायरमेंट आयु 1 सँ 100 वर्ष केँ बीच होबाक चाही।",
+    "Retirement notification error:": "रिटायरमेंट सूचना त्रुटि:",
+    "Retirement reminder check failed:": "रिटायरमेंट रिमाइंडर जाँच विफल भेल:",
+    "Retirement result copied successfully.": "रिटायरमेंट परिणाम सफलतापूर्वक कॉपी भऽ गेल।",
+    "Share PDF error:": "PDF साझा करबा मे त्रुटि:",
+    "Share cancelled:": "साझा करब रद्द कएल गेल:",
+    "Share failed:": "साझा करब विफल भेल:",
+    "Sharing is not supported here, so the PDF was downloaded instead.": "एतय साझा करब समर्थित नहि अछि, ताहि लेल PDF डाउनलोड कऽ देल गेल।",
+    "Sharing is not supported here. Result copied instead.": "साझा करब समर्थित नहि अछि। एकर बदला मे परिणाम कॉपी कऽ देल गेल।",
+    "Unable to calculate pregnancy details.": "गर्भावस्था केँ विवरण गणना नहि कएल जा सकल।",
+    "Unable to calculate retirement date.": "रिटायरमेंट तिथि केँ गणना नहि कएल जा सकल।",
+    "Unable to convert the selected units.": "चुनल गेल इकाई सबहक रूपांतरण नहि कएल जा सकल।",
+    "Unable to copy result image. Please try again.": "परिणाम केँ इमेज कॉपी नहि भऽ सकल। कृपया फेर प्रयास करू।",
+    "Unable to copy the result image.": "परिणाम केँ इमेज कॉपी नहि भऽ सकल।",
+    "Unable to copy the result.": "परिणाम कॉपी नहि कएल जा सकल।",
+    "Unable to create PDF.": "PDF बनाओल नहि जा सकल।",
+    "Unable to create image.": "इमेज बनाओल नहि जा सकल।",
+    "Unable to download PDF.": "PDF डाउनलोड नहि कएल जा सकल।",
+    "Unable to generate PDF.": "PDF जेनरेट नहि कएल जा सकल।",
+    "Unable to open print preview.": "प्रिंट पूर्वावलोकन नहि खोलल जा सकल।",
+    "Unable to print the result.": "परिणाम प्रिंट नहि कएल जा सकल।",
+    "Unable to share PDF on this device.": "एहि डिवाइस पर PDF साझा नहि कएल जा सकल।",
+    "Unable to share PDF.": "PDF साझा नहि कएल जा सकल।",
+    "Unable to share the PDF.": "PDF साझा नहि कएल जा सकल।",
+    "Unable to share the pregnancy result.": "गर्भावस्था परिणाम साझा नहि कएल जा सकल।",
+    "Unable to share the result PDF.": "परिणाम PDF साझा नहि कएल जा सकल।",
+    "Use different discount rates according to quantity purchased.": "खरीदल गेल मात्रा केँ अनुसार अलग-अलग छूट दरक उपयोग करू।",
+    "Wellness Shield": "वेलनेस शील्ड",
+    "Young Dog": "युवा कुकुर",
+    "Your BMI is in a healthy range. Keep maintaining your lifestyle.": "अहाँक BMI स्वस्थ सीमा मे अछि। अपन जीवनशैली बनाओल राखू।",
+    "Length": "लंबाइ",
+    "Weight / Mass": "वजन / द्रव्यमान",
+    "Volume": "आयतन",
+    "Area": "क्षेत्रफल",
+    "Speed": "गति",
+    "Digital Data": "डिजिटल डेटा",
+    "Temperature": "तापमान",
+    "Remove GST": "GST हटाउ",
+    "What Percentage?": "कतेक प्रतिशत?",
+    "Single Discount": "एकल छूट",
+    "Quantity Discount": "मात्रा छूट",
+    "Select an event and date": "इवेंट आ तिथि चुनू",
+    "Select your date of birth to calculate": "गणना करबाक लेल अपन जन्म तिथि चुनू",
+    "Select a category, enter a value": "श्रेणी चुनू आ मान दर्ज करू",
+    "Select a category, choose the": "श्रेणी चुनू, फेर चुनू",
+    "FD maturity depends on deposit amount, interest rate,": "FD केँ परिपक्वता जमा राशि, ब्याज दर,",
+    "tenure and compounding frequency.": "अवधि आ चक्रवृद्धि आवृत्ति पर निर्भर करैत अछि।",
+    "Actual bank returns": "वास्तविक बैंक रिटर्न",
+    "may differ according to the bank's applicable rules.": "बैंकक लागू नियमक अनुसार अलग भऽ सकैत अछि।",
+    "Enter your deposit amount, expected rate, investment": "अपन जमा राशि, अपेक्षित दर आ निवेश",
+    "period and compounding frequency, then tap": "अवधि आ चक्रवृद्धि आवृत्ति दर्ज करू, फेर",
+    "Human-age conversion is only an": "मानव आयु मे रूपांतरण केवल एक",
+    "approximation.": "अनुमान अछि।",
+    "Regular veterinary care,": "नियमित पशु चिकित्सा देखभाल,",
+    "nutrition and exercise are important for": "पोषण आ व्यायाम अहाँक कुकुरक स्वास्थ्य लेल",
+    "your dog's health.": "महत्वपूर्ण अछि।",
+    "Select your dog's birth date and the": "अपन कुकुरक जन्म तिथि आ ओ",
+    "date on which you want to calculate": "तिथि चुनू जाहि पर अहाँ आयु केँ गणना",
+    "the age, then tap": "करब चाहैत छी, फेर",
+    "RD returns depend on the interest rate": "RD रिटर्न ओहि ब्याज दर पर निर्भर करैत अछि",
+    "offered by the bank or financial institution.": "जे बैंक वा वित्तीय संस्था द्वारा देल जाइत अछि।",
+    "The maturity amount shown here is an estimate.": "एतय देखाओल गेल परिपक्वता राशि एक अनुमान अछि।",
+    "Enter your monthly RD deposit,": "अपन मासिक RD जमा राशि,",
+    "expected interest rate and investment": "अपेक्षित ब्याज दर आ निवेश",
+    "period, then tap": "अवधि दर्ज करू, फेर",
+    "SIP returns are market-linked and the": "SIP रिटर्न बाजार सँ जुड़ल होइत अछि आ",
+    "calculated maturity value is an estimate": "गणना कैल गेल परिपक्वता राशि एक अनुमान अछि",
+    "based on the expected annual return entered.": "जे दर्ज कएल गेल अपेक्षित वार्षिक रिटर्न पर आधारित अछि।",
+    "Enter your SIP amount, frequency,": "अपन SIP राशि, आवृत्ति,",
+    "expected return and investment period,": "अपेक्षित रिटर्न आ निवेश अवधि,",
+    "Enter the values above and select the": "ऊपर देल गेल मान दर्ज करू आ ओ",
+    "calculation type that matches what you": "गणना प्रकार चुनू जे अहाँक",
+    "want to find.": "आवश्यकता केँ अनुरूप हो।",
+    "For sequential discounts, each discount": "क्रमिक छूट मे, प्रत्येक छूट",
+    "is calculated on the price remaining after": "पिछला छूटक बाद बचल कीमत पर",
+    "the previous discount.": "गणना कैल जाइत अछि।",
+    "Enter the price, choose the discount": "कीमत दर्ज करू, छूटक प्रकार चुनू",
+    "type and tap": "आ दबाउ",
+    "Select the GST rate, choose whether the": "GST दर चुनू आ निर्धारित करू जे",
+    "amount is GST-inclusive or exclusive,": "राशि मे GST शामिल अछि वा नहि,",
+    "and then calculate your complete GST": "आओर फेर अपन पूरा GST",
+    "breakdown.": "गणना करू।",
+    "Enter your amount, select the GST": "अपन राशि आओर GST दर दर्ज करू",
+    "rate and tap": "आओर दबाउ",
+    "Enter the loan amount, annual": "ऋण राशि आओर वार्षिक",
+    "interest rate and repayment": "ब्याज दर आओर पुनर्भुगतान",
+    "tenure to calculate your monthly": "अवधि दर्ज करू जाहि सँ अहाँक मासिक",
+    "EMI and complete repayment": "EMI आओर पूरा पुनर्भुगतान",
+    "summary.": "सारांश तैयार कएल जा सकए।",
+    "This wellness report is generated based on the": "ई वेलनेस रिपोर्ट उपयोगकर्ता द्वारा देल गेल",
+    "information provided by the user and is intended": "जानकारीक आधार पर तैयार कएल गेल अछि आओर",
+    "for educational and general wellness purposes only.": "केवल शैक्षिक आओर सामान्य वेलनेस उद्देश्य सभक लेल अछि।",
+    "It is not a substitute for professional medical": "ई पेशेवर चिकित्सकीय सलाह, निदान वा उपचारक",
+    "advice, diagnosis, or treatment.": "विकल्प नहि अछि।",
+    "This calculator provides an estimated pregnancy": "ई कैलकुलेटर दर्ज कएल गेल तिथिक आधार पर",
+    "timeline based on the date entered. It is intended": "गर्भावस्थाक अनुमानित समयरेखा प्रदान करैत अछि। ई",
+    "for general informational purposes only and should": "केवल सामान्य जानकारीक लेल अछि आओर एकरा",
+    "not be used as a substitute for medical diagnosis,": "चिकित्सकीय निदानक विकल्पक रूप में उपयोग नहि करबाक चाही,",
+    "treatment, or advice from a qualified healthcare": "आओर योग्य स्वास्थ्य सेवा",
+    "professional. Pregnancy dates can vary, and your": "पेशेवरक सलाह आवश्यक अछि। गर्भावस्थाक तिथि सब अलग भऽ सकैत अछि आओर",
+    "healthcare provider should be consulted for accurate": "सटीक आकलन आओर चिकित्सकीय निर्णय सभक लेल अपन",
+    "assessment and clinical decisions.": "स्वास्थ्य सेवा प्रदाता सँ परामर्श लेबाक चाही।",
+    "This result is calculated using the selected percentage method and the values entered above.": "ई परिणाम चयनित प्रतिशत विधि आओर ऊपर दर्ज कएल गेल मान सभक आधार पर गणना कएल गेल अछि।",
+    "Enter the values above and select the calculation type that matches what you want to find.": "ऊपर देल गेल मान दर्ज करू आओर अपन आवश्यकता अनुसार गणना प्रकार चुनू।",
+    "Calculate a percentage of a given number.": "देल गेल संख्या क प्रतिशत निकालू।",
+    "Find what percentage one number is of another.": "पता लगाउ जे एक संख्या दोसर संख्या क कतेक प्रतिशत अछि।",
+    "Calculate the percentage increase between two values.": "दू मानक बीच प्रतिशत वृद्धि क गणना करू।",
+    "Calculate the percentage decrease between two values.": "दू मानक बीच प्रतिशत कमी क गणना करू।",
+    "Find the percentage difference between two values.": "दू मानक बीच प्रतिशत अंतर पता करू।",
+    "Find the original value after a percentage change.": "प्रतिशत परिवर्तनक बाद मूल मान पता करू।",
+    "Percentage": "प्रतिशत",
+    "Number": "संख्या",
+    "Part": "भाग",
+    "Second Value": "दोसर मान",
+    "First Input": "पहिल इनपुट",
+    "Second Input": "दोसर इनपुट",
+    "is what percentage of": "कतेक प्रतिशत अछि",
+    "Preparing your PDF...": "अहाँक PDF तैयार कएल जा रहल अछि...",
+    "PDF sharing is not supported here. The PDF has been downloaded instead.": "एतय PDF साझा करब समर्थित नहि अछि। एकर बदला में PDF डाउनलोड कऽ देल गेल अछि।",
+    "Total value cannot be zero.": "कुल मान शून्य नहि भऽ सकैत अछि।",
+    "These values cannot be used for percentage difference.": "ई मान सभक उपयोग प्रतिशत अंतरक गणना लेल नहि कएल जा सकैत अछि।",
+    "Percentage change must be greater than -100%.": "प्रतिशत परिवर्तन -100% सँ बेसी हेबाक चाही।",
+    "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.": "ई एकटा अनुमानित प्रक्षेपण अछि। बैंक सभक अपन उत्पाद नियम, दर स्लैब, दिन-गणना पद्धति, कर/TDS नियम आओर अन्य लागू शर्त सभक कारण वास्तविक FD परिपक्वता अलग भऽ सकैत अछि।",
+    "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.": "GST क गणना चयनित GST दर आओर कर प्रकारक आधार पर कएल गेल अछि। अंतरराज्यीयक बदला में राज्य के भीतर वाला विकल्प चुनला पर CGST आओर SGST बराबर बाँटल जाइत अछि।",
+    "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.": "चयनित छूट विधि लागू करलाक बाद अंतिम कीमतक गणना कएल जाइत अछि। क्रमिक छूट एकक बाद एक लागू होइत अछि, जखन कि मात्रा छूट में लागू मात्रा स्लैबक उपयोग कएल जाइत अछि।",
+    "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.": "रूपांतरण मान मानक इकाई रूपांतरण संबंध सभक आधार पर निकालल जाइत अछि। जतऽ चयनित इकाई सभ में गोल कएल गेल रूपांतरण कारक उपयोग होइत अछि, ओतऽ परिणाम अनुमानित भऽ सकैत अछि।",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "ई कैलकुलेटर में देखाओल गेल मानव आयु समतुल्यता एकटा अनुमानित शैक्षिक आकलन अछि। विभिन्न नस्ल, आकार आओर अलग-अलग कुत्ता सभ में वास्तविक उम्र बढ़बाक गति बेसी भिन्न भऽ सकैत अछि।",
+    "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.": "SIP रिटर्न बाजार सँ जुड़ल होइत अछि आओर गणना कएल गेल परिपक्वता राशि दर्ज कएल गेल अपेक्षित वार्षिक रिटर्न पर आधारित एकटा अनुमान अछि।",
+    "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "ई कैलकुलेटर दर्ज कएल गेल अपेक्षित वार्षिक रिटर्नक आधार पर अनुमानित प्रक्षेपण दैत अछि। निवेश बाजार जोखिमक अधीन होबाक कारण वास्तविक म्यूचुअल फंड रिटर्न बेसी वा कम भऽ सकैत अछि।",
+    "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "RD रिटर्न बैंक वा वित्तीय संस्था द्वारा देल जाइवला ब्याज दर पर निर्भर करैत अछि। एतय देखाओल गेल परिपक्वता राशि एकटा अनुमान अछि।",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "ई कैलकुलेटर दर्ज कएल गेल मासिक जमा राशि आओर अपेक्षित वार्षिक ब्याज दरक आधार पर अनुमानित परिपक्वता राशि दैत अछि। ब्याज दर, चक्रवृद्धि पद्धति आओर लागू नियम सभक अनुसार वास्तविक परिपक्वता राशि अलग भऽ सकैत अछि।",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "ई वेलनेस रिपोर्ट उपयोगकर्ता द्वारा देल गेल जानकारीक आधार पर तैयार कएल गेल अछि आओर केवल शैक्षिक तथा सामान्य वेलनेस उद्देश्य सभक लेल अछि। ई पेशेवर चिकित्सकीय सलाह, निदान वा उपचारक विकल्प नहि अछि।",
+    "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "ई कैलकुलेटर दर्ज कएल गेल तिथिक आधार पर गर्भावस्थाक अनुमानित समयरेखा प्रदान करैत अछि। ई केवल सामान्य जानकारीक लेल अछि आओर एकरा चिकित्सकीय निदान, उपचार वा योग्य स्वास्थ्य सेवा पेशेवरक सलाहक विकल्पक रूप में उपयोग नहि करबाक चाही। गर्भावस्थाक तिथि सब अलग भऽ सकैत अछि, तेँ सटीक आकलन आओर चिकित्सकीय निर्णयक लेल अपन स्वास्थ्य सेवा प्रदाता सँ परामर्श करू।",
+    "The selected LMP date is in the future.": "चयनित अंतिम मासिक धर्मक तिथि भविष्य क अछि।",
+    "Pregnancy calculation will begin from the selected LMP date.": "गर्भावस्थाक गणना चयनित अंतिम मासिक धर्मक तिथि सँ शुरू होएत।",
+    "The estimated due date has been reached or passed.": "अनुमानित प्रसव तिथि आबि गेल अछि वा बीति चुकल अछि।",
+    "Pregnancy is currently ongoing.": "गर्भावस्था वर्तमान में जारी अछि।",
+    "Maintain a balanced diet": "संतुलित आहार बनौने राखू",
+    "Stay physically active": "शारीरिक रूप सँ सक्रिय रहू",
+    "Drink enough water": "पर्याप्त पानी पीउ",
+    "Sleep 7-8 hours daily": "प्रतिदिन 7-8 घंटा सुतू",
+    "Excellent": "उत्कृष्ट",
+    "Good": "निक",
+    "Fair": "ठीक",
+    "Needs Improvement": "सुधारक आवश्यकता",
+    "Keep maintaining your healthy lifestyle!": "अपन स्वस्थ जीवनशैली बनौने राखू!",
+    "Great progress! Keep improving every day.": "बड्ड निक प्रगति! हर दिन सुधार करैत रहू।",
+    "Small healthy changes can improve your wellness.": "छोट-छोट स्वस्थ बदलाव अहाँक वेलनेस में सुधार कऽ सकैत अछि।",
+    "Focus on balanced diet, activity and healthy habits.": "संतुलित आहार, गतिविधि आओर स्वस्थ आदत सभ पर ध्यान दियौ।",
+    "Extremely Underweight": "अत्यंत कम वजन",
+    "Severe Underweight": "गंभीर कम वजन",
+    "Obesity Class I": "मोटापा श्रेणी I",
+    "Obesity Class II": "मोटापा श्रेणी II",
+    "Obesity Class III": "मोटापा श्रेणी III",
+    "🥩 Increase protein intake": "🥩 प्रोटीनक सेवन बढ़ाउ",
+    "🥛 Add healthy calorie sources": "🥛 स्वस्थ कैलोरी स्रोत जोड़ू",
+    "💪 Include strength exercises": "💪 शक्ति बढ़ाबय वाला व्यायाम शामिल करू",
+    "🚶 Walk 8000-10000 steps": "🚶 8000-10000 कदम चलू",
+    "💧 Maintain hydration": "💧 शरीर में पर्याप्त पानी बनौने राखू",
+    "🥗 Choose balanced meals": "🥗 संतुलित भोजन चुनू",
+    "😴 Sleep 7-8 hours": "😴 7-8 घंटा सुतू",
+    "🥚 Eggs": "🥚 अंडा",
+    "🍗 Chicken": "🍗 चिकन",
+    "🐟 Fish": "🐟 माछली",
+    "🥗 Vegetables": "🥗 सब्जी सब",
+    "🌱 Plant Protein": "🌱 पौधा सभ सँ भेटय वाला प्रोटीन",
+    "🥜 Nuts & Seeds": "🥜 मेवा आओर बीज",
+    "🍎 Fruits": "🍎 फल",
+    "🥗 Dal & Vegetables": "🥗 दालि आओर सब्जी सब",
+    "🍚 Balanced Meals": "🍚 संतुलित भोजन",
+    "🥛 Milk / Curd": "🥛 दूध / दही",
+    "🥜 Nuts": "🥜 मेवा",
+    "Not Available": "उपलब्ध नहि",
+    "Early pregnancy": "प्रारंभिक गर्भावस्था",
+    "Middle pregnancy": "मध्य गर्भावस्था",
+    "Late pregnancy": "अंतिम गर्भावस्था",
+    "Year-Wise Projection": "वर्षवार प्रक्षेपण",
+    "Calculate\n": "गणना करू\n",
+    "Approximate Human Age": "अनुमानित मानव आयु",
+    "Convert": "रूपांतरित करू",
+    "Calculation Breakdown": "गणना विवरण",
+    "Born On": "जन्म तिथि",
+    "Days Remaining": "बचल दिन",
+    "Select an event and date to see countdown.": "उलटी गिनती देखबा लेल इवेंट आ तिथि चुनू।",
+    "First Trimester": "पहिल तिमाही",
+    "Second Trimester": "दोसर तिमाही",
+    "Third Trimester": "तेसर तिमाही",
+    "N/A": "N/A",
+    "Your retirement date has already passed.": "अहाँक रिटायरमेंट तिथि पहिने बीति चुकल अछि।",
+    "Retirement Day Message Text": "🎉 एह महत्वपूर्ण पड़ाव धरि पहुँचब पर हार्दिक बधाई! अहाँक रिटायरमेंट जीवन खुशी, नीक स्वास्थ्य, शांति आ अपन प्रियजन सभक संग ढेर रास सुन्दर पल सँ भरल रहय। अहाँक सुखद आ संतोषपूर्ण रिटायरमेंट जीवनक शुभकामना! 🌸",
+    "Select your date of birth to calculate your retirement date and remaining time.": "अपन जन्म तिथि चुनि कऽ रिटायरमेंट तिथि आ बचल समयक गणना करू।",
+    "Millimeter": "मिलीमीटर",
+    "Centimeter": "सेंटीमीटर",
+    "Meter": "मीटर",
+    "Kilometer": "किलोमीटर",
+    "Inch": "इंच",
+    "Foot": "फुट",
+    "Yard": "गज",
+    "Mile": "मील",
+    "Milligram": "मिलीग्राम",
+    "Gram": "ग्राम",
+    "Kilogram": "किलोग्राम",
+    "Tonne": "टन",
+    "Ounce": "औंस",
+    "Pound": "पाउंड",
+    "Stone": "स्टोन",
+    "Milliliter": "मिलीलीटर",
+    "Liter": "लीटर",
+    "CubicMeter": "घन मीटर",
+    "CubicCentimeter": "घन सेंटीमीटर",
+    "GallonUS": "अमेरिकी गैलन",
+    "QuartUS": "अमेरिकी क्वार्ट",
+    "PintUS": "अमेरिकी पिंट",
+    "CupUS": "अमेरिकी कप",
+    "SquareMillimeter": "वर्ग मिलीमीटर",
+    "SquareCentimeter": "वर्ग सेंटीमीटर",
+    "SquareMeter": "वर्ग मीटर",
+    "Hectare": "हेक्टेयर",
+    "SquareKilometer": "वर्ग किलोमीटर",
+    "SquareInch": "वर्ग इंच",
+    "SquareFoot": "वर्ग फुट",
+    "Acre": "एकड़",
+    "MeterPerSecond": "मीटर प्रति सेकंड",
+    "KilometerPerHour": "किलोमीटर प्रति घंटा",
+    "MilePerHour": "मील प्रति घंटा",
+    "Knot": "नॉट",
+    "FootPerSecond": "फुट प्रति सेकंड",
+    "Millisecond": "मिलीसेकंड",
+    "Byte": "बाइट",
+    "Kilobyte": "किलोबाइट",
+    "Megabyte": "मेगाबाइट",
+    "Gigabyte": "गीगाबाइट",
+    "Terabyte": "टेराबाइट",
+    "Bit": "बिट",
+    "Celsius": "सेल्सियस",
+    "Fahrenheit": "फ़ारेनहाइट",
+    "Kelvin": "केल्विन",
+    "Currency Placeholder": "e.g. 5,000",
+    "Percentage Placeholder": "%",
+    "Year/Month": "वर्ष/महीना",
+    "Example: My Wedding, Office Party...": "उदाहरण: हमर बियाह, ऑफिस पार्टी...",
+    "Increase your SIP amount every year by a fixed percentage.": "हर वर्ष एकटा निश्चित प्रतिशत सँ अपन SIP राशि बढ़ाऊ।",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP मे 10% वार्षिक स्टेप-अप होबा पर दोसर वर्ष {{amount2}}, तेसर वर्ष {{amount3}} आ आगू एहिना भऽ जाइत अछि।",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ई कैलकुलेटर दर्ज कैल गेल मासिक जमा राशि आ अपेक्षित वार्षिक ब्याज दरक आधार पर अनुमानित परिपक्वता राशि दैत अछि। ब्याज दर, जमा समय, बैंकक नियम, कर, दंड वा अन्य लागू शर्त सभक अनुसार वास्तविक परिपक्वता राशि अलग भऽ सकैत अछि।",
+    "Custom reminder must be between 1 and 1650 days.": "Custom reminder must be between 1 and 1650 days.",
+    "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.",
+    "PDF ready. Opening print preview...": "PDF ready. Opening print preview..."
+  },
+  "home": {
+    "hero_title": "अपन आयु के गणना करू",
+    "hero_highlight": "तुरंत आ सटीक रूप सँ",
+    "hero_description": "AgeVerseGlobal अहाँक सटीक आयु, तिथि अंतर, जन्मदिनक उलटी गिनती आ बहुत किछुक गणना करबा मे मदद करैत अछि।",
+    "calculate_age": "आयु के गणना करू",
+    "explore_calculators": "कैलकुलेटर देखू",
+    "preview_title": "🎂 आयु कैलकुलेटर",
+    "preview_units": "वर्ष • महीना • दिन",
+    "preview_years": "वर्ष",
+    "features_title": "AgeVerseGlobal कियैक चुनू?",
+    "features_subtitle": "अहाँक रोजमर्रा के तिथि गणना सभ लेल स्मार्ट टूल।",
+    "features": {
+      "exact_calculation": {
+        "title": "सटीक गणना",
+        "desc": "वर्ष, महीना आ दिन मे सटीक आयु प्राप्त करू।"
+      },
+      "multiple_calculators": {
+        "title": "एकाधिक कैलकुलेटर",
+        "desc": "आयु, तिथि अंतर, जन्मदिन आ बहुत किछु।"
+      },
+      "languages": {
+        "title": "अनेक भाषासभ",
+        "desc": "AgeVerseGlobal क उपयोग अपन पसंदीदा भाषा मे करू।"
+      },
+      "mobile_friendly": {
+        "title": "मोबाइल अनुकूल",
+        "desc": "हर डिवाइस पर आसानी सँ काज करैत अछि।"
+      },
+      "fast_result": {
+        "title": "तेज परिणाम",
+        "desc": "साफ इंटरफेसक संग तुरंत गणना।"
+      },
+      "privacy_focused": {
+        "title": "गोपनीयता केंद्रित",
+        "desc": "अहाँक तिथि सभ अहाँक डिवाइस पर सुरक्षित रहैत अछि।"
+      }
+    },
+    "testimonials_eyebrow": "✦ उपयोगकर्ता अनुभव",
+    "testimonials_title": "उपयोगकर्ता की कहैत छथि",
+    "testimonials_subtitle": "रोजमर्रा के उपयोग लेल बनाओल गेल सरल, सटीक आ भरोसेमंद गणना टूल।",
+    "verified_user": "सत्यापित उपयोगकर्ता",
+    "faq_eyebrow": "✦ सहायता आ जानकारी",
+    "faq_title": "अक्सर पूछल जाए वाला प्रश्न",
+    "faq_subtitle": "AgeVerseGlobal आ एकर स्मार्ट गणना टूलक बारे मे आवश्यक सभ जानकारी।",
+    "faq_footer_question": "की एखनो कोनो सवाल अछि?",
+    "faq_footer_action": "अपन जरूरतक टूल खोजबा लेल AgeVerseGlobal के कैलकुलेटर देखू।",
+    "testimonial_roles": {
+      "rahul": "AgeVerseGlobal उपयोगकर्ता",
+      "priya": "AgeVerseGlobal उपयोगकर्ता",
+      "amit": "AgeVerseGlobal उपयोगकर्ता"
+    },
+    "testimonial_reviews": {
+      "rahul": "बहुत सटीक आ उपयोग मे आसान आयु कैलकुलेटर। इंटरफेस साफ, आधुनिक आ पेशेवर लगैत अछि।",
+      "priya": "सरल इंटरफेस आ तुरंत परिणाम। हमरा विशेष रूप सँ ई पसंद आयल जे ई मोबाइल पर बहुत आसानी सँ काज करैत अछि।",
+      "amit": "AgeVerseGlobal तिथि गणना सभ केँ बहुत आसान बना दैत अछि। तेज परिणाम आ बहुत बेहतर अनुभव।"
+    },
+    "faqs": {
+      "q1": "AgeVerseGlobal की अछि?",
+      "a1": "AgeVerseGlobal आयु, तिथि आ रोजमर्रा के गणना के टूल के एक पेशेवर प्लेटफॉर्म अछि, जे तेज, सटीक आ आसानी सँ समझ मे आवय वाला परिणाम देबा लेल बनाओल गेल अछि।",
+      "q2": "आयु के गणना कतेक सटीक अछि?",
+      "a2": "AgeVerseGlobal उपयोगकर्ता द्वारा चुनल गेल तिथि सभ के आधार पर वर्ष, महीना आ दिन मे आयु के सटीक गणना करैत अछि।",
+      "q3": "की AgeVerseGlobal उपयोग करबा लेल निःशुल्क अछि?",
+      "a3": "हाँ। AgeVerseGlobal के मूल कैलकुलेटर निःशुल्क उपयोग कैल जा सकैत अछि।",
+      "q4": "की हमर व्यक्तिगत डेटा संग्रहीत कैल जाइत अछि?",
+      "a4": "AgeVerseGlobal केँ गोपनीयता केँ ध्यान मे राखि कऽ बनाओल गेल अछि। कैलकुलेटर मे दर्ज जानकारी के उपयोग माँगल गेल परिणाम तैयार करबा लेल कैल जाइत अछि आ एकरा अनावश्यक रूप सँ संग्रहीत नहि कैल जाइत।",
+      "q5": "की हम AgeVerseGlobal केँ मोबाइल पर उपयोग कऽ सकैत छी?",
+      "a5": "हाँ। AgeVerseGlobal मोबाइल फोन, टैबलेट आ डेस्कटॉप डिवाइस पर आसानी सँ काज करबा लेल बनाओल गेल अछि।",
+      "q6": "AgeVerseGlobal कतेक भाषा केँ सपोर्ट करत?",
+      "a6": "AgeVerseGlobal केँ कोनो निश्चित संख्या के भाषा धरि सीमित नहि कैल गेल अछि। नव भाषा सब ओकर locale translations जोड़ि कऽ शामिल कैल जा सकैत अछि, जखन कि calculator components केँ बदलबाक आवश्यकता नहि होयत।"
+    },
+    "new": "नव",
+    "preview_age_label": "आयु"
+  },
+  "language_name": "🇮🇳 मैथिली",
+  "result_meta": {
+    "generated_by": "AgeVerseGlobal द्वारा जनरेट कैल गेल",
+    "calculated_by": "AgeVerseGlobal द्वारा गणना कैल गेल"
+  },
+  "sip": {
+    "calculation_projection_stepup": "{{frequency}} SIP मे {{amount}} के निवेश, हर वर्ष {{stepUp}}% वृद्धि आ {{rate}}% के अनुमानित वार्षिक रिटर्न के आधार पर।",
+    "calculation_projection": "{{frequency}} SIP मे {{amount}} के निवेश {{years}} वर्ष लेल {{rate}}% के अनुमानित वार्षिक रिटर्न पर।"
+  },
+  "rd": {
+    "calculation_projection": "{{amount}} के मासिक RD जमा राशि केँ {{years}} वर्ष लेल {{rate}}% के वार्षिक ब्याज दर पर निवेश कैल गेल अछि, अनुमान लेल त्रैमासिक चक्रवृद्धि के उपयोग कैल गेल अछि।"
+  },
+  "Calculated by": "AgeVerseGlobal द्वारा गणना कैल गेल",
+  "Generated by": "AgeVerseGlobal द्वारा जनरेट कैल गेल",
+  "Health_profile": {
+    "Enter your name": "अपन नाम दर्ज करू",
+    "Hello": "नमस्ते",
+    "g": "ग्राम",
+    "L": "लीटर",
+    "kg": "किग्रा",
+    "day": "दिन",
+    "✨ Generated by": "✨ AgeVerseGlobal द्वारा जनरेट कैल गेल"
+  },
+  "pregnancy": {
+    "timeline_subtitle": "अपन गर्भावस्था के समय-सीमा आ अनुमानित प्रसव तिथि के गणना करू।",
+    "calculation_note_full": "ई कैलकुलेटर अहाँक अंतिम मासिक धर्म अवधि (LMP) के पहिल दिन आ मानक 40-सप्ताह के गर्भावस्था अवधि के आधार पर अनुमानित प्रसव तिथि के गणना करैत अछि।",
+    "empty_title": "गर्भावस्था कैलकुलेटर",
+    "empty_text": "अपन गर्भावस्था के समय-सीमा आ प्रसव तिथि के अनुमान लगेबा लेल अपन अंतिम मासिक धर्म अवधि के पहिल दिन दर्ज करू।",
+    "empty_hint": "अहाँक परिणाम एतय देखाओल जायत।",
+    "lmp_help": "अपन अंतिम मासिक धर्म अवधि के पहिल दिन दर्ज करू।"
+  },
+  "unit_converter": {
+    "subtitle": "लंबाई, वजन, तापमान, आयतन आ अन्य रोजमर्रा के इकाई सभ केँ जल्दी रूपांतरित करू।",
+    "result_note": "रूपांतरण मान मानक इकाई रूपांतरण संबंध सभ के आधार पर निकालल जाइत अछि। जतय चुनल गेल इकाई सभ मे दशमलव रूपांतरण आवश्यक होइत अछि, ओतय परिणाम अनुमानित भऽ सकैत अछि।",
+    "intro": "श्रेणी चुनू, मान दर्ज करू आ ओ इकाई सभ चुनू जकरा अहाँ रूपांतरित करब चाहैत छी।",
+    "instructions": "श्रेणी चुनू, फेर मूल इकाई आ ओ इकाई चुनू जइ मे अहाँ रूपांतरित करब चाहैत छी, ओकर बाद मान दर्ज करू। कैलकुलेटर मानक रूपांतरण कारक सभ के उपयोग कऽ परिवर्तित मान के गणना करैत अछि।"
+  },
+  "gst": {
+    "add_description": "GST के गणना करू आ ओकरा मूल राशि मे जोड़ू।",
+    "remove_description": "GST सहित राशि सँ मूल राशि आ GST पता लगाऊ।"
+  },
+  "discount": {
+    "single_description": "एकटा छूट लागू करबा के बाद अंतिम कीमत के गणना करू।",
+    "multiple_description": "दू वा तीनटा छूट एक के बाद एक लागू करू।"
+  },
+  "fd": {
+    "calculation_projection": "{{frequency}} चक्रवृद्धि के आधार पर {{years}} वर्ष लेल {{rate}}% के प्रभावी वार्षिक दर पर चक्रवृद्धि-ब्याज के अनुमान।"
+  },
+  "dog_age": {
+    "info_description": "मानव आयु के परिणाम एकटा अनुमानित आकलन अछि। नस्ल, आकार, आनुवंशिकी आ स्वास्थ्य के आधार पर कुकुर सभ के उमर बढ़बाक गति अलग-अलग होइत अछि।",
+    "calculation_text": "अहाँक कुकुर लगभग {{years}} वर्ष, {{months}} महीना आ {{days}} दिन के अछि, जे लगभग {{humanAge}} मानव वर्ष के बराबर अछि।",
+    "days_remaining_suffix": "अगिला जन्मदिन धरि लगभग एतेक दिन शेष अछि।",
+    "Puppy": "पिल्ला",
+    "Young Dog": "युवा कुकुर",
+    "Adult Dog": "वयस्क कुकुर",
+    "Senior Dog": "बुजुर्ग कुकुर"
+  },
+  "Approximately": "लगभग",
+  "Monthly": "मासिक",
+  "Quarterly": "त्रैमासिक",
+  "Half-Yearly": "छमाही",
+  "Annual": "वार्षिक",
+  "calculation_notes": {
+    "fd": "ई एकटा अनुमानित प्रक्षेपण अछि। बैंक सभ के अपन उत्पाद नियम, दर स्लैब, दिन-गणना पद्धति, कर/TDS नियम आ अन्य लागू शर्त सभ के कारण वास्तविक FD परिपक्वता अलग भऽ सकैत अछि।",
+    "rd": "ई कैलकुलेटर दर्ज कैल गेल मासिक जमा राशि आ अपेक्षित वार्षिक ब्याज दर के आधार पर अनुमानित परिपक्वता राशि दैत अछि। ब्याज दर, जमा समय, बैंक के नियम, कर, दंड वा अन्य लागू शर्त सभ के अनुसार वास्तविक परिपक्वता राशि अलग भऽ सकैत अछि।",
+    "dog_age": "ई कैलकुलेटर मे देखाओल गेल मानव आयु समतुल्यता एकटा अनुमानित शैक्षिक आकलन अछि। विभिन्न नस्ल, आकार आ अलग-अलग कुकुर सभ मे वास्तविक उमर बढ़बाक गति काफी भिन्न भऽ सकैत अछि।",
+    "emi": "EMI दर्ज ऋण राशि, वार्षिक ब्याज दर आ पुनर्भुगतान अवधि के आधार पर गणना कैल जाइत अछि। राउंडिंग, शुल्क, बीमा वा अन्य लागू शुल्क सभ के कारण वास्तविक ऋणदाता EMI अलग भऽ सकैत अछि।"
+  },
+  "bmi_gauge": {
+    "underweight_message": "संतुलित पोषण आ स्वस्थ वजन बढ़ेबा पर ध्यान दियौ।",
+    "healthy_message": "अहाँक BMI स्वस्थ सीमा मे अछि। अपन जीवनशैली बनौने राखू।",
+    "overweight_message": "शारीरिक गतिविधि आ संतुलित कैलोरी सेवन पर ध्यान दियौ।",
+    "obesity_message": "नियमित शारीरिक गतिविधि आ स्वस्थ खान-पान के आदत अपनेबाक सलाह देल जाइत अछि।"
+  },
+  "about_page": {
+    "eyebrow": "AgeVerseGlobal के बारे मे",
+    "title": "AgeVerseGlobal के बारे मे",
+    "intro": "AgeVerseGlobal सरल, विश्वसनीय आ आसानी सँ समझ मे आवय बला रोजमर्रा के गणना सभ लेल सोचि-समझि कऽ बनाओल गेल प्लेटफॉर्म अछि।",
+    "mission_title": "हमर उद्देश्य",
+    "mission_text": "हमर उद्देश्य सुव्यवस्थित टूल सभ के माध्यम सँ रोजमर्रा के गणना सभ केँ स्पष्ट, आसान आ सुविधाजनक बनेबाक अछि, जे हर डिवाइस पर सरलता सँ उपयोग कैल जा सकय।",
+    "tools_eyebrow": "हमर टूल सभ",
+    "tools_title": "AgeVerseGlobal की प्रदान करैत अछि",
+    "tools_text": "AgeVerseGlobal अलग-अलग रोजमर्रा के जरूरत सभ लेल उपयोगी कैलकुलेटर एके ठाम उपलब्ध करबैत अछि।",
+    "category_age": "उम्र, तारीख सभ के अंतर, इवेंट आ रिटायरमेंट टाइमलाइन के स्पष्ट गणना करू।",
+    "category_health": "BMI, BMR, कैलोरी, पोषण आ पानि के जरूरत जकाँ उपयोगी स्वास्थ्य संबंधी गणना सभ देखू।",
+    "category_family": "गर्भावस्था के टाइमलाइन सहित परिवार सँ जुड़ल उपयोगी टूल।",
+    "category_utility": "कन्वर्जन, प्रतिशत, GST, EMI, डिस्काउंट आ निवेश लेल रोजमर्रा के यूटिलिटी आ वित्तीय कैलकुलेटर।",
+    "category_pet": "अहाँक कुकुर के आयु आ मानव-आयु के अनुमान लेल एकटा सरल शैक्षिक टूल।",
+    "why_eyebrow": "AgeVerseGlobal किएक",
+    "why_title": "रोजमर्रा के उपयोग लेल बनाओल गेल",
+    "why_text": "AgeVerseGlobal स्पष्टता, सुविधा आ सभ डिवाइस पर एक समान अनुभव पर ध्यान दैत अछि।",
+    "accurate_title": "सोचि-समझि कऽ कैल गेल गणना सभ",
+    "accurate_text": "हमर कैलकुलेटर स्पष्ट गणना विधि सभ के उपयोग करैत अछि आ परिणाम सभ केँ आसानी सँ समझ मे आवय वाला प्रारूप मे प्रस्तुत करैत अछि।",
+    "simple_title": "सरल अनुभव",
+    "simple_text": "साफ इंटरफेस अहाँ केँ जानकारी जल्दी दर्ज करबा आ बिना अनावश्यक जटिलता के परिणाम समझबा मे मदद करैत अछि।",
+    "privacy_title": "गोपनीयता पर केंद्रित",
+    "privacy_text": "AgeVerseGlobal गोपनीयता केँ ध्यान मे राखि कऽ बनाओल गेल अछि आ अनावश्यक जानकारी एकत्र करबा केँ कम करबाक प्रयास करैत अछि।",
+    "languages_title": "बहुभाषी अनुभव",
+    "languages_text": "AgeVerseGlobal अनेक भाषा सभ के समर्थन करैत अछि ताकि उपयोगकर्ता अपन सुविधाजनक भाषा मे एकर टूल इस्तेमाल कऽ सकथि।",
+    "cta_title": "गणना लेल तैयार छी?",
+    "cta_text": "AgeVerseGlobal के कैलकुलेटर देखू आ अपन जरूरत के टूल खोजू।",
+    "cta_button": "कैलकुलेटर देखू"
+  },
+  "contact_page": {
+    "eyebrow": "AgeVerseGlobal सँ संपर्क करू",
+    "title": "AgeVerseGlobal सँ संपर्क करू",
+    "intro": "हम अहाँक प्रतिक्रिया, सुझाव आ प्रश्न सभ केँ महत्व दैत छी। अहाँक राय AgeVerseGlobal के अनुभव केँ बेहतर बनेबा मे हमर मदद करैत अछि।",
+    "feedback_title": "प्रतिक्रिया आ सुझाव",
+    "feedback_text": "हमरा बताऊ जे अहाँ केँ की नीक लगैत अछि, की बेहतर कैल जा सकैत अछि वा अगिला कोन कैलकुलेटर होबाक चाही।",
+    "support_title": "कैलकुलेटर सहायता",
+    "support_text": "यदि अहाँ केँ गणना, प्रदर्शन वा उपयोग मे कोनो समस्या देखाइत अछि, तँ कृपया संबंधित जानकारी साझा करू ताकि ओकर समीक्षा कैल जा सकय।",
+    "contact_title": "सामान्य पूछताछ",
+    "contact_text": "AgeVerseGlobal, एकर कैलकुलेटर वा वेबसाइट सँ जुड़ल सामान्य प्रश्नक लेल अहाँ AgeVerseGlobal टीम सँ संपर्क कऽ सकैत छी।",
+    "email_title": "संपर्क करू",
+    "email_text": "प्रश्न, प्रतिक्रिया वा सहायता अनुरोधक लेल आधिकारिक AgeVerseGlobal संपर्क ईमेलक उपयोग करू।",
+    "email_placeholder": "contact@ageverse.global",
+    "cta_title": "AgeVerseGlobal केँ बेहतर बनेबा मे मदद करबा लेल धन्यवाद।",
+    "cta_text": "अहाँक प्रतिक्रिया हमरा केँ बेहतर आ बेसी उपयोगी गणना अनुभव बनेबा मे मदद करैत अछि।",
+    "cta_button": "AgeVerseGlobal पर वापस जाऊ",
+    "form_title": "हमरा सँ संपर्क करू",
+    "form_intro": "अपन प्रश्न, सुझाव अथवा सहायता अनुरोध पठाउ। हम अहाँक संदेशक समीक्षा कऽ आवश्यकता अनुसार उत्तर देब।",
+    "open_form": "संपर्क फॉर्म खोलू",
+    "name": "नाम",
+    "email": "ईमेल",
+    "subject": "विषय",
+    "message": "संदेश",
+    "submit": "संदेश पठाउ",
+    "sending": "पठाओल जा रहल अछि…",
+    "success": "अहाँक संदेश सफलतापूर्वक पठा देल गेल अछि।",
+    "error": "एखन अहाँक संदेश पठाओल नहि जा सकल। फेर प्रयास करू।",
+    "close": "बन्द करू",
+    "page_label": "पृष्ठ",
+    "name_required": "कृपया अपन नाम दर्ज करू।",
+    "email_required": "कृपया अपन ईमेल पता दर्ज करू।",
+    "email_invalid": "कृपया मान्य ईमेल पता दर्ज करू।",
+    "subject_required": "कृपया विषय दर्ज करू।",
+    "message_required": "कृपया अपन संदेश दर्ज करू।",
+    "privacy_notice": "अहाँक पूछताछक उत्तर देबाक लेल हम केवल अहाँक नाम आ ईमेल लैत छी। विज्ञापनक लेल एहि जानकारीक बिक्री वा साझेदारी नहि करैत छी।",
+    "subject_general_enquiry": "सामान्य पूछताछ",
+    "subject_calculator_issue": "कैलकुलेटर समस्या",
+    "subject_calculation_result_issue": "गणना / परिणामक समस्या",
+    "subject_translation_language_issue": "अनुवाद / भाषा समस्या",
+    "subject_website_problem": "वेबसाइट समस्या",
+    "subject_suggestion": "सुझाव",
+    "subject_business_partnership": "व्यवसाय / साझेदारी",
+    "subject_other": "दोसर"
+  },
+  "privacy_page": {
+    "eyebrow": "गोपनीयता",
+    "title": "गोपनीयता नीति",
+    "intro": "ई गोपनीयता नीति बतबैत अछि जे AgeVerseGlobal अपन वेबसाइट आ कैलकुलेटरक संबंध मे जानकारी, गोपनीयता आ डेटा के उपयोग केँ कोना संभालैत अछि।",
+    "information_title": "अहाँ द्वारा दर्ज कएल गेल जानकारी",
+    "information_text": "कैलकुलेटर मे दर्ज जानकारीक उपयोग अनुरोधित गणना प्रदान करबा लेल कएल जाइत अछि आ कैलकुलेटर द्वारा एकरा अनावश्यक रूप सँ संग्रहित करबाक उद्देश्य नहि अछि।",
+    "data_storage_title": "डेटा संग्रहण",
+    "data_storage_text": "AgeVerseGlobal अनावश्यक जानकारीक संग्रहण केँ कम करबाक प्रयास करैत अछि। होस्टिंग, सुरक्षा, एनालिटिक्स वा अन्य वेबसाइट इंफ्रास्ट्रक्चर सेवाएँ किछु तकनीकी वा सेवा-संबंधी जानकारी संसाधित कऽ सकैत अछि।",
+    "analytics_title": "एनालिटिक्स",
+    "analytics_text": "AgeVerseGlobal वेबसाइटक उपयोग केँ बुझबा, प्रदर्शन सुधारबा आ सुधारक आवश्यकता वाला क्षेत्रक पहिचान करबा लेल एनालिटिक्स टूलक उपयोग कऽ सकैत अछि।",
+    "cookies_title": "कुकीज आ समान तकनीक",
+    "cookies_text": "वेबसाइट कार्यक्षमता, प्राथमिकता, एनालिटिक्स वा अन्य वैध वेबसाइट उद्देश्यक लेल आवश्यक होएब पर कुकीज वा समान तकनीकक उपयोग कऽ सकैत अछि।",
+    "third_party_title": "तृतीय-पक्ष सेवाएँ",
+    "third_party_text": "AgeVerseGlobal होस्टिंग, एनालिटिक्स, सुरक्षा आ अन्य वेबसाइट सुविधाक लेल तृतीय-पक्ष सेवा पर निर्भर कऽ सकैत अछि। एहन सेवाएँ अपन नीतियक अनुसार जानकारी संसाधित कऽ सकैत अछि।",
+    "security_title": "सुरक्षा",
+    "security_text": "AgeVerseGlobal वेबसाइटक सुरक्षा आ विश्वसनीयता बनाए रखबा लेल उचित उपाय करैत अछि, मुदा कोनो भी इंटरनेट सेवा पूर्ण सुरक्षाक गारंटी नहि दऽ सकैत अछि।",
+    "changes_title": "ई नीति मे बदलाव",
+    "changes_text": "वेबसाइट, सेवाएँ वा लागू आवश्यकतामे बदलाव केँ दर्शेबा लेल ई गोपनीयता नीति समय-समय पर अपडेट कएल जा सकैत अछि।",
+    "contact_title": "गोपनीयता संबंधी प्रश्न",
+    "contact_text": "ई गोपनीयता नीति वा AgeVerseGlobal क गोपनीयता प्रथासँ जुड़ल प्रश्नक लेल AgeVerseGlobal टीम सँ संपर्क करू।",
+    "advertising_title": "विज्ञापन आ Google AdSense",
+    "advertising_text": "AgeVerseGlobal विज्ञापन देखाबय लेल Google AdSense आ अन्य तृतीय-पक्ष विज्ञापन सेवाक उपयोग कऽ सकैत अछि। ई सेवा सभ उपयोगकर्ताक रुचि आ गतिविधिक आधार पर विज्ञापन उपलब्ध कराबय, ओकर मापन करय आ व्यक्तिगत बनाबय लेल कुकी आ समान तकनीकक उपयोग कऽ सकैत अछि। Google एहि वेबसाइट आ अन्य वेबसाइट पर उपयोगकर्ताक भ्रमणक आधार पर विज्ञापन देखाबय लेल विज्ञापन कुकीक उपयोग कऽ सकैत अछि। उपयोगकर्ता Google Ads Settings कऽ माध्यम सँ व्यक्तिगत विज्ञापनक प्रबंधन अथवा ओकरा बंद कऽ सकैत छथि। तृतीय-पक्ष विज्ञापन प्रदाताक अपन गोपनीयता नीति आ प्रक्रिया भऽ सकैत अछि।"
+  },
+  "terms_page": {
+    "eyebrow": "नियम आ शर्त",
+    "title": "नियम आ शर्त",
+    "intro": "ई नियम आ शर्त AgeVerseGlobal वेबसाइट आ ओकर कैलकुलेटरक उपयोगक सामान्य नियम केँ बतबैत अछि।",
+    "calculator_title": "कैलकुलेटरक उपयोग",
+    "calculator_text": "AgeVerseGlobal कैलकुलेटर सामान्य सूचना आ शैक्षिक उद्देश्यक लेल उपलब्ध कराओल जाइत अछि। अहाँ द्वारा दर्ज जानकारी आ प्राप्त परिणामक समीक्षा करबाक जिम्मेदारी अहाँक अछि।",
+    "accuracy_title": "परिणाम आ सटीकता",
+    "accuracy_text": "AgeVerseGlobal उपयोगी आ विश्वसनीय गणना प्रदान करबाक प्रयास करैत अछि, मुदा मान्यता, राउंडिंग, इनपुटक गुणवत्ता वा वास्तविक परिस्थितिक अंतरक कारण परिणाम अलग भऽ सकैत अछि।",
+    "health_title": "स्वास्थ्य संबंधी टूल",
+    "health_text": "स्वास्थ्य संबंधी कैलकुलेटरक परिणाम केवल जानकारी लेल अछि आ पेशेवर चिकित्सकीय सलाह, निदान वा उपचारक विकल्प नहि अछि।",
+    "financial_title": "वित्तीय टूल",
+    "financial_text": "वित्तीय कैलकुलेटरक परिणाम सामान्य सूचनाक लेल अनुमान अछि आ एकरा वित्तीय, निवेश, बैंकिंग वा कर सलाह नहि मानल जेबाक चाही।",
+    "pet_title": "पालतू जानवरसँ जुड़ल टूल",
+    "pet_text": "पालतू जानवरक कैलकुलेटरक परिणाम अनुमानित शैक्षिक जानकारी अछि आ योग्य पशु-चिकित्सकक सलाहक विकल्प नहि अछि।",
+    "availability_title": "वेबसाइटक उपलब्धता",
+    "availability_text": "AgeVerseGlobal आवश्यकता अनुसार वेबसाइटक सुविधा वा कैलकुलेटर केँ अपडेट, संशोधित, निलंबित वा बंद कऽ सकैत अछि।",
+    "responsibility_title": "उपयोगकर्ताक जिम्मेदारी",
+    "responsibility_text": "उपयोगकर्ता वेबसाइटक उचित उपयोग करबा आ आवश्यकता होएब पर उपयुक्त पेशेवर वा आधिकारिक स्रोतक आधार पर निर्णय लेबा लेल जिम्मेदार छथि।",
+    "changes_title": "ई नियम मे बदलाव",
+    "changes_text": "ई नियम आ शर्त समय-समय पर अपडेट कएल जा सकैत अछि। अपडेटक बाद AgeVerseGlobal क उपयोग जारी रखब संशोधित नियमक स्वीकृति मानल जाइत अछि।",
+    "contact_title": "संपर्क",
+    "contact_text": "ई नियम आ शर्तसँ जुड़ल प्रश्नक लेल AgeVerseGlobal टीम सँ संपर्क करू।"
+  },
+  "disclaimer_page": {
+    "eyebrow": "अस्वीकरण",
+    "title": "अस्वीकरण",
+    "intro": "AgeVerseGlobal द्वारा प्रदान कएल गेल जानकारी आ कैलकुलेटरक परिणाम सामान्य सूचना आ शैक्षिक उद्देश्यक लेल अछि।",
+    "notice_title": "महत्वपूर्ण सूचना",
+    "notice_text": "कैलकुलेटरक परिणाम अनुमानक रूप मे लेल जेबाक चाही। ई आधिकारिक संस्थान, पेशेवर, बैंक, स्वास्थ्य सेवा प्रदाता वा अन्य अधिकृत स्रोतक परिणामसँ अलग भऽ सकैत अछि।",
+    "accuracy_title": "गणनाक सटीकता",
+    "accuracy_text": "AgeVerseGlobal निर्धारित गणना विधिक उपयोग करैत अछि, मुदा राउंडिंग, मान्यता, इनपुट आ वास्तविक नियम वा परिस्थितिक अंतरक कारण परिणाम बदलि सकैत अछि।",
+    "health_title": "स्वास्थ्य संबंधी जानकारी",
+    "health_text": "स्वास्थ्य संबंधी गणना चिकित्सकीय सलाह नहि अछि आ एकर उपयोग कोनो बीमारीक निदान, उपचार वा रोकथाम करबा लेल नहि कएल जेबाक चाही। आवश्यकता होएब पर योग्य स्वास्थ्य पेशेवर सँ सलाह लिअ।",
+    "financial_title": "वित्तीय जानकारी",
+    "financial_text": "वित्तीय गणना अनुमान अछि आ वित्तीय, निवेश, बैंकिंग वा कर सलाह नहि अछि। वास्तविक परिणाम लागू दर, नीति, शुल्क, कर आ अन्य परिस्थितिक अनुसार अलग भऽ सकैत अछि।",
+    "pet_title": "पालतू जानवरक जानकारी",
+    "pet_text": "कुकुरक उम्र आ अन्य पालतू जानवरसँ जुड़ल कैलकुलेटर अनुमानित शैक्षिक परिणाम दैत अछि आ पेशेवर पशु-चिकित्सकीय सलाहक विकल्प नहि अछि।",
+    "external_title": "बाहरी सेवाएँ आ लिंक",
+    "external_text": "AgeVerseGlobal बाहरी सेवाक उपयोग कऽ सकैत अछि वा तृतीय-पक्ष संसाधनसँ लिंक कऽ सकैत अछि। AgeVerse बाहरी सेवाक सामग्री, नीति वा उपलब्धता केँ नियंत्रित नहि करैत अछि।",
+    "responsibility_title": "उपयोगकर्ताक जिम्मेदारी",
+    "responsibility_text": "महत्वपूर्ण जानकारीक आधार पर निर्णय लेबासँ पहिने उपयोगकर्ताकेँ उपयुक्त आधिकारिक, पेशेवर वा विश्वसनीय स्रोतसँ जानकारी सत्यापित करबाक चाही।",
+    "contact_title": "प्रश्न",
+    "contact_text": "ई अस्वीकरणसँ जुड़ल प्रश्नक लेल AgeVerse टीम सँ संपर्क करू।"
+  },
+  "not_found_page": {
+    "eyebrow": "404",
+    "title": "पेज नहि भेटल",
+    "description": "जाहि पेज केँ अहाँ खोजि रहल छी, से मौजूद नहि अछि वा ओकरा स्थानांतरित कऽ देल गेल अछि।",
+    "home_button": "होम पर जाऊ"
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "नोटिफिकेशनक अनुमति ब्लॉक कएल गेल अछि। रिमाइंडर प्राप्त करबाक लेल कृपया AgeVerseGlobal लेल नोटिफिकेशनक अनुमति दिअ।",
+  "Event reminder service is not configured.": "इवेंट रिमाइंडर सेवा कॉन्फिगर नहि कएल गेल अछि।",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "उदाहरण: {{amount1}} के मासिक SIP मे 10% वार्षिक स्टेप-अप होबा पर दोसर वर्ष {{amount2}}, तेसर वर्ष {{amount3}} आ आगू एहिना भऽ जाइत अछि।",
+  "seo_content": {
+    "event_calculator": {
+      "name": "EventCalculatorSEOContent",
+      "eyebrow": "कार्यक्रम तिथि मार्गदर्शिका",
+      "title": "इवेंट कैलकुलेटर: खास तिथि तक बचल समय जानू",
+      "intro": "कार्यक्रमक तिथि भरि खास दिन वा तय कार्यक्रम तक बाँचल समय देखू।",
+      "sections": [
+        [
+          "इवेंट कैलकुलेटर की अछि?",
+          [
+            "कार्यक्रमक तिथि भरि खास दिन वा तय कार्यक्रम तक बाँचल समय देखू।"
+          ]
+        ],
+        [
+          "इवेंट कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।"
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "जन्मदिन, वर्षगाँठ, यात्रा आ मुलाकातक योजना बनबैत समय उपयोगी।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की हम एकर उपयोग जन्मदिन लेल कऽ सकैत छी?",
+          "हँ, ई जन्मदिन, सालगिरह आ दोसर अवसर सभ लेल उपयोगी अछि।"
+        ],
+        [
+          "की हम बीतल घटना के तारीख गणना कऽ सकैत छी?",
+          "जखन कैलकुलेटर बीतल तारीख चुनबाक अनुमति दैत अछि, तखन परिणाम चुनल तारीख पर आधारित होइत अछि।"
+        ],
+        [
+          "की तारीख ध्यान सँ जाँचबाक चाही?",
+          "हँ। गलत दिन, महीना वा साल परिणाम बदलि सकैत अछि।"
+        ],
+        [
+          "की ई रिमाइंडरक जगह लैत अछि?",
+          "नहि। सूचना चाही तँ कैलेंडरमे रिमाइंडर लगाउ।"
+        ],
+        [
+          "की ई निःशुल्क अछि?",
+          "हँ, AgeVerseGlobal केर ऑनलाइन साधन कैलकुलेटर शुल्क बिना उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ],
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "रिटायरमेंट कैलकुलेटर",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "retirement": {
+      "name": "RetirementCalculatorSEOContent",
+      "eyebrow": "सेवानिवृत्ति योजना मार्गदर्शिका",
+      "title": "रिटायरमेंट कैलकुलेटर: अनुमानित सेवानिवृत्ति तिथि आ बचल समय जानू",
+      "intro": "वर्तमान बचत, भविष्यक बचत आ लक्ष्य देखिकए सेवानिवृत्तिक योजना बनाउ।",
+      "sections": [
+        [
+          "रिटायरमेंट कैलकुलेटर की अछि?",
+          [
+            "वर्तमान बचत, भविष्यक बचत आ लक्ष्य देखिकए सेवानिवृत्तिक योजना बनाउ।",
+            "वास्तविक सेवानिवृत्ति नियोक्ता कें नीति, सेवा नियम, न्यायक्षेत्र आ व्यक्तिगत परिस्थितिक पर निर्भर कयर सकय छै."
+          ]
+        ],
+        [
+          "रिटायरमेंट कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "अपन नियोक्ता या संबंधित प्राधिकारी सं अंतिम तिथि कें पुष्टि करूं, खासकर अगर सेवानिवृत्ति महीना कें अंत या सेवा नियमक कें द्वारा निर्धारित कैल गेल छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "अनुमान मान्यता पर निर्भर करैत अछि; निवेश लाभ निश्चित नहि होइत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "गणना कएल तारीख आधिकारिक अछि?",
+          "नहि। लागू तारीख अपन नियोक्ता वा संबंधित अधिकारी सँ पक्का करू।"
+        ],
+        [
+          "नौकरी शुरू करबाक तारीख किएक माँगल जाइत अछि?",
+          "ई तारीख कैलकुलेटर केँ नौकरी-संबंधी संदर्भ दैत अछि।"
+        ],
+        [
+          "की नियम तारीख बदलि सकैत अछि?",
+          "हँ। नियोक्ताक नीति आ लागू नियम अलग गणना-पद्धति निर्धारित कऽ सकैत अछि।"
+        ],
+        [
+          "की हम दोसर सेवानिवृत्ति उमेर चुनि सकैत छी?",
+          "कैलकुलेटरमे उपलब्ध सेवानिवृत्ति-उमेर विकल्पक उपयोग करू।"
+        ],
+        [
+          "की ई वित्तीय सलाह अछि?",
+          "नहि। ई तारीख योजना बनाबय लेल साधन अछि, वित्तीय वा कानूनी सलाह नहि।"
+        ]
+      ],
+      "related": [
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ],
+        [
+          "इवेंट कैलकुलेटर",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "sip": {
+      "name": "SipSEOContent",
+      "eyebrow": "SIP निवेश मार्गदर्शिका",
+      "title": "SIP कैलकुलेटर: नियमित निवेश, अनुमानित लाभ आ मैच्योरिटी राशि निकालू",
+      "intro": "नियमित निवेश राशि आ अवधि देलाक बाद अनुमानित निवेश मूल्य देखू।",
+      "sections": [
+        [
+          "SIP कैलकुलेटर की अछि?",
+          [
+            "नियमित निवेश राशि आ अवधि देलाक बाद अनुमानित निवेश मूल्य देखू।",
+            "म्यूचुअल फंड कें रिटर्न बाजार सं जुड़ल छै आ गारंटी नहि छै."
+          ]
+        ],
+        [
+          "SIP कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "वास्तविक परिणाम अलग-अलग होयत छै, कियाकि बाजार मे उतार-चढ़ाव होयत छै आ लागत या कर लागू भ सकय छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "वास्तविक लाभ बाजारक स्थिति आ मान्यता अनुसार बदलि सकैत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की SIP केर रिटर्न पक्का होइत अछि?",
+          "नहि। म्यूचुअल फंडक रिटर्न बाजार पर निर्भर करैत अछि आ सकारात्मक वा नकारात्मक भऽ सकैत अछि।"
+        ],
+        [
+          "हम कोन रिटर्न दर भरब?",
+          "अलग-अलग स्थिति जाँचबाक लेल अनुमानित दर भरू; ई गारंटी नहि अछि।"
+        ],
+        [
+          "की कर आ शुल्क शामिल अछि?",
+          "नहि, कर आ शुल्क शामिल नहि अछि। एकर अलग गणना कएल जा सकैत अछि।"
+        ],
+        [
+          "की बेसी समय अवधि परिणाम बदलि सकैत अछि?",
+          "हँ। बेसी योगदान आ अनुमानित रिटर्न लागू होयबाक बेसी समय सँ अनुमान बदलि सकैत अछि।"
+        ],
+        [
+          "की ई निवेश सलाह अछि?",
+          "नहि। ई अनुमान लगाबय लेल साधन अछि, व्यक्तिगत निवेश सलाह नहि।"
+        ]
+      ],
+      "related": [
+        [
+          "FD कैलकुलेटर",
+          "/utility/fd-calculator"
+        ],
+        [
+          "RD कैलकुलेटर",
+          "/utility/rd-calculator"
+        ],
+        [
+          "EMI कैलकुलेटर",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "percentage": {
+      "name": "PercentageSEOContent",
+      "eyebrow": "प्रतिशत गणना मार्गदर्शिका",
+      "title": "प्रतिशत कैलकुलेटर: प्रतिशत, वृद्धि आ कमी की गणना करू",
+      "intro": "कुल मान आ प्रतिशत देलाक बाद भागक राशि वा प्रतिशत निकालू।",
+      "sections": [
+        [
+          "प्रतिशत कैलकुलेटर की अछि?",
+          [
+            "कुल मान आ प्रतिशत देलाक बाद भागक राशि वा प्रतिशत निकालू।",
+            "Percentages are used in discounts, marks, budgets, taxes and comparisons."
+          ]
+        ],
+        [
+          "प्रतिशत कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "एक मान के दोसर के प्रतिशत के रूप में व्यक्त करय लेल भाग के समग्रता स विभाजित करू आ 100 स गुणा करू, समग्रता शून्य नै हेबाक चाही।"
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "मूल्य, अंक, आँकड़ा आ दैनिक तुलना लेल उपयोगी।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "ककरो संख्याक X प्रतिशत कोना निकालब?",
+          "संख्या केँ X सँ गुणा करू आ परिणाम केँ 100 सँ भाग करू।"
+        ],
+        [
+          "एक संख्या दोसर संख्याक कतेक प्रतिशत अछि, ई कोना पता करब?",
+          "जँ कुल शून्य नहि अछि तँ भाग केँ कुल सँ भाग करू आ 100 सँ गुणा करू।"
+        ],
+        [
+          "की हम प्रतिशत वृद्धि निकालि सकैत छी?",
+          "संबंधित विकल्प उपलब्ध हो तँ ओकर उपयोग करू, नहि तँ बदलाव केँ मूल मान सँ तुलना करू।"
+        ],
+        [
+          "उत्तरमे दशमलव किएक अछि?",
+          "किछु गणना भिन्नात्मक परिणाम दैत अछि; राउंडिंग देखाओल गेल सटीकता पर निर्भर करैत अछि।"
+        ],
+        [
+          "AgeVerseGlobal पर प्रतिशत कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal प्रतिशत कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "डिस्काउंट कैलकुलेटर",
+          "/utility/discount-calculator"
+        ],
+        [
+          "GST कैलकुलेटर",
+          "/utility/gst-calculator"
+        ],
+        [
+          "यूनिट कन्वर्टर",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "pregnancy": {
+      "name": "PregnancySEOContent",
+      "eyebrow": "गर्भावस्था अवधि मार्गदर्शिका",
+      "title": "गर्भावस्था कैलकुलेटर: गर्भावस्था के समयरेखा आ अनुमानित प्रसव तिथि जानू",
+      "intro": "संबंधित तिथि देलाक बाद गर्भावस्थाक अवधि आ अनुमानित समय-सारिणी देखू।",
+      "sections": [
+        [
+          "गर्भावस्था कैलकुलेटर की अछि?",
+          [
+            "संबंधित तिथि देलाक बाद गर्भावस्थाक अवधि आ अनुमानित समय-सारिणी देखू।",
+            "गर्भावस्था कें तिथि चक्र कें लंबाई, ओवुलेशन कें समय, अल्ट्रासाउंड निष्कर्ष आ नैदानिक ​​इतिहास कें साथ भिन्न भ सकएय छै."
+          ]
+        ],
+        [
+          "गर्भावस्था कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "एकटा चिकित्सक चक्र कें विवरण आ नैदानिक ​​निष्कर्षक कें आधार पर अनुमान कें समायोजित कयर सकय छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "ई अनुमान अछि; चिकित्सा जाँच वा डॉक्टरक सलाहक विकल्प नहि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "प्रसवक अनुमानित तारीख एकदम सही अछि?",
+          "नहि। ई अनुमान अछि आ बहुत बच्चा ओहि तारीख पर नहि जन्मैत अछि।"
+        ],
+        [
+          "हम कोन तारीख भरब?",
+          "कैलकुलेटर जे तारीख माँगैत अछि से भरू, जेना ई तरीका उपलब्ध हो तँ अंतिम मासिक धर्मक तारीख।"
+        ],
+        [
+          "की स्वास्थ्यकर्मी तारीख बदलि सकैत छथि?",
+          "हँ। चिकित्सकीय जानकारी आ अल्ट्रासाउंडक नतीजा अनुमान बदलि सकैत अछि।"
+        ],
+        [
+          "की हम चिकित्सा निर्णय लेल ई साधन उपयोग कऽ सकैत छी?",
+          "नहि। एकर उपयोग केवल सामान्य जानकारी लेल करू आ निर्णय लेल अपन स्वास्थ्य-विशेषज्ञक सलाह मानू।"
+        ],
+        [
+          "कखन तत्काल चिकित्सा सहायता लेबाक चाही?",
+          "तेज पीड़ा, बहुत रक्तस्राव, बेहोशी वा दोसर गंभीर लक्षण हो तँ तत्काल सहायता लिअ।"
+        ]
+      ],
+      "related": [
+        [
+          "संपूर्ण स्वास्थ्य प्रोफाइल",
+          "/health-profile"
+        ],
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "health_profile": {
+      "name": "HealthProfileSEOContent",
+      "eyebrow": "स्वास्थ्य प्रोफाइल मार्गदर्शिका",
+      "title": "संपूर्ण स्वास्थ्य प्रोफाइल: BMI, BMR, कैलोरी आ स्वास्थ्य संबंधी जानकारी देखू",
+      "intro": "जरूरी स्वास्थ्य माप भरू आ प्रोफाइलक परिणाम देखू।",
+      "sections": [
+        [
+          "संपूर्ण स्वास्थ्य प्रोफाइल की अछि?",
+          [
+            "जरूरी स्वास्थ्य माप भरू आ प्रोफाइलक परिणाम देखू।",
+            "गणना कएल गेल सूचक कोनो निदान नहि अछि । व्यक्तिगत स्वास्थ्य बहुत सं कारक पर निर्भर करएयत छै, जेकर पूरा आकलन एकटा साधारण कैलकुलेटर नहि कयर सकएयत छै."
+          ]
+        ],
+        [
+          "संपूर्ण स्वास्थ्य प्रोफाइल कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "यदि कोनों परिणाम अहां कें चिंता करएयत छै या अहां कें लक्षण छै, त स्वास्थ्य देखभाल पेशेवर सं परामर्श करूं."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "ई सामान्य जानकारी अछि; स्वास्थ्य निर्णय लेल विशेषज्ञक सलाह लिअ।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की ई साधन बीमारीक निदान करैत अछि?",
+          "नहि। ई सामान्य जानकारी लेल गणना दैत अछि, निदान नहि करैत अछि।"
+        ],
+        [
+          "परिणामसँ चिंता हो तँ की करब?",
+          "योग्य स्वास्थ्य-विशेषज्ञ सँ चर्चा करू।"
+        ],
+        [
+          "की ई डॉक्टरक जगह लऽ सकैत अछि?",
+          "नहि। ई जाँच, चिकित्सा इतिहास वा पेशेवर सलाहक विकल्प नहि अछि।"
+        ],
+        [
+          "मापनक इकाई महत्वपूर्ण अछि?",
+          "हँ। माप ओहि इकाईमे भरू जे कैलकुलेटर माँगैत अछि।"
+        ],
+        [
+          "की ई चिकित्सकीय सलाह अछि?",
+          "नहि। ई केवल जानकारी लेल साधन अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "गर्भावस्था कैलकुलेटर",
+          "/pregnancy-calculator"
+        ],
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "rd": {
+      "name": "RdSEOContent",
+      "eyebrow": "आवर्ती जमा मार्गदर्शिका",
+      "title": "RD कैलकुलेटर: आवर्ती जमा के ब्याज आ मैच्योरिटी राशि निकालू",
+      "intro": "आवर्ती जमा राशि, अवधि आ ब्याज दर देलाक बाद अनुमानित परिपक्वता राशि देखू।",
+      "sections": [
+        [
+          "RD कैलकुलेटर की अछि?",
+          [
+            "आवर्ती जमा राशि, अवधि आ ब्याज दर देलाक बाद अनुमानित परिपक्वता राशि देखू।",
+            "वास्तविक परिपक्वता मूल्य बैंक कें गणना विधि, अनुसूची, जुर्माना आ उत्पाद शर्तक पर निर्भर करय छै."
+          ]
+        ],
+        [
+          "RD कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "बैंक कें वास्तविक तरीका आ शर्तक अंतिम राशि निर्धारित करय छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "वास्तविक ब्याज बैंकक शर्त अनुसार बदलि सकैत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की RD ब्याज पक्का अछि?",
+          "दर आ शर्त संबंधित बैंक उत्पाद पर निर्भर करैत अछि; बैंक सँ पुष्टि करू।"
+        ],
+        [
+          "की सभ जमा पर समान अवधि तक ब्याज भेटैत अछि?",
+          "नहि। अलग-अलग तारीख पर कएल जमा पर अलग अवधि तक ब्याज भेटि सकैत अछि।"
+        ],
+        [
+          "की जुर्माना शामिल अछि?",
+          "नहि। छूटल किस्त वा समयसँ पहिने खाता बंद करबाक बैंक नियम जाँचू।"
+        ],
+        [
+          "की हम योगदानक रकम तुलना कऽ सकैत छी?",
+          "हँ। योगदानक रकम बदलू आ फेर गणना करू।"
+        ],
+        [
+          "AgeVerseGlobal पर RD कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal RD कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "FD कैलकुलेटर",
+          "/utility/fd-calculator"
+        ],
+        [
+          "SIP कैलकुलेटर",
+          "/utility/sip-calculator"
+        ],
+        [
+          "प्रतिशत कैलकुलेटर",
+          "/utility/percentage-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "gst": {
+      "name": "GstSEOContent",
+      "eyebrow": "GST गणना मार्गदर्शिका",
+      "title": "GST कैलकुलेटर: GST, कर राशि आ कुल राशि निकालू",
+      "intro": "राशि आ लागू कर दर देलाक बाद GST वा कर सहित/बिना कर मूल्य निकालू।",
+      "sections": [
+        [
+          "GST कैलकुलेटर की अछि?",
+          [
+            "राशि आ लागू कर दर देलाक बाद GST वा कर सहित/बिना कर मूल्य निकालू।",
+            "अपन लेनदेन कें लेल लागू दर आ चालान आवश्यकताक कें पुष्टि करूं."
+          ]
+        ],
+        [
+          "GST कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "समावेशी राशि कें लेल जीएसटी घटक कुल सं निकालल जायत छै. सूत्र एहि बात पर निर्भर करैत अछि जे दर्ज मूल्य मे पहिने सं जीएसटी शामिल अछि कि नहि."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "भुगतान या दाखिला करबाक पहिने लागू दर आ नियम जाँचू।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की AgeVerseGlobal GST कैलकुलेटर सही दर अपने चुनैत अछि?",
+          "नहि। AgeVerseGlobal GST कैलकुलेटर GST दर अपने नहि चुनैत अछि। अपन वस्तु वा सेवापर लागू दर जाँचि कऽ चुनू।"
+        ],
+        [
+          "GST शामिल आ GST अलग जोड़बाक बीच की अंतर अछि?",
+          "GST अलग हो तँ मूल कीमतमे कर जोड़ल जाइत अछि; GST शामिल हो तँ कर पहिनेसँ भरल कुल रकममे रहैत अछि।"
+        ],
+        [
+          "की AgeVerseGlobal GST कैलकुलेटर कर रिटर्न भरबाक लेल उपयोगी अछि?",
+          "एकरा अनुमान मानू आ रिटर्न दाखिल करबासँ पहिने लागू नियम जाँचू।"
+        ],
+        [
+          "की सभ उत्पाद पर GST दर एके होइत अछि?",
+          "नहि। वस्तु, सेवा आ वर्तमान नियम अनुसार दर अलग भऽ सकैत अछि।"
+        ],
+        [
+          "AgeVerseGlobal पर GST कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal GST कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "प्रतिशत कैलकुलेटर",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "EMI कैलकुलेटर",
+          "/utility/emi-calculator"
+        ],
+        [
+          "डिस्काउंट कैलकुलेटर",
+          "/utility/discount-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "dog_age": {
+      "name": "DogAgeSEOContent",
+      "eyebrow": "कुकुरक उम्र मार्गदर्शिका",
+      "title": "कुकुर के आयु कैलकुलेटर: कुकुरक उम्र आ मानव उम्रक अनुमानित तुलना करू",
+      "intro": "कुकुरक उम्र देलाक बाद ओकर अनुमानित मानव उम्रक बराबरी देखू।",
+      "sections": [
+        [
+          "कुकुर के आयु कैलकुलेटर की अछि?",
+          [
+            "कुकुरक उम्र देलाक बाद ओकर अनुमानित मानव उम्रक बराबरी देखू।",
+            "एकटा सरल नियम जेना हर कुकुर के साल के सात सं गुणा करब एकटा अतिसरलीकरण अछि."
+          ]
+        ],
+        [
+          "कुकुर के आयु कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "पशु चिकित्सक अहां कें कुत्ता कें स्वास्थ्य आ जीवन कें चरण कें बारे मे बेसि प्रासंगिक मार्गदर्शन द सकएय छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "ई अनुमान अछि; नस्ल, आकार आ स्वास्थ्य अनुसार अंतर होइत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की कुकुरक एक साल हमेशा मनुष्यक सात साल बराबर होइत अछि?",
+          "नहि। ई बहुत सरल बनाओल नियम अछि आ जल्दी परिपक्व होयब तथा कुकुर सभक अंतर केँ नजरअंदाज करैत अछि।"
+        ],
+        [
+          "की नस्ल वा आकार मायने रखैत अछि?",
+          "हँ। आकार आ नस्ल उम्र बढ़बाक तरीका आ संभावित आयु पर असर डालि सकैत अछि।"
+        ],
+        [
+          "की ई साधन हमर कुकुरक स्वास्थ्य जाँचि सकैत अछि?",
+          "नहि। ई उमेरक अनुमानित तुलना अछि, पशु-चिकित्सकीय जाँच नहि।"
+        ],
+        [
+          "पशु-चिकित्सक सँ कहिया मिलबाक चाही?",
+          "लक्षण, बचाव देखभाल, आहार वा उमेर-संबंधी स्वास्थ्य प्रश्न लेल पशु-चिकित्सक सँ सलाह लिअ।"
+        ],
+        [
+          "AgeVerseGlobal पर कुकुर के आयु कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal कुकुर उमेर कैलकुलेटर निःशुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "संपूर्ण स्वास्थ्य प्रोफाइल",
+          "/health-profile"
+        ],
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "इवेंट कैलकुलेटर",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "fd": {
+      "name": "FdSEOContent",
+      "eyebrow": "निश्चित जमा मार्गदर्शिका",
+      "title": "FD कैलकुलेटर: फिक्स्ड डिपॉजिट ब्याज आ मैच्योरिटी राशि निकालू",
+      "intro": "जमा राशि, अवधि आ ब्याज दर देलाक बाद अनुमानित परिपक्वता राशि देखू।",
+      "sections": [
+        [
+          "FD कैलकुलेटर की अछि?",
+          [
+            "जमा राशि, अवधि आ ब्याज दर देलाक बाद अनुमानित परिपक्वता राशि देखू।",
+            "वास्तविक रिटर्न बैंक कें शर्तक, कम्पोन्डिंग, पेआउट पसंद, कर आ समय सं पहिने-निकासी नियमक पर निर्भर करय छै."
+          ]
+        ],
+        [
+          "FD कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "बैंक सं दर, कम्पोन्डिंग आवृत्ति, कर आ परिपक्वता मूल्य कें पुष्टि करूं."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "वास्तविक ब्याज योजना, शर्त आ कर पर निर्भर करैत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "परिपक्वता पर भेटयवला रकम एकदम सही अछि?",
+          "ई अनुमान अछि; अंतिम रकम बैंकक शर्त पर निर्भर करैत अछि।"
+        ],
+        [
+          "चक्रवृद्धि ब्याज महत्वपूर्ण अछि?",
+          "हँ। ब्याज जोड़बाक अलग-अलग अवधि सँ अलग परिणाम भेटि सकैत अछि।"
+        ],
+        [
+          "की कर शामिल अछि?",
+          "करक नियम लागू कानून आ कैलकुलेटरक सुविधा पर निर्भर करैत अछि; अलगसँ जाँचू।"
+        ],
+        [
+          "की हम अलग-अलग अवधि तुलना कऽ सकैत छी?",
+          "हँ। अलग अवधि आ दर राखि अलग स्थिति गणना करू।"
+        ],
+        [
+          "AgeVerseGlobal पर FD कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal FD कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "RD कैलकुलेटर",
+          "/utility/rd-calculator"
+        ],
+        [
+          "SIP कैलकुलेटर",
+          "/utility/sip-calculator"
+        ],
+        [
+          "EMI कैलकुलेटर",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "emi": {
+      "name": "EmiSEOContent",
+      "eyebrow": "EMI गणना मार्गदर्शिका",
+      "title": "EMI कैलकुलेटर: मासिक EMI, कुल ब्याज आ चुकौती राशि निकालू",
+      "intro": "ऋण राशि, ब्याज दर आ अवधि देलाक बाद अनुमानित मासिक किस्त निकालू।",
+      "sections": [
+        [
+          "EMI कैलकुलेटर की अछि?",
+          [
+            "ऋण राशि, ब्याज दर आ अवधि देलाक बाद अनुमानित मासिक किस्त निकालू।",
+            "यदि ऋणदाता कें शुल्क, बीमा या अन्य शर्तक लागू होयत छै त वास्तविक लागत अलग-अलग भ सकय छै."
+          ]
+        ],
+        [
+          "EMI कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "प्रसंस्करण शुल्क, बीमा, जुर्माना या ऋणदाता-विशिष्ट समायोजन कें शामिल नहि कैल जा सकय छै."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "शुल्क आ ऋणदाता के शर्त वास्तविक किस्त बदलि सकैत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "EMI रकम पक्का अछि?",
+          "नहि। ऋणदाता केर प्रस्ताव आ भुगतान समय-सारणी आधिकारिक मानल जाइत अछि।"
+        ],
+        [
+          "EMI मे सभ शुल्क शामिल अछि?",
+          "जरूरी नहि। प्रोसेसिंग शुल्क, बीमा आ दोसर खर्च शामिल नहि हो सकैत अछि।"
+        ],
+        [
+          "ऋण अवधि EMI पर कोना असर करैत अछि?",
+          "लंबी अवधि सँ मासिक किस्त अक्सर घटैत अछि, मुदा कुल ब्याज बढ़ि सकैत अछि।"
+        ],
+        [
+          "हम कोन ब्याज दर भरब?",
+          "कैलकुलेटर जे प्रारूप माँगैत अछि, सामान्यतः वार्षिक दर, ओहि अनुसार भरू।"
+        ],
+        [
+          "की ई निःशुल्क अछि?",
+          "हँ। ऑनलाइन कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "GST कैलकुलेटर",
+          "/utility/gst-calculator"
+        ],
+        [
+          "प्रतिशत कैलकुलेटर",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "SIP कैलकुलेटर",
+          "/utility/sip-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "date_difference": {
+      "name": "DateDifferenceSEOContent",
+      "eyebrow": "तिथि अंतर मार्गदर्शिका",
+      "title": "तिथि अंतर: दू तिथिक बीच सटीक अंतर निकालू",
+      "intro": "दू तिथि देलाक बाद बीचक दिन आ अवधि निकालू।",
+      "sections": [
+        [
+          "तिथि अंतर की अछि?",
+          [
+            "दू तिथि देलाक बाद बीचक दिन आ अवधि निकालू।",
+            "कैलकुलेटर दूनू तिथि कें मान्य करयत छै आ हर कैलेंडर दिन कें मैन्युअल रूप सं गिनने बिना ओकर तुलना करय मे मदद करयत छै."
+          ]
+        ],
+        [
+          "तिथि अंतर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "जेना कि 1 मार्च सं 11 मार्च 10 बीतल दिन अछि जखन शुरू के तारीख के पूरा बीतल दिन के रूप में नहिं गिनल जाइत अछि. किछ आधिकारिक समय सीमा समावेशी गिनती कें उपयोग करएयत छै, अइ कें लेल लागू नियमक कें पालन करूं."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "तिथि सही अछि आ प्रारंभिक दिन गनबाक अछि कि नहि, जाँचू।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "की AgeVerseGlobal तारीख अंतर कैलकुलेटर भविष्यक तारीख स्वीकार करैत अछि?",
+          "हँ। अहाँ बीतल तारीख, भविष्यक तारीख वा दुनू तरहक तारीख तुलना कऽ सकैत छी।"
+        ],
+        [
+          "की AgeVerseGlobal तारीख अंतर कैलकुलेटर लीप वर्ष गिनैत अछि?",
+          "हँ, जहाँ लागू हो, बीतल दिनक गणनामे लीप वर्षक दिन शामिल होइत अछि।"
+        ],
+        [
+          "शुरुआती तारीख गिनल जाइत अछि?",
+          "बीतल दिनक अंतर सामान्यतः शुरुआती तारीखक बादक समय मापैत अछि। जँ समयसीमा मे शुरुआती दिन सहित गिनती जरूरी हो तँ संबंधित नियम मानू।"
+        ],
+        [
+          "की हम तारीख उल्टा क्रममे भरि सकैत छी?",
+          "हँ। भरबाक क्रम जे हो, कैलकुलेटर दुनू तारीख तुलना करैत अछि।"
+        ],
+        [
+          "AgeVerseGlobal पर तिथि अंतर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal तारीख अंतर कैलकुलेटर ऑनलाइन बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ],
+        [
+          "इवेंट कैलकुलेटर",
+          "/event-calculator"
+        ],
+        [
+          "रिटायरमेंट कैलकुलेटर",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "discount": {
+      "name": "DiscountSEOContent",
+      "eyebrow": "छूट गणना मार्गदर्शिका",
+      "title": "डिस्काउंट कैलकुलेटर: छूट, बचत आ अंतिम मूल्य निकालू",
+      "intro": "मूल्य आ छूट प्रतिशत देलाक बाद छूट राशि आ अंतिम मूल्य निकालू।",
+      "sections": [
+        [
+          "डिस्काउंट कैलकुलेटर की अछि?",
+          [
+            "मूल्य आ छूट प्रतिशत देलाक बाद छूट राशि आ अंतिम मूल्य निकालू।",
+            "यदि कर, डिलीवरी शुल्क, कूपन या अन्य ऑफर अलग सं लागू होयत छै त अंतिम मूल्य अलग भ सकय छै."
+          ]
+        ],
+        [
+          "डिस्काउंट कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "जेना, ₹1,000 पर 20% छूट स ₹200 के बचत होइत अछि, जाहि स अतिरिक्त शुल्क स पहिने ₹800 रहि जाइत अछि।"
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "अतिरिक्त कर वा शुल्क होएत त अंतिम राशि बदलि सकैत अछि।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "छूटक रकम कोना निकालब?",
+          "मूल कीमत केँ छूट प्रतिशत सँ गुणा करू आ 100 सँ भाग करू।"
+        ],
+        [
+          "छूटक बाद कीमतमे GST शामिल अछि?",
+          "अपने नहि; कर शामिल होयब कीमत तय करबाक तरीका आ विक्रेता पर निर्भर करैत अछि।"
+        ],
+        [
+          "की हम दू प्रस्ताव तुलना कऽ सकैत छी?",
+          "हँ। हर प्रस्तावक मूल कीमत आ छूट दरक उपयोग कऽ गणना करू।"
+        ],
+        [
+          "छूटक बाद कूपन लागू हो तँ की करब?",
+          "प्रस्तावक शर्त मानू; कूपनक नियम लेल अलग गणना जरूरी भऽ सकैत अछि।"
+        ],
+        [
+          "AgeVerseGlobal पर डिस्काउंट कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal छूट कैलकुलेटर बिना शुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "GST कैलकुलेटर",
+          "/utility/gst-calculator"
+        ],
+        [
+          "प्रतिशत कैलकुलेटर",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "यूनिट कन्वर्टर",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "unit_converter": {
+      "name": "UnitConverterSEOContent",
+      "eyebrow": "इकाई रूपांतरण मार्गदर्शिका",
+      "title": "यूनिट कन्वर्टर: लंबाई, वजन, तापमान आदि इकाई बदलू",
+      "intro": "मान आ इकाई चुनि एक मापन इकाई सँ दोसर इकाई मे बदलू।",
+      "sections": [
+        [
+          "यूनिट कन्वर्टर की अछि?",
+          [
+            "मान आ इकाई चुनि एक मापन इकाई सँ दोसर इकाई मे बदलू।",
+            "परिवर्तित मान एक अलग इकाई मे व्यक्त समान मात्रा कें प्रतिनिधित्व करय छै."
+          ]
+        ],
+        [
+          "यूनिट कन्वर्टर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "सार्थक रूपांतरण कें लेल एकहि माप श्रेणी सं इकाइयक कें चयन करूं."
+          ]
+        ],
+        [
+          "कखन उपयोग करी?",
+          [
+            "सही परिणाम लेल उचित इकाई वर्ग चुनू।"
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ]
+      ],
+      "faqs": [
+        [
+          "हम कोन-कोन इकाई बदलि सकैत छी?",
+          "उपलब्ध इकाई कन्वर्टरमे देल श्रेणी पर निर्भर करैत अछि।"
+        ],
+        [
+          "श्रेणी महत्वपूर्ण किएक अछि?",
+          "इकाई सभ एके प्रकारक मात्रा मापबाक चाही।"
+        ],
+        [
+          "तापमान रूपांतरण अलग होइत अछि?",
+          "हँ। तापमान रूपांतरणमे पैमाना गुणकक संग एक निश्चित अंतर सेहो लागू होइत अछि।"
+        ],
+        [
+          "की हम इकाई सभक दिशा बदलि सकैत छी?",
+          "जँ कैलकुलेटरमे स्वैप नियंत्रण उपलब्ध अछि तँ ओकर उपयोग करू।"
+        ],
+        [
+          "AgeVerseGlobal पर यूनिट कन्वर्टर के उपयोग निःशुल्क अछि?",
+          "हँ। AgeVerseGlobal ऑनलाइन इकाई कन्वर्टर निःशुल्क उपलब्ध अछि।"
+        ]
+      ],
+      "related": [
+        [
+          "प्रतिशत कैलकुलेटर",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ],
+        [
+          "आयु कैलकुलेटर",
+          "/age-calculator"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ]
+    },
+    "age_calculator": {
+      "name": "AgeCalculatorSEOContent",
+      "eyebrow": "उम्र गणना मार्गदर्शिका",
+      "title": "आयु कैलकुलेटर: सही उम्र आ पूरा विवरण निकालू",
+      "intro": "जन्म तिथि देलाक बाद उम्र वर्ष, महीना आ दिन मे देखू।",
+      "sections": [
+        [
+          "आयु कैलकुलेटर की अछि?",
+          [
+            "जन्म तिथि देलाक बाद उम्र वर्ष, महीना आ दिन मे देखू।",
+            "AgeVerseGlobal एडवांस्ड एज कैलकुलेटर उम्र गणना कें सरल बनायत छै. अपन जन्म तिथि दर्ज करू, गणना तिथि केँ आइ पर सेट राखू वा कोनो विशिष्ट तिथि चुनू, आ गणना करू चुनू. परिणाम अहां कें अपन कैलेंडर कें उम्र कें समझय मे मदद करय छै आ देखय मे मदद करय छै कि दूनू तारीख कें बीच कतेक समय बीत गेल छै."
+          ]
+        ],
+        [
+          "आयु कैलकुलेटर कोना उपयोग करी",
+          [
+            "स्क्रीन पर देल निर्देश अनुसार जरूरी मान भरू, गणना करू आ परिणाम देखू। जानकारी जमा करबाक पहिने तिथि आ संख्या सही अछि कि नहि, जाँचि लिअ।",
+            "जेना 15 मार्च 2000 कए जन्म लेनिहार व्यक्ति 15 मार्च 2025 कए 25 साल क अछि, यदि गणना क तिथि 14 मार्च 2025 अछि त ओ व्यक्ति एखन धरि अपन 25म जन्मदिन नहि पहुंच सकल अछि।",
+            "कुल दिन, घंटा, मिनट आ सेकेंड अलग-अलग बीतल-समय कुल छै. चूँकि कैलेंडर महीना केरऽ लंबाई अलग-अलग होय छै आरू लीप ईयर म॑ एक दिन अतिरिक्त होय छै, ई लेली हर महीना क॑ ठीक ३० दिन के रूप म॑ मानतें हुअ॑ कैलेंडर केरऽ उम्र के गणना नै करलऽ जाय ।"
+          ]
+        ],
+        [
+          "गणना कोना होइत अछि?",
+          [
+            "गणना देल मान आ एहि साधन पर लागू नियमक आधार पर होइत अछि। इनपुट बदलला पर परिणाम बदलि सकैत अछि, तेँ अपन परिस्थिति अनुसार परिणाम जाँचू।",
+            "आधिकारिक आवेदन, स्कूल मे प्रवेश, रोजगार, लाभ या कानूनी पात्रता कें लेल, उम्र कें गणना आ तिथियक कें सत्यापन कें लेल हमेशा संबंधित संगठन कें नियमक कें पालन करूं."
+          ]
+        ]
+      ],
+      "stepsTitle": "AgeVerseGlobal एडवांस्ड एज कैलकुलेटर कोना काज करैत अछि?",
+      "stepsIntro": "अपन आयु निकालबाक लेल ई चरणसभ अपनाउ:",
+      "steps": [
+        [
+          "अपन जन्मतिथि दर्ज करू।",
+          "जाहि दिन, महीना आ वर्ष अहाँक जन्म भेल, से चुनू।"
+        ],
+        [
+          "गणना करबाक तारीख चुनू।",
+          "एखनक आयु निकालबाक लेल “आइ” चुनल रहए दिअ, वा दोसर तारीख पर आयु देखबाक लेल “विशिष्ट तारीख” चुनू।"
+        ],
+        [
+          "“गणना करू” चुनू।",
+          "कैलकुलेटर तारीखसभ जाँचैत अछि आ दुनू तारीखक बीचक अंतर निकालैत अछि।"
+        ],
+        [
+          "परिणाम देखू।",
+          "वर्ष, महीना आ दिनमे आयु, कुल समय आ अगिला जन्मदिनक जानकारी देखू।"
+        ]
+      ],
+      "examplesTitle": "व्यावहारिक उदाहरण",
+      "examplesIntro": "कैलकुलेटरक उपयोग बुझबाक लेल ई उदाहरण देखू।",
+      "tableHeaders": [
+        "उदाहरण",
+        "इनपुट",
+        "परिणाम"
+      ],
+      "examples": [
+        [
+          "दैनिक परिस्थिति",
+          "जरूरी जानकारी भरू",
+          "परिणाम देखू"
+        ],
+        [
+          "योजना",
+          "संबंधित तिथि वा राशि भरू",
+          "अगिला कदम तय करू"
+        ],
+        [
+          "मानक तुलना",
+          "अलग-अलग मान भरि गणना करू",
+          "परिणामक अंतर देखू"
+        ]
+      ],
+      "examplesNote": "ई उदाहरण बुझबाक लेल अछि; देल मान आ परिस्थिति अनुसार परिणाम बदलि सकैत अछि।",
+      "featuresTitle": "मुख्य विशेषता",
+      "features": [
+        [
+          "सरल इनपुट",
+          "जरूरी जानकारी भरि परिणाम देखल जा सकैत अछि।"
+        ],
+        [
+          "स्पष्ट परिणाम",
+          "गणनाक परिणाम आसानी सँ बुझबा योग्य रूप मे देखाइत अछि।"
+        ],
+        [
+          "योजना मे मदद",
+          "समय-सारिणी वा आर्थिक योजना बनेबा मे उपयोगी।"
+        ],
+        [
+          "रोजमर्रा उपयोग",
+          "दैनिक परिस्थिति मे जल्दी गणना कएल जा सकैत अछि।"
+        ],
+        [
+          "सरल ऑनलाइन पहुँच",
+          "बिना कोनो अलग एप्लीकेशन इंस्टॉल केने अपन ब्राउज़र मे कैलकुलेटर के उपयोग करू."
+        ]
+      ],
+      "faqEyebrow": "सामान्य प्रश्न",
+      "faqTitle": "अक्सर पूछल जाएवला प्रश्न",
+      "faqIntro": "एहि कैलकुलेटर संबंधी सामान्य प्रश्नक उत्तर देखू।",
+      "faqs": [
+        [
+          "अपन सही उमेर कोना गणना करब?",
+          "जन्मतिथि भरू आ गणना चुनू। डिफॉल्ट रूपेँ कैलकुलेटर आजुक तारीख उपयोग करैत अछि आ उमेर साल, महीना आ दिनमे देखबैत अछि। अहाँ कोनो खास तारीख चुनि ओहि दिनक उमेर सेहो निकालि सकैत छी।"
+        ],
+        [
+          "की हम बीतल वा भविष्यक तारीख पर अपन उमेर गणना कऽ सकैत छी?",
+          "हँ। “विशिष्ट तारीख” विकल्प चुनू आ मनचाही तारीख भरू। चुनल तारीख जन्मतिथि सँ पहिने नहि होयबाक चाही।"
+        ],
+        [
+          "सालमे उमेर आ कुल दिनमे की अंतर अछि?",
+          "साल, महीना आ दिनमे उमेर कैलेंडरक इकाई उपयोग करैत अछि। कुल दिन दुनू तारीखक बीच बीतल दिन गिनैत अछि। महीना सभक लंबाई अलग होइत अछि, तेँ हर महीना केँ 30 दिन मानि गुणा कएला सँ सही कुल दिन नहि निकलैत अछि।"
+        ],
+        [
+          "की ई कैलकुलेटर कुल घंटा आ मिनट देखाबि सकैत अछि?",
+          "हँ। कैलेंडर अनुसार उमेरक अतिरिक्त परिणाममे कुल महीना, सप्ताह, दिन, घंटा, मिनट आ सेकेंड सेहो रहैत अछि। ई कुल चुनल तारीख पर आधारित होइत अछि।"
+        ],
+        [
+          "की AgeVerseGlobal उन्नत आयु कैलकुलेटर लीप वर्ष ध्यानमे रखैत अछि?",
+          "कैलेंडर गणनामे लीप वर्ष आ महीना सभक अलग लंबाई शामिल भऽ सकैत अछि। 29 फरवरी के जन्मल लोकक जन्मदिन गैर-लीप वर्षमे कोन दिन मानल जाए, ई अपनाओल परंपरा पर निर्भर कऽ सकैत अछि।"
+        ],
+        [
+          "की हम अगिला जन्मदिन तक बचल समय जानि सकैत छी?",
+          "हँ। उमेर गणना कएलाक बाद परिणाम अगिला जन्मदिनक तारीख आ ओहि दिन तक बचल दिनक उलटी गिनती सेहो देखबैत अछि।"
+        ],
+        [
+          "AgeVerseGlobal पर आयु कैलकुलेटर के उपयोग निःशुल्क अछि?",
+          "हँ। अहाँ जन्मतिथि आ आजुक तारीख वा चुनल दोसर खास तारीखक बीच उमेर निकालबाक लेल AgeVerseGlobal उन्नत आयु कैलकुलेटर ऑनलाइन निःशुल्क उपयोग कऽ सकैत छी।"
+        ]
+      ],
+      "relatedTitle": "आओर कैलकुलेटर देखू",
+      "relatedIntro": "गणना आ योजना लेल संबंधित साधन सेहो देखू।",
+      "related": [
+        [
+          "तिथि अंतर",
+          "/date-difference"
+        ],
+        [
+          "इवेंट कैलकुलेटर",
+          "/event-calculator"
+        ],
+        [
+          "रिटायरमेंट कैलकुलेटर",
+          "/retirement-calculator"
+        ]
+      ]
+    }
+  }
+}

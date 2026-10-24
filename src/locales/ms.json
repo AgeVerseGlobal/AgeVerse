@@ -1,0 +1,3390 @@
+{
+  "retirement": {
+    "calculate_subtitle": "Kira tarikh persaraan anda dan masa yang tinggal.",
+    "reminder_description": "Pilih bila AgeVerseGlobal patut mengingatkan anda.",
+    "service_completed": "Perkhidmatan selesai",
+    "total_service_at_retirement": "Jumlah tempoh perkhidmatan semasa bersara",
+    "current_age": "Umur semasa",
+    "age_at_retirement": "Umur semasa bersara",
+    "result_title": "Keputusan Persaraan",
+    "result_subtitle": "Ringkasan perancangan persaraan anda",
+    "date_of_birth": "Tarikh Lahir",
+    "date_of_joining": "Tarikh Mula Bekerja",
+    "retirement_date": "Tarikh Persaraan",
+    "retirement_age": "Umur Persaraan",
+    "completed_title": "Persaraan Selesai",
+    "empty_title": "Perancangan Persaraan",
+    "empty_text": "Pilih tarikh lahir anda untuk mengira tarikh persaraan dan masa yang tinggal.",
+    "empty_hint": "Masukkan butiran anda di atas untuk bermula."
+  },
+  "common": {
+    "app_name": "AgeVerseGlobal",
+    "calculate": "Kira",
+    "reset": "Set semula",
+    "submit": "Hantar",
+    "cancel": "Batal",
+    "share": "Kongsi",
+    "copy": "Salin",
+    "download": "Muat turun",
+    "result": "Keputusan",
+    "calculators": "Kalkulator",
+    "live": "Langsung",
+    "open_calculator": "Buka kalkulator",
+    "from": "Dari",
+    "till": "Hingga",
+    "years": "Tahun",
+    "months": "Bulan",
+    "days": "Hari",
+    "weeks": "Minggu",
+    "hours": "Jam",
+    "minutes": "Minit",
+    "seconds": "Saat",
+    "explore_calculators_title": "Terokai kalkulator AgeVerseGlobal",
+    "explore_calculators_text": "Terokai kalkulator umur, tarikh, kesihatan, kewangan dan kegunaan harian yang tersedia di AgeVerseGlobal.",
+    "explore_calculators_button": "Terokai kalkulator",
+    "next_birthday": "Hari Lahir Seterusnya",
+    "days_remaining": "Hari yang tinggal",
+    "your_age": "Umur anda",
+    "total_time": "Jumlah masa",
+    "born_on": "Tarikh lahir",
+    "event_countdown": "Kiraan detik acara",
+    "event_date": "Tarikh acara",
+    "event_time": "Masa acara",
+    "weekday": "Hari dalam minggu",
+    "time_remaining": "Masa berbaki",
+    "total_days": "Jumlah hari",
+    "exact_difference": "Perbezaan tepat",
+    "from_day": "Hari mula",
+    "to_day": "Hari akhir",
+    "total_years": "Jumlah tahun",
+    "total_months": "Jumlah bulan",
+    "total_weeks": "Jumlah minggu",
+    "total_hours": "Jumlah jam",
+    "total_minutes": "Jumlah minit",
+    "total_seconds": "Jumlah saat",
+    "remaining_period": "Tempoh berbaki",
+    "live_countdown": "Kiraan detik langsung",
+    "reminder": "Peringatan",
+    "retirement_day": "Hari persaraan",
+    "one_day_before": "1 hari sebelum",
+    "days_before": "Hari sebelum",
+    "not_specified": "Tidak dinyatakan",
+    "upcoming_event": "Acara akan datang",
+    "passed_event": "Acara telah berlalu",
+    "notification_permission": "Kebenaran pemberitahuan mungkin diperlukan untuk peringatan penyemak imbas.",
+    "retirement_day_message": "Mesej hari persaraan",
+    "notification_permission_blocked": "Kebenaran pemberitahuan disekat. Sila benarkan pemberitahuan untuk AgeVerseGlobal untuk menerima peringatan.",
+    "event_reminder_not_configured": "Perkhidmatan peringatan acara tidak dikonfigurasikan.",
+    "reminder_set": "Peringatan ditetapkan",
+    "reminder_time": "Masa peringatan",
+    "all_calculators": "Semua Kalkulator",
+    "explore_more_calculators": "Kalkulator Lain",
+    "show_less_calculators": "Tunjukkan Kurang",
+    "feedback": "Maklum Balas",
+    "feedback_title": "Kongsi Maklum Balas Anda",
+    "feedback_rating": "Penilaian",
+    "feedback_feedback": "Maklum Balas Anda",
+    "feedback_placeholder": "Beritahu kami pendapat anda...",
+    "feedback_privacy_notice": "Maklum balas anda mungkin termasuk negara/bandar anggaran dan halaman yang sedang anda lihat. Kami tidak menyimpan alamat IP anda dan tidak pernah meminta maklumat peribadi seperti nama, e-mel, nombor telefon, OTP atau maklumat yang serupa.",
+    "feedback_success": "Terima kasih atas maklum balas anda!",
+    "feedback_error": "Maklum balas tidak dapat dihantar sekarang. Sila cuba lagi.",
+    "feedback_close": "Tutup",
+    "feedback_sending": "Menghantar...",
+    "feedback_rating_required": "Sila pilih penilaian.",
+    "feedback_message_required": "Sila masukkan maklum balas anda.",
+    "about_short": "Tentang",
+    "search_calculator": "Cari Kalkulator",
+    "search_calculator_help": "Cari kalkulator yang anda perlukan dalam beberapa saat.",
+    "search_calculator_placeholder": "Cari kalkulator...",
+    "no_calculators_found": "Tiada kalkulator ditemui.",
+    "close": "Tutup",
+    "event_details_input": "Penerangan / Butiran Acara (Pilihan)",
+    "event_details_placeholder": "Tambah butiran tentang acara ini...",
+    "event_details": "Butiran Acara"
+  },
+  "age": {
+    "title": "Kalkulator Umur Lanjutan",
+    "subtitle": "Kira umur tepat anda dengan butiran lengkap.",
+    "date_of_birth": "Tarikh Lahir",
+    "calculate_till": "Kira Hingga Tarikh",
+    "years": "Tahun",
+    "months": "Bulan",
+    "days": "Hari",
+    "hours": "Jam",
+    "minutes": "Minit",
+    "seconds": "Saat",
+    "calculate_age_till": "Kira Umur Hingga",
+    "today": "Hari ini",
+    "specific_date": "Tarikh Khusus",
+    "today_calculation_info": "Umur akan dikira sehingga hari ini",
+    "today_calculation_note": "Tarikh semasa akan digunakan secara automatik.",
+    "empty_result_title": "Keputusan Umur Anda",
+    "empty_result_text": "Kira umur anda untuk melihat keputusan lengkap.",
+    "empty_result_hint": "📅 Pilih tarikh lahir anda dan klik Kira"
+  },
+  "event": {
+    "title": "Kalkulator Acara",
+    "subtitle": "Kira detik untuk acara istimewa anda.",
+    "select_event": "Pilih Acara",
+    "birthday": "Hari Lahir",
+    "anniversary": "Ulang Tahun",
+    "exam": "Peperiksaan",
+    "trip": "Perjalanan / Cuti",
+    "party": "Parti / Acara",
+    "custom_event": "Acara Tersuai",
+    "event_date": "Tarikh Acara"
+  },
+  "message": {
+    "select_dates": "Sila pilih kedua-dua tarikh.",
+    "select_event": "Sila pilih jenis acara.",
+    "enter_custom_event": "Sila masukkan nama acara tersuai.",
+    "select_event_date": "Sila pilih tarikh acara.",
+    "invalid_date": "Tarikh tidak sah.",
+    "future_date": "Tarikh masa depan tidak sah.",
+    "from_date_greater_than_to_date": "Tarikh mula tidak boleh melebihi tarikh akhir."
+  },
+  "header": {
+    "tagline": "Rancang hari ini, makmur esok"
+  },
+  "theme": {
+    "dark_mode": "Mod Gelap",
+    "light_mode": "Mod Cerah",
+    "language": "Bahasa"
+  },
+  "calculator_names": {
+    "age_calculator": "Kalkulator Umur",
+    "event_calculator": "Kalkulator Acara",
+    "date_difference": "Beza Tarikh",
+    "retirement_calculator": "Kalkulator Persaraan",
+    "health_profile": "Profil Kesihatan Lengkap",
+    "pregnancy_calculator": "Kalkulator Kehamilan",
+    "unit_converter": "Penukar Unit",
+    "percentage_calculator": "Kalkulator Peratusan",
+    "gst_calculator": "Kalkulator GST",
+    "emi_calculator": "Kalkulator EMI",
+    "discount_calculator": "Kalkulator Diskaun",
+    "sip_calculator": "Kalkulator SIP",
+    "fd_calculator": "Kalkulator FD",
+    "rd_calculator": "Kalkulator RD",
+    "dog_age_calculator": "Kalkulator Umur Anjing"
+  },
+  "footer": {
+    "description": "Kalkulator pintar, boleh dipercayai dan bertimbang rasa untuk umur, tarikh, kesihatan, kewangan dan kehidupan seharian — membantu anda membuat keputusan yang jelas dan yakin.",
+    "trust": "✓ Tepat • ✓ Mudah • ✓ Berpusatkan Privasi",
+    "quick_links": "Pautan Pantas",
+    "home": "Utama",
+    "about": "Mengenai AgeVerseGlobal",
+    "contact": "Hubungi",
+    "information": "Maklumat",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma & Syarat",
+    "disclaimer": "Penafian",
+    "languages": "Bahasa",
+    "rights": "Hak cipta terpelihara.",
+    "powered": "Dicipta untuk pengiraan harian yang pintar"
+  },
+  "category_names": {
+    "age": "🎂 Umur & Tarikh",
+    "health": "🏥 Kesihatan",
+    "family": "👶 Keluarga",
+    "utility": "🧮 Utiliti",
+    "pet": "🐶 Haiwan Peliharaan"
+  },
+  "calculator_desc": {
+    "age_calculator": "Kira umur tepat dalam tahun, bulan dan hari.",
+    "event_calculator": "Kira detik hari lahir, ulang tahun, peperiksaan dan acara lain.",
+    "date_difference": "Ketahui perbezaan tepat antara dua tarikh.",
+    "retirement_calculator": "Kira garis masa persaraan dan tempoh yang tinggal.",
+    "health_profile": "BMI, BMR, kalori, pemakanan, air dan rancangan diet.",
+    "pregnancy_calculator": "Lihat minggu kehamilan dan anggaran tarikh jangkaan bersalin.",
+    "unit_converter": "Tukar panjang, berat, suhu, volum dan banyak lagi.",
+    "percentage_calculator": "Kira peratusan, kenaikan, penurunan dan perbezaan.",
+    "gst_calculator": "Kalkulator jumlah GST, harga termasuk cukai dan tanpa cukai.",
+    "emi_calculator": "Kira pinjaman EMI, faedah dan jumlah bayaran balik.",
+    "discount_calculator": "Kira diskaun, simpanan dan harga jualan akhir.",
+    "sip_calculator": "Anggarkan pertumbuhan pelaburan SIP dan pulangan dijangka.",
+    "fd_calculator": "Kira kematangan deposit tetap dan faedah.",
+    "rd_calculator": "Kira kematangan deposit berulang dan faedah.",
+    "dog_age_calculator": "Kira umur anjing anda dan setara umur manusia."
+  },
+  "result_actions": {
+    "copy_image": "Salin Imej",
+    "download_pdf": "Muat Turun PDF",
+    "share_pdf": "Kongsi PDF",
+    "print": "Cetak",
+    "new": "Baharu",
+    "copy_success": "Imej keputusan berjaya disalin.",
+    "copy_fallback": "Penyalinan imej tidak disokong pada pelayar ini, jadi PNG telah disimpan.",
+    "share_success": "PDF berjaya dikongsi.",
+    "new_success": "Kalkulator telah diset semula.",
+    "generic_error": "Keputusan tidak dapat dijana.",
+    "aria_label": "Pilihan Keputusan",
+    "share_link_copied": "Pautan keputusan telah disalin. Tampalkannya dalam mana-mana aplikasi untuk berkongsi.",
+    "share_download_fallback": "Perkongsian tidak tersedia di sini, jadi PDF telah disimpan."
+  },
+  "bridge": {
+    "Age": "Umur",
+    "Age Calculator": "Kalkulator Umur",
+    "Age Category": "Kategori Umur",
+    "Age Summary": "Ringkasan Umur",
+    "Your Age": "Umur anda",
+    "Your Age Result": "Keputusan Umur Anda",
+    "Exact Age": "Umur Tepat",
+    "Birth Date": "Tarikh Lahir",
+    "Date of Birth": "Tarikh Lahir",
+    "Calculate Age": "Kira Umur",
+    "Calculate Age On": "Kira Umur Pada",
+    "Calculate Age Till": "Kira Umur Hingga",
+    "Age will be calculated up to today": "Umur akan dikira sehingga hari ini",
+    "Select your date of birth and click Calculate": "Pilih tarikh lahir anda dan klik Kira",
+    "Calculate": "Kira",
+    "Calculate Your Age": "Kira Umur Anda",
+    "Result": "Keputusan",
+    "Calculation": "Pengiraan",
+    "Calculation Result": "Keputusan Pengiraan",
+    "Calculation Type": "Jenis Pengiraan",
+    "Calculated by": "Dikelaskan oleh AgeVerseGlobal",
+    "Calculated between the selected dates": "Dikira antara tarikh yang dipilih",
+    "Calculated result": "Keputusan dikira",
+    "Input": "Input",
+    "Input Details": "Butiran Input",
+    "Input Amount": "Jumlah Input",
+    "Input Summary": "Ringkasan Input",
+    "Reset": "Set semula",
+    "New": "Baharu",
+    "Copy": "Salin",
+    "Copy Result": "Salin Keputusan",
+    "Copy Image": "Salin Imej",
+    "Share": "Kongsi",
+    "Share Result": "Kongsi Keputusan",
+    "Share PDF": "Kongsi PDF",
+    "Download": "Muat turun",
+    "Download PDF": "Muat Turun PDF",
+    "Print": "Cetak",
+    "From": "Dari",
+    "To": "Kepada",
+    "From Date": "Tarikh Mula",
+    "To Date": "Tarikh Akhir",
+    "From Day": "Hari mula",
+    "To Day": "Hari akhir",
+    "Till": "Hingga",
+    "Specific Date": "Tarikh Khusus",
+    "Year": "Tahun",
+    "Years": "Tahun",
+    "Months": "Bulan",
+    "Month": "Bulan",
+    "Days": "Hari",
+    "Day": "Hari",
+    "Weeks": "Minggu",
+    "Week": "Minggu",
+    "Hours": "Jam",
+    "Hour": "Jam",
+    "Minutes": "Minit",
+    "Minute": "Minit",
+    "Seconds": "Saat",
+    "Second": "Saat",
+    "Total Years": "Jumlah tahun",
+    "Total Months": "Jumlah bulan",
+    "Total Weeks": "Jumlah minggu",
+    "Total Days": "Jumlah hari",
+    "Total Hours": "Jumlah jam",
+    "Total Minutes": "Jumlah minit",
+    "Total Seconds": "Jumlah saat",
+    "Total Time": "Jumlah masa",
+    "Exact difference between the selected dates": "Perbezaan tepat antara tarikh yang dipilih",
+    "Date Difference": "Beza Tarikh",
+    "Date Difference Calculator": "Kalkulator Beza Tarikh",
+    "Date Difference Result": "Keputusan Beza Tarikh",
+    "Exact Difference": "Perbezaan tepat",
+    "Event Calculator": "Kalkulator Acara",
+    "Event Countdown": "Kiraan detik acara",
+    "Event Date": "Tarikh Acara",
+    "Select Event": "Pilih Acara",
+    "Calculate Countdown": "Kira Detik",
+    "Calculate Difference": "Kira Beza",
+    "Custom Event Name": "Nama Acara Tersuai",
+    "Event Time": "Masa acara",
+    "Reminder": "Peringatan",
+    "Reminder Set": "Peringatan Ditetapkan",
+    "Reminder Time": "Masa Peringatan",
+    "No Reminder": "Tiada Peringatan",
+    "1 Day Before": "1 hari sebelum",
+    "1 Hour Before": "1 Jam Sebelum",
+    "10 Minutes Before": "10 Minit Sebelum",
+    "24 Hours Before": "24 Jam Sebelum",
+    "Days Before": "Hari sebelum",
+    "Hours Before": "Jam Sebelum",
+    "Minutes Before": "Minit Sebelum",
+    "Get notified before your event": "Dapatkan pemberitahuan sebelum acara anda",
+    "Choose when your event starts": "Pilih bila acara anda bermula",
+    "Choose when AgeVerseGlobal should remind you.": "Pilih bila AgeVerseGlobal patut mengingatkan anda.",
+    "Smart tools for your everyday date calculations.": "Alat pintar untuk pengiraan tarikh harian anda.",
+    "Explore Calculators": "Terokai Kalkulator",
+    "Explore AgeVerseGlobal calculators to find the tool you need.": "Terokai kalkulator AgeVerseGlobal untuk mencari alat yang anda perlukan.",
+    "Start Calculating": "Mula Mengira",
+    "Verified User": "Pengguna Disahkan",
+    "Free Forever": "Percuma Selamanya",
+    "Instant Calculation": "Pengiraan Segera",
+    "Multiple Date Support": "Sokongan Pelbagai Tarikh",
+    "Privacy Focused": "Mengutamakan Privasi",
+    "Fast": "Pantas",
+    "Accurate": "Tepat",
+    "Detailed": "Terperinci",
+    "Simple": "Mudah",
+    "Premium": "Premium",
+    "Health & Wellness": "Kesihatan & Kesejahteraan",
+    "Complete Health Profile": "Profil Kesihatan Lengkap",
+    "Personal Details": "Butiran Peribadi",
+    "Gender": "Jantina",
+    "Male": "Lelaki",
+    "Female": "Perempuan",
+    "Other": "Lain-lain",
+    "Senior Citizen": "Warga Emas",
+    "Senior Citizen Rate": "Kadar Warga Emas",
+    "Additional Senior Citizen Rate (%)": "Kadar Tambahan Warga Emas (%)",
+    "Goal": "Matlamat",
+    "Your Goal": "Matlamat Anda",
+    "Gain Weight": "Tambah Berat Badan",
+    "Lose Weight": "Kurangkan Berat Badan",
+    "Maintain": "Kekalkan",
+    "Diet Preference": "Pilihan Diet",
+    "Vegetarian": "Vegetarian",
+    "Non-Vegetarian": "Bukan Vegetarian",
+    "Vegan": "Vegan",
+    "Activity Level": "Tahap Aktiviti",
+    "Sedentary": "Tidak Aktif",
+    "Lightly Active": "Aktif Ringan",
+    "Moderately Active": "Aktif Sederhana",
+    "Very Active": "Sangat Aktif",
+    "Extra Active": "Luar Biasa Aktif",
+    "Little or no exercise": "Sedikit atau tiada senaman",
+    "Light exercise": "Senaman ringan",
+    "Exercise 3–5": "Senaman 3–5 hari",
+    "6–7 days/week": "6–7 hari/minggu",
+    "1–3 days/week": "1–3 hari/minggu",
+    "physical work": "kerja fizikal",
+    "Health Score": "Skor Kesihatan",
+    "Wellness Score": "Skor Kesejahteraan",
+    "Your Overall Wellness": "Kesejahteraan Keseluruhan Anda",
+    "Your personalized wellness report": "Laporan kesejahteraan peribadi anda",
+    "Fill in your details to calculate your complete wellness result.": "Isi butiran anda untuk mengira keputusan kesejahteraan lengkap anda.",
+    "✨ Calculate Wellness": "✨ Kira Kesejahteraan",
+    "Wellness": "Kesejahteraan",
+    "BMI Gauge": "Tolok BMI",
+    "Body Mass Index": "Indeks Jisim Tubuh",
+    "Healthy": "Sihat",
+    "Healthy Range": "Julat Sihat",
+    "Underweight": "Kurang Berat Badan",
+    "Overweight": "Lebih Berat Badan",
+    "Obesity": "Obesiti",
+    "BMI": "BMI",
+    "BMR": "BMR",
+    "Water": "Air",
+    "Liters/day": "Liter/hari",
+    "Ideal Weight": "Berat Ideal",
+    "Matches real age": "SePadan dengan umur sebenar",
+    "Body Age": "Umur Badan",
+    "Protein": "Protein",
+    "Carbs": "Karbohidrat",
+    "Fat": "Lemak",
+    "daily": "setiap hari",
+    "Recommended daily nutrition": "Pemakanan harian disyorkan",
+    "Nutrition Balance": "Keseimbangan Pemakanan",
+    "Personalized Diet Plan": "Pelan Diet Peribadi",
+    "Food suggestions based on your selected diet": "Cadangan makanan berdasarkan diet pilihan anda",
+    "Balanced Diet": "Diet Seimbang",
+    "Daily Lifestyle Goals": "Matlamat Gaya Hidup Harian",
+    "Sleep:": "Tidur:",
+    "Steps:": "Langkah:",
+    "Nutrition:": "Pemakanan:",
+    "Water:": "Air:",
+    "Today's Challenge": "Cabaran Hari Ini",
+    "Smart Health Tips": "Petua Kesihatan Pintar",
+    "Quick Tip": "Petua Pantas",
+    "How it works": "Bagaimana ia berfungsi",
+    "Important": "Penting",
+    "Calculation Note": "Nota Pengiraan",
+    "Disclaimer:": "Penafian:",
+    "Generated by": "Dijana oleh AgeVerseGlobal",
+    "AgeVerseGlobal": "AgeVerseGlobal",
+    "Retirement Calculator": "Kalkulator Persaraan",
+    "Retirement Planning": "Perancangan Persaraan",
+    "Retirement Result": "Keputusan Persaraan",
+    "Retirement Completed": "Persaraan Selesai",
+    "Retirement Day": "Hari persaraan",
+    "Retirement Day Reminder": "Peringatan Hari Persaraan",
+    "Retirement Day Message": "Mesej hari persaraan",
+    "Calculate Retirement": "Kira Persaraan",
+    "Retirement Date": "Tarikh Persaraan",
+    "Retirement Age": "Umur Persaraan",
+    "Event Completed": "Acara Selesai",
+    "Upcoming Event": "Acara akan datang",
+    "Time Remaining": "Masa berbaki",
+    "Remaining Period": "Tempoh berbaki",
+    "Estimated Time Remaining": "Anggaran Masa Yang Tinggal",
+    "Live Countdown": "Kiraan detik langsung",
+    "Next Birthday": "Hari Lahir Seterusnya",
+    "Birthday": "Hari Lahir",
+    "Anniversary": "Ulang Tahun",
+    "Exam": "Peperiksaan",
+    "Trip / Vacation": "Perjalanan / Cuti",
+    "Party / Event": "Parti / Acara",
+    "Custom": "Tersuai",
+    "Unit Converter": "Penukar Unit",
+    "Unit Conversion Result": "Keputusan Penukaran Unit",
+    "Conversion": "Penukaran",
+    "Conversion Category": "Kategori Penukaran",
+    "Converted Value": "Nilai Ditukar",
+    "From Unit": "Dari Unit",
+    "To Unit": "Ke Unit",
+    "Swap units": "Tukar unit",
+    "Enter value": "Masukkan nilai",
+    "Percentage Calculator": "Kalkulator Peratusan",
+    "to see the complete percentage calculation.": "untuk melihat pengiraan peratusan lengkap.",
+    "Discount Calculator": "Kalkulator Diskaun",
+    "Discount": "Diskaun",
+    "Discount (%)": "Diskaun (%)",
+    "Discount 1 (%)": "Diskaun 1 (%)",
+    "Discount 2 (%)": "Diskaun 2 (%)",
+    "Discount 3 (%) — Optional": "Diskaun 3 (%) — Pilihan",
+    "Effective Discount": "Diskaun Berkesan",
+    "Effective Rate": "Kadar Berkesan",
+    "Final Price": "Harga Akhir",
+    "Final Selling Price": "Harga Jualan Akhir",
+    "Original Price": "Harga Asal",
+    "Original / Marked Price": "Harga Asal / Ditanda",
+    "Saving": "Simpanan",
+    "Savings": "Simpanan",
+    "Total Saving": "Jumlah Simpanan",
+    "Quantity-Based Discount Slabs": "Peringkat Diskaun Berasaskan Kuantiti",
+    "Sequential Discounts": "Diskaun Bersiri",
+    "GST Calculator": "Kalkulator GST",
+    "GST": "GST",
+    "GST Rate": "Kadar GST",
+    "GST Amount": "Jumlah GST",
+    "Tax Type": "Jenis Cukai",
+    "CGST": "CGST",
+    "SGST": "SGST",
+    "IGST": "IGST",
+    "CGST + SGST": "CGST + SGST",
+    "Custom GST Rate (%)": "Kadar GST Tersuai (%)",
+    "GST Breakdown": "Pecahan GST",
+    "to see the complete GST calculation.": "untuk melihat pengiraan GST lengkap.",
+    "EMI Calculator": "Kalkulator EMI",
+    "EMI Calculation Result": "Keputusan Pengiraan EMI",
+    "Monthly EMI": "EMI Bulanan",
+    "Loan Amount": "Jumlah Pinjaman",
+    "Loan Tenure": "Tempoh Pinjaman",
+    "Annual Interest Rate (%)": "Kadar Faedah Tahunan (%)",
+    "Annual Interest": "Faedah Tahunan",
+    "Monthly Interest": "Faedah Bulanan",
+    "Interest Rate": "Kadar Faedah",
+    "Interest Rate (% p.a.)": "Kadar Faedah (% p.a.)",
+    "Principal": "Prinsipal",
+    "Principal Amount": "Jumlah Prinsipal",
+    "Total Payment": "Jumlah Bayaran",
+    "Total Repayment": "Jumlah Bayaran Balik",
+    "Repayment Summary": "Ringkasan Bayaran Balik",
+    "Repayment Flow": "Aliran Bayaran Balik",
+    "Payment Composition": "Komposisi Bayaran",
+    "Your complete loan repayment summary": "Ringkasan bayaran balik pinjaman lengkap anda",
+    "SIP Calculator": "Kalkulator SIP",
+    "SIP Calculation Result": "Keputusan Pengiraan SIP",
+    "SIP Amount": "Jumlah SIP",
+    "SIP Investment Amount": "Jumlah Pelaburan SIP",
+    "SIP Frequency": "Kekerapan SIP",
+    "Annual Return": "Pulangan Tahunan",
+    "Expected Annual Return (%)": "Anggaran Pulangan Tahunan (%)",
+    "Expected Return": "Anggaran Pulangan",
+    "Annual Step-Up (%)": "Peningkatan Tahunan (%)",
+    "Step-Up": "Peningkatan",
+    "Annual SIP Step-Up": "Peningkatan SIP Tahunan",
+    "Investment & Wealth Projection": "Unjuran Pelaburan & Kekayaan",
+    "Investment Period": "Tempoh Pelaburan",
+    "Investment Period (Years)": "Tempoh Pelaburan (Tahun)",
+    "Total Invested": "Jumlah Dilaburkan",
+    "Estimated Returns": "Anggaran Pulangan",
+    "Estimated Value": "Anggaran Nilai",
+    "FD Calculator": "Kalkulator FD",
+    "FD Calculation Result": "Keputusan Pengiraan FD",
+    "Fixed Deposit Maturity & Interest Projection": "Kematangan Deposit Tetap & Unjuran Faedah",
+    "Deposit Amount": "Jumlah Deposit",
+    "Maturity Value": "Nilai Kematangan",
+    "Estimated Interest": "Anggaran Faedah",
+    "Estimated Maturity Value": "Anggaran Nilai Kematangan",
+    "Interest Compounding": "Pengkompaunan Faedah",
+    "Compounding Frequency": "Kekerapan Pengkompaunan",
+    "Quarterly": "Suku Tahun",
+    "Half-Yearly": "Setengah Tahun",
+    "Annual": "Tahunan",
+    "Monthly": "Bulanan",
+    "RD Calculator": "Kalkulator RD",
+    "RD Calculation Result": "Keputusan Pengiraan RD",
+    "Recurring Deposit & Maturity Projection": "Deposit Berulang & Unjuran Kematangan",
+    "Monthly RD Deposit": "Deposit RD Bulanan",
+    "Monthly RD": "RD Bulanan",
+    "Total Deposited": "Jumlah Didepositkan",
+    "Total Original": "Jumlah Asal",
+    "Estimated future value of your RD": "Anggaran nilai masa depan RD anda",
+    "Dog Age Calculator": "Kalkulator Umur Anjing",
+    "Dog Age Calculation Result": "Keputusan Pengiraan Umur Anjing",
+    "Dog Age": "Umur Anjing",
+    "Dog's Birth Date": "Tarikh Lahir Anjing",
+    "Your Dog's Exact Age": "Umur Tepat Anjing Anda",
+    "Human Age Equivalent": "Setara Umur Manusia",
+    "Human Equivalent": "Setara Manusia",
+    "Age & Human Equivalent Projection": "Unjuran Umur & Setara Manusia",
+    "About Dog Age": "Mengenai Umur Anjing",
+    "Category": "Kategori",
+    "Pregnancy Calculator": "Kalkulator Kehamilan",
+    "Pregnancy Result": "Keputusan Kehamilan",
+    "Pregnancy Age": "Tempoh Kehamilan",
+    "Current Trimester": "Trimester Semasa",
+    "Pregnancy Progress": "Kemajuan Kehamilan",
+    "Progress": "Kemajuan",
+    "Estimated Due Date": "Anggaran Tarikh Bersalin",
+    "Estimated Due Date Reached": "Anggaran Tarikh Bersalin Telah Tiba",
+    "Calculate Pregnancy": "Kira Kehamilan",
+    "Calculate Pregnancy On": "Kira Kehamilan Pada",
+    "Until estimated due date": "Sehingga anggaran tarikh bersalin",
+    "Enter the first day of your last menstrual period.": "Masukkan hari pertama haid terakhir anda.",
+    "First Day of Last Menstrual Period": "Hari Pertama Haid Terakhir",
+    "Last Menstrual Period": "Haid Terakhir",
+    "Pregnancy Not Started": "Kehamilan Belum Bermula",
+    "Growth": "Pertumbuhan",
+    "Projection": "Unjuran",
+    "Price Flow": "Aliran Harga",
+    "Investment Flow": "Aliran Pelaburan",
+    "Interest Growth": "Pertumbuhan Faedah",
+    "FD Growth": "Pertumbuhan FD",
+    "Formula": "Formula",
+    "EMI Formula": "Formula EMI",
+    "Value": "Nilai",
+    "Opening Value": "Nilai Permulaan",
+    "Original": "Asal",
+    "Before": "Sebelum",
+    "After": "Selepas",
+    "Period": "Tempoh",
+    "Frequency": "Kekerapan",
+    "Custom Rate": "Kadar Tersuai",
+    "Expected Annual Interest Rate (%)": "Anggaran Kadar Faedah Tahunan (%)",
+    "Total Interest": "Jumlah Faedah",
+    "Total Amount": "Jumlah Keseluruhan",
+    "Invested": "Dilaburkan",
+    "Annual Rate": "Kadar Tahunan",
+    "Base Amount": "Jumlah Asas",
+    "Amount after discount": "Jumlah selepas diskaun",
+    "Amount payable every month": "Jumlah perlu dibayar setiap bulan",
+    "Estimated value at the end of the selected tenure": "Anggaran nilai pada akhir tempoh yang dipilih",
+    "Estimated future value of your SIP": "Anggaran nilai masa depan SIP anda",
+    "✓ Accurate": "✓ Tepat",
+    "✓ Simple": "✓ Mudah",
+    "✓ Privacy Focused": "✓ Berpusatkan Privasi",
+    "⚡ Fast": "⚡ Pantas",
+    "📊 Detailed": "📊 Terperinci",
+    "🔒 Simple": "🔒 Mudah",
+    "💰 Savings": "💰 Simpanan",
+    "🚀 Annual SIP Step-Up": "🚀 Peningkatan SIP Tahunan",
+    "🔢 Value": "🔢 Nilai",
+    "🧮 Calculate": "🧮 Kira",
+    "🧮 Calculate EMI": "🧮 Kira EMI",
+    "🧮 Calculation": "🧮 Pengiraan",
+    "📤 Share": "📤 Kongsi",
+    "📥 Download": "📥 Muat Turun",
+    "📄 Download PDF": "📄 Muat Turun PDF",
+    "📋 Copy": "📋 Salin",
+    "📋 Copy Image": "📋 Salin Imej",
+    "🔄 New": "🔄 Baharu",
+    "🔄 Reset": "🔄 Set Semula",
+    "🖨️ Print": "🖨️ Cetak",
+    "📏 Convert": "📏 Tukar",
+    "⚙️ Custom": "⚙️ Tersuai",
+    "🎯 Select Event": "🎯 Pilih Acara",
+    "🎯 Your Goal": "🎯 Matlamat Anda",
+    "👨 Male": "👨 Lelaki",
+    "👩 Female": "👩 Perempuan",
+    "🌱 Vegan": "🌱 Vegan",
+    "🍗 Non-Vegetarian": "🍗 Bukan Vegetarian",
+    "🥗 Vegetarian": "🥗 Vegetarian",
+    "🏃 Activity Level": "🏃 Tahap Aktiviti",
+    "🏃 Body Age": "🏃 Umur Badan",
+    "💧 Water": "💧 Air",
+    "🔥 BMR": "🔥 BMR",
+    "⚖️ BMI": "⚖️ BMI",
+    "🎯 Ideal Weight": "🎯 Berat Ideal",
+    "🥩 Protein": "🥩 Protein",
+    "🍲 Carbs": "🍲 Karbohidrat",
+    "🥑 Fat": "🥑 Lemak",
+    "💰 Growth": "💰 Pertumbuhan",
+    "💰 Maturity": "💰 Kematangan",
+    "💰 Repayment Summary": "💰 Ringkasan Bayaran Balik",
+    "💰 Total Saving": "💰 Jumlah Simpanan",
+    "💳 Loan Input Details": "💳 Butiran Input Pinjaman",
+    "💵 Principal Deposit": "💵 Deposit Prinsipal",
+    "💵 Total Deposited": "💵 Jumlah Didepositkan",
+    "💵 Total Invested": "💵 Jumlah Dilaburkan",
+    "📌 Input Summary": "📌 Ringkasan Input",
+    "📐 Formula": "📐 Formula",
+    "📐 Calculation": "📐 Pengiraan",
+    "📈 Estimated Interest": "📈 Anggaran Faedah",
+    "📈 Estimated Returns": "📈 Anggaran Pulangan",
+    "📉 Discount": "📉 Diskaun",
+    "📊 Age Category": "📊 Kategori Umur",
+    "📊 Age Summary": "📊 Ringkasan Umur",
+    "📊 Growth": "📊 Pertumbuhan",
+    "📊 Health Summary": "📊 Ringkasan Kesihatan",
+    "📊 Interest": "📊 Faedah",
+    "📊 Interest Growth": "📊 Pertumbuhan Faedah",
+    "📊 Investment Flow": "📊 Aliran Pelaburan",
+    "📊 Payment Composition": "📊 Komposisi Bayaran",
+    "📊 Pregnancy Progress": "📊 Kemajuan Kehamilan",
+    "📊 Price Flow": "📊 Aliran Harga",
+    "📊 Projection": "📊 Unjuran",
+    "📊 Total Time": "📊 Jumlah Masa",
+    "⏳ Estimated Time Remaining": "⏳ Anggaran Masa Yang Tinggal",
+    "⏳ Exact Difference": "⏳ Perbezaan Tepat",
+    "⏳ Remaining Period": "⏳ Tempoh Yang Tinggal",
+    "⏳ Time Remaining": "⏳ Masa Yang Tinggal",
+    "⏳ Upcoming Event": "⏳ Acara Akan Datang",
+    "⏱ Live Countdown": "⏱ Kira Detik Langsung",
+    "⏰ Event Time": "⏰ Masa Acara",
+    "⏰ Remind me before retirement": "⏰ Ingatkan saya sebelum persaraan",
+    "🌼 Pregnancy Not Started": "🌼 Kehamilan Belum Bermula",
+    "🌸 Current Trimester": "🌸 Trimester Semasa",
+    "🎉 Event Countdown": "🎉 Kira Detik Acara",
+    "🎉 Next Birthday": "🎉 Hari Lahir Seterusnya",
+    "🎉 Retirement Day": "🎉 Hari Persaraan",
+    "🎂 Age": "🎂 Umur",
+    "🎂 Age Calculator": "🎂 Kalkulator Umur",
+    "🎂 Date of Birth": "🎂 Tarikh Lahir",
+    "🎂 Dog Age": "🎂 Umur Anjing",
+    "🎂 Exact Age": "🎂 Umur Tepat",
+    "🎂 Next Birthday": "🎂 Hari Lahir Seterusnya",
+    "🎂 Smart & Accurate Age Calculator": "🎂 Kalkulator Umur Pintar & Tepat",
+    "🎂 Your Age": "🎂 Umur Anda",
+    "📅 Calculate Pregnancy On": "📅 Kira Kehamilan Pada",
+    "📅 Estimated Due Date": "📅 Anggaran Tarikh Bersalin",
+    "📅 Event Date": "📅 Tarikh Acara",
+    "📅 From": "📅 Dari",
+    "📅 From Date": "📅 Tarikh Mula",
+    "📅 Retirement Date": "📅 Tarikh Persaraan",
+    "📅 Specific Date": "📅 Tarikh Khusus",
+    "📅 Till": "📅 Hingga",
+    "📅 To Date": "📅 Tarikh Akhir",
+    "📅 Total Days": "📅 Jumlah Hari",
+    "📅 Year-Wise Projection": "📅 Unjuran Mengikut Tahun",
+    "📆 Weekday": "📆 Hari Dalam Minggu",
+    "🩸 First Day of Last Menstrual Period": "🩸 Hari Pertama Haid Terakhir",
+    "🪑 Sedentary": "🪑 Tidak Aktif",
+    "🪪 Your Name": "🪪 Nama Anda",
+    "🧾 Input Details": "🧾 Butiran Input",
+    "🤰 Calculate Pregnancy": "🤰 Kira Kehamilan",
+    "🍽️ Personalized Diet Plan": "🍽️ Pelan Diet Peribadi",
+    "🌿 Daily Lifestyle Goals": "🌿 Matlamat Gaya Hidup Harian",
+    "🏆 Today's Challenge": "🏆 Cabaran Hari Ini",
+    "💡 How it works": "💡 Bagaimana ia berfungsi",
+    "💡 Quick Tip": "💡 Petua Pantas",
+    "💡 Smart Health Tips": "💡 Petua Kesihatan Pintar",
+    "⚖️ Maintain": "⚖️ Kekalkan",
+    "⬆️ Gain Weight": "⬆️ Tambah Berat Badan",
+    "⬇️ Lose Weight": "⬇️ Kurangkan Berat Badan",
+    "🧑 Approximate Human Age": "🧑 Anggaran Umur Manusia",
+    "🐾 About Dog Age": "🐾 Mengenai Umur Anjing",
+    "🐾 Category": "🐾 Kategori",
+    "🐾 Human Equivalent": "🐾 Setara Manusia",
+    "🧮 Calculation Breakdown": "🧮 Pecahan Pengiraan",
+    "🧮 Conversion Category": "🧮 Kategori Penukaran",
+    "🧮 Repayment Flow": "🧮 Aliran Bayaran Balik",
+    "✦ HELP & INFORMATION": "✦ BANTUAN & MAKLUMAT",
+    "✦ USER EXPERIENCES": "✦ PENGALAMAN PENGGUNA",
+    "What Users Say": "Apa Kata Pengguna",
+    "Why Choose AgeVerseGlobal?": "Mengapa Pilih AgeVerseGlobal?",
+    "Still have a question?": "Masih mempunyai soalan?",
+    "NEW": "Baharu",
+    "days before": "hari sebelum",
+    "days/week": "hari/minggu",
+    "kcal/day": "kcal/hari",
+    "7–8 Hours": "7–8 Jam",
+    "8000 Steps": "8000 Langkah",
+    "Calculator Section": "Bahagian Kalkulator",
+    "Your Result Will Appear Here": "Keputusan Anda Akan Papar Di Sini",
+    "Your result will appear here.": "Keputusan anda akan dipaparkan di sini.",
+    "Your EMI Result Will Appear Here": "Keputusan EMI Anda Akan Papar Di Sini",
+    "Your retirement planning summary": "Ringkasan perancangan persaraan anda",
+    "Your pregnancy timeline summary": "Ringkasan garis masa kehamilan anda",
+    "Your complete result.": "Keputusan lengkap anda.",
+    "to see the complete result.": "untuk melihat keputusan lengkap.",
+    "to see your complete FD projection.": "untuk melihat unjuran FD lengkap anda.",
+    "to see your complete RD projection.": "untuk melihat unjuran RD lengkap anda.",
+    "to see your complete SIP projection.": "untuk melihat unjuran SIP lengkap anda.",
+    "Enter your details above to begin.": "Masukkan butiran anda di atas untuk bermula.",
+    "Enter your values and tap": "Masukkan nilai anda dan ketik",
+    "Enter your loan details and tap": "Masukkan butiran pinjaman anda dan ketik",
+    "Leave blank to calculate using today's date.": "Biarkan kosong untuk mengira menggunakan tarikh hari ini.",
+    "The current date will be used automatically.": "Tarikh semasa akan digunakan secara automatik.",
+    "Optional": "Pilihan",
+    "Optional additional rate for senior-citizen projection.": "Kadar tambahan pilihan untuk unjuran warga emas.",
+    "Quarterly Compounding": "Pengkompaunan Suku Tahun",
+    "Compounding": "Pengkompaunan",
+    "Interest": "Faedah",
+    "Weekly": "Mingguan",
+    "Principal Deposit": "Deposit Prinsipal",
+    "Returns": "Pulangan",
+    "Quantity": "Kuantiti",
+    "From Quantity": "Dari Kuantiti",
+    "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)": "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)",
+    "AgeVerseGlobal - Retirement Result": "AgeVerseGlobal - Keputusan Persaraan",
+    "AgeVerseGlobal EMI Calculator Result": "Keputusan Kalkulator EMI AgeVerseGlobal",
+    "AgeVerseGlobal Pregnancy Calculator": "Kalkulator Kehamilan AgeVerseGlobal",
+    "AgeVerseGlobal Pregnancy Result": "Keputusan Kehamilan AgeVerseGlobal",
+    "AgeVerseGlobal Unit Converter Result": "Keputusan Penukar Unit AgeVerseGlobal",
+    "AgeVerseGlobal Utility • Unit Converter": "Utiliti AgeVerseGlobal • Penukar Unit",
+    "Verse": "Verse",
+    "Utility": "Utiliti",
+    "Slab 1": "Peringkat 1",
+    "Slab 2": "Peringkat 2",
+    "Slab 3": "Peringkat 3",
+    "to see your complete result.": "untuk melihat keputusan lengkap anda.",
+    "✓ Result image copied successfully.": "✓ Imej keputusan berjaya disalin.",
+    "Frequently Asked Questions": "Soalan Lazim",
+    "♡ Calories": "♡ Kalori",
+    "Instantly &amp; Accurately": "Segera &amp; Tepat",
+    "⚙️ Set Custom Reminder": "⚙️ Tetapkan Peringatan Tersuai",
+    "Calculate On": "Kira Pada",
+    "Cumulative Interest": "Faedah Kumulatif",
+    "Hard exercise": "Senaman berat",
+    "Very hard training /": "Latihan sangat berat /",
+    "⚖️ Weight (kg)": "⚖️ Berat (kg)",
+    "📏 Body Measurements": "📏 Ukuran Badan",
+    "📏 Height (cm)": "📏 Ketinggian (cm)",
+    "⏳ Estimated time remaining": "⏳ Anggaran masa yang tinggal",
+    "🟢 Today": "🟢 Hari Ini",
+    "Select two dates to calculate the exact difference.": "Pilih dua tarikh untuk mengira perbezaan tepat.",
+    "Utility • Unit Converter": "Utiliti • Penukar Unit",
+    "Weight (kg)": "Berat (kg)",
+    "Height (cm)": "Ketinggian (cm)",
+    "Result image": "Imej keputusan",
+    "Estimated time remaining": "Anggaran masa yang tinggal",
+    "Health Profile": "Profil Kesihatan",
+    "Weight": "Berat",
+    "Height": "Ketinggian",
+    "Calories": "Kalori",
+    "Complete": "Lengkap",
+    "Health": "Kesihatan",
+    "Countdown": "Kira Detik",
+    "Difference": "Perbezaan",
+    "Select": "Pilih",
+    "Please": "Sila",
+    "Enter": "Masukkan",
+    "Details": "Butiran",
+    "Name": "Nama",
+    "Time": "Masa",
+    "Date": "Tarikh",
+    "Amount": "Jumlah",
+    "Rate": "Kadar",
+    "Price": "Harga",
+    "Total": "Jumlah",
+    "Estimated": "Dianggarkan",
+    "Expected": "Djangka",
+    "Final": "Akhir",
+    "Payment": "Bayaran",
+    "Repayment": "Bayaran Balik",
+    "Investment": "Pelaburan",
+    "Maturity": "Kematangan",
+    "Deposit": "Deposit",
+    "Loan": "Pinjaman",
+    "Tenure": "Tempoh",
+    "Tax": "Cukai",
+    "Breakdown": "Pecahan",
+    "Converted": "Ditukar",
+    "Unit": "Unit",
+    "Swap": "Tukar",
+    "Event": "Acara",
+    "Retirement": "Persaraan",
+    "Pregnancy": "Kehamilan",
+    "Dog": "Anjing",
+    "Human": "Manusia",
+    "Equivalent": "Setara",
+    "Current": "Semasa",
+    "Range": "Julat",
+    "Body": "Badan",
+    "Nutrition": "Pemakanan",
+    "Lifestyle": "Gaya Hidup",
+    "Challenge": "Cabaran",
+    "Tips": "Petua",
+    "Personalized": "Peribadi",
+    "Plan": "Pelan",
+    "Diet": "Diet",
+    "Sleep": "Tidur",
+    "Steps": "Langkah",
+    "AgeVerseGlobal Utility": "Utiliti AgeVerseGlobal",
+    "Choose": "Pilih",
+    "when": "bila",
+    "your": "anda",
+    "event": "acara",
+    "starts": "bermula",
+    "your complete": "anda lengkap",
+    "complete": "lengkap",
+    "see": "lihat",
+    "the": "",
+    "here": "di sini",
+    "today": "hari ini",
+    "On": "Pada",
+    "and": "dan",
+    "accurately": "dengan tepat",
+    "Calculate GST, tax amount and total amount quickly and accurately.": "Kira GST, jumlah cukai dan jumlah keseluruhan dengan cepat dan tepat.",
+    "Calculate discount, savings and final selling price quickly.": "Kira diskaun, simpanan dan harga jualan akhir dengan cepat.",
+    "Calculate fixed deposit maturity, estimated interest and total value.": "Kira kematangan deposit tetap, anggaran faedah dan jumlah nilai.",
+    "Calculate your SIP investment, estimated returns and maturity value.": "Kira pelaburan SIP anda, anggaran pulangan dan nilai kematangan.",
+    "Calculate your dog's exact age and approximate human-age equivalent.": "Kira umur tepat anjing anda dan anggaran setara umur manusia.",
+    "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.": "Kira umur tepat anda dalam tahun, bulan, hari, jam, minit dan saat dengan AgeVerseGlobal.",
+    "Calculate your monthly EMI, total interest and total repayment amount.": "Kira EMI bulanan, jumlah faedah dan jumlah bayaran balik anda.",
+    "Calculate your recurring deposit, estimated interest and maturity value.": "Kira deposit berulang, anggaran faedah dan nilai kematangan anda.",
+    "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.": "EMI dikira menggunakan jumlah pinjaman yang dimasukkan, kadar faedah tahunan dan tempoh bayaran balik. EMI pemberi pinjaman sebenar mungkin berbeza disebabkan pembulatan, yuran, insurans atau caj lain yang berkenaan.",
+    "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.": "Masukkan jumlah pinjaman, kadar faedah tahunan dan tempoh bayaran balik untuk mengira EMI bulanan dan ringkasan bayaran balik lengkap anda.",
+    "Enter the price, choose the discount type and tap": "Masukkan harga, pilih jenis diskaun dan ketik",
+    "Enter your SIP amount, frequency, expected return and investment period, then tap": "Masukkan jumlah SIP, kekerapan, pulangan dijangka dan tempoh pelaburan, kemudian ketik",
+    "Enter your amount, select the GST rate and tap": "Masukkan jumlah anda, pilih kadar GST dan ketik",
+    "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap": "Masukkan jumlah deposit, kadar dijangka, tempoh pelaburan dan kekerapan pengkompaunan, kemudian ketik",
+    "Enter your monthly RD deposit, expected interest rate and investment period, then tap": "Masukkan deposit RD bulanan, kadar faedah dijangka dan tempoh pelaburan, kemudian ketik",
+    "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.": "Contoh: 1 item → 10%, 2 item → 15%, 3 atau lebih item → 20%.",
+    "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.": "Contoh: 20% diikuti oleh 10% dikenakan secara bersiri, bukan sebagai diskaun 30% mudah.",
+    "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.": "Contoh: Kadar asas 7.50% + Kadar tambahan 0.50% = 8.00% unjuran kadar berkesan.",
+    "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.": "Kematangan FD bergantung pada jumlah deposit, kadar faedah, tempoh dan kekerapan pengkompaunan. Pulangan bank sebenar mungkin berbeza mengikut peraturan terpakai bank.",
+    "For sequential discounts, each discount is calculated on the price remaining after the previous discount.": "Untuk diskaun bersiri, setiap diskaun dikira pada harga yang tinggal selepas diskaun sebelumnya.",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "Penukaran umur manusia hanyalah anggaran. Penjagaan veterinar biasa, pemakanan dan senaman adalah penting untuk kesihatan anjing anda.",
+    "Quickly calculate percentages, increases, decreases and more.": "Kira peratusan, kenaikan, penurunan dan banyak lagi dengan cepat.",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "Kematangan RD dianggarkan menggunakan pengkompaunan suku tahun, yang biasa digunakan untuk pengiraan deposit berulang.",
+    "Select a category, enter a value and choose the units you want to convert.": "Pilih kategori, masukkan nilai dan pilih unit yang anda mahu tukar.",
+    "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.": "Pilih kadar GST, pilih sama ada jumlah tersebut termasuk GST atau tidak, dan kemudian kira pecahan GST lengkap anda.",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "Model faedah kompaun standard: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ Nota Pengiraan",
+    "ℹ️ Important": "ℹ️ Penting",
+    "↻ Reset": "↻ Set Semula",
+    "⚧ Gender": "⚧ Jantina",
+    "⚧ Other": "⚧ Lain-lain",
+    "✅ Event Completed": "✅ Acara Selesai",
+    "✍️ Custom Event Name": "✍️ Nama Acara Tersuai",
+    "✓ Amount after discount": "✓ Jumlah selepas diskaun",
+    "✓ Amount payable every month": "✓ Jumlah perlu dibayar setiap bulan",
+    "✓ Calculated between the selected dates": "✓ Dikira antara tarikh yang dipilih",
+    "✓ Calculated result": "✓ Keputusan dikira",
+    "✓ Estimated future value of your RD": "✓ Anggaran nilai masa depan RD anda",
+    "✓ Estimated future value of your SIP": "✓ Anggaran nilai masa depan SIP anda",
+    "✓ Estimated value at the end of the selected tenure": "✓ Anggaran nilai pada akhir tempoh yang dipilih",
+    "✓ Free Forever": "✓ Percuma Selamanya",
+    "✓ Instant Calculation": "✓ Pengiraan Segera",
+    "✓ Multiple Date Support": "✓ Sokongan Pelbagai Tarikh",
+    "✓ Result copied successfully.": "✓ Keputusan berjaya disalin.",
+    "⭐ Health Score": "⭐ Skor Kesihatan",
+    "🎉 Estimated Due Date Reached": "🎉 Anggaran Tarikh Bersalin Telah Tiba",
+    "🏃 Moderately Active": "🏃 Aktif Sederhana",
+    "🏋️ Extra Active": "🏋️ Luar Biasa Aktif",
+    "🏢 Retirement Age": "🏢 Umur Persaraan",
+    "🏦 FD Growth": "🏦 Pertumbuhan FD",
+    "🏦 Interest Compounding": "🏦 Pengkompaunan Faedah",
+    "👤 Personal Details": "👤 Butiran Peribadi",
+    "👵 Senior Citizen Rate": "👵 Kadar Warga Emas",
+    "👶 Pregnancy Age": "👶 Tempoh Kehamilan",
+    "💪 Very Active": "💪 Sangat Aktif",
+    "💰 GST Breakdown": "💰 Pecahan GST",
+    "📅 1 Day Before": "📅 1 Hari Sebelum",
+    "📅 Select your date of birth and click Calculate": "📅 Pilih tarikh lahir anda dan klik Kira",
+    "📋 Copy Result": "📋 Salin Keputusan",
+    "📐 EMI Formula": "📐 Formula EMI",
+    "📤 Share PDF": "📤 Kongsi PDF",
+    "📤 Share Result": "📤 Kongsi Keputusan",
+    "📥 Download PDF": "📥 Muat Turun PDF",
+    "🔕 No Reminder": "🔕 Tiada Peringatan",
+    "🔢 Sequential Discounts": "🔢 Diskaun Bersiri",
+    "🚶 Lightly Active": "🚶 Aktif Ringan",
+    "🛒 Quantity-Based Discount Slabs": "🛒 Peringkat Diskaun Berasaskan Kuantiti",
+    "🥗 Diet Preference": "🥗 Pilihan Diet",
+    "🥗 Nutrition Balance": "🥗 Keseimbangan Pemakanan",
+    "🩸 Last Menstrual Period": "🩸 Haid Terakhir",
+    "Add GST": "Tambah GST",
+    "Adult Dog": "Anjing Dewasa",
+    "Age Calculations": "Pengiraan Umur",
+    "Age Result": "Keputusan Umur",
+    "Amount Including GST": "Jumlah Termasuk GST",
+    "Both values cannot be zero.": "Kedua-dua nilai tidak boleh sifar.",
+    "Birth date cannot be later than the calculation date.": "Tarikh lahir tidak boleh lewat daripada tarikh pengiraan.",
+    "Canvas image creation failed.": "Penciptaan imej kanvas gagal.",
+    "Copy failed:": "Penyalinan gagal:",
+    "Copy image error:": "Ralat salin imej:",
+    "Countdown for birthdays, anniversaries, exams and more.": "Kira detik hari lahir, ulang tahun, peperiksaan dan acara lain.",
+    "Custom Event": "Acara Tersuai",
+    "Custom Reminder": "Peringatan Tersuai",
+    "Custom reminder must be between 1 and 3650 days.": "Peringatan tersuai mestilah antara 1 dan 3650 hari.",
+    "Discount Calculator Result": "Keputusan Kalkulator Diskaun",
+    "Dog Age Calculator Result": "Keputusan Kalkulator Umur Anjing",
+    "Dog age result image error:": "Ralat imej keputusan umur anjing:",
+    "Download PDF error:": "Ralat muat turun PDF:",
+    "Download failed:": "Muat turun gagal:",
+    "EMI Calculator Result": "Keputusan Kalkulator EMI",
+    "Enter age": "Masukkan umur",
+    "Enter amount": "Masukkan jumlah",
+    "Enter days": "Masukkan hari",
+    "Event time": "Masa acara",
+    "Final Value": "Nilai Akhir",
+    "Final value cannot be zero.": "Nilai akhir tidak boleh sifar.",
+    "Find Original Value": "Cari Nilai Asal",
+    "Find exact difference between any two dates.": "Cari perbezaan tepat antara mana-mana dua tarikh.",
+    "Find exact difference between two dates.": "Ketahui perbezaan tepat antara dua tarikh.",
+    "First Value": "Nilai Pertama",
+    "GST Calculator Result": "Keputusan Kalkulator GST",
+    "GST PDF error:": "Ralat PDF GST:",
+    "GST image copy error:": "Ralat salin imej GST:",
+    "GST print dialog error:": "Ralat dialog cetak GST:",
+    "GST print window error:": "Ralat tetingkap cetak GST:",
+    "GST share error:": "Ralat kongsi GST:",
+    "Generated by AgeVerseGlobal": "Dijana oleh AgeVerseGlobal",
+    "Get a complete breakdown of base amount, GST and total amount.": "Dapatkan pecahan lengkap jumlah asas, GST dan jumlah keseluruhan.",
+    "Image clipboard copy failed:": "Penyalinan papan keratan imej gagal:",
+    "Investment Result": "Keputusan Pelaburan",
+    "Loan Summary": "Ringkasan Pinjaman",
+    "Maintain Weight": "Kekalkan Berat Badan",
+    "Multiple Discounts": "Pelbagai Diskaun",
+    "New Value": "Nilai Baharu",
+    "Non Vegetarian": "Bukan Vegetarian",
+    "Not specified": "Tidak dinyatakan",
+    "Notification permission may be required for browser reminders.": "Kebenaran pemberitahuan mungkin diperlukan untuk peringatan penyemak imbas.",
+    "Opening print preview...": "Membuka pratonton cetakan...",
+    "Original Amount": "Jumlah Asal",
+    "Original Value": "Nilai Asal",
+    "Original value cannot be zero.": "Nilai asal tidak boleh sifar.",
+    "PDF blob could not be created.": "Blob PDF tidak dapat dicipta.",
+    "PDF blob not created.": "Blob PDF tidak dicipta.",
+    "PDF creation error:": "Ralat penciptaan PDF:",
+    "PDF download failed:": "Muat turun PDF gagal:",
+    "PDF downloaded successfully.": "PDF berjaya dimuat turun.",
+    "PDF generation error:": "Ralat penjanaan PDF:",
+    "PDF generation failed:": "Penjanaan PDF gagal:",
+    "PDF opened successfully. Please press Ctrl + P to print.": "PDF berjaya dibuka. Sila tekan Ctrl + P untuk mencetak.",
+    "PDF ready. Opening print dialog...": "PDF siap. Membuka dialog cetak...",
+    "PDF shared successfully.": "PDF berjaya dikongsi.",
+    "PDF sharing error:": "Ralat perkongsian PDF:",
+    "PDF sharing is not supported on this device.": "Perkongsian PDF tidak disokong pada peranti ini.",
+    "Percentage Calculator Result": "Keputusan Kalkulator Peratusan",
+    "Percentage Change": "Perubahan Peratusan",
+    "Percentage Decrease": "Penurunan Peratusan",
+    "Percentage Difference": "Perbezaan Peratusan",
+    "Percentage Increase": "Kenaikan Peratusan",
+    "Percentage of a Number": "Peratusan Nombor",
+    "Please allow pop-ups in your browser to print the PDF.": "Sila benarkan popup dalam pelayar anda untuk mencetak PDF.",
+    "Please allow pop-ups to print the result.": "Sila benarkan popup untuk mencetak keputusan.",
+    "Please enter a valid GST rate between 0% and 100%.": "Sila masukkan kadar GST yang sah antara 0% dan 100%.",
+    "Please enter a valid LMP date.": "Sila masukkan tarikh LMP yang sah.",
+    "Please enter a valid age between 5 and 120 years.": "Sila masukkan umur yang sah antara 5 dan 120 tahun.",
+    "Please enter a valid amount.": "Sila masukkan jumlah yang sah.",
+    "Please enter a valid annual interest rate between 0% and 100%.": "Sila masukkan kadar faedah tahunan yang sah antara 0% dan 100%.",
+    "Please enter a valid annual interest rate between 0% and 30%.": "Sila masukkan kadar faedah tahunan yang sah antara 0% dan 30%.",
+    "Please enter a valid annual step-up rate between 0% and 100%.": "Sila masukkan kadar peningkatan tahunan yang sah antara 0% dan 100%.",
+    "Please enter a valid calculation date.": "Sila masukkan tarikh pengiraan yang sah.",
+    "Please enter a valid custom reminder time.": "Sila masukkan masa peringatan tersuai yang sah.",
+    "Please enter a valid date of birth.": "Sila masukkan tarikh lahir yang sah.",
+    "Please enter a valid deposit amount greater than 0.": "Sila masukkan jumlah deposit yang sah lebih besar daripada 0.",
+    "Please enter a valid discount between 0% and 100%.": "Sila masukkan diskaun yang sah antara 0% dan 100%.",
+    "Please enter a valid event date and time.": "Sila masukkan tarikh dan masa acara yang sah.",
+    "Please enter a valid expected return between 0% and 100%.": "Sila masukkan pulangan dijangka yang sah antara 0% dan 100%.",
+    "Please enter a valid height between 100 and 250 cm.": "Sila masukkan ketinggian yang sah antara 100 dan 250 cm.",
+    "Please enter a valid interest rate between 0% and 100%.": "Sila masukkan kadar faedah yang sah antara 0% dan 100%.",
+    "Please enter a valid investment period between 1 and 100 years.": "Sila masukkan tempoh pelaburan yang sah antara 1 dan 100 tahun.",
+    "Please enter a valid loan amount greater than 0.": "Sila masukkan jumlah pinjaman yang sah lebih besar daripada 0.",
+    "Please enter a valid loan tenure.": "Sila masukkan tempoh pinjaman yang sah.",
+    "Please enter a valid monthly RD deposit.": "Sila masukkan deposit RD bulanan yang sah.",
+    "Please enter a valid number.": "Sila masukkan nombor yang sah.",
+    "Please enter a valid original price.": "Sila masukkan harga asal yang sah.",
+    "Please enter a valid quantity.": "Sila masukkan kuantiti yang sah.",
+    "Please enter both values.": "Sila masukkan kedua-dua nilai.",
+    "Please enter custom event name.": "Sila masukkan nama acara tersuai.",
+    "Please enter the amount.": "Sila masukkan jumlah.",
+    "Please enter the annual interest rate.": "Sila masukkan kadar faedah tahunan.",
+    "Please enter the expected annual interest rate.": "Sila masukkan anggaran kadar faedah tahunan.",
+    "Please enter the expected annual return.": "Sila masukkan anggaran pulangan tahunan.",
+    "Please enter the investment period.": "Sila masukkan tempoh pelaburan.",
+    "Please enter the loan amount.": "Sila masukkan jumlah pinjaman.",
+    "Please enter the loan tenure.": "Sila masukkan tempoh pinjaman.",
+    "Please enter the original price.": "Sila masukkan harga asal.",
+    "Please enter valid dates.": "Sila masukkan tarikh yang sah.",
+    "Please enter valid discount rates between 0% and 100%.": "Sila masukkan kadar diskaun yang sah antara 0% dan 100%.",
+    "Please enter valid numbers.": "Sila masukkan nombor yang sah.",
+    "Please enter valid quantity slabs.": "Sila masukkan peringkat kuantiti yang sah.",
+    "Please enter your date of birth.": "Sila masukkan tarikh lahir anda.",
+    "Please enter your deposit amount.": "Sila masukkan jumlah deposit anda.",
+    "Please enter your monthly RD deposit.": "Sila masukkan deposit RD bulanan anda.",
+    "Please fill all required details.": "Sila isi semua butiran yang diperlukan.",
+    "Please select both dates.": "Sila pilih kedua-dua tarikh.",
+    "Please select event date.": "Sila pilih tarikh acara.",
+    "Please select event time.": "Sila pilih masa acara.",
+    "Please select event type.": "Sila pilih jenis acara.",
+    "Please select the calculation date.": "Sila pilih tarikh pengiraan.",
+    "Please select your dog's birth date.": "Sila pilih tarikh lahir anjing anda.",
+    "Please verify your weight. Please enter a value between 20 and 300 kg.": "Sila sahkan berat anda. Sila masukkan nilai antara 20 dan 300 kg.",
+    "Preparing PDF for printing...": "Menyediakan PDF untuk dicetak...",
+    "Preparing PDF for sharing...": "Menyediakan PDF untuk dikongsi...",
+    "Preparing PDF...": "Menyediakan PDF...",
+    "Preparing image...": "Menyediakan imej...",
+    "Print failed:": "Cetak gagal:",
+    "Print generation failed:": "Penjanaan cetakan gagal:",
+    "Result card not found.": "Kad keputusan tidak ditemui.",
+    "Result copied successfully.": "Keputusan berjaya disalin.",
+    "Result element not found.": "Elemen keputusan tidak ditemui.",
+    "Retirement age must be between 1 and 100 years.": "Umur persaraan mestilah antara 1 dan 100 tahun.",
+    "Retirement notification error:": "Ralat pemberitahuan persaraan:",
+    "Retirement reminder check failed:": "Semakan peringatan persaraan gagal:",
+    "Retirement result copied successfully.": "Keputusan persaraan berjaya disalin.",
+    "Share PDF error:": "Ralat kongsi PDF:",
+    "Share cancelled:": "Perkongsian dibatalkan:",
+    "Share failed:": "Perkongsian gagal:",
+    "Sharing is not supported here, so the PDF was downloaded instead.": "Perkongsian tidak disokong di sini, jadi PDF dimuat turun sebagai gantinya.",
+    "Sharing is not supported here. Result copied instead.": "Perkongsian tidak disokong di sini. Keputusan disalin sebagai gantinya.",
+    "Unable to calculate pregnancy details.": "Tidak dapat mengira butiran kehamilan.",
+    "Unable to calculate retirement date.": "Tidak dapat mengira tarikh persaraan.",
+    "Unable to convert the selected units.": "Tidak dapat menukar unit yang dipilih.",
+    "Unable to copy result image. Please try again.": "Tidak dapat menyalin imej keputusan. Sila cuba lagi.",
+    "Unable to copy the result image.": "Tidak dapat menyalin imej keputusan.",
+    "Unable to copy the result.": "Tidak dapat menyalin keputusan.",
+    "Unable to create PDF.": "Tidak dapat mencipta PDF.",
+    "Unable to create image.": "Tidak dapat mencipta imej.",
+    "Unable to download PDF.": "Tidak dapat memuat turun PDF.",
+    "Unable to generate PDF.": "Tidak dapat menjana PDF.",
+    "Unable to open print preview.": "Tidak dapat membuka pratonton cetakan.",
+    "Unable to print the result.": "Tidak dapat mencetak keputusan.",
+    "Unable to share PDF on this device.": "Tidak dapat berkongsi PDF pada peranti ini.",
+    "Unable to share PDF.": "Tidak dapat berkongsi PDF.",
+    "Unable to share the PDF.": "Tidak dapat berkongsi PDF.",
+    "Unable to share the pregnancy result.": "Tidak dapat berkongsi keputusan kehamilan.",
+    "Unable to share the result PDF.": "Tidak dapat berkongsi PDF keputusan.",
+    "Use different discount rates according to quantity purchased.": "Gunakan kadar diskaun yang berbeza mengikut kuantiti yang dibeli.",
+    "Wellness Shield": "Perisai Kesejahteraan",
+    "Young Dog": "Anjing Muda",
+    "Your BMI is in a healthy range. Keep maintaining your lifestyle.": "BMI anda berada dalam julat yang sihat. Teruskan mengekalkan gaya hidup anda.",
+    "Length": "Panjang",
+    "Weight / Mass": "Berat / Jisim",
+    "Volume": "Volum",
+    "Area": "Luas",
+    "Speed": "Kelajuan",
+    "Digital Data": "Data Digital",
+    "Temperature": "Suhu",
+    "Remove GST": "Buang GST",
+    "What Percentage?": "Berapa Peratus?",
+    "Single Discount": "Diskaun Tunggal",
+    "Quantity Discount": "Diskaun Kuantiti",
+    "Select an event and date": "Pilih acara dan tarikh",
+    "Select your date of birth to calculate": "Pilih tarikh lahir anda untuk mengira",
+    "Select a category, enter a value": "Pilih kategori, masukkan nilai",
+    "Select a category, choose the": "Pilih kategori, pilih",
+    "FD maturity depends on deposit amount, interest rate,": "Kematangan FD bergantung pada jumlah deposit, kadar faedah,",
+    "tenure and compounding frequency.": "tempoh dan kekerapan pengkompaunan.",
+    "Actual bank returns": "Pulangan bank sebenar",
+    "may differ according to the bank's applicable rules.": "mungkin berbeza mengikut peraturan terpakai bank.",
+    "Enter your deposit amount, expected rate, investment": "Masukkan jumlah deposit, kadar dijangka, pelaburan",
+    "period and compounding frequency, then tap": "tempoh dan kekerapan pengkompaunan, kemudian ketik",
+    "Human-age conversion is only an": "Penukaran umur manusia hanyalah",
+    "approximation.": "anggaran.",
+    "Regular veterinary care,": "Penjagaan veterinar biasa,",
+    "nutrition and exercise are important for": "pemakanan dan senaman adalah penting untuk",
+    "your dog's health.": "kesihatan anjing anda.",
+    "Select your dog's birth date and the": "Pilih tarikh lahir anjing anda dan",
+    "date on which you want to calculate": "tarikh yang anda mahu kira",
+    "the age, then tap": "umurnya, kemudian ketik",
+    "RD returns depend on the interest rate": "Pulangan RD bergantung pada kadar faedah",
+    "offered by the bank or financial institution.": "yang ditawarkan oleh bank atau institusi kewangan.",
+    "The maturity amount shown here is an estimate.": "Jumlah kematangan yang ditunjukkan di sini adalah anggaran.",
+    "Enter your monthly RD deposit,": "Masukkan deposit RD bulanan anda,",
+    "expected interest rate and investment": "kadar faedah dijangka dan tempoh",
+    "period, then tap": "pelaburan, kemudian ketik",
+    "SIP returns are market-linked and the": "Pulangan SIP dipautkan ke pasaran dan",
+    "calculated maturity value is an estimate": "nilai kematangan yang dikira adalah anggaran",
+    "based on the expected annual return entered.": "berdasarkan anggaran pulangan tahunan yang dimasukkan.",
+    "Enter your SIP amount, frequency,": "Masukkan jumlah SIP, kekerapan,",
+    "expected return and investment period,": "pulangan dijangka dan tempoh pelaburan,",
+    "Enter the values above and select the": "Masukkan nilai di atas dan pilih",
+    "calculation type that matches what you": "jenis pengiraan yang sepadan dengan apa yang",
+    "want to find.": "anda mahu cari.",
+    "For sequential discounts, each discount": "Untuk diskaun bersiri, setiap diskaun",
+    "is calculated on the price remaining after": "dikira pada harga yang tinggal selepas",
+    "the previous discount.": "diskaun sebelumnya.",
+    "Enter the price, choose the discount": "Masukkan harga, pilih jenis",
+    "type and tap": "diskaun dan ketik",
+    "Select the GST rate, choose whether the": "Pilih kadar GST, pilih sama ada",
+    "amount is GST-inclusive or exclusive,": "jumlah termasuk atau tidak termasuk GST,",
+    "and then calculate your complete GST": "dan kemudian kira lengkap GST",
+    "breakdown.": "pecahan anda.",
+    "Enter your amount, select the GST": "Masukkan jumlah anda, pilih kadar",
+    "rate and tap": "GST dan ketik",
+    "Enter the loan amount, annual": "Masukkan jumlah pinjaman, kadar faedah",
+    "interest rate and repayment": "tahunan dan tempoh bayaran balik",
+    "tenure to calculate your monthly": "untuk mengira bulanan anda",
+    "EMI and complete repayment": "EMI dan ringkasan bayaran balik",
+    "summary.": "lengkap.",
+    "This wellness report is generated based on the": "Laporan kesejahteraan ini dijana berdasarkan",
+    "information provided by the user and is intended": "maklumat yang diberikan oleh pengguna dan bertujuan",
+    "for educational and general wellness purposes only.": "untuk tujuan pendidikan dan kesejahteraan am sahaja.",
+    "It is not a substitute for professional medical": "Ia bukan pengganti untuk nasihat perubatan",
+    "advice, diagnosis, or treatment.": "profesional, diagnosis, atau rawatan.",
+    "This calculator provides an estimated pregnancy": "Kalkulator ini menyediakan anggaran garis masa",
+    "timeline based on the date entered. It is intended": "kehamilan berdasarkan tarikh yang dimasukkan. Ia bertujuan",
+    "for general informational purposes only and should": "untuk tujuan maklumat am sahaja dan tidak patut",
+    "not be used as a substitute for medical diagnosis,": "digunakan sebagai pengganti untuk diagnosis perubatan,",
+    "treatment, or advice from a qualified healthcare": "rawatan, atau nasihat daripada profesional",
+    "professional. Pregnancy dates can vary, and your": "kesihatan yang berkelayakan. Tarikh kehamilan boleh berbeza, dan",
+    "healthcare provider should be consulted for accurate": "pemberi penjagaan kesihatan anda harus dirujuk untuk",
+    "assessment and clinical decisions.": "penilaian yang tepat dan keputusan klinikal.",
+    "This result is calculated using the selected percentage method and the values entered above.": "Keputusan ini dikira menggunakan kaedah peratusan yang dipilih dan nilai yang dimasukkan di atas.",
+    "Enter the values above and select the calculation type that matches what you want to find.": "Masukkan nilai di atas dan pilih jenis pengiraan yang sepadan dengan apa yang anda mahu cari.",
+    "Calculate a percentage of a given number.": "Kira peratusan bagi nombor tertentu.",
+    "Find what percentage one number is of another.": "Cari peratusan satu nombor berbanding nombor yang lain.",
+    "Calculate the percentage increase between two values.": "Kira peratusan kenaikan antara dua nilai.",
+    "Calculate the percentage decrease between two values.": "Kira peratusan penurunan antara dua nilai.",
+    "Find the percentage difference between two values.": "Cari perbezaan peratusan antara dua nilai.",
+    "Find the original value after a percentage change.": "Cari nilai asal selepas perubahan peratusan.",
+    "Percentage": "Peratusan",
+    "Number": "Nombor",
+    "Part": "Bahagian",
+    "Second Value": "Nilai Kedua",
+    "First Input": "Input Pertama",
+    "Second Input": "Input Kedua",
+    "is what percentage of": "adalah berapa peratus daripada",
+    "Preparing your PDF...": "Menyediakan PDF anda...",
+    "PDF sharing is not supported here. The PDF has been downloaded instead.": "Perkongsian PDF tidak disokong di sini. PDF telah dimuat turun sebagai gantinya.",
+    "Total value cannot be zero.": "Jumlah nilai tidak boleh sifar.",
+    "These values cannot be used for percentage difference.": "Nilai ini tidak boleh digunakan untuk perbezaan peratusan.",
+    "Percentage change must be greater than -100%.": "Perubahan peratusan mestilah lebih besar daripada -100%.",
+    "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.": "Ini adalah unjuran anggaran. Kematangan FD sebenar mungkin berbeza kerana bank boleh mengenakan peraturan produk mereka sendiri, peringkat kadar, konvensyen kiraan hari, peraturan cukai/TDS dan terma terpakai yang lain.",
+    "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.": "GST telah dikira menggunakan kadar GST dan jenis cukai yang dipilih. CGST dan SGST dibahagikan sama rata apabila pilihan dalam negeri dipilih.",
+    "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.": "Harga akhir dikira selepas mengenakan kaedah diskaun yang dipilih. Diskaun bersiri dikenakan berturut-turut, manakala diskaun kuantiti menggunakan peringkat kuantiti yang berkenaan.",
+    "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.": "Nilai penukaran dikira menggunakan hubungan penukaran unit standard. Keputusan adalah anggaran di mana unit yang dipilih menggunakan faktor penukaran dibundarkan.",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "Setara umur manusia yang ditunjukkan oleh kalkulator ini adalah anggaran pendidikan anggaran. Penuaan sebenar berbeza dengan ketara antara baka, saiz dan anjing individu.",
+    "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.": "Pulangan SIP dipautkan ke pasaran dan nilai kematangan yang dikira adalah anggaran berdasarkan anggaran pulangan tahunan yang dimasukkan.",
+    "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "Kalkulator ini menyediakan unjuran anggaran berdasarkan anggaran pulangan tahunan yang dimasukkan. Pulangan dana mutual sebenar boleh menjadi lebih tinggi atau lebih rendah kerana pelaburan tertakluk kepada risiko pasaran.",
+    "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "Pulangan RD bergantung pada kadar faedah yang ditawarkan oleh bank atau institusi kewangan. Jumlah kematangan yang ditunjukkan di sini adalah anggaran.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "Kalkulator ini menyediakan anggaran nilai kematangan berdasarkan deposit bulanan dan anggaran kadar faedah tahunan yang dimasukkan. Nilai kematangan sebenar mungkin berbeza mengikut kadar faedah, kaedah pengkompaunan dan peraturan terpakai.",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "Laporan kesejahteraan ini dijana berdasarkan maklumat yang diberikan oleh pengguna dan bertujuan untuk tujuan pendidikan dan kesejahteraan am sahaja. Ia bukan pengganti untuk nasihat perubatan profesional, diagnosis, atau rawatan.",
+    "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "Kalkulator ini menyediakan anggaran garis masa kehamilan berdasarkan tarikh yang dimasukkan. Ia bertujuan untuk tujuan maklumat am sahaja dan tidak patut digunakan sebagai pengganti untuk diagnosis perubatan, rawatan, atau nasihat daripada profesional kesihatan yang berkelayakan. Tarikh kehamilan boleh berbeza, dan pemberi penjagaan kesihatan anda harus dirujuk untuk penilaian yang tepat dan keputusan klinikal.",
+    "The selected LMP date is in the future.": "Tarikh LMP yang dipilih berada pada masa depan.",
+    "Pregnancy calculation will begin from the selected LMP date.": "Pengiraan kehamilan akan bermula dari tarikh LMP yang dipilih.",
+    "The estimated due date has been reached or passed.": "Anggaran tarikh bersalin telah tiba atau lepas.",
+    "Pregnancy is currently ongoing.": "Kehamilan sedang berlangsung.",
+    "Maintain a balanced diet": "Kekalkan diet yang seimbang",
+    "Stay physically active": "Kekal aktif fizikal",
+    "Drink enough water": "Minum air yang mencukupi",
+    "Sleep 7-8 hours daily": "Tidur 7-8 jam setiap hari",
+    "Excellent": "Cemerlang",
+    "Good": "Baik",
+    "Fair": "Sederhana",
+    "Needs Improvement": "Perlu Penambahbaikan",
+    "Keep maintaining your healthy lifestyle!": "Teruskan mengekalkan gaya hidup sihat anda!",
+    "Great progress! Keep improving every day.": "Kemajuan yang hebat! Teruskan memperbaiki diri setiap hari.",
+    "Small healthy changes can improve your wellness.": "Perubahan kecil yang sihat boleh meningkatkan kesejahteraan anda.",
+    "Focus on balanced diet, activity and healthy habits.": "Fokus pada diet seimbang, aktiviti dan tabiat sihat.",
+    "Extremely Underweight": "Sangat Kurang Berat Badan",
+    "Severe Underweight": "Kurang Berat Badan Teruk",
+    "Obesity Class I": "Obesiti Kelas I",
+    "Obesity Class II": "Obesiti Kelas II",
+    "Obesity Class III": "Obesiti Kelas III",
+    "🥩 Increase protein intake": "🥩 Tingkatkan pengambilan protein",
+    "🥛 Add healthy calorie sources": "🥛 Tambah sumber kalori sihat",
+    "💪 Include strength exercises": "💪 Sertakan senaman kekuatan",
+    "🚶 Walk 8000-10000 steps": "🚶 Berjalan 8000-10000 langkah",
+    "💧 Maintain hydration": "💧 Kekalkan hidrasi badan",
+    "🥗 Choose balanced meals": "🥗 Pilih hidangan seimbang",
+    "😴 Sleep 7-8 hours": "😴 Tidur 7-8 jam",
+    "🥚 Eggs": "🥚 Telur",
+    "🍗 Chicken": "🍗 Ayam",
+    "🐟 Fish": "🐟 Ikan",
+    "🥗 Vegetables": "🥗 Sayur-sayuran",
+    "🌱 Plant Protein": "🌱 Protein Tumbuhan",
+    "🥜 Nuts & Seeds": "🥜 Kekacang & Biji-bijian",
+    "🍎 Fruits": "🍎 Buah-buahan",
+    "🥗 Dal & Vegetables": "🥗 Dal & Sayur-sayuran",
+    "🍚 Balanced Meals": "🍚 Makanan Seimbang",
+    "🥛 Milk / Curd": "🥛 Susu / Dadih",
+    "🥜 Nuts": "🥜 Kekacang",
+    "Not Available": "Tidak Tersedia",
+    "Early pregnancy": "Kehamilan awal",
+    "Middle pregnancy": "Kehamilan pertengahan",
+    "Late pregnancy": "Kehamilan lewat",
+    "Year-Wise Projection": "Unjuran Mengikut Tahun",
+    "Calculate\n": "Kira\n",
+    "Approximate Human Age": "Anggaran Umur Manusia",
+    "Convert": "Tukar",
+    "Calculation Breakdown": "Pecahan Pengiraan",
+    "Born On": "Tarikh lahir",
+    "Days Remaining": "Hari yang tinggal",
+    "Select an event and date to see countdown.": "Pilih acara dan tarikh untuk melihat kira detik.",
+    "First Trimester": "Trimester Pertama",
+    "Second Trimester": "Trimester Kedua",
+    "Third Trimester": "Trimester Ketiga",
+    "N/A": "N/A",
+    "Your retirement date has already passed.": "Tarikh persaraan anda telah pun berlalu.",
+    "Retirement Day Message Text": "🎉 Tahniah kerana mencapai tonggak penting ini! Semoga kehidupan persaraan anda dipenuhi dengan kegembiraan, kesihatan yang baik, ketenangan, dan detik-detik indah bersama orang tersayang. Selamat bersara dengan tenang dan bahagia! 🌸",
+    "Select your date of birth to calculate your retirement date and remaining time.": "Pilih tarikh lahir anda untuk mengira tarikh persaraan dan masa yang tinggal.",
+    "Millimeter": "Milimeter",
+    "Centimeter": "Sentimeter",
+    "Meter": "Meter",
+    "Kilometer": "Kilometer",
+    "Inch": "Inci",
+    "Foot": "Kaki",
+    "Yard": "Ela",
+    "Mile": "Batu",
+    "Milligram": "Miligram",
+    "Gram": "Gram",
+    "Kilogram": "Kilogram",
+    "Tonne": "Tan",
+    "Ounce": "Aun",
+    "Pound": "Paun",
+    "Stone": "Stone",
+    "Milliliter": "Mililiter",
+    "Liter": "Liter",
+    "CubicMeter": "Meter Padu",
+    "CubicCentimeter": "Sentimeter Padu",
+    "GallonUS": "Gelen AS",
+    "QuartUS": "Quart AS",
+    "PintUS": "Pint AS",
+    "CupUS": "Cawan AS",
+    "SquareMillimeter": "Milimeter Persegi",
+    "SquareCentimeter": "Sentimeter Persegi",
+    "SquareMeter": "Meter Persegi",
+    "Hectare": "Hektar",
+    "SquareKilometer": "Kilometer Persegi",
+    "SquareInch": "Inci Persegi",
+    "SquareFoot": "Kaki Persegi",
+    "Acre": "Ekar",
+    "MeterPerSecond": "Meter Saat",
+    "KilometerPerHour": "Kilometer Sejam",
+    "MilePerHour": "Batu Sejam",
+    "Knot": "Knot",
+    "FootPerSecond": "Kaki Saat",
+    "Millisecond": "Milisaat",
+    "Byte": "Bait",
+    "Kilobyte": "Kilobait",
+    "Megabyte": "Megabait",
+    "Gigabyte": "Gigabait",
+    "Terabyte": "Terabait",
+    "Bit": "Bit",
+    "Celsius": "Celsius",
+    "Fahrenheit": "Fahrenheit",
+    "Kelvin": "Kelvin",
+    "Currency Placeholder": "e.g. 5,000",
+    "Percentage Placeholder": "%",
+    "Year/Month": "Tahun/Bulan",
+    "Example: My Wedding, Office Party...": "Contoh: Perkahwinan Saya, Parti Pejabat...",
+    "Increase your SIP amount every year by a fixed percentage.": "Tingkatkan jumlah SIP anda setiap tahun mengikut peratusan tetap.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Contoh: SIP bulanan {{amount1}} dengan peningkatan 10% setahun menjadi {{amount2}} pada tahun kedua, {{amount3}} pada tahun ketiga dan seterusnya.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "Kalkulator ini memberikan nilai matang anggaran berdasarkan deposit bulanan dan kadar faedah tahunan yang dijangka. Nilai matang sebenar mungkin berbeza mengikut kadar faedah, masa deposit, peraturan bank, cukai, penalti atau syarat lain yang berkenaan.",
+    "Custom reminder must be between 1 and 1650 days.": "Custom reminder must be between 1 and 1650 days.",
+    "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.",
+    "PDF ready. Opening print preview...": "PDF ready. Opening print preview..."
+  },
+  "home": {
+    "hero_title": "Kira Umur Anda",
+    "hero_highlight": "Dengan Segera dan Tepat",
+    "hero_description": "AgeVerseGlobal membantu anda mengira umur tepat, perbezaan tarikh, kira detik hari lahir dan banyak lagi.",
+    "calculate_age": "Kira Umur",
+    "explore_calculators": "Terokai Kalkulator",
+    "preview_title": "🎂 Kalkulator Umur",
+    "preview_units": "Tahun • Bulan • Hari",
+    "preview_years": "Tahun",
+    "features_title": "Mengapa Pilih AgeVerseGlobal?",
+    "features_subtitle": "Alat pintar untuk pengiraan tarikh harian anda.",
+    "features": {
+      "exact_calculation": {
+        "title": "Pengiraan Tepat",
+        "desc": "Dapatkan umur tepat dalam tahun, bulan dan hari."
+      },
+      "multiple_calculators": {
+        "title": "Pelbagai Kalkulator",
+        "desc": "Umur, beza tarikh, hari lahir dan banyak lagi."
+      },
+      "languages": {
+        "title": "Pelbagai Bahasa",
+        "desc": "Gunakan AgeVerseGlobal dalam bahasa pilihan anda."
+      },
+      "mobile_friendly": {
+        "title": "Mesra Mudah Alih",
+        "desc": "Berfungsi dengan lancar pada setiap peranti."
+      },
+      "fast_result": {
+        "title": "Keputusan Pantas",
+        "desc": "Pengiraan segera dengan antara muka yang bersih."
+      },
+      "privacy_focused": {
+        "title": "Berpusatkan Privasi",
+        "desc": "Tarikh anda selamat pada peranti anda."
+      }
+    },
+    "testimonials_eyebrow": "✦ PENGALAMAN PENGGUNA",
+    "testimonials_title": "Apa Kata Pengguna",
+    "testimonials_subtitle": "Alat pengiraan yang mudah, tepat dan boleh dipercayai yang dibina untuk kegunaan harian.",
+    "verified_user": "Pengguna Disahkan",
+    "faq_eyebrow": "✦ BANTUAN & MAKLUMAT",
+    "faq_title": "Soalan Lazim",
+    "faq_subtitle": "Semua maklumat penting mengenai AgeVerseGlobal dan alat pengiraan pintarnya.",
+    "faq_footer_question": "Masih mempunyai soalan?",
+    "faq_footer_action": "Terokai kalkulator AgeVerseGlobal untuk mencari alat yang anda perlukan.",
+    "testimonial_roles": {
+      "rahul": "Pengguna AgeVerseGlobal",
+      "priya": "Pengguna AgeVerseGlobal",
+      "amit": "Pengguna AgeVerseGlobal"
+    },
+    "testimonial_reviews": {
+      "rahul": "Kalkulator umur yang sangat tepat dan mudah digunakan. Antara mukanya bersih, moden dan kelihatan profesional.",
+      "priya": "Antara muka yang mudah dan keputusan segera. Saya amat menyukai cara ia berfungsi dengan lancar pada mudah alih.",
+      "amit": "AgeVerseGlobal menjadikan pengiraan tarikh sangat mudah. Keputusan yang pantas dan pengalaman yang jauh lebih baik."
+    },
+    "faqs": {
+      "q1": "Apakah itu AgeVerseGlobal?",
+      "a1": "AgeVerseGlobal adalah platform profesional untuk alat pengiraan umur, tarikh dan harian, direka untuk memberikan keputusan yang pantas, tepat dan mudah difahami.",
+      "q2": "Adakah pengiraan umur itu tepat?",
+      "a2": "AgeVerseGlobal mengira umur dengan tepat dalam tahun, bulan dan hari berdasarkan tarikh yang dipilih oleh pengguna.",
+      "q3": "Adakah AgeVerseGlobal percuma untuk digunakan?",
+      "a3": "Ya. Kalkulator asas AgeVerseGlobal adalah percuma untuk digunakan.",
+      "q4": "Adakah data peribadi saya disimpan?",
+      "a4": "AgeVerseGlobal direka dengan mengutamakan privasi. Maklumat yang dimasukkan dalam kalkulator digunakan untuk menghasilkan keputusan yang diminta dan tidak disimpan secara tidak perlu.",
+      "q5": " Bolehkah saya menggunakan AgeVerseGlobal pada mudah alih?",
+      "a5": "Ya. AgeVerseGlobal direka bentuk agar mudah berfungsi pada telefon mudah alih, tablet dan peranti meja.",
+      "q6": "Berapakah banyak bahasa yang disokong oleh AgeVerseGlobal?",
+      "a6": "AgeVerseGlobal tidak terhad kepada bilangan bahasa tertentu. Bahasa baharu boleh ditambah dengan menyertakan terjemahan tempatan mereka, manakala komponen kalkulator tidak perlu ditukar."
+    },
+    "new": "Baharu",
+    "preview_age_label": "Umur"
+  },
+  "language_name": "🇲🇾 Bahasa Melayu",
+  "result_meta": {
+    "generated_by": "Dijana oleh AgeVerseGlobal",
+    "calculated_by": "Dikelaskan oleh AgeVerseGlobal"
+  },
+  "sip": {
+    "calculation_projection_stepup": "Berdasarkan pelaburan sebanyak {{amount}} dalam SIP {{frequency}}, dengan peningkatan {{stepUp}}% setiap tahun dan anggaran pulangan tahunan sebanyak {{rate}}%.",
+    "calculation_projection": "Pelaburan sebanyak {{amount}} dalam SIP {{frequency}} untuk {{years}} tahun pada anggaran pulangan tahunan sebanyak {{rate}}%."
+  },
+  "rd": {
+    "calculation_projection": "Jumlah deposit RD bulanan sebanyak {{amount}} telah dilaburkan pada kadar faedah tahunan sebanyak {{rate}}% untuk {{years}} tahun, menggunakan pengkompaunan suku tahun untuk anggaran."
+  },
+  "Calculated by": "Dikelaskan oleh AgeVerseGlobal",
+  "Generated by": "Dijana oleh AgeVerseGlobal",
+  "Health_profile": {
+    "Enter your name": "Masukkan nama anda",
+    "Hello": "Helo",
+    "g": "gram",
+    "L": "liter",
+    "kg": "kg",
+    "day": "hari",
+    "✨ Generated by": "✨ Dijana oleh AgeVerseGlobal"
+  },
+  "pregnancy": {
+    "timeline_subtitle": "Kira garis masa kehamilan anda dan anggaran tarikh bersalin.",
+    "calculation_note_full": "Kalkulator ini mengira anggaran tarikh bersalin berdasarkan hari pertama tempoh haid terakhir (LMP) anda dan tempoh kehamilan standard 40 minggu.",
+    "empty_title": "Kalkulator Kehamilan",
+    "empty_text": "Masukkan hari pertama haid terakhir anda untuk menganggarkan tempoh kehamilan dan tarikh jangka bersalin.",
+    "empty_hint": "Keputusan anda akan dipaparkan di sini.",
+    "lmp_help": "Masukkan hari pertama haid terakhir anda."
+  },
+  "unit_converter": {
+    "subtitle": "Tukar panjang, berat, suhu, volum dan unit harian yang lain dengan cepat.",
+    "result_note": "Nilai penukaran dikira menggunakan hubungan penukaran unit standard. Di mana penukaran perpuluhan diperlukan pada unit yang dipilih, keputusan mungkin dianggarkan.",
+    "intro": "Pilih kategori, masukkan nilai dan pilih unit yang anda mahu tukar.",
+    "instructions": "Pilih kategori, kemudian pilih unit asal dan unit yang anda mahu tukar, kemudian masukkan nilai. Kalkulator mengira nilai yang ditukar menggunakan faktor penukaran standard."
+  },
+  "gst": {
+    "add_description": "Kira GST dan tambahkan pada jumlah asas.",
+    "remove_description": "Cari jumlah asas dan GST daripada jumlah termasuk GST."
+  },
+  "discount": {
+    "single_description": "Kira harga akhir selepas mengenakan satu diskaun.",
+    "multiple_description": "Gunakan dua atau tiga diskaun berturut-turut."
+  },
+  "fd": {
+    "calculation_projection": "Anggaran faedah kompaun pada kadar berkesan tahunan sebanyak {{rate}}% untuk {{years}} tahun berdasarkan pengkompaunan {{frequency}}."
+  },
+  "dog_age": {
+    "info_description": "Keputusan umur manusia adalah anggaran anggaran. Kadar penuaan anjing berbeza mengikut baka, saiz, genetik dan kesihatan.",
+    "calculation_text": "Anjing anda berumur kira-kira {{years}} tahun, {{months}} bulan dan {{days}} hari, yang bersamaan dengan kira-kira {{humanAge}} tahun manusia.",
+    "days_remaining_suffix": "Hari yang tinggal hingga hari lahir seterusnya.",
+    "Puppy": "Anak Anjing",
+    "Young Dog": "Anjing Muda",
+    "Adult Dog": "Anjing Dewasa",
+    "Senior Dog": "Anjing Warga Emas"
+  },
+  "Approximately": "Kira-kira",
+  "Monthly": "Bulanan",
+  "Quarterly": "Suku Tahun",
+  "Half-Yearly": "Setengah Tahun",
+  "Annual": "Tahunan",
+  "calculation_notes": {
+    "fd": "Ini adalah unjuran anggaran. Kematangan FD sebenar mungkin berbeza kerana bank boleh mengenakan peraturan produk mereka sendiri, peringkat kadar, konvensyen kiraan hari, peraturan cukai/TDS dan terma terpakai yang lain.",
+    "rd": "Kalkulator ini memberikan nilai matang anggaran berdasarkan deposit bulanan dan kadar faedah tahunan yang dijangka. Nilai matang sebenar mungkin berbeza mengikut kadar faedah, masa deposit, peraturan bank, cukai, penalti atau syarat lain yang berkenaan.",
+    "dog_age": "Setara umur manusia yang ditunjukkan oleh kalkulator ini adalah anggaran pendidikan anggaran. Penuaan sebenar berbeza dengan ketara antara baka, saiz dan anjing individu.",
+    "emi": "EMI dikira menggunakan jumlah pinjaman yang dimasukkan, kadar faedah tahunan dan tempoh bayaran balik. EMI pemberi pinjaman sebenar mungkin berbeza disebabkan pembulatan, yuran, insurans atau caj lain yang berkenaan."
+  },
+  "bmi_gauge": {
+    "underweight_message": "Fokus pada pemakanan seimbang dan pertambahan berat badan yang sihat.",
+    "healthy_message": "BMI anda berada dalam julat yang sihat. Teruskan mengekalkan gaya hidup anda.",
+    "overweight_message": "Fokus pada aktiviti fizikal dan pengambilan kalori yang seimbang.",
+    "obesity_message": "Aktiviti fizikal berkala dan tabiat pemakanan sihat disyorkan."
+  },
+  "about_page": {
+    "eyebrow": "Tentang AgeVerseGlobal",
+    "title": "Tentang AgeVerseGlobal",
+    "intro": "AgeVerseGlobal ialah platform yang direka dengan teliti untuk pengiraan harian yang mudah, boleh dipercayai dan senang difahami.",
+    "mission_title": "Misi Kami",
+    "mission_text": "Misi kami adalah menjadikan pengiraan harian jelas, mudah diakses dan mudah digunakan melalui alat yang direka dengan baik serta boleh digunakan pada mana-mana peranti.",
+    "tools_eyebrow": "Alat Kami",
+    "tools_title": "Apa yang Ditawarkan AgeVerseGlobal",
+    "tools_text": "AgeVerseGlobal menghimpunkan kalkulator praktikal untuk pelbagai keperluan harian.",
+    "category_age": "Kira umur, perbezaan tarikh, acara dan garis masa persaraan dengan hasil yang jelas.",
+    "category_health": "Terokai pengiraan kesihatan berguna seperti BMI, BMR, kalori, pemakanan dan keperluan air.",
+    "category_family": "Alat berfokuskan keluarga, termasuk pengiraan garis masa kehamilan.",
+    "category_utility": "Kalkulator utiliti harian dan kewangan untuk penukaran, peratusan, GST, EMI, diskaun dan pelaburan.",
+    "category_pet": "Alat pendidikan ringkas untuk menganggar umur anjing anda dan kesetaraannya dalam umur manusia.",
+    "why_eyebrow": "Mengapa AgeVerseGlobal",
+    "why_title": "Direka untuk Kegunaan Harian",
+    "why_text": "AgeVerseGlobal menumpukan pada kejelasan, kemudahan dan pengalaman yang konsisten merentas peranti.",
+    "accurate_title": "Pengiraan Berhati-hati",
+    "accurate_text": "Kalkulator kami menggunakan kaedah pengiraan yang ditetapkan dengan jelas dan memaparkan hasil dalam format yang mudah difahami.",
+    "simple_title": "Pengalaman Ringkas",
+    "simple_text": "Antara muka yang bersih membantu anda memasukkan maklumat dengan cepat dan memahami hasil tanpa kerumitan yang tidak perlu.",
+    "privacy_title": "Mengutamakan Privasi",
+    "privacy_text": "AgeVerseGlobal direka dengan mengambil kira privasi dan berusaha meminimumkan pengumpulan maklumat yang tidak diperlukan.",
+    "languages_title": "Pengalaman Pelbagai Bahasa",
+    "languages_text": "AgeVerseGlobal menyokong pelbagai bahasa supaya pengguna boleh mengakses alat dalam bahasa yang mereka selesa.",
+    "cta_title": "Sedia untuk mengira?",
+    "cta_text": "Terokai kalkulator AgeVerseGlobal dan cari alat yang anda perlukan.",
+    "cta_button": "Terokai Kalkulator"
+  },
+  "contact_page": {
+    "eyebrow": "Hubungi AgeVerseGlobal",
+    "title": "Hubungi AgeVerseGlobal",
+    "intro": "Kami menghargai maklum balas, cadangan dan soalan anda. Pandangan anda membantu kami menambah baik pengalaman AgeVerseGlobal.",
+    "feedback_title": "Maklum Balas & Cadangan",
+    "feedback_text": "Beritahu kami perkara yang anda suka, perkara yang boleh diperbaiki atau kalkulator yang ingin anda lihat seterusnya.",
+    "support_title": "Sokongan Kalkulator",
+    "support_text": "Jika anda melihat masalah pengiraan, paparan atau kebolehgunaan, kongsikan butiran yang berkaitan supaya ia boleh disemak.",
+    "contact_title": "Pertanyaan Umum",
+    "contact_text": "Untuk soalan umum tentang AgeVerseGlobal, kalkulatornya atau laman web, anda boleh menghubungi pasukan AgeVerseGlobal.",
+    "email_title": "Hubungi Kami",
+    "email_text": "Gunakan e-mel hubungan rasmi AgeVerseGlobal untuk soalan, maklum balas atau permintaan sokongan.",
+    "email_placeholder": "contact@ageverse.global",
+    "cta_title": "Terima kasih kerana membantu AgeVerseGlobal bertambah baik.",
+    "cta_text": "Maklum balas anda membantu kami menghasilkan pengalaman pengiraan yang lebih baik dan berguna.",
+    "cta_button": "Kembali ke AgeVerseGlobal",
+    "form_title": "Hubungi Kami",
+    "form_intro": "Hantar soalan, cadangan atau permintaan sokongan anda. Kami akan menyemak mesej anda dan membalas jika perlu.",
+    "open_form": "Buka Borang Hubungan",
+    "name": "Nama",
+    "email": "E-mel",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "submit": "Hantar Mesej",
+    "sending": "Menghantar…",
+    "success": "Mesej anda berjaya dihantar.",
+    "error": "Mesej anda tidak dapat dihantar sekarang. Sila cuba lagi.",
+    "close": "Tutup",
+    "page_label": "Halaman",
+    "name_required": "Sila masukkan nama anda.",
+    "email_required": "Sila masukkan alamat e-mel anda.",
+    "email_invalid": "Sila masukkan alamat e-mel yang sah.",
+    "subject_required": "Sila masukkan subjek.",
+    "message_required": "Sila masukkan mesej anda.",
+    "privacy_notice": "Kami mengumpul nama dan e-mel anda hanya untuk menjawab pertanyaan anda. Kami tidak menjual atau berkongsi maklumat ini untuk pengiklanan.",
+    "subject_general_enquiry": "Pertanyaan Umum",
+    "subject_calculator_issue": "Masalah Kalkulator",
+    "subject_calculation_result_issue": "Masalah Pengiraan / Keputusan",
+    "subject_translation_language_issue": "Masalah Terjemahan / Bahasa",
+    "subject_website_problem": "Masalah Laman Web",
+    "subject_suggestion": "Cadangan",
+    "subject_business_partnership": "Perniagaan / Kerjasama",
+    "subject_other": "Lain-lain"
+  },
+  "privacy_page": {
+    "eyebrow": "Privasi",
+    "title": "Dasar Privasi",
+    "intro": "Dasar Privasi ini menerangkan pendekatan AgeVerseGlobal terhadap maklumat, privasi dan penggunaan laman web serta kalkulatornya.",
+    "information_title": "Maklumat yang Anda Masukkan",
+    "information_text": "Maklumat yang dimasukkan ke dalam kalkulator digunakan untuk memberikan pengiraan yang diminta dan tidak bertujuan untuk disimpan secara tidak perlu oleh kalkulator itu sendiri.",
+    "data_storage_title": "Penyimpanan Data",
+    "data_storage_text": "AgeVerseGlobal berusaha meminimumkan penyimpanan maklumat yang tidak diperlukan. Sesetengah maklumat teknikal atau berkaitan perkhidmatan mungkin diproses oleh penyedia pengehosan, keselamatan, analitik atau infrastruktur laman web lain.",
+    "analytics_title": "Analitik",
+    "analytics_text": "AgeVerseGlobal mungkin menggunakan alat analitik untuk memahami penggunaan laman web, meningkatkan prestasi dan mengenal pasti bahagian yang memerlukan penambahbaikan.",
+    "cookies_title": "Kuki dan Teknologi Serupa",
+    "cookies_text": "Laman web mungkin menggunakan kuki atau teknologi serupa apabila diperlukan untuk fungsi, pilihan, analitik atau tujuan laman web yang sah.",
+    "third_party_title": "Perkhidmatan Pihak Ketiga",
+    "third_party_text": "AgeVerseGlobal mungkin bergantung pada perkhidmatan pihak ketiga untuk pengehosan, analitik, keselamatan dan fungsi laman web lain. Perkhidmatan tersebut mungkin memproses maklumat mengikut dasar mereka sendiri.",
+    "security_title": "Keselamatan",
+    "security_text": "AgeVerseGlobal mengambil langkah munasabah untuk menyokong keselamatan dan kebolehpercayaan laman web, walaupun tiada perkhidmatan internet dapat menjamin keselamatan mutlak.",
+    "changes_title": "Perubahan pada Dasar Ini",
+    "changes_text": "Dasar Privasi ini mungkin dikemas kini dari semasa ke semasa untuk mencerminkan perubahan pada laman web, perkhidmatan atau keperluan yang berkenaan.",
+    "contact_title": "Soalan tentang Privasi",
+    "contact_text": "Jika anda mempunyai soalan tentang Dasar Privasi ini atau amalan privasi AgeVerseGlobal, sila hubungi pasukan AgeVerseGlobal.",
+    "advertising_title": "Pengiklanan dan Google AdSense",
+    "advertising_text": "AgeVerseGlobal mungkin menggunakan Google AdSense dan perkhidmatan pengiklanan pihak ketiga yang lain untuk memaparkan iklan. Perkhidmatan ini mungkin menggunakan kuki dan teknologi yang serupa untuk menyediakan, mengukur dan memperibadikan iklan berdasarkan minat serta interaksi pengguna. Google mungkin menggunakan kuki pengiklanan untuk memaparkan iklan berdasarkan lawatan pengguna ke laman web ini dan laman web lain. Pengguna boleh mengurus atau memilih untuk tidak menerima pengiklanan diperibadikan melalui Google Ads Settings. Penyedia pengiklanan pihak ketiga mungkin mempunyai dasar dan amalan privasi mereka sendiri."
+  },
+  "terms_page": {
+    "eyebrow": "Terma & Syarat",
+    "title": "Terma & Syarat",
+    "intro": "Terma & Syarat ini menerangkan syarat umum untuk menggunakan laman web AgeVerseGlobal dan kalkulatornya.",
+    "calculator_title": "Penggunaan Kalkulator",
+    "calculator_text": "Kalkulator AgeVerseGlobal disediakan untuk tujuan maklumat umum dan pendidikan. Anda bertanggungjawab menyemak maklumat yang dimasukkan dan hasil yang diterima.",
+    "accuracy_title": "Hasil dan Ketepatan",
+    "accuracy_text": "AgeVerseGlobal berusaha memberikan pengiraan yang berguna dan boleh dipercayai, tetapi hasil mungkin berbeza kerana andaian, pembundaran, kualiti input atau perbezaan keadaan sebenar.",
+    "health_title": "Alat Berkaitan Kesihatan",
+    "health_text": "Hasil kalkulator kesihatan adalah untuk maklumat sahaja dan bukan pengganti nasihat, diagnosis atau rawatan perubatan profesional.",
+    "financial_title": "Alat Kewangan",
+    "financial_text": "Hasil kalkulator kewangan ialah anggaran untuk tujuan maklumat umum dan tidak boleh dianggap sebagai nasihat kewangan, pelaburan, perbankan atau cukai.",
+    "pet_title": "Alat Berkaitan Haiwan Peliharaan",
+    "pet_text": "Hasil kalkulator haiwan peliharaan ialah anggaran pendidikan dan tidak menggantikan nasihat profesional doktor haiwan.",
+    "availability_title": "Ketersediaan Laman Web",
+    "availability_text": "AgeVerseGlobal mungkin mengemas kini, mengubah, menggantung atau menghentikan ciri laman web atau kalkulator apabila perlu.",
+    "responsibility_title": "Tanggungjawab Pengguna",
+    "responsibility_text": "Pengguna bertanggungjawab menggunakan laman web dengan sewajarnya dan membuat keputusan berdasarkan sumber profesional atau berautoriti yang sesuai apabila diperlukan.",
+    "changes_title": "Perubahan pada Terma Ini",
+    "changes_text": "Terma & Syarat ini mungkin dikemas kini dari semasa ke semasa. Penggunaan AgeVerseGlobal selepas kemas kini menunjukkan penerimaan terhadap terma yang disemak.",
+    "contact_title": "Hubungi",
+    "contact_text": "Untuk soalan tentang Terma & Syarat ini, sila hubungi pasukan AgeVerseGlobal."
+  },
+  "disclaimer_page": {
+    "eyebrow": "Penafian",
+    "title": "Penafian",
+    "intro": "Maklumat dan hasil kalkulator yang disediakan oleh AgeVerseGlobal adalah untuk tujuan maklumat umum dan pendidikan.",
+    "notice_title": "Notis Penting",
+    "notice_text": "Hasil kalkulator hendaklah dianggap sebagai anggaran. Ia mungkin berbeza daripada hasil yang diberikan oleh institusi rasmi, profesional, bank, penyedia penjagaan kesihatan atau sumber berautoriti lain.",
+    "accuracy_title": "Ketepatan Pengiraan",
+    "accuracy_text": "AgeVerseGlobal menggunakan kaedah pengiraan yang ditetapkan, tetapi hasil boleh berbeza kerana pembundaran, andaian, nilai input dan perbezaan peraturan atau keadaan sebenar.",
+    "health_title": "Maklumat Kesihatan",
+    "health_text": "Pengiraan berkaitan kesihatan bukan nasihat perubatan dan tidak boleh digunakan untuk mendiagnosis, merawat atau mencegah keadaan perubatan. Rujuk profesional kesihatan yang berkelayakan apabila perlu.",
+    "financial_title": "Maklumat Kewangan",
+    "financial_text": "Pengiraan kewangan ialah anggaran dan bukan nasihat kewangan, pelaburan, perbankan atau cukai. Hasil sebenar mungkin berbeza mengikut kadar, dasar, yuran, cukai dan keadaan lain yang berkenaan.",
+    "pet_title": "Maklumat Haiwan Peliharaan",
+    "pet_text": "Pengiraan umur anjing dan haiwan peliharaan lain ialah anggaran pendidikan dan tidak menggantikan panduan veterinar profesional.",
+    "external_title": "Perkhidmatan dan Pautan Luaran",
+    "external_text": "AgeVerseGlobal mungkin menggunakan perkhidmatan luaran atau memaut ke sumber pihak ketiga. AgeVerseGlobal tidak mengawal kandungan, dasar atau ketersediaan perkhidmatan luaran.",
+    "responsibility_title": "Tanggungjawab Pengguna",
+    "responsibility_text": "Pengguna harus mengesahkan maklumat penting dengan sumber rasmi, profesional atau berautoriti yang sesuai sebelum membuat keputusan.",
+    "contact_title": "Soalan",
+    "contact_text": "Jika anda mempunyai soalan tentang Penafian ini, sila hubungi pasukan AgeVerseGlobal."
+  },
+  "not_found_page": {
+    "eyebrow": "404",
+    "title": "Halaman Tidak Ditemui",
+    "description": "Halaman yang anda cari tidak wujud atau mungkin telah dipindahkan.",
+    "home_button": "Pergi ke Laman Utama"
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "Kebenaran pemberitahuan disekat. Sila benarkan pemberitahuan untuk AgeVerseGlobal untuk menerima peringatan.",
+  "Event reminder service is not configured.": "Perkhidmatan peringatan acara belum dikonfigurasikan.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Contoh: SIP bulanan {{amount1}} dengan peningkatan 10% setahun menjadi {{amount2}} pada tahun kedua, {{amount3}} pada tahun ketiga dan seterusnya.",
+  "seo_content": {
+    "event_calculator": {
+      "name": "EventCalculatorSEOContent",
+      "eyebrow": "PANDUAN TARIKH ACARA",
+      "title": "Kalkulator Acara: Kiraan Detik untuk detik istimewa anda",
+      "intro": "Rancang tarikh penting dan semak majlis akan datang dengan Kalkulator Acara AgeVerseGlobal.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Acara AgeVerseGlobal?",
+          [
+            "Kalkulator Acara AgeVerseGlobal membantu anda mengurus tarikh untuk majlis, peristiwa penting, sambutan dan aktiviti terancang lain. Ia dapat membantu anda memahami bila sesuatu acara berlangsung dan berapa banyak masa yang tinggal."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Acara AgeVerseGlobal",
+          [
+            "Pilih acara, masukkan tarikh yang diminta oleh kalkulator, masukkan hari, bulan dan tahun, kira waktunya, kemudian semak keputusan untuk merancang lebih awal."
+          ]
+        ],
+        [
+          "Bagaimana Kalkulator Acara AgeVerseGlobal Berfungsi?",
+          [
+            "Masa acara adalah berdasarkan tarikh kalendar. Baki masa bergantung pada tarikh semasa dan tarikh acara. Untuk majlis yang berulang, sahkan sama ada alat tersebut menggunakan kejadian seterusnya atau tarikh tepat yang dipilih."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Acara AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Acara AgeVerseGlobal untuk hari lahir, ulang tahun, cuti, peristiwa penting peribadi, perjalanan dan aktiviti berjadual."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Hari Lahir",
+          "Sambutan peribadi",
+          "Rancang persiapan"
+        ],
+        [
+          "Ulang Tahun",
+          "Pencapaian peribadi atau kerja",
+          "Jejaki tarikh akan datang"
+        ],
+        [
+          "Perjalanan atau janji temu",
+          "Aktiviti berjadual",
+          "Semak baki masa"
+        ]
+      ],
+      "features": [
+        [
+          "Perancangan berfokuskan tarikh",
+          "Uruskan majlis dan peristiwa penting."
+        ],
+        [
+          "Kesedaran kiraan detik",
+          "Fahami betapa dekatnya acara akan datang."
+        ],
+        [
+          "Aliran kerja mudah",
+          "Pilih acara, masukkan tarikh dan semak keputusan."
+        ],
+        [
+          "Kegunaan harian",
+          "Gunakannya untuk acara peribadi dan berjadual."
+        ]
+      ],
+      "faqs": [
+        [
+          "Bolehkah saya menggunakannya untuk hari lahir?",
+          "Ya, ia berguna untuk hari lahir, ulang tahun dan majlis lain."
+        ],
+        [
+          "Bolehkah saya mengira acara lalu?",
+          "Jika kalkulator membenarkan tarikh lalu, keputusan akan mencerminkan tarikh yang dipilih."
+        ],
+        [
+          "Patutkah saya menyemak tarikh dengan teliti?",
+          "Ya. Hari, bulan atau tahun yang salah boleh mengubah keputusan."
+        ],
+        [
+          "Adakah ia menggantikan peringatan?",
+          "Tidak. Gunakan peringatan kalendar jika anda memerlukan makluman."
+        ],
+        [
+          "Adakah ia percuma?",
+          "Ya, alat dalam talian AgeVerseGlobal tersedia tanpa caj kalkulator."
+        ]
+      ],
+      "related": [
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ],
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Kalkulator Persaraan",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "retirement": {
+      "name": "RetirementCalculatorSEOContent",
+      "eyebrow": "PANDUAN PERANCANGAN PERSARAAN",
+      "title": "Kalkulator Persaraan: Kira Tarikh Persaraan Anda Dan Baki Masa",
+      "intro": "Anggarkan peristiwa penting persaraan menggunakan tarikh lahir, tarikh menyertai perkhidmatan dan umur persaraan yang dipilih. Sahkan peraturan perkhidmatan rasmi secara berasingan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Persaraan?",
+          [
+            "Kalkulator persaraan menganggarkan tarikh persaraan daripada tarikh peribadi dan berkaitan pekerjaan serta umur persaraan sasaran. Ia dapat membantu anda memahami baki masa sehingga tarikh yang dianggarkan.",
+            "Persaraan sebenar boleh bergantung pada dasar majikan, peraturan perkhidmatan, bidang kuasa dan keadaan individu."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Persaraan AgeVerseGlobal",
+          [
+            "Masukkan tarikh lahir dan tarikh menyertai perkhidmatan, pilih umur persaraan yang relevan dengan perancangan atau peraturan perkhidmatan anda, kemudian kira dan semak tarikh yang dianggarkan."
+          ]
+        ],
+        [
+          "Bagaimana Tarikh Persaraan Dianggarkan?",
+          [
+            "Anggaran asas menambah umur persaraan yang dipilih kepada tarikh lahir. Tarikh menyertai perkhidmatan mungkin relevan dengan konteks pekerjaan, tetapi peraturan rasmi boleh menetapkan konvensyen yang berbeza.",
+            "Sahkan tarikh akhir dengan majikan atau pihak berkuasa yang berkaitan, terutamanya jika persaraan ditentukan oleh peraturan akhir bulan atau peraturan perkhidmatan."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Persaraan AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Persaraan AgeVerseGlobal untuk perancangan kerjaya awal dan untuk menyediakan soalan untuk pejabat HR atau pencen. Jangan anggap anggaran sebagai penentuan perkhidmatan rasmi."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Tarikh lahir",
+          "1 Julai 1966",
+          "Input ilustrasi"
+        ],
+        [
+          "Umur persaraan yang dipilih",
+          "60 tahun",
+          "Nilai yang dipilih pengguna"
+        ],
+        [
+          "Peristiwa penting yang dianggarkan",
+          "1 Julai 2026",
+          "Peraturan rasmi mungkin berbeza"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran tarikh persaraan",
+          "Anggarkan peristiwa penting daripada umur yang dipilih."
+        ],
+        [
+          "Konteks pekerjaan",
+          "Masukkan tarikh menyertai perkhidmatan yang diminta oleh kalkulator."
+        ],
+        [
+          "Sokongan perancangan",
+          "Gunakan anggaran sebagai titik permulaan."
+        ],
+        [
+          "Pilihan peringatan",
+          "Pilihan peringatan tidak tersedia buat masa ini."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah tarikh yang dikira rasmi?",
+          "Tidak. Sahkan tarikh yang berkenaan dengan majikan atau pihak berkuasa anda."
+        ],
+        [
+          "Mengapa tarikh menyertai perkhidmatan diminta?",
+          "Ia memberikan konteks berkaitan pekerjaan untuk kalkulator."
+        ],
+        [
+          "Bolehkah peraturan mengubah tarikh?",
+          "Ya. Dasar majikan dan peraturan yang berkenaan boleh menetapkan konvensyen berbeza."
+        ],
+        [
+          "Bolehkah saya memilih umur persaraan lain?",
+          "Gunakan pilihan umur persaraan yang tersedia dalam kalkulator."
+        ],
+        [
+          "Adakah ini nasihat kewangan?",
+          "Tidak. Ia adalah alat perancangan tarikh, bukan nasihat kewangan atau undang-undang."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ],
+        [
+          "Kalkulator Acara",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "sip": {
+      "name": "SipSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN SIP",
+      "title": "Kalkulator SIP: Kira Pelaburan SIP Anda, Anggaran Pulangan Dan Nilai Matang",
+      "intro": "Anggarkan potensi nilai masa depan pelaburan berkala menggunakan sumbangan bulanan, tempoh pelaburan dan jangkaan pulangan yang anda masukkan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator SIP AgeVerseGlobal?",
+          [
+            "Kalkulator Pelan Pelaburan Sistematik AgeVerseGlobal menganggarkan potensi nilai masa depan pelaburan berulang. Ia menggambarkan bagaimana sumbangan berkala dan andaian pulangan boleh terkumpul.",
+            "Pulangan dana bersama adalah berkaitan pasaran dan tidak dijamin."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator SIP AgeVerseGlobal",
+          [
+            "Masukkan pelaburan bulanan, pilih tempoh pelaburan, masukkan andaian pulangan untuk ilustrasi, kemudian kira dan semak anggaran jumlah yang dilaburkan dan potensi nilai."
+          ]
+        ],
+        [
+          "Bagaimana Pertumbuhan SIP Dianggarkan?",
+          [
+            "Anggaran SIP biasa menggunakan andaian pulangan berkala kepada siri sumbangan berkala. Hasil bergantung pada jumlah sumbangan, kekerapan, tempoh dan andaian pulangan.",
+            "Hasil sebenar berbeza kerana pasaran turun naik dan kos atau cukai mungkin dikenakan."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator SIP AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator SIP AgeVerseGlobal untuk meneroka senario pelaburan dan menetapkan sasaran simpanan. Pertimbangkan matlamat, toleransi risiko dan keadaan peribadi sebelum melabur."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Sumbangan bulanan",
+          "₹1,000",
+          "Senario ilustrasi"
+        ],
+        [
+          "Tempoh pelaburan",
+          "5 tahun",
+          "Senario ilustrasi"
+        ],
+        [
+          "Jangkaan pulangan",
+          "Andaian sahaja",
+          "Tidak dijamin"
+        ]
+      ],
+      "features": [
+        [
+          "Model sumbangan berkala",
+          "Anggarkan siri pelaburan berulang."
+        ],
+        [
+          "Perbandingan senario",
+          "Cuba jumlah dan tempoh berbeza."
+        ],
+        [
+          "Perancangan matlamat",
+          "Gunakan unjuran untuk merangka matlamat simpanan."
+        ],
+        [
+          "Peringatan risiko",
+          "Pulangan sebenar boleh berbeza dengan ketara."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah pulangan SIP dijamin?",
+          "Tidak. Pulangan dana bersama berkaitan pasaran dan boleh positif atau negatif."
+        ],
+        [
+          "Pulangan apa yang harus saya masukkan?",
+          "Gunakan andaian untuk analisis senario; ia tidak dijamin."
+        ],
+        [
+          "Adakah cukai dan yuran termasuk?",
+          "Tidak, cukai dan yuran tidak termasuk. Ia boleh dikira secara berasingan."
+        ],
+        [
+          "Bolehkah tempoh lebih panjang mengubah keputusan?",
+          "Ya. Lebih banyak sumbangan dan lebih banyak masa di bawah andaian pulangan boleh mengubah anggaran."
+        ],
+        [
+          "Adakah ia nasihat pelaburan?",
+          "Tidak. Ia adalah alat anggaran, bukan nasihat pelaburan yang diperibadikan."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator FD",
+          "/utility/fd-calculator"
+        ],
+        [
+          "Kalkulator RD",
+          "/utility/rd-calculator"
+        ],
+        [
+          "Kalkulator EMI",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "percentage": {
+      "name": "PercentageSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN PERATUSAN",
+      "title": "Kalkulator Peratusan: Kira peratusan, kenaikan, penurunan dan banyak lagi dengan cepat.",
+      "intro": "Selesaikan masalah peratusan biasa dengan Kalkulator Peratusan AgeVerseGlobal menggunakan pilihan pengiraan yang tersedia dalam alat ini.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Peratusan AgeVerseGlobal?",
+          [
+            "Kalkulator Peratusan AgeVerseGlobal menyatakan sebahagian daripada keseluruhan sebagai pecahan daripada 100. Ia dapat membantu mencari peratusan daripada nombor atau menyelesaikan pengiraan peratusan lain yang disokong oleh alat.",
+            "Peratusan digunakan dalam diskaun, markah, belanjawan, cukai dan perbandingan."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Peratusan AgeVerseGlobal",
+          [
+            "Pilih operasi yang diperlukan jika pilihan ditunjukkan, masukkan nilai yang diminta, kira, kemudian semak sama ada keputusan adalah jumlah, peratusan atau perbezaan."
+          ]
+        ],
+        [
+          "Bagaimana Peratusan Dikira?",
+          [
+            "Untuk mencari X peratus daripada Y, darabkan Y dengan X dan bahagi dengan 100. Sebagai contoh, 20% daripada 500 ialah 100.",
+            "Untuk menyatakan satu nilai sebagai peratusan daripada nilai lain, bahagi bahagian dengan keseluruhan dan darab dengan 100. Keseluruhan tidak boleh sifar."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Peratusan AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Peratusan AgeVerseGlobal untuk diskaun, skor peperiksaan, kenaikan atau penurunan, belanjawan, metrik perniagaan dan membandingkan kuantiti. Sahkan formula mana yang diperlukan oleh tugasan anda."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "20% daripada 500",
+          "500 × 20 ÷ 100",
+          "100"
+        ],
+        [
+          "45 daripada 60",
+          "45 ÷ 60 × 100",
+          "75%"
+        ],
+        [
+          "Tingkatkan 200 sebanyak 10%",
+          "200 + 20",
+          "220"
+        ]
+      ],
+      "features": [
+        [
+          "Pengiraan biasa",
+          "Gunakan operasi yang tersedia dalam alat."
+        ],
+        [
+          "Input jelas",
+          "Masukkan nilai yang diminta untuk operasi yang dipilih."
+        ],
+        [
+          "Aritmetik pantas",
+          "Kurangkan masa pengiraan manual."
+        ],
+        [
+          "Kegunaan harian",
+          "Berguna untuk markah, diskaun dan belanjawan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Bagaimana saya mengira X peratus daripada nombor?",
+          "Darabkan nombor dengan X dan bahagi dengan 100."
+        ],
+        [
+          "Bagaimana saya mencari peratusan satu nombor daripada nombor lain?",
+          "Bahagikan bahagian dengan keseluruhan dan darab dengan 100, dengan syarat keseluruhan bukan sifar."
+        ],
+        [
+          "Bolehkah saya mengira kenaikan peratusan?",
+          "Gunakan pilihan berkaitan yang tersedia, atau bandingkan perubahan dengan nilai asal."
+        ],
+        [
+          "Mengapa jawapan mempunyai perpuluhan?",
+          "Sesetengah pengiraan menghasilkan keputusan pecahan; pembundaran bergantung pada ketepatan yang dipaparkan."
+        ],
+        [
+          "Adakah penggunaan Kalkulator Peratusan di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator Peratusan AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Diskaun",
+          "/utility/discount-calculator"
+        ],
+        [
+          "Kalkulator GST",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Penukar Unit",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "pregnancy": {
+      "name": "PregnancySEOContent",
+      "eyebrow": "PANDUAN KALKULATOR KEHAMILAN",
+      "title": "Kalkulator Kehamilan: Anggarkan Garis Masa Kehamilan Anda Dan Tarikh Jangkaan Bersalin",
+      "intro": "Anggarkan masa kehamilan daripada maklumat tarikh yang anda masukkan. Tarikh kehamilan adalah anggaran; profesional penjagaan kesihatan boleh mengesahkan penentuan tarikh dan cadangan penjagaan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Kehamilan AgeVerseGlobal?",
+          [
+            "Kalkulator Kehamilan AgeVerseGlobal menganggarkan masa kehamilan dan peristiwa penting berkaitan daripada tarikh seperti hari pertama haid terakhir, di mana kaedah itu disokong.",
+            "Penentuan tarikh kehamilan boleh berbeza dengan panjang kitaran, masa ovulasi, penemuan ultrasound dan sejarah klinikal."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Kehamilan AgeVerseGlobal",
+          [
+            "Pilih kaedah tarikh yang ditawarkan, masukkan tarikh yang diminta dengan teliti, kira anggaran, kemudian bincangkan soalan atau kebimbangan dengan profesional penjagaan kesihatan anda."
+          ]
+        ],
+        [
+          "Bagaimana Masa Kehamilan Dianggarkan?",
+          [
+            "Anggaran biasa mengira kira-kira 40 minggu dari hari pertama haid terakhir. Ini adalah konvensyen umum, bukan jaminan tarikh bersalin.",
+            "Seorang doktor boleh menyesuaikan anggaran berdasarkan butiran kitaran dan penemuan klinikal."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Kehamilan AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Kehamilan AgeVerseGlobal untuk memahami anggaran masa atau membuat persediaan untuk janji temu antenatal. Dapatkan rawatan perubatan segera untuk kesakitan teruk, pendarahan berat atau gejala kecemasan lain."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Haid terakhir",
+          "Tarikh yang dimasukkan pengguna",
+          "Boleh digunakan untuk anggaran"
+        ],
+        [
+          "Tarikh jangkaan bersalin",
+          "Peristiwa penting yang dikira",
+          "Bukan ramalan tepat"
+        ],
+        [
+          "Penilaian klinikal",
+          "Semakan penyedia penjagaan kesihatan",
+          "Ikut panduan profesional"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran tarikh",
+          "Kira anggaran masa daripada input yang disokong."
+        ],
+        [
+          "Kesedaran peristiwa penting",
+          "Sediakan soalan untuk janji temu."
+        ],
+        [
+          "Had yang jelas",
+          "Tarikh jangkaan bersalin tidak tepat."
+        ],
+        [
+          "Susulan klinikal",
+          "Gunakan panduan penjagaan kesihatan untuk keputusan perubatan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah tarikh jangkaan bersalin tepat?",
+          "Tidak. Ia adalah anggaran, dan ramai bayi tidak dilahirkan pada tarikh tersebut."
+        ],
+        [
+          "Tarikh apa yang harus saya masukkan?",
+          "Masukkan tarikh yang diminta oleh kalkulator, seperti tarikh haid terakhir jika kaedah itu disediakan."
+        ],
+        [
+          "Bolehkah doktor mengubah tarikh?",
+          "Ya. Maklumat klinikal dan penemuan ultrasound boleh mengubah anggaran."
+        ],
+        [
+          "Bolehkah saya menggunakan ini untuk keputusan perubatan?",
+          "Tidak, Gunakannya hanya untuk maklumat umum dan ikuti penyedia penjagaan kesihatan anda untuk keputusan."
+        ],
+        [
+          "Bila saya harus mendapatkan bantuan perubatan?",
+          "Dapatkan rawatan segera untuk gejala membimbangkan atau ikuti pelan penjagaan penasihat kesihatan anda."
+        ]
+      ],
+      "related": [
+        [
+          "Profil Kesihatan Lengkap",
+          "/health-profile"
+        ],
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "health_profile": {
+      "name": "HealthProfileSEOContent",
+      "eyebrow": "PANDUAN PROFIL KESIHATAN",
+      "title": "Profil Kesihatan Lengkap: BMI • BMR • Kalori • Air • Pemakanan",
+      "intro": "Semak ukuran kesihatan yang disokong oleh Kalkulator Profil Kesihatan AgeVerseGlobal. Keputusan adalah bermaklumat dan tidak menggantikan nasihat perubatan profesional.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Profil Kesihatan Lengkap AgeVerseGlobal?",
+          [
+            "Kalkulator Profil Kesihatan AgeVerseGlobal menghimpunkan ukuran peribadi terpilih untuk memberikan penunjuk umum yang boleh menyokong kesedaran kesihatan. Nilai yang ditunjukkan bergantung pada maklumat yang dimasukkan dan metrik yang disokong.",
+            "Penunjuk yang dikira bukanlah diagnosis. Kesihatan individu bergantung pada banyak faktor yang tidak dapat dinilai sepenuhnya oleh kalkulator ringkas."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Profil Kesihatan AgeVerseGlobal",
+          [
+            "Masukkan butiran dan ukuran yang diminta dalam unit yang ditunjukkan, semak setiap medan, kira profil, kemudian baca keputusan sebagai maklumat umum dan bukannya diagnosis."
+          ]
+        ],
+        [
+          "Bagaimana Metrik Kesihatan Ditafsirkan?",
+          [
+            "Metrik kesihatan dikira daripada nilai dan formula yang digunakan oleh setiap penunjuk. Tafsiran boleh bergantung pada umur, sejarah perubatan, kaedah pengukuran dan faktor individu lain.",
+            "Jika keputusan membimbangkan anda atau anda mempunyai gejala, rujuk profesional penjagaan kesihatan."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Profil Kesihatan Lengkap AgeVerseGlobal?",
+          [
+            "Gunakan Profil Kesihatan Lengkap AgeVerseGlobal untuk kesedaran umum, menyusun ukuran atau membuat persediaan untuk janji temu penjagaan kesihatan. Jangan gunakannya untuk mendiagnosis keadaan, mengubah ubat atau menangguhkan penjagaan segera."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Butiran peribadi",
+          "Umur dan medan lain yang diminta",
+          "Masukkan maklumat yang tepat"
+        ],
+        [
+          "Pengukuran",
+          "Nilai dalam unit yang diminta",
+          "Semak unit"
+        ],
+        [
+          "Keputusan yang dipaparkan",
+          "Maklumat umum",
+          "Bincangkan kebimbangan dengan penasihat kesihatan/ profesional"
+        ]
+      ],
+      "features": [
+        [
+          "Gambaran keseluruhan berstruktur",
+          "Semak penunjuk yang disokong di satu tempat."
+        ],
+        [
+          "Pemeriksaan input",
+          "Input yang tepat membantu mengelakkan keputusan mengelirukan."
+        ],
+        [
+          "Kesedaran kesihatan",
+          "Gunakan keputusan untuk menyediakan soalan kepada doktor."
+        ],
+        [
+          "Penggunaan bertanggungjawab",
+          "Dapatkan rawatan profesional untuk kebimbangan perubatan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah ia mendiagnosis penyakit?",
+          "Tidak. Ia menyediakan pengiraan maklumat umum, bukan diagnosis."
+        ],
+        [
+          "Bagaimana jika keputusan membimbangkan saya?",
+          "Bincangkannya dengan profesional penjagaan kesihatan yang berkelayakan."
+        ],
+        [
+          "Bolehkah ia menggantikan doktor?",
+          "Tidak. Ia tidak dapat menggantikan pemeriksaan, sejarah perubatan atau nasihat profesional."
+        ],
+        [
+          "Adakah unit penting?",
+          "Ya. Masukkan ukuran dalam unit yang diminta oleh kalkulator."
+        ],
+        [
+          "Adakah Kalkulator Profil Kesihatan AgeVerseGlobal percuma?",
+          "Ya. Kalkulator dalam talian AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Kalkulator Kehamilan",
+          "/pregnancy-calculator"
+        ],
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "rd": {
+      "name": "RdSEOContent",
+      "eyebrow": "PANDUAN DEPOSIT BERULANG",
+      "title": "Kalkulator RD: Kira Deposit Berulang Anda, Anggaran Faedah Dan Nilai Matang",
+      "intro": "Anggarkan nilai matang deposit berulang biasa menggunakan deposit bulanan, kadar faedah dan tempoh yang anda masukkan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator RD AgeVerseGlobal?",
+          [
+            "Kalkulator Deposit Berulang AgeVerseGlobal menganggarkan jumlah matang daripada deposit berkala yang dibuat dalam tempoh terpilih. Ia menggambarkan kesan sumbangan bulanan, kadar dan tempoh.",
+            "Nilai matang sebenar bergantung pada kaedah pengiraan bank, jadual, penalti dan syarat produk."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator RD AgeVerseGlobal",
+          [
+            "Masukkan deposit berkala, berikan kadar faedah yang ditawarkan, pilih tempoh, kemudian kira dan semak anggaran faedah dan nilai matang."
+          ]
+        ],
+        [
+          "Bagaimana Matang RD Dianggarkan?",
+          [
+            "Anggaran RD menggabungkan deposit berkala dengan faedah di bawah andaian kadar dan kaedah pengiraan. Deposit dibuat dari semasa ke semasa, jadi setiap ansuran mungkin mendapat faedah untuk tempoh berbeza.",
+            "Kaedah dan syarat sebenar bank menentukan jumlah akhir."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator RD AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator RD AgeVerseGlobal untuk merancang simpanan berkala, membandingkan tempoh deposit atau menganggarkan jumlah sasaran sebelum membuka RD. Sahkan syarat dengan bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Deposit bulanan",
+          "₹500",
+          "Input ilustrasi"
+        ],
+        [
+          "Tempoh",
+          "1 tahun",
+          "Input ilustrasi"
+        ],
+        [
+          "Kadar faedah",
+          "Kadar bank",
+          "Sahkan tawaran semasa"
+        ]
+      ],
+      "features": [
+        [
+          "Model simpanan berulang",
+          "Anggarkan deposit berkala."
+        ],
+        [
+          "Anggaran matang",
+          "Semak potensi nilai pada akhir tempoh."
+        ],
+        [
+          "Pengujian senario",
+          "Bandingkan jumlah deposit dan tempoh."
+        ],
+        [
+          "Sokongan perancangan",
+          "Sahkan syarat rasmi bank sebelum membuat keputusan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah faedah RD dijamin?",
+          "Kadar dan syarat bergantung pada produk bank tertentu; sahkan dengan bank."
+        ],
+        [
+          "Adakah semua deposit mendapat faedah untuk tempoh sama?",
+          "Tidak. Deposit yang dibuat pada tarikh berbeza mungkin mendapat faedah untuk tempoh berbeza."
+        ],
+        [
+          "Adakah penalti termasuk?",
+          "Tidak. Semak peraturan bank untuk ansuran terlepas atau penutupan awal."
+        ],
+        [
+          "Bolehkah saya membandingkan jumlah deposit?",
+          "Ya. Ubah sumbangan dan kira semula."
+        ],
+        [
+          "Adakah penggunaan Kalkulator RD di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator RD AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator FD",
+          "/utility/fd-calculator"
+        ],
+        [
+          "Kalkulator SIP",
+          "/utility/sip-calculator"
+        ],
+        [
+          "Kalkulator Peratusan",
+          "/utility/percentage-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "gst": {
+      "name": "GstSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN GST",
+      "title": "Kalkulator GST: Kira GST, Jumlah Cukai Dan Jumlah Keseluruhan Dengan Cepat Dan Tepat",
+      "intro": "Anggarkan jumlah GST dan jumlah termasuk atau tidak termasuk cukai dengan Kalkulator GST AgeVerseGlobal.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator GST AgeVerseGlobal?",
+          [
+            "Kalkulator GST AgeVerseGlobal menganggarkan jumlah Cukai Barangan dan Perkhidmatan untuk harga dan kadar terpilih. Bergantung pada mod, ia boleh menambah GST kepada jumlah asas atau mengeluarkan GST daripada jumlah termasuk cukai.",
+            "Sahkan kadar yang berkenaan dan keperluan invois untuk transaksi anda."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator GST AgeVerseGlobal",
+          [
+            "Masukkan jumlah, pilih kadar GST yang berkenaan, pilih mod pengiraan jika ditawarkan, kemudian kira dan semak jumlah GST dan jumlah keseluruhan."
+          ]
+        ],
+        [
+          "Bagaimana GST Dikira?",
+          [
+            "Untuk jumlah tidak termasuk cukai, GST = jumlah bercukai × kadar ÷ 100. Jumlah termasuk cukai ialah jumlah bercukai ditambah GST.",
+            "Untuk jumlah termasuk cukai, komponen GST dikeluarkan daripada jumlah keseluruhan. Formula bergantung pada sama ada harga yang dimasukkan sudah termasuk GST."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator GST AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator GST AgeVerseGlobal untuk penetapan harga awal, perbandingan pembelian dan semakan invois. Untuk pemfailan rasmi, sahkan peraturan semasa dan kadar yang betul untuk barangan atau perkhidmatan."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "₹1,000 sebelum GST",
+          "18%",
+          "₹180 GST; ₹1,180 jumlah"
+        ],
+        [
+          "₹500 sebelum GST",
+          "5%",
+          "₹25 GST; ₹525 jumlah"
+        ],
+        [
+          "₹1,180 termasuk",
+          "18% termasuk",
+          "Anggaran komponen GST ₹180"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran berasaskan kadar",
+          "Kira menggunakan kadar yang dipilih."
+        ],
+        [
+          "Kejelasan harga",
+          "Semak jumlah cukai dan jumlah keseluruhan bersama."
+        ],
+        [
+          "Mod termasuk atau tidak termasuk",
+          "Pilih mod yang sepadan dengan harga yang anda masukkan."
+        ],
+        [
+          "Sokongan perniagaan",
+          "Berguna untuk semakan harga awal."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah Kalkulator GST AgeVerseGlobal memilih kadar yang betul secara automatik?",
+          "Tidak, Kalkulator GST AgeVerseGlobal tidak memilih kadar GST secara automatik. Sahkan dan pilih kadar yang berkenaan untuk barangan atau perkhidmatan anda."
+        ],
+        [
+          "GST termasuk vs tidak termasuk?",
+          "GST tidak termasuk ditambah kepada harga asas; GST termasuk sudah menjadi sebahagian daripada jumlah yang dimasukkan."
+        ],
+        [
+          "Bolehkah saya menggunakan Kalkulator GST AgeVerseGlobal untuk pemfailan cukai?",
+          "Anggap ia sebagai anggaran dan sahkan peraturan yang berkenaan sebelum memfailkan."
+        ],
+        [
+          "Adakah kadar GST sama untuk semua produk?",
+          "Tidak. Kadar boleh berbeza mengikut barangan, perkhidmatan dan peraturan semasa."
+        ],
+        [
+          "Adakah penggunaan Kalkulator GST di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator GST AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Peratusan",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Kalkulator EMI",
+          "/utility/emi-calculator"
+        ],
+        [
+          "Kalkulator Diskaun",
+          "/utility/discount-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "dog_age": {
+      "name": "DogAgeSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN UMUR ANJING",
+      "title": "Kalkulator Umur Anjing: Kira Umur Tepat Anjing Anda Dan Anggaran Setara Umur Manusia.",
+      "intro": "Anggarkan umur anjing anda dalam istilah umur manusia dengan Kalkulator Umur Anjing AgeVerseGlobal. Perbandingan adalah anggaran dan berbeza mengikut anjing.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Umur Anjing AgeVerseGlobal?",
+          [
+            "Kalkulator Umur Anjing AgeVerseGlobal memberikan perbandingan anggaran antara umur anjing dan setara umur manusia. Anjing matang pada kadar berbeza bergantung pada saiz, baka dan kesihatan individu.",
+            "Peraturan mudah seperti mendarab setiap tahun anjing dengan tujuh adalah terlalu ringkas."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Umur Anjing AgeVerseGlobal",
+          [
+            "Masukkan umur anjing anda dan pilih kategori yang diperlukan, seperti saiz, jika kalkulator memintanya. Kira anggaran dan anggap keputusan sebagai panduan umum."
+          ]
+        ],
+        [
+          "Bagaimana Umur Anjing Dibandingkan Dengan Umur Manusia?",
+          [
+            "Anjing matang dengan cepat semasa awal kehidupan, dan corak penuaan boleh berbeza mengikut saiz dan baka. Satu peraturan penukaran tidak dapat mewakili dengan tepat setiap peringkat kehidupan anjing.",
+            "Seorang doktor haiwan boleh memberikan panduan yang lebih relevan tentang kesihatan dan peringkat kehidupan anjing anda."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Umur Anjing AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Umur Anjing AgeVerseGlobal untuk mengetahui perbandingan peringkat kehidupan umum atau untuk memulakan perbualan dengan doktor haiwan anda tentang penjagaan yang sesuai dengan umur."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Anjing berumur 1 tahun",
+          "Peringkat dewasa muda bagi kebanyakan anjing",
+          "Berbeza mengikut saiz dan baka"
+        ],
+        [
+          "Anjing berumur 5 tahun",
+          "Peringkat dewasa",
+          "Corak penuaan berbeza"
+        ],
+        [
+          "Anjing berumur 10 tahun",
+          "Peringkat senior bagi kebanyakan anjing",
+          "Tanya doktor haiwan tentang penjagaan individu"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran pantas",
+          "Bandingkan umur anjing dengan panduan umur manusia."
+        ],
+        [
+          "Kesedaran peringkat kehidupan",
+          "Fahami bahawa penuaan berbeza mengikut anjing."
+        ],
+        [
+          "Konteks penjagaan haiwan peliharaan",
+          "Gunakan keputusan untuk mendorong perancangan penjagaan."
+        ],
+        [
+          "Panduan veterinar",
+          "Dapatkan nasihat untuk kebimbangan kesihatan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah satu tahun anjing sentiasa tujuh tahun manusia?",
+          "Tidak. Peraturan itu terlalu ringkas dan mengabaikan kematangan awal dan perbezaan antara anjing."
+        ],
+        [
+          "Adakah baka atau saiz penting?",
+          "Ya. Saiz dan baka boleh mempengaruhi corak penuaan dan jangka hayat."
+        ],
+        [
+          "Bolehkah ini menilai kesihatan anjing saya?",
+          "Tidak. Ia adalah perbandingan umur anggaran, bukan penilaian veterinar."
+        ],
+        [
+          "Bila saya harus berunding dengan doktor haiwan?",
+          "Berunding dengan doktor haiwan tentang gejala, penjagaan pencegahan, diet atau soalan kesihatan berkaitan umur."
+        ],
+        [
+          "Adakah penggunaan Kalkulator Umur Anjing di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator Umur Anjing AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Profil Kesihatan Lengkap",
+          "/health-profile"
+        ],
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Kalkulator Acara",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "fd": {
+      "name": "FdSEOContent",
+      "eyebrow": "PANDUAN DEPOSIT TETAP",
+      "title": "Kalkulator FD: Kira Kematangan Deposit Tetap, Anggaran Faedah Dan Jumlah Nilai",
+      "intro": "Anggarkan faedah deposit tetap dan nilai matang menggunakan prinsipal, kadar faedah, tempoh dan pilihan pengiraan yang anda masukkan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator FD AgeVerseGlobal?",
+          [
+            "Kalkulator Deposit Tetap AgeVerseGlobal menganggarkan berapa nilai deposit pada tarikh matang berdasarkan prinsipal, kadar, tempoh dan kaedah pengkompaunan yang disokong oleh alat.",
+            "Pulangan sebenar bergantung pada syarat bank, pengkompaunan, pilihan pembayaran, cukai dan peraturan pengeluaran pramatang."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator FD AgeVerseGlobal",
+          [
+            "Masukkan jumlah deposit, berikan kadar faedah yang dinyatakan, pilih tempoh dan sebarang pilihan pengkompaunan atau pembayaran yang tersedia, kemudian kira dan semak anggaran."
+          ]
+        ],
+        [
+          "Bagaimana Faedah FD Dikira?",
+          [
+            "Faedah FD mungkin menggunakan faedah mudah atau kompaun bergantung pada produk dan kaedah terpilih. Dengan pengkompaunan, faedah yang diperoleh boleh ditambah kepada baki dan memperoleh faedah kemudian.",
+            "Sahkan kadar, kekerapan pengkompaunan, cukai dan nilai matang dengan bank."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator FD AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator FD AgeVerseGlobal untuk membandingkan tempoh dan kadar deposit sebelum membuka atau memperbaharui deposit tetap. Sahkan angka akhir dengan bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Prinsipal",
+          "₹50,000",
+          "Input ilustrasi"
+        ],
+        [
+          "Kadar faedah",
+          "6.5% setahun",
+          "Input ilustrasi"
+        ],
+        [
+          "Tempoh",
+          "1 tahun",
+          "Nilai akhir bergantung pada syarat produk"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran matang",
+          "Anggarkan potensi nilai akhir deposit."
+        ],
+        [
+          "Pecahan faedah",
+          "Semak faedah di mana dipaparkan."
+        ],
+        [
+          "Perbandingan senario",
+          "Cuba kadar dan tempoh berbeza."
+        ],
+        [
+          "Kesedaran syarat bank",
+          "Sahkan butiran pengkompaunan dan cukai."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah nilai matang tepat?",
+          "Ia adalah anggaran; syarat bank menentukan jumlah akhir."
+        ],
+        [
+          "Adakah pengkompaunan penting?",
+          "Ya. Kekerapan pengkompaunan berbeza boleh menghasilkan nilai berbeza."
+        ],
+        [
+          "Adakah cukai termasuk?",
+          "Layanan cukai bergantung pada peraturan yang berkenaan dan ciri kalkulator; sahkan secara berasingan."
+        ],
+        [
+          "Bolehkah saya membandingkan tempoh?",
+          "Ya. Jalankan senario menggunakan tempoh dan kadar berbeza."
+        ],
+        [
+          "Adakah penggunaan Kalkulator FD di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator FD AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator RD",
+          "/utility/rd-calculator"
+        ],
+        [
+          "Kalkulator SIP",
+          "/utility/sip-calculator"
+        ],
+        [
+          "Kalkulator EMI",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "emi": {
+      "name": "EmiSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN EMI",
+      "title": "Kalkulator EMI: Kira EMI bulanan anda, jumlah faedah dan jumlah pembayaran balik",
+      "intro": "Anggarkan ansuran pinjaman bulanan menggunakan jumlah pinjaman, kadar faedah dan tempoh pembayaran balik yang anda masukkan ke dalam Kalkulator EMI AgeVerseGlobal.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator EMI AgeVerseGlobal?",
+          [
+            "Kalkulator EMI AgeVerseGlobal menganggarkan Ansuran Bulanan Setara untuk pinjaman. Ia membantu anda memahami anggaran pembayaran balik bulanan dan jumlah pembayaran balik dalam tempoh terpilih.",
+            "Kos sebenar boleh berbeza jika yuran pemberi pinjaman, insurans atau syarat lain dikenakan."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator EMI AgeVerseGlobal",
+          [
+            "Masukkan jumlah pinjaman, berikan kadar faedah dalam format yang diminta, pilih tempoh, kemudian kira dan semak anggaran ansuran bulanan dan jumlah yang dipaparkan."
+          ]
+        ],
+        [
+          "Bagaimana EMI Dikira?",
+          [
+            "Untuk pinjaman baki berkurangan standard, EMI bergantung pada prinsipal, kadar faedah berkala dan bilangan ansuran. Pengiraan mengagihkan pembayaran balik sepanjang tempoh terpilih.",
+            "Yuran pemprosesan, insurans, penalti atau pelarasan khusus pemberi pinjaman mungkin tidak termasuk."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator EMI AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator EMI AgeVerseGlobal untuk membandingkan kemungkinan jumlah pinjaman atau tempoh sebelum membincangkan pinjaman dengan pemberi pinjaman. Semak jadual pembayaran balik rasmi pemberi pinjaman sebelum membuat komitmen."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Jumlah pinjaman",
+          "₹5,00,000",
+          "Input ilustrasi"
+        ],
+        [
+          "Kadar faedah",
+          "10% setahun",
+          "Input ilustrasi"
+        ],
+        [
+          "Tempoh",
+          "5 tahun",
+          "EMI bergantung pada semua input"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran bulanan",
+          "Dapatkan jumlah pembayaran balik indikatif."
+        ],
+        [
+          "Perbandingan tempoh",
+          "Terokai tempoh pembayaran balik."
+        ],
+        [
+          "Perancangan belanjawan",
+          "Semak anggaran kemampuan."
+        ],
+        [
+          "Had yang jelas",
+          "Sahkan yuran dan syarat akhir dengan pemberi pinjaman."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah EMI dijamin?",
+          "Tidak. Tawaran pemberi pinjaman dan jadual pembayaran balik adalah muktamad."
+        ],
+        [
+          "Adakah EMI termasuk semua yuran?",
+          "Tidak semestinya. Yuran pemprosesan, insurans dan caj lain mungkin dikecualikan."
+        ],
+        [
+          "Bagaimana tempoh mempengaruhi EMI?",
+          "Tempoh lebih panjang sering merendahkan ansuran bulanan tetapi boleh meningkatkan jumlah faedah."
+        ],
+        [
+          "Kadar faedah mana yang harus saya masukkan?",
+          "Gunakan format kadar yang diminta oleh kalkulator, biasanya kadar tahunan."
+        ],
+        [
+          "Adakah ia percuma?",
+          "Ya. Kalkulator dalam talian tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator GST",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Kalkulator Peratusan",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Kalkulator SIP",
+          "/utility/sip-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "date_difference": {
+      "name": "DateDifferenceSEOContent",
+      "eyebrow": "PANDUAN PERBEZAAN TARIKH",
+      "title": "Beza Tarikh: Cari Perbezaan Tepat Antara Mana-mana Dua Tarikh",
+      "intro": "Cari masa yang berlalu antara dua tarikh kalendar dengan Beza Tarikh AgeVerseGlobal percuma. Bandingkan tarikh dalam sebarang susunan untuk perancangan, acara dan pengiraan harian.",
+      "sections": [
+        [
+          "Apa Itu Beza Tarikh AgeVerseGlobal?",
+          [
+            "Beza Tarikh AgeVerseGlobal mencari masa yang berlalu antara dua tarikh berbeza. Bergantung pada format keputusan, ini boleh merangkumi tahun, bulan dan hari atau jumlah hari keseluruhan.",
+            "Kalkulator mengesahkan kedua-dua tarikh dan membantu anda membandingkannya tanpa mengira setiap hari kalendar secara manual."
+          ]
+        ],
+        [
+          "Cara Menggunakan Beza Tarikh AgeVerseGlobal",
+          [
+            "Masukkan tarikh pertama dan tarikh kedua, pastikan kedua-dua tarikh betul, kemudian pilih Kira. Semak perbezaan yang dipaparkan dan gunakannya untuk perancangan anda."
+          ]
+        ],
+        [
+          "Bagaimana Perbezaan Tarikh Dikira?",
+          [
+            "Perbezaan hari yang berlalu adalah berdasarkan tarikh kalendar sebenar, dengan mengambil kira panjang bulan dan tahun lompat. Tahun kalendar, bulan dan hari tidak boleh ditukar dengan jumlah hari tetap.",
+            "Sebagai contoh, 1 Mac hingga 11 Mac ialah 10 hari berlalu apabila tarikh mula tidak dikira sebagai hari penuh yang berlalu. Sesetengah tarikh akhir rasmi menggunakan pengiraan inklusif, jadi ikuti peraturan yang berkenaan."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakannya?",
+          [
+            "Gunakannya untuk mengira hari sehingga acara, mengukur tempoh projek, membandingkan tarikh perjalanan atau menyemak masa antara peristiwa penting. Untuk tarikh akhir rasmi, ikuti peraturan pengiraan pihak berkuasa yang berkaitan."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 Mac 2026",
+          "11 Mac 2026",
+          "10 hari berlalu"
+        ],
+        [
+          "1 Januari 2025",
+          "1 Januari 2026",
+          "365 hari berlalu"
+        ],
+        [
+          "1 Januari 2024",
+          "1 Januari 2025",
+          "366 hari berlalu (tahun lompat)"
+        ]
+      ],
+      "features": [
+        [
+          "Susunan tarikh fleksibel",
+          "Bandingkan tarikh walaupun tarikh kemudian dimasukkan dahulu."
+        ],
+        [
+          "Pengiraan peka kalendar",
+          "Panjang bulan dan tahun lompat mempengaruhi jumlah hari berlalu."
+        ],
+        [
+          "Perbandingan pantas",
+          "Elakkan mengira setiap hari secara manual."
+        ],
+        [
+          "Sokongan perancangan",
+          "Berguna untuk acara, projek, perjalanan dan rekod peribadi."
+        ]
+      ],
+      "faqs": [
+        [
+          "Adakah Kalkulator Perbezaan Tarikh AgeVerseGlobal membenarkan tarikh akan datang?",
+          "Ya. Anda boleh membandingkan tarikh lalu, tarikh akan datang atau gabungan kedua-duanya."
+        ],
+        [
+          "Adakah Kalkulator Perbezaan Tarikh AgeVerseGlobal mengambil kira tahun lompat?",
+          "Ya, pengiraan hari berlalu termasuk hari tahun lompat di mana berkenaan."
+        ],
+        [
+          "Adakah tarikh mula dikira?",
+          "Perbezaan hari berlalu biasanya mengukur masa selepas tarikh mula. Jika tarikh akhir memerlukan pengiraan inklusif, sahkan peraturan yang berkenaan."
+        ],
+        [
+          "Bolehkah saya mengubah susunan tarikh?",
+          "Ya. Kalkulator boleh menunjukkan perbezaan mutlak tidak kira susunan."
+        ],
+        [
+          "Adakah penggunaan Beza Tarikh di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator Perbezaan Tarikh AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ],
+        [
+          "Kalkulator Acara",
+          "/event-calculator"
+        ],
+        [
+          "Kalkulator Persaraan",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "discount": {
+      "name": "DiscountSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN DISKAUN",
+      "title": "Kalkulator Diskaun: Kira diskaun, penjimatan dan harga jualan akhir dengan cepat",
+      "intro": "Anggarkan jumlah yang dijimatkan dan harga selepas diskaun menggunakan harga asal dan kadar diskaun yang anda masukkan.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Diskaun AgeVerseGlobal?",
+          [
+            "Kalkulator Diskaun AgeVerseGlobal menentukan berapa banyak harga dikurangkan dengan diskaun peratusan dan menganggarkan harga yang terhasil.",
+            "Harga akhir boleh berbeza jika cukai, caj penghantaran, kupon atau tawaran lain dikenakan secara berasingan."
+          ]
+        ],
+        [
+          "Cara Menggunakan Kalkulator Diskaun AgeVerseGlobal",
+          [
+            "Masukkan harga asal, berikan peratusan diskaun, kira, kemudian semak penjimatan dan harga yang dikurangkan sebelum melengkapkan pembelian."
+          ]
+        ],
+        [
+          "Bagaimana Diskaun Dikira?",
+          [
+            "Jumlah diskaun = harga asal × peratusan diskaun ÷ 100. Harga diskaun ialah harga asal tolak jumlah diskaun.",
+            "Sebagai contoh, diskaun 20% untuk ₹1,000 menjimatkan ₹200, meninggalkan ₹800 sebelum caj tambahan."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Kalkulator Diskaun AgeVerseGlobal?",
+          [
+            "Gunakan Kalkulator Diskaun AgeVerseGlobal semasa membandingkan harga jualan, menyemak tawaran, merancang belanjawan membeli-belah atau mengesahkan penjimatan yang diiklankan. Baca syarat tawaran untuk pengecualian dan caj tambahan."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Harga asal ₹1,000",
+          "Diskaun 10%",
+          "Jimat ₹100; ₹900"
+        ],
+        [
+          "Harga asal ₹2,500",
+          "Diskaun 20%",
+          "Jimat ₹500; ₹2,000"
+        ],
+        [
+          "Harga asal ₹800",
+          "Diskaun 25%",
+          "Jimat ₹200; ₹600"
+        ]
+      ],
+      "features": [
+        [
+          "Anggaran penjimatan",
+          "Kira jumlah diskaun."
+        ],
+        [
+          "Harga akhir",
+          "Lihat harga selepas pengurangan."
+        ],
+        [
+          "Perbandingan tawaran",
+          "Bandingkan kadar diskaun berbeza."
+        ],
+        [
+          "Sokongan membeli-belah",
+          "Semak harga sebelum yuran atau cukai tambahan."
+        ]
+      ],
+      "faqs": [
+        [
+          "Bagaimana saya mengira jumlah diskaun?",
+          "Darabkan harga asal dengan peratusan diskaun dan bahagi dengan 100."
+        ],
+        [
+          "Adakah harga diskaun termasuk GST?",
+          "Tidak secara automatik; kemasukan cukai bergantung pada penetapan harga dan penjual."
+        ],
+        [
+          "Bolehkah saya membandingkan dua tawaran?",
+          "Ya. Kira setiap tawaran menggunakan harga asal dan kadar diskaunnya."
+        ],
+        [
+          "Bagaimana jika kupon dikenakan selepas diskaun?",
+          "Ikuti syarat tawaran; peraturan kupon mungkin memerlukan pengiraan berasingan."
+        ],
+        [
+          "Adakah penggunaan Kalkulator Diskaun di AgeVerseGlobal percuma?",
+          "Ya. Kalkulator Diskaun AgeVerseGlobal tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator GST",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Kalkulator Peratusan",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Penukar Unit",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "unit_converter": {
+      "name": "UnitConverterSEOContent",
+      "eyebrow": "PANDUAN PENUKARAN UNIT",
+      "title": "Penukar Unit: Tukar panjang, berat, suhu, isipadu dan unit harian lain dengan cepat",
+      "intro": "Tukar ukuran yang disokong antara unit dengan Penukar Unit AgeVerseGlobal. Pilih kategori, masukkan nilai, pilih unit dan semak keputusan.",
+      "sections": [
+        [
+          "Apa Itu Penukar Unit AgeVerseGlobal?",
+          [
+            "Penukar Unit AgeVerseGlobal menukar ukuran dari satu unit ke unit lain dalam kategori yang disokong, seperti panjang, jisim, suhu atau jenis ukuran lain yang tersedia.",
+            "Nilai yang ditukar mewakili kuantiti yang sama yang dinyatakan dalam unit berbeza."
+          ]
+        ],
+        [
+          "Cara Menggunakan Penukar Unit AgeVerseGlobal",
+          [
+            "Pilih kategori ukuran, masukkan nilai, pilih unit sumber dan sasaran, kemudian tukar dan semak keputusan serta simbol unit."
+          ]
+        ],
+        [
+          "Bagaimana Penukar Unit AgeVerseGlobal Berfungsi?",
+          [
+            "Penukar Unit AgeVerseGlobal menggunakan faktor penukaran atau formula. Sesetengah kategori menggunakan pengganda, manakala penukaran suhu juga memerlukan offset.",
+            "Pilih unit dari kategori ukuran yang sama untuk penukaran yang bermakna."
+          ]
+        ],
+        [
+          "Bila Anda Harus Menggunakan Penukar Unit AgeVerseGlobal?",
+          [
+            "Gunakan Penukar Unit AgeVerseGlobal untuk belajar, memasak, perjalanan, projek rumah, membeli-belah, kerja teknikal atau apabila ukuran diberikan dalam unit berbeza. Sahkan keputusan untuk kerja kritikal keselamatan atau terkawal."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 kilometer",
+          "1000 meter",
+          "Panjang"
+        ],
+        [
+          "1 kilogram",
+          "1000 gram",
+          "Jisim"
+        ],
+        [
+          "1 jam",
+          "60 minit",
+          "Masa"
+        ]
+      ],
+      "features": [
+        [
+          "Pelbagai kategori",
+          "Pilih daripada kategori yang tersedia dalam alat."
+        ],
+        [
+          "Pemilihan unit fleksibel",
+          "Pilih unit sumber dan sasaran."
+        ],
+        [
+          "Keputusan pantas",
+          "Elakkan menggunakan formula penukaran secara manual."
+        ],
+        [
+          "Kegunaan praktikal",
+          "Berguna untuk belajar dan ukuran harian."
+        ]
+      ],
+      "faqs": [
+        [
+          "Unit apa yang boleh saya tukar?",
+          "Unit yang tersedia bergantung pada kategori yang disediakan dalam penukar."
+        ],
+        [
+          "Mengapa kategori penting?",
+          "Unit mesti mengukur jenis kuantiti yang sama."
+        ],
+        [
+          "Adakah penukaran suhu berbeza?",
+          "Ya. Ia sering menggunakan offset serta faktor skala."
+        ],
+        [
+          "Bolehkah saya menukar unit?",
+          "Gunakan kawalan tukar jika tersedia dalam kalkulator."
+        ],
+        [
+          "Adakah penggunaan Penukar Unit di AgeVerseGlobal percuma?",
+          "Ya. Penukar Unit AgeVerseGlobal dalam talian tersedia tanpa yuran."
+        ]
+      ],
+      "related": [
+        [
+          "Kalkulator Peratusan",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ],
+        [
+          "Kalkulator Umur",
+          "/age-calculator"
+        ]
+      ],
+      "examplesTitle": "Contoh Praktikal",
+      "examplesIntro": "Terokai contoh-contoh ini untuk memahami cara kalkulator berfungsi.",
+      "examplesNote": "Keputusan adalah ilustrasi dan mungkin berbeza bergantung pada nilai dan tarikh yang dimasukkan.",
+      "featuresTitle": "Ciri Utama",
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Cari jawapan kepada soalan lazim tentang kalkulator ini.",
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator",
+      "relatedIntro": "Terokai alat berkaitan ini untuk lebih banyak pengiraan dan perancangan.",
+      "tableHeaders": [
+        "Contoh",
+        "Input",
+        "Keputusan"
+      ]
+    },
+    "age_calculator": {
+      "name": "AgeCalculatorSEOContent",
+      "eyebrow": "PANDUAN PENGIRAAN UMUR",
+      "title": "Kalkulator Umur: Kira Umur Tepat Anda Dengan Butiran Lengkap",
+      "intro": "Cari umur anda dalam tahun, bulan dan hari dengan Kalkulator Umur AgeVerseGlobal percuma. Kira umur anda setakat hari ini atau pilih tarikh tertentu untuk meneroka umur, jumlah masa hidup dan hari lahir akan datang.",
+      "sections": [
+        [
+          "Apa Itu Kalkulator Umur AgeVerseGlobal?",
+          [
+            "Kalkulator Umur AgeVerseGlobal ialah alat dalam talian yang mengira masa antara tarikh lahir anda dan tarikh tamat yang dipilih. Daripada hanya menunjukkan umur dalam tahun, ia memecahkan keputusan kepada tahun, bulan dan hari. Ia juga boleh menunjukkan jumlah bulan, minggu, hari, jam, minit dan saat.",
+            "Kalkulator Umur AgeVerseGlobal menjadikan pengiraan umur mudah. Masukkan tarikh lahir anda, kekalkan tarikh pengiraan ditetapkan kepada hari ini atau pilih tarikh tertentu, dan pilih Kira. Keputusan membantu anda memahami umur kalendar anda dan melihat berapa banyak masa telah berlalu antara dua tarikh."
+          ]
+        ],
+        [
+          "Bagaimana Umur Lanjutan Dikira?",
+          [
+            "Umur kalendar dikira dengan membandingkan tarikh lahir dengan tarikh tamat yang dipilih. Pengiraan mempertimbangkan perbezaan tahun, bulan dan hari. Jika nombor hari tarikh tamat lebih kecil daripada nombor hari tarikh lahir, hari dipinjam dari bulan kalendar sebelumnya. Jika perbezaan bulan negatif, setahun diselaraskan sewajarnya.",
+            "Sebagai contoh, seseorang yang lahir pada 15 Mac 2000 berumur 25 tahun pada 15 Mac 2025. Jika tarikh pengiraan ialah 14 Mac 2025, orang itu belum mencapai hari lahir ke-25.",
+            "Jumlah hari, jam, minit dan saat adalah jumlah masa berlalu yang berasingan. Oleh kerana bulan kalendar mempunyai panjang berbeza dan tahun lompat menambah hari tambahan, umur kalendar tidak boleh dikira dengan menganggap setiap bulan tepat 30 hari."
+          ]
+        ],
+        [
+          "Siapa Boleh Menggunakan Kalkulator Umur AgeVerseGlobal?",
+          [
+            "Kalkulator Umur AgeVerseGlobal boleh berguna untuk sesiapa yang perlu mencari masa antara dua tarikh. Pelajar boleh menggunakannya untuk latihan berkaitan umur, keluarga boleh menyemak hari lahir, dan orang dewasa boleh mengira umur mereka untuk perancangan peribadi. Ia juga boleh membantu semasa menyediakan borang atau menyemak tarikh kelayakan umur.",
+            "Untuk permohonan rasmi, kemasukan sekolah, pekerjaan, faedah atau kelayakan undang-undang, sentiasa ikut peraturan organisasi yang berkaitan untuk mengira umur dan mengesahkan tarikh."
+          ]
+        ]
+      ],
+      "stepsTitle": "Bagaimana Kalkulator Umur AgeVerseGlobal Berfungsi?",
+      "stepsIntro": "Ikuti langkah-langkah ini untuk mengira umur anda:",
+      "steps": [
+        [
+          "Masukkan tarikh lahir anda.",
+          "Pilih hari, bulan dan tahun anda dilahirkan."
+        ],
+        [
+          "Pilih tarikh pengiraan.",
+          "Kekalkan Hari Ini dipilih untuk mengira umur semasa anda, atau pilih Tarikh Tertentu untuk mengira umur anda pada tarikh lain."
+        ],
+        [
+          "Pilih Kira.",
+          "Kalkulator menyemak tarikh dan mengira perbezaan antara mereka."
+        ],
+        [
+          "Semak keputusan anda.",
+          "Lihat umur anda dalam tahun, bulan dan hari, jumlah masa lain dan maklumat hari lahir seterusnya."
+        ]
+      ],
+      "examplesTitle": "Contoh Pengiraan Umur Lanjutan",
+      "examplesIntro": "Contoh-contoh ini menunjukkan bagaimana kalkulator boleh digunakan dengan tarikh lahir dan tarikh pengiraan yang berbeza.",
+      "tableHeaders": [
+        "Tarikh Lahir",
+        "Kira Umur Pada",
+        "Umur"
+      ],
+      "examples": [
+        [
+          "15 Mac 2000",
+          "15 Mac 2025",
+          "25 tahun, 0 bulan, 0 hari"
+        ],
+        [
+          "10 Januari 1998",
+          "25 September 2026",
+          "28 tahun, 8 bulan, 15 hari"
+        ],
+        [
+          "1 Jun 2010",
+          "1 Jun 2025",
+          "15 tahun, 0 bulan, 0 hari"
+        ]
+      ],
+      "examplesNote": "Ini adalah contoh umur kalendar. Keputusan anda bergantung pada tarikh lahir tepat dan tarikh pengiraan yang anda masukkan.",
+      "featuresTitle": "Ciri-ciri Kalkulator Umur AgeVerseGlobal",
+      "features": [
+        [
+          "Umur dalam tahun, bulan dan hari",
+          "Lihat umur kalendar anda dalam format yang biasa."
+        ],
+        [
+          "Hari ini atau tarikh tertentu",
+          "Kira umur semasa anda atau semak umur anda pada tarikh lain."
+        ],
+        [
+          "Pengiraan jumlah masa",
+          "Lihat jumlah bulan, minggu, hari, jam, minit dan saat."
+        ],
+        [
+          "Maklumat hari lahir seterusnya",
+          "Semak tarikh hari lahir akan datang dan hari yang tinggal."
+        ],
+        [
+          "Akses dalam talian mudah",
+          "Gunakan kalkulator dalam pelayar anda tanpa memasang aplikasi berasingan."
+        ]
+      ],
+      "faqEyebrow": "SOALAN LAZIM",
+      "faqTitle": "Soalan Lazim",
+      "faqIntro": "Jawapan pantas tentang mengira umur dan memahami keputusan anda.",
+      "faqs": [
+        [
+          "Bagaimana saya mengira umur tepat saya?",
+          "Masukkan tarikh lahir anda dan pilih Kira. Kalkulator menggunakan tarikh hari ini secara lalai dan memaparkan umur anda dalam tahun, bulan dan hari. Anda juga boleh memilih tarikh tertentu untuk mengira umur anda pada tarikh tersebut."
+        ],
+        [
+          "Bolehkah saya mengira umur saya pada tarikh lalu atau akan datang?",
+          "Ya. Pilih pilihan Tarikh Tertentu dan masukkan tarikh yang anda mahu gunakan. Tarikh yang dipilih tidak boleh lebih awal daripada tarikh lahir anda."
+        ],
+        [
+          "Apakah perbezaan antara umur dalam tahun dan jumlah hari?",
+          "Umur dalam tahun, bulan dan hari menyatakan umur anda menggunakan unit kalendar. Jumlah hari mengira hari yang berlalu antara dua tarikh. Bulan mempunyai panjang berbeza, jadi jumlah hari tidak boleh dikira dengan tepat hanya dengan mendarab setiap bulan dengan 30."
+        ],
+        [
+          "Bolehkah kalkulator ini menunjukkan jumlah jam dan minit saya?",
+          "Ya. Keputusan termasuk jumlah bulan, minggu, hari, jam, minit dan saat juga, bersama umur kalendar anda. Jumlah ini dikira daripada tarikh yang dipilih."
+        ],
+        [
+          "Adakah Kalkulator Umur Lanjutan AgeVerseGlobal mengambil kira tahun lompat?",
+          "Pengiraan kalendar boleh melibatkan tahun lompat dan panjang bulan yang berbeza. Untuk hari lahir pada 29 Februari, pematuhan hari lahir mungkin bergantung pada konvensyen yang digunakan, terutamanya pada tahun bukan lompat."
+        ],
+        [
+          "Bolehkah saya menggunakan kalkulator ini untuk mencari masa sehingga hari lahir saya yang seterusnya?",
+          "Ya. Apabila anda mengira umur anda, keputusan juga memberikan maklumat tentang hari lahir anda yang seterusnya, termasuk tarikh hari lahir akan datang dan kiraan detik dalam hari."
+        ],
+        [
+          "Adakah penggunaan Kalkulator Umur di AgeVerseGlobal percuma?",
+          "Ya. Anda boleh menggunakan Kalkulator Umur Lanjutan AgeVerseGlobal dalam talian tanpa membayar untuk mengira umur anda antara tarikh lahir anda dan hari ini atau tarikh tertentu lain yang dipilih."
+        ]
+      ],
+      "relatedTitle": "Terokai Lebih Banyak Kalkulator Tarikh",
+      "relatedIntro": "Gunakan alat berkaitan ini untuk pengiraan tarikh dan perancangan lain.",
+      "related": [
+        [
+          "Beza Tarikh",
+          "/date-difference"
+        ],
+        [
+          "Kalkulator Acara",
+          "/event-calculator"
+        ],
+        [
+          "Kalkulator Persaraan",
+          "/retirement-calculator"
+        ]
+      ]
+    }
+  }
+}

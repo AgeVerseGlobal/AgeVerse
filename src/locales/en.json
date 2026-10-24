@@ -1,0 +1,3390 @@
+{
+  "retirement": {
+    "calculate_subtitle": "Calculate your retirement date and remaining time.",
+    "reminder_description": "Choose when AgeVerseGlobal should remind you.",
+    "service_completed": "Service Completed",
+    "total_service_at_retirement": "Total Service at Retirement",
+    "current_age": "Current Age",
+    "age_at_retirement": "Age at Retirement",
+    "result_title": "Retirement Result",
+    "result_subtitle": "Calculate your retirement date and remaining time.",
+    "date_of_birth": "Date of Birth",
+    "date_of_joining": "Date of Joining",
+    "retirement_date": "Retirement Date",
+    "retirement_age": "Retirement Age",
+    "completed_title": "Retirement Completed",
+    "empty_title": "Retirement Planning",
+    "empty_text": "Select your date of birth to calculate your retirement date and remaining time.",
+    "empty_hint": "Enter your details above to begin."
+  },
+  "common": {
+    "app_name": "AgeVerseGlobal",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "share": "Share",
+    "copy": "Copy",
+    "download": "Download",
+    "result": "Result",
+    "calculators": "Calculators",
+    "live": "Live",
+    "open_calculator": "Open Calculator",
+    "from": "From",
+    "till": "Till",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "weeks": "Weeks",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "explore_calculators_title": "Explore AgeVerseGlobal Calculators",
+    "explore_calculators_text": "Explore Age, Date, Health, Financial and everyday calculators available on AgeVerseGlobal.",
+    "explore_calculators_button": "Explore Calculators",
+    "next_birthday": "Next Birthday",
+    "days_remaining": "Days Remaining",
+    "your_age": "Your Age",
+    "total_time": "Total Time",
+    "born_on": "Born On",
+    "event_countdown": "Event Countdown",
+    "event_date": "Event Date",
+    "event_time": "Event Time",
+    "weekday": "Weekday",
+    "time_remaining": "Time Remaining",
+    "total_days": "Total Days",
+    "exact_difference": "Exact Difference",
+    "from_day": "From Day",
+    "to_day": "To Day",
+    "total_years": "Total Years",
+    "total_months": "Total Months",
+    "total_weeks": "Total Weeks",
+    "total_hours": "Total Hours",
+    "total_minutes": "Total Minutes",
+    "total_seconds": "Total Seconds",
+    "remaining_period": "Remaining Period",
+    "live_countdown": "Live Countdown",
+    "reminder": "Reminder",
+    "retirement_day": "Retirement Day",
+    "one_day_before": "1 Day Before",
+    "days_before": "Days Before",
+    "not_specified": "Not specified",
+    "upcoming_event": "Upcoming Event",
+    "passed_event": "Event Passed",
+    "notification_permission": "Notification permission may be required for browser reminders.",
+    "retirement_day_message": "Retirement Day Message",
+    "notification_permission_blocked": "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.",
+    "event_reminder_not_configured": "Event reminder service is not configured.",
+    "reminder_set": "Reminder Set",
+    "reminder_time": "Reminder Time",
+    "all_calculators": "All Calculators",
+    "explore_more_calculators": "Explore More Calculators",
+    "show_less_calculators": "Show Less",
+    "feedback": "Feedback",
+    "feedback_title": "Share Your Feedback",
+    "feedback_rating": "Rating",
+    "feedback_feedback": "Your Feedback",
+    "feedback_placeholder": "Tell us what you think...",
+    "feedback_privacy_notice": "Your feedback may include your approximate country/city and the page you are viewing. We do not store your IP address, and we never ask for personal information such as your name, email address, phone number, OTP, or similar details.",
+    "feedback_success": "Thank you for your feedback!",
+    "feedback_error": "Unable to submit feedback right now. Please try again.",
+    "feedback_close": "Close",
+    "feedback_sending": "Submitting...",
+    "feedback_rating_required": "Please select a rating.",
+    "feedback_message_required": "Please enter your feedback.",
+    "about_short": "About",
+    "search_calculator": "Search Calculator",
+    "search_calculator_help": "Find the calculator you need in seconds.",
+    "search_calculator_placeholder": "Search calculators...",
+    "no_calculators_found": "No calculators found.",
+    "close": "Close",
+    "event_details_input": "Event Description / Details (Optional)",
+    "event_details_placeholder": "Add details about this event...",
+    "event_details": "Event Details"
+  },
+  "age": {
+    "title": "Advanced Age Calculator",
+    "subtitle": "Calculate your exact age with complete details.",
+    "date_of_birth": "Date of Birth",
+    "calculate_till": "Calculate Till",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "calculate_age_till": "Calculate Age Till",
+    "today": "Today",
+    "specific_date": "Specific Date",
+    "today_calculation_info": "Age will be calculated up to today",
+    "today_calculation_note": "The current date will be used automatically.",
+    "empty_result_title": "Your Age Result",
+    "empty_result_text": "Calculate your age to see your complete result here.",
+    "empty_result_hint": "📅 Select your date of birth and click Calculate"
+  },
+  "event": {
+    "title": "Event Calculator",
+    "subtitle": "Countdown for your special moments.",
+    "select_event": "Select Event",
+    "birthday": "Birthday",
+    "anniversary": "Anniversary",
+    "exam": "Exam",
+    "trip": "Trip / Vacation",
+    "party": "Party / Event",
+    "custom_event": "Custom Event",
+    "event_date": "Event Date"
+  },
+  "message": {
+    "select_dates": "Please select both dates.",
+    "select_event": "Please select event type.",
+    "enter_custom_event": "Please enter custom event name.",
+    "select_event_date": "Please select event date.",
+    "invalid_date": "Invalid date.",
+    "future_date": "Future date is not allowed.",
+    "from_date_greater_than_to_date": "From date cannot be greater than To date"
+  },
+  "header": {
+    "tagline": "Plan Today, Prosper Tomorrow"
+  },
+  "theme": {
+    "dark_mode": "Switch to dark mode",
+    "light_mode": "Switch to light mode",
+    "language": "Language"
+  },
+  "calculator_names": {
+    "age_calculator": "Age Calculator",
+    "event_calculator": "Event Calculator",
+    "date_difference": "Date Difference",
+    "retirement_calculator": "Retirement Calculator",
+    "health_profile": "Complete Health Profile",
+    "pregnancy_calculator": "Pregnancy Calculator",
+    "unit_converter": "Unit Converter",
+    "percentage_calculator": "Percentage Calculator",
+    "gst_calculator": "GST Calculator",
+    "emi_calculator": "EMI Calculator",
+    "discount_calculator": "Discount Calculator",
+    "sip_calculator": "SIP Calculator",
+    "fd_calculator": "FD Calculator",
+    "rd_calculator": "RD Calculator",
+    "dog_age_calculator": "Dog Age Calculator"
+  },
+  "footer": {
+    "description": "Smart, reliable and thoughtfully designed calculators for age, dates, health, finance and everyday life — helping you make better decisions with clarity and confidence.",
+    "trust": "✓ Accurate • ✓ Simple • ✓ Privacy Focused",
+    "quick_links": "Quick Links",
+    "home": "Home",
+    "about": "About AgeVerseGlobal",
+    "contact": "Contact",
+    "information": "Information",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "disclaimer": "Disclaimer",
+    "languages": "Languages",
+    "rights": "All Rights Reserved.",
+    "powered": "Built for smarter everyday calculations"
+  },
+  "category_names": {
+    "age": "🎂 Age & Date",
+    "health": "🏥 Health Suite",
+    "family": "👶 Family",
+    "utility": "🧮 Utility",
+    "pet": "🐶 Pet"
+  },
+  "calculator_desc": {
+    "age_calculator": "Calculate exact age in years, months and days.",
+    "event_calculator": "Countdown for birthdays, anniversaries, exams and more.",
+    "date_difference": "Find exact difference between two dates.",
+    "retirement_calculator": "Calculate retirement timeline and remaining period.",
+    "health_profile": "BMI, BMR, Calories, Nutrition, Water & Diet Plan.",
+    "pregnancy_calculator": "Track pregnancy weeks and expected due date.",
+    "unit_converter": "Convert length, weight, temperature, volume and more.",
+    "percentage_calculator": "Calculate percentages, increases, decreases and differences.",
+    "gst_calculator": "Calculate GST amount, inclusive and exclusive prices.",
+    "emi_calculator": "Calculate loan EMI, interest and total repayment.",
+    "discount_calculator": "Calculate discounts, savings and final selling price.",
+    "sip_calculator": "Estimate SIP investment growth and expected returns.",
+    "fd_calculator": "Calculate fixed deposit maturity and interest.",
+    "rd_calculator": "Calculate recurring deposit maturity and interest.",
+    "dog_age_calculator": "Calculate your dog's age and human-age equivalent."
+  },
+  "result_actions": {
+    "copy_image": "Copy Image",
+    "download_pdf": "Download PDF",
+    "share_pdf": "Share PDF",
+    "print": "Print",
+    "new": "New",
+    "copy_success": "Result image copied successfully.",
+    "copy_fallback": "Image saved as PNG because clipboard image copy is not supported by this browser.",
+    "share_success": "PDF shared successfully.",
+    "new_success": "Calculator reset.",
+    "generic_error": "Unable to prepare the result.",
+    "aria_label": "Result actions",
+    "share_link_copied": "Result link copied. Paste it into any app to share.",
+    "share_download_fallback": "Sharing is unavailable here, so the PDF was saved instead."
+  },
+  "home": {
+    "hero_title": "Calculate Your Age",
+    "hero_highlight": "Instantly & Accurately",
+    "hero_description": "AgeVerseGlobal helps you calculate your exact age, date difference, birthday countdown and more.",
+    "calculate_age": "Calculate Age",
+    "explore_calculators": "Explore Calculators",
+    "preview_title": "🎂 Age Calculator",
+    "preview_units": "Years • Months • Days",
+    "preview_years": "Years",
+    "features_title": "Why Choose AgeVerseGlobal?",
+    "features_subtitle": "Smart tools for your everyday date calculations.",
+    "features": {
+      "exact_calculation": {
+        "title": "Exact Calculation",
+        "desc": "Get accurate age in years, months and days."
+      },
+      "multiple_calculators": {
+        "title": "Multiple Calculators",
+        "desc": "Age, date difference, birthday and more."
+      },
+      "languages": {
+        "title": "Multiple Languages",
+        "desc": "Use AgeVerseGlobal in your preferred language."
+      },
+      "mobile_friendly": {
+        "title": "Mobile Friendly",
+        "desc": "Works smoothly on every device."
+      },
+      "fast_result": {
+        "title": "Fast Result",
+        "desc": "Instant calculation with clean interface."
+      },
+      "privacy_focused": {
+        "title": "Privacy Focused",
+        "desc": "Your dates stay safe on your device."
+      }
+    },
+    "testimonials_eyebrow": "✦ USER EXPERIENCES",
+    "testimonials_title": "What Users Say",
+    "testimonials_subtitle": "Simple, accurate and trusted calculation tools designed for everyday use.",
+    "verified_user": "Verified User",
+    "faq_eyebrow": "✦ HELP & INFORMATION",
+    "faq_title": "Frequently Asked Questions",
+    "faq_subtitle": "Everything you need to know about AgeVerseGlobal and its smart calculation tools.",
+    "faq_footer_question": "Still have a question?",
+    "faq_footer_action": "Explore AgeVerseGlobal calculators to find the tool you need.",
+    "testimonial_roles": {
+      "rahul": "AgeVerseGlobal User",
+      "priya": "AgeVerseGlobal User",
+      "amit": "AgeVerseGlobal User"
+    },
+    "testimonial_reviews": {
+      "rahul": "Very accurate and easy to use age calculator. The interface feels clean, modern and professional.",
+      "priya": "Simple interface and instant results. I especially liked how smoothly it works on mobile.",
+      "amit": "AgeVerseGlobal makes date calculations incredibly simple. Fast results and a very polished experience."
+    },
+    "faqs": {
+      "q1": "What is AgeVerseGlobal?",
+      "a1": "AgeVerseGlobal is a professional platform for age, date and everyday calculation tools, designed to provide fast, accurate and easy-to-understand results.",
+      "q2": "How accurate is the age calculation?",
+      "a2": "AgeVerseGlobal calculates age precisely in years, months and days based on the dates selected by the user.",
+      "q3": "Is AgeVerseGlobal free to use?",
+      "a3": "Yes. AgeVerseGlobal's basic calculators are free to use.",
+      "q4": "Is my personal data stored?",
+      "a4": "AgeVerseGlobal is designed with privacy in mind. The information entered into calculators is used to generate the requested result and is not unnecessarily stored.",
+      "q5": "Can I use AgeVerseGlobal on mobile?",
+      "a5": "Yes. AgeVerseGlobal is designed to work smoothly across mobile phones, tablets and desktop devices.",
+      "q6": "How many languages will AgeVerseGlobal support?",
+      "a6": "AgeVerseGlobal is not limited to a fixed number of languages. New languages can be added by providing their locale translations while keeping the calculator components unchanged."
+    },
+    "new": "NEW",
+    "preview_age_label": "Age"
+  },
+  "language_name": "🇺🇸 English",
+  "result_meta": {
+    "generated_by": "Generated by AgeVerseGlobal",
+    "calculated_by": "Calculated by AgeVerseGlobal"
+  },
+  "sip": {
+    "calculation_projection_stepup": "{{frequency}} SIP of {{amount}} increases by {{stepUp}}% every year at an assumed annual return of {{rate}}%.",
+    "calculation_projection": "{{frequency}} SIP of {{amount}} invested for {{years}} years at an assumed annual return of {{rate}}%."
+  },
+  "rd": {
+    "calculation_projection": "Monthly RD deposit of {{amount}} invested for {{years}} years at an annual interest rate of {{rate}}%, using quarterly compounding for estimation."
+  },
+  "bridge": {
+    "N/A": "N/A",
+    "Your retirement date has already passed.": "Your retirement date has already passed.",
+    "Retirement Day Message Text": "🎉 Congratulations on reaching this important milestone! May your retirement bring you happiness, good health, peace and plenty of beautiful moments with your loved ones. Wishing you a wonderful and fulfilling retirement journey! 🌸",
+    "Select your date of birth to calculate your retirement date and remaining time.": "Select your date of birth to calculate your retirement date and remaining time.",
+    "Length": "Length",
+    "Weight / Mass": "Weight / Mass",
+    "Volume": "Volume",
+    "Area": "Area",
+    "Speed": "Speed",
+    "Time": "Time",
+    "Digital Data": "Digital Data",
+    "Temperature": "Temperature",
+    "Millimeter": "Millimeter",
+    "Centimeter": "Centimeter",
+    "Meter": "Meter",
+    "Kilometer": "Kilometer",
+    "Inch": "Inch",
+    "Foot": "Foot",
+    "Yard": "Yard",
+    "Mile": "Mile",
+    "Milligram": "Milligram",
+    "Gram": "Gram",
+    "Kilogram": "Kilogram",
+    "Tonne": "Tonne",
+    "Ounce": "Ounce",
+    "Pound": "Pound",
+    "Stone": "Stone",
+    "Milliliter": "Milliliter",
+    "Liter": "Liter",
+    "CubicMeter": "Cubic Meter",
+    "CubicCentimeter": "Cubic Centimeter",
+    "GallonUS": "US Gallon",
+    "QuartUS": "US Quart",
+    "PintUS": "US Pint",
+    "CupUS": "US Cup",
+    "SquareMillimeter": "Square Millimeter",
+    "SquareCentimeter": "Square Centimeter",
+    "SquareMeter": "Square Meter",
+    "Hectare": "Hectare",
+    "SquareKilometer": "Square Kilometer",
+    "SquareInch": "Square Inch",
+    "SquareFoot": "Square Foot",
+    "Acre": "Acre",
+    "MeterPerSecond": "Meter per Second",
+    "KilometerPerHour": "Kilometer per Hour",
+    "MilePerHour": "Mile per Hour",
+    "Knot": "Knot",
+    "FootPerSecond": "Foot per Second",
+    "Millisecond": "Millisecond",
+    "Second": "Second",
+    "Minute": "Minute",
+    "Hour": "Hour",
+    "Day": "Day",
+    "Week": "Week",
+    "Year": "Year",
+    "Byte": "Byte",
+    "Kilobyte": "Kilobyte",
+    "Megabyte": "Megabyte",
+    "Gigabyte": "Gigabyte",
+    "Terabyte": "Terabyte",
+    "Bit": "Bit",
+    "Celsius": "Celsius",
+    "Fahrenheit": "Fahrenheit",
+    "Kelvin": "Kelvin",
+    "Currency Placeholder": "e.g. 5,000",
+    "Percentage Placeholder": "%",
+    "Year/Month": "Year/Month",
+    "Example: My Wedding, Office Party...": "Example: My Wedding, Office Party...",
+    "Increase your SIP amount every year by a fixed percentage.": "Increase your SIP amount every year by a fixed percentage.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.",
+    "BMI Gauge": "BMI Gauge",
+    "Body Mass Index": "Body Mass Index",
+    "Wellness Shield": "Wellness Shield",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "Standard compound-interest model: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ Calculation Note",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.",
+    "1 Day Before": "1 Day Before",
+    "1 Hour Before": "1 Hour Before",
+    "10 Minutes Before": "10 Minutes Before",
+    "1–3 days/week": "1–3 days/week",
+    "24 Hours Before": "24 Hours Before",
+    "6–7 days/week": "6–7 days/week",
+    "7–8 Hours": "7–8 Hours",
+    "8000 Steps": "8000 Steps",
+    "About Dog Age": "About Dog Age",
+    "Accurate": "Accurate",
+    "Activity Level": "Activity Level",
+    "Actual bank returns": "Actual bank returns",
+    "Add GST": "Add GST",
+    "Additional Senior Citizen Rate (%)": "Additional Senior Citizen Rate (%)",
+    "Adult Dog": "Adult Dog",
+    "After": "After",
+    "Age": "Age",
+    "Age & Human Equivalent Projection": "Age & Human Equivalent Projection",
+    "Age Calculations": "Age Calculations",
+    "Age Calculator": "Age Calculator",
+    "Age Category": "Age Category",
+    "Age Result": "Age Result",
+    "Age Summary": "Age Summary",
+    "Age will be calculated up to today": "Age will be calculated up to today",
+    "AgeVerseGlobal": "AgeVerseGlobal",
+    "AgeVerseGlobal - Retirement Result": "AgeVerseGlobal - Retirement Result",
+    "AgeVerseGlobal EMI Calculator Result": "AgeVerseGlobal EMI Calculator Result",
+    "AgeVerseGlobal Pregnancy Calculator": "AgeVerseGlobal Pregnancy Calculator",
+    "AgeVerseGlobal Pregnancy Result": "AgeVerseGlobal Pregnancy Result",
+    "AgeVerseGlobal Unit Converter Result": "AgeVerseGlobal Unit Converter Result",
+    "AgeVerseGlobal Utility": "AgeVerseGlobal Utility",
+    "AgeVerseGlobal Utility • Unit Converter": "AgeVerseGlobal Utility • Unit Converter",
+    "Amount": "Amount",
+    "Amount Including GST": "Amount Including GST",
+    "Amount after discount": "Amount after discount",
+    "Amount payable every month": "Amount payable every month",
+    "Anniversary": "Anniversary",
+    "Annual": "Annual",
+    "Annual Interest": "Annual Interest",
+    "Annual Interest Rate (%)": "Annual Interest Rate (%)",
+    "Annual Rate": "Annual Rate",
+    "Annual Return": "Annual Return",
+    "Annual SIP Step-Up": "Annual SIP Step-Up",
+    "Annual Step-Up (%)": "Annual Step-Up (%)",
+    "Approximate Human Age": "Approximate Human Age",
+    "BMI": "BMI",
+    "BMR": "BMR",
+    "Balanced Diet": "Balanced Diet",
+    "Base Amount": "Base Amount",
+    "Before": "Before",
+    "Birth Date": "Birth Date",
+    "Birth date cannot be later than the calculation date.": "Birth date cannot be later than the calculation date.",
+    "Birthday": "Birthday",
+    "Body": "Body",
+    "Body Age": "Body Age",
+    "Born On": "Born On",
+    "Both values cannot be zero.": "Both values cannot be zero.",
+    "Breakdown": "Breakdown",
+    "CGST": "CGST",
+    "CGST + SGST": "CGST + SGST",
+    "Calculate": "Calculate",
+    "Calculate\n": "Calculate\n",
+    "Calculate Age": "Calculate Age",
+    "Calculate Age On": "Calculate Age On",
+    "Calculate Age Till": "Calculate Age Till",
+    "Calculate Countdown": "Calculate Countdown",
+    "Calculate Difference": "Calculate Difference",
+    "Calculate GST, tax amount and total amount quickly and accurately.": "Calculate GST, tax amount and total amount quickly and accurately.",
+    "Calculate On": "Calculate On",
+    "Calculate Pregnancy": "Calculate Pregnancy",
+    "Calculate Pregnancy On": "Calculate Pregnancy On",
+    "Calculate Retirement": "Calculate Retirement",
+    "Calculate Your Age": "Calculate Your Age",
+    "Calculate a percentage of a given number.": "Calculate a percentage of a given number.",
+    "Calculate discount, savings and final selling price quickly.": "Calculate discount, savings and final selling price quickly.",
+    "Calculate fixed deposit maturity, estimated interest and total value.": "Calculate fixed deposit maturity, estimated interest and total value.",
+    "Calculate the percentage decrease between two values.": "Calculate the percentage decrease between two values.",
+    "Calculate the percentage increase between two values.": "Calculate the percentage increase between two values.",
+    "Calculate your SIP investment, estimated returns and maturity value.": "Calculate your SIP investment, estimated returns and maturity value.",
+    "Calculate your dog's exact age and approximate human-age equivalent.": "Calculate your dog's exact age and approximate human-age equivalent.",
+    "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.": "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.",
+    "Calculate your monthly EMI, total interest and total repayment amount.": "Calculate your monthly EMI, total interest and total repayment amount.",
+    "Calculate your recurring deposit, estimated interest and maturity value.": "Calculate your recurring deposit, estimated interest and maturity value.",
+    "Calculated between the selected dates": "Calculated between the selected dates",
+    "Calculated by": "Calculated by",
+    "Calculated result": "Calculated result",
+    "Calculation": "Calculation",
+    "Calculation Breakdown": "Calculation Breakdown",
+    "Calculation Note": "Calculation Note",
+    "Calculation Result": "Calculation Result",
+    "Calculation Type": "Calculation Type",
+    "Calculator Section": "Calculator Section",
+    "Calories": "Calories",
+    "Canvas image creation failed.": "Canvas image creation failed.",
+    "Carbs": "Carbs",
+    "Category": "Category",
+    "Challenge": "Challenge",
+    "Choose": "Choose",
+    "Choose when AgeVerseGlobal should remind you.": "Choose when AgeVerseGlobal should remind you.",
+    "Choose when your event starts": "Choose when your event starts",
+    "Complete": "Complete",
+    "Complete Health Profile": "Complete Health Profile",
+    "Compounding": "Compounding",
+    "Compounding Frequency": "Compounding Frequency",
+    "Conversion": "Conversion",
+    "Conversion Category": "Conversion Category",
+    "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.": "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.",
+    "Convert": "Convert",
+    "Converted": "Converted",
+    "Converted Value": "Converted Value",
+    "Copy": "Copy",
+    "Copy Image": "Copy Image",
+    "Copy Result": "Copy Result",
+    "Copy failed:": "Copy failed:",
+    "Copy image error:": "Copy image error:",
+    "Countdown": "Countdown",
+    "Countdown for birthdays, anniversaries, exams and more.": "Countdown for birthdays, anniversaries, exams and more.",
+    "Cumulative Interest": "Cumulative Interest",
+    "Current": "Current",
+    "Current Trimester": "Current Trimester",
+    "Custom": "Custom",
+    "Custom Event": "Custom Event",
+    "Custom Event Name": "Custom Event Name",
+    "Custom GST Rate (%)": "Custom GST Rate (%)",
+    "Custom Rate": "Custom Rate",
+    "Custom Reminder": "Custom Reminder",
+    "Custom reminder must be between 1 and 1650 days.": "Custom reminder must be between 1 and 1650 days.",
+    "Custom reminder must be between 1 and 3650 days.": "Custom reminder must be between 1 and 3650 days.",
+    "Daily Lifestyle Goals": "Daily Lifestyle Goals",
+    "Date": "Date",
+    "Date Difference": "Date Difference",
+    "Date Difference Calculator": "Date Difference Calculator",
+    "Date Difference Result": "Date Difference Result",
+    "Date of Birth": "Date of Birth",
+    "Days": "Days",
+    "Days Before": "Days Before",
+    "Days Remaining": "Days Remaining",
+    "Deposit": "Deposit",
+    "Deposit Amount": "Deposit Amount",
+    "Detailed": "Detailed",
+    "Details": "Details",
+    "Diet": "Diet",
+    "Diet Preference": "Diet Preference",
+    "Difference": "Difference",
+    "Disclaimer:": "Disclaimer:",
+    "Discount": "Discount",
+    "Discount (%)": "Discount (%)",
+    "Discount 1 (%)": "Discount 1 (%)",
+    "Discount 2 (%)": "Discount 2 (%)",
+    "Discount 3 (%) — Optional": "Discount 3 (%) — Optional",
+    "Discount Calculator": "Discount Calculator",
+    "Discount Calculator Result": "Discount Calculator Result",
+    "Dog": "Dog",
+    "Dog Age": "Dog Age",
+    "Dog Age Calculation Result": "Dog Age Calculation Result",
+    "Dog Age Calculator": "Dog Age Calculator",
+    "Dog Age Calculator Result": "Dog Age Calculator Result",
+    "Dog age result image error:": "Dog age result image error:",
+    "Dog's Birth Date": "Dog's Birth Date",
+    "Download": "Download",
+    "Download PDF": "Download PDF",
+    "Download PDF error:": "Download PDF error:",
+    "Download failed:": "Download failed:",
+    "Drink enough water": "Drink enough water",
+    "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)": "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)",
+    "EMI Calculation Result": "EMI Calculation Result",
+    "EMI Calculator": "EMI Calculator",
+    "EMI Calculator Result": "EMI Calculator Result",
+    "EMI Formula": "EMI Formula",
+    "EMI and complete repayment": "EMI and complete repayment",
+    "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.": "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.",
+    "Early pregnancy": "Early pregnancy",
+    "Effective Discount": "Effective Discount",
+    "Effective Rate": "Effective Rate",
+    "Enter": "Enter",
+    "Enter age": "Enter age",
+    "Enter amount": "Enter amount",
+    "Enter days": "Enter days",
+    "Enter the first day of your last menstrual period.": "Enter the first day of your last menstrual period.",
+    "Enter the loan amount, annual": "Enter the loan amount, annual",
+    "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.": "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.",
+    "Enter the price, choose the discount": "Enter the price, choose the discount",
+    "Enter the price, choose the discount type and tap": "Enter the price, choose the discount type and tap",
+    "Enter the values above and select the": "Enter the values above and select the",
+    "Enter the values above and select the calculation type that matches what you want to find.": "Enter the values above and select the calculation type that matches what you want to find.",
+    "Enter value": "Enter value",
+    "Enter your SIP amount, frequency,": "Enter your SIP amount, frequency,",
+    "Enter your SIP amount, frequency, expected return and investment period, then tap": "Enter your SIP amount, frequency, expected return and investment period, then tap",
+    "Enter your amount, select the GST": "Enter your amount, select the GST",
+    "Enter your amount, select the GST rate and tap": "Enter your amount, select the GST rate and tap",
+    "Enter your deposit amount, expected rate, investment": "Enter your deposit amount, expected rate, investment",
+    "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap": "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap",
+    "Enter your details above to begin.": "Enter your details above to begin.",
+    "Enter your loan details and tap": "Enter your loan details and tap",
+    "Enter your monthly RD deposit,": "Enter your monthly RD deposit,",
+    "Enter your monthly RD deposit, expected interest rate and investment period, then tap": "Enter your monthly RD deposit, expected interest rate and investment period, then tap",
+    "Enter your values and tap": "Enter your values and tap",
+    "Equivalent": "Equivalent",
+    "Estimated": "Estimated",
+    "Estimated Due Date": "Estimated Due Date",
+    "Estimated Due Date Reached": "Estimated Due Date Reached",
+    "Estimated Interest": "Estimated Interest",
+    "Estimated Maturity Value": "Estimated Maturity Value",
+    "Estimated Returns": "Estimated Returns",
+    "Estimated Time Remaining": "Estimated Time Remaining",
+    "Estimated Value": "Estimated Value",
+    "Estimated future value of your RD": "Estimated future value of your RD",
+    "Estimated future value of your SIP": "Estimated future value of your SIP",
+    "Estimated time remaining": "Estimated time remaining",
+    "Estimated value at the end of the selected tenure": "Estimated value at the end of the selected tenure",
+    "Event": "Event",
+    "Event Calculator": "Event Calculator",
+    "Event Completed": "Event Completed",
+    "Event Countdown": "Event Countdown",
+    "Event Date": "Event Date",
+    "Event Time": "Event Time",
+    "Event time": "Event time",
+    "Exact Age": "Exact Age",
+    "Exact Difference": "Exact Difference",
+    "Exact difference between the selected dates": "Exact difference between the selected dates",
+    "Exam": "Exam",
+    "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.": "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.",
+    "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.",
+    "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.",
+    "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.": "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.",
+    "Excellent": "Excellent",
+    "Exercise 3–5": "Exercise 3–5",
+    "Expected": "Expected",
+    "Expected Annual Interest Rate (%)": "Expected Annual Interest Rate (%)",
+    "Expected Annual Return (%)": "Expected Annual Return (%)",
+    "Expected Return": "Expected Return",
+    "Explore AgeVerseGlobal calculators to find the tool you need.": "Explore AgeVerseGlobal calculators to find the tool you need.",
+    "Explore Calculators": "Explore Calculators",
+    "Extra Active": "Extra Active",
+    "Extremely Underweight": "Extremely Underweight",
+    "FD Calculation Result": "FD Calculation Result",
+    "FD Calculator": "FD Calculator",
+    "FD Growth": "FD Growth",
+    "FD maturity depends on deposit amount, interest rate,": "FD maturity depends on deposit amount, interest rate,",
+    "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.": "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.",
+    "Fair": "Fair",
+    "Fast": "Fast",
+    "Fat": "Fat",
+    "Female": "Female",
+    "Fill in your details to calculate your complete wellness result.": "Fill in your details to calculate your complete wellness result.",
+    "Final": "Final",
+    "Final Price": "Final Price",
+    "Final Selling Price": "Final Selling Price",
+    "Final Value": "Final Value",
+    "Final value cannot be zero.": "Final value cannot be zero.",
+    "Find Original Value": "Find Original Value",
+    "Find exact difference between any two dates.": "Find exact difference between any two dates.",
+    "Find exact difference between two dates.": "Find exact difference between two dates.",
+    "Find the original value after a percentage change.": "Find the original value after a percentage change.",
+    "Find the percentage difference between two values.": "Find the percentage difference between two values.",
+    "Find what percentage one number is of another.": "Find what percentage one number is of another.",
+    "First Day of Last Menstrual Period": "First Day of Last Menstrual Period",
+    "First Input": "First Input",
+    "First Trimester": "First Trimester",
+    "First Value": "First Value",
+    "Fixed Deposit Maturity & Interest Projection": "Fixed Deposit Maturity & Interest Projection",
+    "Focus on balanced diet, activity and healthy habits.": "Focus on balanced diet, activity and healthy habits.",
+    "Food suggestions based on your selected diet": "Food suggestions based on your selected diet",
+    "For sequential discounts, each discount": "For sequential discounts, each discount",
+    "For sequential discounts, each discount is calculated on the price remaining after the previous discount.": "For sequential discounts, each discount is calculated on the price remaining after the previous discount.",
+    "Formula": "Formula",
+    "Free Forever": "Free Forever",
+    "Frequency": "Frequency",
+    "Frequently Asked Questions": "Frequently Asked Questions",
+    "From": "From",
+    "From Date": "From Date",
+    "From Day": "From Day",
+    "From Quantity": "From Quantity",
+    "From Unit": "From Unit",
+    "GST": "GST",
+    "GST Amount": "GST Amount",
+    "GST Breakdown": "GST Breakdown",
+    "GST Calculator": "GST Calculator",
+    "GST Calculator Result": "GST Calculator Result",
+    "GST PDF error:": "GST PDF error:",
+    "GST Rate": "GST Rate",
+    "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.": "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.",
+    "GST image copy error:": "GST image copy error:",
+    "GST print dialog error:": "GST print dialog error:",
+    "GST print window error:": "GST print window error:",
+    "GST share error:": "GST share error:",
+    "Gain Weight": "Gain Weight",
+    "Gender": "Gender",
+    "Generated by": "Generated by",
+    "Generated by AgeVerseGlobal": "Generated by AgeVerseGlobal",
+    "Get a complete breakdown of base amount, GST and total amount.": "Get a complete breakdown of base amount, GST and total amount.",
+    "Get notified before your event": "Get notified before your event",
+    "Goal": "Goal",
+    "Good": "Good",
+    "Great progress! Keep improving every day.": "Great progress! Keep improving every day.",
+    "Growth": "Growth",
+    "Half-Yearly": "Half-Yearly",
+    "Hard exercise": "Hard exercise",
+    "Health": "Health",
+    "Health & Wellness": "Health & Wellness",
+    "Health Profile": "Health Profile",
+    "Health Score": "Health Score",
+    "Healthy": "Healthy",
+    "Healthy Range": "Healthy Range",
+    "Height": "Height",
+    "Height (cm)": "Height (cm)",
+    "Hours": "Hours",
+    "Hours Before": "Hours Before",
+    "How it works": "How it works",
+    "Human": "Human",
+    "Human Age Equivalent": "Human Age Equivalent",
+    "Human Equivalent": "Human Equivalent",
+    "Human-age conversion is only an": "Human-age conversion is only an",
+    "IGST": "IGST",
+    "Ideal Weight": "Ideal Weight",
+    "Image clipboard copy failed:": "Image clipboard copy failed:",
+    "Important": "Important",
+    "Input": "Input",
+    "Input Amount": "Input Amount",
+    "Input Details": "Input Details",
+    "Input Summary": "Input Summary",
+    "Instant Calculation": "Instant Calculation",
+    "Instantly &amp; Accurately": "Instantly &amp; Accurately",
+    "Interest": "Interest",
+    "Interest Compounding": "Interest Compounding",
+    "Interest Growth": "Interest Growth",
+    "Interest Rate": "Interest Rate",
+    "Interest Rate (% p.a.)": "Interest Rate (% p.a.)",
+    "Invested": "Invested",
+    "Investment": "Investment",
+    "Investment & Wealth Projection": "Investment & Wealth Projection",
+    "Investment Flow": "Investment Flow",
+    "Investment Period": "Investment Period",
+    "Investment Period (Years)": "Investment Period (Years)",
+    "Investment Result": "Investment Result",
+    "It is not a substitute for professional medical": "It is not a substitute for professional medical",
+    "Keep maintaining your healthy lifestyle!": "Keep maintaining your healthy lifestyle!",
+    "Last Menstrual Period": "Last Menstrual Period",
+    "Late pregnancy": "Late pregnancy",
+    "Leave blank to calculate using today's date.": "Leave blank to calculate using today's date.",
+    "Lifestyle": "Lifestyle",
+    "Light exercise": "Light exercise",
+    "Lightly Active": "Lightly Active",
+    "Liters/day": "Liters/day",
+    "Little or no exercise": "Little or no exercise",
+    "Live Countdown": "Live Countdown",
+    "Loan": "Loan",
+    "Loan Amount": "Loan Amount",
+    "Loan Summary": "Loan Summary",
+    "Loan Tenure": "Loan Tenure",
+    "Lose Weight": "Lose Weight",
+    "Maintain": "Maintain",
+    "Maintain Weight": "Maintain Weight",
+    "Maintain a balanced diet": "Maintain a balanced diet",
+    "Male": "Male",
+    "Matches real age": "Matches real age",
+    "Maturity": "Maturity",
+    "Maturity Value": "Maturity Value",
+    "Middle pregnancy": "Middle pregnancy",
+    "Minutes": "Minutes",
+    "Minutes Before": "Minutes Before",
+    "Moderately Active": "Moderately Active",
+    "Month": "Month",
+    "Monthly": "Monthly",
+    "Monthly EMI": "Monthly EMI",
+    "Monthly Interest": "Monthly Interest",
+    "Monthly RD": "Monthly RD",
+    "Monthly RD Deposit": "Monthly RD Deposit",
+    "Months": "Months",
+    "Multiple Date Support": "Multiple Date Support",
+    "Multiple Discounts": "Multiple Discounts",
+    "NEW": "NEW",
+    "Name": "Name",
+    "Needs Improvement": "Needs Improvement",
+    "New": "New",
+    "New Value": "New Value",
+    "Next Birthday": "Next Birthday",
+    "No Reminder": "No Reminder",
+    "Non Vegetarian": "Non Vegetarian",
+    "Non-Vegetarian": "Non-Vegetarian",
+    "Not Available": "Not Available",
+    "Not specified": "Not specified",
+    "Notification permission may be required for browser reminders.": "Notification permission may be required for browser reminders.",
+    "Number": "Number",
+    "Nutrition": "Nutrition",
+    "Nutrition Balance": "Nutrition Balance",
+    "Nutrition:": "Nutrition:",
+    "Obesity": "Obesity",
+    "Obesity Class I": "Obesity Class I",
+    "Obesity Class II": "Obesity Class II",
+    "Obesity Class III": "Obesity Class III",
+    "On": "On",
+    "Opening Value": "Opening Value",
+    "Opening print preview...": "Opening print preview...",
+    "Optional": "Optional",
+    "Optional additional rate for senior-citizen projection.": "Optional additional rate for senior-citizen projection.",
+    "Original": "Original",
+    "Original / Marked Price": "Original / Marked Price",
+    "Original Amount": "Original Amount",
+    "Original Price": "Original Price",
+    "Original Value": "Original Value",
+    "Original value cannot be zero.": "Original value cannot be zero.",
+    "Other": "Other",
+    "Overweight": "Overweight",
+    "PDF blob could not be created.": "PDF blob could not be created.",
+    "PDF blob not created.": "PDF blob not created.",
+    "PDF creation error:": "PDF creation error:",
+    "PDF download failed:": "PDF download failed:",
+    "PDF downloaded successfully.": "PDF downloaded successfully.",
+    "PDF generation error:": "PDF generation error:",
+    "PDF generation failed:": "PDF generation failed:",
+    "PDF opened successfully. Please press Ctrl + P to print.": "PDF opened successfully. Please press Ctrl + P to print.",
+    "PDF ready. Opening print dialog...": "PDF ready. Opening print dialog...",
+    "PDF ready. Opening print preview...": "PDF ready. Opening print preview...",
+    "PDF shared successfully.": "PDF shared successfully.",
+    "PDF sharing error:": "PDF sharing error:",
+    "PDF sharing is not supported here. The PDF has been downloaded instead.": "PDF sharing is not supported here. The PDF has been downloaded instead.",
+    "PDF sharing is not supported on this device.": "PDF sharing is not supported on this device.",
+    "Part": "Part",
+    "Party / Event": "Party / Event",
+    "Payment": "Payment",
+    "Payment Composition": "Payment Composition",
+    "Percentage": "Percentage",
+    "Percentage Calculator": "Percentage Calculator",
+    "Percentage Calculator Result": "Percentage Calculator Result",
+    "Percentage Change": "Percentage Change",
+    "Percentage Decrease": "Percentage Decrease",
+    "Percentage Difference": "Percentage Difference",
+    "Percentage Increase": "Percentage Increase",
+    "Percentage change must be greater than -100%.": "Percentage change must be greater than -100%.",
+    "Percentage of a Number": "Percentage of a Number",
+    "Period": "Period",
+    "Personal Details": "Personal Details",
+    "Personalized": "Personalized",
+    "Personalized Diet Plan": "Personalized Diet Plan",
+    "Plan": "Plan",
+    "Please": "Please",
+    "Please allow pop-ups in your browser to print the PDF.": "Please allow pop-ups in your browser to print the PDF.",
+    "Please allow pop-ups to print the result.": "Please allow pop-ups to print the result.",
+    "Please enter a valid GST rate between 0% and 100%.": "Please enter a valid GST rate between 0% and 100%.",
+    "Please enter a valid LMP date.": "Please enter a valid LMP date.",
+    "Please enter a valid age between 5 and 120 years.": "Please enter a valid age between 5 and 120 years.",
+    "Please enter a valid amount.": "Please enter a valid amount.",
+    "Please enter a valid annual interest rate between 0% and 100%.": "Please enter a valid annual interest rate between 0% and 100%.",
+    "Please enter a valid annual interest rate between 0% and 30%.": "Please enter a valid annual interest rate between 0% and 30%.",
+    "Please enter a valid annual step-up rate between 0% and 100%.": "Please enter a valid annual step-up rate between 0% and 100%.",
+    "Please enter a valid calculation date.": "Please enter a valid calculation date.",
+    "Please enter a valid custom reminder time.": "Please enter a valid custom reminder time.",
+    "Please enter a valid date of birth.": "Please enter a valid date of birth.",
+    "Please enter a valid deposit amount greater than 0.": "Please enter a valid deposit amount greater than 0.",
+    "Please enter a valid discount between 0% and 100%.": "Please enter a valid discount between 0% and 100%.",
+    "Please enter a valid event date and time.": "Please enter a valid event date and time.",
+    "Please enter a valid expected return between 0% and 100%.": "Please enter a valid expected return between 0% and 100%.",
+    "Please enter a valid height between 100 and 250 cm.": "Please enter a valid height between 100 and 250 cm.",
+    "Please enter a valid interest rate between 0% and 100%.": "Please enter a valid interest rate between 0% and 100%.",
+    "Please enter a valid investment period between 1 and 100 years.": "Please enter a valid investment period between 1 and 100 years.",
+    "Please enter a valid loan amount greater than 0.": "Please enter a valid loan amount greater than 0.",
+    "Please enter a valid loan tenure.": "Please enter a valid loan tenure.",
+    "Please enter a valid monthly RD deposit.": "Please enter a valid monthly RD deposit.",
+    "Please enter a valid number.": "Please enter a valid number.",
+    "Please enter a valid original price.": "Please enter a valid original price.",
+    "Please enter a valid quantity.": "Please enter a valid quantity.",
+    "Please enter both values.": "Please enter both values.",
+    "Please enter custom event name.": "Please enter custom event name.",
+    "Please enter the amount.": "Please enter the amount.",
+    "Please enter the annual interest rate.": "Please enter the annual interest rate.",
+    "Please enter the expected annual interest rate.": "Please enter the expected annual interest rate.",
+    "Please enter the expected annual return.": "Please enter the expected annual return.",
+    "Please enter the investment period.": "Please enter the investment period.",
+    "Please enter the loan amount.": "Please enter the loan amount.",
+    "Please enter the loan tenure.": "Please enter the loan tenure.",
+    "Please enter the original price.": "Please enter the original price.",
+    "Please enter valid dates.": "Please enter valid dates.",
+    "Please enter valid discount rates between 0% and 100%.": "Please enter valid discount rates between 0% and 100%.",
+    "Please enter valid numbers.": "Please enter valid numbers.",
+    "Please enter valid quantity slabs.": "Please enter valid quantity slabs.",
+    "Please enter your date of birth.": "Please enter your date of birth.",
+    "Please enter your deposit amount.": "Please enter your deposit amount.",
+    "Please enter your monthly RD deposit.": "Please enter your monthly RD deposit.",
+    "Please fill all required details.": "Please fill all required details.",
+    "Please select both dates.": "Please select both dates.",
+    "Please select event date.": "Please select event date.",
+    "Please select event time.": "Please select event time.",
+    "Please select event type.": "Please select event type.",
+    "Please select the calculation date.": "Please select the calculation date.",
+    "Please select your dog's birth date.": "Please select your dog's birth date.",
+    "Please verify your weight. Please enter a value between 20 and 300 kg.": "Please verify your weight. Please enter a value between 20 and 300 kg.",
+    "Pregnancy": "Pregnancy",
+    "Pregnancy Age": "Pregnancy Age",
+    "Pregnancy Calculator": "Pregnancy Calculator",
+    "Pregnancy Not Started": "Pregnancy Not Started",
+    "Pregnancy Progress": "Pregnancy Progress",
+    "Pregnancy Result": "Pregnancy Result",
+    "Pregnancy calculation will begin from the selected LMP date.": "Pregnancy calculation will begin from the selected LMP date.",
+    "Pregnancy is currently ongoing.": "Pregnancy is currently ongoing.",
+    "Premium": "Premium",
+    "Preparing PDF for printing...": "Preparing PDF for printing...",
+    "Preparing PDF for sharing...": "Preparing PDF for sharing...",
+    "Preparing PDF...": "Preparing PDF...",
+    "Preparing image...": "Preparing image...",
+    "Preparing your PDF...": "Preparing your PDF...",
+    "Price": "Price",
+    "Price Flow": "Price Flow",
+    "Principal": "Principal",
+    "Principal Amount": "Principal Amount",
+    "Principal Deposit": "Principal Deposit",
+    "Print": "Print",
+    "Print failed:": "Print failed:",
+    "Print generation failed:": "Print generation failed:",
+    "Privacy Focused": "Privacy Focused",
+    "Progress": "Progress",
+    "Projection": "Projection",
+    "Protein": "Protein",
+    "Quantity": "Quantity",
+    "Quantity Discount": "Quantity Discount",
+    "Quantity-Based Discount Slabs": "Quantity-Based Discount Slabs",
+    "Quarterly": "Quarterly",
+    "Quarterly Compounding": "Quarterly Compounding",
+    "Quick Tip": "Quick Tip",
+    "Quickly calculate percentages, increases, decreases and more.": "Quickly calculate percentages, increases, decreases and more.",
+    "RD Calculation Result": "RD Calculation Result",
+    "RD Calculator": "RD Calculator",
+    "RD returns depend on the interest rate": "RD returns depend on the interest rate",
+    "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.",
+    "Range": "Range",
+    "Rate": "Rate",
+    "Recommended daily nutrition": "Recommended daily nutrition",
+    "Recurring Deposit & Maturity Projection": "Recurring Deposit & Maturity Projection",
+    "Regular veterinary care,": "Regular veterinary care,",
+    "Remaining Period": "Remaining Period",
+    "Reminder": "Reminder",
+    "Reminder Set": "Reminder Set",
+    "Reminder Time": "Reminder Time",
+    "Remove GST": "Remove GST",
+    "Repayment": "Repayment",
+    "Repayment Flow": "Repayment Flow",
+    "Repayment Summary": "Repayment Summary",
+    "Reset": "Reset",
+    "Result": "Result",
+    "Result card not found.": "Result card not found.",
+    "Result copied successfully.": "Result copied successfully.",
+    "Result element not found.": "Result element not found.",
+    "Result image": "Result image",
+    "Retirement": "Retirement",
+    "Retirement Age": "Retirement Age",
+    "Retirement Calculator": "Retirement Calculator",
+    "Retirement Completed": "Retirement Completed",
+    "Retirement Date": "Retirement Date",
+    "Retirement Day": "Retirement Day",
+    "Retirement Day Message": "Retirement Day Message",
+    "Retirement Day Reminder": "Retirement Day Reminder",
+    "Retirement Planning": "Retirement Planning",
+    "Retirement Result": "Retirement Result",
+    "Retirement age must be between 1 and 100 years.": "Retirement age must be between 1 and 100 years.",
+    "Retirement notification error:": "Retirement notification error:",
+    "Retirement reminder check failed:": "Retirement reminder check failed:",
+    "Retirement result copied successfully.": "Retirement result copied successfully.",
+    "Returns": "Returns",
+    "SGST": "SGST",
+    "SIP Amount": "SIP Amount",
+    "SIP Calculation Result": "SIP Calculation Result",
+    "SIP Calculator": "SIP Calculator",
+    "SIP Frequency": "SIP Frequency",
+    "SIP Investment Amount": "SIP Investment Amount",
+    "SIP returns are market-linked and the": "SIP returns are market-linked and the",
+    "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.": "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.",
+    "Saving": "Saving",
+    "Savings": "Savings",
+    "Second Input": "Second Input",
+    "Second Trimester": "Second Trimester",
+    "Second Value": "Second Value",
+    "Seconds": "Seconds",
+    "Sedentary": "Sedentary",
+    "Select": "Select",
+    "Select Event": "Select Event",
+    "Select a category, choose the": "Select a category, choose the",
+    "Select a category, enter a value": "Select a category, enter a value",
+    "Select a category, enter a value and choose the units you want to convert.": "Select a category, enter a value and choose the units you want to convert.",
+    "Select an event and date": "Select an event and date",
+    "Select an event and date to see countdown.": "Select an event and date to see countdown.",
+    "Select the GST rate, choose whether the": "Select the GST rate, choose whether the",
+    "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.": "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.",
+    "Select two dates to calculate the exact difference.": "Select two dates to calculate the exact difference.",
+    "Select your date of birth and click Calculate": "Select your date of birth and click Calculate",
+    "Select your date of birth to calculate": "Select your date of birth to calculate",
+    "Select your dog's birth date and the": "Select your dog's birth date and the",
+    "Senior Citizen": "Senior Citizen",
+    "Senior Citizen Rate": "Senior Citizen Rate",
+    "Sequential Discounts": "Sequential Discounts",
+    "Severe Underweight": "Severe Underweight",
+    "Share": "Share",
+    "Share PDF": "Share PDF",
+    "Share PDF error:": "Share PDF error:",
+    "Share Result": "Share Result",
+    "Share cancelled:": "Share cancelled:",
+    "Share failed:": "Share failed:",
+    "Sharing is not supported here, so the PDF was downloaded instead.": "Sharing is not supported here, so the PDF was downloaded instead.",
+    "Sharing is not supported here. Result copied instead.": "Sharing is not supported here. Result copied instead.",
+    "Simple": "Simple",
+    "Single Discount": "Single Discount",
+    "Slab 1": "Slab 1",
+    "Slab 2": "Slab 2",
+    "Slab 3": "Slab 3",
+    "Sleep": "Sleep",
+    "Sleep 7-8 hours daily": "Sleep 7-8 hours daily",
+    "Sleep:": "Sleep:",
+    "Small healthy changes can improve your wellness.": "Small healthy changes can improve your wellness.",
+    "Smart Health Tips": "Smart Health Tips",
+    "Smart tools for your everyday date calculations.": "Smart tools for your everyday date calculations.",
+    "Specific Date": "Specific Date",
+    "Start Calculating": "Start Calculating",
+    "Stay physically active": "Stay physically active",
+    "Step-Up": "Step-Up",
+    "Steps": "Steps",
+    "Steps:": "Steps:",
+    "Still have a question?": "Still have a question?",
+    "Swap": "Swap",
+    "Swap units": "Swap units",
+    "Tax": "Tax",
+    "Tax Type": "Tax Type",
+    "Tenure": "Tenure",
+    "The current date will be used automatically.": "The current date will be used automatically.",
+    "The estimated due date has been reached or passed.": "The estimated due date has been reached or passed.",
+    "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.": "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.",
+    "The maturity amount shown here is an estimate.": "The maturity amount shown here is an estimate.",
+    "The selected LMP date is in the future.": "The selected LMP date is in the future.",
+    "These values cannot be used for percentage difference.": "These values cannot be used for percentage difference.",
+    "Third Trimester": "Third Trimester",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.",
+    "This calculator provides an estimated pregnancy": "This calculator provides an estimated pregnancy",
+    "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.",
+    "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.",
+    "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.": "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.",
+    "This result is calculated using the selected percentage method and the values entered above.": "This result is calculated using the selected percentage method and the values entered above.",
+    "This wellness report is generated based on the": "This wellness report is generated based on the",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.",
+    "Till": "Till",
+    "Time Remaining": "Time Remaining",
+    "Tips": "Tips",
+    "To": "To",
+    "To Date": "To Date",
+    "To Day": "To Day",
+    "To Unit": "To Unit",
+    "Today's Challenge": "Today's Challenge",
+    "Total": "Total",
+    "Total Amount": "Total Amount",
+    "Total Days": "Total Days",
+    "Total Deposited": "Total Deposited",
+    "Total Hours": "Total Hours",
+    "Total Interest": "Total Interest",
+    "Total Invested": "Total Invested",
+    "Total Minutes": "Total Minutes",
+    "Total Months": "Total Months",
+    "Total Original": "Total Original",
+    "Total Payment": "Total Payment",
+    "Total Repayment": "Total Repayment",
+    "Total Saving": "Total Saving",
+    "Total Seconds": "Total Seconds",
+    "Total Time": "Total Time",
+    "Total Weeks": "Total Weeks",
+    "Total Years": "Total Years",
+    "Total value cannot be zero.": "Total value cannot be zero.",
+    "Trip / Vacation": "Trip / Vacation",
+    "Unable to calculate pregnancy details.": "Unable to calculate pregnancy details.",
+    "Unable to calculate retirement date.": "Unable to calculate retirement date.",
+    "Unable to convert the selected units.": "Unable to convert the selected units.",
+    "Unable to copy result image. Please try again.": "Unable to copy result image. Please try again.",
+    "Unable to copy the result image.": "Unable to copy the result image.",
+    "Unable to copy the result.": "Unable to copy the result.",
+    "Unable to create PDF.": "Unable to create PDF.",
+    "Unable to create image.": "Unable to create image.",
+    "Unable to download PDF.": "Unable to download PDF.",
+    "Unable to generate PDF.": "Unable to generate PDF.",
+    "Unable to open print preview.": "Unable to open print preview.",
+    "Unable to print the result.": "Unable to print the result.",
+    "Unable to share PDF on this device.": "Unable to share PDF on this device.",
+    "Unable to share PDF.": "Unable to share PDF.",
+    "Unable to share the PDF.": "Unable to share the PDF.",
+    "Unable to share the pregnancy result.": "Unable to share the pregnancy result.",
+    "Unable to share the result PDF.": "Unable to share the result PDF.",
+    "Underweight": "Underweight",
+    "Unit": "Unit",
+    "Unit Conversion Result": "Unit Conversion Result",
+    "Unit Converter": "Unit Converter",
+    "Until estimated due date": "Until estimated due date",
+    "Upcoming Event": "Upcoming Event",
+    "Use different discount rates according to quantity purchased.": "Use different discount rates according to quantity purchased.",
+    "Utility": "Utility",
+    "Utility • Unit Converter": "Utility • Unit Converter",
+    "Value": "Value",
+    "Vegan": "Vegan",
+    "Vegetarian": "Vegetarian",
+    "Verified User": "Verified User",
+    "Verse": "Verse",
+    "Very Active": "Very Active",
+    "Very hard training /": "Very hard training /",
+    "Water": "Water",
+    "Water:": "Water:",
+    "Weekly": "Weekly",
+    "Weeks": "Weeks",
+    "Weight": "Weight",
+    "Weight (kg)": "Weight (kg)",
+    "Wellness": "Wellness",
+    "Wellness Score": "Wellness Score",
+    "What Percentage?": "What Percentage?",
+    "What Users Say": "What Users Say",
+    "Why Choose AgeVerseGlobal?": "Why Choose AgeVerseGlobal?",
+    "Year-Wise Projection": "Year-Wise Projection",
+    "Years": "Years",
+    "Young Dog": "Young Dog",
+    "Your Age": "Your Age",
+    "Your Age Result": "Your Age Result",
+    "Your BMI is in a healthy range. Keep maintaining your lifestyle.": "Your BMI is in a healthy range. Keep maintaining your lifestyle.",
+    "Your Dog's Exact Age": "Your Dog's Exact Age",
+    "Your EMI Result Will Appear Here": "Your EMI Result Will Appear Here",
+    "Your Goal": "Your Goal",
+    "Your Overall Wellness": "Your Overall Wellness",
+    "Your Result Will Appear Here": "Your Result Will Appear Here",
+    "Your complete loan repayment summary": "Your complete loan repayment summary",
+    "Your complete result.": "Your complete result.",
+    "Your personalized wellness report": "Your personalized wellness report",
+    "Your pregnancy timeline summary": "Your pregnancy timeline summary",
+    "Your result will appear here.": "Your result will appear here.",
+    "Your retirement planning summary": "Your retirement planning summary",
+    "accurately": "accurately",
+    "advice, diagnosis, or treatment.": "advice, diagnosis, or treatment.",
+    "amount is GST-inclusive or exclusive,": "amount is GST-inclusive or exclusive,",
+    "and": "and",
+    "and then calculate your complete GST": "and then calculate your complete GST",
+    "approximation.": "approximation.",
+    "assessment and clinical decisions.": "assessment and clinical decisions.",
+    "based on the expected annual return entered.": "based on the expected annual return entered.",
+    "breakdown.": "breakdown.",
+    "calculated maturity value is an estimate": "calculated maturity value is an estimate",
+    "calculation type that matches what you": "calculation type that matches what you",
+    "complete": "complete",
+    "daily": "daily",
+    "date on which you want to calculate": "date on which you want to calculate",
+    "days before": "days before",
+    "days/week": "days/week",
+    "event": "event",
+    "expected interest rate and investment": "expected interest rate and investment",
+    "expected return and investment period,": "expected return and investment period,",
+    "for educational and general wellness purposes only.": "for educational and general wellness purposes only.",
+    "for general informational purposes only and should": "for general informational purposes only and should",
+    "healthcare provider should be consulted for accurate": "healthcare provider should be consulted for accurate",
+    "here": "here",
+    "information provided by the user and is intended": "information provided by the user and is intended",
+    "interest rate and repayment": "interest rate and repayment",
+    "is calculated on the price remaining after": "is calculated on the price remaining after",
+    "is what percentage of": "is what percentage of",
+    "kcal/day": "kcal/day",
+    "may differ according to the bank's applicable rules.": "may differ according to the bank's applicable rules.",
+    "not be used as a substitute for medical diagnosis,": "not be used as a substitute for medical diagnosis,",
+    "nutrition and exercise are important for": "nutrition and exercise are important for",
+    "offered by the bank or financial institution.": "offered by the bank or financial institution.",
+    "period and compounding frequency, then tap": "period and compounding frequency, then tap",
+    "period, then tap": "period, then tap",
+    "physical work": "physical work",
+    "professional. Pregnancy dates can vary, and your": "professional. Pregnancy dates can vary, and your",
+    "rate and tap": "rate and tap",
+    "see": "see",
+    "starts": "starts",
+    "summary.": "summary.",
+    "tenure and compounding frequency.": "tenure and compounding frequency.",
+    "tenure to calculate your monthly": "tenure to calculate your monthly",
+    "the": "the",
+    "the age, then tap": "the age, then tap",
+    "the previous discount.": "the previous discount.",
+    "timeline based on the date entered. It is intended": "timeline based on the date entered. It is intended",
+    "to see the complete GST calculation.": "to see the complete GST calculation.",
+    "to see the complete percentage calculation.": "to see the complete percentage calculation.",
+    "to see the complete result.": "to see the complete result.",
+    "to see your complete FD projection.": "to see your complete FD projection.",
+    "to see your complete RD projection.": "to see your complete RD projection.",
+    "to see your complete SIP projection.": "to see your complete SIP projection.",
+    "to see your complete result.": "to see your complete result.",
+    "today": "today",
+    "treatment, or advice from a qualified healthcare": "treatment, or advice from a qualified healthcare",
+    "type and tap": "type and tap",
+    "want to find.": "want to find.",
+    "when": "when",
+    "your": "your",
+    "your complete": "your complete",
+    "your dog's health.": "your dog's health.",
+    "ℹ️ Important": "ℹ️ Important",
+    "↻ Reset": "↻ Reset",
+    "⏰ Event Time": "⏰ Event Time",
+    "⏰ Remind me before retirement": "⏰ Remind me before retirement",
+    "⏱ Live Countdown": "⏱ Live Countdown",
+    "⏳ Estimated Time Remaining": "⏳ Estimated Time Remaining",
+    "⏳ Estimated time remaining": "⏳ Estimated time remaining",
+    "⏳ Exact Difference": "⏳ Exact Difference",
+    "⏳ Remaining Period": "⏳ Remaining Period",
+    "⏳ Time Remaining": "⏳ Time Remaining",
+    "⏳ Upcoming Event": "⏳ Upcoming Event",
+    "♡ Calories": "♡ Calories",
+    "⚖️ BMI": "⚖️ BMI",
+    "⚖️ Maintain": "⚖️ Maintain",
+    "⚖️ Weight (kg)": "⚖️ Weight (kg)",
+    "⚙️ Custom": "⚙️ Custom",
+    "⚙️ Set Custom Reminder": "⚙️ Set Custom Reminder",
+    "⚡ Fast": "⚡ Fast",
+    "⚧ Gender": "⚧ Gender",
+    "⚧ Other": "⚧ Other",
+    "✅ Event Completed": "✅ Event Completed",
+    "✍️ Custom Event Name": "✍️ Custom Event Name",
+    "✓ Accurate": "✓ Accurate",
+    "✓ Amount after discount": "✓ Amount after discount",
+    "✓ Amount payable every month": "✓ Amount payable every month",
+    "✓ Calculated between the selected dates": "✓ Calculated between the selected dates",
+    "✓ Calculated result": "✓ Calculated result",
+    "✓ Estimated future value of your RD": "✓ Estimated future value of your RD",
+    "✓ Estimated future value of your SIP": "✓ Estimated future value of your SIP",
+    "✓ Estimated value at the end of the selected tenure": "✓ Estimated value at the end of the selected tenure",
+    "✓ Free Forever": "✓ Free Forever",
+    "✓ Instant Calculation": "✓ Instant Calculation",
+    "✓ Multiple Date Support": "✓ Multiple Date Support",
+    "✓ Privacy Focused": "✓ Privacy Focused",
+    "✓ Result copied successfully.": "✓ Result copied successfully.",
+    "✓ Result image copied successfully.": "✓ Result image copied successfully.",
+    "✓ Simple": "✓ Simple",
+    "✦ HELP & INFORMATION": "✦ HELP & INFORMATION",
+    "✦ USER EXPERIENCES": "✦ USER EXPERIENCES",
+    "✨ Calculate Wellness": "✨ Calculate Wellness",
+    "⬆️ Gain Weight": "⬆️ Gain Weight",
+    "⬇️ Lose Weight": "⬇️ Lose Weight",
+    "⭐ Health Score": "⭐ Health Score",
+    "🌱 Plant Protein": "🌱 Plant Protein",
+    "🌱 Vegan": "🌱 Vegan",
+    "🌸 Current Trimester": "🌸 Current Trimester",
+    "🌼 Pregnancy Not Started": "🌼 Pregnancy Not Started",
+    "🌿 Daily Lifestyle Goals": "🌿 Daily Lifestyle Goals",
+    "🍎 Fruits": "🍎 Fruits",
+    "🍗 Chicken": "🍗 Chicken",
+    "🍗 Non-Vegetarian": "🍗 Non-Vegetarian",
+    "🍚 Balanced Meals": "🍚 Balanced Meals",
+    "🍲 Carbs": "🍲 Carbs",
+    "🍽️ Personalized Diet Plan": "🍽️ Personalized Diet Plan",
+    "🎂 Age": "🎂 Age",
+    "🎂 Age Calculator": "🎂 Age Calculator",
+    "🎂 Date of Birth": "🎂 Date of Birth",
+    "🎂 Dog Age": "🎂 Dog Age",
+    "🎂 Exact Age": "🎂 Exact Age",
+    "🎂 Next Birthday": "🎂 Next Birthday",
+    "🎂 Smart & Accurate Age Calculator": "🎂 Smart & Accurate Age Calculator",
+    "🎂 Your Age": "🎂 Your Age",
+    "🎉 Estimated Due Date Reached": "🎉 Estimated Due Date Reached",
+    "🎉 Event Countdown": "🎉 Event Countdown",
+    "🎉 Next Birthday": "🎉 Next Birthday",
+    "🎉 Retirement Day": "🎉 Retirement Day",
+    "🎯 Ideal Weight": "🎯 Ideal Weight",
+    "🎯 Select Event": "🎯 Select Event",
+    "🎯 Your Goal": "🎯 Your Goal",
+    "🏃 Activity Level": "🏃 Activity Level",
+    "🏃 Body Age": "🏃 Body Age",
+    "🏃 Moderately Active": "🏃 Moderately Active",
+    "🏆 Today's Challenge": "🏆 Today's Challenge",
+    "🏋️ Extra Active": "🏋️ Extra Active",
+    "🏢 Retirement Age": "🏢 Retirement Age",
+    "🏦 FD Growth": "🏦 FD Growth",
+    "🏦 Interest Compounding": "🏦 Interest Compounding",
+    "🐟 Fish": "🐟 Fish",
+    "🐾 About Dog Age": "🐾 About Dog Age",
+    "🐾 Category": "🐾 Category",
+    "🐾 Human Equivalent": "🐾 Human Equivalent",
+    "👤 Personal Details": "👤 Personal Details",
+    "👨 Male": "👨 Male",
+    "👩 Female": "👩 Female",
+    "👵 Senior Citizen Rate": "👵 Senior Citizen Rate",
+    "👶 Pregnancy Age": "👶 Pregnancy Age",
+    "💡 How it works": "💡 How it works",
+    "💡 Quick Tip": "💡 Quick Tip",
+    "💡 Smart Health Tips": "💡 Smart Health Tips",
+    "💧 Maintain hydration": "💧 Maintain hydration",
+    "💧 Water": "💧 Water",
+    "💪 Include strength exercises": "💪 Include strength exercises",
+    "💪 Very Active": "💪 Very Active",
+    "💰 GST Breakdown": "💰 GST Breakdown",
+    "💰 Growth": "💰 Growth",
+    "💰 Maturity": "💰 Maturity",
+    "💰 Repayment Summary": "💰 Repayment Summary",
+    "💰 Savings": "💰 Savings",
+    "💰 Total Saving": "💰 Total Saving",
+    "💳 Loan Input Details": "💳 Loan Input Details",
+    "💵 Principal Deposit": "💵 Principal Deposit",
+    "💵 Total Deposited": "💵 Total Deposited",
+    "💵 Total Invested": "💵 Total Invested",
+    "📄 Download PDF": "📄 Download PDF",
+    "📅 1 Day Before": "📅 1 Day Before",
+    "📅 Calculate Pregnancy On": "📅 Calculate Pregnancy On",
+    "📅 Estimated Due Date": "📅 Estimated Due Date",
+    "📅 Event Date": "📅 Event Date",
+    "📅 From": "📅 From",
+    "📅 From Date": "📅 From Date",
+    "📅 Retirement Date": "📅 Retirement Date",
+    "📅 Select your date of birth and click Calculate": "📅 Select your date of birth and click Calculate",
+    "📅 Specific Date": "📅 Specific Date",
+    "📅 Till": "📅 Till",
+    "📅 To Date": "📅 To Date",
+    "📅 Total Days": "📅 Total Days",
+    "📅 Year-Wise Projection": "📅 Year-Wise Projection",
+    "📆 Weekday": "📆 Weekday",
+    "📈 Estimated Interest": "📈 Estimated Interest",
+    "📈 Estimated Returns": "📈 Estimated Returns",
+    "📉 Discount": "📉 Discount",
+    "📊 Age Category": "📊 Age Category",
+    "📊 Age Summary": "📊 Age Summary",
+    "📊 Detailed": "📊 Detailed",
+    "📊 Growth": "📊 Growth",
+    "📊 Health Summary": "📊 Health Summary",
+    "📊 Interest": "📊 Interest",
+    "📊 Interest Growth": "📊 Interest Growth",
+    "📊 Investment Flow": "📊 Investment Flow",
+    "📊 Payment Composition": "📊 Payment Composition",
+    "📊 Pregnancy Progress": "📊 Pregnancy Progress",
+    "📊 Price Flow": "📊 Price Flow",
+    "📊 Projection": "📊 Projection",
+    "📊 Total Time": "📊 Total Time",
+    "📋 Copy": "📋 Copy",
+    "📋 Copy Image": "📋 Copy Image",
+    "📋 Copy Result": "📋 Copy Result",
+    "📌 Input Summary": "📌 Input Summary",
+    "📏 Body Measurements": "📏 Body Measurements",
+    "📏 Convert": "📏 Convert",
+    "📏 Height (cm)": "📏 Height (cm)",
+    "📐 Calculation": "📐 Calculation",
+    "📐 EMI Formula": "📐 EMI Formula",
+    "📐 Formula": "📐 Formula",
+    "📤 Share": "📤 Share",
+    "📤 Share PDF": "📤 Share PDF",
+    "📤 Share Result": "📤 Share Result",
+    "📥 Download": "📥 Download",
+    "📥 Download PDF": "📥 Download PDF",
+    "🔄 New": "🔄 New",
+    "🔄 Reset": "🔄 Reset",
+    "🔒 Simple": "🔒 Simple",
+    "🔕 No Reminder": "🔕 No Reminder",
+    "🔢 Sequential Discounts": "🔢 Sequential Discounts",
+    "🔢 Value": "🔢 Value",
+    "🔥 BMR": "🔥 BMR",
+    "🖨️ Print": "🖨️ Print",
+    "😴 Sleep 7-8 hours": "😴 Sleep 7-8 hours",
+    "🚀 Annual SIP Step-Up": "🚀 Annual SIP Step-Up",
+    "🚶 Lightly Active": "🚶 Lightly Active",
+    "🚶 Walk 8000-10000 steps": "🚶 Walk 8000-10000 steps",
+    "🛒 Quantity-Based Discount Slabs": "🛒 Quantity-Based Discount Slabs",
+    "🟢 Today": "🟢 Today",
+    "🤰 Calculate Pregnancy": "🤰 Calculate Pregnancy",
+    "🥑 Fat": "🥑 Fat",
+    "🥗 Choose balanced meals": "🥗 Choose balanced meals",
+    "🥗 Dal & Vegetables": "🥗 Dal & Vegetables",
+    "🥗 Diet Preference": "🥗 Diet Preference",
+    "🥗 Nutrition Balance": "🥗 Nutrition Balance",
+    "🥗 Vegetables": "🥗 Vegetables",
+    "🥗 Vegetarian": "🥗 Vegetarian",
+    "🥚 Eggs": "🥚 Eggs",
+    "🥛 Add healthy calorie sources": "🥛 Add healthy calorie sources",
+    "🥛 Milk / Curd": "🥛 Milk / Curd",
+    "🥜 Nuts": "🥜 Nuts",
+    "🥜 Nuts & Seeds": "🥜 Nuts & Seeds",
+    "🥩 Increase protein intake": "🥩 Increase protein intake",
+    "🥩 Protein": "🥩 Protein",
+    "🧑 Approximate Human Age": "🧑 Approximate Human Age",
+    "🧮 Calculate": "🧮 Calculate",
+    "🧮 Calculate EMI": "🧮 Calculate EMI",
+    "🧮 Calculation": "🧮 Calculation",
+    "🧮 Calculation Breakdown": "🧮 Calculation Breakdown",
+    "🧮 Conversion Category": "🧮 Conversion Category",
+    "🧮 Repayment Flow": "🧮 Repayment Flow",
+    "🧾 Input Details": "🧾 Input Details",
+    "🩸 First Day of Last Menstrual Period": "🩸 First Day of Last Menstrual Period",
+    "🩸 Last Menstrual Period": "🩸 Last Menstrual Period",
+    "🪑 Sedentary": "🪑 Sedentary",
+    "🪪 Your Name": "🪪 Your Name"
+  },
+  "Health_profile": {
+    "Enter your name": "Enter your name",
+    "Hello": "Hello",
+    "g": "g",
+    "L": "L",
+    "kg": "kg",
+    "day": "day",
+    "✨ Generated by": "✨ Generated by AgeVerseGlobal"
+  },
+  "pregnancy": {
+    "timeline_subtitle": "Estimate your pregnancy timeline and expected due date.",
+    "calculation_note_full": "The calculator uses the first day of your last menstrual period (LMP) and a standard 40-week pregnancy estimate to calculate an estimated due date.",
+    "empty_title": "Pregnancy Calculator",
+    "empty_text": "Enter the first day of your last menstrual period to estimate your pregnancy timeline and due date.",
+    "empty_hint": "Your result will appear here.",
+    "lmp_help": "Enter the first day of your last menstrual period."
+  },
+  "unit_converter": {
+    "subtitle": "Convert length, weight, temperature, volume and other everyday units quickly.",
+    "result_note": "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units require decimal conversion.",
+    "intro": "Select a category, enter a value and choose the units you want to convert.",
+    "instructions": "Select a category, choose the original unit and the unit you want to convert to, then enter the value. The calculator calculates the converted value using standard conversion factors."
+  },
+  "gst": {
+    "add_description": "Calculate GST and add it to the original amount.",
+    "remove_description": "Find the original amount and GST from a GST-inclusive amount."
+  },
+  "discount": {
+    "single_description": "Calculate the final price after applying one discount.",
+    "multiple_description": "Apply two or three discounts one after another."
+  },
+  "fd": {
+    "calculation_projection": "Compound-interest projection using {{frequency}} compounding at an effective annual rate of {{rate}}% for {{years}} years."
+  },
+  "dog_age": {
+    "info_description": "The human-age result is an approximate estimate. Dogs age differently depending on breed, size, genetics and health.",
+    "calculation_text": "Your dog is approximately {{years}} years, {{months}} months and {{days}} days old, equivalent to approximately {{humanAge}} human years.",
+    "days_remaining_suffix": "days remaining until the next birthday.",
+    "Puppy": "Puppy",
+    "Young Dog": "Young Dog",
+    "Adult Dog": "Adult Dog",
+    "Senior Dog": "Senior Dog"
+  },
+  "Approximately": "Approximately",
+  "Monthly": "Monthly",
+  "Quarterly": "Quarterly",
+  "Half-Yearly": "Half-Yearly",
+  "Annual": "Annual",
+  "calculation_notes": {
+    "fd": "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.",
+    "rd": "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.",
+    "dog_age": "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.",
+    "emi": "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges."
+  },
+  "bmi_gauge": {
+    "underweight_message": "Focus on balanced nutrition and healthy weight gain.",
+    "healthy_message": "Your BMI is in a healthy range. Keep maintaining your lifestyle.",
+    "overweight_message": "Focus on activity and balanced calorie intake.",
+    "obesity_message": "Regular activity and healthy eating habits are recommended."
+  },
+  "about_page": {
+    "eyebrow": "ABOUT AgeVerseGlobal",
+    "title": "About AgeVerseGlobal",
+    "intro": "AgeVerseGlobal is a thoughtfully designed platform for simple, reliable and easy-to-understand everyday calculations.",
+    "mission_title": "Our Mission",
+    "mission_text": "Our mission is to make everyday calculations clear, accessible and convenient through carefully designed tools that are easy to use on any device.",
+    "tools_eyebrow": "OUR TOOLS",
+    "tools_title": "What AgeVerseGlobal Offers",
+    "tools_text": "AgeVerseGlobal brings together practical calculators for different everyday needs.",
+    "category_age": "Calculate age, date differences, events and retirement timelines with clear results.",
+    "category_health": "Explore useful health-related calculations such as BMI, BMR, calories, nutrition and water needs.",
+    "category_family": "Useful family-focused tools, including pregnancy timeline calculations.",
+    "category_utility": "Everyday utility and financial calculators for conversions, percentages, GST, EMI, discounts and investments.",
+    "category_pet": "A simple educational tool for estimating your dog's age and human-age equivalent.",
+    "why_eyebrow": "WHY AgeVerseGlobal",
+    "why_title": "Designed for Everyday Use",
+    "why_text": "AgeVerseGlobal focuses on clarity, convenience and a consistent experience across devices.",
+    "accurate_title": "Thoughtful Calculations",
+    "accurate_text": "Our calculators use clearly defined calculation methods and present results in an easy-to-understand format.",
+    "simple_title": "Simple Experience",
+    "simple_text": "Clean interfaces help you enter information quickly and understand your results without unnecessary complexity.",
+    "privacy_title": "Privacy Focused",
+    "privacy_text": "AgeVerseGlobal is designed with privacy in mind and aims to minimize unnecessary collection of information.",
+    "languages_title": "Multilingual Experience",
+    "languages_text": "AgeVerseGlobal supports multiple languages so users can access its tools in a language they are comfortable with.",
+    "cta_title": "Ready to calculate?",
+    "cta_text": "Explore the AgeVerseGlobal calculators and find the tool you need.",
+    "cta_button": "Explore Calculators"
+  },
+  "contact_page": {
+    "eyebrow": "CONTACT AgeVerseGlobal",
+    "title": "Contact AgeVerseGlobal",
+    "intro": "We value your feedback, suggestions and questions. Your input helps us improve the AgeVerseGlobal experience.",
+    "feedback_title": "Feedback & Suggestions",
+    "feedback_text": "Tell us what you like, what could be improved, or which calculator you would like to see next.",
+    "support_title": "Calculator Support",
+    "support_text": "If you notice a calculation, display or usability issue, please share the relevant details so it can be reviewed.",
+    "contact_title": "General Enquiries",
+    "contact_text": "For general questions about AgeVerseGlobal, its calculators or the website, you can contact the AgeVerseGlobal team.",
+    "email_title": "Get in Touch",
+    "email_text": "Please use the official AgeVerseGlobal contact email for questions, feedback or support requests.",
+    "email_placeholder": "contact@ageverse.global",
+    "cta_title": "Thank you for helping AgeVerseGlobal improve.",
+    "cta_text": "Your feedback helps us create a better and more useful calculation experience.",
+    "cta_button": "Back to AgeVerseGlobal",
+    "form_title": "Contact Us",
+    "form_intro": "Send us your question, suggestion or support request. We will review your message and reply when needed.",
+    "open_form": "Open Contact Form",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending…",
+    "success": "Your message has been sent successfully.",
+    "error": "Unable to send your message right now. Please try again.",
+    "close": "Close",
+    "page_label": "Page",
+    "name_required": "Please enter your name.",
+    "email_required": "Please enter your email address.",
+    "email_invalid": "Please enter a valid email address.",
+    "subject_required": "Please enter a subject.",
+    "message_required": "Please enter your message.",
+    "privacy_notice": "We collect your name and email only so we can respond to your enquiry. We do not sell or share this information for advertising.",
+    "subject_general_enquiry": "General Enquiry",
+    "subject_calculator_issue": "Calculator Issue",
+    "subject_calculation_result_issue": "Calculation / Result Issue",
+    "subject_translation_language_issue": "Translation / Language Issue",
+    "subject_website_problem": "Website Problem",
+    "subject_suggestion": "Suggestion",
+    "subject_business_partnership": "Business / Partnership",
+    "subject_other": "Other"
+  },
+  "privacy_page": {
+    "eyebrow": "PRIVACY",
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy explains how AgeVerseGlobal approaches information, privacy and the use of its website and calculators.",
+    "information_title": "Information You Enter",
+    "information_text": "Information entered into calculators is used to provide the requested calculation and is not intended to be unnecessarily stored by the calculator itself.",
+    "data_storage_title": "Data Storage",
+    "data_storage_text": "AgeVerseGlobal aims to minimize unnecessary storage of information. Some technical or service-related information may be processed by hosting, security, analytics or other website infrastructure providers.",
+    "analytics_title": "Analytics",
+    "analytics_text": "AgeVerseGlobal may use analytics tools to understand website usage, improve performance and identify areas that need improvement.",
+    "cookies_title": "Cookies and Similar Technologies",
+    "cookies_text": "The website may use cookies or similar technologies where necessary for functionality, preferences, analytics or other legitimate website purposes.",
+    "third_party_title": "Third-Party Services",
+    "third_party_text": "AgeVerseGlobal may rely on third-party services for hosting, analytics, security and other website functionality. Those services may process information according to their own policies.",
+    "security_title": "Security",
+    "security_text": "AgeVerseGlobal takes reasonable measures to support the security and reliability of the website, although no internet service can guarantee absolute security.",
+    "changes_title": "Changes to This Policy",
+    "changes_text": "This Privacy Policy may be updated from time to time to reflect changes to the website, services or applicable requirements.",
+    "contact_title": "Questions About Privacy",
+    "contact_text": "If you have questions about this Privacy Policy or AgeVerseGlobal's privacy practices, please contact the AgeVerseGlobal team.",
+    "advertising_title": "Advertising and Google AdSense",
+    "advertising_text": "AgeVerseGlobal may use Google AdSense and other third-party advertising services to display advertisements. These services may use cookies and similar technologies to provide, measure, and personalize advertisements based on users' interests and interactions. Google may use advertising cookies to serve ads based on a user's visits to this and other websites. Users may manage or opt out of personalized advertising through Google Ads Settings. Third-party advertising providers may have their own privacy policies and practices."
+  },
+  "terms_page": {
+    "eyebrow": "TERMS & CONDITIONS",
+    "title": "Terms & Conditions",
+    "intro": "These Terms & Conditions describe the general terms for using the AgeVerseGlobal website and its calculators.",
+    "calculator_title": "Use of Calculators",
+    "calculator_text": "AgeVerseGlobal calculators are provided for general informational and educational purposes. You are responsible for reviewing the information you enter and the results you receive.",
+    "accuracy_title": "Results and Accuracy",
+    "accuracy_text": "AgeVerseGlobal aims to provide useful and reliable calculations, but results may vary because of assumptions, rounding, input quality or differences in real-world conditions.",
+    "health_title": "Health-Related Tools",
+    "health_text": "Health-related calculator results are informational only and are not a substitute for professional medical advice, diagnosis or treatment.",
+    "financial_title": "Financial Tools",
+    "financial_text": "Financial calculator results are estimates for general informational purposes and should not be treated as financial, investment, banking or tax advice.",
+    "pet_title": "Pet-Related Tools",
+    "pet_text": "Pet calculator results are approximate educational estimates and should not replace advice from a qualified veterinary professional.",
+    "availability_title": "Website Availability",
+    "availability_text": "AgeVerseGlobal may update, modify, suspend or discontinue website features or calculators when necessary.",
+    "responsibility_title": "User Responsibility",
+    "responsibility_text": "Users are responsible for using the website appropriately and for making decisions based on information from suitable professional or authoritative sources when required.",
+    "changes_title": "Changes to These Terms",
+    "changes_text": "These Terms & Conditions may be updated from time to time. Continued use of AgeVerseGlobal after an update indicates acceptance of the revised terms.",
+    "contact_title": "Contact",
+    "contact_text": "For questions about these Terms & Conditions, please contact the AgeVerseGlobal team."
+  },
+  "disclaimer_page": {
+    "eyebrow": "DISCLAIMER",
+    "title": "Disclaimer",
+    "intro": "The information and calculator results provided by AgeVerseGlobal are intended for general informational and educational purposes.",
+    "notice_title": "Important Notice",
+    "notice_text": "Calculator results should be treated as estimates. They may differ from results produced by official institutions, professionals, banks, healthcare providers or other authoritative sources.",
+    "accuracy_title": "Calculation Accuracy",
+    "accuracy_text": "AgeVerseGlobal uses defined calculation methods, but results can vary because of rounding, assumptions, input values and differences in real-world rules or conditions.",
+    "health_title": "Health Information",
+    "health_text": "Health-related calculations are not medical advice and should not be used to diagnose, treat or prevent a medical condition. Consult an appropriately qualified healthcare professional when needed.",
+    "financial_title": "Financial Information",
+    "financial_text": "Financial calculations are estimates and are not financial, investment, banking or tax advice. Actual results may vary according to applicable rates, policies, fees, taxes and other conditions.",
+    "pet_title": "Pet Information",
+    "pet_text": "Dog-age and other pet-related calculations are approximate educational estimates and should not replace professional veterinary guidance.",
+    "external_title": "External Services and Links",
+    "external_text": "AgeVerseGlobal may use external services or link to third-party resources. AgeVerseGlobal does not control the content, policies or availability of external services.",
+    "responsibility_title": "User Responsibility",
+    "responsibility_text": "Users should verify important information with appropriate official, professional or authoritative sources before making decisions.",
+    "contact_title": "Questions",
+    "contact_text": "If you have questions about this Disclaimer, please contact the AgeVerseGlobal team."
+  },
+  "not_found_page": {
+    "eyebrow": "404",
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "home_button": "Go to Home"
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.",
+  "Event reminder service is not configured.": "Event reminder service is not configured.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.",
+  "seo_content": {
+    "event_calculator": {
+      "name": "EventCalculatorSEOContent",
+      "eyebrow": "EVENT DATE GUIDE",
+      "title": "Event Calculator: Countdown for your special moments",
+      "intro": "Plan important dates and check upcoming occasions with the AgeVerseGlobal Event Calculator.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Event Calculator?",
+          [
+            "AgeVerseGlobal Event Calculator helps you work with dates for occasions, milestones, celebrations and other planned activities. It can help you understand when an event falls and how much time remains."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Event Calculator",
+          [
+            "Choose the event, enter the date requested by the calculator, enter the day, month and year, calculate the timing, then review the result to plan ahead."
+          ]
+        ],
+        [
+          "How Does AgeVerseGlobal Event Calculator Work?",
+          [
+            "Event timing is based on calendar dates. The time remaining depends on the current date and the event date. For recurring occasions, confirm whether the tool uses the next occurrence or the exact date selected."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Event Calculator?",
+          [
+            "Use AgeVerseGlobal Event Calculator for birthdays, anniversaries, holidays, personal milestones, trips and scheduled activities."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Birthday",
+          "Personal celebration",
+          "Plan preparations"
+        ],
+        [
+          "Anniversary",
+          "Personal or work milestone",
+          "Track the upcoming date"
+        ],
+        [
+          "Trip or appointment",
+          "Scheduled activity",
+          "Review time remaining"
+        ]
+      ],
+      "features": [
+        [
+          "Date-focused planning",
+          "Work with occasions and milestones."
+        ],
+        [
+          "Countdown awareness",
+          "Understand how near an upcoming event is."
+        ],
+        [
+          "Simple workflow",
+          "Choose event, enter the date and review the result."
+        ],
+        [
+          "Everyday usefulness",
+          "Apply it to personal and scheduled events."
+        ]
+      ],
+      "faqs": [
+        [
+          "Can I use it for birthdays?",
+          "Yes, it is useful for birthdays, anniversaries and other occasions."
+        ],
+        [
+          "Can I calculate a past event?",
+          "Where the calculator permits a past date, the result reflects the date selected."
+        ],
+        [
+          "Should I check the date carefully?",
+          "Yes. An incorrect day, month or year can change the result."
+        ],
+        [
+          "Does it replace reminders?",
+          "No. Use a calendar reminder if you need an alert."
+        ],
+        [
+          "Is it free?",
+          "Yes, the online AgeVerseGlobal tool is available without a calculator fee."
+        ]
+      ],
+      "related": [
+        [
+          "Date Difference",
+          "/date-difference"
+        ],
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Retirement Calculator",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "retirement": {
+      "name": "RetirementCalculatorSEOContent",
+      "eyebrow": "RETIREMENT PLANNING GUIDE",
+      "title": "Retirement Calculator: Calculate Your Retirement Date And Remaining Time",
+      "intro": "Estimate a retirement milestone using your date of birth, joining date and selected retirement age. Verify official service rules separately.",
+      "sections": [
+        [
+          "What Is a Retirement Calculator?",
+          [
+            "A retirement calculator estimates a retirement date from personal and employment-related dates and a target retirement age. It can help you understand the time remaining until the estimated date.",
+            "Actual retirement can depend on employer policy, service rules, jurisdiction and individual circumstances."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Retirement Calculator",
+          [
+            "Enter your date of birth and joining date, select the retirement age relevant to your planning or service rules, then calculate and review the estimated date."
+          ]
+        ],
+        [
+          "How Is a Retirement Date Estimated?",
+          [
+            "A basic estimate adds the selected retirement age to the date of birth. The joining date may be relevant to employment context, but official rules can specify a different convention.",
+            "Confirm the final date with your employer or relevant authority, especially if retirement is determined by month-end or service rules."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Retirement Calculator?",
+          [
+            "Use AgeVerseGlobal Retirement Calculator for preliminary career planning and to prepare questions for an HR or pension office. Do not treat an estimate as an official service determination."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Date of birth",
+          "1 July 1966",
+          "Illustrative input"
+        ],
+        [
+          "Selected retirement age",
+          "60 years",
+          "User-selected value"
+        ],
+        [
+          "Estimated milestone",
+          "1 July 2026",
+          "Official rules may differ"
+        ]
+      ],
+      "features": [
+        [
+          "Retirement-date estimate",
+          "Estimate a milestone from the selected age."
+        ],
+        [
+          "Employment context",
+          "Enter the joining date requested by the calculator."
+        ],
+        [
+          "Planning support",
+          "Use the estimate as a starting point."
+        ],
+        [
+          "Reminder options",
+          "Reminder options are not available as of now."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is the calculated date official?",
+          "No. Confirm the applicable date with your employer or authority."
+        ],
+        [
+          "Why is joining date requested?",
+          "It provides employment-related context for the calculator."
+        ],
+        [
+          "Can rules change the date?",
+          "Yes. Employer policy and applicable rules may specify a different convention."
+        ],
+        [
+          "Can I choose another retirement age?",
+          "Use the retirement-age option available in the calculator."
+        ],
+        [
+          "Is this financial advice?",
+          "No. It is a date-planning tool, not financial or legal advice."
+        ]
+      ],
+      "related": [
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Date Difference",
+          "/date-difference"
+        ],
+        [
+          "Event Calculator",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "sip": {
+      "name": "SipSEOContent",
+      "eyebrow": "SIP CALCULATION GUIDE",
+      "title": "SIP Calculator: Calculate Your SIP Investment, Estimated Returns And Maturity Value",
+      "intro": "Estimate the potential future value of regular investments using the monthly contribution, investment period and expected return you enter.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal SIP Calculator?",
+          [
+            "AgeVerseGlobal Systematic Investment Plan calculator estimates the potential future value of recurring investments. It illustrates how regular contributions and assumed returns may accumulate.",
+            "Mutual fund returns are market-linked and not guaranteed."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal SIP Calculator",
+          [
+            "Enter the monthly investment, choose the investment period, enter an assumed return for illustration, then calculate and review the estimated invested amount and potential value."
+          ]
+        ],
+        [
+          "How Is SIP Growth Estimated?",
+          [
+            "A typical SIP estimate applies a periodic return assumption to a series of regular contributions. The result depends on contribution amount, frequency, duration and assumed return.",
+            "Actual outcomes vary because markets fluctuate and costs or taxes may apply."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal SIP Calculator?",
+          [
+            "Use AgeVerseGlobal SIP Calculator to explore investment scenarios and set a savings target. Consider goals, risk tolerance and personal circumstances before investing."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Monthly contribution",
+          "₹1,000",
+          "Illustrative scenario"
+        ],
+        [
+          "Investment period",
+          "5 years",
+          "Illustrative scenario"
+        ],
+        [
+          "Expected return",
+          "Assumption only",
+          "Not guaranteed"
+        ]
+      ],
+      "features": [
+        [
+          "Regular contribution model",
+          "Estimate a series of recurring investments."
+        ],
+        [
+          "Scenario comparison",
+          "Try different amounts and periods."
+        ],
+        [
+          "Goal planning",
+          "Use projections to frame savings goals."
+        ],
+        [
+          "Risk reminder",
+          "Actual returns can differ significantly."
+        ]
+      ],
+      "faqs": [
+        [
+          "Are SIP returns guaranteed?",
+          "No. Mutual fund returns are market-linked and can be positive or negative."
+        ],
+        [
+          "What return should I enter?",
+          "Use an assumption for scenario analysis; it is not guaranteed."
+        ],
+        [
+          "Are taxes and fees included?",
+          "No, taxes and fees are not included. It can be calculated separately."
+        ],
+        [
+          "Can a longer period change the result?",
+          "Yes. More contributions and more time under the assumed return can change the estimate."
+        ],
+        [
+          "Is it investment advice?",
+          "No. It is an estimate tool, not personalised investment advice."
+        ]
+      ],
+      "related": [
+        [
+          "FD Calculator",
+          "/utility/fd-calculator"
+        ],
+        [
+          "RD Calculator",
+          "/utility/rd-calculator"
+        ],
+        [
+          "EMI Calculator",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "percentage": {
+      "name": "PercentageSEOContent",
+      "eyebrow": "PERCENTAGE CALCULATION GUIDE",
+      "title": "Percentage Calculator: Quickly calculate percentages, increases, decreases and more.",
+      "intro": "Solve common percentage problems with the AgeVerseGlobal Percentage Calculator using the calculation options available in the tool.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Percentage Calculator?",
+          [
+            "AgeVerseGlobal Percentage Calculator expresses a part of a whole as a fraction of 100. It can help find a percentage of a number or solve other percentage calculations supported by the tool.",
+            "Percentages are used in discounts, marks, budgets, taxes and comparisons."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Percentage Calculator",
+          [
+            "Choose the required operation if options are shown, enter the requested values, calculate, then check whether the result is an amount, percentage or difference."
+          ]
+        ],
+        [
+          "How Is a Percentage Calculated?",
+          [
+            "To find X percent of Y, multiply Y by X and divide by 100. For example, 20% of 500 is 100.",
+            "To express one value as a percentage of another, divide the part by the whole and multiply by 100. The whole must not be zero."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Percentage Calculator?",
+          [
+            "Use AgeVerseGlobal Percentage Calculator for discounts, exam scores, increases or decreases, budgeting, business metrics and comparing quantities. Confirm which formula your task requires."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "20% of 500",
+          "500 × 20 ÷ 100",
+          "100"
+        ],
+        [
+          "45 out of 60",
+          "45 ÷ 60 × 100",
+          "75%"
+        ],
+        [
+          "Increase 200 by 10%",
+          "200 + 20",
+          "220"
+        ]
+      ],
+      "features": [
+        [
+          "Common calculations",
+          "Use the operations available in the tool."
+        ],
+        [
+          "Clear inputs",
+          "Enter the values requested for the selected operation."
+        ],
+        [
+          "Quick arithmetic",
+          "Reduce manual calculation time."
+        ],
+        [
+          "Everyday usefulness",
+          "Helpful for marks, discounts and budgets."
+        ]
+      ],
+      "faqs": [
+        [
+          "How do I calculate X percent of a number?",
+          "Multiply the number by X and divide by 100."
+        ],
+        [
+          "How do I find what percentage one number is of another?",
+          "Divide the part by the whole and multiply by 100, provided the whole is not zero."
+        ],
+        [
+          "Can I calculate percentage increase?",
+          "Use the relevant option available, or compare the change with the original value."
+        ],
+        [
+          "Why does the answer have decimals?",
+          "Some calculations produce fractional results; rounding depends on the displayed precision."
+        ],
+        [
+          "Is AgeVerseGlobal Percentage Calculator free?",
+          "Yes. AgeVerseGlobal Percentage Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "Discount Calculator",
+          "/utility/discount-calculator"
+        ],
+        [
+          "GST Calculator",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Unit Converter",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "pregnancy": {
+      "name": "PregnancySEOContent",
+      "eyebrow": "PREGNANCY CALCULATOR GUIDE",
+      "title": "Pregnancy Calculator: Estimate Your Pregnancy Timeline And Expected Due Date",
+      "intro": "Estimate pregnancy timing from the date information you enter. Pregnancy dates are estimates; a healthcare professional can confirm dating and care recommendations.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Pregnancy Calculator?",
+          [
+            "AgeVerseGlobal Pregnancy Calculator estimates pregnancy timing and related milestones from dates such as the first day of the last menstrual period, where that method is supported.",
+            "Pregnancy dating can vary with cycle length, ovulation timing, ultrasound findings and clinical history."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Pregnancy Calculator",
+          [
+            "Choose the date method offered, enter the requested date carefully, calculate the estimate, then discuss questions or concerns with your healthcare professional."
+          ]
+        ],
+        [
+          "How Is Pregnancy Timing Estimated?",
+          [
+            "A common estimate counts approximately 40 weeks from the first day of the last menstrual period. This is a general convention, not a guarantee of the delivery date.",
+            "A clinician may adjust the estimate based on cycle details and clinical findings."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Pregnancy Calculator?",
+          [
+            "Use AgeVerseGlobal Pregnancy Calculator to understand approximate timing or prepare for an antenatal appointment. Seek urgent medical care for severe pain, heavy bleeding or other emergency symptoms."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Last menstrual period",
+          "Date entered by user",
+          "May be used for an estimate"
+        ],
+        [
+          "Estimated due date",
+          "Calculated milestone",
+          "Not an exact prediction"
+        ],
+        [
+          "Clinical assessment",
+          "Healthcare provider review",
+          "Follow professional guidance"
+        ]
+      ],
+      "features": [
+        [
+          "Date estimate",
+          "Calculate approximate timing from supported inputs."
+        ],
+        [
+          "Milestone awareness",
+          "Prepare questions for appointments."
+        ],
+        [
+          "Clear limitations",
+          "A due date is not exact."
+        ],
+        [
+          "Clinical follow-up",
+          "Use healthcare guidance for medical decisions."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is the due date exact?",
+          "No. It is an estimate, and many babies are not born on that date."
+        ],
+        [
+          "What date should I enter?",
+          "Enter the date requested by the calculator, such as the last menstrual period date if that method is provided."
+        ],
+        [
+          "Can a clinician change the date?",
+          "Yes. Clinical information and ultrasound findings may change the estimate."
+        ],
+        [
+          "Can I use this for medical decisions?",
+          "No, Use it only for general information and follow your healthcare provider for decisions."
+        ],
+        [
+          "When should I seek urgent care?",
+          "Seek urgent care for severe pain, heavy bleeding, fainting or other serious symptoms."
+        ]
+      ],
+      "related": [
+        [
+          "Complete Health Profile",
+          "/health-profile"
+        ],
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Date Difference",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "health_profile": {
+      "name": "HealthProfileSEOContent",
+      "eyebrow": "HEALTH PROFILE GUIDE",
+      "title": "Complete Health Profile: BMI • BMR • Calories • Water • Nutrition",
+      "intro": "Review the health measurements supported by the AgeVerseGlobal Health Profile Calculator. Results are informational and do not replace professional medical advice.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Complete Health Profile Calculator?",
+          [
+            "AgeVerseGlobal Health Profile Calculator brings selected personal measurements together to provide general indicators that may support health awareness. The values shown depend on the information entered and the metrics supported.",
+            "Calculated indicators are not a diagnosis. Individual health depends on many factors that a simple calculator cannot fully assess."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Health Profile Calculator",
+          [
+            "Enter the requested details and measurements in the units shown, check every field, calculate the profile, then read the result as general information rather than a diagnosis."
+          ]
+        ],
+        [
+          "How Are Health Metrics Interpreted?",
+          [
+            "Health metrics are calculated from the values and formulas used by each indicator. Interpretation can depend on age, medical history, measurement method and other individual factors.",
+            "If a result concerns you or you have symptoms, consult a healthcare professional."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Complete Health Profile?",
+          [
+            "Use AgeVerseGlobal Complete Health Profile for general awareness, organising measurements or preparing for a healthcare appointment. Do not use it to diagnose a condition, change medication or delay urgent care."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Personal details",
+          "Age and other requested fields",
+          "Enter accurate information"
+        ],
+        [
+          "Measurements",
+          "Values in requested units",
+          "Check units"
+        ],
+        [
+          "Displayed result",
+          "General information",
+          "Discuss concerns with a health advisor/ professional"
+        ]
+      ],
+      "features": [
+        [
+          "Structured overview",
+          "Review supported indicators in one place."
+        ],
+        [
+          "Input checking",
+          "Accurate inputs help avoid misleading results."
+        ],
+        [
+          "Health awareness",
+          "Use results to prepare questions for a clinician."
+        ],
+        [
+          "Responsible use",
+          "Seek professional care for medical concerns."
+        ]
+      ],
+      "faqs": [
+        [
+          "Does it diagnose illness?",
+          "No. It provides general informational calculations, not a diagnosis."
+        ],
+        [
+          "What if a result concerns me?",
+          "Discuss it with a qualified healthcare professional."
+        ],
+        [
+          "Can it replace a doctor?",
+          "No. It cannot replace examination, medical history or professional advice."
+        ],
+        [
+          "Do units matter?",
+          "Yes. Enter measurements in the units requested."
+        ],
+        [
+          "Is it medical advice?",
+          "No. It is an informational tool only."
+        ]
+      ],
+      "related": [
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Pregnancy Calculator",
+          "/pregnancy-calculator"
+        ],
+        [
+          "Date Difference",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "rd": {
+      "name": "RdSEOContent",
+      "eyebrow": "RECURRING DEPOSIT GUIDE",
+      "title": "RD Calculator: Calculate Your Recurring Deposit, Estimated Interest And Maturity Value",
+      "intro": "Estimate the maturity value of regular recurring deposits using the monthly deposit, interest rate and tenure you enter.",
+      "sections": [
+        [
+          "What Is AgeVerseGloval RD Calculator?",
+          [
+            "AgeVerseGlobal Recurring Deposit Calculator estimates the maturity amount from regular deposits made over a selected period. It illustrates the effect of monthly contribution, rate and tenure.",
+            "The actual maturity value depends on the bank’s calculation method, schedule, penalties and product terms."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal RD Calculator",
+          [
+            "Enter the periodic deposit, provide the offered interest rate, select the tenure, then calculate and review the estimated interest and maturity value."
+          ]
+        ],
+        [
+          "How Is RD Maturity Estimated?",
+          [
+            "An RD estimate combines regular deposits with interest under an assumed rate and calculation method. Deposits are made over time, so each instalment may earn interest for a different duration.",
+            "The bank’s actual method and terms determine the final amount."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal RD Calculator?",
+          [
+            "Use AgeVerseGlobal RD Calculator to plan regular savings, compare deposit tenures or estimate a goal amount before opening an RD. Confirm the terms with the bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Monthly deposit",
+          "₹500",
+          "Illustrative input"
+        ],
+        [
+          "Tenure",
+          "1 year",
+          "Illustrative input"
+        ],
+        [
+          "Interest rate",
+          "Bank rate",
+          "Confirm the current offer"
+        ]
+      ],
+      "features": [
+        [
+          "Recurring savings model",
+          "Estimate regular deposits."
+        ],
+        [
+          "Maturity estimate",
+          "Review the potential value at the end of the term."
+        ],
+        [
+          "Scenario testing",
+          "Compare deposit amounts and durations."
+        ],
+        [
+          "Planning support",
+          "Verify official bank terms before deciding."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is RD interest guaranteed?",
+          "The rate and terms depend on the specific bank product; confirm them with the bank."
+        ],
+        [
+          "Do all deposits earn interest for the same period?",
+          "No. Deposits made on different dates may earn interest for different durations."
+        ],
+        [
+          "Are penalties included?",
+          "No. Check bank rules for missed instalments or early closure."
+        ],
+        [
+          "Can I compare deposit amounts?",
+          "Yes. Change the contribution and calculate again."
+        ],
+        [
+          "Is AgeVerseGlobal RD Calculator free?",
+          "Yes. AgeVerseGlobal RD Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "FD Calculator",
+          "/utility/fd-calculator"
+        ],
+        [
+          "SIP Calculator",
+          "/utility/sip-calculator"
+        ],
+        [
+          "Percentage Calculator",
+          "/utility/percentage-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "gst": {
+      "name": "GstSEOContent",
+      "eyebrow": "GST CALCULATION GUIDE",
+      "title": "GST Calculator: Calculate GST, Tax Amount And Total Amount Quickly And Accurately",
+      "intro": "Estimate GST amounts and tax-inclusive or tax-exclusive totals with the AgeVerseGlobal GST Calculator.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal GST Calculator?",
+          [
+            "AgeVerseGlobal GST Calculator estimates the Goods and Services Tax amount for a price and selected rate. Depending on the mode, it can add GST to a base amount or extract GST from a tax-inclusive amount.",
+            "Confirm the applicable rate and invoicing requirements for your transaction."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal GST Calculator",
+          [
+            "Enter the amount, select the applicable GST rate, choose the calculation mode if offered, then calculate and check the GST amount and total."
+          ]
+        ],
+        [
+          "How Is GST Calculated?",
+          [
+            "For a tax-exclusive amount, GST = taxable amount × rate ÷ 100. The tax-inclusive total is the taxable amount plus GST.",
+            "For an inclusive amount, the GST component is extracted from the total. The formula depends on whether the entered price already includes GST."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal GST Calculator?",
+          [
+            "Use AgeVerseGlobal GST Calculator for preliminary pricing, purchase comparisons and invoice checks. For official filing, verify the current rules and the correct rate for the goods or services."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "₹1,000 before GST",
+          "18%",
+          "₹180 GST; ₹1,180 total"
+        ],
+        [
+          "₹500 before GST",
+          "5%",
+          "₹25 GST; ₹525 total"
+        ],
+        [
+          "₹1,180 inclusive",
+          "18% included",
+          "Approx. ₹180 GST component"
+        ]
+      ],
+      "features": [
+        [
+          "Rate-based estimates",
+          "Calculate using the rate selected."
+        ],
+        [
+          "Price clarity",
+          "Review tax amount and total together."
+        ],
+        [
+          "Inclusive or exclusive modes",
+          "Choose the mode matching your entered price."
+        ],
+        [
+          "Business support",
+          "Helpful for preliminary pricing checks."
+        ]
+      ],
+      "faqs": [
+        [
+          "Does AgeVerseGlobal GST Calculator choose the correct rate automatically?",
+          "No, AgeVerseGlobal GST Calculator does not choose GST rate automatically. Verify and select the rate applicable to your goods or services."
+        ],
+        [
+          "Inclusive vs exclusive GST?",
+          "Exclusive GST is added to the base price; inclusive GST is already part of the entered total."
+        ],
+        [
+          "Can I use AgeVerseGlobal GST Calculator for tax filing?",
+          "Treat it as an estimate and verify applicable rules before filing."
+        ],
+        [
+          "Is the GST rate the same for all products?",
+          "No. Rates can vary by goods, services and current rules."
+        ],
+        [
+          "Is AgeVerseGlobal GST Calculator free?",
+          "Yes. AgeVerseGlobal GST Calculator is available without a calculator fee."
+        ]
+      ],
+      "related": [
+        [
+          "Percentage Calculator",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "EMI Calculator",
+          "/utility/emi-calculator"
+        ],
+        [
+          "Discount Calculator",
+          "/utility/discount-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "dog_age": {
+      "name": "DogAgeSEOContent",
+      "eyebrow": "DOG AGE CALCULATION GUIDE",
+      "title": "Dog Age Calculator: Calculate Your Dog's Exact Age And Approximate Human-age Equivalent.",
+      "intro": "Estimate your dog’s age in human-age terms with the AgeVerseGlobal Dog Age Calculator. The comparison is approximate and varies by dog.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Dog Age Calculator?",
+          [
+            "AgeVerseGlobal Dog Age Calculator provides an approximate comparison between a dog’s age and a human-age equivalent. Dogs mature at different rates depending on size, breed and individual health.",
+            "A simple rule such as multiplying every dog year by seven is an oversimplification."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Dog Age Calculator",
+          [
+            "Enter your dog’s age and choose any required category, such as size, if the calculator asks for it. Calculate the estimate and treat the result as a general guide."
+          ]
+        ],
+        [
+          "How Is Dog Age Compared with Human Age?",
+          [
+            "Dogs mature rapidly during early life, and ageing patterns can vary by size and breed. A single conversion rule cannot accurately represent every stage of a dog’s life.",
+            "A veterinarian can provide more relevant guidance about your dog’s health and life stage."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Dog Age Calculator?",
+          [
+            "Use AgeVerseGlobal Dog Age Calculator to learn about general life-stage comparisons or to start a conversation with your veterinarian about age-appropriate care."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 year old dog",
+          "Young adult stage for many dogs",
+          "Varies by size and breed"
+        ],
+        [
+          "5 year old dog",
+          "Adult stage",
+          "Ageing patterns differ"
+        ],
+        [
+          "10 year old dog",
+          "Senior stage for many dogs",
+          "Ask a vet about individual care"
+        ]
+      ],
+      "features": [
+        [
+          "Quick estimate",
+          "Compare dog age with a human-age guide."
+        ],
+        [
+          "Life-stage awareness",
+          "Understand that ageing varies by dog."
+        ],
+        [
+          "Pet-care context",
+          "Use the result to prompt care planning."
+        ],
+        [
+          "Veterinary guidance",
+          "Seek advice for health concerns."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is one dog year always seven human years?",
+          "No. That rule is an oversimplification and ignores early maturity and differences between dogs."
+        ],
+        [
+          "Does breed or size matter?",
+          "Yes. Size and breed can influence ageing patterns and expected lifespan."
+        ],
+        [
+          "Can this assess my dog’s health?",
+          "No. It is an approximate age comparison, not a veterinary assessment."
+        ],
+        [
+          "When should I consult a vet?",
+          "Consult a veterinarian about symptoms, preventive care, diet or age-related health questions."
+        ],
+        [
+          "Is AgeVerseGlobal Dog Age Calculator free?",
+          "Yes. AgeVerseGlobal Dog Age Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "Complete Health Profile",
+          "/health-profile"
+        ],
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Event Calculator",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "fd": {
+      "name": "FdSEOContent",
+      "eyebrow": "FIXED DEPOSIT GUIDE",
+      "title": "FD Calculator: Calculate Fixed Deposit Maturity, Estimated Interest And Total Value",
+      "intro": "Estimate fixed-deposit interest and maturity value using the principal, interest rate, tenure and calculation options you enter.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal FD Calculator?",
+          [
+            "AgeVerseGlobal Fixed Deposit Calculator estimates how much a deposit may be worth at maturity based on principal, rate, duration and the compounding method supported by the tool.",
+            "Actual returns depend on bank terms, compounding, payout choice, taxes and premature-withdrawal rules."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal FD Calculator",
+          [
+            "Enter the deposit amount, provide the quoted interest rate, select the tenure and any available compounding or payout option, then calculate and review the estimate."
+          ]
+        ],
+        [
+          "How Is FD Interest Calculated?",
+          [
+            "FD interest may use simple or compound interest depending on the product and selected method. With compounding, earned interest can be added to the balance and earn interest later.",
+            "Confirm the rate, compounding frequency, taxes and maturity value with the bank."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal FD Calculator?",
+          [
+            "Use AgeVerseGlobal FD Calculator to compare deposit tenures and rates before opening or renewing a fixed deposit. Verify final figures with the bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Principal",
+          "₹50,000",
+          "Illustrative input"
+        ],
+        [
+          "Interest rate",
+          "6.5% per year",
+          "Illustrative input"
+        ],
+        [
+          "Tenure",
+          "1 year",
+          "Final value depends on product terms"
+        ]
+      ],
+      "features": [
+        [
+          "Maturity estimate",
+          "Estimate a potential final deposit value."
+        ],
+        [
+          "Interest breakdown",
+          "Review interest where displayed."
+        ],
+        [
+          "Scenario comparison",
+          "Try different rates and tenures."
+        ],
+        [
+          "Bank-term awareness",
+          "Confirm compounding and tax details."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is the maturity value exact?",
+          "It is an estimate; the bank’s terms determine the final amount."
+        ],
+        [
+          "Does compounding matter?",
+          "Yes. Different compounding frequencies can produce different values."
+        ],
+        [
+          "Is tax included?",
+          "Tax treatment depends on applicable rules and calculator features; verify separately."
+        ],
+        [
+          "Can I compare tenures?",
+          "Yes. Run scenarios using different periods and rates."
+        ],
+        [
+          "Is AgeVerseGlobal FD Calculator free?",
+          "Yes. AgeVerseGlobal FD Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "RD Calculator",
+          "/utility/rd-calculator"
+        ],
+        [
+          "SIP Calculator",
+          "/utility/sip-calculator"
+        ],
+        [
+          "EMI Calculator",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "emi": {
+      "name": "EmiSEOContent",
+      "eyebrow": "EMI CALCULATION GUIDE",
+      "title": "EMI Calculator: Calculate your monthly EMI, total interest and total repayment amount",
+      "intro": "Estimate a monthly loan instalment using the loan amount, interest rate and repayment period you enter into the AgeVerseGlobal EMI Calculator.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal EMI Calculator?",
+          [
+            "AgeVerseGlobal EMI Calculator estimates the Equated Monthly Instalment for a loan. It helps you understand the approximate monthly repayment and total repayment over a selected term.",
+            "Actual costs can differ if lender fees, insurance or other conditions apply."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal EMI Calculator",
+          [
+            "Enter the loan amount, provide the interest rate in the requested format, select the tenure, then calculate and review the estimated monthly instalment and displayed totals."
+          ]
+        ],
+        [
+          "How Is EMI Calculated?",
+          [
+            "For a standard reducing-balance loan, EMI depends on the principal, periodic interest rate and number of instalments. The calculation spreads repayments over the selected term.",
+            "Processing fees, insurance, penalties or lender-specific adjustments may not be included."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal EMI Calculator?",
+          [
+            "Use AgeVerseGlobal EMI Calculator to compare possible loan amounts or tenures before discussing a loan with a lender. Check the lender’s official repayment schedule before committing."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Loan amount",
+          "₹5,00,000",
+          "Illustrative input"
+        ],
+        [
+          "Interest rate",
+          "10% per year",
+          "Illustrative input"
+        ],
+        [
+          "Tenure",
+          "5 years",
+          "EMI depends on all inputs"
+        ]
+      ],
+      "features": [
+        [
+          "Monthly estimate",
+          "Get an indicative repayment amount."
+        ],
+        [
+          "Tenure comparison",
+          "Explore repayment periods."
+        ],
+        [
+          "Budget planning",
+          "Check estimated affordability."
+        ],
+        [
+          "Clear limitations",
+          "Confirm fees and final terms with the lender."
+        ]
+      ],
+      "faqs": [
+        [
+          "Is the EMI guaranteed?",
+          "No. The lender’s offer and repayment schedule are authoritative."
+        ],
+        [
+          "Does EMI include all fees?",
+          "Not necessarily. Processing fees, insurance and other charges may be excluded."
+        ],
+        [
+          "How does tenure affect EMI?",
+          "A longer tenure often lowers the monthly instalment but may increase total interest."
+        ],
+        [
+          "Which interest rate should I enter?",
+          "Use the rate format requested by the calculator, usually the annual rate."
+        ],
+        [
+          "Is it free?",
+          "Yes. The online calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "GST Calculator",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Percentage Calculator",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "SIP Calculator",
+          "/utility/sip-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "date_difference": {
+      "name": "DateDifferenceSEOContent",
+      "eyebrow": "DATE DIFFERENCE GUIDE",
+      "title": "Date Difference Calculator: Find Exact Difference Between  Any Two Dates",
+      "intro": "Find the elapsed time between two calendar dates with the free AgeVerseGlobal Date Difference Calculator. Compare dates in either order for planning, events and everyday calculations.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Date Difference Calculator?",
+          [
+            "AgeVerseGlobal Date Difference Calculator finds the elapsed time between two different dates. Depending on the result format, this can include years, months and days or a total count of days.",
+            "The calculator validates both dates and helps you compare them without manually counting every calendar day."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Date Difference Calculator",
+          [
+            "Enter the first date and the second date, check that both dates are correct, then select Calculate. Review the displayed difference and use it for your planning."
+          ]
+        ],
+        [
+          "How Is Date Difference Calculated?",
+          [
+            "Elapsed-day difference is based on the actual calendar dates, accounting for month lengths and leap years. Calendar years, months and days are not interchangeable with a fixed number of days.",
+            "For example, 1 March to 11 March is 10 elapsed days when the start date is not counted as a full elapsed day. Some official deadlines use inclusive counting, so follow the applicable rules."
+          ]
+        ],
+        [
+          "When Should You Use It?",
+          [
+            "Use it to count days until an event, measure a project period, compare travel dates or check time between milestones. For official deadlines, follow the relevant authority’s counting rules."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 March 2026",
+          "11 March 2026",
+          "10 elapsed days"
+        ],
+        [
+          "1 January 2025",
+          "1 January 2026",
+          "365 elapsed days"
+        ],
+        [
+          "1 January 2024",
+          "1 January 2025",
+          "366 elapsed days (leap year)"
+        ]
+      ],
+      "features": [
+        [
+          "Flexible date order",
+          "Compare dates even if the later date is entered first."
+        ],
+        [
+          "Calendar-aware calculation",
+          "Month lengths and leap years affect the elapsed-day total."
+        ],
+        [
+          "Quick comparison",
+          "Avoid counting each day manually."
+        ],
+        [
+          "Planning support",
+          "Useful for events, projects, travel and personal records."
+        ]
+      ],
+      "faqs": [
+        [
+          "Does AgeVerseGlobal Date Difference Calculator allow future dates?",
+          "Yes. You can compare past dates, future dates or a combination of both."
+        ],
+        [
+          "Does AgeVerseGlobal Date Difference Calculator account for leap years?",
+          "Yes, elapsed-day calculations include leap-year days where applicable."
+        ],
+        [
+          "Is the start date counted?",
+          "Elapsed-day difference normally measures the time after the start date. If a deadline requires inclusive counting, follow its rules."
+        ],
+        [
+          "Can I enter dates in reverse order?",
+          "Yes. The calculator compares the two dates regardless of entry order."
+        ],
+        [
+          "Is AgeVerseGlobal Date Difference Calculator free?",
+          "Yes. The online AgeVerseGlobal Date Difference Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ],
+        [
+          "Event Calculator",
+          "/event-calculator"
+        ],
+        [
+          "Retirement Calculator",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "discount": {
+      "name": "DiscountSEOContent",
+      "eyebrow": "DISCOUNT CALCULATION GUIDE",
+      "title": "Discount Calculator: Calculate discount, savings and final selling price quickly",
+      "intro": "Estimate the amount saved and the price after a discount using the original price and discount rate you enter.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Discount Calculator?",
+          [
+            "AgeVerseGlobal Discount Calculator determines how much a price is reduced by a percentage discount and estimates the resulting price.",
+            "The final price can differ if taxes, delivery charges, coupons or other offers apply separately."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Discount Calculator",
+          [
+            "Enter the original price, provide the discount percentage, calculate, then check the saving and reduced price before completing a purchase."
+          ]
+        ],
+        [
+          "How Is a Discount Calculated?",
+          [
+            "Discount amount = original price × discount percentage ÷ 100. The discounted price is the original price minus the discount amount.",
+            "For example, a 20% discount on ₹1,000 saves ₹200, leaving ₹800 before additional charges."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Discount Calculator?",
+          [
+            "Use AgeVerseGlobal Discount Calculator when comparing sale prices, checking offers, planning a shopping budget or verifying advertised savings. Read offer terms for exclusions and extra charges."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "₹1,000 original price",
+          "10% discount",
+          "₹100 off; ₹900"
+        ],
+        [
+          "₹2,500 original price",
+          "20% discount",
+          "₹500 off; ₹2,000"
+        ],
+        [
+          "₹800 original price",
+          "25% discount",
+          "₹200 off; ₹600"
+        ]
+      ],
+      "features": [
+        [
+          "Savings estimate",
+          "Calculate the discount amount."
+        ],
+        [
+          "Final price",
+          "See the price after reduction."
+        ],
+        [
+          "Offer comparison",
+          "Compare different discount rates."
+        ],
+        [
+          "Shopping support",
+          "Check prices before extra fees or taxes."
+        ]
+      ],
+      "faqs": [
+        [
+          "How do I calculate a discount amount?",
+          "Multiply the original price by the discount percentage and divide by 100."
+        ],
+        [
+          "Does the discounted price include GST?",
+          "Not automatically; tax inclusion depends on the pricing and seller."
+        ],
+        [
+          "Can I compare two offers?",
+          "Yes. Calculate each offer using its original price and discount rate."
+        ],
+        [
+          "What if a coupon applies after the discount?",
+          "Follow the offer terms; coupon rules may need a separate calculation."
+        ],
+        [
+          "Is AgeVerseGlobal Discount Calculator free?",
+          "Yes. AgeVerseGlobal Discount Calculator is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "GST Calculator",
+          "/utility/gst-calculator"
+        ],
+        [
+          "Percentage Calculator",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Unit Converter",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "unit_converter": {
+      "name": "UnitConverterSEOContent",
+      "eyebrow": "UNIT CONVERSION GUIDE",
+      "title": "Unit Converter: Convert length, weight, temperature, volume and other everyday units quickly",
+      "intro": "Convert supported measurements between units with the AgeVerseGlobal Unit Converter. Choose a category, enter a value, select units and review the result.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Unit Converter?",
+          [
+            "AgeVerseGlobal Unit Converter changes a measurement from one unit to another within a supported category, such as length, mass, temperature or other available measurement types.",
+            "The converted value represents the same quantity expressed in a different unit."
+          ]
+        ],
+        [
+          "How to Use AgeVerseGlobal Unit Converter",
+          [
+            "Choose a measurement category, enter the value, select the source and target units, then convert and review the result and unit symbols."
+          ]
+        ],
+        [
+          "How Does AgeVerseGlobal Unit Converter Work?",
+          [
+            "AgeVerseGlobal Unit Converter uses a conversion factor or formula. Some categories use a multiplier, while temperature conversions also require an offset.",
+            "Choose units from the same measurement category for a meaningful conversion."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal Unit Converter?",
+          [
+            "Use AgeVerseGlobal Unit Converter for study, cooking, travel, home projects, shopping, technical work or whenever measurements are supplied in different units. Verify results for safety-critical or regulated work."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 kilometre",
+          "1000 metres",
+          "Length"
+        ],
+        [
+          "1 kilogram",
+          "1000 grams",
+          "Mass"
+        ],
+        [
+          "1 hour",
+          "60 minutes",
+          "Time"
+        ]
+      ],
+      "features": [
+        [
+          "Multiple categories",
+          "Choose from categories available in the tool."
+        ],
+        [
+          "Flexible unit selection",
+          "Select source and target units."
+        ],
+        [
+          "Quick results",
+          "Avoid applying conversion formulas manually."
+        ],
+        [
+          "Practical use",
+          "Helpful for study and everyday measurements."
+        ]
+      ],
+      "faqs": [
+        [
+          "Which units can I convert?",
+          "Available units depend on the categories provided in the converter."
+        ],
+        [
+          "Why does category matter?",
+          "Units must measure the same type of quantity."
+        ],
+        [
+          "Are temperature conversions different?",
+          "Yes. They often use an offset as well as a scale factor."
+        ],
+        [
+          "Can I swap units?",
+          "Use the swap control if it is available in the calculator."
+        ],
+        [
+          "Is AgeVerseGlobal Unit Converter free?",
+          "Yes. The online AgeVerseGlobal Unit Converter is available without a fee."
+        ]
+      ],
+      "related": [
+        [
+          "Percentage Calculator",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "Date Difference",
+          "/date-difference"
+        ],
+        [
+          "Age Calculator",
+          "/age-calculator"
+        ]
+      ],
+      "examplesTitle": "Practical Examples",
+      "examplesIntro": "Explore these examples to understand how the calculator works.",
+      "examplesNote": "Results are illustrative and may vary depending on the values and dates entered.",
+      "featuresTitle": "Key Features",
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Find answers to common questions about this calculator.",
+      "relatedTitle": "Explore More Calculators",
+      "relatedIntro": "Explore these related tools for more calculations and planning.",
+      "tableHeaders": [
+        "Example",
+        "Input",
+        "Result"
+      ]
+    },
+    "age_calculator": {
+      "name": "AgeCalculatorSEOContent",
+      "eyebrow": "AGE CALCULATION GUIDE",
+      "title": "Advanced Age Calculator: Calculate Your Exact Age With Complete Details",
+      "intro": "Find your age in years, months and days with the free AgeVerseGlobal Advanced Age Calculator. Calculate your age as of today or choose a specific date to explore your age, total time lived and upcoming birthday.",
+      "sections": [
+        [
+          "What Is AgeVerseGlobal Advanced Age Calculator?",
+          [
+            "AgeVerseGlobal Advanced Age Calculator is an online tool that calculates the time between your date of birth and a selected end date. Instead of showing only your age in years, it breaks the result down into years, months and days. It can also show total months, weeks, days, hours, minutes and seconds.",
+            "AgeVerseGlobal Advanced Age Calculator makes age calculation simple. Enter your birth date, keep the calculation date set to today or choose a specific date, and select Calculate. The result helps you understand your calendar age and see how much time has passed between the two dates."
+          ]
+        ],
+        [
+          "How Is Advanced Age Calculated?",
+          [
+            "Calendar age is calculated by comparing the birth date with the selected end date. The calculation considers the difference in years, months and days. If the end date's day number is smaller than the birth date's day number, days are borrowed from the preceding calendar month. If the month difference is negative, a year is adjusted accordingly.",
+            "For example, a person born on 15 March 2000 is 25 years old on 15 March 2025. If the calculation date is 14 March 2025, the person has not yet reached their 25th birthday.",
+            "Total days, hours, minutes and seconds are separate elapsed-time totals. Because calendar months have different lengths and leap years add an extra day, calendar age should not be calculated by treating every month as exactly 30 days."
+          ]
+        ],
+        [
+          "Who Can Use AgeVerseGlobal Advanced Age Calculator?",
+          [
+            "AgeVerseGlobal Advanced Age Calculator can be useful for anyone who needs to find the time between two dates. Students can use it for age-related exercises, families can check birthdays, and adults can calculate their age for personal planning. It can also be helpful when preparing forms or checking age eligibility dates.",
+            "For official applications, school admissions, employment, benefits or legal eligibility, always follow the relevant organisation's rules for calculating age and verifying dates."
+          ]
+        ]
+      ],
+      "stepsTitle": "How Does the AgeVerseGlobal Advanced Age Calculator Work?",
+      "stepsIntro": "Follow these steps to calculate your age:",
+      "steps": [
+        [
+          "Enter your date of birth.",
+          "Select the day, month and year you were born."
+        ],
+        [
+          "Choose the calculation date.",
+          "Keep Today selected to calculate your current age, or select Specific Date to calculate your age on another date."
+        ],
+        [
+          "Select Calculate.",
+          "The calculator checks the dates and calculates the difference between them."
+        ],
+        [
+          "Review your result.",
+          "View your age in years, months and days, other time totals and your next-birthday information."
+        ]
+      ],
+      "examplesTitle": "Advanced Age Calculation Examples",
+      "examplesIntro": "These examples show how the calculator can be used with different birth dates and calculation dates.",
+      "tableHeaders": [
+        "Date of Birth",
+        "Calculate Age On",
+        "Age"
+      ],
+      "examples": [
+        [
+          "15 March 2000",
+          "15 March 2025",
+          "25 years, 0 months, 0 days"
+        ],
+        [
+          "10 January 1998",
+          "25 September 2026",
+          "28 years, 8 months, 15 days"
+        ],
+        [
+          "1 June 2010",
+          "1 June 2025",
+          "15 years, 0 months, 0 days"
+        ]
+      ],
+      "examplesNote": "These are calendar-age examples. Your result depends on the exact birth date and calculation date you enter.",
+      "featuresTitle": "Features of the AgeVerseGlobal Advanced Age Calculator",
+      "features": [
+        [
+          "Age in years, months and days",
+          "View your calendar age in a familiar format."
+        ],
+        [
+          "Today or a specific date",
+          "Calculate your current age or check your age on another date."
+        ],
+        [
+          "Total time calculations",
+          "See total months, weeks, days, hours, minutes and seconds."
+        ],
+        [
+          "Next birthday information",
+          "Check the upcoming birthday date and days remaining."
+        ],
+        [
+          "Simple online access",
+          "Use the calculator in your browser without installing a separate application."
+        ]
+      ],
+      "faqEyebrow": "COMMON QUESTIONS",
+      "faqTitle": "Frequently Asked Questions",
+      "faqIntro": "Quick answers about calculating age and understanding your results.",
+      "faqs": [
+        [
+          "How do I calculate my exact age?",
+          "Enter your date of birth and select Calculate. The calculator uses today's date by default and displays your age in years, months and days. You can also select a specific date to calculate your age on that date."
+        ],
+        [
+          "Can I calculate my age on a past or future date?",
+          "Yes. Select the Specific Date option and enter the date you want to use. The selected date must not be earlier than your date of birth."
+        ],
+        [
+          "What is the difference between age in years and total days?",
+          "Age in years, months and days expresses your age using calendar units. Total days counts the elapsed days between the two dates. Months have different lengths, so total days cannot be calculated accurately by simply multiplying every month by 30."
+        ],
+        [
+          "Can this calculator show my total hours and minutes?",
+          "Yes. The result includes total months, weeks, days, hours, minutes and seconds also, along with your calendar age. These totals are calculated from the selected dates."
+        ],
+        [
+          "Does the AgeVerseGlobal Advanced Age Calculator account for leap years?",
+          "Calendar calculations can involve leap years and different month lengths. For birthdays on 29 February, birthday observance may depend on the convention being used, especially in non-leap years."
+        ],
+        [
+          "Can I use this calculator to find the time until my next birthday?",
+          "Yes. When you calculate your age, the result also provides information about your next birthday, including the upcoming birthday date and a countdown in days."
+        ],
+        [
+          "Is the AgeVerseGlobal Advanced Age Calculator free?",
+          "Yes. You can use the online AgeVerseGlobal Advanced Age Calculator without paying to calculate your age between your date of birth and today or another specific selected date."
+        ]
+      ],
+      "relatedTitle": "Explore More Date Calculators",
+      "relatedIntro": "Use these related tools for other date and planning calculations.",
+      "related": [
+        [
+          "Date Difference",
+          "/date-difference"
+        ],
+        [
+          "Event Calculator",
+          "/event-calculator"
+        ],
+        [
+          "Retirement Calculator",
+          "/retirement-calculator"
+        ]
+      ]
+    }
+  },
+  "Calculated by": "Calculated by",
+  "Generated by": "Generated by"
+}

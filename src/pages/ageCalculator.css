@@ -1,0 +1,1390 @@
+
+
+.date-input-wrapper .date-part {
+  width: 52px;
+  min-width: 0;
+
+  padding: 0;
+  margin: 0;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #334155;
+}
+
+.date-input-wrapper .date-part.year {
+  width: 70px;
+}
+
+.date-input-wrapper .date-part::placeholder {
+  color: #64748b;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.date-input-wrapper .date-separator {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent !important;
+}
+
+.date-input-wrapper:focus-within {
+  background: #ffffff;
+
+  border-color: #4f46e5;
+
+  box-shadow:
+    0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+
+/* =========================================================
+   MAIN PAGE
+========================================================= */
+
+.age-page {
+  min-height: calc(100vh - 140px);
+
+  padding: 45px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(99, 102, 241, 0.10),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(124, 58, 237, 0.08),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #f8fafc,
+      #eef2ff
+    );
+}
+
+
+/* =========================================================
+   PAGE TITLE
+========================================================= */
+
+.age-page h1 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 42px;
+  font-weight: 800;
+
+  text-align: center;
+  letter-spacing: -0.8px;
+}
+
+.age-page > p {
+  margin: 10px 0 0;
+
+  color: #64748b;
+
+  font-size: 17px;
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   CALCULATOR CARD
+========================================================= */
+
+.age-card {
+  width: 100%;
+  max-width: 500px;
+
+  margin-top: 30px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 26px;
+
+  box-shadow:
+    0 20px 50px rgba(15, 23, 42, 0.10);
+
+  backdrop-filter: blur(12px);
+}
+
+
+/* =========================================================
+   FIELD LABELS
+========================================================= */
+
+.age-card label,
+.calculator-field label,
+.calculate-till-label,
+.specific-date-field label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   DOB FIELD
+========================================================= */
+
+.calculator-field {
+  background: transparent;
+}
+
+
+/* =========================================================
+   CALCULATE AGE TILL
+========================================================= */
+
+.calculate-till-section {
+  margin-top: 8px;
+  background: transparent;
+}
+
+.calculate-till-label {
+  background: transparent;
+}
+
+
+/* =========================================================
+   MODE SELECTOR
+========================================================= */
+
+.date-mode-selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 10px;
+  margin-top: 10px;
+
+  background: transparent;
+}
+
+
+/* =========================================================
+   MODE BUTTON
+========================================================= */
+
+.date-mode {
+  min-height: 52px;
+
+  padding: 0 12px;
+
+  border: 1px solid #dbe2ea;
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  color: #475569;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.date-mode:hover {
+  transform: translateY(-1px);
+
+  border-color: #a5b4fc;
+  background: #eef2ff;
+
+  color: #4338ca;
+}
+
+.date-mode.active {
+  color: #ffffff;
+
+  border-color: transparent;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  box-shadow:
+    0 8px 20px rgba(79, 70, 229, 0.25);
+}
+
+.date-mode.active:hover {
+  transform: translateY(-2px);
+
+  background:
+    linear-gradient(
+      135deg,
+      #4338ca,
+      #6d28d9
+    );
+}
+
+
+/* =========================================================
+   SPECIFIC DATE
+========================================================= */
+
+.specific-date-field {
+  margin-top: 16px;
+  padding: 15px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #e4e7f5;
+  border-radius: 16px;
+
+  background: #f8faff;
+
+  animation: dateFieldShow 0.25s ease;
+}
+
+@keyframes dateFieldShow {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   TODAY INFORMATION
+========================================================= */
+
+.today-info {
+  margin-top: 14px;
+  padding: 14px 15px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ccebd7;
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eefdf4,
+      #f5fff8
+    );
+
+  color: #166534;
+
+  animation: todayShow 0.25s ease;
+}
+
+@keyframes todayShow {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.today-info-icon {
+  width: 38px;
+  height: 38px;
+
+  flex: 0 0 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #dcfce7;
+
+  font-size: 19px;
+}
+
+.today-info strong {
+  display: block;
+
+  color: #166534;
+
+  font-size: 13px;
+}
+
+.today-info small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #4d7c5a;
+
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   CALCULATOR BUTTONS
+========================================================= */
+
+.age-calculator-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 8px;
+}
+
+
+/* =========================================================
+   CALCULATE BUTTON
+========================================================= */
+
+.calculate-age-button,
+.age-card button:not(.reset) {
+  width: 100%;
+  min-height: 52px;
+
+  border: 0;
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 750;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 24px rgba(79, 70, 229, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.calculate-age-button:hover,
+.age-card button:not(.reset):hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 28px rgba(79, 70, 229, 0.32);
+}
+
+.calculate-age-button:active,
+.age-card button:not(.reset):active {
+  transform: scale(0.98);
+}
+
+
+/* =========================================================
+   RESET BUTTON
+========================================================= */
+
+.age-calculator-buttons .reset,
+.age-card .reset {
+  width: 100%;
+  min-height: 42px;
+
+  border: 1px solid #dbe2ea;
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  color: #64748b;
+
+  font-size: 13px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.age-calculator-buttons .reset:hover,
+.age-card .reset:hover {
+  background: #f8fafc;
+
+  border-color: #cbd5e1;
+
+  color: #334155;
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.error {
+  margin-top: 12px;
+  padding: 11px 13px;
+
+  border: 1px solid #fecdd3;
+  border-radius: 12px;
+
+  background: #fff1f2;
+
+  color: #be123c;
+
+  text-align: center;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   EMPTY RESULT
+========================================================= */
+
+.empty-result {
+  width: 100%;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px 20px;
+
+  box-sizing: border-box;
+
+  color: #64748b;
+
+  text-align: center;
+}
+
+.empty-result-icon {
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  box-shadow:
+    0 8px 22px rgba(79, 70, 229, 0.10);
+
+  font-size: 35px;
+}
+
+.empty-result h2 {
+  margin: 0 0 8px;
+
+  color: #4f46e5;
+
+  font-size: 21px;
+}
+
+.empty-result p {
+  max-width: 330px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESULT
+========================================================= */
+
+.result {
+  scroll-margin-top: 80px;
+
+  margin-top: 25px;
+  padding: 25px;
+
+  border-radius: 20px;
+
+  background: #eef2ff;
+
+  text-align: center;
+
+  animation: resultShow 0.5s ease;
+}
+
+@keyframes resultShow {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   PREMIUM EMPTY RESULT
+========================================================= */
+
+.age-empty-result {
+  width: 100%;
+  min-height: 460px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 25px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.age-empty-result-icon {
+  width: 88px;
+  height: 88px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  box-shadow:
+    0 12px 30px rgba(79, 70, 229, 0.12);
+
+  font-size: 42px;
+}
+
+.age-empty-result h2 {
+  margin: 0;
+
+  color: #1e1b4b;
+
+  font-size: 24px;
+  font-weight: 800;
+
+  letter-spacing: -0.3px;
+}
+
+.age-empty-result p {
+  max-width: 360px;
+
+  margin: 10px 0 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.age-empty-result-hint {
+  margin-top: 22px;
+  padding: 10px 15px;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+
+  background: #f8fafc;
+
+  color: #64748b;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   RESULT ACTIONS
+========================================================= */
+
+.ageverse-global-result-actions {
+  width: 100%;
+
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  gap: 8px;
+
+  margin-top: 18px;
+  padding-top: 14px;
+
+  border-top: 1px solid #e2e8f0;
+}
+
+.ageverse-global-result-actions button {
+  min-height: 42px;
+
+  padding: 8px 10px;
+
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.ageverse-global-result-actions button:hover {
+  transform: translateY(-1px);
+
+  background: #f8fafc;
+
+  border-color: #a5b4fc;
+
+  color: #4338ca;
+}
+
+.ageverse-global-result-actions button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ageverse-result-action-message {
+  grid-column: 1 / -1;
+
+  color: #64748b;
+
+  font-size: 11px;
+  line-height: 1.4;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   INPUT SAFETY
+   Only prevents browser-generated visual patches.
+   Theme itself is NOT handled here.
+========================================================= */
+
+.date-input-wrapper input,
+.date-input-wrapper .date-part {
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.date-input-wrapper input:-webkit-autofill,
+.date-input-wrapper input:-webkit-autofill:hover,
+.date-input-wrapper input:-webkit-autofill:focus,
+.date-input-wrapper input:-webkit-autofill:active {
+  -webkit-text-fill-color: #334155 !important;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #ffffff inset !important;
+
+  box-shadow:
+    0 0 0 1000px #ffffff inset !important;
+
+  transition:
+    background-color 9999s ease-in-out 0s;
+}
+
+
+/* =========================================================
+   RESPONSIVE — TABLET / MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .age-empty-result {
+    min-height: 320px;
+    padding: 30px 18px;
+  }
+
+  .age-empty-result-icon {
+    width: 75px;
+    height: 75px;
+
+    font-size: 35px;
+
+    border-radius: 22px;
+  }
+
+  .age-empty-result h2 {
+    font-size: 21px;
+  }
+
+  .age-empty-result p {
+    font-size: 13px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .ageverse-global-result-actions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .age-page {
+    padding: 35px 15px;
+  }
+
+  .age-page h1 {
+    font-size: 32px;
+  }
+
+  .age-page > p {
+    font-size: 15px;
+  }
+
+  .age-card {
+    padding: 24px;
+    border-radius: 21px;
+  }
+
+  .date-mode-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .date-mode {
+    min-height: 48px;
+  }
+
+  .today-info {
+    align-items: flex-start;
+  }
+
+  .empty-result {
+    min-height: 250px;
+  }
+
+  .date-input-wrapper {
+    min-height: 50px;
+    padding: 12px 10px;
+    gap: 6px;
+  }
+
+  .date-input-wrapper .date-part {
+    width: 45px;
+    font-size: 15px;
+  }
+
+  .date-input-wrapper .date-part.year {
+    width: 62px;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+
+  .ageverse-global-result-actions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+/* =========================================================
+   ADVANCE AGE CALCULATOR — DARK MODE FINAL FIX
+   Scope: ONLY .age-page
+   ========================================================= */
+
+/* ---------- MAIN CALCULATOR ---------- */
+
+.dark .age-page .age-card,
+.dark-mode .age-page .age-card,
+body.dark .age-page .age-card,
+body.dark-mode .age-page .age-card,
+[data-theme="dark"] .age-page .age-card {
+  background: rgba(15, 23, 42, 0.96) !important;
+  border-color: rgba(148, 163, 184, 0.18) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35) !important;
+  color: #e5e7eb !important;
+}
+
+
+/* ---------- LABELS ---------- */
+
+.dark .age-page .age-card label,
+.dark .age-page .calculator-field label,
+.dark .age-page .calculate-till-label,
+.dark .age-page .specific-date-field label,
+.dark-mode .age-page .age-card label,
+.dark-mode .age-page .calculator-field label,
+.dark-mode .age-page .calculate-till-label,
+.dark-mode .age-page .specific-date-field label,
+body.dark .age-page .age-card label,
+body.dark .age-page .calculator-field label,
+body.dark .age-page .calculate-till-label,
+body.dark .age-page .specific-date-field label,
+body.dark-mode .age-page .age-card label,
+body.dark-mode .age-page .calculator-field label,
+body.dark-mode .age-page .calculate-till-label,
+body.dark-mode .age-page .specific-date-field label,
+[data-theme="dark"] .age-page .age-card label,
+[data-theme="dark"] .age-page .calculator-field label,
+[data-theme="dark"] .age-page .calculate-till-label,
+[data-theme="dark"] .age-page .specific-date-field label {
+  color: #e2e8f0 !important;
+}
+
+
+/* ---------- DATE INPUT WRAPPER ---------- */
+
+.dark .age-page .date-input-wrapper,
+.dark-mode .age-page .date-input-wrapper,
+body.dark .age-page .date-input-wrapper,
+body.dark-mode .age-page .date-input-wrapper,
+[data-theme="dark"] .age-page .date-input-wrapper {
+  background: #1e293b !important;
+  background-image: none !important;
+  border-color: #475569 !important;
+  box-shadow: none !important;
+  color: #f8fafc !important;
+}
+
+
+/* ---------- DATE INPUT TEXT ---------- */
+
+.dark .age-page .date-input-wrapper .date-part,
+.dark-mode .age-page .date-input-wrapper .date-part,
+body.dark .age-page .date-input-wrapper .date-part,
+body.dark-mode .age-page .date-input-wrapper .date-part,
+[data-theme="dark"] .age-page .date-input-wrapper .date-part {
+  background: transparent !important;
+  background-image: none !important;
+  color: #f8fafc !important;
+  -webkit-text-fill-color: #f8fafc !important;
+}
+
+
+/* ---------- PLACEHOLDER ---------- */
+
+.dark .age-page .date-input-wrapper .date-part::placeholder,
+.dark-mode .age-page .date-input-wrapper .date-part::placeholder,
+body.dark .age-page .date-input-wrapper .date-part::placeholder,
+body.dark-mode .age-page .date-input-wrapper .date-part::placeholder,
+[data-theme="dark"] .age-page .date-input-wrapper .date-part::placeholder {
+  color: #94a3b8 !important;
+  opacity: 1 !important;
+}
+
+
+/* ---------- DATE SEPARATOR ---------- */
+
+.dark .age-page .date-input-wrapper .date-separator,
+.dark-mode .age-page .date-input-wrapper .date-separator,
+body.dark .age-page .date-input-wrapper .date-separator,
+body.dark-mode .age-page .date-input-wrapper .date-separator,
+[data-theme="dark"] .age-page .date-input-wrapper .date-separator {
+  color: #64748b !important;
+}
+
+
+/* ---------- FOCUS ---------- */
+
+.dark .age-page .date-input-wrapper:focus-within,
+.dark-mode .age-page .date-input-wrapper:focus-within,
+body.dark .age-page .date-input-wrapper:focus-within,
+body.dark-mode .age-page .date-input-wrapper:focus-within,
+[data-theme="dark"] .age-page .date-input-wrapper:focus-within {
+  background: #1e293b !important;
+  border-color: #6366f1 !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.20) !important;
+}
+
+
+/* ---------- SPECIFIC DATE CARD ---------- */
+
+.dark .age-page .specific-date-field,
+.dark-mode .age-page .specific-date-field,
+body.dark .age-page .specific-date-field,
+body.dark-mode .age-page .specific-date-field,
+[data-theme="dark"] .age-page .specific-date-field {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+
+
+/* ---------- TODAY INFO ---------- */
+
+.dark .age-page .today-info,
+.dark-mode .age-page .today-info,
+body.dark .age-page .today-info,
+body.dark-mode .age-page .today-info,
+[data-theme="dark"] .age-page .today-info {
+  background: linear-gradient(
+    135deg,
+    #102a1d,
+    #142f22
+  ) !important;
+
+  border-color: #245c3c !important;
+  color: #bbf7d0 !important;
+}
+
+.dark .age-page .today-info strong,
+.dark-mode .age-page .today-info strong,
+body.dark .age-page .today-info strong,
+body.dark-mode .age-page .today-info strong,
+[data-theme="dark"] .age-page .today-info strong {
+  color: #86efac !important;
+}
+
+.dark .age-page .today-info small,
+.dark-mode .age-page .today-info small,
+body.dark .age-page .today-info small,
+body.dark-mode .age-page .today-info small,
+[data-theme="dark"] .age-page .today-info small {
+  color: #a7d8b5 !important;
+}
+
+
+/* ---------- MODE BUTTON ---------- */
+
+.dark .age-page .date-mode,
+.dark-mode .age-page .date-mode,
+body.dark .age-page .date-mode,
+body.dark-mode .age-page .date-mode,
+[data-theme="dark"] .age-page .date-mode {
+  background: #1e293b !important;
+  border-color: #475569 !important;
+  color: #cbd5e1 !important;
+}
+
+.dark .age-page .date-mode:hover,
+.dark-mode .age-page .date-mode:hover,
+body.dark .age-page .date-mode:hover,
+body.dark-mode .age-page .date-mode:hover,
+[data-theme="dark"] .age-page .date-mode:hover {
+  background: #312e81 !important;
+  border-color: #6366f1 !important;
+  color: #ffffff !important;
+}
+
+
+/* ---------- RESET BUTTON ---------- */
+
+.dark .age-page .age-card .reset,
+.dark-mode .age-page .age-card .reset,
+body.dark .age-page .age-card .reset,
+body.dark-mode .age-page .age-card .reset,
+[data-theme="dark"] .age-page .age-card .reset {
+  background: #1e293b !important;
+  border-color: #475569 !important;
+  color: #cbd5e1 !important;
+}
+
+.dark .age-page .age-card .reset:hover,
+.dark-mode .age-page .age-card .reset:hover,
+body.dark .age-page .age-card .reset:hover,
+body.dark-mode .age-page .age-card .reset:hover,
+[data-theme="dark"] .age-page .age-card .reset:hover {
+  background: #334155 !important;
+  border-color: #64748b !important;
+  color: #ffffff !important;
+}
+
+
+/* ---------- ERROR ---------- */
+
+.dark .age-page .error,
+.dark-mode .age-page .error,
+body.dark .age-page .error,
+body.dark-mode .age-page .error,
+[data-theme="dark"] .age-page .error {
+  background: #3b1820 !important;
+  border-color: #7f1d1d !important;
+  color: #fda4af !important;
+}
+
+
+/* ---------- EMPTY RESULT ---------- */
+
+.dark .age-page .age-empty-result,
+.dark-mode .age-page .age-empty-result,
+body.dark .age-page .age-empty-result,
+body.dark-mode .age-page .age-empty-result,
+[data-theme="dark"] .age-page .age-empty-result {
+  background: transparent !important;
+  color: #cbd5e1 !important;
+}
+
+.dark .age-page .age-empty-result h2,
+.dark-mode .age-page .age-empty-result h2,
+body.dark .age-page .age-empty-result h2,
+body.dark-mode .age-page .age-empty-result h2,
+[data-theme="dark"] .age-page .age-empty-result h2 {
+  color: #a5b4fc !important;
+}
+
+.dark .age-page .age-empty-result p,
+.dark-mode .age-page .age-empty-result p,
+body.dark .age-page .age-empty-result p,
+body.dark-mode .age-page .age-empty-result p,
+[data-theme="dark"] .age-page .age-empty-result p {
+  color: #94a3b8 !important;
+}
+
+
+/* ---------- EMPTY RESULT ICON ---------- */
+
+.dark .age-page .age-empty-result-icon,
+.dark-mode .age-page .age-empty-result-icon,
+body.dark .age-page .age-empty-result-icon,
+body.dark-mode .age-page .age-empty-result-icon,
+[data-theme="dark"] .age-page .age-empty-result-icon {
+  background: linear-gradient(
+    135deg,
+    #1e1b4b,
+    #312e81
+  ) !important;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.30) !important;
+}
+
+
+/* ---------- EMPTY RESULT HINT ---------- */
+
+.dark .age-page .age-empty-result-hint,
+.dark-mode .age-page .age-empty-result-hint,
+body.dark .age-page .age-empty-result-hint,
+body.dark-mode .age-page .age-empty-result-hint,
+[data-theme="dark"] .age-page .age-empty-result-hint {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #94a3b8 !important;
+}
+
+
+/* ---------- NORMAL RESULT ---------- */
+
+.dark .age-page .result,
+.dark-mode .age-page .result,
+body.dark .age-page .result,
+body.dark-mode .age-page .result,
+[data-theme="dark"] .age-page .result {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+
+/* ---------- RESULT ACTIONS ---------- */
+
+.dark .age-page .ageverse-global-result-actions,
+.dark-mode .age-page .ageverse-global-result-actions,
+body.dark .age-page .ageverse-global-result-actions,
+body.dark-mode .age-page .ageverse-global-result-actions,
+[data-theme="dark"] .age-page .ageverse-global-result-actions {
+  border-top-color: #334155 !important;
+}
+
+.dark .age-page .ageverse-global-result-actions button,
+.dark-mode .age-page .ageverse-global-result-actions button,
+body.dark .age-page .ageverse-global-result-actions button,
+body.dark-mode .age-page .ageverse-global-result-actions button,
+[data-theme="dark"] .age-page .ageverse-global-result-actions button {
+  background: #1e293b !important;
+  border-color: #475569 !important;
+  color: #cbd5e1 !important;
+}
+
+.dark .age-page .ageverse-global-result-actions button:hover,
+.dark-mode .age-page .ageverse-global-result-actions button:hover,
+body.dark .age-page .ageverse-global-result-actions button:hover,
+body.dark-mode .age-page .ageverse-global-result-actions button:hover,
+[data-theme="dark"] .age-page .ageverse-global-result-actions button:hover {
+  background: #334155 !important;
+  border-color: #6366f1 !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   CHROME AUTOFILL — IMPORTANT
+   Ye white patch ka major source hai
+   ========================================================= */
+
+.dark .age-page .date-input-wrapper input:-webkit-autofill,
+.dark .age-page .date-input-wrapper input:-webkit-autofill:hover,
+.dark .age-page .date-input-wrapper input:-webkit-autofill:focus,
+.dark .age-page .date-input-wrapper input:-webkit-autofill:active,
+.dark-mode .age-page .date-input-wrapper input:-webkit-autofill,
+.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:hover,
+.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:focus,
+.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:active,
+body.dark .age-page .date-input-wrapper input:-webkit-autofill,
+body.dark .age-page .date-input-wrapper input:-webkit-autofill:hover,
+body.dark .age-page .date-input-wrapper input:-webkit-autofill:focus,
+body.dark .age-page .date-input-wrapper input:-webkit-autofill:active,
+body.dark-mode .age-page .date-input-wrapper input:-webkit-autofill,
+body.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:hover,
+body.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:focus,
+body.dark-mode .age-page .date-input-wrapper input:-webkit-autofill:active,
+[data-theme="dark"] .age-page .date-input-wrapper input:-webkit-autofill,
+[data-theme="dark"] .age-page .date-input-wrapper input:-webkit-autofill:hover,
+[data-theme="dark"] .age-page .date-input-wrapper input:-webkit-autofill:focus,
+[data-theme="dark"] .age-page .date-input-wrapper input:-webkit-autofill:active {
+  -webkit-text-fill-color: #f8fafc !important;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #1e293b inset !important;
+
+  box-shadow:
+    0 0 0 1000px #1e293b inset !important;
+
+  background-color: #1e293b !important;
+}
+
+
+/* =========================================================
+   FIX INVALID ORIGINAL SELECTORS
+   ========================================================= */
+
+.date-mode:hover {
+  transform: translateY(-1px);
+}
+
+.date-mode.active:hover {
+  transform: translateY(-2px);
+}
+
+.date-input-wrapper:focus-within {
+  background: #ffffff;
+}
+
+
+/* =========================================================
+   LIGHT MODE AUTOFILL — KEEP NORMAL
+   ========================================================= */
+
+.age-page .date-input-wrapper input:-webkit-autofill,
+.age-page .date-input-wrapper input:-webkit-autofill:hover,
+.age-page .date-input-wrapper input:-webkit-autofill:focus,
+.age-page .date-input-wrapper input:-webkit-autofill:active {
+  -webkit-text-fill-color: #334155 !important;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #ffffff inset !important;
+
+  box-shadow:
+    0 0 0 1000px #ffffff inset !important;
+}
+/* =========================================================
+   ADVANCED AGE CALCULATOR
+   REMOVE BLUE PATCH FROM CALCULATE AGE TILL SECTION
+   ========================================================= */
+
+.age-page .calculate-till-section {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Label ke peeche bhi koi background nahi */
+.age-page .calculate-till-section .calculate-till-label {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Selector ke surrounding container ko transparent rakho */
+.age-page .calculate-till-section .date-mode-selector {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Dark mode me bhi section transparent */
+.dark .age-page .calculate-till-section,
+.dark-mode .age-page .calculate-till-section,
+body.dark .age-page .calculate-till-section,
+body.dark-mode .age-page .calculate-till-section,
+[data-theme="dark"] .age-page .calculate-till-section {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Dark mode selector container */
+.dark .age-page .calculate-till-section .date-mode-selector,
+.dark-mode .age-page .calculate-till-section .date-mode-selector,
+body.dark .age-page .calculate-till-section .date-mode-selector,
+body.dark-mode .age-page .calculate-till-section .date-mode-selector,
+[data-theme="dark"] .age-page .calculate-till-section .date-mode-selector {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Label */
+.dark .age-page .calculate-till-section .calculate-till-label,
+.dark-mode .age-page .calculate-till-section .calculate-till-label,
+body.dark .age-page .calculate-till-section .calculate-till-label,
+body.dark-mode .age-page .calculate-till-section .calculate-till-label,
+[data-theme="dark"] .age-page .calculate-till-section .calculate-till-label {
+  background: transparent !important;
+  color: #e2e8f0 !important;
+}
+
+
+/* =========================================================
+   MAKE THE TWO OPTIONS CLEAN
+   ========================================================= */
+
+.dark .age-page .date-mode,
+.dark-mode .age-page .date-mode,
+body.dark .age-page .date-mode,
+body.dark-mode .age-page .date-mode,
+[data-theme="dark"] .age-page .date-mode {
+  background: #1e293b !important;
+  background-image: none !important;
+  border-color: #475569 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Today selected */
+.dark .age-page .date-mode.active,
+.dark-mode .age-page .date-mode.active,
+body.dark .age-page .date-mode.active,
+body.dark-mode .age-page .date-mode.active,
+[data-theme="dark"] .age-page .date-mode.active {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+  ) !important;
+
+  border-color: transparent !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   TODAY INFO — KEEP DARK GREEN
+   ========================================================= */
+
+.dark .age-page .today-info,
+.dark-mode .age-page .today-info,
+body.dark .age-page .today-info,
+body.dark-mode .age-page .today-info,
+[data-theme="dark"] .age-page .today-info {
+  background: linear-gradient(
+    135deg,
+    #0f3d28,
+    #14532d
+  ) !important;
+
+  border-color: #166534 !important;
+  color: #bbf7d0 !important;
+}
+
+
+/* =========================================================
+   IMPORTANT:
+   Remove accidental background from children
+   ========================================================= */
+
+.age-page .calculate-till-section > *,
+.age-page .calculate-till-section .date-mode-selector > * {
+  background-clip: padding-box;
+}

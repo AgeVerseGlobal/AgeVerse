@@ -1,0 +1,438 @@
+/* =========================================================
+   AgeVerseGlobal — EVENT PICKER
+   Premium Compact Edition
+   ========================================================= */
+
+.event-picker {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 8px 0 6px;
+}
+
+/* =========================================================
+   EVENT OPTION
+   ========================================================= */
+
+.event-option {
+  min-height: 82px;
+  padding: 11px 8px;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+
+  background: #ffffff;
+  color: #475569;
+
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow:
+    0 5px 14px rgba(15, 23, 42, 0.055);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* =========================================================
+   EVENT ICON
+   ========================================================= */
+
+.event-option span {
+  display: block;
+  margin-bottom: 5px;
+
+  font-size: 25px;
+  line-height: 1;
+}
+
+/* =========================================================
+   EVENT NAME
+   ========================================================= */
+
+.event-option p {
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 700;
+
+  color: #475569;
+}
+
+/* =========================================================
+   HOVER
+   ========================================================= */
+
+.event-option:hover {
+  transform: translateY(-2px);
+
+  border-color: #a5b4fc;
+  background: #f8faff;
+
+  box-shadow:
+    0 8px 18px rgba(79, 70, 229, 0.12);
+}
+
+/* =========================================================
+   ACTIVE EVENT
+   ========================================================= */
+
+.event-option.active {
+  color: #ffffff;
+
+  border-color: transparent;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #7c3aed
+    );
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 9px 20px rgba(79, 70, 229, 0.24);
+}
+
+.event-option.active p {
+  color: #ffffff;
+}
+
+/* =========================================================
+   CUSTOM EVENT BOX
+   ========================================================= */
+
+.custom-event-box {
+  margin-top: 8px;
+  padding: 12px;
+
+  border-radius: 15px;
+
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+
+  animation: eventSlideIn 0.25s ease;
+}
+
+.custom-event-box label {
+  display: block;
+  margin-bottom: 7px;
+
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.custom-event-box input {
+  width: 100%;
+  box-sizing: border-box;
+
+  min-height: 44px;
+  padding: 10px 12px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+
+  background: #ffffff;
+  color: #1e293b;
+
+  font-size: 14px;
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.custom-event-box input:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+/* =========================================================
+   ANIMATION
+   ========================================================= */
+
+@keyframes eventSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 500px) {
+  .event-picker {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+  }
+
+  .event-option {
+    min-height: 76px;
+    padding: 10px 7px;
+    border-radius: 14px;
+  }
+
+  .event-option span {
+    font-size: 23px;
+  }
+
+  .event-option p {
+    font-size: 11px;
+  }
+}
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 360px) {
+  .event-picker {
+    gap: 7px;
+  }
+
+  .event-option {
+    min-height: 72px;
+  }
+
+  .event-option span {
+    font-size: 21px;
+  }
+
+  .event-option p {
+    font-size: 10px;
+  }
+}
+
+/* =========================================================
+   EVENT CALCULATOR — ACTIONS + EMPTY RESULT
+   Focused visual polish only.
+========================================================= */
+
+.event-calculate-button,
+.event-reset-button {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.event-calculate-button {
+  margin-top: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #ffffff;
+  box-shadow: 0 9px 20px rgba(79, 70, 229, 0.20);
+}
+
+.event-calculate-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 11px 24px rgba(79, 70, 229, 0.26);
+}
+
+.event-calculate-button:focus-visible,
+.event-reset-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+}
+
+.event-reset-button {
+  margin-top: 10px;
+  border: 1px solid #dbe2ea;
+  background: #f8fafc;
+  color: #475569;
+}
+
+.event-reset-button:hover {
+  transform: translateY(-1px);
+  background: #ffffff;
+  border-color: #a5b4fc;
+  color: #334155;
+}
+
+.event-reminder-box + .event-calculate-button {
+  margin-top: 10px;
+}
+
+html.dark-mode .event-calculate-button,
+html.dark .event-calculate-button,
+[data-theme="dark"] .event-calculate-button {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .event-reset-button,
+html.dark .event-reset-button,
+[data-theme="dark"] .event-reset-button {
+  background: #111c31 !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+}
+
+html.dark-mode .event-reset-button:hover,
+html.dark .event-reset-button:hover,
+[data-theme="dark"] .event-reset-button:hover {
+  background: #18243a !important;
+  border-color: #64748b !important;
+  color: #f8fafc !important;
+}
+
+.event-empty-result {
+  width: 100%;
+  min-height: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.055);
+}
+
+.event-empty-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eef2ff, #f5f3ff);
+  border: 1px solid #e0e7ff;
+  font-size: 30px;
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.10);
+}
+
+.event-empty-result h2 {
+  margin: 14px 0 7px;
+  color: #1e1b4b;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.event-empty-result p {
+  max-width: 360px;
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+html.dark-mode .event-empty-result,
+html.dark .event-empty-result,
+[data-theme="dark"] .event-empty-result {
+  background: #0d172b !important;
+  border-color: #263858 !important;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+}
+
+html.dark-mode .event-empty-result h2,
+html.dark .event-empty-result h2,
+[data-theme="dark"] .event-empty-result h2 {
+  color: #f8fafc !important;
+}
+
+html.dark-mode .event-empty-result p,
+html.dark .event-empty-result p,
+[data-theme="dark"] .event-empty-result p {
+  color: #94a3b8 !important;
+}
+
+
+html.dark-mode .event-empty-icon,
+html.dark .event-empty-icon,
+[data-theme="dark"] .event-empty-icon {
+  background: #17223a !important;
+  border-color: #334155 !important;
+  box-shadow: none;
+}
+
+/* =========================================================
+   EVENT DETAILS — OPTIONAL NOTES
+========================================================= */
+.event-details-box {
+  display: grid;
+  gap: 8px;
+  margin: 2px 0 4px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #f8fafc;
+}
+
+.event-details-box label {
+  margin: 0;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.event-details-box textarea {
+  width: 100%;
+  min-height: 104px;
+  box-sizing: border-box;
+  resize: vertical;
+  padding: 12px 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: #fff;
+  color: #334155;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.55;
+  outline: none;
+}
+
+.event-details-box textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99,102,241,.12);
+}
+
+.event-details-box::after {
+  content: "";
+  display: block;
+}
+
+html.dark-mode .event-details-box {
+  background: var(--surface-soft, #111d33);
+  border-color: var(--border, #263858);
+}
+
+html.dark-mode .event-details-box label {
+  color: var(--text, #e2e8f0);
+}
+
+html.dark-mode .event-details-box textarea {
+  background: var(--input-background, #101b30);
+  color: var(--input-text, #f1f5f9);
+  border-color: var(--input-border, #31456b);
+}

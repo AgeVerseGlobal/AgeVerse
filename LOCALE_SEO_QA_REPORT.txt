@@ -1,0 +1,45 @@
+AgeVerseGlobal — Final SEO/Locale QA Report
+==========================================
+
+Scope
+-----
+- Reference file: src/locales/en.json
+- Locale JSON files checked: 28 (en + 27 other locales)
+- SEO content pages checked per locale: 15
+- FAQ pairs in English reference: 77 per locale (14 pages x 5 FAQs, age_calculator x 7 FAQs)
+- Scope of locale JSON edits: seo_content only. Existing non-seo_content keys were compared against the supplied source ZIP and are unchanged.
+
+Localization checks
+-------------------
+- All 28 JSON files parse successfully.
+- All locale files retain the same top-level keys as en.json.
+- All locale files retain the same seo_content page keys as en.json.
+- FAQ count and order are aligned to the English reference on all 15 pages.
+- The FAQ arrays are page-specific; no locale repeats one identical FAQ set across multiple pages.
+- No FAQ question or answer in a non-English locale is an exact copy of an English FAQ string.
+- Calculator names in SEO titles match the existing locale calculator_names values.
+- Every related-calculator label matches that locale's calculator_names entry for its target route.
+- 1,260 related-calculator links checked across all locales; 0 invalid target routes found.
+
+SEO and route checks
+--------------------
+- src/components/SEO.jsx uses localized seo_content title/intro values for the calculator pages, updates description/Open Graph/Twitter metadata, and sets canonical URLs on https://www.ageverseglobal.com.
+- Unknown routes are marked noindex, follow by the SEO component.
+- public/robots.txt and dist/robots.txt both point to https://www.ageverseglobal.com/sitemap.xml.
+- public/sitemap.xml is valid XML and contains 21 unique URLs. All listed URLs match application routes.
+- public/sitemap.xml and dist/sitemap.xml match.
+- llms-full.txt was updated to the currently available calculator set and synced between the project root, public/ and dist/; the checked stale route terms were not found.
+- vercel.json retains the legacy /percentage-calculator redirect and SPA rewrite.
+
+Build checks
+------------
+- ESLint passed for src/components/SEO.jsx.
+- Vite production build succeeded: 422 modules transformed.
+- The local environment's preinstalled lightningcss native binary was unavailable, so the verification build was run with cssMinify=false temporarily. vite.config.js was restored afterward; cssMinify=false is NOT present in the delivered source configuration. Vercel should perform its normal build after installing dependencies.
+
+Deployment notes / limitations
+------------------------------
+- .env.local, node_modules, and .git are intentionally excluded from the ZIP.
+- If the feedback feature uses GOOGLE_FEEDBACK_WEB_APP_URL, set that variable in Vercel Project Settings > Environment Variables; do not commit .env.local.
+- Canonical host in the source is https://www.ageverseglobal.com. Confirm that www.ageverseglobal.com is the primary domain in Vercel and that the apex domain redirects to it. The live Vercel domain configuration could not be verified from the local source package.
+- Translation QA was performed against the English reference for completeness, structure, terminology, and obvious untranslated/shortened content. No separate native-speaker review was performed; for high-stakes publication, a native-speaker proofread remains advisable.

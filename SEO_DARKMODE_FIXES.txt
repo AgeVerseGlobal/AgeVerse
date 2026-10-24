@@ -1,0 +1,16 @@
+AgeVerseGlobal — SEO component linking and dark-mode fixes
+
+Changes in this build:
+- Linked the individual SEO description component to each calculator page: Age, Event, Date Difference, Retirement, Health Profile, Pregnancy, Unit Converter, Percentage, GST, EMI, Discount, SIP, FD, RD and Dog Age.
+- Fixed Event Calculator to render EventCalculatorSEOContent instead of DateDifferenceSEOContent.
+- Added missing SEO component imports and rendered each description below its calculator UI without changing calculator calculation formulas.
+- Replaced the Date Difference result slot's accidental guide component with a result card that displays the computed year/month/day difference and totals.
+- Added a dedicated DateDifferenceResultCard.css using the project's theme variables so the result card follows light/dark theme colors.
+- SEO CSS files use the project's theme variables for backgrounds, borders, and text, so their cards/tables follow the active theme.
+
+Validation:
+- Vite transformed the app and completed a production build when CSS minification was disabled for this environment.
+- The uploaded archive's bundled node_modules was missing the platform-specific LightningCSS binary required for the default CSS-minification step. node_modules is intentionally excluded from this source ZIP; install dependencies on your computer with `npm install` before running `npm run build`.
+- Existing ESLint errors elsewhere in calculator code were not broadly changed to avoid unrelated edits.
+
+No calculator formulas, input validation, or existing calculator actions were intentionally changed.

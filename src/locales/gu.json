@@ -1,0 +1,3390 @@
+{
+  "retirement": {
+    "calculate_subtitle": "તમારી નિવૃત્તિની તારીખ અને બાકી સમયની ગણતરી કરો.",
+    "reminder_description": "પસંદ કરો કે AgeVerseGlobal તમને ક્યારે યાદ અપાવે.",
+    "service_completed": "સેવા પૂર્ણ થઈ",
+    "total_service_at_retirement": "નિવૃત્તિ સમયે કુલ સેવા સમયગાળો",
+    "current_age": "વર્તમાન ઉંમર",
+    "age_at_retirement": "નિવૃત્તિ સમયે ઉંમર",
+    "result_title": "રિટાયરમેન્ટ પરિણામ",
+    "result_subtitle": "તમારા નિવૃત્તિ આયોજનનો સારાંશ",
+    "date_of_birth": "જન્મ તારીખ",
+    "date_of_joining": "નોકરીમાં જોડાવાની તારીખ",
+    "retirement_date": "નિવૃત્તિની તારીખ",
+    "retirement_age": "નિવૃત્તિની ઉંમર",
+    "completed_title": "નિવૃત્તિ પૂર્ણ થઈ",
+    "empty_title": "રિટાયરમેન્ટ આયોજન",
+    "empty_text": "તમારી નિવૃત્તિ તારીખ અને બાકી સમયની ગણતરી કરવા માટે તમારી જન્મ તારીખ પસંદ કરો.",
+    "empty_hint": "શરૂ કરવા માટે ઉપર તમારી વિગતો દાખલ કરો."
+  },
+  "common": {
+    "app_name": "AgeVerseGlobal",
+    "calculate": "ગણતરી કરો",
+    "reset": "રીસેટ",
+    "submit": "સબમિટ કરો",
+    "cancel": "રદ કરો",
+    "share": "શેર કરો",
+    "copy": "કોપી કરો",
+    "download": "ડાઉનલોડ કરો",
+    "result": "પરિણામ",
+    "calculators": "કેલ્ક્યુલેટર",
+    "live": "લાઈવ",
+    "open_calculator": "કેલ્ક્યુલેટર ખોલો",
+    "from": "થી",
+    "till": "સુધી",
+    "years": "વર્ષ",
+    "months": "મહિના",
+    "days": "દિવસ",
+    "weeks": "અઠવાડિયા",
+    "hours": "કલાક",
+    "minutes": "મિનિટ",
+    "seconds": "સેકન્ડ",
+    "explore_calculators_title": "AgeVerseGlobal કેલ્ક્યુલેટર જુઓ",
+    "explore_calculators_text": "AgeVerseGlobal પર ઉંમર, તારીખ, આરોગ્ય, નાણાકીય અને રોજિંદી ગણતરી માટેના કેલ્ક્યુલેટર જુઓ.",
+    "explore_calculators_button": "કેલ્ક્યુલેટર જુઓ",
+    "next_birthday": "આગામી જન્મદિવસ",
+    "days_remaining": "બાકી દિવસો",
+    "your_age": "તમારી ઉંમર",
+    "total_time": "કુલ સમય",
+    "born_on": "જન્મ તારીખ",
+    "event_countdown": "ઇવેન્ટ કાઉન્ટડાઉન",
+    "event_date": "ઇવેન્ટની તારીખ",
+    "event_time": "ઇવેન્ટનો સમય",
+    "weekday": "અઠવાડિયાનો દિવસ",
+    "time_remaining": "બાકી સમય",
+    "total_days": "કુલ દિવસ",
+    "exact_difference": "ચોક્કસ તફાવત",
+    "from_day": "શરૂઆતનો દિવસ",
+    "to_day": "અંતિમ દિવસ",
+    "total_years": "કુલ વર્ષ",
+    "total_months": "કુલ મહિના",
+    "total_weeks": "કુલ અઠવાડિયા",
+    "total_hours": "કુલ કલાક",
+    "total_minutes": "કુલ મિનિટ",
+    "total_seconds": "કુલ સેકન્ડ",
+    "remaining_period": "બાકી સમયગાળો",
+    "live_countdown": "લાઇવ કાઉન્ટડાઉન",
+    "reminder": "રિમાઇન્ડર",
+    "retirement_day": "નિવૃત્તિનો દિવસ",
+    "one_day_before": "1 દિવસ પહેલાં",
+    "days_before": "દિવસ પહેલાં",
+    "not_specified": "ઉલ્લેખિત નથી",
+    "upcoming_event": "આવનારી ઇવેન્ટ",
+    "passed_event": "ઇવેન્ટ પૂરી થઈ ગઈ",
+    "notification_permission": "બ્રાઉઝર રિમાઇન્ડર માટે સૂચના પરવાનગી જરૂરી હોઈ શકે છે.",
+    "retirement_day_message": "નિવૃત્તિ દિવસ સંદેશ",
+    "notification_permission_blocked": "સૂચનાઓની મંજૂરી બ્લોક કરવામાં આવી છે. રિમાઇન્ડર મેળવવા માટે કૃપા કરીને AgeVerseGlobal માટે સૂચનાઓની મંજૂરી આપો.",
+    "event_reminder_not_configured": "ઇવેન્ટ રિમાઇન્ડર સેવા ગોઠવેલી નથી.",
+    "reminder_set": "રિમાઇન્ડર સેટ થયું",
+    "reminder_time": "રિમાઇન્ડરનો સમય",
+    "all_calculators": "બધા કેલ્ક્યુલેટર",
+    "explore_more_calculators": "વધુ કેલ્ક્યુલેટર જુઓ",
+    "show_less_calculators": "ઓછું બતાવો",
+    "feedback": "પ્રતિસાદ",
+    "feedback_title": "તમારો પ્રતિસાદ આપો",
+    "feedback_rating": "રેટિંગ",
+    "feedback_feedback": "તમારો પ્રતિસાદ",
+    "feedback_placeholder": "તમને શું લાગે છે તે જણાવો...",
+    "feedback_privacy_notice": "તમારા પ્રતિસાદમાં તમારો અંદાજિત દેશ/શહેર અને તમે જોઈ રહ્યા છો તે પેજ સામેલ હોઈ શકે છે. અમે તમારું IP સરનામું સંગ્રહિત કરતા નથી અને નામ, ઇમેઇલ, ફોન નંબર, OTP અથવા સમાન વ્યક્તિગત માહિતી માંગતા નથી.",
+    "feedback_success": "તમારા પ્રતિસાદ બદલ આભાર!",
+    "feedback_error": "હાલમાં પ્રતિસાદ મોકલી શકાતો નથી. ફરી પ્રયાસ કરો.",
+    "feedback_close": "બંધ કરો",
+    "feedback_sending": "મોકલી રહ્યા છીએ...",
+    "feedback_rating_required": "કૃપા કરીને રેટિંગ પસંદ કરો.",
+    "feedback_message_required": "કૃપા કરીને તમારો પ્રતિસાદ લખો.",
+    "about_short": "વિશે",
+    "search_calculator": "કેલ્ક્યુલેટર શોધો",
+    "search_calculator_help": "થોડી જ સેકન્ડમાં તમારી જરૂરિયાતનું કેલ્ક્યુલેટર શોધો.",
+    "search_calculator_placeholder": "કેલ્ક્યુલેટર શોધો...",
+    "no_calculators_found": "કોઈ કેલ્ક્યુલેટર મળ્યું નથી.",
+    "close": "બંધ કરો",
+    "event_details_input": "ઇવેન્ટનું વર્ણન / વિગતો (વૈકલ્પિક)",
+    "event_details_placeholder": "આ ઇવેન્ટ વિશે વિગતો ઉમેરો...",
+    "event_details": "ઇવેન્ટની વિગતો"
+  },
+  "age": {
+    "title": "અદ્યતન વય કેલ્ક્યુલેટર",
+    "subtitle": "સંપૂર્ણ વિગતો સાથે તમારી સાચી ઉંમરની ગણતરી કરો.",
+    "date_of_birth": "જન્મ તારીખ",
+    "calculate_till": "ગણતરીની તારીખ",
+    "years": "વર્ષ",
+    "months": "મહિના",
+    "days": "દિવસ",
+    "hours": "કલાક",
+    "minutes": "મિનિટ",
+    "seconds": "સેકન્ડ",
+    "calculate_age_till": "ઉંમરની ગણતરીની તારીખ",
+    "today": "આજે",
+    "specific_date": "ચોક્કસ તારીખ",
+    "today_calculation_info": "ઉંમરની ગણતરી આજ સુધી કરવામાં આવશે",
+    "today_calculation_note": "વર્તમાન તારીખ આપમેળે વપરાશે.",
+    "empty_result_title": "તમારી ઉંમરનું પરિણામ",
+    "empty_result_text": "તમારી સંપૂર્ણ ઉંમરનું પરિણામ જોવા માટે ગણતરી કરો.",
+    "empty_result_hint": "📅 તમારી જન્મ તારીખ પસંદ કરો અને ગણતરી કરો પર ક્લિક કરો"
+  },
+  "event": {
+    "title": "ઇવેન્ટ કેલ્ક્યુલેટર",
+    "subtitle": "તમારા ખાસ પ્રસંગો માટે કાઉન્ટડાઉન કરો.",
+    "select_event": "ઇવેન્ટ પસંદ કરો",
+    "birthday": "જન્મદિવસ",
+    "anniversary": "વર્ષગાંઠ",
+    "exam": "પરીક્ષા",
+    "trip": "પ્રવાસ / રજા",
+    "party": "પાર્ટી / કાર્યક્રમ",
+    "custom_event": "કસ્ટમ ઇવેન્ટ",
+    "event_date": "ઇવેન્ટની તારીખ"
+  },
+  "message": {
+    "select_dates": "કૃપા કરીને બંને તારીખો પસંદ કરો.",
+    "select_event": "કૃપા કરીને ઇવેન્ટનો પ્રકાર પસંદ કરો.",
+    "enter_custom_event": "કૃપા કરીને કસ્ટમ ઇવેન્ટનું નામ લખો.",
+    "select_event_date": "કૃપા કરીને ઇવેન્ટની તારીખ પસંદ કરો.",
+    "invalid_date": "અમાન્ય તારીખ.",
+    "future_date": "ભવિષ્યની તારીખ માન્ય નથી.",
+    "from_date_greater_than_to_date": "શરૂઆતની તારીખ અંતિમ તારીખ કરતાં મોટી હોઈ શકે નહીં."
+  },
+  "header": {
+    "tagline": "આજનું આયોજન, કાલની સમૃદ્ધિ"
+  },
+  "theme": {
+    "dark_mode": "ડાર્ક મોડ કરો",
+    "light_mode": "લાઇટ મોડ કરો",
+    "language": "ભાષા"
+  },
+  "calculator_names": {
+    "age_calculator": "વય કેલ્ક્યુલેટર",
+    "event_calculator": "ઇવેન્ટ કેલ્ક્યુલેટર",
+    "date_difference": "તારીખનો તફાવત",
+    "retirement_calculator": "રિટાયરમેન્ટ કેલ્ક્યુલેટર",
+    "health_profile": "સંપૂર્ણ હેલ્થ પ્રોફાઇલ",
+    "pregnancy_calculator": "ગર્ભાવસ્થા કેલ્ક્યુલેટર",
+    "unit_converter": "યુનિટ કન્વર્ટર",
+    "percentage_calculator": "ટકાવારી કેલ્ક્યુલેટર",
+    "gst_calculator": "GST કેલ્ક્યુલેટર",
+    "emi_calculator": "EMI કેલ્ક્યુલેટર",
+    "discount_calculator": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર",
+    "sip_calculator": "SIP કેલ્ક્યુલેટર",
+    "fd_calculator": "FD કેલ્ક્યુલેટર",
+    "rd_calculator": "RD કેલ્ક્યુલેટર",
+    "dog_age_calculator": "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર"
+  },
+  "footer": {
+    "description": "ઉંમર, તારીખ, આરોગ્ય, નાણાં અને રોજિંદા જીવન માટે સ્માર્ટ, વિશ્વસનીય અને વિચારપૂર્વકના કેલ્ક્યુલેટર — વધુ સારા નિર્ણયો લેવામાં સ્પષ્ટતા અને આત્મવિશ્વાસ સાથે મદદ કરવા માટે.",
+    "trust": "✓ ચોક્કસ • ✓ સરળ • ✓ ગોપનીયતા કેન્દ્રિત",
+    "quick_links": "ઝડપી લિંક્સ",
+    "home": "હોમ",
+    "about": "AgeVerseGlobal વિશે",
+    "contact": "સંપર્ક",
+    "information": "માહિતી",
+    "privacy": "ગોપનીયતા નીતિ",
+    "terms": "નિયમો અને શરતો",
+    "disclaimer": "અસ્વીકરણ (Disclaimer)",
+    "languages": "ભાષાઓ",
+    "rights": "સર્વાધિકાર સુરક્ષિત.",
+    "powered": "સ્માર્ટ રોજિંદી ગણતરીઓ માટે બનાવાયેલ"
+  },
+  "category_names": {
+    "age": "🎂 ઉંમર અને તારીખ",
+    "health": "🏥 આરોગ્ય",
+    "family": "👶 પરિવાર",
+    "utility": "🧮 ઉપયોગિતા",
+    "pet": "🐶 પાલતુ"
+  },
+  "calculator_desc": {
+    "age_calculator": "વર્ષ, મહિના અને દિવસોમાં સચોટ ઉંમરની ગણતરી કરો.",
+    "event_calculator": "જન્મદિવસ, વર્ષગાંઠ, પરીક્ષા અને અન્ય પ્રસંગોનું કાઉન્ટડાઉન કરો.",
+    "date_difference": "બે તારીખો વચ્ચેનો ચોક્કસ તફાવત જાણો.",
+    "retirement_calculator": "રિટાયરમેન્ટની સમયરેખા અને બાકી સમયની ગણતરી કરો.",
+    "health_profile": "BMI, BMR, કેલરી, પોષણ, પાણી અને ડાયેટ પ્લાન.",
+    "pregnancy_calculator": "ગર્ભાવસ્થાના સપ્તાહ અને અંદાજિત ડિલિવરી તારીખ જુઓ.",
+    "unit_converter": "લંબાઈ, વજન, તાપમાન, કદ અને ઘણું બધું બદલો.",
+    "percentage_calculator": "ટકાવારી, વધારો, ઘટાડો અને તફાવતની ગણતરી કરો.",
+    "gst_calculator": "GST રકમ તથા ટેક્સ સહિત અને ટેક્સ વગરની કિંમત ગણો.",
+    "emi_calculator": "લોન EMI, વ્યાજ અને કુલ ચુકવણીની ગણતરી કરો.",
+    "discount_calculator": "ડિસ્કાઉન્ટ, બચત અને અંતિમ વેચાણ કિંમત ગણો.",
+    "sip_calculator": "SIP રોકાણ વૃદ્ધિ અને અપેક્ષિત રિટર્નનો અંદાજ લગાવો.",
+    "fd_calculator": "ફિક્સ્ડ ડિપોઝિટની પાકતી મુદત અને વ્યાજની ગણતરી કરો.",
+    "rd_calculator": "આવર્તી થાપણ (RD) ની પાકતી મુદત અને વ્યાજ ગણો.",
+    "dog_age_calculator": "તમારા કૂતરાની ઉંમર અને માનવ ઉંમર સમકક્ષ ગણતરી કરો."
+  },
+  "result_actions": {
+    "copy_image": "ઈમેજ કોપી કરો",
+    "download_pdf": "PDF ડાઉનલોડ કરો",
+    "share_pdf": "PDF શેર કરો",
+    "print": "પ્રિન્ટ કરો",
+    "new": "નવું",
+    "copy_success": "પરિણામની ઈમેજ સફળતાપૂર્વક કોપી થઈ ગઈ.",
+    "copy_fallback": "આ બ્રાઉઝરમાં ઈમેજ કોપી સપોર્ટેડ નથી, તેથી PNG સેવ કરવામાં આવી છે.",
+    "share_success": "PDF સફળતાપૂર્વક શેર થઈ ગઈ.",
+    "new_success": "કેલ્ક્યુલેટર રીસેટ થઈ ગયું.",
+    "generic_error": "પરિણામ તૈયાર કરી શકાયું નથી.",
+    "aria_label": "પરિણામ વિકલ્પો",
+    "share_link_copied": "પરિણામની લિંક કૉપી થઈ ગઈ છે. તેને કોઈપણ ઍપમાં પેસ્ટ કરીને શેર કરો.",
+    "share_download_fallback": "અહીં શેરિંગ ઉપલબ્ધ નથી, તેથી PDF સેવ કરવામાં આવી છે."
+  },
+  "bridge": {
+    "Age": "ઉંમર",
+    "Age Calculator": "વય કેલ્ક્યુલેટર",
+    "Age Category": "વય શ્રેણી",
+    "Age Summary": "વય સારાંશ",
+    "Your Age": "તમારી ઉંમર",
+    "Your Age Result": "તમારી ઉંમરનું પરિણામ",
+    "Exact Age": "ચોક્કસ ઉંમર",
+    "Birth Date": "જન્મ તારીખ",
+    "Date of Birth": "જન્મ તારીખ",
+    "Calculate Age": "ઉંમરની ગણતરી કરો",
+    "Calculate Age On": "આ તારીખે ઉંમરની ગણતરી કરો",
+    "Calculate Age Till": "ઉંમરની ગણતરીની તારીખ",
+    "Age will be calculated up to today": "ઉંમરની ગણતરી આજ સુધી કરવામાં આવશે",
+    "Select your date of birth and click Calculate": "તમારી જન્મ તારીખ પસંદ કરો અને ગણતરી કરો પર ક્લિક કરો",
+    "Calculate": "ગણતરી કરો",
+    "Calculate Your Age": "તમારી ઉંમરની ગણતરી કરો",
+    "Result": "પરિણામ",
+    "Calculation": "ગણતરી",
+    "Calculation Result": "ગણતરી પરિણામ",
+    "Calculation Type": "ગણતરીનો પ્રકાર",
+    "Calculated by": "AgeVerseGlobal દ્વારા ગણતરી કરાયેલ",
+    "Calculated between the selected dates": "પસંદ કરેલી તારીખો વચ્ચે ગણતરી કરાયેલ",
+    "Calculated result": "ગણતરી કરેલ પરિણામ",
+    "Input": "ઈનપુટ",
+    "Input Details": "ઈનપુટ વિગતો",
+    "Input Amount": "ઈનપુટ રકમ",
+    "Input Summary": "ઈનપુટ સારાંશ",
+    "Reset": "રીસેટ",
+    "New": "નવું",
+    "Copy": "કોપી કરો",
+    "Copy Result": "પરિણામ કોપી કરો",
+    "Copy Image": "ઈમેજ કોપી કરો",
+    "Share": "શેર કરો",
+    "Share Result": "પરિણામ શેર કરો",
+    "Share PDF": "PDF શેર કરો",
+    "Download": "ડાઉનલોડ કરો",
+    "Download PDF": "PDF ડાઉનલોડ કરો",
+    "Print": "પ્રિન્ટ કરો",
+    "From": "થી",
+    "To": "સુધી",
+    "From Date": "શરૂઆતની તારીખ",
+    "To Date": "અંતિમ તારીખ",
+    "From Day": "શરૂઆતનો દિવસ",
+    "To Day": "અંતિમ દિવસ",
+    "Till": "સુધી",
+    "Specific Date": "ચોક્કસ તારીખ",
+    "Year": "વર્ષ",
+    "Years": "વર્ષ",
+    "Months": "મહિના",
+    "Month": "મહિનો",
+    "Days": "દિવસ",
+    "Day": "દિવસ",
+    "Weeks": "અઠવાડિયા",
+    "Week": "અઠવાડિયું",
+    "Hours": "કલાક",
+    "Hour": "કલાક",
+    "Minutes": "મિનિટ",
+    "Minute": "મિનિટ",
+    "Seconds": "સેકન્ડ",
+    "Second": "સેકન્ડ",
+    "Total Years": "કુલ વર્ષ",
+    "Total Months": "કુલ મહિના",
+    "Total Weeks": "કુલ અઠવાડિયા",
+    "Total Days": "કુલ દિવસ",
+    "Total Hours": "કુલ કલાક",
+    "Total Minutes": "કુલ મિનિટ",
+    "Total Seconds": "કુલ સેકન્ડ",
+    "Total Time": "કુલ સમય",
+    "Exact difference between the selected dates": "પસંદ કરેલી તારીખો વચ્ચેનો ચોક્કસ તફાવત",
+    "Date Difference": "તારીખનો તફાવત",
+    "Date Difference Calculator": "તારીખ તફાવત કેલ્ક્યુલેટર",
+    "Date Difference Result": "તારીખ તફાવતનું પરિણામ",
+    "Exact Difference": "ચોક્કસ તફાવત",
+    "Event Calculator": "ઇવેન્ટ કેલ્ક્યુલેટર",
+    "Event Countdown": "ઇવેન્ટ કાઉન્ટડાઉન",
+    "Event Date": "ઇવેન્ટની તારીખ",
+    "Select Event": "ઇવેન્ટ પસંદ કરો",
+    "Calculate Countdown": "કાઉન્ટડાઉનની ગણતરી કરો",
+    "Calculate Difference": "તફાવતની ગણતરી કરો",
+    "Custom Event Name": "કસ્ટમ ઇવેન્ટનું નામ",
+    "Event Time": "ઇવેન્ટનો સમય",
+    "Reminder": "રિમાઇન્ડર",
+    "Reminder Set": "રિમાઇન્ડર સેટ છે",
+    "Reminder Time": "રિમાઇન્ડર સમય",
+    "No Reminder": "કોઈ રિમાઇન્ડર નહીં",
+    "1 Day Before": "1 દિવસ પહેલાં",
+    "1 Hour Before": "1 કલાક પહેલા",
+    "10 Minutes Before": "10 મિનિટ પહેલા",
+    "24 Hours Before": "24 કલાક પહેલા",
+    "Days Before": "દિવસ પહેલાં",
+    "Hours Before": "કલાક પહેલા",
+    "Minutes Before": "મિનિટ પહેલા",
+    "Get notified before your event": "તમારી ઇવેન્ટ પહેલા નોટિફિકેશન મેળવો",
+    "Choose when your event starts": "તમારી ઇવેન્ટ ક્યારે શરૂ થાય છે તે પસંદ કરો",
+    "Choose when AgeVerseGlobal should remind you.": "પસંદ કરો કે AgeVerseGlobal તમને ક્યારે યાદ અપાવે.",
+    "Smart tools for your everyday date calculations.": "તમારી રોજિંદી તારીખની ગણતરીઓ માટે સ્માર્ટ ટૂલ્સ.",
+    "Explore Calculators": "કેલ્ક્યુલેટરો જુઓ",
+    "Explore AgeVerseGlobal calculators to find the tool you need.": "તમારી જરૂરિયાતનું ટૂલ શોધવા AgeVerseGlobal ના કેલ્ક્યુલેટર જુઓ.",
+    "Start Calculating": "ગણતરી શરૂ કરો",
+    "Verified User": "ચકાસાયેલ ઉપયોગકર્તા",
+    "Free Forever": "હંમેશા મફત",
+    "Instant Calculation": "ત્વરિત ગણતરી",
+    "Multiple Date Support": "એકથી વધુ તારીખોનું સમર્થન",
+    "Privacy Focused": "ગોપનીયતા કેન્દ્રિત",
+    "Fast": "ઝડપી",
+    "Accurate": "ચોક્કસ",
+    "Detailed": "વિગતવાર",
+    "Simple": "સરળ",
+    "Premium": "પ્રીમિયમ",
+    "Health & Wellness": "આરોગ્ય અને સુખાકારી",
+    "Complete Health Profile": "સંપૂર્ણ હેલ્થ પ્રોફાઇલ",
+    "Personal Details": "વ્યક્તિગત વિગતો",
+    "Gender": "જાતિ (Gender)",
+    "Male": "પુરુષ",
+    "Female": "મહિલા",
+    "Other": "અન્ય",
+    "Senior Citizen": "વરિષ્ઠ નાગરિક",
+    "Senior Citizen Rate": "વરિષ્ઠ નાગરિક દર",
+    "Additional Senior Citizen Rate (%)": "અતિરિક્ત વરિષ્ઠ નાગરિક દર (%)",
+    "Goal": "ધ્યેય",
+    "Your Goal": "તમારું ધ્યેય",
+    "Gain Weight": "વજન વધારવું",
+    "Lose Weight": "વજન ઘટાડવું",
+    "Maintain": "જાળવી રાખવું",
+    "Diet Preference": "આહાર પસંદગી",
+    "Vegetarian": "શાકાહારી",
+    "Non-Vegetarian": "માંસાહારી",
+    "Vegan": "વીગન",
+    "Activity Level": "પ્રવૃત્તિનું સ્તર",
+    "Sedentary": "નિષ્ક્રિય (બેઠાડુ)",
+    "Lightly Active": "હળવું સક્રિય",
+    "Moderately Active": "મધ્યમ સક્રિય",
+    "Very Active": "ખૂબ સક્રિય",
+    "Extra Active": "અત્યંત સક્રિય",
+    "Little or no exercise": "ખૂબ ઓછી અથવા કોઈ કસરત નહીં",
+    "Light exercise": "હળવી કસરત",
+    "Exercise 3–5": "અઠવાડિયામાં 3-5 દિવસ કસરત",
+    "6–7 days/week": "અઠવાડિયામાં 6–7 દિવસ",
+    "1–3 days/week": "અઠવાડિયામાં 1–3 દિવસ",
+    "physical work": "શારીરિક કાર્ય",
+    "Health Score": "હેલ્થ સ્કોર",
+    "Wellness Score": "વેલનેસ સ્કોર",
+    "Your Overall Wellness": "તમારું એકંદર આરોગ્ય",
+    "Your personalized wellness report": "તમારો વ્યક્તિગત વેલનેસ રિપોર્ટ",
+    "Fill in your details to calculate your complete wellness result.": "તમારું સંપૂર્ણ વેલનેસ પરિણામ જાણવા વિગતો ભરો.",
+    "✨ Calculate Wellness": "✨ વેલનેસની ગણતરી કરો",
+    "Wellness": "વેલનેસ",
+    "BMI Gauge": "BMI ગેજ",
+    "Body Mass Index": "બોડી માસ ઇન્ડેક્સ (BMI)",
+    "Healthy": "તંદુરસ્ત",
+    "Healthy Range": "તંદુરસ્ત સીમા",
+    "Underweight": "ઓછું વજન",
+    "Overweight": "વધુ વજન",
+    "Obesity": "મેદસ્વીતા",
+    "BMI": "BMI",
+    "BMR": "BMR",
+    "Water": "પાણી",
+    "Liters/day": "લીટર/દિવસ",
+    "Ideal Weight": "આદર્શ વજન",
+    "Matches real age": "વાસ્તવિક ઉંમરને અનુરૂપ",
+    "Body Age": "શારીરિક ઉંમર",
+    "Protein": "પ્રોટીન",
+    "Carbs": "કાર્બોહાઇડ્રેટ્સ",
+    "Fat": "ચરબી (ફેટ)",
+    "daily": "દરરોજ",
+    "Recommended daily nutrition": "ભલામણ કરેલ દૈનિક પોષણ",
+    "Nutrition Balance": "પોષણ સંતુલન",
+    "Personalized Diet Plan": "વ્યક્તિગત ડાયેટ પ્લાન",
+    "Food suggestions based on your selected diet": "તમે પસંદ કરેલા આહારના આધારે ખોરાકના સૂચનો",
+    "Balanced Diet": "સંતુલિત આહાર",
+    "Daily Lifestyle Goals": "દૈનિક જીવનશૈલીના લક્ષ્યો",
+    "Sleep:": "ઊંઘ:",
+    "Steps:": "પગલાં:",
+    "Nutrition:": "પોષણ:",
+    "Water:": "પાણી:",
+    "Today's Challenge": "આજનો પડકાર",
+    "Smart Health Tips": "સ્માર્ટ હેલ્થ ટીપ્સ",
+    "Quick Tip": "ઝડપી ટીપ",
+    "How it works": "આ કેવી રીતે કામ કરે છે",
+    "Important": "મહત્વપૂર્ણ",
+    "Calculation Note": "ગણતરીની નોંધ",
+    "Disclaimer:": "અસ્વીકરણ:",
+    "Generated by": "AgeVerseGlobal દ્વારા જનરેટ કરાયેલ",
+    "AgeVerseGlobal": "AgeVerseGlobal",
+    "Retirement Calculator": "રિટાયરમેન્ટ કેલ્ક્યુલેટર",
+    "Retirement Planning": "રિટાયરમેન્ટ આયોજન",
+    "Retirement Result": "રિટાયરમેન્ટ પરિણામ",
+    "Retirement Completed": "નિવૃત્તિ પૂર્ણ થઈ",
+    "Retirement Day": "નિવૃત્તિનો દિવસ",
+    "Retirement Day Reminder": "નિવૃત્તિ દિવસનું રિમાઇન્ડર",
+    "Retirement Day Message": "નિવૃત્તિ દિવસ સંદેશ",
+    "Calculate Retirement": "નિવૃત્તિની ગણતરી કરો",
+    "Retirement Date": "નિવૃત્તિની તારીખ",
+    "Retirement Age": "નિવૃત્તિની ઉંમર",
+    "Event Completed": "ઇવેન્ટ પૂર્ણ થઈ",
+    "Upcoming Event": "આવનારી ઇવેન્ટ",
+    "Time Remaining": "બાકી સમય",
+    "Remaining Period": "બાકી સમયગાળો",
+    "Estimated Time Remaining": "અંદાજિત બાકી સમય",
+    "Live Countdown": "લાઇવ કાઉન્ટડાઉન",
+    "Next Birthday": "આગામી જન્મદિવસ",
+    "Birthday": "જન્મદિવસ",
+    "Anniversary": "વર્ષગાંઠ",
+    "Exam": "પરીક્ષા",
+    "Trip / Vacation": "પ્રવાસ / રજા",
+    "Party / Event": "પાર્ટી / કાર્યક્રમ",
+    "Custom": "કસ્ટમ",
+    "Unit Converter": "યુનિટ કન્વર્ટર",
+    "Unit Conversion Result": "યુનિટ રૂપાંતરણ પરિણામ",
+    "Conversion": "રૂપાંતરણ",
+    "Conversion Category": "રૂપાંતરણ શ્રેણી",
+    "Converted Value": "રૂપાંતરિત મૂલ્ય",
+    "From Unit": "આ એકમથી",
+    "To Unit": "આ એકમમાં",
+    "Swap units": "એકમો બદલો",
+    "Enter value": "મૂલ્ય દાખલ કરો",
+    "Percentage Calculator": "ટકાવારી કેલ્ક્યુલેટર",
+    "to see the complete percentage calculation.": "સંપૂર્ણ ટકાવારી ગણતરી જોવા માટે.",
+    "Discount Calculator": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર",
+    "Discount": "ડિસ્કાઉન્ટ",
+    "Discount (%)": "ડિસ્કાઉન્ટ (%)",
+    "Discount 1 (%)": "ડિસ્કાઉન્ટ 1 (%)",
+    "Discount 2 (%)": "ડિસ્કાઉન્ટ 2 (%)",
+    "Discount 3 (%) — Optional": "ડિસ્કાઉન્ટ 3 (%) — વૈકલ્પિક",
+    "Effective Discount": "અસરકારક ડિસ્કાઉન્ટ",
+    "Effective Rate": "અસરકારક દર",
+    "Final Price": "અંતિમ કિંમત",
+    "Final Selling Price": "અંતિમ વેચાણ કિંમત",
+    "Original Price": "મૂળ કિંમત",
+    "Original / Marked Price": "મૂળ / છાપેલી કિંમત",
+    "Saving": "બચત",
+    "Savings": "બચત",
+    "Total Saving": "કુલ બચત",
+    "Quantity-Based Discount Slabs": "જથ્થા આધારિત ડિસ્કાઉન્ટ સ્લેબ",
+    "Sequential Discounts": "ક્રમિક ડિસ્કાઉન્ટ",
+    "GST Calculator": "GST કેલ્ક્યુલેટર",
+    "GST": "GST",
+    "GST Rate": "GST દર",
+    "GST Amount": "GST રકમ",
+    "Tax Type": "ટેક્સનો પ્રકાર",
+    "CGST": "CGST",
+    "SGST": "SGST",
+    "IGST": "IGST",
+    "CGST + SGST": "CGST + SGST",
+    "Custom GST Rate (%)": "કસ્ટમ GST દર (%)",
+    "GST Breakdown": "GST વિગત",
+    "to see the complete GST calculation.": "સંપૂર્ણ GST ગણતરી જોવા માટે.",
+    "EMI Calculator": "EMI કેલ્ક્યુલેટર",
+    "EMI Calculation Result": "EMI ગણતરી પરિણામ",
+    "Monthly EMI": "માસિક EMI",
+    "Loan Amount": "લોનની રકમ",
+    "Loan Tenure": "લોનનો સમયગાળો",
+    "Annual Interest Rate (%)": "વાર્ષિક વ્યાજ દર (%)",
+    "Annual Interest": "વાર્ષિક વ્યાજ",
+    "Monthly Interest": "માસિક વ્યાજ",
+    "Interest Rate": "વ્યાજ દર",
+    "Interest Rate (% p.a.)": "વ્યાજ દર (% પ્રતિ વર્ષ)",
+    "Principal": "મુદ્દલ",
+    "Principal Amount": "મુદ્દલ રકમ",
+    "Total Payment": "કુલ ચુકવણી",
+    "Total Repayment": "કુલ પુનઃચુકવણી",
+    "Repayment Summary": "પુનઃચુકવણી સારાંશ",
+    "Repayment Flow": "પુનઃચુકવણી ફ્લો",
+    "Payment Composition": "ચુકવણી માળખું",
+    "Your complete loan repayment summary": "તમારી લોન પુનઃચુકવણીનો સંપૂર્ણ સારાંશ",
+    "SIP Calculator": "SIP કેલ્ક્યુલેટર",
+    "SIP Calculation Result": "SIP ગણતરી પરિણામ",
+    "SIP Amount": "SIP રકમ",
+    "SIP Investment Amount": "SIP રોકાણ રકમ",
+    "SIP Frequency": "SIP આવર્તન",
+    "Annual Return": "વાર્ષિક રિટર્ન",
+    "Expected Annual Return (%)": "અપેક્ષિત વાર્ષિક રિટર્ન (%)",
+    "Expected Return": "અપેક્ષિત રિટર્ન",
+    "Annual Step-Up (%)": "વાર્ષિક સ્ટેપ-અપ (%)",
+    "Step-Up": "સ્ટેપ-અપ",
+    "Annual SIP Step-Up": "વાર્ષિક SIP સ્ટેપ-અપ",
+    "Investment & Wealth Projection": "રોકાણ અને સંપત્તિ પ્રોજેક્શન",
+    "Investment Period": "રોકાણ સમયગાળો",
+    "Investment Period (Years)": "રોકાણ સમયગાળો (વર્ષ)",
+    "Total Invested": "કુલ રોકાણ",
+    "Estimated Returns": "અંદાજિત રિટર્ન",
+    "Estimated Value": "અંદાજિત મૂલ્ય",
+    "FD Calculator": "FD કેલ્ક્યુલેટર",
+    "FD Calculation Result": "FD ગણતરી પરિણામ",
+    "Fixed Deposit Maturity & Interest Projection": "ફિક્સ્ડ ડિપોઝિટ પાકતી મુદત અને વ્યાજ અંદાજ",
+    "Deposit Amount": "જમા રકમ",
+    "Maturity Value": "પાકતી મુદતનું મૂલ્ય",
+    "Estimated Interest": "અંદાજિત વ્યાજ",
+    "Estimated Maturity Value": "પાકતી મુદતનું અંદાજિત મૂલ્ય",
+    "Interest Compounding": "ચક્રવૃદ્ધિ વ્યાજ",
+    "Compounding Frequency": "ચક્રવૃદ્ધિ આવર્તન",
+    "Quarterly": "ત્રિમાસિક",
+    "Half-Yearly": "અર્ધવાર્ષિક",
+    "Annual": "વાર્ષિક",
+    "Monthly": "માસિક",
+    "RD Calculator": "RD કેલ્ક્યુલેટર",
+    "RD Calculation Result": "RD ગણતરી પરિણામ",
+    "Recurring Deposit & Maturity Projection": "આવર્તી થાપણ (RD) અને પાકતી મુદતનો અંદાજ",
+    "Monthly RD Deposit": "માસિક RD જમા",
+    "Monthly RD": "માસિક RD",
+    "Total Deposited": "કુલ જમા રકમ",
+    "Total Original": "કુલ મૂળ રકમ",
+    "Estimated future value of your RD": "તમારી RD નું અંદાજિત ભવિષ્યનું મૂલ્ય",
+    "Dog Age Calculator": "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર",
+    "Dog Age Calculation Result": "કૂતરાની ઉંમરનું ગણતરી પરિણામ",
+    "Dog Age": "કૂતરાની ઉંમર",
+    "Dog's Birth Date": "કૂતરાની જન્મ તારીખ",
+    "Your Dog's Exact Age": "તમારા કૂતરાની ચોક્કસ ઉંમર",
+    "Human Age Equivalent": "માનવ ઉંમર સમકક્ષ",
+    "Human Equivalent": "માનવ સમકક્ષ",
+    "Age & Human Equivalent Projection": "ઉંમર અને માનવ સમકક્ષ અંદાજ",
+    "About Dog Age": "કૂતરાની ઉંમર વિશે",
+    "Category": "શ્રેણી",
+    "Pregnancy Calculator": "ગર્ભાવસ્થા કેલ્ક્યુલેટર",
+    "Pregnancy Result": "ગર્ભાવસ્થા પરિણામ",
+    "Pregnancy Age": "ગર્ભાવસ્થા ઉંમર",
+    "Current Trimester": "વર્તમાન ત્રિમાસિક (Trimester)",
+    "Pregnancy Progress": "ગર્ભાવસ્થા પ્રગતિ",
+    "Progress": "પ્રગતિ",
+    "Estimated Due Date": "અંદાજિત ડિલિવરી તારીખ",
+    "Estimated Due Date Reached": "અંદાજિત ડિલિવરી તારીખ આવી ગઈ છે",
+    "Calculate Pregnancy": "ગર્ભાવસ્થાની ગણતરી કરો",
+    "Calculate Pregnancy On": "આ તારીખે ગર્ભાવસ્થાની ગણતરી કરો",
+    "Until estimated due date": "અંદાજિત ડિલિવરી તારીખ સુધી",
+    "Enter the first day of your last menstrual period.": "તમારી છેલ્લી માસિક સ્રાવનો પ્રથમ દિવસ દાખલ કરો.",
+    "First Day of Last Menstrual Period": "છેલ્લા માસિક ધર્મનો પહેલો દિવસ",
+    "Last Menstrual Period": "છેલ્લો માસિક ધર્મ",
+    "Pregnancy Not Started": "ગર્ભાવસ્થા શરૂ થઈ નથી",
+    "Growth": "વૃદ્ધિ",
+    "Projection": "અંદાજ (Projection)",
+    "Price Flow": "કિંમતનો ફ્લો",
+    "Investment Flow": "રોકાણ ફ્લો",
+    "Interest Growth": "વ્યાજ વૃદ્ધિ",
+    "FD Growth": "FD વૃદ્ધિ",
+    "Formula": "સૂત્ર",
+    "EMI Formula": "EMI સૂત્ર",
+    "Value": "મૂલ્ય",
+    "Opening Value": "શરૂઆતનું મૂલ્ય",
+    "Original": "મૂળ",
+    "Before": "પહેલાં",
+    "After": "પછી",
+    "Period": "સમયગાળો",
+    "Frequency": "આવર્તન",
+    "Custom Rate": "કસ્ટમ દર",
+    "Expected Annual Interest Rate (%)": "અપેક્ષિત વાર્ષિક વ્યાજ દર (%)",
+    "Total Interest": "કુલ વ્યાજ",
+    "Total Amount": "કુલ રકમ",
+    "Invested": "રોકાણ કરેલ",
+    "Annual Rate": "વાર્ષિક દર",
+    "Base Amount": "મૂળ રકમ",
+    "Amount after discount": "ડિસ્કાઉન્ટ પછીની રકમ",
+    "Amount payable every month": "દર મહિને ચૂકવવાપાત્ર રકમ",
+    "Estimated value at the end of the selected tenure": "પસંદ કરેલા સમયગાળાના અંતે અંદાજિત મૂલ્ય",
+    "Estimated future value of your SIP": "તમારી SIP નું અંદાજિત ભવિષ્યનું મૂલ્ય",
+    "✓ Accurate": "✓ ચોક્કસ",
+    "✓ Simple": "✓ સરળ",
+    "✓ Privacy Focused": "✓ ગોપનીયતા કેન્દ્રિત",
+    "⚡ Fast": "⚡ ઝડપી",
+    "📊 Detailed": "📊 વિગતવાર",
+    "🔒 Simple": "🔒 સરળ",
+    "💰 Savings": "💰 બચત",
+    "🚀 Annual SIP Step-Up": "🚀 વાર્ષિક SIP સ્ટેપ-અપ",
+    "🔢 Value": "🔢 મૂલ્ય",
+    "🧮 Calculate": "🧮 ગણતરી કરો",
+    "🧮 Calculate EMI": "🧮 EMI ની ગણતરી કરો",
+    "🧮 Calculation": "🧮 ગણતરી",
+    "📤 Share": "📤 શેર કરો",
+    "📥 Download": "📥 ડાઉનલોડ કરો",
+    "📄 Download PDF": "📄 PDF ડાઉનલોડ કરો",
+    "📋 Copy": "📋 કોપી કરો",
+    "📋 Copy Image": "📋 ઈમેજ કોપી કરો",
+    "🔄 New": "🔄 નવું",
+    "🔄 Reset": "🔄 રીસેટ",
+    "🖨️ Print": "🖨️ પ્રિન્ટ કરો",
+    "📏 Convert": "📏 રૂપાંતરિત કરો",
+    "⚙️ Custom": "⚙️ કસ્ટમ",
+    "🎯 Select Event": "🎯 ઇવેન્ટ પસંદ કરો",
+    "🎯 Your Goal": "🎯 તમારું ધ્યેય",
+    "👨 Male": "👨 પુરુષ",
+    "👩 Female": "👩 મહિલા",
+    "🌱 Vegan": "🌱 વીગન",
+    "🍗 Non-Vegetarian": "🍗 માંસાહારી",
+    "🥗 Vegetarian": "🥗 શાકાહારી",
+    "🏃 Activity Level": "🏃 પ્રવૃત્તિનું સ્તર",
+    "🏃 Body Age": "🏃 શારીરિક ઉંમર",
+    "💧 Water": "💧 પાણી",
+    "🔥 BMR": "🔥 BMR",
+    "⚖️ BMI": "⚖️ BMI",
+    "🎯 Ideal Weight": "🎯 આદર્શ વજન",
+    "🥩 Protein": "🥩 પ્રોટીન",
+    "🍲 Carbs": "🍲 કાર્બોહાઇડ્રેટ્સ",
+    "🥑 Fat": "🥑 ચરબી (ફેટ)",
+    "💰 Growth": "💰 વૃદ્ધિ",
+    "💰 Maturity": "💰 પાકતી મુદત",
+    "💰 Repayment Summary": "💰 પુનઃચુકવણી સારાંશ",
+    "💰 Total Saving": "💰 કુલ બચત",
+    "💳 Loan Input Details": "💳 લોન ઈનપુટ વિગતો",
+    "💵 Principal Deposit": "💵 મુદ્દલ થાપણ",
+    "💵 Total Deposited": "💵 કુલ જમા",
+    "💵 Total Invested": "💵 કુલ રોકાણ",
+    "📌 Input Summary": "📌 ઈનપુટ સારાંશ",
+    "📐 Formula": "📐 સૂત્ર",
+    "📐 Calculation": "📐 ગણતરી",
+    "📈 Estimated Interest": "📈 અંદાજિત વ્યાજ",
+    "📈 Estimated Returns": "📈 અંદાજિત રિટર્ન",
+    "📉 Discount": "📉 ડિસ્કાઉન્ટ",
+    "📊 Age Category": "📊 વય શ્રેણી",
+    "📊 Age Summary": "📊 વય સારાંશ",
+    "📊 Growth": "📊 વૃદ્ધિ",
+    "📊 Health Summary": "📊 હેલ્થ સારાંશ",
+    "📊 Interest": "📊 વ્યાજ",
+    "📊 Interest Growth": "📊 વ્યાજ વૃદ્ધિ",
+    "📊 Investment Flow": "📊 રોકાણ ફ્લો",
+    "📊 Payment Composition": "📊 ચુકવણી માળખું",
+    "📊 Pregnancy Progress": "📊 ગર્ભાવસ્થા પ્રગતિ",
+    "📊 Price Flow": "📊 કિંમતનો ફ્લો",
+    "📊 Projection": "📊 અંદાજ",
+    "📊 Total Time": "📊 કુલ સમય",
+    "⏳ Estimated Time Remaining": "⏳ અંદાજિત બાકી સમય",
+    "⏳ Exact Difference": "⏳ ચોક્કસ તફાવત",
+    "⏳ Remaining Period": "⏳ બાકીનો સમયગાળો",
+    "⏳ Time Remaining": "⏳ બાકી સમય",
+    "⏳ Upcoming Event": "⏳ આગામી ઇવેન્ટ",
+    "⏱ Live Countdown": "⏱ લાઇવ કાઉન્ટડાઉન",
+    "⏰ Event Time": "⏰ ઇવેન્ટનો સમય",
+    "⏰ Remind me before retirement": "⏰ નિવૃત્તિ પહેલાં મને યાદ અપાવો",
+    "🌼 Pregnancy Not Started": "🌼 ગર્ભાવસ્થા શરૂ થઈ નથી",
+    "🌸 Current Trimester": "🌸 વર્તમાન ત્રિમાસિક",
+    "🎉 Event Countdown": "🎉 ઇવેન્ટ કાઉન્ટડાઉન",
+    "🎉 Next Birthday": "🎉 આગામી જન્મદિવસ",
+    "🎉 Retirement Day": "🎉 નિવૃત્તિ દિવસ",
+    "🎂 Age": "🎂 ઉંમર",
+    "🎂 Age Calculator": "🎂 વય કેલ્ક્યુલેટર",
+    "🎂 Date of Birth": "🎂 જન્મ તારીખ",
+    "🎂 Dog Age": "🎂 કૂતરાની ઉંમર",
+    "🎂 Exact Age": "🎂 ચોક્કસ ઉંમર",
+    "🎂 Next Birthday": "🎂 આગામી જન્મદિવસ",
+    "🎂 Smart & Accurate Age Calculator": "🎂 સ્માર્ટ અને ચોક્કસ વય કેલ્ક્યુલેટર",
+    "🎂 Your Age": "🎂 તમારી ઉંમર",
+    "📅 Calculate Pregnancy On": "📅 આ તારીખે ગર્ભાવસ્થાની ગણતરી કરો",
+    "📅 Estimated Due Date": "📅 અંદાજિત ડિલિવરી તારીખ",
+    "📅 Event Date": "📅 ઇવેન્ટ તારીખ",
+    "📅 From": "📅 થી",
+    "📅 From Date": "📅 શરૂઆતની તારીખ",
+    "📅 Retirement Date": "📅 નિવૃત્તિની તારીખ",
+    "📅 Specific Date": "📅 ચોક્કસ તારીખ",
+    "📅 Till": "📅 સુધી",
+    "📅 To Date": "📅 અંતિમ તારીખ",
+    "📅 Total Days": "📅 કુલ દિવસ",
+    "📅 Year-Wise Projection": "📅 વર્ષ મુજબ પ્રોજેક્શન",
+    "📆 Weekday": "📆 વાર (અઠવાડિયાનો દિવસ)",
+    "🩸 First Day of Last Menstrual Period": "🩸 છેલ્લા માસિક ધર્મનો પહેલો દિવસ",
+    "🪑 Sedentary": "🪑 નિષ્ક્રિય (બેઠાડુ)",
+    "🪪 Your Name": "🪪 તમારું નામ",
+    "🧾 Input Details": "🧾 ઈનપુટ વિગતો",
+    "🤰 Calculate Pregnancy": "🤰 ગર્ભાવસ્થાની ગણતરી કરો",
+    "🍽️ Personalized Diet Plan": "🍽️ વ્યક્તિગત ડાયેટ પ્લાન",
+    "🌿 Daily Lifestyle Goals": "🌿 દૈનિક જીવનશૈલીના લક્ષ્યો",
+    "🏆 Today's Challenge": "🏆 આજનો પડકાર",
+    "💡 How it works": "💡 આ કેવી રીતે કામ કરે છે",
+    "💡 Quick Tip": "💡 ઝડપી ટીપ",
+    "💡 Smart Health Tips": "💡 સ્માર્ટ હેલ્થ ટીપ્સ",
+    "⚖️ Maintain": "⚖️ જાળવી રાખો",
+    "⬆️ Gain Weight": "⬆️ વજન વધારો",
+    "⬇️ Lose Weight": "⬇️ વજન ઘટાડો",
+    "🧑 Approximate Human Age": "🧑 અંદાજિત માનવ ઉંમર",
+    "🐾 About Dog Age": "🐾 કૂતરાની ઉંમર વિશે",
+    "🐾 Category": "🐾 શ્રેણી",
+    "🐾 Human Equivalent": "🐾 માનવ સમકક્ષ",
+    "🧮 Calculation Breakdown": "🧮 ગણતરીની વિગતો",
+    "🧮 Conversion Category": "🧮 રૂપાંતરણ શ્રેણી",
+    "🧮 Repayment Flow": "🧮 પુનઃચુકવણી ફ્લો",
+    "✦ HELP & INFORMATION": "✦ મદદ અને માહિતી",
+    "✦ USER EXPERIENCES": "✦ ઉપયોગકર્તાના અનુભવો",
+    "What Users Say": "ઉપયોગકર્તાઓ શું કહે છે",
+    "Why Choose AgeVerseGlobal?": "AgeVerseGlobal શા માટે પસંદ કરવું?",
+    "Still have a question?": "હજુ પણ કોઈ પ્રશ્ન છે?",
+    "NEW": "નવું",
+    "days before": "દિવસ પહેલાં",
+    "days/week": "દિવસ/અઠવાડિયું",
+    "kcal/day": "કિલો કેલરી/દિવસ",
+    "7–8 Hours": "7–8 કલાક",
+    "8000 Steps": "8000 પગલાં",
+    "Calculator Section": "કેલ્ક્યુલેટર વિભાગ",
+    "Your Result Will Appear Here": "તમારું પરિણામ અહીં દેખાશે",
+    "Your result will appear here.": "તમારું પરિણામ અહીં દેખાશે.",
+    "Your EMI Result Will Appear Here": "તમારું EMI પરિણામ અહીં દેખાશે",
+    "Your retirement planning summary": "તમારા નિવૃત્તિ આયોજનનો સારાંશ",
+    "Your pregnancy timeline summary": "તમારી ગર્ભાવસ્થાની સમયરેખાનો સારાંશ",
+    "Your complete result.": "તમારું સંપૂર્ણ પરિણામ.",
+    "to see the complete result.": "સંપૂર્ણ પરિણામ જોવા માટે.",
+    "to see your complete FD projection.": "તમારું સંપૂર્ણ FD પ્રોજેક્શન જોવા માટે.",
+    "to see your complete RD projection.": "તમારું સંપૂર્ણ RD પ્રોજેક્શન જોવા માટે.",
+    "to see your complete SIP projection.": "તમારું સંપૂર્ણ SIP પ્રોજેક્શન જોવા માટે.",
+    "Enter your details above to begin.": "શરૂ કરવા માટે ઉપર તમારી વિગતો દાખલ કરો.",
+    "Enter your values and tap": "તમારા મૂલ્યો દાખલ કરો અને દબાવો",
+    "Enter your loan details and tap": "તમારી લોનની વિગતો દાખલ કરો અને દબાવો",
+    "Leave blank to calculate using today's date.": "આજની તારીખ અનુસાર ગણતરી કરવા માટે ખાલી છોડો.",
+    "The current date will be used automatically.": "વર્તમાન તારીખ આપમેળે વપરાશે.",
+    "Optional": "વૈકલ્પિક",
+    "Optional additional rate for senior-citizen projection.": "વરિષ્ઠ નાગરિક પ્રોજેક્શન માટે વૈકલ્પિક વધારાનો દર.",
+    "Quarterly Compounding": "ત્રિમાસિક ચક્રવૃદ્ધિ",
+    "Compounding": "ચક્રવૃદ્ધિ",
+    "Interest": "વ્યાજ",
+    "Weekly": "સાપ્તાહિક",
+    "Principal Deposit": "મુદ્દલ થાપણ",
+    "Returns": "રિટર્ન",
+    "Quantity": "જથ્થો",
+    "From Quantity": "જથ્થાથી",
+    "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)": "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)",
+    "AgeVerseGlobal - Retirement Result": "AgeVerseGlobal - નિવૃત્તિ પરિણામ",
+    "AgeVerseGlobal EMI Calculator Result": "AgeVerseGlobal EMI કેલ્ક્યુલેટર પરિણામ",
+    "AgeVerseGlobal Pregnancy Calculator": "AgeVerseGlobal ગર્ભાવસ્થા કેલ્ક્યુલેટર",
+    "AgeVerseGlobal Pregnancy Result": "AgeVerseGlobal ગર્ભાવસ્થા પરિણામ",
+    "AgeVerseGlobal Unit Converter Result": "AgeVerseGlobal યુનિટ કન્વર્ટર પરિણામ",
+    "AgeVerseGlobal Utility • Unit Converter": "AgeVerseGlobal યુટિલિટી • યુનિટ કન્વર્ટર",
+    "Verse": "Verse",
+    "Utility": "યુટિલિટી",
+    "Slab 1": "સ્લેબ 1",
+    "Slab 2": "સ્લેબ 2",
+    "Slab 3": "સ્લેબ 3",
+    "to see your complete result.": "તમારું સંપૂર્ણ પરિણામ જોવા માટે.",
+    "✓ Result image copied successfully.": "✓ પરિણામની ઈમેજ સફળતાપૂર્વક કોપી થઈ ગઈ.",
+    "Frequently Asked Questions": "વારંવાર પૂછાતા પ્રશ્નો",
+    "♡ Calories": "♡ કેલરી",
+    "Instantly &amp; Accurately": "તુરંત અને સચોટ રીતે",
+    "⚙️ Set Custom Reminder": "⚙️ કસ્ટમ રિમાઇન્ડર સેટ કરો",
+    "Calculate On": "આ તારીખે ગણતરી કરો",
+    "Cumulative Interest": "સંચિત વ્યાજ",
+    "Hard exercise": "સખત કસરત",
+    "Very hard training /": "ખૂબ સખત તાલીમ /",
+    "⚖️ Weight (kg)": "⚖️ વજન (કિગ્રા)",
+    "📏 Body Measurements": "📏 શરીરના માપ",
+    "📏 Height (cm)": "📏 ઊંચાઈ (સેમી)",
+    "⏳ Estimated time remaining": "⏳ અંદાજિત બાકી સમય",
+    "🟢 Today": "🟢 આજે",
+    "Select two dates to calculate the exact difference.": "ચોક્કસ તફાવત જાણવા માટે બે તારીખો પસંદ કરો.",
+    "Utility • Unit Converter": "યુટિલિટી • યુનિટ કન્વર્ટર",
+    "Weight (kg)": "વજન (કિગ્રા)",
+    "Height (cm)": "ઊંચાઈ (સેમી)",
+    "Result image": "પરિણામની ઈમેજ",
+    "Estimated time remaining": "અંદાજિત બાકી સમય",
+    "Health Profile": "હેલ્થ પ્રોફાઇલ",
+    "Weight": "વજન",
+    "Height": "ઊંચાઈ",
+    "Calories": "કેલરી",
+    "Complete": "સંપૂર્ણ",
+    "Health": "આરોગ્ય",
+    "Countdown": "કાઉન્ટડાઉન",
+    "Difference": "તફાવત",
+    "Select": "પસંદ કરો",
+    "Please": "કૃપા કરીને",
+    "Enter": "દાખલ કરો",
+    "Details": "વિગતો",
+    "Name": "નામ",
+    "Time": "સમય",
+    "Date": "તારીખ",
+    "Amount": "રકમ",
+    "Rate": "દર",
+    "Price": "કિંમત",
+    "Total": "કુલ",
+    "Estimated": "અંદાજિત",
+    "Expected": "અપેક્ષિત",
+    "Final": "અંતિમ",
+    "Payment": "ચુકવણી",
+    "Repayment": "પુનઃચુકવણી",
+    "Investment": "રોકાણ",
+    "Maturity": "પાકતી મુદત",
+    "Deposit": "થાપણ (જમા)",
+    "Loan": "લોન",
+    "Tenure": "સમયગાળો",
+    "Tax": "ટેક્સ",
+    "Breakdown": "વિગત",
+    "Converted": "રૂપાંતરિત",
+    "Unit": "એકમ",
+    "Swap": "બદલો",
+    "Event": "ઇવેન્ટ",
+    "Retirement": "નિવૃત્તિ",
+    "Pregnancy": "ગર્ભાવસ્થા",
+    "Dog": "કૂતરો",
+    "Human": "માનવ",
+    "Equivalent": "સમકક્ષ",
+    "Current": "વર્તમાન",
+    "Range": "સીમા",
+    "Body": "શરીર",
+    "Nutrition": "પોષણ",
+    "Lifestyle": "જીવનશૈલી",
+    "Challenge": "પડકાર",
+    "Tips": "ટિપ્સ",
+    "Personalized": "વ્યક્તિગત",
+    "Plan": "યોજના",
+    "Diet": "આહાર",
+    "Sleep": "ઊંઘ",
+    "Steps": "પગલાં",
+    "AgeVerseGlobal Utility": "AgeVerseGlobal યુટિલિટી",
+    "Choose": "પસંદ કરો",
+    "when": "જ્યારે",
+    "your": "તમારું",
+    "event": "ઇવેન્ટ",
+    "starts": "શરૂ થાય છે",
+    "your complete": "તમારું સંપૂર્ણ",
+    "complete": "સંપૂર્ણ",
+    "see": "જુઓ",
+    "the": "",
+    "here": "અહીં",
+    "today": "આજે",
+    "On": "પર",
+    "and": "અને",
+    "accurately": "સચોટ રીતે",
+    "Calculate GST, tax amount and total amount quickly and accurately.": "GST, ટેક્સ રકમ અને કુલ રકમની ઝડપી અને સચોટ ગણતરી કરો.",
+    "Calculate discount, savings and final selling price quickly.": "ડિસ્કાઉન્ટ, બચત અને અંતિમ વેચાણ કિંમતની ઝડપી ગણતરી કરો.",
+    "Calculate fixed deposit maturity, estimated interest and total value.": "ફિક્સ્ડ ડિપોઝિટની પાકતી મુદત, અંદાજિત વ્યાજ અને કુલ મૂલ્યની ગણતરી કરો.",
+    "Calculate your SIP investment, estimated returns and maturity value.": "તમારા SIP રોકાણ, અંદાજિત રિટર્ન અને પાકતી મુદતના મૂલ્યની ગણતરી કરો.",
+    "Calculate your dog's exact age and approximate human-age equivalent.": "તમારા કૂતરાની ચોક્કસ ઉંમર અને અંદાજિત માનવ-ઉંમર સમકક્ષ ગણતરી કરો.",
+    "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.": "AgeVerseGlobal સાથે તમારી ચોક્કસ ઉંમર વર્ષ, મહિના, દિવસો, કલાક, મિનિટ અને સેકન્ડમાં ગણો.",
+    "Calculate your monthly EMI, total interest and total repayment amount.": "તમારી માસિક EMI, કુલ વ્યાજ અને કુલ પુનઃચુકવણી રકમની ગણતરી કરો.",
+    "Calculate your recurring deposit, estimated interest and maturity value.": "તમારી આવર્તી થાપણ (RD), અંદાજિત વ્યાજ અને પાકતી મુદતના મૂલ્યની ગણતરી કરો.",
+    "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.": "EMI ની ગણતરી દાખલ કરેલ લોનની રકમ, વાર્ષિક વ્યાજ દર અને પુનઃચુકવણી સમયગાળાના આધારે કરવામાં આવે છે. રાઉન્ડિંગ, ફી, વીમો અથવા અન્ય લાગુ ચાર્જિસને કારણે વાસ્તવિક ધિરાણકર્તાની EMI અલગ હોઈ શકે છે.",
+    "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.": "માસિક EMI અને સંપૂર્ણ પુનઃચુકવણી સારાંશ ગણવા માટે લોનની રકમ, વાર્ષિક વ્યાજ દર અને ચુકવણીનો સમયગાળો દાખલ કરો.",
+    "Enter the price, choose the discount type and tap": "કિંમત દાખલ કરો, ડિસ્કાઉન્ટ પ્રકાર પસંદ કરો અને ટેપ કરો",
+    "Enter your SIP amount, frequency, expected return and investment period, then tap": "તમારી SIP રકમ, આવર્તન, અપેક્ષિત રિટર્ન અને રોકાણનો સમયગાળો દાખલ કરો, પછી ટેપ કરો",
+    "Enter your amount, select the GST rate and tap": "તમારી રકમ દાખલ કરો, GST દર પસંદ કરો અને ટેપ કરો",
+    "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap": "જમા રકમ, અપેક્ષિત દર, રોકાણ સમયગાળો અને ચક્રવૃદ્ધિ આવર્તન દાખલ કરો, પછી ટેપ કરો",
+    "Enter your monthly RD deposit, expected interest rate and investment period, then tap": "માસિક RD જમા રકમ, અપેક્ષિત વ્યાજ દર અને રોકાણ સમયગાળો દાખલ કરો, પછી ટેપ કરો",
+    "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.": "ઉદાહરણ: 1 વસ્તુ → 10%, 2 વસ્તુઓ → 15%, 3 કે તેથી વધુ વસ્તુઓ → 20%.",
+    "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.": "ઉદાહરણ: 20% પછી 10% ડિસ્કાઉન્ટ ક્રમિક રીતે લાગુ થાય છે, સાદા 30% ડિસ્કાઉન્ટ તરીકે નહીં.",
+    "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.": "ઉદાહરણ: 7.50% મૂળ દર + 0.50% વધારાનો દર = 8.00% અંદાજિત અસરકારક દર.",
+    "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.": "FD ની પાકતી મુદત જમા રકમ, વ્યાજ દર, સમયગાળો અને ચક્રવૃદ્ધિ આવર્તન પર આધાર રાખે છે. બેંકના લાગુ નિયમો અનુસાર વાસ્તવિક બેંક રિટર્ન અલગ હોઈ શકે છે.",
+    "For sequential discounts, each discount is calculated on the price remaining after the previous discount.": "ક્રમિક ડિસ્કાઉન્ટમાં, દરેક ડિસ્કાઉન્ટ અગાઉના ડિસ્કાઉન્ટ પછી બચેલી કિંમત પર ગણવામાં આવે છે.",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "માનવ-ઉંમર રૂપાંતરણ માત્ર એક અંદાજ છે. તમારા કૂતરાના સ્વાસ્થ્ય માટે નિયમિત પશુચિકિત્સક સંભાળ, પોષણ અને કસરત મહત્વપૂર્ણ છે.",
+    "Quickly calculate percentages, increases, decreases and more.": "ટકાવારી, વધારો, ઘટાડો અને ઘણું બધું ઝડપથી ગણો.",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "RD ની પાકતી મુદતનો અંદાજ ત્રિમાસિક ચક્રવૃદ્ધિનો ઉપયોગ કરીને લગાવવામાં આવે છે, જે સામાન્ય રીતે RD ની ગણતરી માટે વપરાય છે.",
+    "Select a category, enter a value and choose the units you want to convert.": "શ્રેણી પસંદ કરો, મૂલ્ય દાખલ કરો અને તે એકમો પસંદ કરો જેને તમે રૂપાંતરિત કરવા માંગો છો.",
+    "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.": "GST દર પસંદ કરો, નક્કી કરો કે રકમમાં GST સામેલ છે કે નહીં, અને પછી તમારી સંપૂર્ણ GST વિગત ગણો.",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "પ્રમાણભૂત ચક્રવૃદ્ધિ વ્યાજ મોડેલ: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ ગણતરી નોંધ",
+    "ℹ️ Important": "ℹ️ મહત્વપૂર્ણ",
+    "↻ Reset": "↻ રીસેટ",
+    "⚧ Gender": "⚧ જાતિ",
+    "⚧ Other": "⚧ અન્ય",
+    "✅ Event Completed": "✅ ઇવેન્ટ પૂર્ણ થઈ",
+    "✍️ Custom Event Name": "✍️ કસ્ટમ ઇવેન્ટનું નામ",
+    "✓ Amount after discount": "✓ ડિસ્કાઉન્ટ પછીની રકમ",
+    "✓ Amount payable every month": "✓ દર મહિને ચૂકવવાપાત્ર રકમ",
+    "✓ Calculated between the selected dates": "✓ પસંદ કરેલી તારીખો વચ્ચે ગણતરી કરાયેલ",
+    "✓ Calculated result": "✓ ગણતરી કરેલ પરિણામ",
+    "✓ Estimated future value of your RD": "✓ તમારી RD નું અંદાજિત ભવિષ્યનું મૂલ્ય",
+    "✓ Estimated future value of your SIP": "✓ તમારી SIP નું અંદાજિત ભવિષ્યનું મૂલ્ય",
+    "✓ Estimated value at the end of the selected tenure": "✓ પસંદ કરેલા સમયગાળાના અંતે અંદાજિત મૂલ્ય",
+    "✓ Free Forever": "✓ હંમેશા મફત",
+    "✓ Instant Calculation": "✓ ત્વરિત ગણતરી",
+    "✓ Multiple Date Support": "✓ એકથી વધુ તારીખોનું સમર્થન",
+    "✓ Result copied successfully.": "✓ પરિણામ સફળતાપૂર્વક કોપી થઈ ગયું.",
+    "⭐ Health Score": "⭐ હેલ્થ સ્કોર",
+    "🎉 Estimated Due Date Reached": "🎉 અંદાજિત ડિલિવરી તારીખ આવી ગઈ છે",
+    "🏃 Moderately Active": "🏃 મધ્યમ સક્રિય",
+    "🏋️ Extra Active": "🏋️ અત્યંત સક્રિય",
+    "🏢 Retirement Age": "🏢 નિવૃત્તિની ઉંમર",
+    "🏦 FD Growth": "🏦 FD વૃદ્ધિ",
+    "🏦 Interest Compounding": "🏦 ચક્રવૃદ્ધિ વ્યાજ",
+    "👤 Personal Details": "👤 વ્યક્તિગત વિગતો",
+    "👵 Senior Citizen Rate": "👵 વરિષ્ઠ નાગરિક દર",
+    "👶 Pregnancy Age": "👶 ગર્ભાવસ્થા ઉંમર",
+    "💪 Very Active": "💪 ખૂબ સક્રિય",
+    "💰 GST Breakdown": "💰 GST વિગત",
+    "📅 1 Day Before": "📅 1 દિવસ પહેલા",
+    "📅 Select your date of birth and click Calculate": "📅 તમારી જન્મ તારીખ પસંદ કરો અને ગણતરી કરો પર ક્લિક કરો",
+    "📋 Copy Result": "📋 પરિણામ કોપી કરો",
+    "📐 EMI Formula": "📐 EMI સૂત્ર",
+    "📤 Share PDF": "📤 PDF શેર કરો",
+    "📤 Share Result": "📤 પરિણામ શેર કરો",
+    "📥 Download PDF": "📥 PDF ડાઉનલોડ કરો",
+    "🔕 No Reminder": "🔕 કોઈ રિમાઇન્ડર નહીં",
+    "🔢 Sequential Discounts": "🔢 ક્રમિક ડિસ્કાઉન્ટ",
+    "🚶 Lightly Active": "🚶 હળવું સક્રિય",
+    "🛒 Quantity-Based Discount Slabs": "🛒 જથ્થા આધારિત ડિસ્કાઉન્ટ સ્લેબ",
+    "🥗 Diet Preference": "🥗 આહાર પસંદગી",
+    "🥗 Nutrition Balance": "🥗 પોષણ સંતુલન",
+    "🩸 Last Menstrual Period": "🩸 છેલ્લો માસિક ધર્મ",
+    "Add GST": "GST ઉમેરો",
+    "Adult Dog": "પુખ્ત કૂતરો",
+    "Age Calculations": "વય ગણતરીઓ",
+    "Age Result": "વય પરિણામ",
+    "Amount Including GST": "GST સહિત રકમ",
+    "Both values cannot be zero.": "બંને મૂલ્યો શૂન્ય હોઈ શકે નહીં.",
+    "Birth date cannot be later than the calculation date.": "જન્મ તારીખ ગણતરીની તારીખ પછીની હોઈ શકે નહીં.",
+    "Canvas image creation failed.": "ઈમેજ બનાવવામાં મુશ્કેલી થઈ.",
+    "Copy failed:": "કોપી કરવામાં નિષ્ફળતા:",
+    "Copy image error:": "ઈમેજ કોપી કરવામાં ભૂલ:",
+    "Countdown for birthdays, anniversaries, exams and more.": "જન્મદિવસ, વર્ષગાંઠ, પરીક્ષા અને અન્ય પ્રસંગોનું કાઉન્ટડાઉન કરો.",
+    "Custom Event": "કસ્ટમ ઇવેન્ટ",
+    "Custom Reminder": "કસ્ટમ રિમાઇન્ડર",
+    "Custom reminder must be between 1 and 3650 days.": "કસ્ટમ રિમાઇન્ડર 1 થી 3650 દિવસ વચ્ચે હોવું જોઈએ.",
+    "Discount Calculator Result": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર પરિણામ",
+    "Dog Age Calculator Result": "કૂતરાની ઉંમરના કેલ્ક્યુલેટરનું પરિણામ",
+    "Dog age result image error:": "કૂતરાની ઉંમરના પરિણામની ઈમેજમાં ભૂલ:",
+    "Download PDF error:": "PDF ડાઉનલોડમાં ભૂલ:",
+    "Download failed:": "ડાઉનલોડ નિષ્ફળ થયું:",
+    "EMI Calculator Result": "EMI કેલ્ક્યુલેટર પરિણામ",
+    "Enter age": "ઉંમર દાખલ કરો",
+    "Enter amount": "રકમ દાખલ કરો",
+    "Enter days": "દિવસો દાખલ કરો",
+    "Event time": "ઇવેન્ટનો સમય",
+    "Final Value": "અંતિમ મૂલ્ય",
+    "Final value cannot be zero.": "અંતિમ મૂલ્ય શૂન્ય હોઈ શકે નહીં.",
+    "Find Original Value": "મૂળ મૂલ્ય શોધો",
+    "Find exact difference between any two dates.": "કોઈપણ બે તારીખો વચ્ચેનો ચોક્કસ તફાવત શોધો.",
+    "Find exact difference between two dates.": "બે તારીખો વચ્ચેનો ચોક્કસ તફાવત જાણો.",
+    "First Value": "પ્રથમ મૂલ્ય",
+    "GST Calculator Result": "GST કેલ્ક્યુલેટર પરિણામ",
+    "GST PDF error:": "GST PDF ભૂલ:",
+    "GST image copy error:": "GST ઈમેજ કોપી કરવામાં ભૂલ:",
+    "GST print dialog error:": "GST પ્રિન્ટ ડાયાલૉગમાં ભૂલ:",
+    "GST print window error:": "GST પ્રિન્ટ વિન્ડોમાં ભૂલ:",
+    "GST share error:": "GST શેર કરવામાં ભૂલ:",
+    "Generated by AgeVerseGlobal": "AgeVerseGlobal દ્વારા જનરેટ કરાયેલ",
+    "Get a complete breakdown of base amount, GST and total amount.": "મૂળ રકમ, GST અને કુલ રકમની સંપૂર્ણ વિગત મેળવો.",
+    "Image clipboard copy failed:": "ક્લિપબોર્ડમાં ઈમેજ કોપી કરવામાં નિષ્ફળતા:",
+    "Investment Result": "રોકાણ પરિણામ",
+    "Loan Summary": "લોન સારાંશ",
+    "Maintain Weight": "વજન જાળવી રાખો",
+    "Multiple Discounts": "એકથી વધુ ડિસ્કાઉન્ટ",
+    "New Value": "નવું મૂલ્ય",
+    "Non Vegetarian": "માંસાહારી",
+    "Not specified": "ઉલ્લેખિત નથી",
+    "Notification permission may be required for browser reminders.": "બ્રાઉઝર રિમાઇન્ડર માટે સૂચના પરવાનગી જરૂરી હોઈ શકે છે.",
+    "Opening print preview...": "પ્રિન્ટ પ્રીવ્યૂ ખોલાઈ રહ્યું છે...",
+    "Original Amount": "મૂળ રકમ",
+    "Original Value": "મૂળ મૂલ્ય",
+    "Original value cannot be zero.": "મૂળ મૂલ્ય શૂન્ય હોઈ શકે નહીં.",
+    "PDF blob could not be created.": "PDF તૈયાર કરી શકાઈ નથી.",
+    "PDF blob not created.": "PDF તૈયાર થઈ નથી.",
+    "PDF creation error:": "PDF બનાવવામાં ભૂલ:",
+    "PDF download failed:": "PDF ડાઉનલોડ નિષ્ફળ થઈ:",
+    "PDF downloaded successfully.": "PDF સફળતાપૂર્વક ડાઉનલોડ થઈ ગઈ.",
+    "PDF generation error:": "PDF જનરેશન ભૂલ:",
+    "PDF generation failed:": "PDF જનરેટ થઈ શકાઈ નથી.",
+    "PDF opened successfully. Please press Ctrl + P to print.": "PDF સફળતાપૂર્વક ખુલી ગઈ છે. પ્રિન્ટ કરવા માટે Ctrl + P દબાવો.",
+    "PDF ready. Opening print dialog...": "PDF તૈયાર છે. પ્રિન્ટ ડાયાલૉગ ખોલાઈ રહ્યું છે...",
+    "PDF shared successfully.": "PDF સફળતાપૂર્વક શેર થઈ ગઈ.",
+    "PDF sharing error:": "PDF શેર કરવામાં ભૂલ:",
+    "PDF sharing is not supported on this device.": "આ ઉપકરણ પર PDF શેરિંગ સપોર્ટેડ નથી.",
+    "Percentage Calculator Result": "ટકાવારી કેલ્ક્યુલેટર પરિણામ",
+    "Percentage Change": "ટકાવારી ફેરફાર",
+    "Percentage Decrease": "ટકાવારી ઘટાડો",
+    "Percentage Difference": "ટકાવારી તફાવત",
+    "Percentage Increase": "ટકાવારી વધારો",
+    "Percentage of a Number": "કોઈ સંખ્યાની ટકાવારી",
+    "Please allow pop-ups in your browser to print the PDF.": "PDF પ્રિન્ટ કરવા માટે કૃપા કરીને તમારા બ્રાઉઝરમાં પોપ-અપ્સની મંજૂરી આપો.",
+    "Please allow pop-ups to print the result.": "પરિણામ પ્રિન્ટ કરવા માટે પોપ-અપ્સની મંજૂરી આપો.",
+    "Please enter a valid GST rate between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનો માન્ય GST દર દાખલ કરો.",
+    "Please enter a valid LMP date.": "કૃપા કરીને માન્ય LMP તારીખ દાખલ કરો.",
+    "Please enter a valid age between 5 and 120 years.": "કૃપા કરીને 5 થી 120 વર્ષ વચ્ચેની માન્ય ઉંમર દાખલ કરો.",
+    "Please enter a valid amount.": "કૃપા કરીને માન્ય રકમ દાખલ કરો.",
+    "Please enter a valid annual interest rate between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનો માન્ય વાર્ષિક વ્યાજ દર દાખલ કરો.",
+    "Please enter a valid annual interest rate between 0% and 30%.": "કૃપા કરીને 0% થી 30% વચ્ચેનો માન્ય વાર્ષિક વ્યાજ દર દાખલ કરો.",
+    "Please enter a valid annual step-up rate between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનો માન્ય વાર્ષિક સ્ટેપ-અપ દર દાખલ કરો.",
+    "Please enter a valid calculation date.": "કૃપા કરીને માન્ય ગણતરી તારીખ દાખલ કરો.",
+    "Please enter a valid custom reminder time.": "કૃપા કરીને માન્ય કસ્ટમ રિમાઇન્ડર સમય દાખલ કરો.",
+    "Please enter a valid date of birth.": "કૃપા કરીને માન્ય જન્મ તારીખ દાખલ કરો.",
+    "Please enter a valid deposit amount greater than 0.": "કૃપા કરીને 0 થી વધુ માન્ય જમા રકમ દાખલ કરો.",
+    "Please enter a valid discount between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનું માન્ય ડિસ્કાઉન્ટ દાખલ કરો.",
+    "Please enter a valid event date and time.": "કૃપા કરીને માન્ય ઇવેન્ટ તારીખ અને સમય દાખલ કરો.",
+    "Please enter a valid expected return between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનું માન્ય અપેક્ષિત રિટર્ન દાખલ કરો.",
+    "Please enter a valid height between 100 and 250 cm.": "કૃપા કરીને 100 થી 250 સેમી વચ્ચેની માન્ય ઊંચાઈ દાખલ કરો.",
+    "Please enter a valid interest rate between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેનો માન્ય વ્યાજ દર દાખલ કરો.",
+    "Please enter a valid investment period between 1 and 100 years.": "કૃપા કરીને 1 થી 100 વર્ષ વચ્ચેનો માન્ય રોકાણ સમયગાળો દાખલ કરો.",
+    "Please enter a valid loan amount greater than 0.": "કૃપા કરીને 0 થી વધુ માન્ય લોન રકમ દાખલ કરો.",
+    "Please enter a valid loan tenure.": "કૃપા કરીને માન્ય લોન સમયગાળો દાખલ કરો.",
+    "Please enter a valid monthly RD deposit.": "કૃપા કરીને માન્ય માસિક RD જમા રકમ દાખલ કરો.",
+    "Please enter a valid number.": "કૃપા કરીને માન્ય નંબર દાખલ કરો.",
+    "Please enter a valid original price.": "કૃપા કરીને માન્ય મૂળ કિંમત દાખલ કરો.",
+    "Please enter a valid quantity.": "કૃપા કરીને માન્ય જથ્થો દાખલ કરો.",
+    "Please enter both values.": "કૃપા કરીને બંને મૂલ્યો દાખલ કરો.",
+    "Please enter custom event name.": "કૃપા કરીને કસ્ટમ ઇવેન્ટનું નામ લખો.",
+    "Please enter the amount.": "કૃપા કરીને રકમ દાખલ કરો.",
+    "Please enter the annual interest rate.": "કૃપા કરીને વાર્ષિક વ્યાજ દર દાખલ કરો.",
+    "Please enter the expected annual interest rate.": "કૃપા કરીને અપેક્ષિત વાર્ષિક વ્યાજ દર દાખલ કરો.",
+    "Please enter the expected annual return.": "કૃપા કરીને અપેક્ષિત વાર્ષિક રિટર્ન દાખલ કરો.",
+    "Please enter the investment period.": "કૃપા કરીને રોકાણ સમયગાળો દાખલ કરો.",
+    "Please enter the loan amount.": "કૃપા કરીને લોન રકમ દાખલ કરો.",
+    "Please enter the loan tenure.": "કૃપા કરીને લોન સમયગાળો દાખલ કરો.",
+    "Please enter the original price.": "કૃપા કરીને મૂળ કિંમત દાખલ કરો.",
+    "Please enter valid dates.": "કૃપા કરીને માન્ય તારીખો દાખલ કરો.",
+    "Please enter valid discount rates between 0% and 100%.": "કૃપા કરીને 0% થી 100% વચ્ચેના માન્ય ડિસ્કાઉન્ટ દર દાખલ કરો.",
+    "Please enter valid numbers.": "કૃપા કરીને માન્ય નંબરો દાખલ કરો.",
+    "Please enter valid quantity slabs.": "કૃપા કરીને માન્ય જથ્થા સ્લેબ દાખલ કરો.",
+    "Please enter your date of birth.": "કૃપા કરીને તમારી જન્મ તારીખ દાખલ કરો.",
+    "Please enter your deposit amount.": "કૃપા કરીને તમારી જમા રકમ દાખલ કરો.",
+    "Please enter your monthly RD deposit.": "કૃપા કરીને તમારી માસિક RD જમા રકમ દાખલ કરો.",
+    "Please fill all required details.": "કૃપા કરીને બધી જરૂરી વિગતો ભરો.",
+    "Please select both dates.": "કૃપા કરીને બંને તારીખો પસંદ કરો.",
+    "Please select event date.": "કૃપા કરીને ઇવેન્ટની તારીખ પસંદ કરો.",
+    "Please select event time.": "કૃપા કરીને ઇવેન્ટનો સમય પસંદ કરો.",
+    "Please select event type.": "કૃપા કરીને ઇવેન્ટનો પ્રકાર પસંદ કરો.",
+    "Please select the calculation date.": "કૃપા કરીને ગણતરીની તારીખ પસંદ કરો.",
+    "Please select your dog's birth date.": "કૃપા કરીને તમારા કૂતરાની જન્મ તારીખ પસંદ કરો.",
+    "Please verify your weight. Please enter a value between 20 and 300 kg.": "કૃપા કરીને તમારું વજન ચકાસો. 20 થી 300 કિગ્રા વચ્ચેનું મૂલ્ય દાખલ કરો.",
+    "Preparing PDF for printing...": "પ્રિન્ટિંગ માટે PDF તૈયાર થઈ રહી છે...",
+    "Preparing PDF for sharing...": "શેર કરવા માટે PDF તૈયાર થઈ રહી છે...",
+    "Preparing PDF...": "PDF તૈયાર થઈ રહી છે...",
+    "Preparing image...": "ઈમેજ તૈયાર થઈ રહી છે...",
+    "Print failed:": "પ્રિન્ટ નિષ્ફળ થઈ:",
+    "Print generation failed:": "પ્રિન્ટ જનરેશન નિષ્ફળ થયું:",
+    "Result card not found.": "પરિણામ કાર્ડ મળ્યું નથી.",
+    "Result copied successfully.": "પરિણામ સફળતાપૂર્વક કોપી થઈ ગયું.",
+    "Result element not found.": "પરિણામ એલિમેન્ટ મળ્યું નથી.",
+    "Retirement age must be between 1 and 100 years.": "નિવૃત્તિની ઉંમર 1 થી 100 વર્ષ વચ્ચે હોવી જોઈએ.",
+    "Retirement notification error:": "નિવૃત્તિ નોટિફિકેશન ભૂલ:",
+    "Retirement reminder check failed:": "નિવૃત્તિ રિમાઇન્ડર તપાસ નિષ્ફળ થઈ:",
+    "Retirement result copied successfully.": "નિવૃત્તિનું પરિણામ સફળતાપૂર્વક કોપી થઈ ગયું.",
+    "Share PDF error:": "PDF શેર કરવામાં ભૂલ:",
+    "Share cancelled:": "શેરિંગ રદ કરવામાં આવ્યું:",
+    "Share failed:": "શેરિંગ નિષ્ફળ થયું:",
+    "Sharing is not supported here, so the PDF was downloaded instead.": "અહીં શેરિંગ સપોર્ટેડ નથી, તેથી તેના બદલે PDF ડાઉનલોડ કરવામાં આવી છે.",
+    "Sharing is not supported here. Result copied instead.": "શેરિંગ સપોર્ટેડ નથી. તેના બદલે પરિણામ કોપી કરવામાં આવ્યું છે.",
+    "Unable to calculate pregnancy details.": "ગર્ભાવસ્થાની વિગતો ગણી શકાઈ નથી.",
+    "Unable to calculate retirement date.": "નિવૃત્તિની તારીખ ગણી શકાઈ નથી.",
+    "Unable to convert the selected units.": "પસંદ કરેલા એકમો રૂપાંતરિત કરી શકાયા નથી.",
+    "Unable to copy result image. Please try again.": "પરિણામની ઈમેજ કોપી કરી શકાઈ નથી. કૃપા કરીને ફરી પ્રયાસ કરો.",
+    "Unable to copy the result image.": "પરિણામની ઈમેજ કોપી કરી શકાઈ નથી.",
+    "Unable to copy the result.": "પરિણામ કોપી કરી શકાયું નથી.",
+    "Unable to create PDF.": "PDF બનાવી શકાઈ નથી.",
+    "Unable to create image.": "ઈમેજ બનાવી શકાઈ નથી.",
+    "Unable to download PDF.": "PDF ડાઉનલોડ કરી શકાઈ નથી.",
+    "Unable to generate PDF.": "PDF જનરેટ કરી શકાઈ નથી.",
+    "Unable to open print preview.": "પ્રિન્ટ પ્રીવ્યૂ ખોલી શકાયું નથી.",
+    "Unable to print the result.": "પરિણામ પ્રિન્ટ કરી શકાયું નથી.",
+    "Unable to share PDF on this device.": "આ ઉપકરણ પર PDF શેર કરી શકાઈ નથી.",
+    "Unable to share PDF.": "PDF શેર કરી શકાઈ નથી.",
+    "Unable to share the PDF.": "PDF શેર કરી શકાઈ નથી.",
+    "Unable to share the pregnancy result.": "ગર્ભાવસ્થાનું પરિણામ શેર કરી શકાયું નથી.",
+    "Unable to share the result PDF.": "પરિણામ PDF શેર કરી શકાઈ નથી.",
+    "Use different discount rates according to quantity purchased.": "ખરીદેલી જથ્થા અનુસાર અલગ-અલગ ડિસ્કાઉન્ટ દરનો ઉપયોગ કરો.",
+    "Wellness Shield": "વેલનેસ શીલ્ડ",
+    "Young Dog": "યુવાન કૂતરો",
+    "Your BMI is in a healthy range. Keep maintaining your lifestyle.": "તમારું BMI તંદુરસ્ત શ્રેણીમાં છે. તમારી જીવનશૈલી જાળવી રાખો.",
+    "Length": "લંબાઈ",
+    "Weight / Mass": "વજન / દળ (દ્રવ્યમાન)",
+    "Volume": "કદ (ઘનફળ)",
+    "Area": "ક્ષેત્રફળ",
+    "Speed": "ઝડપ (ગતિ)",
+    "Digital Data": "ડિજિટલ ડેટા",
+    "Temperature": "તાપમાન",
+    "Remove GST": "GST હટાવો",
+    "What Percentage?": "કેટલા ટકા?",
+    "Single Discount": "સિંગલ ડિસ્કાઉન્ટ",
+    "Quantity Discount": "જથ્થા ડિસ્કાઉન્ટ",
+    "Select an event and date": "ઇવેન્ટ અને તારીખ પસંદ કરો",
+    "Select your date of birth to calculate": "ગણતરી કરવા માટે તમારી જન્મ તારીખ પસંદ કરો",
+    "Select a category, enter a value": "શ્રેણી પસંદ કરો, મૂલ્ય દાખલ કરો",
+    "Select a category, choose the": "શ્રેણી પસંદ કરો, પછી પસંદ કરો",
+    "FD maturity depends on deposit amount, interest rate,": "FD ની પાકતી મુદત જમા રકમ, વ્યાજ દર,",
+    "tenure and compounding frequency.": "સમયગાળો અને ચક્રવૃદ્ધિ આવર્તન પર આધાર રાખે છે.",
+    "Actual bank returns": "વાસ્તવિક બેંક રિટર્ન",
+    "may differ according to the bank's applicable rules.": "બેંકના લાગુ નિયમો અનુસાર અલગ હોઈ શકે છે.",
+    "Enter your deposit amount, expected rate, investment": "તમારી જમા રકમ, અપેક્ષિત દર અને રોકાણનો",
+    "period and compounding frequency, then tap": "સમયગાળો તથા ચક્રવૃદ્ધિ આવર્તન દાખલ કરો, પછી ટેપ કરો",
+    "Human-age conversion is only an": "માનવ-ઉંમરમાં રૂપાંતરણ માત્ર એક",
+    "approximation.": "અંદાજ છે.",
+    "Regular veterinary care,": "નિયમિત પશુચિકિત્સક સંભાળ,",
+    "nutrition and exercise are important for": "પોષણ અને કસરત તમારા કૂતરાના સ્વાસ્થ્ય માટે",
+    "your dog's health.": "મહત્વપૂર્ણ છે.",
+    "Select your dog's birth date and the": "તમારા કૂતરાની જન્મ તારીખ અને તે",
+    "date on which you want to calculate": "તારીખ પસંદ કરો જે દિવસે તમે ઉંમર ગણવા",
+    "the age, then tap": "માગો છો, પછી ટેપ કરો",
+    "RD returns depend on the interest rate": "RD રિટર્ન વ્યાજ દર પર આધાર રાખે છે",
+    "offered by the bank or financial institution.": "જે બેંક અથવા નાણાકીય સંસ્થા દ્વારા આપવામાં આવે છે.",
+    "The maturity amount shown here is an estimate.": "અહીં દર્શાવેલ પાકતી મુદતની રકમ એક અંદાજ છે.",
+    "Enter your monthly RD deposit,": "તમારી માસિક RD જમા રકમ,",
+    "expected interest rate and investment": "અપેક્ષિત વ્યાજ દર અને રોકાણ",
+    "period, then tap": "સમયગાળો દાખલ કરો, પછી ટેપ કરો",
+    "SIP returns are market-linked and the": "SIP રિટર્ન બજાર સાથે જોડાયેલા છે અને",
+    "calculated maturity value is an estimate": "ગણેલ પાકતી મુદતનું મૂલ્ય એક અંદાજ છે",
+    "based on the expected annual return entered.": "જે દાખલ કરેલ અપેક્ષિત વાર્ષિક રિટર્ન પર આધારિત છે.",
+    "Enter your SIP amount, frequency,": "તમારી SIP રકમ, આવર્તન,",
+    "expected return and investment period,": "અપેક્ષિત રિટર્ન અને રોકાણ સમયગાળો,",
+    "Enter the values above and select the": "ઉપરના મૂલ્યો દાખલ કરો અને તે ગણતરીનો",
+    "calculation type that matches what you": "પ્રકાર પસંદ કરો જે તમારી જરૂરિયાતને",
+    "want to find.": "અનુરૂપ હોય.",
+    "For sequential discounts, each discount": "ક્રમિક ડિસ્કાઉન્ટમાં, દરેક ડિસ્કાઉન્ટ",
+    "is calculated on the price remaining after": "અગાઉના ડિસ્કાઉન્ટ પછી બચેલી કિંમત પર",
+    "the previous discount.": "ગણવામાં આવે છે.",
+    "Enter the price, choose the discount": "કિંમત દાખલ કરો, ડિસ્કાઉન્ટ પ્રકાર પસંદ કરો",
+    "type and tap": "અને ટેપ કરો",
+    "Select the GST rate, choose whether the": "GST દર પસંદ કરો અને નક્કી કરો કે",
+    "amount is GST-inclusive or exclusive,": "રકમમાં GST સામેલ છે કે નહીં,",
+    "and then calculate your complete GST": "અને પછી તમારી સંપૂર્ણ GST",
+    "breakdown.": "વિગત ગણો.",
+    "Enter your amount, select the GST": "તમારી રકમ અને GST દર દાખલ કરો",
+    "rate and tap": "અને ટેપ કરો",
+    "Enter the loan amount, annual": "લોનની રકમ અને વાર્ષિક",
+    "interest rate and repayment": "વ્યાજ દર તથા પુનઃચુકવણીનો",
+    "tenure to calculate your monthly": "સમયગાળો દાખલ કરો જેથી તમારી માસિક",
+    "EMI and complete repayment": "EMI અને સંપૂર્ણ પુનઃચુકવણી",
+    "summary.": "સારાંશ ગણી શકાય.",
+    "This wellness report is generated based on the": "આ વેલનેસ રિપોર્ટ ઉપયોગકર્તા દ્વારા આપેલી",
+    "information provided by the user and is intended": "માહિતીના આધારે તૈયાર કરવામાં આવ્યો છે અને",
+    "for educational and general wellness purposes only.": "માત્ર શૈક્ષણિક અને સામાન્ય સુખાકારીના હેતુઓ માટે જ છે.",
+    "It is not a substitute for professional medical": "તે વ્યાવસાયિક તબીબી સલાહ, નિદાન કે સારવારનો",
+    "advice, diagnosis, or treatment.": "વિકલ્પ નથી.",
+    "This calculator provides an estimated pregnancy": "આ કેલ્ક્યુલેટર દાખલ કરેલ તારીખના આધારે",
+    "timeline based on the date entered. It is intended": "ગર્ભાવસ્થાની અંદાજિત સમયરેખા પ્રદાન કરે છે. તે",
+    "for general informational purposes only and should": "માત્ર સામાન્ય માહિતી માટે છે અને તેને",
+    "not be used as a substitute for medical diagnosis,": "તબીબી નિદાનના વિકલ્પ તરીકે વાપરવું જોઈએ નહીં,",
+    "treatment, or advice from a qualified healthcare": "અને લાયક સ્વાસ્થ્ય સંભાળ તજજ્ઞની",
+    "professional. Pregnancy dates can vary, and your": "સલાહ જરૂરી છે. ગર્ભાવસ્થાની તારીખો અલગ હોઈ શકે છે, અને",
+    "healthcare provider should be consulted for accurate": "સચોટ આકારણી અને તબીબી નિર્ણયો માટે તમારા",
+    "assessment and clinical decisions.": "સ્વાસ્થ્ય સેવા પ્રદાતાની સલાહ લેવી જોઈએ.",
+    "This result is calculated using the selected percentage method and the values entered above.": "આ પરિણામ પસંદ કરેલી ટકાવારી પદ્ધતિ અને ઉપર દાખલ કરેલા મૂલ્યોના આધારે ગણવામાં આવ્યું છે.",
+    "Enter the values above and select the calculation type that matches what you want to find.": "ઉપરના મૂલ્યો દાખલ કરો અને તમારી જરૂરિયાત મુજબ ગણતરીનો પ્રકાર પસંદ કરો.",
+    "Calculate a percentage of a given number.": "આપેલ સંખ્યાની ટકાવારી ગણો.",
+    "Find what percentage one number is of another.": "એક સંખ્યા બીજી સંખ્યાના કેટલા ટકા છે તે શોધો.",
+    "Calculate the percentage increase between two values.": "બે મૂલ્યો વચ્ચે ટકાવારી વધારાની ગણતરી કરો.",
+    "Calculate the percentage decrease between two values.": "બે મૂલ્યો વચ્ચે ટકાવારી ઘટાડાની ગણતરી કરો.",
+    "Find the percentage difference between two values.": "બે મૂલ્યો વચ્ચેનો ટકાવારી તફાવત શોધો.",
+    "Find the original value after a percentage change.": "ટકાવારી ફેરફાર પછી મૂળ મૂલ્ય શોધો.",
+    "Percentage": "ટકાવારી",
+    "Number": "સંખ્યા",
+    "Part": "ભાગ",
+    "Second Value": "બીજું મૂલ્ય",
+    "First Input": "પ્રથમ ઈનપુટ",
+    "Second Input": "બીજું ઈનપુટ",
+    "is what percentage of": "ના કેટલા ટકા છે",
+    "Preparing your PDF...": "તમારી PDF તૈયાર થઈ રહી છે...",
+    "PDF sharing is not supported here. The PDF has been downloaded instead.": "અહીં PDF શેરિંગ સપોર્ટેડ નથી. તેના બદલે PDF ડાઉનલોડ કરવામાં આવી છે.",
+    "Total value cannot be zero.": "કુલ મૂલ્ય શૂન્ય હોઈ શકે નહીં.",
+    "These values cannot be used for percentage difference.": "આ મૂલ્યોનો ઉપયોગ ટકાવારી તફાવત ગણવા માટે થઈ શકતો નથી.",
+    "Percentage change must be greater than -100%.": "ટકાવારી ફેરફાર -100% થી વધુ હોવો જોઈએ.",
+    "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.": "આ એક અંદાજિત પ્રોજેક્શન છે. બેંકોના પોતાના પ્રોડક્ટ નિયમો, રેટ સ્લેબ, દિવસ ગણતરી પદ્ધતિ, ટેક્સ/TDS નિયમો અને અન્ય લાગુ શરતોના કારણે વાસ્તવિક FD પાકતી મુદત અલગ હોઈ શકે છે.",
+    "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.": "GST ની ગણતરી પસંદ કરેલા GST દર અને ટેક્સ પ્રકારના આધારે કરવામાં આવી છે. રાજ્યની અંદરનો વિકલ્પ પસંદ કરવા પર CGST અને SGST સરખા ભાગે વહેંચાય છે.",
+    "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.": "પસંદ કરેલી ડિસ્કાઉન્ટ પદ્ધતિ લાગુ કર્યા પછી અંતિમ કિંમત ગણવામાં આવે છે. ક્રમિક ડિસ્કાઉન્ટ એક પછી એક લાગુ થાય છે, જ્યારે જથ્થા ડિસ્કાઉન્ટમાં લાગુ પડતો જથ્થા સ્લેબ વપરાય છે.",
+    "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.": "રૂપાંતરણ મૂલ્યો માનક એકમ રૂપાંતરણ સંબંધોના આધારે ગણવામાં આવે છે. જ્યાં પસંદ કરેલા એકમોમાં રાઉન્ડ કરેલા રૂપાંતરણ પરિબળો વપરાય છે, ત્યાં પરિણામો અંદાજિત હોઈ શકે છે.",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "આ કેલ્ક્યુલેટર દ્વારા દર્શાવેલ માનવ-ઉંમર સમકક્ષતા એક અંદાજિત શૈક્ષણિક મૂલ્યાંકન છે. વિવિધ નસ્લો, કદ અને વ્યક્તિગત કૂતરાઓમાં વાસ્તવિક ઉંમર વધવાની ઝડપ નોંધપાત્ર રીતે ભિન્ન હોઈ શકે છે.",
+    "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.": "SIP રિટર્ન બજાર સાથે જોડાયેલા છે અને ગણેલ પાકતી મુદતનું મૂલ્ય દાખલ કરેલ અપેક્ષિત વાર્ષિક રિટર્ન પર આધારિત અંદાજ છે.",
+    "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "આ કેલ્ક્યુલેટર દાખલ કરેલ અપેક્ષિત વાર્ષિક રિટર્નના આધારે અંદાજિત અંદાજ આપે છે. રોકાણ બજારના જોખમોને આધીન હોવાથી વાસ્તવિક મ્યુચ્યુઅલ ફંડ રિટર્ન વધુ કે ઓછા હોઈ શકે છે.",
+    "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "RD રિટર્ન બેંક અથવા નાણાકીય સંસ્થા દ્વારા આપવામાં આવતા વ્યાજ દર પર આધાર રાખે છે. અહીં દર્શાવેલ પાકતી મુદતની રકમ એક અંદાજ છે.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "આ કેલ્ક્યુલેટર દાખલ કરેલી માસિક જમા રકમ અને અપેક્ષિત વાર્ષિક વ્યાજ દરના આધારે અંદાજિત પાકતી મુદતની રકમ આપે છે. વ્યાજ દર, ચક્રવૃદ્ધિ પદ્ધતિ અને લાગુ નિયમો અનુસાર વાસ્તવિક પાકતી મુદતની રકમ અલગ હોઈ શકે છે.",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "આ વેલનેસ રિપોર્ટ ઉપયોગકર્તા દ્વારા આપેલી માહિતીના આધારે તૈયાર કરવામાં આવ્યો છે અને માત્ર શૈક્ષણિક તથા સામાન્ય સુખાકારીના હેતુઓ માટે જ છે. તે વ્યાવસાયિક તબીબી સલાહ, નિદાન કે સારવારનો વિકલ્પ નથી.",
+    "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "આ કેલ્ક્યુલેટર દાખલ કરેલ તારીખના આધારે ગર્ભાવસ્થાની અંદાજિત સમયરેખા પ્રદાન કરે છે. તે માત્ર સામાન્ય માહિતી માટે છે અને તેને તબીબી નિદાન, સારવાર અથવા લાયક સ્વાસ્થ્ય સંભાળ તજજ્ઞની સલાહના વિકલ્પ તરીકે વાપરવું જોઈએ નહીં. ગર્ભાવસ્થાની તારીખો અલગ હોઈ શકે છે, તેથી સચોટ આકારણી અને તબીબી નિર્ણય માટે તમારા સ્વાસ્થ્ય સેવા પ્રદાતાની સલાહ લો.",
+    "The selected LMP date is in the future.": "પસંદ કરેલી છેલ્લી માસિક ધર્મની તારીખ ભવિષ્યની છે.",
+    "Pregnancy calculation will begin from the selected LMP date.": "ગર્ભાવસ્થાની ગણતરી પસંદ કરેલી છેલ્લી માસિક ધર્મની તારીખથી શરૂ થશે.",
+    "The estimated due date has been reached or passed.": "અંદાજિત ડિલિવરી તારીખ આવી ગઈ છે અથવા વીતી ગઈ છે.",
+    "Pregnancy is currently ongoing.": "ગર્ભાવસ્થા હાલમાં ચાલુ છે.",
+    "Maintain a balanced diet": "સંતુલિત આહાર જાળવો",
+    "Stay physically active": "શારીરિક રીતે સક્રિય રહો",
+    "Drink enough water": "પૂરતું પાણી પીઓ",
+    "Sleep 7-8 hours daily": "દરરોજ 7-8 કલાક ઊંઘો",
+    "Excellent": "ઉત્કૃષ્ટ",
+    "Good": "સરસ",
+    "Fair": "ઠીક",
+    "Needs Improvement": "સુધારાની જરૂર છે",
+    "Keep maintaining your healthy lifestyle!": "તમારી તંદુરસ્ત જીવનશૈલી જાળવી રાખો!",
+    "Great progress! Keep improving every day.": "ખૂબ સરસ પ્રગતિ! દરરોજ સુધારો કરતા રહો.",
+    "Small healthy changes can improve your wellness.": "નાના સ્વસ્થ ફેરફારો તમારી સુખાકારીમાં સુધારો કરી શકે છે.",
+    "Focus on balanced diet, activity and healthy habits.": "સંતુલિત આહાર, પ્રવૃત્તિ અને સ્વસ્થ ટેવો પર ધ્યાન આપો.",
+    "Extremely Underweight": "અત્યંત ઓછું વજન",
+    "Severe Underweight": "ગંભીર ઓછું વજન",
+    "Obesity Class I": "મેદસ્વીતા વર્ગ I",
+    "Obesity Class II": "મેદસ્વીતા વર્ગ II",
+    "Obesity Class III": "મેદસ્વીતા વર્ગ III",
+    "🥩 Increase protein intake": "🥩 પ્રોટીનનું સેવન વધારો",
+    "🥛 Add healthy calorie sources": "🥛 સ્વસ્થ કેલરી સ્ત્રોત ઉમેરો",
+    "💪 Include strength exercises": "💪 શક્તિ વર્ધક કસરતો સામેલ કરો",
+    "🚶 Walk 8000-10000 steps": "🚶 8000-10000 પગલાં ચાલવું",
+    "💧 Maintain hydration": "💧 શરીરમાં પૂરતું પાણી જાળવી રાખો",
+    "🥗 Choose balanced meals": "🥗 સંતુલિત ભોજન પસંદ કરો",
+    "😴 Sleep 7-8 hours": "😴 7-8 કલાક ઊંઘો",
+    "🥚 Eggs": "🥚 ઈંડા",
+    "🍗 Chicken": "🍗 ચિકન",
+    "🐟 Fish": "🐟 માછલી",
+    "🥗 Vegetables": "🥗 શાકભાજી",
+    "🌱 Plant Protein": "🌱 વનસ્પતિ પ્રોટીન",
+    "🥜 Nuts & Seeds": "🥜 ડ્રાયફ્રૂટ્સ અને બીજ",
+    "🍎 Fruits": "🍎 ફળો",
+    "🥗 Dal & Vegetables": "🥗 દાળ અને શાકભાજી",
+    "🍚 Balanced Meals": "🍚 સંતુલિત ભોજન",
+    "🥛 Milk / Curd": "🥛 દૂધ / દહીં",
+    "🥜 Nuts": "🥜 ડ્રાયફ્રૂટ્સ (મેવા)",
+    "Not Available": "ઉપલબ્ધ નથી",
+    "Early pregnancy": "પ્રારંભિક ગર્ભાવસ્થા",
+    "Middle pregnancy": "મધ્ય ગર્ભાવસ્થા",
+    "Late pregnancy": "અંતિમ ગર્ભાવસ્થા",
+    "Year-Wise Projection": "વર્ષ મુજબ અંદાજ",
+    "Calculate\n": "ગણતરી કરો\n",
+    "Approximate Human Age": "અંદાજિત માનવ ઉંમર",
+    "Convert": "રૂપાંતરિત કરો",
+    "Calculation Breakdown": "ગણતરીની વિગતો",
+    "Born On": "જન્મ તારીખ",
+    "Days Remaining": "બાકી દિવસો",
+    "Select an event and date to see countdown.": "કાઉન્ટડાઉન જોવા માટે ઇવેન્ટ અને તારીખ પસંદ કરો.",
+    "First Trimester": "પ્રથમ ત્રિમાસિક",
+    "Second Trimester": "દ્વિતીય ત્રિમાસિક",
+    "Third Trimester": "તૃતીય ત્રિમાસિક",
+    "N/A": "N/A",
+    "Your retirement date has already passed.": "તમારી નિવૃત્તિની તારીખ પહેલાથી જ વીતી ગઈ છે.",
+    "Retirement Day Message Text": "🎉 આ મહત્વપૂર્ણ તબક્કે પહોંચવા બદલ હાર્દિક અભિનંદન! તમારું નિવૃત્તિ જીવન આનંદ, સારા સ્વાસ્થ્ય, શાંતિ અને તમારા પ્રિયજનો સાથે અગણિત સુંદર ક્ષણોથી ભરેલું રહે. તમારા સુખદ અને સંતોષપ્રદ નિવૃત્તિ જીવન માટે શુભેચ્છાઓ! 🌸",
+    "Select your date of birth to calculate your retirement date and remaining time.": "તમારી નિવૃત્તિ તારીખ અને બાકી સમયની ગણતરી કરવા માટે તમારી જન્મ તારીખ પસંદ કરો.",
+    "Millimeter": "મિલિમીટર",
+    "Centimeter": "સેન્ટિમીટર",
+    "Meter": "મીટર",
+    "Kilometer": "કિલોમીટર",
+    "Inch": "ઇંચ",
+    "Foot": "ફૂટ",
+    "Yard": "વાર (યાર્ડ)",
+    "Mile": "માઇલ",
+    "Milligram": "મિલિગ્રામ",
+    "Gram": "ગ્રામ",
+    "Kilogram": "કિલોગ્રામ",
+    "Tonne": "ટન",
+    "Ounce": "ઔંસ",
+    "Pound": "પાઉન્ડ",
+    "Stone": "સ્ટોન",
+    "Milliliter": "મિલિલીટર",
+    "Liter": "લીટર",
+    "CubicMeter": "ઘન મીટર",
+    "CubicCentimeter": "ઘન સેન્ટિમીટર",
+    "GallonUS": "યુએસ ગેલન",
+    "QuartUS": "યુએસ ક્વાર્ટ",
+    "PintUS": "યુએસ પાઇન્ટ",
+    "CupUS": "યુએસ કપ",
+    "SquareMillimeter": "ચોરસ મિલિમીટર",
+    "SquareCentimeter": "ચોરસ સેન્ટિમીટર",
+    "SquareMeter": "ચોરસ મીટર",
+    "Hectare": "હેક્ટર",
+    "SquareKilometer": "ચોરસ કિલોમીટર",
+    "SquareInch": "ચોરસ ઇંચ",
+    "SquareFoot": "ચોરસ ફૂટ",
+    "Acre": "એકર",
+    "MeterPerSecond": "મીટર પ્રતિ સેકન્ડ",
+    "KilometerPerHour": "કિલોમીટર પ્રતિ કલાક",
+    "MilePerHour": "માઇલ પ્રતિ કલાક",
+    "Knot": "નોટ (Knot)",
+    "FootPerSecond": "ફૂટ પ્રતિ સેકન્ડ",
+    "Millisecond": "મિલિસેકન્ડ",
+    "Byte": "બાઇટ",
+    "Kilobyte": "કિલોબાઇટ",
+    "Megabyte": "મેગાબાઇટ",
+    "Gigabyte": "ગીગાબાઇટ",
+    "Terabyte": "ટેરાબાઇટ",
+    "Bit": "બિટ",
+    "Celsius": "સેલ્સિયસ",
+    "Fahrenheit": "ફેરનહીટ",
+    "Kelvin": "કેલ્વિન",
+    "Currency Placeholder": "e.g. 5,000",
+    "Percentage Placeholder": "%",
+    "Year/Month": "વર્ષ/મહિનો",
+    "Example: My Wedding, Office Party...": "ઉદાહરણ: મારું લગ્ન, ઓફિસ પાર્ટી...",
+    "Increase your SIP amount every year by a fixed percentage.": "દર વર્ષે નક્કી કરેલી ટકાવારીથી તમારી SIP રકમ વધારો.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ઉદાહરણ: {{amount1}}ની માસિક SIPમાં દર વર્ષે 10% સ્ટેપ-અપ હોય તો બીજા વર્ષે {{amount2}}, ત્રીજા વર્ષે {{amount3}} અને આગળ પણ આ રીતે થશે.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "આ કેલ્ક્યુલેટર દાખલ કરેલી માસિક જમા રકમ અને અપેક્ષિત વાર્ષિક વ્યાજ દરના આધારે અંદાજિત પાકતી મુદતનું મૂલ્ય આપે છે. વ્યાજ દર, જમા કરવાનો સમય, બેંકના નિયમો, કર, દંડ અથવા અન્ય લાગુ શરતો અનુસાર વાસ્તવિક પાકતી મુદતનું મૂલ્ય અલગ હોઈ શકે છે.",
+    "Custom reminder must be between 1 and 1650 days.": "Custom reminder must be between 1 and 1650 days.",
+    "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.",
+    "PDF ready. Opening print preview...": "PDF ready. Opening print preview..."
+  },
+  "home": {
+    "hero_title": "તમારી ઉંમરની ગણતરી કરો",
+    "hero_highlight": "તુરંત અને સચોટ રીતે",
+    "hero_description": "AgeVerseGlobal તમારી ચોક્કસ ઉંમર, તારીખનો તફાવત, જન્મદિવસનું કાઉન્ટડાઉન અને ઘણું બધું ગણવામાં મદદ કરે છે.",
+    "calculate_age": "ઉંમરની ગણતરી કરો",
+    "explore_calculators": "કેલ્ક્યુલેટર જુઓ",
+    "preview_title": "🎂 વય કેલ્ક્યુલેટર",
+    "preview_units": "વર્ષ • મહિના • દિવસ",
+    "preview_years": "વર્ષ",
+    "features_title": "AgeVerseGlobal શા માટે પસંદ કરવું?",
+    "features_subtitle": "તમારી રોજિંદી તારીખની ગણતરીઓ માટે સ્માર્ટ ટૂલ્સ.",
+    "features": {
+      "exact_calculation": {
+        "title": "સચોટ ગણતરી",
+        "desc": "વર્ષ, મહિના અને દિવસોમાં ચોક્કસ ઉંમર મેળવો."
+      },
+      "multiple_calculators": {
+        "title": "એકથી વધુ કેલ્ક્યુલેટર",
+        "desc": "ઉંમર, તારીખ તફાવત, જન્મદિવસ અને ઘણું બધું."
+      },
+      "languages": {
+        "title": "એકથી વધુ ભાષાઓ",
+        "desc": "AgeVerseGlobal નો ઉપયોગ તમારી પસંદગીની ભાષામાં કરો."
+      },
+      "mobile_friendly": {
+        "title": "મોબાઇલ અનુકૂળ",
+        "desc": "દરેક ડિવાઇસ પર સરળતાથી કામ કરે છે."
+      },
+      "fast_result": {
+        "title": "ઝડપી પરિણામ",
+        "desc": "સરસ અને સ્વચ્છ ઇન્ટરફેસ સાથે ત્વરિત ગણતરી."
+      },
+      "privacy_focused": {
+        "title": "ગોપનીયતા કેન્દ્રિત",
+        "desc": "તમારી તારીખો તમારા ડિવાઇસ પર સુરક્ષિત રહે છે."
+      }
+    },
+    "testimonials_eyebrow": "✦ ઉપયોગકર્તાના અનુભવો",
+    "testimonials_title": "ઉપયોગકર્તાઓ શું કહે છે",
+    "testimonials_subtitle": "રોજિંદા ઉપયોગ માટે બનાવાયેલા સરળ, સચોટ અને વિશ્વસનીય ગણતરી ટૂલ્સ.",
+    "verified_user": "ચકાસાયેલ ઉપયોગકર્તા",
+    "faq_eyebrow": "✦ મદદ અને માહિતી",
+    "faq_title": "વારંવાર પૂછાતા પ્રશ્નો",
+    "faq_subtitle": "AgeVerseGlobal અને તેના સ્માર્ટ ગણતરી ટૂલ્સ વિશે જરૂરી તમામ માહિતી.",
+    "faq_footer_question": "હજુ પણ કોઈ પ્રશ્ન છે?",
+    "faq_footer_action": "તમારી જરૂરિયાતનું ટૂલ શોધવા AgeVerseGlobal ના કેલ્ક્યુલેટર જુઓ.",
+    "testimonial_roles": {
+      "rahul": "AgeVerseGlobal ઉપયોગકર્તા",
+      "priya": "AgeVerseGlobal ઉપયોગકર્તા",
+      "amit": "AgeVerseGlobal ઉપયોગકર્તા"
+    },
+    "testimonial_reviews": {
+      "rahul": "ખૂબ જ સચોટ અને વાપરવામાં સરળ વય કેલ્ક્યુલેટર. ઇન્ટરફેસ ક્લીન, મોર્ડન અને પ્રોફેસનલ લાગે છે.",
+      "priya": "સરળ ઇન્ટરફેસ અને ત્વરિત પરિણામ. મને ખાસ કરીને એ ગમ્યું કે તે મોબાઇલ પર ખૂબ સરળતાથી કામ કરે છે.",
+      "amit": "AgeVerseGlobal તારીખની ગણતરીઓને ખૂબ જ સરળ બનાવે છે. ઝડપી પરિણામો અને ઘણો સારો અનુભવ."
+    },
+    "faqs": {
+      "q1": "AgeVerseGlobal શું છે?",
+      "a1": "AgeVerseGlobal એ ઉંમર, તારીખ અને રોજિંદી ગણતરીના ટૂલ્સનું એક પ્રોફેશનલ પ્લેટફોર્મ છે, જેને ઝડપી, સચોટ અને સરળતાથી સમજી શકાય તેવા પરિણામો આપવા માટે બનાવવામાં આવ્યું છે.",
+      "q2": "ઉંમરની ગણતરી કેટલી સચોટ છે?",
+      "a2": "AgeVerseGlobal ઉપયોગકર્તા દ્વારા પસંદ કરેલી તારીખોના આધારે વર્ષ, મહિના અને દિવસોમાં ઉંમરની ચોક્કસ ગણતરી કરે છે.",
+      "q3": "શું AgeVerseGlobal વાપરવા માટે મફત છે?",
+      "a3": "હા. AgeVerseGlobal ના મૂળભૂત કેલ્ક્યુલેટર વાપરવા માટે બિલકુલ મફત છે.",
+      "q4": "શું મારો વ્યક્તિગત ડેટા સ્ટોર કરવામાં આવે છે?",
+      "a4": "AgeVerseGlobal ને ગોપનીયતા ધ્યાનમાં રાખીને બનાવવામાં આવ્યું છે. કેલ્ક્યુલેટરમાં દાખલ કરેલી વિગતોનો ઉપયોગ માત્ર પરિણામ આપવા માટે થાય છે અને તેને બિનજરૂરી રીતે સ્ટોર કરવામાં આવતી નથી.",
+      "q5": "શું હું AgeVerseGlobal નો ઉપયોગ મોબાઇલમાં કરી શકું છું?",
+      "a5": "હા. AgeVerseGlobal મોબાઇલ ફોન, ટેબ્લેટ અને ડેસ્કટોપ ઉપકરણો પર સરળતાથી કામ કરવા માટે બનાવવામાં આવ્યું છે.",
+      "q6": "AgeVerseGlobal કેટલી ભાષાઓને સપોર્ટ કરશે?",
+      "a6": "AgeVerseGlobal કોઈ ચોક્કસ સંખ્યા સુધી સીમિત નથી. નવી ભાષાઓ તેમનું locale translations ઉમેરીને દાખલ કરી શકાય છે, જેના માટે calculator components બદલવાની જરૂર પડતી નથી."
+    },
+    "new": "નવું",
+    "preview_age_label": "ઉંમર"
+  },
+  "language_name": "🇮🇳 ગુજરાતી",
+  "result_meta": {
+    "generated_by": "AgeVerseGlobal દ્વારા જનરેટ કરાયેલ",
+    "calculated_by": "AgeVerseGlobal દ્વારા ગણતરી કરાયેલ"
+  },
+  "sip": {
+    "calculation_projection_stepup": "{{frequency}} SIP માં {{amount}} નું રોકાણ, દર વર્ષે {{stepUp}}% વધારો અને {{rate}}% ના અંદાજિત વાર્ષિક રિટર્નના આધારે.",
+    "calculation_projection": "{{frequency}} SIP માં {{amount}} નું રોકાણ {{years}} વર્ષ માટે {{rate}}% ના અંદાજિત વાર્ષિક રિટર્ન પર."
+  },
+  "rd": {
+    "calculation_projection": "{{amount}} ની માસિક RD જમા રકમને {{years}} વર્ષ માટે {{rate}}% ના વાર્ષિક વ્યાજ દરે રોકાણ કરવામાં આવી છે, અંદાજ માટે ત્રિમાસિક ચક્રવૃદ્ધિનો ઉપયોગ કરવામાં આવ્યો છે."
+  },
+  "Calculated by": "AgeVerseGlobal દ્વારા ગણતરી કરાયેલ",
+  "Generated by": "AgeVerseGlobal દ્વારા જનરેટ કરાયેલ",
+  "Health_profile": {
+    "Enter your name": "તમારું નામ દાખલ કરો",
+    "Hello": "નમસ્તે",
+    "g": "ગ્રામ",
+    "L": "લીટર",
+    "kg": "કિગ્રા",
+    "day": "દિવસ",
+    "✨ Generated by": "✨ AgeVerseGlobal દ્વારા જનરેટ કરાયેલ"
+  },
+  "pregnancy": {
+    "timeline_subtitle": "તમારી ગર્ભાવસ્થાની સમયસીમા અને અંદાજિત ડિલિવરી તારીખની ગણતરી કરો.",
+    "calculation_note_full": "આ કેલ્ક્યુલેટર તમારા છેલ્લા માસિક ધર્મ (LMP) ના પહેલા દિવસ અને માનક 40-અઠવાડિયાના ગર્ભાવસ્થા ગાળાના આધારે અંદાજિત ડિલિવરી તારીખ ગણે છે.",
+    "empty_title": "ગર્ભાવસ્થા કેલ્ક્યુલેટર",
+    "empty_text": "તમારી ગર્ભાવસ્થાની સમયરેખા અને પ્રસૂતિની તારીખનો અંદાજ મેળવવા માટે તમારી છેલ્લી માસિક સ્રાવનો પ્રથમ દિવસ દાખલ કરો.",
+    "empty_hint": "તમારું પરિણામ અહીં દેખાશે.",
+    "lmp_help": "તમારી છેલ્લી માસિક સ્રાવનો પ્રથમ દિવસ દાખલ કરો."
+  },
+  "unit_converter": {
+    "subtitle": "લંબાઈ, વજન, તાપમાન, કદ અને અન્ય રોજિંદા એકમોને ઝડપથી રૂપાંતરિત કરો.",
+    "result_note": "રૂપાંતરણ મૂલ્યો માનક એકમ રૂપાંતરણ સંબંધોના આધારે મેળવવામાં આવે છે. જ્યાં પસંદ કરેલા એકમોમાં દશાંશ રૂપાંતરણ જરૂરી હોય, ત્યાં પરિણામો અંદાજિત હોઈ શકે છે.",
+    "intro": "શ્રેણી પસંદ કરો, મૂલ્ય દાખલ કરો અને તે એકમો પસંદ કરો જેને તમે રૂપાંતરિત કરવા માંગો છો.",
+    "instructions": "શ્રેણી પસંદ કરો, પછી મૂળ એકમ અને જેમાં રૂપાંતરિત કરવું હોય તે એકમ પસંદ કરો, ત્યારબાદ મૂલ્ય દાખલ કરો. કેલ્ક્યુલેટર માનક રૂપાંતરણ ગુણાંકોનો ઉપયોગ કરીને પરિણામ ગણે છે."
+  },
+  "gst": {
+    "add_description": "GST ની ગણતરી કરો અને તેને મૂળ રકમમાં ઉમેરો.",
+    "remove_description": "GST સહિતની રકમમાંથી મૂળ રકમ અને GST શોધો."
+  },
+  "discount": {
+    "single_description": "એક ડિસ્કાઉન્ટ લાગુ કર્યા પછી અંતિમ કિંમતની ગણતરી કરો.",
+    "multiple_description": "બે અથવા ત્રણ ડિસ્કાઉન્ટ એક પછી એક લાગુ કરો."
+  },
+  "fd": {
+    "calculation_projection": "{{frequency}} ચક્રવૃદ્ધિના આધારે {{years}} વર્ષ માટે {{rate}}% ના અસરકારક વાર્ષિક દર પર ચક્રવૃદ્ધિ-વ્યાજનો અંદાજ."
+  },
+  "dog_age": {
+    "info_description": "માનવ ઉંમરનું પરિણામ એ એક અંદાજિત મૂલ્યાંકન છે. નસ્લ, કદ, જિનેટિક્સ અને સ્વાસ્થ્યના આધારે કૂતરાઓની ઉંમર વધવાની ઝડપ અલગ-અલગ હોય છે.",
+    "calculation_text": "તમારો કૂતરો લગભગ {{years}} વર્ષ, {{months}} મહિના અને {{days}} દિવસનો છે, જે લગભગ {{humanAge}} માનવ વર્ષો સમાન છે.",
+    "days_remaining_suffix": "આગામી જન્મદિવસ સુધી લગભગ આટલા દિવસો બાકી છે.",
+    "Puppy": "ગલૂડિયું (Puppy)",
+    "Young Dog": "યુવાન કૂતરો",
+    "Adult Dog": "પુખ્ત કૂતરો",
+    "Senior Dog": "ઘરડો કૂતરો (Senior)"
+  },
+  "Approximately": "લગભગ",
+  "Monthly": "માસિક",
+  "Quarterly": "ત્રિમાસિક",
+  "Half-Yearly": "અર્ધવાર્ષિક",
+  "Annual": "વાર્ષિક",
+  "calculation_notes": {
+    "fd": "આ એક અંદાજિત પ્રોજેક્શન છે. બેંકોના પોતાના પ્રોડક્ટ નિયમો, રેટ સ્લેબ, દિવસ ગણતરી પદ્ધતિ, ટેક્સ/TDS નિયમો અને અન્ય લાગુ શરતોના કારણે વાસ્તવિક FD પાકતી મુદત અલગ હોઈ શકે છે.",
+    "rd": "આ કેલ્ક્યુલેટર દાખલ કરેલી માસિક જમા રકમ અને અપેક્ષિત વાર્ષિક વ્યાજ દરના આધારે અંદાજિત પાકતી મુદતનું મૂલ્ય આપે છે. વ્યાજ દર, જમા કરવાનો સમય, બેંકના નિયમો, કર, દંડ અથવા અન્ય લાગુ શરતો અનુસાર વાસ્તવિક પાકતી મુદતનું મૂલ્ય અલગ હોઈ શકે છે.",
+    "dog_age": "આ કેલ્ક્યુલેટર દ્વારા દર્શાવેલ માનવ-ઉંમર સમકક્ષતા એક અંદાજિત શૈક્ષણિક મૂલ્યાંકન છે. વિવિધ નસ્લો, કદ અને વ્યક્તિગત કૂતરાઓમાં વાસ્તવિક ઉંમર વધવાની ઝડપ નોંધપાત્ર રીતે ભિન્ન હોઈ શકે છે.",
+    "emi": "EMI ની ગણતરી દાખલ કરેલ લોનની રકમ, વાર્ષિક વ્યાજ દર અને પુનઃચુકવણી સમયગાળાના આધારે કરવામાં આવે છે. રાઉન્ડિંગ, ફી, વીમો અથવા અન્ય લાગુ ચાર્જિસને કારણે વાસ્તવિક ધિરાણકર્તાની EMI અલગ હોઈ શકે છે."
+  },
+  "bmi_gauge": {
+    "underweight_message": "સંતુલિત પોષણ અને સ્વસ્થ વજન વધારવા પર ધ્યાન આપો.",
+    "healthy_message": "તમારું BMI તંદુરસ્ત શ્રેણીમાં છે. તમારી જીવનશૈલી જાળવી રાખો.",
+    "overweight_message": "શારીરિક પ્રવૃત્તિ અને સંતુલિત કેલરીના સેવન પર ધ્યાન આપો.",
+    "obesity_message": "નિયમિત શારીરિક પ્રવૃત્તિ અને સ્વસ્થ આહારની આદતોની ભલામણ કરવામાં આવે છે."
+  },
+  "about_page": {
+    "eyebrow": "એજવર્સગ્લોબલ વિશે",
+    "title": "AgeVerseGlobal વિશે",
+    "intro": "AgeVerseGlobal સરળ, વિશ્વસનીય અને સમજવામાં સરળ દૈનિક ગણતરીઓ માટે વિચારપૂર્વક રચાયેલ પ્લેટફોર્મ છે.",
+    "mission_title": "અમારું ધ્યેય",
+    "mission_text": "અમારું ધ્યેય એવા કાળજીપૂર્વક રચાયેલા સાધનો દ્વારા દૈનિક ગણતરીઓને સ્પષ્ટ, સુલભ અને અનુકૂળ બનાવવાનું છે, જે કોઈપણ ઉપકરણ પર સરળતાથી વાપરી શકાય.",
+    "tools_eyebrow": "અમારા સાધનો",
+    "tools_title": "AgeVerseGlobal શું આપે છે",
+    "tools_text": "AgeVerseGlobal વિવિધ દૈનિક જરૂરિયાતો માટે ઉપયોગી કેલ્ક્યુલેટરોને એક જગ્યાએ લાવે છે.",
+    "category_age": "ઉંમર, તારીખના તફાવતો, ઘટનાઓ અને નિવૃત્તિની સમયરેખાની સ્પષ્ટ પરિણામો સાથે ગણતરી કરો.",
+    "category_health": "BMI, BMR, કેલરી, પોષણ અને પાણીની જરૂરિયાત જેવી ઉપયોગી આરોગ્ય સંબંધિત ગણતરીઓ જાણો.",
+    "category_family": "ગર્ભાવસ્થાની સમયરેખાની ગણતરી સહિત પરિવાર કેન્દ્રિત ઉપયોગી સાધનો.",
+    "category_utility": "રૂપાંતરણ, ટકાવારી, GST, EMI, ડિસ્કાઉન્ટ અને રોકાણો માટે દૈનિક ઉપયોગી તથા નાણાકીય કેલ્ક્યુલેટરો.",
+    "category_pet": "તમારા કૂતરાની ઉંમર અને તેના માનવીય ઉંમરના સમકક્ષનો અંદાજ લગાવવા માટેનું સરળ શૈક્ષણિક સાધન.",
+    "why_eyebrow": "એજવર્સગ્લોબલ શા માટે",
+    "why_title": "દૈનિક ઉપયોગ માટે રચાયેલ",
+    "why_text": "AgeVerseGlobal સ્પષ્ટતા, સુવિધા અને વિવિધ ઉપકરણોમાં એકસરખા અનુભવ પર ધ્યાન કેન્દ્રિત કરે છે.",
+    "accurate_title": "વિચારપૂર્વકની ગણતરીઓ",
+    "accurate_text": "અમારા કેલ્ક્યુલેટરો સ્પષ્ટ રીતે નિર્ધારિત ગણતરી પદ્ધતિઓનો ઉપયોગ કરે છે અને પરિણામોને સમજવામાં સરળ સ્વરૂપે રજૂ કરે છે.",
+    "simple_title": "સરળ અનુભવ",
+    "simple_text": "સ્વચ્છ ઇન્ટરફેસ તમને ઝડપથી માહિતી દાખલ કરવામાં અને બિનજરૂરી જટિલતા વિના પરિણામો સમજવામાં મદદ કરે છે.",
+    "privacy_title": "ગોપનીયતા કેન્દ્રિત",
+    "privacy_text": "AgeVerseGlobal ગોપનીયતાને ધ્યાનમાં રાખીને રચાયેલ છે અને બિનજરૂરી માહિતી એકત્રિત કરવાનું ઓછું કરવાનો પ્રયાસ કરે છે.",
+    "languages_title": "બહુભાષી અનુભવ",
+    "languages_text": "AgeVerseGlobal અનેક ભાષાઓને સપોર્ટ કરે છે જેથી વપરાશકર્તાઓ પોતાની અનુકૂળ ભાષામાં સાધનોનો ઉપયોગ કરી શકે.",
+    "cta_title": "ગણતરી કરવા તૈયાર છો?",
+    "cta_text": "AgeVerseGlobalના કેલ્ક્યુલેટરો જુઓ અને તમને જરૂરી સાધન શોધો.",
+    "cta_button": "કેલ્ક્યુલેટરો જુઓ"
+  },
+  "contact_page": {
+    "eyebrow": "એજવર્સગ્લોબલનો સંપર્ક કરો",
+    "title": "AgeVerseGlobalનો સંપર્ક કરો",
+    "intro": "અમે તમારા પ્રતિસાદ, સૂચનો અને પ્રશ્નોને મહત્વ આપીએ છીએ. તમારો અભિપ્રાય AgeVerseGlobalનો અનુભવ સુધારવામાં મદદ કરે છે.",
+    "feedback_title": "પ્રતિસાદ અને સૂચનો",
+    "feedback_text": "તમને શું ગમે છે, શું સુધારી શકાય અથવા તમે આગળ કયો કેલ્ક્યુલેટર જોવા માંગો છો તે જણાવો.",
+    "support_title": "કેલ્ક્યુલેટર સહાય",
+    "support_text": "જો તમને ગણતરી, પ્રદર્શન અથવા ઉપયોગમાં સરળતા સંબંધિત કોઈ સમસ્યા જણાય, તો સમીક્ષા માટે સંબંધિત વિગતો શેર કરો.",
+    "contact_title": "સામાન્ય પૂછપરછ",
+    "contact_text": "AgeVerseGlobal, તેના કેલ્ક્યુલેટરો અથવા વેબસાઇટ વિશે સામાન્ય પ્રશ્નો માટે તમે AgeVerseGlobal ટીમનો સંપર્ક કરી શકો છો.",
+    "email_title": "સંપર્કમાં રહો",
+    "email_text": "પ્રશ્નો, પ્રતિસાદ અથવા સહાય માટે કૃપા કરીને સત્તાવાર AgeVerseGlobal સંપર્ક ઇમેઇલનો ઉપયોગ કરો.",
+    "email_placeholder": "contact@ageverse.global",
+    "cta_title": "AgeVerseGlobalને સુધારવામાં મદદ કરવા બદલ આભાર.",
+    "cta_text": "તમારો પ્રતિસાદ અમને વધુ સારું અને ઉપયોગી ગણતરી અનુભવ બનાવવામાં મદદ કરે છે.",
+    "cta_button": "AgeVerseGlobal પર પાછા જાઓ",
+    "form_title": "અમારો સંપર્ક કરો",
+    "form_intro": "તમારો પ્રશ્ન, સૂચન અથવા સહાય વિનંતી મોકલો. અમે તમારા સંદેશની સમીક્ષા કરી જરૂર પડે ત્યારે જવાબ આપીશું.",
+    "open_form": "સંપર્ક ફોર્મ ખોલો",
+    "name": "નામ",
+    "email": "ઇમેઇલ",
+    "subject": "વિષય",
+    "message": "સંદેશ",
+    "submit": "સંદેશ મોકલો",
+    "sending": "મોકલાઈ રહ્યું છે…",
+    "success": "તમારો સંદેશ સફળતાપૂર્વક મોકલાયો છે.",
+    "error": "હમણાં સંદેશ મોકલી શકાયો નથી. ફરી પ્રયાસ કરો.",
+    "close": "બંધ કરો",
+    "page_label": "પેજ",
+    "name_required": "કૃપા કરીને તમારું નામ લખો.",
+    "email_required": "કૃપા કરીને તમારું ઇમેઇલ લખો.",
+    "email_invalid": "કૃપા કરીને માન્ય ઇમેઇલ લખો.",
+    "subject_required": "કૃપા કરીને વિષય લખો.",
+    "message_required": "કૃપા કરીને તમારો સંદેશ લખો.",
+    "privacy_notice": "તમારી પૂછપરછનો જવાબ આપવા માટે જ તમારું નામ અને ઇમેઇલ લેવામાં આવે છે. જાહેરાત માટે અમે આ માહિતી વેચતા કે શેર કરતા નથી.",
+    "subject_general_enquiry": "સામાન્ય પૂછપરછ",
+    "subject_calculator_issue": "કૅલ્ક્યુલેટર સમસ્યા",
+    "subject_calculation_result_issue": "ગણતરી / પરિણામની સમસ્યા",
+    "subject_translation_language_issue": "અનુવાદ / ભાષાની સમસ્યા",
+    "subject_website_problem": "વેબસાઇટ સમસ્યા",
+    "subject_suggestion": "સૂચન",
+    "subject_business_partnership": "વ્યવસાય / ભાગીદારી",
+    "subject_other": "અન્ય"
+  },
+  "privacy_page": {
+    "eyebrow": "ગોપનીયતા",
+    "title": "ગોપનીયતા નીતિ",
+    "intro": "આ ગોપનીયતા નીતિ સમજાવે છે કે AgeVerseGlobal માહિતી, ગોપનીયતા અને તેની વેબસાઇટ તથા કેલ્ક્યુલેટરોના ઉપયોગને કેવી રીતે સંભાળે છે.",
+    "information_title": "તમે દાખલ કરો છો તે માહિતી",
+    "information_text": "કેલ્ક્યુલેટરમાં દાખલ કરેલી માહિતી વિનંતી કરેલી ગણતરી આપવા માટે ઉપયોગમાં લેવાય છે અને કેલ્ક્યુલેટર દ્વારા તેને બિનજરૂરી રીતે સંગ્રહિત કરવાનો હેતુ નથી.",
+    "data_storage_title": "ડેટા સંગ્રહ",
+    "data_storage_text": "AgeVerseGlobal બિનજરૂરી માહિતી સંગ્રહને ઓછું કરવાનો પ્રયાસ કરે છે. કેટલીક તકનીકી અથવા સેવા સંબંધિત માહિતી હોસ્ટિંગ, સુરક્ષા, એનાલિટિક્સ અથવા અન્ય વેબસાઇટ ઇન્ફ્રાસ્ટ્રક્ચર પ્રદાતાઓ દ્વારા પ્રક્રિયા થઈ શકે છે.",
+    "analytics_title": "એનાલિટિક્સ",
+    "analytics_text": "AgeVerseGlobal વેબસાઇટના ઉપયોગને સમજવા, કામગીરી સુધારવા અને સુધારાની જરૂર હોય તેવા વિસ્તારો ઓળખવા માટે એનાલિટિક્સ સાધનોનો ઉપયોગ કરી શકે છે.",
+    "cookies_title": "કૂકીઝ અને સમાન તકનીકો",
+    "cookies_text": "વેબસાઇટ કાર્યક્ષમતા, પસંદગીઓ, એનાલિટિક્સ અથવા અન્ય યોગ્ય વેબસાઇટ હેતુઓ માટે જરૂરી હોય ત્યાં કૂકીઝ અથવા સમાન તકનીકોનો ઉપયોગ કરી શકે છે.",
+    "third_party_title": "તૃતીય-પક્ષ સેવાઓ",
+    "third_party_text": "AgeVerseGlobal હોસ્ટિંગ, એનાલિટિક્સ, સુરક્ષા અને અન્ય વેબસાઇટ કાર્યક્ષમતા માટે તૃતીય-પક્ષ સેવાઓ પર આધાર રાખી શકે છે. આવી સેવાઓ પોતાની નીતિઓ અનુસાર માહિતી પ્રક્રિયા કરી શકે છે.",
+    "security_title": "સુરક્ષા",
+    "security_text": "AgeVerseGlobal વેબસાઇટની સુરક્ષા અને વિશ્વસનીયતાને સમર્થન આપવા માટે યોગ્ય પગલાં લે છે, જોકે કોઈપણ ઇન્ટરનેટ સેવા સંપૂર્ણ સુરક્ષાની ખાતરી આપી શકતી નથી.",
+    "changes_title": "આ નીતિમાં ફેરફારો",
+    "changes_text": "વેબસાઇટ, સેવાઓ અથવા લાગુ પડતી આવશ્યકતાઓમાં ફેરફારોને પ્રતિબિંબિત કરવા માટે આ ગોપનીયતા નીતિમાં સમયાંતરે સુધારા થઈ શકે છે.",
+    "contact_title": "ગોપનીયતા વિશે પ્રશ્નો",
+    "contact_text": "આ ગોપનીયતા નીતિ અથવા AgeVerseGlobalની ગોપનીયતા પદ્ધતિઓ વિશે પ્રશ્નો હોય તો AgeVerseGlobal ટીમનો સંપર્ક કરો.",
+    "advertising_title": "જાહેરાત અને Google AdSense",
+    "advertising_text": "AgeVerseGlobal જાહેરાતો પ્રદર્શિત કરવા માટે Google AdSense અને અન્ય તૃતીય-પક્ષ જાહેરાત સેવાઓનો ઉપયોગ કરી શકે છે. આ સેવાઓ વપરાશકર્તાઓની રુચિઓ અને ક્રિયાપ્રતિક્રિયાઓના આધારે જાહેરાતો પ્રદાન કરવા, માપવા અને વ્યક્તિગત બનાવવા માટે કૂકીઝ અને સમાન તકનીકોનો ઉપયોગ કરી શકે છે. Google આ વેબસાઇટ અને અન્ય વેબસાઇટ્સ પર વપરાશકર્તાની મુલાકાતોના આધારે જાહેરાતો દર્શાવવા માટે જાહેરાત કૂકીઝનો ઉપયોગ કરી શકે છે. વપરાશકર્તાઓ Google Ads Settings દ્વારા વ્યક્તિગત જાહેરાતોને સંચાલિત અથવા બંધ કરી શકે છે. તૃતીય-પક્ષ જાહેરાત પ્રદાતાઓની પોતાની ગોપનીયતા નીતિઓ અને પદ્ધતિઓ હોઈ શકે છે."
+  },
+  "terms_page": {
+    "eyebrow": "નિયમો અને શરતો",
+    "title": "નિયમો અને શરતો",
+    "intro": "આ નિયમો અને શરતો AgeVerseGlobal વેબસાઇટ અને તેના કેલ્ક્યુલેટરોના ઉપયોગ માટેના સામાન્ય નિયમો વર્ણવે છે.",
+    "calculator_title": "કેલ્ક્યુલેટરોનો ઉપયોગ",
+    "calculator_text": "AgeVerseGlobal કેલ્ક્યુલેટરો સામાન્ય માહિતી અને શૈક્ષણિક હેતુઓ માટે આપવામાં આવે છે. તમે દાખલ કરેલી માહિતી અને પ્રાપ્ત પરિણામોની સમીક્ષા કરવાની જવાબદારી તમારી છે.",
+    "accuracy_title": "પરિણામો અને ચોકસાઈ",
+    "accuracy_text": "AgeVerseGlobal ઉપયોગી અને વિશ્વસનીય ગણતરીઓ આપવા પ્રયત્ન કરે છે, પરંતુ ધારણાઓ, રાઉન્ડિંગ, ઇનપુટની ગુણવત્તા અથવા વાસ્તવિક પરિસ્થિતિઓના તફાવતોને કારણે પરિણામો બદલાઈ શકે છે.",
+    "health_title": "આરોગ્ય સંબંધિત સાધનો",
+    "health_text": "આરોગ્ય સંબંધિત કેલ્ક્યુલેટરના પરિણામો માત્ર માહિતી માટે છે અને વ્યાવસાયિક તબીબી સલાહ, નિદાન અથવા સારવારનો વિકલ્પ નથી.",
+    "financial_title": "નાણાકીય સાધનો",
+    "financial_text": "નાણાકીય કેલ્ક્યુલેટરના પરિણામો સામાન્ય માહિતી માટેના અંદાજ છે અને તેને નાણાકીય, રોકાણ, બેંકિંગ અથવા કર સંબંધિત સલાહ તરીકે માનવા જોઈએ નહીં.",
+    "pet_title": "પાળતુ પ્રાણી સંબંધિત સાધનો",
+    "pet_text": "પાળતુ પ્રાણી કેલ્ક્યુલેટરના પરિણામો અંદાજિત શૈક્ષણિક માહિતી છે અને યોગ્ય પશુચિકિત્સકની સલાહનું સ્થાન લઈ શકતા નથી.",
+    "availability_title": "વેબસાઇટ ઉપલબ્ધતા",
+    "availability_text": "AgeVerseGlobal જરૂરિયાત મુજબ વેબસાઇટની સુવિધાઓ અથવા કેલ્ક્યુલેટરોને અપડેટ, સુધારી, સ્થગિત અથવા બંધ કરી શકે છે.",
+    "responsibility_title": "વપરાશકર્તાની જવાબદારી",
+    "responsibility_text": "વપરાશકર્તાઓ વેબસાઇટનો યોગ્ય રીતે ઉપયોગ કરવા અને જરૂરી હોય ત્યારે યોગ્ય વ્યાવસાયિક અથવા અધિકૃત સ્રોતોની માહિતીના આધારે નિર્ણય લેવા માટે જવાબદાર છે.",
+    "changes_title": "આ નિયમોમાં ફેરફારો",
+    "changes_text": "આ નિયમો અને શરતોમાં સમયાંતરે સુધારા થઈ શકે છે. સુધારા પછી AgeVerseGlobalનો સતત ઉપયોગ સુધારેલા નિયમોની સ્વીકૃતિ દર્શાવે છે.",
+    "contact_title": "સંપર્ક",
+    "contact_text": "આ નિયમો અને શરતો વિશે પ્રશ્નો માટે AgeVerseGlobal ટીમનો સંપર્ક કરો."
+  },
+  "disclaimer_page": {
+    "eyebrow": "અસ્વીકરણ",
+    "title": "અસ્વીકરણ",
+    "intro": "AgeVerseGlobal દ્વારા આપવામાં આવેલી માહિતી અને કેલ્ક્યુલેટરના પરિણામો સામાન્ય માહિતી અને શૈક્ષણિક હેતુઓ માટે છે.",
+    "notice_title": "મહત્વપૂર્ણ સૂચના",
+    "notice_text": "કેલ્ક્યુલેટરના પરિણામોને અંદાજ તરીકે માનવા જોઈએ. તે સત્તાવાર સંસ્થાઓ, વ્યાવસાયિકો, બેંકો, આરોગ્યસંભાળ પ્રદાતાઓ અથવા અન્ય અધિકૃત સ્રોતોના પરિણામોથી અલગ હોઈ શકે છે.",
+    "accuracy_title": "ગણતરીની ચોકસાઈ",
+    "accuracy_text": "AgeVerseGlobal નિર્ધારિત ગણતરી પદ્ધતિઓનો ઉપયોગ કરે છે, પરંતુ રાઉન્ડિંગ, ધારણાઓ, ઇનપુટ મૂલ્યો અને વાસ્તવિક નિયમો અથવા પરિસ્થિતિઓના તફાવતોને કારણે પરિણામો બદલાઈ શકે છે.",
+    "health_title": "આરોગ્ય માહિતી",
+    "health_text": "આરોગ્ય સંબંધિત ગણતરીઓ તબીબી સલાહ નથી અને તેનો ઉપયોગ કોઈ તબીબી સ્થિતિનું નિદાન, સારવાર અથવા નિવારણ કરવા માટે કરવો જોઈએ નહીં. જરૂર પડે ત્યારે યોગ્ય લાયકાત ધરાવતા આરોગ્યસંભાળ વ્યાવસાયિકની સલાહ લો.",
+    "financial_title": "નાણાકીય માહિતી",
+    "financial_text": "નાણાકીય ગણતરીઓ અંદાજ છે અને નાણાકીય, રોકાણ, બેંકિંગ અથવા કર સલાહ નથી. લાગુ દરો, નીતિઓ, ફી, કર અને અન્ય શરતો અનુસાર વાસ્તવિક પરિણામો બદલાઈ શકે છે.",
+    "pet_title": "પાળતુ પ્રાણીની માહિતી",
+    "pet_text": "કૂતરાની ઉંમર અને અન્ય પાળતુ પ્રાણી સંબંધિત ગણતરીઓ અંદાજિત શૈક્ષણિક માહિતી છે અને વ્યાવસાયિક પશુચિકિત્સક માર્ગદર્શનનું સ્થાન લઈ શકતી નથી.",
+    "external_title": "બાહ્ય સેવાઓ અને લિંક્સ",
+    "external_text": "AgeVerseGlobal બાહ્ય સેવાઓનો ઉપયોગ કરી શકે છે અથવા તૃતીય-પક્ષ સ્રોતોની લિંક્સ આપી શકે છે. AgeVerseGlobal બાહ્ય સેવાઓની સામગ્રી, નીતિઓ અથવા ઉપલબ્ધતાને નિયંત્રિત કરતું નથી.",
+    "responsibility_title": "વપરાશકર્તાની જવાબદારી",
+    "responsibility_text": "નિર્ણય લેતા પહેલાં વપરાશકર્તાઓએ મહત્વપૂર્ણ માહિતી યોગ્ય સત્તાવાર, વ્યાવસાયિક અથવા અધિકૃત સ્રોતો સાથે ચકાસવી જોઈએ.",
+    "contact_title": "પ્રશ્નો",
+    "contact_text": "આ અસ્વીકરણ વિશે પ્રશ્નો હોય તો AgeVerseGlobal ટીમનો સંપર્ક કરો."
+  },
+  "not_found_page": {
+    "eyebrow": "404",
+    "title": "પેજ મળ્યું નથી",
+    "description": "તમે જે પેજ શોધી રહ્યા છો તે અસ્તિત્વમાં નથી અથવા કદાચ તેને ખસેડવામાં આવ્યું છે.",
+    "home_button": "હોમ પર જાઓ"
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "નોટિફિકેશનની પરવાનગી બ્લોક કરવામાં આવી છે. રિમાઇન્ડર મેળવવા માટે કૃપા કરીને AgeVerseGlobal માટે નોટિફિકેશનની પરવાનગી આપો.",
+  "Event reminder service is not configured.": "ઇવેન્ટ રિમાઇન્ડર સેવા ગોઠવવામાં આવી નથી.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ઉદાહરણ: {{amount1}}ની માસિક SIPમાં દર વર્ષે 10% સ્ટેપ-અપ હોય તો બીજા વર્ષે {{amount2}}, ત્રીજા વર્ષે {{amount3}} અને આગળ પણ આ રીતે થશે.",
+  "seo_content": {
+    "event_calculator": {
+      "name": "EventCalculatorSEOContent",
+      "eyebrow": "ઇવેન્ટ તારીખ માર્ગદર્શિકા",
+      "title": "ઇવેન્ટ કેલ્ક્યુલેટર: તમારી ખાસ ક્ષણો માટે કાઉન્ટડાઉન",
+      "intro": "ઇવેન્ટ તારીખ કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને કોઈ પ્રસંગનું આયોજન કરવા અને તારીખ સુધીનો બાકી સમય જાણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે."
+          ]
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી."
+          ]
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "જન્મદિવસ",
+          "ઉજવણીની તારીખ",
+          "તૈયારીઓનું આયોજન કરો"
+        ],
+        [
+          "લગ્નની વર્ષગાંઠ",
+          "ખાસ તારીખ",
+          "આગામી દિવસ સુધીનો સમય જુઓ"
+        ],
+        [
+          "મુસાફરી અથવા મુલાકાત",
+          "નક્કી કરેલી તારીખ",
+          "બાકી સમય તપાસો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "શું હું તેનો ઉપયોગ જન્મદિવસ માટે કરી શકું?",
+          "હા, જન્મદિવસ, લગ્નની વર્ષગાંઠ અને અન્ય પ્રસંગો માટે તેનો ઉપયોગ કરી શકાય છે."
+        ],
+        [
+          "શું હું ભૂતકાળની ઘટના માટે ગણતરી કરી શકું?",
+          "કેલ્ક્યુલેટર ભૂતકાળની તારીખ મંજૂર કરે ત્યારે પરિણામ પસંદ કરેલી તારીખ મુજબ હોય છે."
+        ],
+        [
+          "શું તારીખ કાળજીપૂર્વક તપાસવી જોઈએ?",
+          "હા. ખોટો દિવસ, મહિનો અથવા વર્ષ પરિણામ બદલી શકે છે."
+        ],
+        [
+          "શું તે રિમાઇન્ડરનું સ્થાન લે છે?",
+          "ના. સૂચના જરૂરી હોય તો કેલેન્ડરમાં રિમાઇન્ડર સેટ કરો."
+        ],
+        [
+          "શું તે મફત છે?",
+          "હા, AgeVerseGlobalનું ઑનલાઇન સાધન કેલ્ક્યુલેટર ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ],
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "retirement": {
+      "name": "RetirementCalculatorSEOContent",
+      "eyebrow": "નિવૃત્તિ આયોજન માર્ગદર્શિકા",
+      "title": "રિટાયરમેન્ટ કેલ્ક્યુલેટર: તમારી નિવૃત્તિ તારીખ અને બાકી સમય ગણો",
+      "intro": "રિટાયરમેન્ટ કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને લક્ષિત નિવૃત્તિ તારીખ સુધીનો બાકી સમય જાણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "વાસ્તવિક નિવૃત્તિ એ નોકરીદાતાની નીતિ, સેવાના નિયમો, અધિકારક્ષેત્ર અને વ્યક્તિગત સંજોગો પર આધારિત હોઈ શકે છે."
+          ]
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "તમારા નોકરીદાતા અથવા સંબંધિત સત્તાધિકારી સાથે અંતિમ તારીખની પુષ્ટિ કરી લો, ખાસ કરીને જો નિવૃત્તિની તારીખ મહિનાના અંત અથવા સેવાના નિયમોને આધારે નક્કી થતી હોય."
+          ]
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "જન્મદિવસ",
+          "ઉજવણીની તારીખ",
+          "તૈયારીઓનું આયોજન કરો"
+        ],
+        [
+          "લગ્નની વર્ષગાંઠ",
+          "ખાસ તારીખ",
+          "આગામી દિવસ સુધીનો સમય જુઓ"
+        ],
+        [
+          "મુસાફરી અથવા મુલાકાત",
+          "નક્કી કરેલી તારીખ",
+          "બાકી સમય તપાસો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "ગણતરી કરેલી તારીખ સત્તાવાર છે?",
+          "ના. લાગુ પડતી તારીખની પુષ્ટિ તમારા નોકરીદાતા અથવા સંબંધિત અધિકારી પાસેથી કરો."
+        ],
+        [
+          "જોઇનિંગ તારીખ શા માટે માંગવામાં આવે છે?",
+          "તે કેલ્ક્યુલેટરને નોકરી સંબંધિત સંદર્ભ આપે છે."
+        ],
+        [
+          "નિયમો તારીખ બદલી શકે છે?",
+          "હા. નોકરીદાતાની નીતિ અને લાગુ નિયમો ગણતરી માટે અલગ પદ્ધતિ નક્કી કરી શકે છે."
+        ],
+        [
+          "શું હું નિવૃત્તિની બીજી ઉંમર પસંદ કરી શકું?",
+          "કેલ્ક્યુલેટરમાં ઉપલબ્ધ નિવૃત્તિ-ઉંમરનો વિકલ્પ વાપરો."
+        ],
+        [
+          "શું આ નાણાકીય સલાહ છે?",
+          "ના. આ તારીખનું આયોજન કરવા માટેનું સાધન છે, નાણાકીય કે કાનૂની સલાહ નથી."
+        ]
+      ],
+      "related": [
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "sip": {
+      "name": "SipSEOContent",
+      "eyebrow": "SIP ગણતરી માર્ગદર્શિકા",
+      "title": "SIP કેલ્ક્યુલેટર: SIP રોકાણ, અંદાજિત વળતર અને મેચ્યોરિટી મૂલ્ય ગણો",
+      "intro": "SIP કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "SIP કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને નિયમિત રોકાણના સંભવિત ભવિષ્ય મૂલ્યનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "મ્યુચ્યુઅલ ફંડનું વળતર બજાર સાથે જોડાયેલું હોય છે અને તેની કોઈ ખાતરી હોતી નથી."
+          ]
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "વાસ્તવિક પરિણામો બદલાય છે કારણ કે બજારોમાં વધઘટ થાય છે અને ખર્ચ અથવા કર લાગુ થઈ શકે છે."
+          ]
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "નિયમિત જમા",
+          "રકમ અને આવર્તન",
+          "ભવિષ્યની રકમનો અંદાજ મેળવો"
+        ],
+        [
+          "સમયગાળો",
+          "પસંદ કરેલો સમય",
+          "સમયગાળાની સરખામણી કરો"
+        ],
+        [
+          "વ્યાજ દર",
+          "સૂચક દર",
+          "વ્યાજનો અંદાજ મેળવો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "SIPનું વળતર ખાતરીપૂર્વક મળે છે?",
+          "ના. મ્યુચ્યુઅલ ફંડનું વળતર બજાર સાથે જોડાયેલું હોય છે અને હકારાત્મક કે નકારાત્મક હોઈ શકે છે."
+        ],
+        [
+          "કયું વળતર દાખલ કરવું જોઈએ?",
+          "વિવિધ પરિસ્થિતિઓનું મૂલ્યાંકન કરવા ધારિત દર દાખલ કરો; તેની ખાતરી નથી."
+        ],
+        [
+          "કર અને ફીનો સમાવેશ થાય છે?",
+          "ના, કર અને ફીનો સમાવેશ થતો નથી. તેની અલગથી ગણતરી કરી શકાય છે."
+        ],
+        [
+          "લાંબો સમયગાળો પરિણામ બદલી શકે છે?",
+          "હા. વધુ હપ્તા અને ધારિત વળતર હેઠળ વધુ સમયથી અંદાજ બદલાઈ શકે છે."
+        ],
+        [
+          "શું આ રોકાણની સલાહ છે?",
+          "ના. આ અંદાજ માટેનું સાધન છે, વ્યક્તિગત રોકાણ સલાહ નથી."
+        ]
+      ],
+      "related": [
+        [
+          "FD કેલ્ક્યુલેટર",
+          "/utility/fd-calculator"
+        ],
+        [
+          "RD કેલ્ક્યુલેટર",
+          "/utility/rd-calculator"
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "percentage": {
+      "name": "PercentageSEOContent",
+      "eyebrow": "ટકાવારી ગણતરી માર્ગદર્શિકા",
+      "title": "ટકાવારી કેલ્ક્યુલેટર: ઝડપથી ટકાવારી, વધારો, ઘટાડો ગણો",
+      "intro": "ટકાવારી કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "ટકાવારી કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને ભાગ, ફેરફાર અથવા ટકાવારી ગણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "ટકાવારીનો ઉપયોગ ડિસ્કાઉન્ટ, માર્ક (કિંમત નિર્ધારણ), બજેટ, કર અને સરખામણીઓમાં થાય છે."
+          ]
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "એક મૂલ્યને બીજા મૂલ્યની ટકાવારી તરીકે દર્શાવવા માટે, તે ભાગને કુલ મૂલ્ય વડે ભાગો અને ૧૦૦ વડે ગુણો. કુલ મૂલ્ય શૂન્ય ન હોવું જોઈએ."
+          ]
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "મૂળ મૂલ્ય",
+          "મૂલ્ય અને દર",
+          "ફેરફાર ગણો"
+        ],
+        [
+          "મૂલ્યોની સરખામણી",
+          "બે મૂલ્યો",
+          "પરિણામો સરખાવો"
+        ],
+        [
+          "ઝડપી તપાસ",
+          "દાખલ કરેલી માહિતી",
+          "ગણતરી ચકાસો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "કોઈ સંખ્યાના X ટકા કેવી રીતે ગણવા?",
+          "સંખ્યાને X વડે ગુણો અને પછી 100 વડે ભાગો."
+        ],
+        [
+          "એક સંખ્યા બીજી સંખ્યાની કેટલી ટકાવારી છે તે કેવી રીતે શોધવું?",
+          "કુલ સંખ્યા શૂન્ય ન હોય તો ભાગને કુલથી ભાગો અને 100 વડે ગુણો."
+        ],
+        [
+          "શું હું ટકાવારીમાં વધારો ગણાવી શકું?",
+          "સંબંધિત વિકલ્પ ઉપલબ્ધ હોય તો તેનો ઉપયોગ કરો, અથવા ફેરફારની મૂળ મૂલ્ય સાથે સરખામણી કરો."
+        ],
+        [
+          "જવાબમાં દશાંશ કેમ આવે છે?",
+          "કેટલીક ગણતરીઓમાં અપૂર્ણાંક પરિણામ મળે છે; રાઉન્ડિંગ દર્શાવેલી ચોકસાઈ પર આધારિત છે."
+        ],
+        [
+          "AgeVerseGlobal પર ટકાવારી કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal Percentage Calculator ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર",
+          "/utility/discount-calculator"
+        ],
+        [
+          "GST કેલ્ક્યુલેટર",
+          "/utility/gst-calculator"
+        ],
+        [
+          "યુનિટ કન્વર્ટર",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "pregnancy": {
+      "name": "PregnancySEOContent",
+      "eyebrow": "ગર્ભાવસ્થા કેલ્ક્યુલેટર માર્ગદર્શિકા",
+      "title": "ગર્ભાવસ્થા કેલ્ક્યુલેટર: ગર્ભાવસ્થા સમયરેખા અને અપેક્ષિત પ્રસૂતિ તારીખ અનુમાન કરો",
+      "intro": "ગર્ભાવસ્થા કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "ગર્ભાવસ્થા કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને ગર્ભાવસ્થાની કેટલીક તારીખોનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "ગર્ભાવસ્થાની તારીખ ચક્રની લંબાઈ, ઓવ્યુલેશનનો સમય, અલ્ટ્રાસાઉન્ડ તારણો અને ક્લિનિકલ ઇતિહાસના આધારે બદલાઈ શકે છે."
+          ]
+        ],
+        [
+          "ગર્ભાવસ્થા કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "ગર્ભાવસ્થા કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "ચિકિત્સક ચક્રની વિગતો અને ક્લિનિકલ તારણોના આધારે અંદાજમાં ફેરફાર કરી શકે છે."
+          ]
+        ],
+        [
+          "ગર્ભાવસ્થા કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "વ્યક્તિગત માહિતી",
+          "દાખલ કરેલા મૂલ્યો",
+          "અંદાજ મેળવો"
+        ],
+        [
+          "સમય સાથે દેખરેખ",
+          "સંદર્ભ તારીખ",
+          "પરિણામોની સરખામણી કરો"
+        ],
+        [
+          "આયોજન",
+          "અદ્યતન માહિતી",
+          "આગળનાં પગલાં નક્કી કરો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "પ્રસૂતિની અંદાજિત તારીખ ચોક્કસ હોય છે?",
+          "ના. તે અંદાજ છે અને ઘણા બાળકોનો જન્મ તે તારીખે થતો નથી."
+        ],
+        [
+          "કઈ તારીખ દાખલ કરવી જોઈએ?",
+          "કેલ્ક્યુલેટર જે તારીખ માંગે તે દાખલ કરો, જેમ કે આ પદ્ધતિ ઉપલબ્ધ હોય તો છેલ્લી માસિક સ્રાવની તારીખ."
+        ],
+        [
+          "શું તબીબી નિષ્ણાત તારીખ બદલી શકે છે?",
+          "હા. તબીબી માહિતી અને અલ્ટ્રાસાઉન્ડના તારણોથી અંદાજ બદલાઈ શકે છે."
+        ],
+        [
+          "શું હું તબીબી નિર્ણય માટે તેનો ઉપયોગ કરી શકું?",
+          "ના. તેનો ઉપયોગ માત્ર સામાન્ય માહિતી માટે કરો અને નિર્ણય માટે તમારા આરોગ્યસંભાળ નિષ્ણાતની સલાહ અનુસરો."
+        ],
+        [
+          "તાત્કાલિક સારવાર ક્યારે લેવી જોઈએ?",
+          "તીવ્ર દુખાવો, ભારે રક્તસ્રાવ, બેભાન થવું અથવા અન્ય ગંભીર લક્ષણો હોય તો તાત્કાલિક સારવાર લો."
+        ]
+      ],
+      "related": [
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ",
+          "/health-profile"
+        ],
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "health_profile": {
+      "name": "HealthProfileSEOContent",
+      "eyebrow": "આરોગ્ય પ્રોફાઇલ માર્ગદર્શિકા",
+      "title": "સંપૂર્ણ હેલ્થ પ્રોફાઇલ: BMI • BMR • કેલરી • પાણી • પોષણ",
+      "intro": "સંપૂર્ણ હેલ્થ પ્રોફાઇલ દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ શું છે?",
+          [
+            "આ સાધન તમને વજન, ઊર્જા અને પાણી સંબંધિત સામાન્ય સૂચકો જોવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "ગણતરી કરેલા સૂચકાંકો એ નિદાન નથી. વ્યક્તિગત સ્વાસ્થ્ય ઘણા પરિબળો પર આધારિત હોય છે, જેનું સંપૂર્ણ મૂલ્યાંકન એક સાદું કેલ્ક્યુલેટર કરી શકતું નથી."
+          ]
+        ],
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "જો કોઈ પરિણામ અંગે તમને ચિંતા હોય અથવા તમને લક્ષણો જણાય, તો આરોગ્ય વ્યાવસાયિક (હેલ્થકેર પ્રોફેશનલ)ની સલાહ લો."
+          ]
+        ],
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "વ્યક્તિગત માહિતી",
+          "દાખલ કરેલા મૂલ્યો",
+          "અંદાજ મેળવો"
+        ],
+        [
+          "સમય સાથે દેખરેખ",
+          "સંદર્ભ તારીખ",
+          "પરિણામોની સરખામણી કરો"
+        ],
+        [
+          "આયોજન",
+          "અદ્યતન માહિતી",
+          "આગળનાં પગલાં નક્કી કરો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "શું આ બીમારીનું નિદાન કરે છે?",
+          "ના. તે સામાન્ય માહિતી માટેની ગણતરી આપે છે, નિદાન કરતું નથી."
+        ],
+        [
+          "પરિણામથી ચિંતા થાય તો શું કરવું?",
+          "યોગ્ય લાયકાત ધરાવતા આરોગ્ય નિષ્ણાત સાથે ચર્ચા કરો."
+        ],
+        [
+          "શું તે ડૉક્ટરનું સ્થાન લઈ શકે છે?",
+          "ના. તે તપાસ, તબીબી ઇતિહાસ અથવા વ્યાવસાયિક સલાહનું સ્થાન લઈ શકતું નથી."
+        ],
+        [
+          "એકમો મહત્વના છે?",
+          "હા. માપો માંગેલા એકમોમાં દાખલ કરો."
+        ],
+        [
+          "શું આ તબીબી સલાહ છે?",
+          "ના. આ માત્ર માહિતી માટેનું સાધન છે."
+        ]
+      ],
+      "related": [
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "ગર્ભાવસ્થા કેલ્ક્યુલેટર",
+          "/pregnancy-calculator"
+        ],
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "rd": {
+      "name": "RdSEOContent",
+      "eyebrow": "રિકરિંગ ડિપોઝિટ માર્ગદર્શિકા",
+      "title": "RD કેલ્ક્યુલેટર: રિકરિંગ ડિપોઝિટ, અંદાજિત વ્યાજ અને મેચ્યોરિટી ગણો",
+      "intro": "RD કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "RD કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને નિયમિત જમા રકમની મેચ્યોરિટીનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "વાસ્તવિક પરિપક્વતા મૂલ્ય (maturity value) બેંકની ગણતરી પદ્ધતિ, સમયપત્રક, દંડ અને પ્રોડક્ટની શરતો પર આધાર રાખે છે."
+          ]
+        ],
+        [
+          "RD કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "RD કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "બેંકની પ્રત્યક્ષ પદ્ધતિ અને શરતો અંતિમ રકમ નક્કી કરે છે."
+          ]
+        ],
+        [
+          "RD કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "નિયમિત જમા",
+          "રકમ અને આવર્તન",
+          "ભવિષ્યની રકમનો અંદાજ મેળવો"
+        ],
+        [
+          "સમયગાળો",
+          "પસંદ કરેલો સમય",
+          "સમયગાળાની સરખામણી કરો"
+        ],
+        [
+          "વ્યાજ દર",
+          "સૂચક દર",
+          "વ્યાજનો અંદાજ મેળવો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "RDનું વ્યાજ ખાતરીપૂર્વક મળે છે?",
+          "દર અને શરતો સંબંધિત બેંકના ઉત્પાદન પર આધારિત છે; બેંક પાસેથી તેની પુષ્ટિ કરો."
+        ],
+        [
+          "શું બધા હપ્તાઓને સમાન સમયગાળા માટે વ્યાજ મળે છે?",
+          "ના. જુદી તારીખે કરેલા હપ્તાઓ પર જુદા સમયગાળા માટે વ્યાજ મળી શકે છે."
+        ],
+        [
+          "દંડનો સમાવેશ થાય છે?",
+          "ના. હપ્તો ચૂકી જવા અથવા સમય પહેલાં ખાતું બંધ કરવાના બેંકના નિયમો તપાસો."
+        ],
+        [
+          "શું હું હપ્તાની રકમોની સરખામણી કરી શકું?",
+          "હા. ફાળો બદલો અને ફરી ગણતરી કરો."
+        ],
+        [
+          "AgeVerseGlobal પર RD કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal RD Calculator ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "FD કેલ્ક્યુલેટર",
+          "/utility/fd-calculator"
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર",
+          "/utility/sip-calculator"
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર",
+          "/utility/percentage-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "gst": {
+      "name": "GstSEOContent",
+      "eyebrow": "GST ગણતરી માર્ગદર્શિકા",
+      "title": "GST કેલ્ક્યુલેટર: GST, કર રકમ અને કુલ રકમ ઝડપથી ગણો",
+      "intro": "GST કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "GST કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને GST અને કુલ કિંમતનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "તમારા વ્યવહાર માટે લાગુ પડતો દર અને ઇન્વોઇસિંગની જરૂરિયાતોની પુષ્ટિ કરો."
+          ]
+        ],
+        [
+          "GST કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "GST કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "સમાવિષ્ટ રકમ (inclusive amount) માટે, કુલ રકમમાંથી GSTનો હિસ્સો અલગ તારવવામાં આવે છે. આ માટેનું સૂત્ર તેના પર આધાર રાખે છે કે દાખલ કરેલી કિંમતમાં GST પહેલેથી જ સામેલ છે કે નહીં."
+          ]
+        ],
+        [
+          "GST કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "નિયમિત જમા",
+          "રકમ અને આવર્તન",
+          "ભવિષ્યની રકમનો અંદાજ મેળવો"
+        ],
+        [
+          "સમયગાળો",
+          "પસંદ કરેલો સમય",
+          "સમયગાળાની સરખામણી કરો"
+        ],
+        [
+          "વ્યાજ દર",
+          "સૂચક દર",
+          "વ્યાજનો અંદાજ મેળવો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "શું AgeVerseGlobal GST Calculator આપમેળે યોગ્ય દર પસંદ કરે છે?",
+          "ના, AgeVerseGlobal GST Calculator GSTનો દર આપમેળે પસંદ કરતું નથી. તમારા માલ અથવા સેવાઓને લાગુ પડતો દર તપાસીને પસંદ કરો."
+        ],
+        [
+          "GST કિંમતમાં સામેલ હોય અને અલગથી ઉમેરાતો હોય તેમાં શું તફાવત છે?",
+          "GST અલગથી ઉમેરાતો હોય તો તે મૂળ કિંમતે ઉમેરાય છે; GST સામેલ હોય તો તે દાખલ કરેલી કુલ રકમમાં પહેલેથી હોય છે."
+        ],
+        [
+          "શું હું કર રિટર્ન ભરવા AgeVerseGlobal GST Calculator વાપરી શકું?",
+          "તેને અંદાજ તરીકે જ લો અને રિટર્ન ભરતાં પહેલાં લાગુ નિયમોની પુષ્ટિ કરો."
+        ],
+        [
+          "શું બધા ઉત્પાદનો માટે GSTનો દર સમાન છે?",
+          "ના. માલ, સેવાઓ અને વર્તમાન નિયમો અનુસાર દર અલગ હોઈ શકે છે."
+        ],
+        [
+          "AgeVerseGlobal પર GST કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal GST Calculator કોઈ કેલ્ક્યુલેટર ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "ટકાવારી કેલ્ક્યુલેટર",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર",
+          "/utility/emi-calculator"
+        ],
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર",
+          "/utility/discount-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "dog_age": {
+      "name": "DogAgeSEOContent",
+      "eyebrow": "કૂતરાની ઉંમર ગણતરી માર્ગદર્શિકા",
+      "title": "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર: તમારા કૂતરાની ચોક્કસ ઉંમર અને માનવ-ઉંમર સમકક્ષ ગણો",
+      "intro": "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને કૂતરાની ઉંમરનો માનવીની ઉંમર સાથે અંદાજિત મેળ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "દરેક 'કૂતરાના વર્ષ'ને સાત વડે ગુણવા જેવો સાદો નિયમ એ બાબતનું અતિશય સરળીકરણ છે."
+          ]
+        ],
+        [
+          "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "પશુચિકિત્સક તમારા કૂતરાના સ્વાસ્થ્ય અને જીવનના તબક્કા વિશે વધુ સુસંગત માર્ગદર્શન આપી શકે છે."
+          ]
+        ],
+        [
+          "કૂતરાની ઉંમરનું કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "વ્યક્તિગત માહિતી",
+          "દાખલ કરેલા મૂલ્યો",
+          "અંદાજ મેળવો"
+        ],
+        [
+          "સમય સાથે દેખરેખ",
+          "સંદર્ભ તારીખ",
+          "પરિણામોની સરખામણી કરો"
+        ],
+        [
+          "આયોજન",
+          "અદ્યતન માહિતી",
+          "આગળનાં પગલાં નક્કી કરો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "શું કૂતરાનું એક વર્ષ હંમેશા માનવીના સાત વર્ષ બરાબર હોય છે?",
+          "ના. આ અતિસરળીકૃત નિયમ છે અને વહેલી પરિપક્વતા તથા કૂતરાઓ વચ્ચેના તફાવતોને અવગણે છે."
+        ],
+        [
+          "જાતિ અથવા કદથી ફરક પડે છે?",
+          "હા. કદ અને જાતિ વૃદ્ધત્વની રીત તથા અપેક્ષિત આયુષ્યને અસર કરી શકે છે."
+        ],
+        [
+          "શું આથી મારા કૂતરાના આરોગ્યનું મૂલ્યાંકન થઈ શકે?",
+          "ના. આ ઉંમરની અંદાજિત સરખામણી છે, પશુચિકિત્સકનું મૂલ્યાંકન નથી."
+        ],
+        [
+          "પશુચિકિત્સકને ક્યારે મળવું જોઈએ?",
+          "લક્ષણો, નિવારક સંભાળ, આહાર અથવા ઉંમર સંબંધિત આરોગ્ય પ્રશ્નો માટે પશુચિકિત્સકને મળો."
+        ],
+        [
+          "AgeVerseGlobal પર કૂતરાની ઉંમરનું કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal Dog Age Calculator મફત ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "સંપૂર્ણ હેલ્થ પ્રોફાઇલ",
+          "/health-profile"
+        ],
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "fd": {
+      "name": "FdSEOContent",
+      "eyebrow": "ફિક્સ્ડ ડિપોઝિટ માર્ગદર્શિકા",
+      "title": "FD કેલ્ક્યુલેટર: ફિક્સ્ડ ડિપોઝિટ મેચ્યોરિટી, વ્યાજ અને કુલ મૂલ્ય ગણો",
+      "intro": "FD કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "FD કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને ફિક્સ્ડ ડિપોઝિટનું વ્યાજ અને મેચ્યોરિટી રકમનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "વાસ્તવિક વળતર બેંકની શરતો, ચક્રવૃદ્ધિ (કમ્પાઉન્ડિંગ), ચૂકવણીના વિકલ્પ, કરવેરા અને સમયપૂર્વે ઉપાડના નિયમો પર આધાર રાખે છે."
+          ]
+        ],
+        [
+          "FD કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "FD કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "બેંક સાથે દર, ચક્રવૃદ્ધિ આવર્તન, કર અને પરિપક્વતા મૂલ્યની પુષ્ટિ કરો."
+          ]
+        ],
+        [
+          "FD કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "નિયમિત જમા",
+          "રકમ અને આવર્તન",
+          "ભવિષ્યની રકમનો અંદાજ મેળવો"
+        ],
+        [
+          "સમયગાળો",
+          "પસંદ કરેલો સમય",
+          "સમયગાળાની સરખામણી કરો"
+        ],
+        [
+          "વ્યાજ દર",
+          "સૂચક દર",
+          "વ્યાજનો અંદાજ મેળવો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "મેચ્યોરિટી મૂલ્ય ચોક્કસ છે?",
+          "તે અંદાજ છે; અંતિમ રકમ બેંકની શરતો નક્કી કરે છે."
+        ],
+        [
+          "ચક્રવૃદ્ધિનો ફરક પડે છે?",
+          "હા. વ્યાજ જોડવાની અલગ આવર્તન પદ્ધતિઓથી અલગ મૂલ્યો મળી શકે છે."
+        ],
+        [
+          "કરનો સમાવેશ થાય છે?",
+          "કર લાગુ નિયમો અને કેલ્ક્યુલેટરની સુવિધાઓ પર આધારિત છે; તેની અલગથી પુષ્ટિ કરો."
+        ],
+        [
+          "શું હું જુદા સમયગાળાની સરખામણી કરી શકું?",
+          "હા. જુદા સમયગાળા અને દરો સાથે પરિસ્થિતિઓની ગણતરી કરો."
+        ],
+        [
+          "AgeVerseGlobal પર FD કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal FD Calculator મફત ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "RD કેલ્ક્યુલેટર",
+          "/utility/rd-calculator"
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર",
+          "/utility/sip-calculator"
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "emi": {
+      "name": "EmiSEOContent",
+      "eyebrow": "EMI ગણતરી માર્ગદર્શિકા",
+      "title": "EMI કેલ્ક્યુલેટર: માસિક EMI, કુલ વ્યાજ અને કુલ ચુકવણી ગણો",
+      "intro": "EMI કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "EMI કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને લોનનો માસિક હપ્તો અને કુલ ખર્ચનો અંદાજ મેળવવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "જો ધિરાણકર્તાની ફી, વીમો કે અન્ય શરતો લાગુ પડતી હોય, તો વાસ્તવિક ખર્ચ અલગ હોઈ શકે છે."
+          ]
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "પ્રોસેસિંગ ફી, વીમો, દંડ અથવા ધિરાણકર્તા-વિશિષ્ટ ગોઠવણોનો સમાવેશ ન પણ થયેલ હોય."
+          ]
+        ],
+        [
+          "EMI કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "નિયમિત જમા",
+          "રકમ અને આવર્તન",
+          "ભવિષ્યની રકમનો અંદાજ મેળવો"
+        ],
+        [
+          "સમયગાળો",
+          "પસંદ કરેલો સમય",
+          "સમયગાળાની સરખામણી કરો"
+        ],
+        [
+          "વ્યાજ દર",
+          "સૂચક દર",
+          "વ્યાજનો અંદાજ મેળવો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "EMIની ખાતરી છે?",
+          "ના. ધિરાણકર્તાની ઓફર અને ચુકવણી સમયપત્રક અધિકૃત ગણાય છે."
+        ],
+        [
+          "EMIમાં બધી ફી સામેલ છે?",
+          "હંમેશા નહીં. પ્રોસેસિંગ ફી, વીમો અને અન્ય ચાર્જ સામેલ ન પણ હોય."
+        ],
+        [
+          "લોનની મુદત EMIને કેવી રીતે અસર કરે છે?",
+          "લાંબી મુદતથી માસિક હપ્તો ઘણીવાર ઓછો થાય છે, પરંતુ કુલ વ્યાજ વધી શકે છે."
+        ],
+        [
+          "કયો વ્યાજદર દાખલ કરવો?",
+          "કેલ્ક્યુલેટર જે ફોર્મેટ માંગે તે વાપરો, સામાન્ય રીતે વાર્ષિક દર."
+        ],
+        [
+          "શું તે મફત છે?",
+          "હા. ઑનલાઇન કેલ્ક્યુલેટર ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "GST કેલ્ક્યુલેટર",
+          "/utility/gst-calculator"
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "SIP કેલ્ક્યુલેટર",
+          "/utility/sip-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "date_difference": {
+      "name": "DateDifferenceSEOContent",
+      "eyebrow": "તારીખ તફાવત માર્ગદર્શિકા",
+      "title": "તારીખનો તફાવત: કોઈપણ બે તારીખો વચ્ચે ચોક્કસ તફાવત શોધો",
+      "intro": "તારીખના તફાવતનું કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "તારીખનો તફાવત શું છે?",
+          [
+            "આ સાધન તમને બે તારીખો વચ્ચેનો સમય ગણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "આ કેલ્ક્યુલેટર બંને તારીખોની ચકાસણી કરે છે અને કેલેન્ડરના દરેક દિવસને જાતે ગણ્યા વિના, તમને તેમની સરખામણી કરવામાં મદદ કરે છે."
+          ]
+        ],
+        [
+          "તારીખનો તફાવત કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "તારીખનો તફાવત કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "ઉદાહરણ તરીકે, ૧ માર્ચથી ૧૧ માર્ચ સુધીના સમયગાળામાં ૧૦ દિવસ વીતેલા ગણાય, જો શરૂઆતની તારીખને સંપૂર્ણ દિવસ તરીકે ગણવામાં ન આવે. કેટલીક સત્તાવાર સમયમર્યાદાઓમાં શરૂઆતની અને અંતિમ તારીખ બંનેનો સમાવેશ કરવામાં આવે છે, તેથી લાગુ પડતા નિયમોનું પાલન કરો."
+          ]
+        ],
+        [
+          "તારીખનો તફાવત ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "જન્મદિવસ",
+          "ઉજવણીની તારીખ",
+          "તૈયારીઓનું આયોજન કરો"
+        ],
+        [
+          "લગ્નની વર્ષગાંઠ",
+          "ખાસ તારીખ",
+          "આગામી દિવસ સુધીનો સમય જુઓ"
+        ],
+        [
+          "મુસાફરી અથવા મુલાકાત",
+          "નક્કી કરેલી તારીખ",
+          "બાકી સમય તપાસો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "શું AgeVerseGlobal Date Difference Calculator ભવિષ્યની તારીખો સ્વીકારે છે?",
+          "હા. તમે ભૂતકાળની તારીખો, ભવિષ્યની તારીખો અથવા બંનેની સરખામણી કરી શકો છો."
+        ],
+        [
+          "શું AgeVerseGlobal Date Difference Calculator લીપ વર્ષને ધ્યાનમાં લે છે?",
+          "હા, લાગુ પડતી સ્થિતિમાં પસાર થયેલા દિવસોની ગણતરીમાં લીપ વર્ષના દિવસો સામેલ થાય છે."
+        ],
+        [
+          "શરૂઆતની તારીખ ગણવામાં આવે છે?",
+          "પસાર થયેલા દિવસોનો તફાવત સામાન્ય રીતે શરૂઆતની તારીખ પછીનો સમય માપે છે. સમયમર્યાદામાં બંને તારીખો ગણવાની જરૂર હોય તો તેના નિયમો અનુસરો."
+        ],
+        [
+          "શું હું તારીખો ઊલટા ક્રમમાં દાખલ કરી શકું?",
+          "હા. દાખલ કરવાનો ક્રમ ગમે તે હોય, કેલ્ક્યુલેટર બંને તારીખોની સરખામણી કરે છે."
+        ],
+        [
+          "AgeVerseGlobal પર તારીખનો તફાવત નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal Date Difference Calculator ઑનલાઇન ફી વિના ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર",
+          "/event-calculator"
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "discount": {
+      "name": "DiscountSEOContent",
+      "eyebrow": "ડિસ્કાઉન્ટ ગણતરી માર્ગદર્શિકા",
+      "title": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર: ડિસ્કાઉન્ટ, બચત અને અંતિમ વેચાણ કિંમત ગણો",
+      "intro": "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને ડિસ્કાઉન્ટ, બચત અને અંતિમ કિંમત ગણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "જો કર, ડિલિવરી શુલ્ક, કૂપન્સ અથવા અન્ય ઓફર્સ અલગથી લાગુ થતી હોય, તો અંતિમ કિંમતમાં ફેરફાર થઈ શકે છે."
+          ]
+        ],
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "ઉદાહરણ તરીકે, ₹1,000 પર 20% ડિસ્કાઉન્ટ મળવાથી ₹200ની બચત થાય છે, જેનાથી વધારાના શુલ્ક પહેલાં ₹800 બાકી રહે છે."
+          ]
+        ],
+        [
+          "ડિસ્કાઉન્ટ કેલ્ક્યુલેટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "મૂળ મૂલ્ય",
+          "મૂલ્ય અને દર",
+          "ફેરફાર ગણો"
+        ],
+        [
+          "મૂલ્યોની સરખામણી",
+          "બે મૂલ્યો",
+          "પરિણામો સરખાવો"
+        ],
+        [
+          "ઝડપી તપાસ",
+          "દાખલ કરેલી માહિતી",
+          "ગણતરી ચકાસો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "ડિસ્કાઉન્ટની રકમ કેવી રીતે ગણવી?",
+          "મૂળ કિંમતને ડિસ્કાઉન્ટની ટકાવારીથી ગુણો અને 100 વડે ભાગો."
+        ],
+        [
+          "ડિસ્કાઉન્ટ પછીની કિંમતમાં GST સામેલ છે?",
+          "આપમેળે નહીં; કર સામેલ છે કે નહીં તે કિંમત નક્કી કરવાની રીત અને વેચનાર પર આધારિત છે."
+        ],
+        [
+          "શું હું બે ઑફરની સરખામણી કરી શકું?",
+          "હા. દરેક ઑફરની મૂળ કિંમત અને ડિસ્કાઉન્ટ દરથી ગણતરી કરો."
+        ],
+        [
+          "ડિસ્કાઉન્ટ પછી કૂપન લાગુ પડે તો શું કરવું?",
+          "ઑફરની શરતો અનુસરો; કૂપનના નિયમો માટે અલગ ગણતરી જરૂરી હોઈ શકે છે."
+        ],
+        [
+          "AgeVerseGlobal પર ડિસ્કાઉન્ટ કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal Discount Calculator મફત ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "GST કેલ્ક્યુલેટર",
+          "/utility/gst-calculator"
+        ],
+        [
+          "ટકાવારી કેલ્ક્યુલેટર",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "યુનિટ કન્વર્ટર",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "unit_converter": {
+      "name": "UnitConverterSEOContent",
+      "eyebrow": "એકમ રૂપાંતરણ માર્ગદર્શિકા",
+      "title": "યુનિટ કન્વર્ટર: લંબાઈ, વજન, તાપમાન, કદ ઝડપથી રૂપાંતર કરો",
+      "intro": "એકમ રૂપાંતરક દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "યુનિટ કન્વર્ટર શું છે?",
+          [
+            "આ સાધન તમને સુસંગત એકમો વચ્ચે માપ રૂપાંતરિત કરવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "રૂપાંતરિત મૂલ્ય એ જ જથ્થાને દર્શાવે છે, પરંતુ તેને એક અલગ એકમમાં વ્યક્ત કરવામાં આવ્યો છે."
+          ]
+        ],
+        [
+          "યુનિટ કન્વર્ટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો."
+          ]
+        ],
+        [
+          "યુનિટ કન્વર્ટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "અર્થપૂર્ણ રૂપાંતરણ માટે સમાન માપન શ્રેણીમાંથી એકમો પસંદ કરો."
+          ]
+        ],
+        [
+          "યુનિટ કન્વર્ટર ક્યારે વાપરવું?",
+          [
+            "પરિણામનો ઉપયોગ કરતાં પહેલાં વિગતો તપાસો. માહિતી, ધારણાઓ અથવા વાસ્તવિક પરિસ્થિતિ બદલાય તો પરિણામ પણ બદલાઈ શકે છે."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "લંબાઈ",
+          "મૂલ્ય અને એકમ",
+          "માપ રૂપાંતરિત કરો"
+        ],
+        [
+          "વજન",
+          "મૂલ્ય અને એકમ",
+          "માપોની સરખામણી કરો"
+        ],
+        [
+          "તાપમાન",
+          "ડિગ્રીમાં મૂલ્ય",
+          "તાપમાનનું રૂપાંતર કરો"
+        ]
+      ],
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ]
+      ],
+      "faqs": [
+        [
+          "હું કયા એકમો રૂપાંતરિત કરી શકું?",
+          "ઉપલબ્ધ એકમો કન્વર્ટરમાં આપેલી શ્રેણીઓ પર આધારિત છે."
+        ],
+        [
+          "શ્રેણી શા માટે મહત્વની છે?",
+          "એકમો એક જ પ્રકારની રાશિ માપતા હોવા જોઈએ."
+        ],
+        [
+          "તાપમાનનું રૂપાંતર અલગ હોય છે?",
+          "હા. તેમાં ઘણીવાર સ્કેલ ગુણક ઉપરાંત સ્થિર તફાવત પણ વપરાય છે."
+        ],
+        [
+          "શું હું એકમોની દિશા બદલી શકું?",
+          "કેલ્ક્યુલેટરમાં ઉપલબ્ધ હોય તો સ્વેપ નિયંત્રણ વાપરો."
+        ],
+        [
+          "AgeVerseGlobal પર યુનિટ કન્વર્ટર નો ઉપયોગ મફત છે?",
+          "હા. AgeVerseGlobal Unit Converter ઑનલાઇન મફત ઉપલબ્ધ છે."
+        ]
+      ],
+      "related": [
+        [
+          "ટકાવારી કેલ્ક્યુલેટર",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ],
+        [
+          "વય કેલ્ક્યુલેટર",
+          "/age-calculator"
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "tableHeaders": [
+        "ઉદાહરણ",
+        "ઇનપુટ",
+        "પરિણામ"
+      ]
+    },
+    "age_calculator": {
+      "name": "AgeCalculatorSEOContent",
+      "eyebrow": "ઉંમર ગણતરી માર્ગદર્શિકા",
+      "title": "વય કેલ્ક્યુલેટર: સંપૂર્ણ વિગતો સાથે ચોક્કસ ઉંમર ગણો",
+      "intro": "ઉંમર કેલ્ક્યુલેટર દાખલ કરેલી માહિતીના આધારે અંદાજ આપે છે. પરિણામનો ઉપયોગ કરતા પહેલાં દાખલ કરેલી વિગતો ચકાસો.",
+      "sections": [
+        [
+          "વય કેલ્ક્યુલેટર શું છે?",
+          [
+            "આ સાધન તમને જન્મ તારીખ અને સંદર્ભ તારીખના આધારે ઉંમર ગણવા. તમે દાખલ કરેલી માહિતીના આધારે તે ગણતરીનું પરિણામ સ્પષ્ટ રીતે દર્શાવે છે.",
+            "AgeVerseGlobal એડવાન્સ્ડ એજ કેલ્ક્યુલેટર (ઉંમર ગણક) વડે ઉંમરની ગણતરી કરવી સરળ બને છે. તમારી જન્મતારીખ દાખલ કરો, ગણતરી માટેની તારીખ તરીકે આજનો દિવસ રહેવા દો અથવા કોઈ ચોક્કસ તારીખ પસંદ કરો, અને 'ગણતરી કરો' (Calculate) પર ક્લિક કરો. આના પરિણામ દ્વારા તમે તમારી કેલેન્ડર મુજબની ઉંમર જાણી શકશો અને બે તારીખો વચ્ચે કેટલો સમય પસાર થયો છે તે જોઈ શકશો."
+          ]
+        ],
+        [
+          "વય કેલ્ક્યુલેટર કેવી રીતે વાપરવું",
+          [
+            "જરૂરી માહિતી દાખલ કરો, તારીખો અને એકમો ચકાસો અને ગણતરી કરો. અલગ પરિસ્થિતિઓની સરખામણી કરવા મૂલ્યો બદલીને ફરી ગણતરી કરો.",
+            "ઉદાહરણ તરીકે, ૧૫ માર્ચ ૨૦૦૦ના રોજ જન્મેલી વ્યક્તિ ૧૫ માર્ચ ૨૦૨૫ના રોજ ૨૫ વર્ષની થાય છે. જો ગણતરીની તારીખ ૧૪ માર્ચ ૨૦૨૫ હોય, તો તે વ્યક્તિ હજુ સુધી તેના ૨૫મા જન્મદિવસે પહોંચી નથી.",
+            "કુલ દિવસો, કલાકો, મિનિટો અને સેકન્ડો એ વીતી ગયેલા સમયના અલગ-અલગ કુલ આંકડા છે. કેલેન્ડરના મહિનાઓની લંબાઈ અલગ-અલગ હોય છે અને લિપ વર્ષમાં એક વધારાનો દિવસ ઉમેરાતો હોવાથી, દરેક મહિનાને બરાબર ૩૦ દિવસનો ગણીને કેલેન્ડર મુજબની ઉંમરની ગણતરી ન કરવી જોઈએ."
+          ]
+        ],
+        [
+          "વય કેલ્ક્યુલેટર કેવી રીતે કામ કરે?",
+          [
+            "પરિણામ દાખલ કરેલા મૂલ્યો અને ગણતરીના નિયમો પર આધારિત છે. નાણાકીય અંદાજ વ્યાજદર અને સમયગાળા પર આધાર રાખે છે; આરોગ્ય સંબંધિત અંદાજ તબીબી સલાહનો વિકલ્પ નથી.",
+            "સત્તાવાર અરજીઓ, શાળામાં પ્રવેશ, રોજગાર, લાભો અથવા કાયદાકીય પાત્રતા માટે, ઉંમરની ગણતરી કરવા અને તારીખોની ચકાસણી કરવા બાબતે હંમેશા સંબંધિત સંસ્થાના નિયમોનું પાલન કરો."
+          ]
+        ]
+      ],
+      "stepsTitle": "AgeVerseGlobal ઉંમર કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે?",
+      "stepsIntro": "તમારી ઉંમર ગણવા માટે આ પગલાં અનુસરો:",
+      "steps": [
+        [
+          "જન્મ તારીખ દાખલ કરો.",
+          "દિવસ, મહિનો, વર્ષ પસંદ કરો."
+        ],
+        [
+          "ગણતરી તારીખ પસંદ કરો.",
+          "આજે રાખો અથવા ચોક્કસ તારીખ."
+        ],
+        [
+          "ગણતરી પસંદ કરો.",
+          "તારીખો તપાસે છે."
+        ],
+        [
+          "પરિણામ જુઓ.",
+          "વર્ષ, મહિનો, દિવસમાં ઉંમર."
+        ]
+      ],
+      "examplesTitle": "વ્યવહારુ ઉદાહરણો",
+      "examplesIntro": "કેલ્ક્યુલેટર કેવી રીતે કામ કરે છે તે સમજવા માટે આ ઉદાહરણો જુઓ.",
+      "tableHeaders": [
+        "જન્મ તારીખ",
+        "ઉંમર ગણતરી તારીખ",
+        "ઉંમર"
+      ],
+      "examples": [
+        [
+          "જન્મ તારીખ",
+          "દિવસ, મહિનો અને વર્ષ",
+          "ઉંમર ગણો"
+        ],
+        [
+          "સંદર્ભ તારીખ",
+          "પસંદ કરેલી તારીખ",
+          "તે તારીખે ઉંમર ગણો"
+        ],
+        [
+          "આગામી જન્મદિવસ",
+          "જન્મ તારીખ",
+          "આગામી તારીખ શોધો"
+        ]
+      ],
+      "examplesNote": "પરિણામો દૃષ્ટાંતરૂપ છે અને મૂલ્યો પર આધાર રાખે છે.",
+      "featuresTitle": "મુખ્ય વિશેષતાઓ",
+      "features": [
+        [
+          "સરળ માહિતી દાખલ કરો",
+          "જરૂરી મૂલ્યો થોડાં સરળ પગલાંમાં દાખલ કરો."
+        ],
+        [
+          "સ્પષ્ટ પરિણામ",
+          "ગણતરીનું પરિણામ સમજવામાં સરળ રીતે જુઓ."
+        ],
+        [
+          "ઝડપી સરખામણી",
+          "અલગ પરિસ્થિતિઓ માટે મૂલ્યો બદલો."
+        ],
+        [
+          "આયોજનમાં મદદ",
+          "આ અંદાજથી આગળનું આયોજન કરવામાં મદદ મેળવો."
+        ],
+        [
+          "સરળ ઓનલાઇન એક્સેસ",
+          "કોઈ અલગ એપ્લિકેશન ઇન્સ્ટોલ કર્યા વિના તમારા બ્રાઉઝરમાં કેલ્ક્યુલેટરનો ઉપયોગ કરો."
+        ]
+      ],
+      "faqEyebrow": "સામાન્ય પ્રશ્નો",
+      "faqTitle": "વારંવાર પૂછાતા પ્રશ્નો",
+      "faqIntro": "આ કેલ્ક્યુલેટર વિશે સામાન્ય પ્રશ્નોના જવાબો મેળવો.",
+      "faqs": [
+        [
+          "મારી ચોક્કસ ઉંમર કેવી રીતે ગણવી?",
+          "તમારી જન્મતારીખ દાખલ કરો અને ગણતરી પસંદ કરો. કેલ્ક્યુલેટર મૂળભૂત રીતે આજની તારીખ વાપરે છે અને ઉંમર વર્ષ, મહિના અને દિવસમાં બતાવે છે. તમે કોઈ ચોક્કસ તારીખે તમારી ઉંમર જાણવા તે તારીખ પણ પસંદ કરી શકો છો."
+        ],
+        [
+          "શું હું ભૂતકાળની અથવા ભવિષ્યની તારીખે મારી ઉંમર ગણી શકું?",
+          "હા. “ચોક્કસ તારીખ” વિકલ્પ પસંદ કરો અને ઇચ્છિત તારીખ દાખલ કરો. પસંદ કરેલી તારીખ તમારી જન્મતારીખ કરતાં પહેલાંની ન હોવી જોઈએ."
+        ],
+        [
+          "વર્ષમાં ઉંમર અને કુલ દિવસોમાં શું તફાવત છે?",
+          "વર્ષ, મહિના અને દિવસમાં ઉંમર કેલેન્ડરના એકમોનો ઉપયોગ કરે છે. કુલ દિવસો બંને તારીખો વચ્ચે પસાર થયેલા દિવસો ગણે છે. મહિનાની લંબાઈ જુદી હોવાથી દરેક મહિનાને 30 દિવસ ગણીને ચોક્કસ કુલ દિવસો કાઢી શકાતા નથી."
+        ],
+        [
+          "શું આ કેલ્ક્યુલેટર કુલ કલાકો અને મિનિટો બતાવી શકે છે?",
+          "હા. કેલેન્ડર મુજબની ઉંમર ઉપરાંત પરિણામમાં કુલ મહિના, અઠવાડિયા, દિવસો, કલાકો, મિનિટો અને સેકન્ડો પણ હોય છે. આ કુલ ગણતરી પસંદ કરેલી તારીખો પરથી થાય છે."
+        ],
+        [
+          "શું AgeVerseGlobal Advanced Age Calculator લીપ વર્ષને ધ્યાનમાં લે છે?",
+          "કેલેન્ડર ગણતરીમાં લીપ વર્ષ અને મહિનાની જુદી લંબાઈનો સમાવેશ થઈ શકે છે. 29 ફેબ્રુઆરીએ જન્મેલા લોકો માટે સામાન્ય વર્ષોમાં જન્મદિવસ કઈ તારીખે માનવો તે લાગુ પદ્ધતિ પર આધારિત હોઈ શકે છે."
+        ],
+        [
+          "શું હું આ કેલ્ક્યુલેટરથી આગામી જન્મદિવસ સુધીનો સમય જાણી શકું?",
+          "હા. ઉંમર ગણ્યા પછી પરિણામ આગામી જન્મદિવસની તારીખ અને બાકી દિવસોની ગણતરી સહિતની માહિતી આપે છે."
+        ],
+        [
+          "AgeVerseGlobal પર વય કેલ્ક્યુલેટર નો ઉપયોગ મફત છે?",
+          "હા. તમે જન્મતારીખ અને આજની તારીખ અથવા પસંદ કરેલી બીજી ચોક્કસ તારીખ વચ્ચેની ઉંમર ગણવા AgeVerseGlobal Advanced Age Calculator ઑનલાઇન મફતમાં વાપરી શકો છો."
+        ]
+      ],
+      "relatedTitle": "વધુ કેલ્ક્યુલેટર જુઓ",
+      "relatedIntro": "વધુ ગણતરીઓ માટે સંબંધિત સાધનો જુઓ.",
+      "related": [
+        [
+          "તારીખનો તફાવત",
+          "/date-difference"
+        ],
+        [
+          "ઇવેન્ટ કેલ્ક્યુલેટર",
+          "/event-calculator"
+        ],
+        [
+          "રિટાયરમેન્ટ કેલ્ક્યુલેટર",
+          "/retirement-calculator"
+        ]
+      ]
+    }
+  }
+}

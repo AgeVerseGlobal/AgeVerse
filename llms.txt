@@ -1,0 +1,39 @@
+# AgeVerseGlobal
+
+> AgeVerseGlobal provides free online calculators for age, dates, health, finance and everyday calculations.
+
+## Core calculator pages
+
+- https://www.ageverseglobal.com/
+- https://www.ageverseglobal.com/age-calculator
+- https://www.ageverseglobal.com/event-calculator
+- https://www.ageverseglobal.com/date-difference
+- https://www.ageverseglobal.com/retirement-calculator
+- https://www.ageverseglobal.com/health-profile
+- https://www.ageverseglobal.com/pregnancy-calculator
+- https://www.ageverseglobal.com/utility/unit-converter
+- https://www.ageverseglobal.com/utility/percentage-calculator
+- https://www.ageverseglobal.com/utility/gst-calculator
+- https://www.ageverseglobal.com/utility/emi-calculator
+- https://www.ageverseglobal.com/utility/discount-calculator
+- https://www.ageverseglobal.com/utility/sip-calculator
+- https://www.ageverseglobal.com/utility/fd-calculator
+- https://www.ageverseglobal.com/utility/rd-calculator
+- https://www.ageverseglobal.com/pet/dog-age-calculator
+- https://www.ageverseglobal.com/about
+- https://www.ageverseglobal.com/contact
+- https://www.ageverseglobal.com/privacy-policy
+- https://www.ageverseglobal.com/terms
+- https://www.ageverseglobal.com/disclaimer
+
+## Content guidance
+
+AgeVerseGlobal calculator pages are intended for informational and calculation purposes. Results depend on the inputs and assumptions shown on each calculator page.
+
+## Languages
+
+The website provides a multilingual interface. Use the language selector on the site for available languages.
+
+## Important
+
+Do not treat calculator results as professional financial, medical, legal or employment advice where such advice is required.

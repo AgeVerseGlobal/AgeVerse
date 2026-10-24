@@ -1,0 +1,3390 @@
+{
+  "retirement": {
+    "calculate_subtitle": "మీ రిటైర్మెంట్ తేదీ మరియు మిగిలిన సమయాన్ని లెక్కించండి.",
+    "reminder_description": "AgeVerseGlobal మీకు ఎప్పుడు గుర్తు చేయాలో ఎంచుకోండి.",
+    "service_completed": "సేవ పూర్తయింది",
+    "total_service_at_retirement": "పదవీ విరమణ సమయంలో మొత్తం సేవా కాలం",
+    "current_age": "ప్రస్తుత వయస్సు",
+    "age_at_retirement": "పదవీ విరమణ సమయంలో వయస్సు",
+    "result_title": "రిటైర్మెంట్ ఫలితం",
+    "result_subtitle": "మీ రిటైర్మెంట్ ప్రణాళిక సారాంశం",
+    "date_of_birth": "పుట్టిన తేదీ",
+    "date_of_joining": "ఉద్యోగంలో చేరిన తేదీ",
+    "retirement_date": "రిటైర్మెంట్ తేదీ",
+    "retirement_age": "రిటైర్మెంట్ వయస్సు",
+    "completed_title": "రిటైర్మెంట్ పూర్తయింది",
+    "empty_title": "రిటైర్మెంట్ ప్రణాళిక",
+    "empty_text": "మీ రిటైర్మెంట్ తేదీ మరియు మిగిలిన సమయాన్ని లెక్కించడానికి మీ పుట్టిన తేదీని ఎంచుకోండి.",
+    "empty_hint": "ప్రారంభించడానికి పైన మీ వివరాలను నమోదు చేయండి."
+  },
+  "common": {
+    "app_name": "AgeVerseGlobal",
+    "calculate": "లెక్కించండి",
+    "reset": "రీసెట్",
+    "submit": "సమర్పించండి",
+    "cancel": "రద్దు చేయి",
+    "share": "షేర్ చేయండి",
+    "copy": "కాపీ చేయండి",
+    "download": "డౌన్‌లోడ్ చేయండి",
+    "result": "ఫలితం",
+    "calculators": "కాలిక్యులేటర్లు",
+    "live": "లైవ్",
+    "open_calculator": "కాలిక్యులేటర్‌ను తెరిచండి",
+    "from": "నుండి",
+    "till": "వరకు",
+    "years": "సంవత్సరాలు",
+    "months": "నెలలు",
+    "days": "రోజులు",
+    "weeks": "వారాలు",
+    "hours": "గంటలు",
+    "minutes": "నిమిషాలు",
+    "seconds": "సెకన్లు",
+    "explore_calculators_title": "AgeVerseGlobal కాలిక్యులేటర్లను చూడండి",
+    "explore_calculators_text": "AgeVerseGlobalలో వయస్సు, తేదీ, ఆరోగ్యం, ఆర్థిక మరియు రోజువారీ లెక్కల కోసం కాలిక్యులేటర్లను చూడండి.",
+    "explore_calculators_button": "కాలిక్యులేటర్లను చూడండి",
+    "next_birthday": "తదుపరి పుట్టినరోజు",
+    "days_remaining": "మిగిలిన రోజులు",
+    "your_age": "మీ వయస్సు",
+    "total_time": "మొత్తం సమయం",
+    "born_on": "పుట్టిన తేదీ",
+    "event_countdown": "ఈవెంట్ కౌంట్‌డౌన్",
+    "event_date": "ఈవెంట్ తేదీ",
+    "event_time": "ఈవెంట్ సమయం",
+    "weekday": "వారంలో రోజు",
+    "time_remaining": "మిగిలిన సమయం",
+    "total_days": "మొత్తం రోజులు",
+    "exact_difference": "ఖచ్చితమైన వ్యత్యాసం",
+    "from_day": "ప్రారంభ రోజు",
+    "to_day": "ముగింపు రోజు",
+    "total_years": "మొత్తం సంవత్సరాలు",
+    "total_months": "మొత్తం నెలలు",
+    "total_weeks": "మొత్తం వారాలు",
+    "total_hours": "మొత్తం గంటలు",
+    "total_minutes": "మొత్తం నిమిషాలు",
+    "total_seconds": "మొత్తం సెకన్లు",
+    "remaining_period": "మిగిలిన కాలం",
+    "live_countdown": "లైవ్ కౌంట్‌డౌన్",
+    "reminder": "రిమైండర్",
+    "retirement_day": "రిటైర్మెంట్ రోజు",
+    "one_day_before": "1 రోజు ముందు",
+    "days_before": "రోజులు ముందు",
+    "not_specified": "పేర్కొనలేదు",
+    "upcoming_event": "రాబోయే ఈవెంట్",
+    "passed_event": "ఈవెంట్ ముగిసింది",
+    "notification_permission": "బ్రౌజర్ రిమైండర్‌ల కోసం నోటిఫికేషన్ అనుమతి అవసరం కావచ్చు.",
+    "retirement_day_message": "రిటైర్మెంట్ రోజు సందేశం",
+    "notification_permission_blocked": "నోటిఫికేషన్ అనుమతి బ్లాక్ చేయబడింది. రిమైండర్‌ను స్వీకరించడానికి దయచేసి AgeVerseGlobal కోసం నోటిఫికేషన్‌లను అనుమతించండి.",
+    "event_reminder_not_configured": "ఈవెంట్ రిమైండర్ సేవ కాన్ఫిగర్ చేయబడలేదు.",
+    "reminder_set": "రిమైండర్ సెట్ చేయబడింది",
+    "reminder_time": "రిమైండర్ సమయం",
+    "all_calculators": "అన్ని కాలిక్యులేటర్లు",
+    "explore_more_calculators": "మరిన్ని కాలిక్యులేటర్లు",
+    "show_less_calculators": "తక్కువగా చూపించు",
+    "feedback": "అభిప్రాయం",
+    "feedback_title": "మీ అభిప్రాయాన్ని పంచుకోండి",
+    "feedback_rating": "రేటింగ్",
+    "feedback_feedback": "మీ అభిప్రాయం",
+    "feedback_placeholder": "మీరు ఏమనుకుంటున్నారో చెప్పండి...",
+    "feedback_privacy_notice": "మీ అభిప్రాయంలో మీ సుమారు దేశం/నగరం మరియు మీరు చూస్తున్న పేజీ ఉండవచ్చు. మేము మీ IP చిరునామాను నిల్వ చేయము మరియు పేరు, ఇమెయిల్, ఫోన్ నంబర్, OTP లేదా ఇలాంటి వ్యక్తిగత సమాచారాన్ని అడగము.",
+    "feedback_success": "మీ అభిప్రాయానికి ధన్యవాదాలు!",
+    "feedback_error": "ప్రస్తుతం అభిప్రాయాన్ని పంపలేము. మళ్లీ ప్రయత్నించండి.",
+    "feedback_close": "మూసివేయి",
+    "feedback_sending": "పంపుతోంది...",
+    "feedback_rating_required": "దయచేసి రేటింగ్ ఎంచుకోండి.",
+    "feedback_message_required": "దయచేసి మీ అభిప్రాయాన్ని నమోదు చేయండి.",
+    "about_short": "గురించి",
+    "search_calculator": "కాలిక్యులేటర్‌ను వెతకండి",
+    "search_calculator_help": "కొన్ని సెకన్లలో మీకు అవసరమైన కాలిక్యులేటర్‌ను కనుగొనండి.",
+    "search_calculator_placeholder": "కాలిక్యులేటర్లను వెతకండి...",
+    "no_calculators_found": "కాలిక్యులేటర్ ఏదీ కనబడలేదు.",
+    "close": "మూసివేయి",
+    "event_details_input": "ఈవెంట్ వివరణ / వివరాలు (ఐచ్ఛికం)",
+    "event_details_placeholder": "ఈ ఈవెంట్ గురించి వివరాలను జోడించండి...",
+    "event_details": "ఈవెంట్ వివరాలు"
+  },
+  "age": {
+    "title": "ఉన్నత వయస్సు కాలిక్యులేటర్",
+    "subtitle": "పూర్తి వివరాలతో మీ ఖచ్చితమైన వయస్సును లెక్కించండి.",
+    "date_of_birth": "పుట్టిన తేదీ",
+    "calculate_till": "లెక్కించవలసిన తేదీ",
+    "years": "సంవత్సరాలు",
+    "months": "నెలలు",
+    "days": "రోజులు",
+    "hours": "గంటలు",
+    "minutes": "నిమిషాలు",
+    "seconds": "సెకన్లు",
+    "calculate_age_till": "వయస్సును లెక్కించవలసిన తేదీ",
+    "today": "ఈరోజు",
+    "specific_date": " నిర్దిష్ట తేదీ",
+    "today_calculation_info": "ఈరోజు వరకు వయస్సు లెక్కించబడుతుంది",
+    "today_calculation_note": "ప్రస్తుత తేదీ స్వయంచాలకంగా ఉపయోగించబడుతుంది.",
+    "empty_result_title": "మీ వయస్సు ఫలితం",
+    "empty_result_text": "మీ పూర్తి వయస్సు ఫలితాన్ని చూడటానికి వయస్సును లెక్కించండి.",
+    "empty_result_hint": "📅 మీ పుట్టిన తేదీని ఎంచుకుని, లెక్కించండి క్లిక్ చేయండి"
+  },
+  "event": {
+    "title": "ఈవెంట్ కాలిక్యులేటర్",
+    "subtitle": "మీ ప్రత్యేక సందర్భాల కోసం కౌంట్‌డౌన్ చేయండి.",
+    "select_event": "ఈవెంట్‌ను ఎంచుకోండి",
+    "birthday": "పుట్టినరోజు",
+    "anniversary": "వార్షికోత్సవం",
+    "exam": "పరీక్ష",
+    "trip": "ప్రయాణం / సెలవు",
+    "party": "పార్టీ / కార్యక్రమం",
+    "custom_event": "కస్టమ్ ఈవెంట్",
+    "event_date": "ఈవెంట్ తేదీ"
+  },
+  "message": {
+    "select_dates": "దయచేసి రెండు తేదీలను ఎంచుకోండి.",
+    "select_event": "దయచేసి ఈవెంట్ రకాన్ని ఎంచుకోండి.",
+    "enter_custom_event": "దయచేసి కస్టమ్ ఈవెంట్ పేరును రాయండి.",
+    "select_event_date": "దయచేసి ఈవెంట్ తేదీని ఎంచుకోండి.",
+    "invalid_date": "చెల్లని తేదీ.",
+    "future_date": "భవిష్యత్తు తేదీ చెల్లదు.",
+    "from_date_greater_than_to_date": "ప్రారంభ తేదీ ముగింపు తేదీ కంటే ఎక్కువగా ఉండకూడదు."
+  },
+  "header": {
+    "tagline": "నేటి ప్రణాళిక, రేపటి సమృద్ధి"
+  },
+  "theme": {
+    "dark_mode": "డార్క్ మోడ్ చేయండి",
+    "light_mode": "లైట్ మోడ్ చేయండి",
+    "language": "భాష"
+  },
+  "calculator_names": {
+    "age_calculator": "వయస్సు కాలిక్యులేటర్",
+    "event_calculator": "ఈవెంట్ కాలిక్యులేటర్",
+    "date_difference": "తేదీ వ్యత్యాసం",
+    "retirement_calculator": "రిటైర్మెంట్ కాలిక్యులేటర్",
+    "health_profile": "సమగ్ర ఆరోగ్య ప్రొఫైల్",
+    "pregnancy_calculator": "గర్భధారణ కాలిక్యులేటర్",
+    "unit_converter": "యూనిట్ కన్వర్టర్",
+    "percentage_calculator": "శాతం కాలిక్యులేటర్",
+    "gst_calculator": "GST కాలిక్యులేటర్",
+    "emi_calculator": "EMI కాలిక్యులేటర్",
+    "discount_calculator": "డిస్కౌంట్ కాలిక్యులేటర్",
+    "sip_calculator": "SIP కాలిక్యులేటర్",
+    "fd_calculator": "FD కాలిక్యులేటర్",
+    "rd_calculator": "RD కాలిక్యులేటర్",
+    "dog_age_calculator": "కుక్క వయస్సు కాలిక్యులేటర్"
+  },
+  "footer": {
+    "description": "వయస్సు, తేదీ, ఆరోగ్యం, ఆర్థిక మరియు దైనందిన జీవితం కోసం స్మార్ట్, నమ్మదగిన మరియు సువిచారిత కాలిక్యులేటర్స్ — మెరుగైన నిర్ణయాలు తీసుకోవడంలో స్పష్టత మరియు ఆత్మవిశ్వాసంతో మీకు సహాయపడటానికి.",
+    "trust": "✓ ఖచ్చితమైన • ✓ సరళమైన • ✓ గోప్యతా కేంద్రీకృత",
+    "quick_links": "త్వరిత లింకులు",
+    "home": "హోమ్",
+    "about": "AgeVerseGlobal గురించి",
+    "contact": "సంప్రదించండి",
+    "information": "సమాచారం",
+    "privacy": "గోప్యతా విధానం",
+    "terms": "నిబంధనలు మరియు షరతులు",
+    "disclaimer": "నిరాకరణ",
+    "languages": "భాషలు",
+    "rights": "అన్ని హక్కులూ రిజర్వ్ చేయబడ్డాయి.",
+    "powered": "స్మార్ట్ దైనందిన లెక్కల కోసం రూపొందించబడింది"
+  },
+  "category_names": {
+    "age": "🎂 వయస్సు మరియు తేదీ",
+    "health": "🏥 ఆరోగ్యం",
+    "family": "👶 కుటుంబం",
+    "utility": "🧮 యుటిలిటీ",
+    "pet": "🐶 పెంపుడు జంతువు"
+  },
+  "calculator_desc": {
+    "age_calculator": "సంవత్సరాలు, నెలలు మరియు రోజులలో ఖచ్చితమైన వయస్సును లెక్కించండి.",
+    "event_calculator": "పుట్టినరోజులు, వార్షికోత్సవాలు, పరీక్షలు మరియు ఇతర సందర్భాల కోసం కౌంట్‌డౌన్ చేయండి.",
+    "date_difference": "రెండు తేదీల మధ్య ఖచ్చితమైన వ్యత్యాసాన్ని తెలుసుకోండి.",
+    "retirement_calculator": "రిటైర్మెంట్ టైమ్‌లైన్ మరియు మిగిలిన సమయాన్ని లెక్కించండి.",
+    "health_profile": "BMI, BMR, కేలరీలు, పోషణ, నీరు మరియు ఆహార ప్రణాళిక.",
+    "pregnancy_calculator": "గర్భధారణ వారాలు మరియు అంచనా ప్రసవ తేదీని చూడండి.",
+    "unit_converter": "పొడవు, బరువు, ఉష్ణోగ్రత, ఘనపరిమాణం మరియు మరెన్నో మార్చండి.",
+    "percentage_calculator": "శాతం, వృద్ధి, తగ్గుదల మరియు వ్యత్యాసాన్ని లెక్కించండి.",
+    "gst_calculator": "GST మొత్తం అలాగే పన్నుతో కూడిన మరియు పన్ను లేని ధరను లెక్కించండి.",
+    "emi_calculator": "రుణ EMI, వడ్డీ మరియు మొత్తం తిరిగి చెల్లింపును లెక్కించండి.",
+    "discount_calculator": "డిస్కౌంట్, పొదుపు మరియు తుది విక్రయ ధరను లెక్కించండి.",
+    "sip_calculator": "SIP పెట్టుబడి వృద్ధి మరియు ఆశించిన రాబడిని అంచనా వేయండి.",
+    "fd_calculator": "ఫిక్స్డ్ డిపాజిట్ మెచ్యూరిటీ మరియు వడ్డీని లెక్కించండి.",
+    "rd_calculator": "రికరింగ్ డిపాజిట్ మెచ్యూరిటీ మరియు వడ్డీని లెక్కించండి.",
+    "dog_age_calculator": "మీ కుక్క వయస్సు మరియు మానవ వయస్సు సమానత్వాన్ని లెక్కించండి."
+  },
+  "result_actions": {
+    "copy_image": "ఇమేజ్ కాపీ చేయండి",
+    "download_pdf": "PDF డౌన్‌లోడ్ చేయండి",
+    "share_pdf": "PDF షేర్ చేయండి",
+    "print": "ప్రింట్ చేయండి",
+    "new": "కొత్తది",
+    "copy_success": "ఫలితం ఇమేజ్ విజయవంతంగా కాపీ చేయబడింది.",
+    "copy_fallback": "ఈ బ్రౌజర్‌లో ఇమేజ్ కాపీ చేయడం మద్దతు లేదు, కాబట్టి PNG సేవ్ చేయబడింది.",
+    "share_success": "PDF విజయవంతంగా షేర్ చేయబడింది.",
+    "new_success": "కాలిక్యులేటర్ రీసెట్ చేయబడింది.",
+    "generic_error": "ఫలితాన్ని తయారు చేయడం సాధ్యపడలేదు.",
+    "aria_label": "ఫలిత ఎంపికలు",
+    "share_link_copied": "ఫలిత లింక్ కాపీ అయింది. ఏదైనా యాప్‌లో పేస్ట్ చేసి షేర్ చేయండి.",
+    "share_download_fallback": "ఇక్కడ షేరింగ్ అందుబాటులో లేదు, కాబట్టి PDF సేవ్ చేయబడింది."
+  },
+  "bridge": {
+    "Age": "వయస్సు",
+    "Age Calculator": "వయస్సు కాలిక్యులేటర్",
+    "Age Category": "వయస్సు వర్గం",
+    "Age Summary": "వయస్సు సారాంశం",
+    "Your Age": "మీ వయస్సు",
+    "Your Age Result": "మీ వయస్సు ఫలితం",
+    "Exact Age": "ఖచ్చితమైన వయస్సు",
+    "Birth Date": "పుట్టిన తేదీ",
+    "Date of Birth": "పుట్టిన తేదీ",
+    "Calculate Age": "వయస్సును లెక్కించండి",
+    "Calculate Age On": "ఈ తేదీన వయస్సును లెక్కించండి",
+    "Calculate Age Till": "వయస్సును లెక్కించవలసిన తేదీ",
+    "Age will be calculated up to today": "ఈరోజు వరకు వయస్సు లెక్కించబడుతుంది",
+    "Select your date of birth and click Calculate": "మీ పుట్టిన తేదీని ఎంచుకుని లెక్కించండి క్లిక్ చేయండి",
+    "Calculate": "లెక్కించండి",
+    "Calculate Your Age": "మీ వయస్సును లెక్కించండి",
+    "Result": "ఫలితం",
+    "Calculation": "గణన",
+    "Calculation Result": "గణన ఫలితం",
+    "Calculation Type": "గణన రకం",
+    "Calculated by": "AgeVerseGlobal ద్వారా లెక్కించబడింది",
+    "Calculated between the selected dates": "ఎంచుకున్న తేదీల మధ్య లెక్కించబడింది",
+    "Calculated result": "లెక్కించబడిన ఫలితం",
+    "Input": "ఇన్‌పుట్",
+    "Input Details": "ఇన్‌పుట్ వివరాలు",
+    "Input Amount": "ఇన్‌పుట్ మొత్తం",
+    "Input Summary": "ఇన్‌పుట్ సారాంశం",
+    "Reset": "రీసెట్",
+    "New": "కొత్తది",
+    "Copy": "కాపీ చేయండి",
+    "Copy Result": "ఫలితాన్ని కాపీ చేయండి",
+    "Copy Image": "ఇమేజ్ కాపీ చేయండి",
+    "Share": "షేర్ చేయండి",
+    "Share Result": "ఫలితాన్ని షేర్ చేయండి",
+    "Share PDF": "PDF షేర్ చేయండి",
+    "Download": "డౌన్‌లోడ్ చేయండి",
+    "Download PDF": "PDF డౌన్‌లోడ్ చేయండి",
+    "Print": "ప్రింట్ చేయండి",
+    "From": "నుండి",
+    "To": "వరకు",
+    "From Date": "ప్రారంభ తేదీ",
+    "To Date": "ముగింపు తేదీ",
+    "From Day": "ప్రారంభ రోజు",
+    "To Day": "ముగింపు రోజు",
+    "Till": "వరకు",
+    "Specific Date": " నిర్దిష్ట తేదీ",
+    "Year": "సంవత్సరం",
+    "Years": "సంవత్సరాలు",
+    "Months": "నెలలు",
+    "Month": "నెల",
+    "Days": "రోజులు",
+    "Day": "రోజు",
+    "Weeks": "వారాలు",
+    "Week": "వారం",
+    "Hours": "గంటలు",
+    "Hour": "గంట",
+    "Minutes": "నిమిషాలు",
+    "Minute": "నిమిషం",
+    "Seconds": "సెకన్లు",
+    "Second": "సెకండ్",
+    "Total Years": "మొత్తం సంవత్సరాలు",
+    "Total Months": "మొత్తం నెలలు",
+    "Total Weeks": "మొత్తం వారాలు",
+    "Total Days": "మొత్తం రోజులు",
+    "Total Hours": "మొత్తం గంటలు",
+    "Total Minutes": "మొత్తం నిమిషాలు",
+    "Total Seconds": "మొత్తం సెకన్లు",
+    "Total Time": "మొత్తం సమయం",
+    "Exact difference between the selected dates": "ఎంచుకున్న తేదీల మధ్య ఖచ్చితమైన వ్యత్యాసం",
+    "Date Difference": "తేదీ వ్యత్యాసం",
+    "Date Difference Calculator": "తేదీ వ్యత్యాస కాలిక్యులేటర్",
+    "Date Difference Result": "తేదీ వ్యత్యాస ఫలితం",
+    "Exact Difference": "ఖచ్చితమైన వ్యత్యాసం",
+    "Event Calculator": "ఈవెంట్ కాలిక్యులేటర్",
+    "Event Countdown": "ఈవెంట్ కౌంట్‌డౌన్",
+    "Event Date": "ఈవెంట్ తేదీ",
+    "Select Event": "ఈవెంట్‌ను ఎంచుకోండి",
+    "Calculate Countdown": "కౌంట్‌డౌన్‌ను లెక్కించండి",
+    "Calculate Difference": "వ్యత్యాసాన్ని లెక్కించండి",
+    "Custom Event Name": "కస్టమ్ ఈవెంట్ పేరు",
+    "Event Time": "ఈవెంట్ సమయం",
+    "Reminder": "రిమైండర్",
+    "Reminder Set": "రిమైండర్ సెట్ చేయబడింది",
+    "Reminder Time": "రిమైండర్ సమయం",
+    "No Reminder": "రిమైండర్ లేదు",
+    "1 Day Before": "1 రోజు ముందు",
+    "1 Hour Before": "1 గంట ముందు",
+    "10 Minutes Before": "10 నిమిషాల ముందు",
+    "24 Hours Before": "24 గంటల ముందు",
+    "Days Before": "రోజులు ముందు",
+    "Hours Before": "గంటల ముందు",
+    "Minutes Before": "నిమిషాల ముందు",
+    "Get notified before your event": "మీ ఈవెంట్‌కు ముందు నోటిఫికేషన్ పొందండి",
+    "Choose when your event starts": "మీ ఈవెంట్ ఎప్పుడు ప్రారంభమవుతుందో ఎంచుకోండి",
+    "Choose when AgeVerseGlobal should remind you.": "AgeVerseGlobal మీకు ఎప్పుడు గుర్తు చేయాలో ఎంచుకోండి.",
+    "Smart tools for your everyday date calculations.": "మీ దైనందిన తేదీ లెక్కల కోసం స్మార్ట్ టూల్.",
+    "Explore Calculators": "కాలిక్యులేటర్లను అన్వేషించండి",
+    "Explore AgeVerseGlobal calculators to find the tool you need.": "మీకు కావలసిన టూల్‌ను కనుగొనడానికి AgeVerseGlobal కాలిక్యులేటర్లను అన్వేషించండి.",
+    "Start Calculating": "లెక్కించడం ప్రారంభించండి",
+    "Verified User": "ధృవీకరించబడిన వినియోగదారు",
+    "Free Forever": "ఎప్పటికీ ఉచితం",
+    "Instant Calculation": "తక్షణ గణన",
+    "Multiple Date Support": "బహుళ తేదీల మద్దతు",
+    "Privacy Focused": "గోప్యతకు ప్రాధాన్యం",
+    "Fast": "వేగవంతమైన",
+    "Accurate": "ఖచ్చితమైన",
+    "Detailed": "వివరణాత్మక",
+    "Simple": "సరళమైన",
+    "Premium": "ప్రీమియం",
+    "Health & Wellness": "ఆరోగ్యం మరియు వెల్‌నెస్",
+    "Complete Health Profile": "సమగ్ర ఆరోగ్య ప్రొఫైల్",
+    "Personal Details": "వ్యక్తిగత వివరాలు",
+    "Gender": "లింగం",
+    "Male": "పురుషుడు",
+    "Female": "స్త్రీ",
+    "Other": "ఇది కాక ఇతర",
+    "Senior Citizen": "సీనియర్ సిటిజెన్",
+    "Senior Citizen Rate": "సీనియర్ సిటిజెన్ రేటు",
+    "Additional Senior Citizen Rate (%)": "అదనపు సీనియర్ సిటిజెన్ రేటు (%)",
+    "Goal": "లక్ష్యం",
+    "Your Goal": "మీ లక్ష్యం",
+    "Gain Weight": "బరువు పెరగడం",
+    "Lose Weight": "బరువు తగ్గడం",
+    "Maintain": "నిర్వహించడం",
+    "Diet Preference": "ఆహార ప్రాధాన్యత",
+    "Vegetarian": "శాకాహారం",
+    "Non-Vegetarian": "మాంసాహారం",
+    "Vegan": "వీగన్",
+    "Activity Level": "క్రియాశీలత స్థాయి",
+    "Sedentary": "కదలకుండా ఉండే",
+    "Lightly Active": "కొద్దిగా క్రియాశీలత",
+    "Moderately Active": "మోస్తరు క్రియాశీలత",
+    "Very Active": "చాలా క్రియాశీలత",
+    "Extra Active": "అత్యంత క్రియాశీలత",
+    "Little or no exercise": "చాలా తక్కువ లేదా వ్యాయామం లేదు",
+    "Light exercise": "తేలికపాటి వ్యాయామం",
+    "Exercise 3–5": "3–5 రోజులు వ్యాయామం",
+    "6–7 days/week": "6–7 రోజులు/వారం",
+    "1–3 days/week": "1–3 రోజులు/వారం",
+    "physical work": "శారీరక పని",
+    "Health Score": "ఆరోగ్య స్కోర్",
+    "Wellness Score": "వెల్‌నెస్ స్కోర్",
+    "Your Overall Wellness": "మీ మొత్తం ఆరోగ్యం",
+    "Your personalized wellness report": "మీ వ్యక్తిగతీకరించిన వెల్‌నెస్ నివేదిక",
+    "Fill in your details to calculate your complete wellness result.": "మీ పూర్తి వెల్‌నెస్ ఫలితాన్ని లెక్కించడానికి మీ వివరాలను పూరించండి.",
+    "✨ Calculate Wellness": "✨ వెల్‌నెస్ లెక్కించండి",
+    "Wellness": "వెల్‌నెస్",
+    "BMI Gauge": "BMI గేజ్",
+    "Body Mass Index": "బాడీ మాస్ ఇండెక్స్",
+    "Healthy": "ఆరోగ్యకరమైన",
+    "Healthy Range": "ఆరోగ్యకరమైన పరిధి",
+    "Underweight": "తక్కువ బరువు",
+    "Overweight": "అధిక బరువు",
+    "Obesity": "స్థూలకాయం",
+    "BMI": "BMI",
+    "BMR": "BMR",
+    "Water": "నీరు",
+    "Liters/day": "లీటర్లు/రోజు",
+    "Ideal Weight": "ఆదర్శ బరువు",
+    "Matches real age": "వాస్తవ వయస్సుతో సరిపోలుతుంది",
+    "Body Age": "శరీర వయస్సు",
+    "Protein": "ప్రోటీన్",
+    "Carbs": "కార్బోహైడ్రేట్లు",
+    "Fat": "కొవ్వు",
+    "daily": "ప్రతిరోజూ",
+    "Recommended daily nutrition": "సిఫార్సు చేయబడిన దైనందిన పోషణ",
+    "Nutrition Balance": "పోషకాహార సమతుల్యత",
+    "Personalized Diet Plan": "వ్యక్తిగతీకరించిన ఆహార ప్రణాళిక",
+    "Food suggestions based on your selected diet": "మీరు ఎంచుకున్న ఆహారం ఆధారంగా ఆహార సూచనలు",
+    "Balanced Diet": "సమతుల్య ఆహారం",
+    "Daily Lifestyle Goals": "దైనందిన జీవనశైలి లక్ష్యాలు",
+    "Sleep:": "నిద్ర:",
+    "Steps:": "అడుగులు:",
+    "Nutrition:": "పోషణ:",
+    "Water:": "నీరు:",
+    "Today's Challenge": "నేటి సవాలు",
+    "Smart Health Tips": "స్మార్ట్ ఆరోగ్య చిట్కాలు",
+    "Quick Tip": "త్వరిత చిట్కా",
+    "How it works": "ఇది ఎలా పనిచేస్తుంది",
+    "Important": "ముఖ్యమైనది",
+    "Calculation Note": "గణన గమనిక",
+    "Disclaimer:": "నిరాకరణ:",
+    "Generated by": "AgeVerseGlobal ద్వారా రూపొందించబడింది",
+    "AgeVerseGlobal": "AgeVerseGlobal",
+    "Retirement Calculator": "రిటైర్మెంట్ కాలిక్యులేటర్",
+    "Retirement Planning": "రిటైర్మెంట్ ప్రణాళిక",
+    "Retirement Result": "రిటైర్మెంట్ ఫలితం",
+    "Retirement Completed": "రిటైర్మెంట్ పూర్తయింది",
+    "Retirement Day": "రిటైర్మెంట్ రోజు",
+    "Retirement Day Reminder": "రిటైర్మెంట్ రోజు రిమైండర్",
+    "Retirement Day Message": "రిటైర్మెంట్ రోజు సందేశం",
+    "Calculate Retirement": "రిటైర్మెంట్ లెక్కించండి",
+    "Retirement Date": "రిటైర్మెంట్ తేదీ",
+    "Retirement Age": "రిటైర్మెంట్ వయస్సు",
+    "Event Completed": "ఈవెంట్ పూర్తయింది",
+    "Upcoming Event": "రాబోయే ఈవెంట్",
+    "Time Remaining": "మిగిలిన సమయం",
+    "Remaining Period": "మిగిలిన కాలం",
+    "Estimated Time Remaining": "అంచనా వేసిన మిగిలిన సమయం",
+    "Live Countdown": "లైవ్ కౌంట్‌డౌన్",
+    "Next Birthday": "తదుపరి పుట్టినరోజు",
+    "Birthday": "పుట్టినరోజు",
+    "Anniversary": "వార్షికోత్సవం",
+    "Exam": "పరీక్ష",
+    "Trip / Vacation": "ప్రయాణం / సెలవు",
+    "Party / Event": "పార్టీ / కార్యక్రమం",
+    "Custom": "కస్టమ్",
+    "Unit Converter": "యూనిట్ కన్వర్టర్",
+    "Unit Conversion Result": "యూనిట్ మార్పిడి ఫలితం",
+    "Conversion": "మార్పిడి",
+    "Conversion Category": "మార్పిడి వర్గం",
+    "Converted Value": "మార్చబడిన విలువ",
+    "From Unit": "నుండి యూనిట్",
+    "To Unit": "వరకు యూనిట్",
+    "Swap units": "యూనిట్లను మార్చండి",
+    "Enter value": "విలువను నమోదు చేయండి",
+    "Percentage Calculator": "శాతం కాలిక్యులేటర్",
+    "to see the complete percentage calculation.": "పూర్తి శాతం గణనను చూడటానికి.",
+    "Discount Calculator": "డిస్కౌంట్ కాలిక్యులేటర్",
+    "Discount": "డిస్కౌంట్",
+    "Discount (%)": "డిస్కౌంట్ (%)",
+    "Discount 1 (%)": "డిస్కౌంట్ 1 (%)",
+    "Discount 2 (%)": "డిస్కౌంట్ 2 (%)",
+    "Discount 3 (%) — Optional": "డిస్కౌంట్ 3 (%) — ఐచ్ఛికం",
+    "Effective Discount": "ప్రభావవంతమైన డిస్కౌంట్",
+    "Effective Rate": "ప్రభావవంతమైన రేటు",
+    "Final Price": "తుది ధర",
+    "Final Selling Price": "తుది విక్రయ ధర",
+    "Original Price": " అసలు ధర",
+    "Original / Marked Price": "అసలు / ముద్రిత ధర",
+    "Saving": "పొదుపు",
+    "Savings": "పొదుపులు",
+    "Total Saving": "మొత్తం పొదుపు",
+    "Quantity-Based Discount Slabs": "పరిమాణ ఆధారిత డిస్కౌంట్ స్లాబ్‌లు",
+    "Sequential Discounts": "వరుస డిస్కౌంట్లు",
+    "GST Calculator": "GST కాలిక్యులేటర్",
+    "GST": "GST",
+    "GST Rate": "GST రేటు",
+    "GST Amount": "GST మొత్తం",
+    "Tax Type": "పన్ను రకం",
+    "CGST": "CGST",
+    "SGST": "SGST",
+    "IGST": "IGST",
+    "CGST + SGST": "CGST + SGST",
+    "Custom GST Rate (%)": "కస్టమ్ GST రేటు (%)",
+    "GST Breakdown": "GST విశ్లేషణ",
+    "to see the complete GST calculation.": "పూర్తి GST గణనను చూడటానికి.",
+    "EMI Calculator": "EMI కాలిక్యులేటర్",
+    "EMI Calculation Result": "EMI గణన ఫలితం",
+    "Monthly EMI": "నెలవారీ EMI",
+    "Loan Amount": "రుణ మొత్తం",
+    "Loan Tenure": "రుణ కాలపరిమితి",
+    "Annual Interest Rate (%)": "వార్షిక వడ్డీ రేటు (%)",
+    "Annual Interest": "వార్షిక వడ్డీ",
+    "Monthly Interest": "నెలవారీ వడ్డీ",
+    "Interest Rate": "వడ్డీ రేటు",
+    "Interest Rate (% p.a.)": "వడ్డీ రేటు (% సంవత్సరానికి)",
+    "Principal": "అసలు",
+    "Principal Amount": "అసలు మొత్తం",
+    "Total Payment": "మొత్తం చెల్లింపు",
+    "Total Repayment": "మొత్తం తిరిగి చెల్లింపు",
+    "Repayment Summary": "తిరిగి చెల్లింపు సారాంశం",
+    "Repayment Flow": "తిరిగి చెల్లింపు ప్రవాహం",
+    "Payment Composition": "చెల్లింపు కూర్పు",
+    "Your complete loan repayment summary": "మీ పూర్తి రుణ తిరిగి చెల్లింపు సారాంశం",
+    "SIP Calculator": "SIP కాలిక్యులేటర్",
+    "SIP Calculation Result": "SIP గణన ఫలితం",
+    "SIP Amount": "SIP మొత్తం",
+    "SIP Investment Amount": "SIP పెట్టుబడి మొత్తం",
+    "SIP Frequency": "SIP ఫ్రీక్వెన్సీ",
+    "Annual Return": "వార్షిక రాబడి",
+    "Expected Annual Return (%)": "ఆశించిన వార్షిక రాబడి (%)",
+    "Expected Return": "ఆశించిన రాబడి",
+    "Annual Step-Up (%)": "వార్షిక స్టెప్-అప్ (%)",
+    "Step-Up": "స్టెప్-అప్",
+    "Annual SIP Step-Up": "వార్షిక SIP స్టెప్-అప్",
+    "Investment & Wealth Projection": "పెట్టుబడి మరియు సంపద అంచనా",
+    "Investment Period": "పెట్టుబడి కాలం",
+    "Investment Period (Years)": "పెట్టుబడి కాలం (సంవత్సరాలు)",
+    "Total Invested": "మొత్తం పెట్టుబడి",
+    "Estimated Returns": "అంచనా వేసిన రాబడులు",
+    "Estimated Value": "అంచనా వేసిన విలువ",
+    "FD Calculator": "FD కాలిక్యులేటర్",
+    "FD Calculation Result": "FD గణన ఫలితం",
+    "Fixed Deposit Maturity & Interest Projection": "ఫిక్స్డ్ డిపాజిట్ మెచ్యూరిటీ మరియు వడ్డీ అంచనా",
+    "Deposit Amount": "డిపాజిట్ మొత్తం",
+    "Maturity Value": "మెచ్యూరిటీ విలువ",
+    "Estimated Interest": "అంచనా వేసిన వడ్డీ",
+    "Estimated Maturity Value": "అంచనా వేసిన మెచ్యూరిటీ విలువ",
+    "Interest Compounding": "చక్రవడ్డీ",
+    "Compounding Frequency": "చక్రవడ్డీ ఫ్రీక్వెన్సీ",
+    "Quarterly": "త్రైమాసిక",
+    "Half-Yearly": "అర్థ-వార్షిక",
+    "Annual": "వార్షిక",
+    "Monthly": "నెలవారీ",
+    "RD Calculator": "RD కాలిక్యులేటర్",
+    "RD Calculation Result": "RD గణన ఫలితం",
+    "Recurring Deposit & Maturity Projection": "రికరింగ్ డిపాజిట్ మరియు మెచ్యూరిటీ అంచనా",
+    "Monthly RD Deposit": "నెలవారీ RD డిపాజిట్",
+    "Monthly RD": "నెలవారీ RD",
+    "Total Deposited": "మొత్తం డిపాజిట్ చేయబడింది",
+    "Total Original": "మొత్తం అసలు",
+    "Estimated future value of your RD": "మీ RD యొక్క అంచనా భవిష్యత్తు విలువ",
+    "Dog Age Calculator": "కుక్క వయస్సు కాలిక్యులేటర్",
+    "Dog Age Calculation Result": "కుక్క వయస్సు గణన ఫలితం",
+    "Dog Age": "కుక్క వయస్సు",
+    "Dog's Birth Date": "కుక్క పుట్టిన తేదీ",
+    "Your Dog's Exact Age": "మీ కుక్క ఖచ్చితమైన వయస్సు",
+    "Human Age Equivalent": "మానవ వయస్సు సమానత్వం",
+    "Human Equivalent": "మానవ సమానత్వం",
+    "Age & Human Equivalent Projection": "వయస్సు మరియు మానవ సమానత్వ అంచనా",
+    "About Dog Age": "కుక్క వయస్సు గురించి",
+    "Category": "వర్గం",
+    "Pregnancy Calculator": "గర్భధారణ కాలిక్యులేటర్",
+    "Pregnancy Result": "గర్భధారణ ఫలితం",
+    "Pregnancy Age": "గర్భధారణ వయస్సు",
+    "Current Trimester": "ప్రస్తుత త్రైమాసికం",
+    "Pregnancy Progress": "గర్భధారణ పురోగతి",
+    "Progress": "పురోగతి",
+    "Estimated Due Date": "అంచనా ప్రసవ తేదీ",
+    "Estimated Due Date Reached": "అంచనా ప్రసవ తేదీ చేరుకుంది",
+    "Calculate Pregnancy": "గర్భధారణను లెక్కించండి",
+    "Calculate Pregnancy On": "ఈ తేదీన గర్భధారణను లెక్కించండి",
+    "Until estimated due date": "అంచనా ప్రసవ తేదీ వరకు",
+    "Enter the first day of your last menstrual period.": "మీ చివరి రుతుస్రావం మొదటి రోజును నమోదు చేయండి.",
+    "First Day of Last Menstrual Period": "చివరి నెలసరి మొదటి రోజు",
+    "Last Menstrual Period": "చివరి నెలసరి",
+    "Pregnancy Not Started": "గర్భధారణ ప్రారంభం కాలేదు",
+    "Growth": "వృద్ధి",
+    "Projection": "అంచనా",
+    "Price Flow": "ధర ప్రవాహం",
+    "Investment Flow": "పెట్టుబడి ప్రవాహం",
+    "Interest Growth": "వడ్డీ వృద్ధి",
+    "FD Growth": "FD వృద్ధి",
+    "Formula": "సూత్రం",
+    "EMI Formula": "EMI సూత్రం",
+    "Value": "విలువ",
+    "Opening Value": "ప్రారంభ విలువ",
+    "Original": "అసలు",
+    "Before": "ముందు",
+    "After": "తర్వాత",
+    "Period": "కాలం",
+    "Frequency": "ఫ్రీక్వెన్సీ",
+    "Custom Rate": "కస్టమ్ రేటు",
+    "Expected Annual Interest Rate (%)": "ఆశించిన వార్షిక వడ్డీ రేటు (%)",
+    "Total Interest": "మొత్తం వడ్డీ",
+    "Total Amount": "మొత్తం మొత్తం",
+    "Invested": "పెట్టుబడి పెట్టబడింది",
+    "Annual Rate": "వార్షిక రేటు",
+    "Base Amount": "బేస్ మొత్తం",
+    "Amount after discount": "డిస్కౌంట్ తర్వాత మొత్తం",
+    "Amount payable every month": "ప్రతి నెల చెల్లించవలసిన మొత్తం",
+    "Estimated value at the end of the selected tenure": "ఎంచుకున్న కాలపరిమితి ముగింపులో అంచనా విలువ",
+    "Estimated future value of your SIP": "మీ SIP యొక్క అంచనా భవిష్యత్తు విలువ",
+    "✓ Accurate": "✓ ఖచ్చితమైన",
+    "✓ Simple": "✓ సరళమైన",
+    "✓ Privacy Focused": "✓ గోప్యతా కేంద్రీకృత",
+    "⚡ Fast": "⚡ వేగవంతమైన",
+    "📊 Detailed": "📊 వివరణాత్మక",
+    "🔒 Simple": "🔒 సరళమైన",
+    "💰 Savings": "💰 పొదుపులు",
+    "🚀 Annual SIP Step-Up": "🚀 వార్షిక SIP స్టెప్-అప్",
+    "🔢 Value": "🔢 విలువ",
+    "🧮 Calculate": "🧮 లెక్కించండి",
+    "🧮 Calculate EMI": "🧮 EMI లెక్కించండి",
+    "🧮 Calculation": "🧮 గణన",
+    "📤 Share": "📤 షేర్ చేయండి",
+    "📥 Download": "📥 డౌన్‌లోడ్ చేయండి",
+    "📄 Download PDF": "📄 PDF డౌన్‌లోడ్ చేయండి",
+    "📋 Copy": "📋 కాపీ చేయండి",
+    "📋 Copy Image": "📋 ఇమేజ్ కాపీ చేయండి",
+    "🔄 New": "🔄 కొత్తది",
+    "🔄 Reset": "🔄 రీసెట్",
+    "🖨️ Print": "🖨️ ప్రింట్ చేయండి",
+    "📏 Convert": "📏 మార్చండి",
+    "⚙️ Custom": "⚙️ కస్టమ్",
+    "🎯 Select Event": "🎯 ఈవెంట్‌ను ఎంచుకోండి",
+    "🎯 Your Goal": "🎯 మీ లక్ష్యం",
+    "👨 Male": "👨 పురుషుడు",
+    "👩 Female": "👩 స్త్రీ",
+    "🌱 Vegan": "🌱 వీగన్",
+    "🍗 Non-Vegetarian": "🍗 మాంసాహారం",
+    "🥗 Vegetarian": "🥗 శాకాహారం",
+    "🏃 Activity Level": "🏃 క్రియాశీలత స్థాయి",
+    "🏃 Body Age": "🏃 శరీర వయస్సు",
+    "💧 Water": "💧 నీరు",
+    "🔥 BMR": "🔥 BMR",
+    "⚖️ BMI": "⚖️ BMI",
+    "🎯 Ideal Weight": "🎯 ఆదర్శ బరువు",
+    "🥩 Protein": "🥩 ప్రోటీన్",
+    "🍲 Carbs": "🍲 కార్బోహైడ్రేట్లు",
+    "🥑 Fat": "🥑 కొవ్వు",
+    "💰 Growth": "💰 వృద్ధి",
+    "💰 Maturity": "💰 మెచ్యూరిటీ",
+    "💰 Repayment Summary": "💰 తిరిగి చెల్లింపు సారాంశం",
+    "💰 Total Saving": "💰 మొత్తం పొదుపు",
+    "💳 Loan Input Details": "💳 రుణ ఇన్‌పుట్ వివరాలు",
+    "💵 Principal Deposit": "💵 అసలు డిపాజిట్",
+    "💵 Total Deposited": "💵 మొత్తం డిపాజిట్ చేయబడింది",
+    "💵 Total Invested": "💵 మొత్తం పెట్టుబడి",
+    "📌 Input Summary": "📌 ఇన్‌పుట్ సారాంశం",
+    "📐 Formula": "📐 సూత్రం",
+    "📐 Calculation": "📐 గణన",
+    "📈 Estimated Interest": "📈 అంచనా వేసిన వడ్డీ",
+    "📈 Estimated Returns": "📈 అంచనా వేసిన రాబడులు",
+    "📉 Discount": "📉 డిస్కౌంట్",
+    "📊 Age Category": "📊 వయస్సు వర్గం",
+    "📊 Age Summary": "📊 వయస్సు సారాంశం",
+    "📊 Growth": "📊 వృద్ధి",
+    "📊 Health Summary": "📊 ఆరోగ్య సారాంశం",
+    "📊 Interest": "📊 వడ్డీ",
+    "📊 Interest Growth": "📊 వడ్డీ వృద్ధి",
+    "📊 Investment Flow": "📊 పెట్టుబడి ప్రవాహం",
+    "📊 Payment Composition": "📊 చెల్లింపు కూర్పు",
+    "📊 Pregnancy Progress": "📊 గర్భధారణ పురోగతి",
+    "📊 Price Flow": "📊 ధర ప్రవాహం",
+    "📊 Projection": "📊 అంచనా",
+    "📊 Total Time": "📊 మొత్తం సమయం",
+    "⏳ Estimated Time Remaining": "⏳ అంచనా వేసిన మిగిలిన సమయం",
+    "⏳ Exact Difference": "⏳ ఖచ్చితమైన వ్యత్యాసం",
+    "⏳ Remaining Period": "⏳ మిగిలిన కాలం",
+    "⏳ Time Remaining": "⏳ మిగిలిన సమయం",
+    "⏳ Upcoming Event": "⏳ రాబోయే ఈవెంట్",
+    "⏱ Live Countdown": "⏱ లైవ్ కౌంట్‌డౌన్",
+    "⏰ Event Time": "⏰ ఈవెంట్ సమయం",
+    "⏰ Remind me before retirement": "⏰ రిటైర్మెంట్‌కు ముందు గుర్తు చేయండి",
+    "🌼 Pregnancy Not Started": "🌼 గర్భధారణ ప్రారంభం కాలేదు",
+    "🌸 Current Trimester": "🌸 ప్రస్తుత త్రైమాసికం",
+    "🎉 Event Countdown": "🎉 ఈవెంట్ కౌంట్‌డౌన్",
+    "🎉 Next Birthday": "🎉 తదుపరి పుట్టినరోజు",
+    "🎉 Retirement Day": "🎉 రిటైర్మెంట్ రోజు",
+    "🎂 Age": "🎂 వయస్సు",
+    "🎂 Age Calculator": "🎂 వయస్సు కాలిక్యులేటర్",
+    "🎂 Date of Birth": "🎂 పుట్టిన తేదీ",
+    "🎂 Dog Age": "🎂 కుక్క వయస్సు",
+    "🎂 Exact Age": "🎂 ఖచ్చితమైన వయస్సు",
+    "🎂 Next Birthday": "🎂 తదుపరి పుట్టినరోజు",
+    "🎂 Smart & Accurate Age Calculator": "🎂 స్మార్ట్ మరియు ఖచ్చితమైన వయస్సు కాలిక్యులేటర్",
+    "🎂 Your Age": "🎂 మీ వయస్సు",
+    "📅 Calculate Pregnancy On": "📅 ఈ తేదీన గర్భధారణను లెక్కించండి",
+    "📅 Estimated Due Date": "📅 అంచనా ప్రసవ తేదీ",
+    "📅 Event Date": "📅 ఈవెంట్ తేదీ",
+    "📅 From": "📅 నుండి",
+    "📅 From Date": "📅 ప్రారంభ తేదీ",
+    "📅 Retirement Date": "📅 రిటైర్మెంట్ తేదీ",
+    "📅 Specific Date": "📅 నిర్దిష్ట తేదీ",
+    "📅 Till": "📅 వరకు",
+    "📅 To Date": "📅 ముగింపు తేదీ",
+    "📅 Total Days": "📅 మొత్తం రోజులు",
+    "📅 Year-Wise Projection": "📅 సంవత్సరాల వారీ అంచనా",
+    "📆 Weekday": "📆 వారం రోజు",
+    "🩸 First Day of Last Menstrual Period": "🩸 చివరి నెలసరి మొదటి రోజు",
+    "🪑 Sedentary": "🪑 కదలకుండా ఉండే",
+    "🪪 Your Name": "🪪 మీ పేరు",
+    "🧾 Input Details": "🧾 ఇన్‌పుట్ వివరాలు",
+    "🤰 Calculate Pregnancy": "🤰 గర్భధారణను లెక్కించండి",
+    "🍽️ Personalized Diet Plan": "🍽️ వ్యక్తిగతీకరించిన ఆహార ప్రణాళిక",
+    "🌿 Daily Lifestyle Goals": "🌿 దైనందిన జీవనశైలి లక్ష్యాలు",
+    "🏆 Today's Challenge": "🏆 నేటి సవాలు",
+    "💡 How it works": "💡 ఇది ఎలా పనిచేస్తుంది",
+    "💡 Quick Tip": "💡 త్వరిత చిట్కా",
+    "💡 Smart Health Tips": "💡 స్మార్ట్ ఆరోగ్య చిట్కాలు",
+    "⚖️ Maintain": "⚖️ నిర్వహించండి",
+    "⬆️ Gain Weight": "⬆️ బరువు పెరగండి",
+    "⬇️ Lose Weight": "⬇️ బరువు తగ్గండి",
+    "🧑 Approximate Human Age": "🧑 అంచనా వేసిన మానవ వయస్సు",
+    "🐾 About Dog Age": "🐾 కుక్క వయస్సు గురించి",
+    "🐾 Category": "🐾 వర్గం",
+    "🐾 Human Equivalent": "🐾 మానవ సమానత్వం",
+    "🧮 Calculation Breakdown": "🧮 గణన విశ్లేషణ",
+    "🧮 Conversion Category": "🧮 మార్పిడి వర్గం",
+    "🧮 Repayment Flow": "🧮 తిరిగి చెల్లింపు ప్రవాహం",
+    "✦ HELP & INFORMATION": "✦ సహాయం మరియు సమాచారం",
+    "✦ USER EXPERIENCES": "✦ వినియోగదారు అనుభవాలు",
+    "What Users Say": "వినియోగదారులు ఏమి చెబుతున్నారు",
+    "Why Choose AgeVerseGlobal?": "AgeVerseGlobal ఎందుకు ఎంచుకోవాలి?",
+    "Still have a question?": "ఇప్పటికీ ప్రశ్న ఉందా?",
+    "NEW": "కొత్తది",
+    "days before": "రోజుల ముందు",
+    "days/week": "రోజులు/వారం",
+    "kcal/day": "కిలో కేలరీలు/రోజు",
+    "7–8 Hours": "7–8 గంటలు",
+    "8000 Steps": "8000 అడుగులు",
+    "Calculator Section": "కాలిక్యులేటర్ విభాగం",
+    "Your Result Will Appear Here": "మీ ఫలితం ఇక్కడ కనిపిస్తుంది",
+    "Your result will appear here.": "మీ ఫలితం ఇక్కడ కనిపిస్తుంది.",
+    "Your EMI Result Will Appear Here": "మీ EMI ఫలితం ఇక్కడ కనిపిస్తుంది",
+    "Your retirement planning summary": "మీ రిటైర్మెంట్ ప్రణాళిక సారాంశం",
+    "Your pregnancy timeline summary": "మీ గర్భధారణ సమయపాలన సారాంశం",
+    "Your complete result.": "మీ పూర్తి ఫలితం.",
+    "to see the complete result.": "పూర్తి ఫలితాన్ని చూడటానికి.",
+    "to see your complete FD projection.": "మీ పూర్తి FD అంచనాను చూడటానికి.",
+    "to see your complete RD projection.": "మీ పూర్తి RD అంచనాను చూడటానికి.",
+    "to see your complete SIP projection.": "మీ పూర్తి SIP అంచనాను చూడటానికి.",
+    "Enter your details above to begin.": "ప్రారంభించడానికి పైన మీ వివరాలను నమోదు చేయండి.",
+    "Enter your values and tap": "మీ విలువలను నమోదు చేసి ట్యాప్ చేయండి",
+    "Enter your loan details and tap": "మీ రుణ వివరాలను నమోదు చేసి ట్యాప్ చేయండి",
+    "Leave blank to calculate using today's date.": "ఈరోజు తేదీని ఉపయోగించి లెక్కించడానికి ఖాళీగా వదలండి.",
+    "The current date will be used automatically.": "ప్రస్తుత తేదీ స్వయంచాలకంగా ఉపయోగించబడుతుంది.",
+    "Optional": "ఐచ్ఛికం",
+    "Optional additional rate for senior-citizen projection.": "సీనియర్ సిటిజెన్ అంచనా కోసం ఐచ్ఛిక అదనపు రేటు.",
+    "Quarterly Compounding": "త్రైమాసిక చక్రవడ్డీ",
+    "Compounding": "చక్రవడ్డీ",
+    "Interest": "వడ్డీ",
+    "Weekly": "వారసరి",
+    "Principal Deposit": "అసలు డిపాజిట్",
+    "Returns": "రాబడులు",
+    "Quantity": "పరిమాణం",
+    "From Quantity": "పరిమాణం నుండి",
+    "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)": "EMI = P × r × (1+r)ⁿ ÷ ((1+r)ⁿ−1)",
+    "AgeVerseGlobal - Retirement Result": "AgeVerseGlobal - రిటైర్మెంట్ ఫలితం",
+    "AgeVerseGlobal EMI Calculator Result": "AgeVerseGlobal EMI కాలిక్యులేటర్ ఫలితం",
+    "AgeVerseGlobal Pregnancy Calculator": "AgeVerseGlobal గర్భధారణ కాలిక్యులేటర్",
+    "AgeVerseGlobal Pregnancy Result": "AgeVerseGlobal గర్భధారణ ఫలితం",
+    "AgeVerseGlobal Unit Converter Result": "AgeVerseGlobal యూనిట్ కన్వర్టర్ ఫలితం",
+    "AgeVerseGlobal Utility • Unit Converter": "AgeVerseGlobal యుటిలిటీ • యూనిట్ కన్వర్టర్",
+    "Verse": "Verse",
+    "Utility": "యుటిలిటీ",
+    "Slab 1": "స్లాబ్ 1",
+    "Slab 2": "స్లాబ్ 2",
+    "Slab 3": "స్లాబ్ 3",
+    "to see your complete result.": "మీ పూర్తి ఫలితాన్ని చూడటానికి.",
+    "✓ Result image copied successfully.": "✓ ఫలితం ఇమేజ్ విజయవంతంగా కాపీ చేయబడింది.",
+    "Frequently Asked Questions": "తరచుగా అడిగే ప్రశ్నలు",
+    "♡ Calories": "♡ కేలరీలు",
+    "Instantly &amp; Accurately": "తక్షణమే &amp; ఖచ్చితంగా",
+    "⚙️ Set Custom Reminder": "⚙️ కస్టమ్ రిమైండర్ సెట్ చేయండి",
+    "Calculate On": "ఈ తేదీన లెక్కించండి",
+    "Cumulative Interest": "సంచిత వడ్డీ",
+    "Hard exercise": "కఠినమైన వ్యాయామం",
+    "Very hard training /": "చాలా కఠినమైన శిక్షణ /",
+    "⚖️ Weight (kg)": "⚖️ బరువు (కి.గ్రా)",
+    "📏 Body Measurements": "📏 శరీర కొలతలు",
+    "📏 Height (cm)": "📏 ఎత్తు (సెం.మీ)",
+    "⏳ Estimated time remaining": "⏳ అంచనా వేసిన మిగిలిన సమయం",
+    "🟢 Today": "🟢 ఈరోజు",
+    "Select two dates to calculate the exact difference.": "ఖచ్చితమైన వ్యత్యాసాన్ని లెక్కించడానికి రెండు తేదీలను ఎంచుకోండి.",
+    "Utility • Unit Converter": "యుటిలిటీ • యూనిట్ కన్వర్టర్",
+    "Weight (kg)": "బరువు (కి.గ్రా)",
+    "Height (cm)": "ఎత్తు (సెం.మీ)",
+    "Result image": "ఫలితం ఇమేజ్",
+    "Estimated time remaining": "అంచనా వేసిన మిగిలిన సమయం",
+    "Health Profile": "ఆరోగ్య ప్రొఫైల్",
+    "Weight": "బరువు",
+    "Height": "ఎత్తు",
+    "Calories": "కేలరీలు",
+    "Complete": "సమగ్ర",
+    "Health": "ఆరోగ్యం",
+    "Countdown": "కౌంట్‌డౌన్",
+    "Difference": "వ్యత్యాసం",
+    "Select": "ఎంచుకోండి",
+    "Please": "దయచేసి",
+    "Enter": "నమోదు చేయండి",
+    "Details": "వివరాలు",
+    "Name": "పేరు",
+    "Time": "సమయం",
+    "Date": "తేదీ",
+    "Amount": "మొత్తం",
+    "Rate": "రేటు",
+    "Price": "ధర",
+    "Total": "మొత్తం",
+    "Estimated": "అంచనా వేయబడిన",
+    "Expected": "ఆశించిన",
+    "Final": "తుది",
+    "Payment": "చెల్లింపు",
+    "Repayment": "తిరిగి చెల్లింపు",
+    "Investment": "పెట్టుబడి",
+    "Maturity": "మెచ్యూరిటీ",
+    "Deposit": "డిపాజిట్",
+    "Loan": "రుణం",
+    "Tenure": "కాలపరిమితి",
+    "Tax": "పన్ను",
+    "Breakdown": "విశ్లేషణ",
+    "Converted": "మార్చబడింది",
+    "Unit": "యూనిట్",
+    "Swap": "మార్చు",
+    "Event": "ఈవెంట్",
+    "Retirement": "రిటైర్మెంట్",
+    "Pregnancy": "గర్భధారణ",
+    "Dog": "కుక్క",
+    "Human": "మానవ",
+    "Equivalent": "సమానమైన",
+    "Current": "ప్రస్తుత",
+    "Range": "పరిధి",
+    "Body": "శరీరం",
+    "Nutrition": "పోషణ",
+    "Lifestyle": "జీవనశైలి",
+    "Challenge": "సవాలు",
+    "Tips": "చిట్కాలు",
+    "Personalized": "వ్యక్తిగతీకరించిన",
+    "Plan": "ప్రణాళిక",
+    "Diet": "ఆహారం",
+    "Sleep": "నిద్ర",
+    "Steps": "అడుగులు",
+    "AgeVerseGlobal Utility": "AgeVerseGlobal యుటిలిటీ",
+    "Choose": "ఎంచుకోండి",
+    "when": "ఎప్పుడు",
+    "your": "మీ",
+    "event": "ఈవెంట్",
+    "starts": "ప్రారంభమవుతుంది",
+    "your complete": "మీ పూర్తి",
+    "complete": "పూర్తి",
+    "see": "చూడండి",
+    "the": "",
+    "here": "ఇక్కడ",
+    "today": "ఈరోజు",
+    "On": "పైన",
+    "and": "మరియు",
+    "accurately": "ఖచ్చితంగా",
+    "Calculate GST, tax amount and total amount quickly and accurately.": "GST, పన్ను మొత్తం మరియు మొత్తం మొత్తాన్ని త్వరగా మరియు ఖచ్చితంగా లెక్కించండి.",
+    "Calculate discount, savings and final selling price quickly.": "డిస్కౌంట్, పొదుపు మరియు తుది విక్రయ ధరను త్వరగా లెక్కించండి.",
+    "Calculate fixed deposit maturity, estimated interest and total value.": "ఫిక్స్డ్ డిపాజిట్ మెచ్యూరిటీ, అంచనా వేసిన వడ్డీ మరియు మొత్తం విలువను లెక్కించండి.",
+    "Calculate your SIP investment, estimated returns and maturity value.": "మీ SIP పెట్టుబడి, అంచనా వేసిన రాబడులు మరియు మెచ్యూరిటీ విలువను లెక్కించండి.",
+    "Calculate your dog's exact age and approximate human-age equivalent.": "మీ కుక్క ఖచ్చితమైన వయస్సు మరియు అంచనా వేసిన మానవ వయస్సు సమానత్వాన్ని లెక్కించండి.",
+    "Calculate your exact age in years, months, days, hours, minutes and seconds with AgeVerseGlobal.": "AgeVerseGlobal తో సంవత్సరాలు, నెలలు, రోజులు, గంటలు, నిమిషాలు మరియు సెకన్లలో మీ ఖచ్చితమైన వయస్సును లెక్కించండి.",
+    "Calculate your monthly EMI, total interest and total repayment amount.": "మీ నెలవారీ EMI, మొత్తం వడ్డీ మరియు మొత్తం తిరిగి చెల్లింపు మొత్తాన్ని లెక్కించండి.",
+    "Calculate your recurring deposit, estimated interest and maturity value.": "మీ రికరింగ్ డిపాజిట్, అంచనా వేసిన వడ్డీ మరియు మెచ్యూరిటీ విలువను లెక్కించండి.",
+    "EMI is calculated using the entered loan amount, annual interest rate and repayment tenure. Actual lender EMI may vary due to rounding, fees, insurance or other applicable charges.": "నమోదు చేసిన రుణ మొత్తం, వార్షిక వడ్డీ రేటు మరియు తిరిగి చెల్లింపు కాలపరిమితిని ఉపయోగించి EMI లెక్కించబడుతుంది. రౌండింగ్, ఫీజులు, బీమా లేదా వర్తించే ఇతర ఛార్జీల కారణంగా వాస్తవ రుణదాత EMI మారవచ్చు.",
+    "Enter the loan amount, annual interest rate and repayment tenure to calculate your monthly EMI and complete repayment summary.": "మీ నెలవారీ EMI మరియు పూర్తి తిరిగి చెల్లింపు సారాంశాన్ని లెక్కించడానికి రుణ మొత్తం, వార్షిక వడ్డీ రేటు మరియు తిరిగి చెల్లింపు కాలపరిమితిని నమోదు చేయండి.",
+    "Enter the price, choose the discount type and tap": "ధరను నమోదు చేయండి, డిస్కౌంట్ రకాన్ని ఎంచుకుని ట్యాప్ చేయండి",
+    "Enter your SIP amount, frequency, expected return and investment period, then tap": "మీ SIP మొత్తం, ఫ్రీక్వెన్సీ, ఆశించిన రాబడి మరియు పెట్టుబడి కాలాన్ని నమోదు చేసి, ఆపై ట్యాప్ చేయండి",
+    "Enter your amount, select the GST rate and tap": "మీ మొత్తాన్ని నమోదు చేయండి, GST రేటును ఎంచుకుని ట్యాప్ చేయండి",
+    "Enter your deposit amount, expected rate, investment period and compounding frequency, then tap": "మీ డిపాజిట్ మొత్తం, ఆశించిన రేటు, పెట్టుబడి కాలం మరియు చక్రవడ్డీ ఫ్రీక్వెన్సీని నమోదు చేసి, ఆపై ట్యాప్ చేయండి",
+    "Enter your monthly RD deposit, expected interest rate and investment period, then tap": "మీ నెలవారీ RD డిపాజిట్, ఆశించిన వడ్డీ రేటు మరియు పెట్టుబడి కాలాన్ని నమోదు చేసి, ఆపై ట్యాప్ చేయండి",
+    "Example: 1 item → 10%, 2 items → 15%, 3 or more items → 20%.": "ఉదాహరణ: 1 వస్తువు → 10%, 2 వస్తువులు → 15%, 3 లేదా అంతకంటే ఎక్కువ వస్తువులు → 20%.",
+    "Example: 20% followed by 10% is applied sequentially, not as a simple 30% discount.": "ఉదాహరణ: సాధారణ 30% డిస్కౌంట్ కాకుండా, 20% తర్వాత 10% వరుసగా వర్తింపజేయబడుతుంది.",
+    "Example: 7.50% base rate + 0.50% additional rate = 8.00% projected effective rate.": "ఉదాహరణ: 7.50% బేస్ రేటు + 0.50% అదనపు రేటు = 8.00% అంచనా వేసిన ప్రభావవంతమైన రేటు.",
+    "FD maturity depends on deposit amount, interest rate, tenure and compounding frequency. Actual bank returns may differ according to the bank's applicable rules.": "FD మెచ్యూరిటీ డిపాజిట్ మొత్తం, వడ్డీ రేటు, కాలపరిమితి మరియు చక్రవడ్డీ ఫ్రీక్వెన్సీపై ఆధారపడి ఉంటుంది. బ్యాంక్ వర్తించే నిబంధనల ప్రకారం వాస్తవ బ్యాంక్ రాబడులు భిన్నంగా ఉండవచ్చు.",
+    "For sequential discounts, each discount is calculated on the price remaining after the previous discount.": "వరుస డిస్కౌంట్ల కోసం, ప్రతి డిస్కౌంట్ మునుపటి డిస్కౌంట్ తర్వాత మిగిలిన ధరపై లెక్కించబడుతుంది.",
+    "Human-age conversion is only an approximation. Regular veterinary care, nutrition and exercise are important for your dog's health.": "మానవ వయస్సు మార్పిడి అనేది కేవలం ఒక అంచనా మాత్రమే. మీ కుక్క ఆరోగ్యానికి క్రమమైన వెటర్నరీ సంరక్షణ, పోషణ మరియు వ్యాయామం ముఖ్యం.",
+    "Quickly calculate percentages, increases, decreases and more.": "శాతాలు, పెరుగుదలలు, తగ్గుదలలు మరియు మరెన్నో త్వరగా లెక్కించండి.",
+    "RD maturity is estimated using quarterly compounding, commonly used for recurring deposit calculations.": "రికరింగ్ డిపాజిట్ లెక్కలలో సాధారణంగా ఉపయోగించే త్రైమాసిక చక్రవడ్డీని ఉపయోగించి RD మెచ్యూరిటీ అంచనా వేయబడుతుంది.",
+    "Select a category, enter a value and choose the units you want to convert.": "ఒక వర్గాన్ని ఎంచుకోండి, విలువను నమోదు చేయండి మరియు మీరు మార్చాలనుకుంటున్న యూనిట్లను ఎంచుకోండి.",
+    "Select the GST rate, choose whether the amount is GST-inclusive or exclusive, and then calculate your complete GST breakdown.": "GST రేటును ఎంచుకోండి, మొత్తం GST తో కూడినదా లేదా లేనిదా అని ఎంచుకోండి, ఆపై మీ పూర్తి GST విశ్లేషణను లెక్కించండి.",
+    "Standard compound-interest model: A = P(1 + r/n)^(n×t)": "ప్రామాణిక చక్రవడ్డీ మోడల్: A = P(1 + r/n)^(n×t)",
+    "ℹ️ Calculation Note": "ℹ️ గణన గమనిక",
+    "ℹ️ Important": "ℹ️ ముఖ్యమైనది",
+    "↻ Reset": "↻ రీసెట్",
+    "⚧ Gender": "⚧ లింగం",
+    "⚧ Other": "⚧ ఇది కాక ఇతర",
+    "✅ Event Completed": "✅ ఈవెంట్ పూర్తయింది",
+    "✍️ Custom Event Name": "✍️ కస్టమ్ ఈవెంట్ పేరు",
+    "✓ Amount after discount": "✓ డిస్కౌంట్ తర్వాత మొత్తం",
+    "✓ Amount payable every month": "✓ ప్రతి నెల చెల్లించవలసిన మొత్తం",
+    "✓ Calculated between the selected dates": "✓ ఎంచుకున్న తేదీల మధ్య లెక్కించబడింది",
+    "✓ Calculated result": "✓ లెక్కించబడిన ఫలితం",
+    "✓ Estimated future value of your RD": "✓ మీ RD యొక్క అంచనా భవిష్యత్తు విలువ",
+    "✓ Estimated future value of your SIP": "✓ మీ SIP యొక్క అంచనా భవిష్యత్తు విలువ",
+    "✓ Estimated value at the end of the selected tenure": "✓ ఎంచుకున్న కాలపరిమితి ముగింపులో అంచనా విలువ",
+    "✓ Free Forever": "✓ ఎప్పటికీ ఉచితం",
+    "✓ Instant Calculation": "✓ తక్షణ గణన",
+    "✓ Multiple Date Support": "✓ బహుళ తేదీల మద్దతు",
+    "✓ Result copied successfully.": "✓ ఫలితం విజయవంతంగా కాపీ చేయబడింది.",
+    "⭐ Health Score": "⭐ ఆరోగ్య స్కోర్",
+    "🎉 Estimated Due Date Reached": "🎉 అంచనా ప్రసవ తేదీ చేరుకుంది",
+    "🏃 Moderately Active": "🏃 మోస్తరు క్రియాశీలత",
+    "🏋️ Extra Active": "🏋️ అత్యంత క్రియాశీలత",
+    "🏢 Retirement Age": "🏢 రిటైర్మెంట్ వయస్సు",
+    "🏦 FD Growth": "🏦 FD వృద్ధి",
+    "🏦 Interest Compounding": "🏦 చక్రవడ్డీ",
+    "👤 Personal Details": "👤 వ్యక్తిగత వివరాలు",
+    "👵 Senior Citizen Rate": "👵 సీనియర్ సిటిజెన్ రేటు",
+    "👶 Pregnancy Age": "👶 గర్భధారణ వయస్సు",
+    "💪 Very Active": "💪 చాలా క్రియాశీలత",
+    "💰 GST Breakdown": "💰 GST విశ్లేషణ",
+    "📅 1 Day Before": "📅 1 రోజు ముందు",
+    "📅 Select your date of birth and click Calculate": "📅 మీ పుట్టిన తేదీని ఎంచుకుని, లెక్కించండి క్లిక్ చేయండి",
+    "📋 Copy Result": "📋 ఫలితాన్ని కాపీ చేయండి",
+    "📐 EMI Formula": "📐 EMI సూత్రం",
+    "📤 Share PDF": "📤 PDF షేర్ చేయండి",
+    "📤 Share Result": "📤 ఫలితాన్ని షేర్ చేయండి",
+    "📥 Download PDF": "📥 PDF డౌన్‌లోడ్ చేయండి",
+    "🔕 No Reminder": "🔕 రిమైండర్ లేదు",
+    "🔢 Sequential Discounts": "🔢 వరుస డిస్కౌంట్లు",
+    "🚶 Lightly Active": "🚶 కొద్దిగా క్రియాశీలత",
+    "🛒 Quantity-Based Discount Slabs": "🛒 పరిమాణ ఆధారిత డిస్కౌంట్ స్లాబ్‌లు",
+    "🥗 Diet Preference": "🥗 ఆహార ప్రాధాన్యత",
+    "🥗 Nutrition Balance": "🥗 పోషకాహార సమతుల్యత",
+    "🩸 Last Menstrual Period": "🩸 చివరి నెలసరి",
+    "Add GST": "GST జోడించండి",
+    "Adult Dog": "వయోజన కుక్క",
+    "Age Calculations": "వయస్సు లెక్కలు",
+    "Age Result": "వయస్సు ఫలితం",
+    "Amount Including GST": "GST తో కూడిన మొత్తం",
+    "Both values cannot be zero.": "రెండు విలువలు సున్నా కాకూడదు.",
+    "Birth date cannot be later than the calculation date.": "పుట్టిన తేదీ గణన తేదీ తర్వాత ఉండకూడదు.",
+    "Canvas image creation failed.": "కాన్వాస్ ఇమేజ్ సృష్టి విఫలమైంది.",
+    "Copy failed:": "కాపీ చేయడం విఫలమైంది:",
+    "Copy image error:": "ఇమేజ్ కాపీ లోపం:",
+    "Countdown for birthdays, anniversaries, exams and more.": "పుట్టినరోజులు, వార్షికోత్సవాలు, పరీక్షలు మరియు ఇతర సందర్భాల కోసం కౌంట్‌డౌన్ చేయండి.",
+    "Custom Event": "కస్టమ్ ఈవెంట్",
+    "Custom Reminder": "కస్టమ్ రిమైండర్",
+    "Custom reminder must be between 1 and 3650 days.": "కస్టమ్ రిమైండర్ 1 మరియు 3650 రోజుల మధ్య ఉండాలి.",
+    "Discount Calculator Result": "డిస్కౌంట్ కాలిక్యులేటర్ ఫలితం",
+    "Dog Age Calculator Result": "కుక్క వయస్సు కాలిక్యులేటర్ ఫలితం",
+    "Dog age result image error:": "కుక్క వయస్సు ఫలితం ఇమేజ్ లోపం:",
+    "Download PDF error:": "PDF డౌన్‌లోడ్ లోపం:",
+    "Download failed:": "డౌన్‌లోడ్ విఫలమైంది:",
+    "EMI Calculator Result": "EMI కాలిక్యులేటర్ ఫలితం",
+    "Enter age": "వయస్సును నమోదు చేయండి",
+    "Enter amount": "మొత్తాన్ని నమోదు చేయండి",
+    "Enter days": "రోజులను నమోదు చేయండి",
+    "Event time": "ఈవెంట్ సమయం",
+    "Final Value": "తుది విలువ",
+    "Final value cannot be zero.": "తుది విలువ సున్నా కాకూడదు.",
+    "Find Original Value": "అసలు విలువను కనుగొనండి",
+    "Find exact difference between any two dates.": "ఏ రెండు తేదీల మధ్యనైనా ఖచ్చితమైన వ్యత్యాసాన్ని కనుగొనండి.",
+    "Find exact difference between two dates.": "రెండు తేదీల మధ్య ఖచ్చితమైన వ్యత్యాసాన్ని తెలుసుకోండి.",
+    "First Value": "మొదటి విలువ",
+    "GST Calculator Result": "GST కాలిక్యులేటర్ ఫలితం",
+    "GST PDF error:": "GST PDF లోపం:",
+    "GST image copy error:": "GST ఇమేజ్ కాపీ లోపం:",
+    "GST print dialog error:": "GST ప్రింట్ డైలాగ్ లోపం:",
+    "GST print window error:": "GST ప్రింట్ విండో లోపం:",
+    "GST share error:": "GST షేర్ లోపం:",
+    "Generated by AgeVerseGlobal": "AgeVerseGlobal ద్వారా రూపొందించబడింది",
+    "Get a complete breakdown of base amount, GST and total amount.": "బేస్ మొత్తం, GST మరియు మొత్తం మొత్తం యొక్క పూర్తి విశ్లేషణను పొందండి.",
+    "Image clipboard copy failed:": "ఇమేజ్ క్లిప్‌బోర్డ్ కాపీ విఫలమైంది:",
+    "Investment Result": "పెట్టుబడి ఫలితం",
+    "Loan Summary": "రుణ సారాంశం",
+    "Maintain Weight": "బరువును నిర్వహించండి",
+    "Multiple Discounts": "బహుళ డిస్కౌంట్లు",
+    "New Value": "కొత్త విలువ",
+    "Non Vegetarian": "మాంసాహారం",
+    "Not specified": "పేర్కొనలేదు",
+    "Notification permission may be required for browser reminders.": "బ్రౌజర్ రిమైండర్‌ల కోసం నోటిఫికేషన్ అనుమతి అవసరం కావచ్చు.",
+    "Opening print preview...": "ప్రింట్ ప్రివ్యూను తెరుస్తోంది...",
+    "Original Amount": "అసలు మొత్తం",
+    "Original Value": "అసలు విలువ",
+    "Original value cannot be zero.": "అసలు విలువ సున్నా కాకూడదు.",
+    "PDF blob could not be created.": "PDF బ్లాబ్ సృష్టించబడలేదు.",
+    "PDF blob not created.": "PDF బ్లాబ్ సృష్టించబడలేదు.",
+    "PDF creation error:": "PDF సృష్టి లోపం:",
+    "PDF download failed:": "PDF డౌన్‌లోడ్ విఫలమైంది:",
+    "PDF downloaded successfully.": "PDF విజయవంతంగా డౌన్‌లోడ్ చేయబడింది.",
+    "PDF generation error:": "PDF జనరేషన్ లోపం:",
+    "PDF generation failed:": "PDF జనరేట్ చేయడం విఫలమైంది.",
+    "PDF opened successfully. Please press Ctrl + P to print.": "PDF విజయవంతంగా తెరవబడింది. ప్రింట్ చేయడానికి దయచేసి Ctrl + P నొక్కండి.",
+    "PDF ready. Opening print dialog...": "PDF సిద్ధంగా ఉంది. ప్రింట్ డైలాగ్‌ను తెరుస్తోంది...",
+    "PDF shared successfully.": "PDF విజయవంతంగా షేర్ చేయబడింది.",
+    "PDF sharing error:": "PDF షేరింగ్ లోపం:",
+    "PDF sharing is not supported on this device.": "ఈ పరికరంలో PDF షేరింగ్‌కు మద్దతు లేదు.",
+    "Percentage Calculator Result": "శాతం కాలిక్యులేటర్ ఫలితం",
+    "Percentage Change": "శాతం మార్పు",
+    "Percentage Decrease": "శాతం తగ్గుదల",
+    "Percentage Difference": "శాతం వ్యత్యాసం",
+    "Percentage Increase": "శాతం పెరుగుదల",
+    "Percentage of a Number": "ఒక సంఖ్య యొక్క శాతం",
+    "Please allow pop-ups in your browser to print the PDF.": "PDF ప్రింట్ చేయడానికి దయచేసి మీ బ్రౌజర్‌లో పాప్-అప్‌లను అనుమతించండి.",
+    "Please allow pop-ups to print the result.": "ఫలితాన్ని ప్రింట్ చేయడానికి దయచేసి పాప్-అప్‌లను అనుమతించండి.",
+    "Please enter a valid GST rate between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే GST రేటును నమోదు చేయండి.",
+    "Please enter a valid LMP date.": "దయచేసి చెల్లుబాటు అయ్యే LMP తేదీని నమోదు చేయండి.",
+    "Please enter a valid age between 5 and 120 years.": "దయచేసి 5 మరియు 120 సంవత్సరాల మధ్య చెల్లుబాటు అయ్యే వయస్సును నమోదు చేయండి.",
+    "Please enter a valid amount.": "దయచేసి చెల్లుబాటు అయ్యే మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter a valid annual interest rate between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే వార్షిక వడ్డీ రేటును నమోదు చేయండి.",
+    "Please enter a valid annual interest rate between 0% and 30%.": "దయచేసి 0% మరియు 30% మధ్య చెల్లుబాటు అయ్యే వార్షిక వడ్డీ రేటును నమోదు చేయండి.",
+    "Please enter a valid annual step-up rate between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే వార్షిక స్టెప్-అప్ రేటును నమోదు చేయండి.",
+    "Please enter a valid calculation date.": "దయచేసి చెల్లుబాటు అయ్యే గణన తేదీని నమోదు చేయండి.",
+    "Please enter a valid custom reminder time.": "దయచేసి చెల్లుబాటు అయ్యే కస్టమ్ రిమైండర్ సమయాన్ని నమోదు చేయండి.",
+    "Please enter a valid date of birth.": "దయచేసి చెల్లుబాటు అయ్యే పుట్టిన తేదీని నమోదు చేయండి.",
+    "Please enter a valid deposit amount greater than 0.": "దయచేసి 0 కంటే ఎక్కువ చెల్లుబాటు అయ్యే డిపాజిట్ మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter a valid discount between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే డిస్కౌంట్‌ను నమోదు చేయండి.",
+    "Please enter a valid event date and time.": "దయచేసి చెల్లుబాటు అయ్యే ఈవెంట్ తేదీ మరియు సమయాన్ని నమోదు చేయండి.",
+    "Please enter a valid expected return between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే ఆశించిన రాబడిని నమోదు చేయండి.",
+    "Please enter a valid height between 100 and 250 cm.": "దయచేసి 100 మరియు 250 సెం.మీ మధ్య చెల్లుబాటు అయ్యే ఎత్తును నమోదు చేయండి.",
+    "Please enter a valid interest rate between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే వడ్డీ రేటును నమోదు చేయండి.",
+    "Please enter a valid investment period between 1 and 100 years.": "దయచేసి 1 మరియు 100 సంవత్సరాల మధ్య చెల్లుబాటు అయ్యే పెట్టుబడి కాలాన్ని నమోదు చేయండి.",
+    "Please enter a valid loan amount greater than 0.": "దయచేసి 0 కంటే ఎక్కువ చెల్లుబాటు అయ్యే రుణ మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter a valid loan tenure.": "దయచేసి చెల్లుబాటు అయ్యే రుణ కాలపరిమితిని నమోదు చేయండి.",
+    "Please enter a valid monthly RD deposit.": "దయచేసి చెల్లుబాటు అయ్యే నెలవారీ RD డిపాజిట్‌ను నమోదు చేయండి.",
+    "Please enter a valid number.": "దయచేసి చెల్లుబాటు అయ్యే సంఖ్యను నమోదు చేయండి.",
+    "Please enter a valid original price.": "దయచేసి చెల్లుబాటు అయ్యే అసలు ధరను నమోదు చేయండి.",
+    "Please enter a valid quantity.": "దయచేసి చెల్లుబాటు అయ్యే పరిమాణాన్ని నమోదు చేయండి.",
+    "Please enter both values.": "దయచేసి రెండు విలువలను నమోదు చేయండి.",
+    "Please enter custom event name.": "దయచేసి కస్టమ్ ఈవెంట్ పేరును రాయండి.",
+    "Please enter the amount.": "దయచేసి మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter the annual interest rate.": "దయచేసి వార్షిక వడ్డీ రేటును నమోదు చేయండి.",
+    "Please enter the expected annual interest rate.": "దయచేసి ఆశించిన వార్షిక వడ్డీ రేటును నమోదు చేయండి.",
+    "Please enter the expected annual return.": "దయచేసి ఆశించిన వార్షిక రాబడిని నమోదు చేయండి.",
+    "Please enter the investment period.": "దయచేసి పెట్టుబడి కాలాన్ని నమోదు చేయండి.",
+    "Please enter the loan amount.": "దయచేసి రుణ మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter the loan tenure.": "దయచేసి రుణ కాలపరిమితిని నమోదు చేయండి.",
+    "Please enter the original price.": "దయచేసి అసలు ధరను నమోదు చేయండి.",
+    "Please enter valid dates.": "దయచేసి చెల్లుబాటు అయ్యే తేదీలను నమోదు చేయండి.",
+    "Please enter valid discount rates between 0% and 100%.": "దయచేసి 0% మరియు 100% మధ్య చెల్లుబాటు అయ్యే డిస్కౌంట్ రేట్లను నమోదు చేయండి.",
+    "Please enter valid numbers.": "దయచేసి చెల్లుబాటు అయ్యే సంఖ్యలను నమోదు చేయండి.",
+    "Please enter valid quantity slabs.": "దయచేసి చెల్లుబాటు అయ్యే పరిమాణ స్లాబ్‌లను నమోదు చేయండి.",
+    "Please enter your date of birth.": "దయచేసి మీ పుట్టిన తేదీని నమోదు చేయండి.",
+    "Please enter your deposit amount.": "దయచేసి మీ డిపాజిట్ మొత్తాన్ని నమోదు చేయండి.",
+    "Please enter your monthly RD deposit.": "దయచేసి మీ నెలవారీ RD డిపాజిట్‌ను నమోదు చేయండి.",
+    "Please fill all required details.": "దయచేసి అవసరమైన అన్ని వివరాలను పూరించండి.",
+    "Please select both dates.": "దయచేసి రెండు తేదీలను ఎంచుకోండి.",
+    "Please select event date.": "దయచేసి ఈవెంట్ తేదీని ఎంచుకోండి.",
+    "Please select event time.": "దయచేసి ఈవెంట్ సమయాన్ని ఎంచుకోండి.",
+    "Please select event type.": "దయచేసి ఈవెంట్ రకాన్ని ఎంచుకోండి.",
+    "Please select the calculation date.": "దయచేసి గణన తేదీని ఎంచుకోండి.",
+    "Please select your dog's birth date.": "దయచేసి మీ కుక్క పుట్టిన తేదీని ఎంచుకోండి.",
+    "Please verify your weight. Please enter a value between 20 and 300 kg.": "దయచేసి మీ బరువును ధృవీకరించండి. 20 మరియు 300 కి.గ్రా మధ్య విలువను నమోదు చేయండి.",
+    "Preparing PDF for printing...": "ప్రింట్ చేయడానికి PDF సిద్ధమవుతోంది...",
+    "Preparing PDF for sharing...": "షేర్ చేయడానికి PDF సిద్ధమవుతోంది...",
+    "Preparing PDF...": "PDF సిద్ధమవుతోంది...",
+    "Preparing image...": "ఇమేజ్ సిద్ధమవుతోంది...",
+    "Print failed:": "ప్రింట్ విఫలమైంది:",
+    "Print generation failed:": "ప్రింట్ జనరేషన్ విఫలమైంది:",
+    "Result card not found.": "ఫలిత కార్డ్ కనుగొనబడలేదు.",
+    "Result copied successfully.": "ఫలితం విజయవంతంగా కాపీ చేయబడింది.",
+    "Result element not found.": "ఫలిత మూలకం కనుగొనబడలేదు.",
+    "Retirement age must be between 1 and 100 years.": "రిటైర్మెంట్ వయస్సు 1 మరియు 100 సంవత్సరాల మధ్య ఉండాలి.",
+    "Retirement notification error:": "రిటైర్మెంట్ నోటిఫికేషన్ లోపం:",
+    "Retirement reminder check failed:": "రిటైర్మెంట్ రిమైండర్ తనిఖీ విఫలమైంది:",
+    "Retirement result copied successfully.": "రిటైర్మెంట్ ఫలితం విజయవంతంగా కాపీ చేయబడింది.",
+    "Share PDF error:": "PDF షేర్ లోపం:",
+    "Share cancelled:": "షేర్ రద్దు చేయబడింది:",
+    "Share failed:": "షేర్ విఫలమైంది:",
+    "Sharing is not supported here, so the PDF was downloaded instead.": "ఇక్కడ షేరింగ్‌కు మద్దతు లేదు, కాబట్టి బదులుగా PDF డౌన్‌లోడ్ చేయబడింది.",
+    "Sharing is not supported here. Result copied instead.": "ఇక్కడ షేరింగ్‌కు మద్దతు లేదు. బదులుగా ఫలితం కాపీ చేయబడింది.",
+    "Unable to calculate pregnancy details.": "గర్భధారణ వివరాలను లెక్కించడం సాధ్యపడలేదు.",
+    "Unable to calculate retirement date.": "రిటైర్మెంట్ తేదీని లెక్కించడం సాధ్యపడలేదు.",
+    "Unable to convert the selected units.": "ఎంచుకున్న యూనిట్లను మార్చడం సాధ్యపడలేదు.",
+    "Unable to copy result image. Please try again.": "ఫలితం ఇమేజ్‌ను కాపీ చేయడం సాధ్యపడలేదు. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    "Unable to copy the result image.": "ఫలితం ఇమేజ్‌ను కాపీ చేయడం సాధ్యపడలేదు.",
+    "Unable to copy the result.": "ఫలితాన్ని కాపీ చేయడం సాధ్యపడలేదు.",
+    "Unable to create PDF.": "PDF సృష్టించడం సాధ్యపడలేదు.",
+    "Unable to create image.": "ఇమేజ్ సృష్టించడం సాధ్యపడలేదు.",
+    "Unable to download PDF.": "PDF డౌన్‌లోడ్ చేయడం సాధ్యపడలేదు.",
+    "Unable to generate PDF.": "PDF జనరేట్ చేయడం సాధ్యపడలేదు.",
+    "Unable to open print preview.": "ప్రింట్ ప్రివ్యూను తెరవడం సాధ్యపడలేదు.",
+    "Unable to print the result.": "ఫలితాన్ని ప్రింట్ చేయడం సాధ్యపడలేదు.",
+    "Unable to share PDF on this device.": "ఈ పరికరంలో PDF షేర్ చేయడం సాధ్యపడలేదు.",
+    "Unable to share PDF.": "PDF షేర్ చేయడం సాధ్యపడలేదు.",
+    "Unable to share the PDF.": "PDF షేర్ చేయడం సాధ్యపడలేదు.",
+    "Unable to share the pregnancy result.": "గర్భధారణ ఫలితాన్ని షేర్ చేయడం సాధ్యపడలేదు.",
+    "Unable to share the result PDF.": "ఫలితం PDF షేర్ చేయడం సాధ్యపడలేదు.",
+    "Use different discount rates according to quantity purchased.": "కొనుగోలు చేసిన పరిమాణం ప్రకారం వేర్వేరు డిస్కౌంట్ రేట్లను ఉపయోగించండి.",
+    "Wellness Shield": "వెల్‌నెస్ షీల్డ్",
+    "Young Dog": "యువ కుక్క",
+    "Your BMI is in a healthy range. Keep maintaining your lifestyle.": "మీ BMI ఆరోగ్యకరమైన పరిధిలో ఉంది. మీ జీవనశైలిని కొనసాగించండి.",
+    "Length": "పొడవు",
+    "Weight / Mass": "బరువు / ద్రవ్యరాశి",
+    "Volume": "ఘనపరిమాణం",
+    "Area": "వైశాల్యం",
+    "Speed": "వేగం",
+    "Digital Data": "డిజిటల్ డేటా",
+    "Temperature": "ఉష్ణోగ్రత",
+    "Remove GST": "GST తొలగించండి",
+    "What Percentage?": "ఎంత శాతం?",
+    "Single Discount": "ఒకే డిస్కౌంట్",
+    "Quantity Discount": "పరిమాణ డిస్కౌంట్",
+    "Select an event and date": "ఈవెంట్ మరియు తేదీని ఎంచుకోండి",
+    "Select your date of birth to calculate": "లెక్కించడానికి మీ పుట్టిన తేదీని ఎంచుకోండి",
+    "Select a category, enter a value": "ఒక వర్గాన్ని ఎంచుకోండి, విలువను నమోదు చేయండి",
+    "Select a category, choose the": "వర్గాన్ని ఎంచుకోండి, ఎంచుకోండి",
+    "FD maturity depends on deposit amount, interest rate,": "FD మెచ్యూరిటీ డిపాజిట్ మొత్తం, వడ్డీ రేటు,",
+    "tenure and compounding frequency.": "కాలపరిమితి మరియు చక్రవడ్డీ ఫ్రీక్వెన్సీపై ఆధారపడి ఉంటుంది.",
+    "Actual bank returns": "వాస్తవ బ్యాంక్ రాబడులు",
+    "may differ according to the bank's applicable rules.": "బ్యాంక్ వర్తించే నిబంధనల ప్రకారం భిన్నంగా ఉండవచ్చు.",
+    "Enter your deposit amount, expected rate, investment": "మీ డిపాజిట్ మొత్తం, ఆశించిన రేటు, పెట్టుబడి",
+    "period and compounding frequency, then tap": "కాలం మరియు చక్రవడ్డీ ఫ్రీక్వెన్సీని నమోదు చేసి, ఆపై ట్యాప్ చేయండి",
+    "Human-age conversion is only an": "మానవ వయస్సు మార్పిడి అనేది కేవలం ఒక",
+    "approximation.": "అంచనా మాత్రమే.",
+    "Regular veterinary care,": "క్రమమైన వెటర్నరీ సంరక్షణ,",
+    "nutrition and exercise are important for": "పోషణ మరియు వ్యాయామం",
+    "your dog's health.": "మీ కుక్క ఆరోగ్యానికి ముఖ్యం.",
+    "Select your dog's birth date and the": "మీ కుక్క పుట్టిన తేదీని మరియు మీరు",
+    "date on which you want to calculate": "వయస్సును లెక్కించాలనుకుంటున్న",
+    "the age, then tap": "తేదీని ఎంచుకుని, ఆపై ట్యాప్ చేయండి",
+    "RD returns depend on the interest rate": "RD రాబడులు బ్యాంక్ లేదా ఆర్థిక సంస్థ",
+    "offered by the bank or financial institution.": "అందించే వడ్డీ రేటుపై ఆధారపడి ఉంటాయి.",
+    "The maturity amount shown here is an estimate.": "ఇక్కడ చూపబడిన మెచ్యూరిటీ మొత్తం ఒక అంచనా.",
+    "Enter your monthly RD deposit,": "మీ నెలవారీ RD డిపాజిట్,",
+    "expected interest rate and investment": "ఆశించిన వడ్డీ రేటు మరియు పెట్టుబడి",
+    "period, then tap": "కాలాన్ని నమోదు చేసి, ఆపై ట్యాప్ చేయండి",
+    "SIP returns are market-linked and the": "SIP రాబడులు మార్కెట్-లింక్డ్ మరియు",
+    "calculated maturity value is an estimate": "లెక్కించబడిన మెచ్యూరిటీ విలువ ఒక అంచనా",
+    "based on the expected annual return entered.": "నమోదు చేసిన ఆశించిన వార్షిక రాబడి ఆధారంగా.",
+    "Enter your SIP amount, frequency,": "మీ SIP మొత్తం, ఫ్రీక్వెన్సీ,",
+    "expected return and investment period,": "ఆశించిన రాబడి మరియు పెట్టుబడి కాలాన్ని నమోదు చేయండి,",
+    "Enter the values above and select the": "పైన ఉన్న విలువలను నమోదు చేసి",
+    "calculation type that matches what you": "మీకు కావలసిన గణన రకాన్ని",
+    "want to find.": "ఎంచుకోండి.",
+    "For sequential discounts, each discount": "వరుస డిస్కౌంట్ల కోసం, ప్రతి డిస్కౌంట్",
+    "is calculated on the price remaining after": "మునుపటి డిస్కౌంట్ తర్వాత మిగిలిన",
+    "the previous discount.": "ధరపై లెక్కించబడుతుంది.",
+    "Enter the price, choose the discount": "ధరను నమోదు చేయండి, డిస్కౌంట్ రకాన్ని",
+    "type and tap": "ఎంచుకుని ట్యాప్ చేయండి",
+    "Select the GST rate, choose whether the": "GST రేటును ఎంచుకోండి, మొత్తం GST తో",
+    "amount is GST-inclusive or exclusive,": "కూడినదా లేదా లేనిదా అని ఎంచుకోండి,",
+    "and then calculate your complete GST": "మరియు మీ పూర్తి GST గణనను",
+    "breakdown.": "లెక్కించండి.",
+    "Enter your amount, select the GST": "మీ మొత్తాన్ని నమోదు చేయండి, GST రేటును",
+    "rate and tap": "ఎంచుకుని ట్యాప్ చేయండి",
+    "Enter the loan amount, annual": "రుణ మొత్తం, వార్షిక",
+    "interest rate and repayment": "వడ్డీ రేటు మరియు తిరిగి చెల్లింపు",
+    "tenure to calculate your monthly": "కాలపరిమితిని నమోదు చేసి మీ నెలవారీ",
+    "EMI and complete repayment": "EMI మరియు పూర్తి తిరిగి చెల్లింపు",
+    "summary.": "సారాంశాన్ని లెక్కించండి.",
+    "This wellness report is generated based on the": "ఈ వెల్‌నెస్ నివేదిక వినియోగదారు అందించిన",
+    "information provided by the user and is intended": "సమాచారం ఆధారంగా రూపొందించబడింది మరియు",
+    "for educational and general wellness purposes only.": "కేవలం విద్యా మరియు సాధారణ వెల్‌నెస్ ప్రయోజనాల కోసమే.",
+    "It is not a substitute for professional medical": "ఇది వృత్తిపరమైన వైద్య సలహా,",
+    "advice, diagnosis, or treatment.": "నిర్ధారణ లేదా చికిత్సకు ప్రత్యామ్నాయం కాదు.",
+    "This calculator provides an estimated pregnancy": "ఈ కాలిక్యులేటర్ నమోదు చేసిన తేదీ ఆధారంగా",
+    "timeline based on the date entered. It is intended": "అంచనా గర్భధారణ సమయపాలనను అందిస్తుంది. ఇది",
+    "for general informational purposes only and should": "కేవలం సాధారణ సమాచార ప్రయోజనాల కోసమే మరియు",
+    "not be used as a substitute for medical diagnosis,": "వైద్య నిర్ధారణ, చికిత్స లేదా అర్హత కలిగిన ఆరోగ్య సంరక్షణ",
+    "treatment, or advice from a qualified healthcare": "నిపుణుడి సలహాకు ప్రత్యామ్నాయంగా ఉపయోగించకూడదు.",
+    "professional. Pregnancy dates can vary, and your": "గర్భధారణ తేదీలు మారవచ్చు మరియు ఖచ్చితమైన అంచనా",
+    "healthcare provider should be consulted for accurate": "మరియు క్లినికల్ నిర్ణయాల కోసం మీ ఆరోగ్య సంరక్షణ",
+    "assessment and clinical decisions.": "ప్రదాతను సంప్రదించాలి.",
+    "This result is calculated using the selected percentage method and the values entered above.": "ఈ ఫలితం ఎంచుకున్న శాతం పద్ధతి మరియు పైన నమోదు చేసిన విలువలను ఉపయోగించి లెక్కించబడుతుంది.",
+    "Enter the values above and select the calculation type that matches what you want to find.": "పైన ఉన్న విలువలను నమోదు చేసి, మీరు కనుగొనాలనుకుంటున్నదానికి సరిపోయే గణన రకాన్ని ఎంచుకోండి.",
+    "Calculate a percentage of a given number.": "ఇచ్చిన సంఖ్య యొక్క శాతాన్ని లెక్కించండి.",
+    "Find what percentage one number is of another.": "ఒక సంఖ్య మరొకదానిలో ఎంత శాతమో కనుగొనండి.",
+    "Calculate the percentage increase between two values.": "రెండు విలువల మధ్య శాతం పెరుగుదలను లెక్కించండి.",
+    "Calculate the percentage decrease between two values.": "రెండు విలువల మధ్య శాతం తగ్గుదలను లెక్కించండి.",
+    "Find the percentage difference between two values.": "రెండు విలువల మధ్య శాతం వ్యత్యాసాన్ని కనుగొనండి.",
+    "Find the original value after a percentage change.": "శాతం మార్పు తర్వాత అసలు విలువను కనుగొనండి.",
+    "Percentage": "శాతం",
+    "Number": "సంఖ్య",
+    "Part": "భాగం",
+    "Second Value": "రెండో విలువ",
+    "First Input": "మొదటి ఇన్‌పుట్",
+    "Second Input": "రెండో ఇన్‌పుట్",
+    "is what percentage of": "ఎంత శాతంగా ఉంది",
+    "Preparing your PDF...": "మీ PDF సిద్ధమవుతోంది...",
+    "PDF sharing is not supported here. The PDF has been downloaded instead.": "ఇక్కడ PDF షేరింగ్‌కు మద్దతు లేదు. బదులుగా PDF డౌన్‌లోడ్ చేయబడింది.",
+    "Total value cannot be zero.": "మొత్తం విలువ సున్నా కాకూడదు.",
+    "These values cannot be used for percentage difference.": "ఈ విలువలను శాతం వ్యత్యాసం కోసం ఉపయోగించలేము.",
+    "Percentage change must be greater than -100%.": "శాతం మార్పు -100% కంటే ఎక్కువగా ఉండాలి.",
+    "This is an estimated projection. Actual FD maturity may differ because banks can apply their own product rules, rate slabs, day-count conventions, tax/TDS rules and other applicable terms.": "ఇది ఒక అంచనా అంచనా. బ్యాంకులు తమ స్వంత ఉత్పత్తి నిబంధనలు, రేటు స్లాబ్‌లు, రోజు-లెక్కింపు సంప్రదాయాలు, పన్ను/TDS నిబంధనలు మరియు వర్తించే ఇతర షరతులను వర్తింపజేయవచ్చు కాబట్టి వాస్తవ FD మెచ్యూరిటీ భిన్నంగా ఉండవచ్చు.",
+    "GST has been calculated using the selected GST rate and tax type. CGST and SGST are divided equally when the intra-state option is selected.": "ఎంచుకున్న GST రేటు మరియు పన్ను రకాన్ని ఉపయోగించి GST లెక్కించబడింది. ఇంట్రా-స్టేట్ ఎంపికను ఎంచుకున్నప్పుడు CGST మరియు SGST సమానంగా విభజించబడతాయి.",
+    "The final price is calculated after applying the selected discount method. Sequential discounts are applied one after another, while quantity discounts use the applicable quantity slab.": "ఎంచుకున్న డిస్కౌంట్ పద్ధతిని వర్తింపజేసిన తర్వాత తుది ధర లెక్కించబడుతుంది. వరుస డిస్కౌంట్లు ఒకదాని తర్వాత ఒకటి వర్తింపజేయబడతాయి, అయితే పరిమాణ డిస్కౌంట్లు వర్తించే పరిమాణ స్లాబ్‌ను ఉపయోగిస్తాయి.",
+    "Conversion values are calculated using standard unit conversion relationships. Results are approximate where the selected units use rounded conversion factors.": "ప్రామాణిక యూనిట్ మార్పిడి సంబంధాలను ఉపయోగించి మార్పిడి విలువలు లెక్కించబడతాయి. ఎంచుకున్న యూనిట్లు రౌండ్ చేయబడిన మార్పిడి కారకాలను ఉపయోగించే చోట ఫలితాలు సుమారుగా ఉంటాయి.",
+    "The human-age equivalent shown by this calculator is an approximate educational estimate. Actual aging varies significantly between breeds, sizes and individual dogs.": "ఈ కాలిక్యులేటర్ చూపిన మానవ వయస్సు సమానత్వం సుమారుగా విద్యాపరమైన అంచనా. జాతులు, పరిమాణాలు మరియు వ్యక్తిగత కుక్కల మధ్య వాస్తవ వృద్ధాప్యం గణనీయంగా మారుతుంది.",
+    "SIP returns are market-linked and the calculated maturity value is an estimate based on the expected annual return entered.": "SIP రాబడులు మార్కెట్-లింక్డ్ మరియు లెక్కించబడిన మెచ్యూరిటీ విలువ నమోదు చేసిన ఆశించిన వార్షిక రాబడి ఆధారంగా ఒక అంచనా.",
+    "This calculator provides an estimated projection based on the expected annual return entered. Actual mutual fund returns can be higher or lower because investments are subject to market risk.": "ఈ కాలిక్యులేటర్ నమోదు చేసిన ఆశించిన వార్షిక రాబడి ఆధారంగా అంచనా వేసిన అంచనాను అందిస్తుంది. పెట్టుబడులు మార్కెట్ నష్టానికి లోబడి ఉంటాయి కాబట్టి వాస్తవ మ్యూచువల్ ఫండ్ రాబడులు ఎక్కువగా లేదా తక్కువగా ఉండవచ్చు.",
+    "RD returns depend on the interest rate offered by the bank or financial institution. The maturity amount shown here is an estimate.": "RD రాబడులు బ్యాంక్ లేదా ఆర్థిక సంస్థ అందించే వడ్డీ రేటుపై ఆధారపడి ఉంటాయి. ఇక్కడ చూపబడిన మెచ్యూరిటీ మొత్తం ఒక అంచనా.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, compounding method and applicable rules.": "ఈ కాలిక్యులేటర్ నమోదు చేసిన నెలవారీ డిపాజిట్లు మరియు ఆశించిన వార్షిక వడ్డీ రేటు ఆధారంగా అంచనా వేసిన మెచ్యూరిటీ విలువను అందిస్తుంది. వడ్డీ రేటు, చక్రవడ్డీ పద్ధతి మరియు వర్తించే నిబంధనల ప్రకారం వాస్తవ మెచ్యూరిటీ విలువలు మారవచ్చు.",
+    "This wellness report is generated based on the information provided by the user and is intended for educational and general wellness purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.": "ఈ వెల్‌నెస్ నివేదిక వినియోగదారు అందించిన సమాచారం ఆధారంగా రూపొందించబడింది మరియు కేవలం విద్యా మరియు సాధారణ వెల్‌నెస్ ప్రయోజనాల కోసమే. ఇది వృత్తిపరమైన వైద్య సలహా, నిర్ధారణ లేదా చికిత్సకు ప్రత్యామ్నాయం కాదు.",
+    "This calculator provides an estimated pregnancy timeline based on the date entered. It is intended for general informational purposes only and should not be used as a substitute for medical diagnosis, treatment, or advice from a qualified healthcare professional. Pregnancy dates can vary, and your healthcare provider should be consulted for accurate assessment and clinical decisions.": "ఈ కాలిక్యులేటర్ నమోదు చేసిన తేదీ ఆధారంగా అంచనా గర్భధారణ సమయపాలనను అందిస్తుంది. ఇది కేవలం సాధారణ సమాచార ప్రయోజనాల కోసమే మరియు వైద్య నిర్ధారణ, చికిత్స లేదా అర్హత కలిగిన ఆరోగ్య సంరక్షణ నిపుణుడి సలహాకు ప్రత్యామ్నాయంగా ఉపయోగించకూడదు. గర్భధారణ తేదీలు మారవచ్చు మరియు ఖచ్చితమైన అంచనా మరియు క్లినికల్ నిర్ణయాల కోసం మీ ఆరోగ్య సంరక్షణ ప్రదాతను సంప్రదించాలి.",
+    "The selected LMP date is in the future.": "ఎంచుకున్న LMP తేదీ భవిష్యత్తులో ఉంది.",
+    "Pregnancy calculation will begin from the selected LMP date.": "ఎంచుకున్న LMP తేదీ నుండి గర్భధారణ గణన ప్రారంభమవుతుంది.",
+    "The estimated due date has been reached or passed.": "అంచనా ప్రసవ తేదీ చేరుకుంది లేదా దాటిపోయింది.",
+    "Pregnancy is currently ongoing.": "గర్భధారణ ప్రస్తుతం కొనసాగుతోంది.",
+    "Maintain a balanced diet": "సమతుల్య ఆహారాన్ని నిర్వహించండి",
+    "Stay physically active": "శారీరకంగా క్రియాశీలకంగా ఉండండి",
+    "Drink enough water": "తగినంత నీరు త్రాగండి",
+    "Sleep 7-8 hours daily": "ప్రతిరోజూ 7-8 గంటలు నిద్రపోండి",
+    "Excellent": "అద్భుతమైన",
+    "Good": "మంచిది",
+    "Fair": "పర్వాలేదు",
+    "Needs Improvement": "మెరుగుదల అవసరం",
+    "Keep maintaining your healthy lifestyle!": "మీ ఆరోగ్యకరమైన జీవనశైలిని అలాగే కొనసాగించండి!",
+    "Great progress! Keep improving every day.": "గొప్ప పురోగతి! ప్రతిరోజూ మెరుగుపడుతూ ఉండండి.",
+    "Small healthy changes can improve your wellness.": "చిన్న చిన్న ఆరోగ్యకరమైన మార్పులు మీ వెల్‌నెస్‌ను మెరుగుపరుస్తాయి.",
+    "Focus on balanced diet, activity and healthy habits.": "సమతుల్య ఆహారం, క్రియాశీలత మరియు ఆరోగ్యకరమైన అలవాట్లపై దృష్టి పెట్టండి.",
+    "Extremely Underweight": "అత్యంత తక్కువ బరువు",
+    "Severe Underweight": "తీవ్రమైన తక్కువ బరువు",
+    "Obesity Class I": "స్థూలకాయం క్లాస్ I",
+    "Obesity Class II": "స్థూలకాయం క్లాస్ II",
+    "Obesity Class III": "స్థూలకాయం క్లాస్ III",
+    "🥩 Increase protein intake": "🥩 ప్రోటీన్ తీసుకోవడం పెంచండి",
+    "🥛 Add healthy calorie sources": "🥛 ఆరోగ్యకరమైన కేలరీల వనరులను జోడించండి",
+    "💪 Include strength exercises": "💪 బలాన్నిచ్చే వ్యాయామాలను చేర్చండి",
+    "🚶 Walk 8000-10000 steps": "🚶 8000-10000 అడుగులు నడవండి",
+    "💧 Maintain hydration": "💧 శరీరం నీటి శాతాన్ని కాపాడుకోండి",
+    "🥗 Choose balanced meals": "🥗 సమతుల్య భోజనాన్ని ఎంచుకోండి",
+    "😴 Sleep 7-8 hours": "😴 7-8 గంటలు నిద్రపోండి",
+    "🥚 Eggs": "🥚 గుడ్లు",
+    "🍗 Chicken": "🍗 చికెన్",
+    "🐟 Fish": "🐟 చేప",
+    "🥗 Vegetables": "🥗 కూరగాయలు",
+    "🌱 Plant Protein": "🌱 మొక్కల ఆధారిత ప్రోటీన్",
+    "🥜 Nuts & Seeds": "🥜 నూనెగింజలు & విత్తనాలు",
+    "🍎 Fruits": "🍎 పండ్లు",
+    "🥗 Dal & Vegetables": "🥗 పప్పు & కూరగాయలు",
+    "🍚 Balanced Meals": "🍚 సమతుల్య భోజనం",
+    "🥛 Milk / Curd": "🥛 పాలు / పెరుగు",
+    "🥜 Nuts": "🥜 నూనెగింజలు",
+    "Not Available": "అందుబాటులో లేదు",
+    "Early pregnancy": "ప్రారంభ గర్భధారణ",
+    "Middle pregnancy": "మధ్య గర్భధారణ",
+    "Late pregnancy": "చివరి గర్భధారణ",
+    "Year-Wise Projection": "సంవత్సరాల వారీ అంచనా",
+    "Calculate\n": "లెక్కించండి\n",
+    "Approximate Human Age": "అంచనా వేసిన మానవ వయస్సు",
+    "Convert": "మార్చండి",
+    "Calculation Breakdown": "గణన విశ్లేషణ",
+    "Born On": "పుట్టిన తేదీ",
+    "Days Remaining": "మిగిలిన రోజులు",
+    "Select an event and date to see countdown.": "కౌంట్‌డౌన్ చూడటానికి ఈవెంట్ మరియు తేదీని ఎంచుకోండి.",
+    "First Trimester": "మొదటి త్రైమాసికం",
+    "Second Trimester": "రెండో త్రైమాసికం",
+    "Third Trimester": "మూడో త్రైమాసికం",
+    "N/A": "వర్తించదు",
+    "Your retirement date has already passed.": "మీ రిటైర్మెంట్ తేదీ ఇప్పటికే దాటిపోయింది.",
+    "Retirement Day Message Text": "🎉 ఈ ముఖ్యమైన మైలురాయిని చేరుకున్నందుకు హృదయపూర్వక అభినందనలు! మీ రిటైర్మెంట్ జీవితం ఆనందం, మంచి ఆరోగ్యం, ప్రశాంతత మరియు మీ ప్రియమైనవారితో అనేక అందమైన క్షణాలతో నిండి ఉండాలని కోరుకుంటున్నాము. మీకు సంతోషకరమైన మరియు సంతృప్తికరమైన రిటైర్మెంట్ జీవిత శుభాకాంక్షలు! 🌸",
+    "Select your date of birth to calculate your retirement date and remaining time.": "మీ రిటైర్మెంట్ తేదీ మరియు మిగిలిన సమయాన్ని లెక్కించడానికి మీ పుట్టిన తేదీని ఎంచుకోండి.",
+    "Millimeter": "మిల్లీమీటర్",
+    "Centimeter": "సెంటిమీటర్",
+    "Meter": "మీటర్",
+    "Kilometer": "కిలోమీటర్",
+    "Inch": "అంగుళం",
+    "Foot": "అడుగు",
+    "Yard": "గజం",
+    "Mile": "మైలు",
+    "Milligram": "మిల్లీగ్రామ్",
+    "Gram": "గ్రామ్",
+    "Kilogram": "కిలోగ్రామ్",
+    "Tonne": "టన్ను",
+    "Ounce": "ఔన్స్",
+    "Pound": "పౌండ్",
+    "Stone": "స్టోన్",
+    "Milliliter": "మిల్లీలీటర్",
+    "Liter": "లీటర్",
+    "CubicMeter": "క్యూబిక్ మీటర్",
+    "CubicCentimeter": "క్యూబిక్ సెంటిమీటర్",
+    "GallonUS": "గ్యాలన్ (US)",
+    "QuartUS": "క్వార్ట్ (US)",
+    "PintUS": "పింట్ (US)",
+    "CupUS": "కప్ (US)",
+    "SquareMillimeter": "చదరపు మిల్లీమీటర్",
+    "SquareCentimeter": "చదరపు సెంటిమీటర్",
+    "SquareMeter": "చదరపు మీటర్",
+    "Hectare": "హెక్టార్",
+    "SquareKilometer": "చదరపు కిలోమీటర్",
+    "SquareInch": "చదరపు అంగుళం",
+    "SquareFoot": "చదరపు అడుగు",
+    "Acre": "ఎకరం",
+    "MeterPerSecond": "మీటర్/సెకండ్",
+    "KilometerPerHour": "కిలోమీటర్/గంట",
+    "MilePerHour": "మైలు/గంట",
+    "Knot": "నాట్",
+    "FootPerSecond": "అడుగు/సెకండ్",
+    "Millisecond": "మిల్లీసెకండ్",
+    "Byte": "బైట్",
+    "Kilobyte": "కిలోబైట్",
+    "Megabyte": "మెగాబైట్",
+    "Gigabyte": "గిగాబైట్",
+    "Terabyte": "టెరాబైట్",
+    "Bit": "బిట్",
+    "Celsius": "సెల్సియస్",
+    "Fahrenheit": "ఫారెన్‌హైట్",
+    "Kelvin": "కెల్విన్",
+    "Currency Placeholder": "e.g. 5,000",
+    "Percentage Placeholder": "%",
+    "Year/Month": "సంవత్సరం/నెల",
+    "Example: My Wedding, Office Party...": "ఉదాహరణ: నా వివాహం, ఆఫీస్ పార్టీ...",
+    "Increase your SIP amount every year by a fixed percentage.": "ప్రతి సంవత్సరం నిర్ణీత శాతంతో మీ SIP మొత్తాన్ని పెంచండి.",
+    "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ఉదాహరణ: {{amount1}} నెలవారీ SIP కి సంవత్సరానికి 10% స్టెప్-అప్ ఉంటే రెండవ సంవత్సరంలో {{amount2}}, మూడవ సంవత్సరంలో {{amount3}} మరియు తరువాత కూడా అలాగే ఉంటుంది.",
+    "This calculator provides an estimated maturity value based on the monthly deposits and expected annual interest rate entered. Actual maturity values may vary according to the interest rate, deposit timing, bank rules, taxation, penalties or other applicable conditions.": "ఈ కాలిక్యులేటర్ నమోదు చేసిన నెలవారీ డిపాజిట్లు మరియు ఆశించిన వార్షిక వడ్డీ రేటు ఆధారంగా అంచనా మెచ్యూరిటీ విలువను అందిస్తుంది. వడ్డీ రేటు, డిపాజిట్ సమయం, బ్యాంకు నియమాలు, పన్నులు, జరిమానాలు లేదా ఇతర వర్తించే షరతుల ప్రకారం వాస్తవ మెచ్యూరిటీ విలువ మారవచ్చు.",
+    "Custom reminder must be between 1 and 1650 days.": "Custom reminder must be between 1 and 1650 days.",
+    "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.": "Example: 20% followed by 10% is followed sequentially, not as a simple 30% discount.",
+    "PDF ready. Opening print preview...": "PDF ready. Opening print preview..."
+  },
+  "home": {
+    "hero_title": "మీ వయస్సును లెక్కించండి",
+    "hero_highlight": "తక్షణమే మరియు ఖచ్చితంగా",
+    "hero_description": "మీ ఖచ్చితమైన వయస్సు, తేదీ వ్యత్యాసం, పుట్టినరోజు కౌంట్‌డౌన్ మరియు మరెన్నో లెక్కించడానికి AgeVerseGlobal సహాయపడుతుంది.",
+    "calculate_age": "వయస్సును లెక్కించండి",
+    "explore_calculators": "కాలిక్యులేటర్లను అన్వేషించండి",
+    "preview_title": "🎂 వయస్సు కాలిక్యులేటర్",
+    "preview_units": "సంవత్సరాలు • నెలలు • రోజులు",
+    "preview_years": "సంవత్సరాలు",
+    "features_title": "AgeVerseGlobal ఎందుకు ఎంచుకోవాలి?",
+    "features_subtitle": "మీ దైనందిన తేదీ లెక్కల కోసం స్మార్ట్ టూల్.",
+    "features": {
+      "exact_calculation": {
+        "title": "ఖచ్చితమైన గణన",
+        "desc": "సంవత్సరాలు, నెలలు మరియు రోజులలో ఖచ్చితమైన వయస్సును పొందండి."
+      },
+      "multiple_calculators": {
+        "title": "బహుళ కాలిక్యులేటర్లు",
+        "desc": "వయస్సు, తేదీ వ్యత్యాసం, పుట్టినరోజు మరియు మరెన్నో."
+      },
+      "languages": {
+        "title": "బహుళ భాషలు",
+        "desc": "మీకు నచ్చిన భాషలో AgeVerseGlobal ని ఉపయోగించండి."
+      },
+      "mobile_friendly": {
+        "title": "మొబైల్ అనుకూల",
+        "desc": "ప్రతి పరికరంలో సులభంగా పనిచేస్తుంది."
+      },
+      "fast_result": {
+        "title": "వేగవంతమైన ఫలితం",
+        "desc": "క్లీన్ ఇంటర్‌ఫేస్‌తో తక్షణ గణన."
+      },
+      "privacy_focused": {
+        "title": "గోప్యతా కేంద్రీకృత",
+        "desc": "మీ తేదీలు మీ పరికరంలో సురక్షితంగా ఉంటాయి."
+      }
+    },
+    "testimonials_eyebrow": "✦ వినియోగదారు అనుభవాలు",
+    "testimonials_title": "వినియోగదారులు ఏమి చెబుతున్నారు",
+    "testimonials_subtitle": "దైనందిన ఉపయోగం కోసం రూపొందించబడిన సరళమైన, ఖచ్చితమైన మరియు నమ్మదగిన గణన టూల్స్.",
+    "verified_user": "ధృవీకరించబడిన వినియోగదారు",
+    "faq_eyebrow": "✦ సహాయం మరియు సమాచారం",
+    "faq_title": "తరచుగా అడిగే ప్రశ్నలు",
+    "faq_subtitle": "AgeVerseGlobal మరియు దాని స్మార్ట్ గణన టూల్ గురించిన అవసరమైన సమాచారం అంతా.",
+    "faq_footer_question": "ఇప్పటికీ ప్రశ్న ఉందా?",
+    "faq_footer_action": "మీకు కావలసిన టూల్‌ను కనుగొనడానికి AgeVerseGlobal కాలిక్యులేటర్లను అన్వేషించండి.",
+    "testimonial_roles": {
+      "rahul": "AgeVerseGlobal వినియోగదారు",
+      "priya": "AgeVerseGlobal వినియోగదారు",
+      "amit": "AgeVerseGlobal వినియోగదారు"
+    },
+    "testimonial_reviews": {
+      "rahul": "చాలా ఖచ్చితమైన మరియు ఉపయోగించడానికి సులభమైన వయస్సు కాలిక్యులేటర్. ఇంటర్‌ఫేస్ క్లీన్, ఆధునిక మరియు వృత్తిపరంగా కనిపిస్తుంది.",
+      "priya": "సరళమైన ఇంటర్‌ఫేస్ మరియు తక్షణ ఫలితాలు. ఇది మొబైల్‌లో చాలా సులభంగా పనిచేయడం నాకు ప్రత్యేకంగా నచ్చింది.",
+      "amit": "AgeVerseGlobal తేదీ లెక్కలను చాలా సులభం చేస్తుంది. వేగవంతమైన ఫలితాలు మరియు మెరుగైన అనుభవం."
+    },
+    "faqs": {
+      "q1": "AgeVerseGlobal అంటే ఏమిటి?",
+      "a1": "AgeVerseGlobal అనేది వేగవంతమైన, ఖచ్చితమైన మరియు సులభంగా అర్థం చేసుకునే ఫలితాలను అందించడానికి రూపొందించబడిన వయస్సు, తేదీ మరియు దైనందిన గణన టూల్స్ యొక్క వృత్తిపరమైన వేదిక.",
+      "q2": "వయస్సు లెక్క ఎంత ఖచ్చితమైనది?",
+      "a2": "వినియోగదారు ఎంచుకున్న తేదీల ఆధారంగా AgeVerseGlobal సంవత్సరాలు, నెలలు మరియు రోజులలో వయస్సును ఖచ్చితంగా లెక్కిస్తుంది.",
+      "q3": "AgeVerseGlobal ఉపయోగించడానికి ఉచితమా?",
+      "a3": "అవును. AgeVerseGlobal యొక్క ప్రాథమిక కాలిక్యులేటర్లను ఉచితంగా ఉపయోగించవచ్చు.",
+      "q4": "నా వ్యక్తిగత డేటా నిల్వ చేయబడుతుందా?",
+      "a4": "గోప్యతను దృష్టిలో ఉంచుకుని AgeVerseGlobal రూపొందించబడింది. కాలిక్యులేటర్‌లో నమోదు చేసిన సమాచారం అభ్యర్థించిన ఫలితాన్ని తయారు చేయడానికి ఉపయోగించబడుతుంది మరియు అనవసరంగా నిల్వ చేయబడదు.",
+      "q5": "నేను AgeVerseGlobal ను మొబైల్‌లో ఉపయోగించవచ్చా?",
+      "a5": "అవును. AgeVerseGlobal మొబైల్ ఫోన్లు, టాబ్లెట్లు మరియు డెస్క్‌టాప్ పరికరాలలో సులభంగా పనిచేసేలా రూపొందించబడింది.",
+      "q6": "AgeVerseGlobal ఎన్ని భాషలకు మద్దతు ఇస్తుంది?",
+      "a6": "AgeVerseGlobal నిర్దిష్ట సంఖ్యలోని భాషలకు పరిమితం చేయబడలేదు. కాలిక్యులేటర్ భాగాలను మార్చాల్సిన అవసరం లేకుండానే వాటి లోకేల్ అనువాదాలను జోడించడం ద్వారా కొత్త భాషలను చేర్చవచ్చు."
+    },
+    "new": "కొత్తది",
+    "preview_age_label": "వయస్సు"
+  },
+  "language_name": "🇮🇳 తెలుగు",
+  "result_meta": {
+    "generated_by": "AgeVerseGlobal ద్వారా రూపొందించబడింది",
+    "calculated_by": "AgeVerseGlobal ద్వారా లెక్కించబడింది"
+  },
+  "sip": {
+    "calculation_projection_stepup": "{{frequency}} SIP లో {{amount}} పెట్టుబడి, ప్రతి సంవత్సరం {{stepUp}}% వృద్ధి మరియు {{rate}}% ఆశించిన వార్షిక రాబడి ఆధారంగా.",
+    "calculation_projection": "{{frequency}} SIP లో {{amount}} పెట్టుబడి {{years}} సంవత్సరాలకు {{rate}}% ఆశించిన వార్షిక రాబడిపై."
+  },
+  "rd": {
+    "calculation_projection": "{{amount}} నెలవారీ RD డిపాజిట్ {{years}} సంవత్సరాలకు {{rate}}% వార్షిక వడ్డీ రేటుతో పెట్టుబడి పెట్టబడింది, అంచనా కోసం త్రైమాసిక చక్రవడ్డీ ఉపయోగించబడింది."
+  },
+  "Calculated by": "AgeVerseGlobal ద్వారా లెక్కించబడింది",
+  "Generated by": "AgeVerseGlobal ద్వారా రూపొందించబడింది",
+  "Health_profile": {
+    "Enter your name": "మీ పేరును నమోదు చేయండి",
+    "Hello": "నమస్కారం",
+    "g": "గ్రామ్",
+    "L": "లీటర్",
+    "kg": "కి.గ్రా",
+    "day": "రోజు",
+    "✨ Generated by": "✨ AgeVerseGlobal ద్వారా రూపొందించబడింది"
+  },
+  "pregnancy": {
+    "timeline_subtitle": "మీ గర్భధారణ సమయపాలన మరియు అంచనా ప్రసవ తేదీని లెక్కించండి.",
+    "calculation_note_full": "ఈ కాలిక్యులేటర్ మీ చివరి నెలసరి కాలం (LMP) మొదటి రోజు మరియు ప్రామాణిక 40-వారాల గర్భధారణ కాలం ఆధారంగా అంచనా ప్రసవ తేదీని లెక్కిస్తుంది.",
+    "empty_title": "గర్భధారణ కాలిక్యులేటర్",
+    "empty_text": "మీ గర్భధారణ కాలక్రమం మరియు ప్రసవ తేదీని అంచనా వేయడానికి మీ చివరి రుతుస్రావం మొదటి రోజును నమోదు చేయండి.",
+    "empty_hint": "మీ ఫలితం ఇక్కడ కనిపిస్తుంది.",
+    "lmp_help": "మీ చివరి రుతుస్రావం మొదటి రోజును నమోదు చేయండి."
+  },
+  "unit_converter": {
+    "subtitle": "పొడవు, బరువు, ఉష్ణోగ్రత, ఘనపరిమాణం మరియు ఇతర దైనందిన యూనిట్లను త్వరగా మార్చండి.",
+    "result_note": "ప్రామాణిక యూనిట్ మార్పిడి సంబంధాలను ఉపయోగించి మార్పిడి విలువలు లెక్కించబడతాయి. ఎంచుకున్న యూనిట్లలో దశాంశ మార్పిడి అవసరమైన చోట ఫలితాలు సుమారుగా ఉండవచ్చు.",
+    "intro": "ఒక వర్గాన్ని ఎంచుకోండి, విలువను నమోదు చేయండి మరియు మీరు మార్చాలనుకుంటున్న యూనిట్లను ఎంచుకోండి.",
+    "instructions": "వర్గాన్ని ఎంచుకోండి, ఆపై మూల యూనిట్ మరియు మీరు మార్చాలనుకుంటున్న యూనిట్‌ను ఎంచుకోండి, ఆ తర్వాత విలువను నమోదు చేయండి. కాలిక్యులేటర్ ప్రామాణిక మార్పిడి కారకాలను ఉపయోగించి మార్చబడిన విలువను లెక్కిస్తుంది."
+  },
+  "gst": {
+    "add_description": "GST ని లెక్కించి అసలు మొత్తానికి జోడించండి.",
+    "remove_description": "GST తో కూడిన మొత్తం నుండి అసలు మొత్తం మరియు GST ని కనుగొనండి."
+  },
+  "discount": {
+    "single_description": "ఒక డిస్కౌంట్‌ను వర్తింపజేసిన తర్వాత తుది ధరను లెక్కించండి.",
+    "multiple_description": "రెండు లేదా మూడు డిస్కౌంట్లను ఒకదాని తర్వాత ఒకటి వర్తింపజేయండి."
+  },
+  "fd": {
+    "calculation_projection": "{{frequency}} చక్రవడ్డీ ఆధారంగా {{years}} సంవత్సరాలకు {{rate}}% ప్రభావవంతమైన వార్షిక రేటుపై చక్రవడ్డీ అంచనా."
+  },
+  "dog_age": {
+    "info_description": "మానవ వయస్సు ఫలితం అంచనా వేసిన అంచనా. జాతి, పరిమాణం, జన్యువులు మరియు ఆరోగ్యం ఆధారంగా కుక్కల వృద్ధాప్య వేగం భిన్నంగా ఉంటుంది.",
+    "calculation_text": "మీ కుక్క సుమారు {{years}} సంవత్సరాలు, {{months}} నెలలు మరియు {{days}} రోజుల వయస్సు కలిగి ఉంది, ఇది సుమారు {{humanAge}} మానవ సంవత్సరాలతో సమానం.",
+    "days_remaining_suffix": "తదుపరి పుట్టినరోజు వరకు సుమారు ఇన్ని రోజులు మిగిలి ఉన్నాయి.",
+    "Puppy": "పప్పీ",
+    "Young Dog": "యువ కుక్క",
+    "Adult Dog": "వయోజన కుక్క",
+    "Senior Dog": "ముసలి కుక్క"
+  },
+  "Approximately": "సుమారు",
+  "Monthly": "నెలవారీ",
+  "Quarterly": "త్రైమాసిక",
+  "Half-Yearly": "అర్థ-వార్షిక",
+  "Annual": "వార్షిక",
+  "calculation_notes": {
+    "fd": "ఇది ఒక అంచనా అంచనా. బ్యాంకులు తమ స్వంత ఉత్పత్తి నిబంధనలు, రేటు స్లాబ్‌లు, రోజు-లెక్కింపు సంప్రదాయాలు, పన్ను/TDS నిబంధనలు మరియు వర్తించే ఇతర షరతులను వర్తింపజేయవచ్చు కాబట్టి వాస్తవ FD మెచ్యూరిటీ భిన్నంగా ఉండవచ్చు.",
+    "rd": "ఈ కాలిక్యులేటర్ నమోదు చేసిన నెలవారీ డిపాజిట్లు మరియు ఆశించిన వార్షిక వడ్డీ రేటు ఆధారంగా అంచనా మెచ్యూరిటీ విలువను అందిస్తుంది. వడ్డీ రేటు, డిపాజిట్ సమయం, బ్యాంకు నియమాలు, పన్నులు, జరిమానాలు లేదా ఇతర వర్తించే షరతుల ప్రకారం వాస్తవ మెచ్యూరిటీ విలువ మారవచ్చు.",
+    "dog_age": "ఈ కాలిక్యులేటర్ చూపిన మానవ వయస్సు సమానత్వం సుమారుగా విద్యాపరమైన అంచనా. జాతులు, పరిమాణాలు మరియు వ్యక్తిగత కుక్కల మధ్య వాస్తవ వృద్ధాప్యం గణనీయంగా మారుతుంది.",
+    "emi": "నమోదు చేసిన రుణ మొత్తం, వార్షిక వడ్డీ రేటు మరియు తిరిగి చెల్లింపు కాలపరిమితిని ఉపయోగించి EMI లెక్కించబడుతుంది. రౌండింగ్, ఫీజులు, బీమా లేదా వర్తించే ఇతర ఛార్జీల కారణంగా వాస్తవ రుణదాత EMI మారవచ్చు."
+  },
+  "bmi_gauge": {
+    "underweight_message": "సమతుల్య పోషణ మరియు ఆరోగ్యకరమైన బరువు పెరుగుదలపై దృష్టి పెట్టండి.",
+    "healthy_message": "మీ BMI ఆరోగ్యకరమైన పరిధిలో ఉంది. మీ జీవనశైలిని కొనసాగించండి.",
+    "overweight_message": "శారీరక కార్యకలాపాలు మరియు సమతుల్య క్యాలరీ తీసుకోవడంపై దృష్టి పెట్టండి.",
+    "obesity_message": "క్రమమైన శారీరక కార్యకలాపాలు మరియు ఆరోగ్యకరమైన ఆహారపు అలవాట్లు సిఫార్సు చేయబడుతున్నాయి."
+  },
+  "about_page": {
+    "eyebrow": "AgeVerseGlobal గురించి",
+    "title": "AgeVerseGlobal గురించి",
+    "intro": "AgeVerseGlobal అనేది సరళమైన, విశ్వసనీయమైన మరియు సులభంగా అర్థమయ్యే రోజువారీ లెక్కల కోసం జాగ్రత్తగా రూపొందించిన వేదిక.",
+    "mission_title": "మా లక్ష్యం",
+    "mission_text": "ఏ పరికరంలోనైనా సులభంగా ఉపయోగించగల సాధనాల ద్వారా రోజువారీ లెక్కలను స్పష్టంగా, అందుబాటులోగా మరియు సౌకర్యవంతంగా చేయడం మా లక్ష్యం.",
+    "tools_eyebrow": "మా సాధనాలు",
+    "tools_title": "AgeVerseGlobal ఏమి అందిస్తుంది",
+    "tools_text": "వివిధ రోజువారీ అవసరాల కోసం ఉపయోగకరమైన కాలిక్యులేటర్లను AgeVerseGlobal ఒకేచోట అందిస్తుంది.",
+    "category_age": "వయస్సు, తేదీల మధ్య తేడా, ఈవెంట్లు మరియు రిటైర్మెంట్ సమయరేఖను స్పష్టమైన ఫలితాలతో లెక్కించండి.",
+    "category_health": "BMI, BMR, కేలరీలు, పోషణ మరియు నీటి అవసరాల వంటి ఉపయోగకరమైన ఆరోగ్య లెక్కలను చూడండి.",
+    "category_family": "గర్భధారణ సమయరేఖ లెక్కలతో సహా కుటుంబకేంద్రిత ఉపయోగకరమైన సాధనాలు.",
+    "category_utility": "కన్వర్షన్లు, శాతాలు, GST, EMI, డిస్కౌంట్లు మరియు పెట్టుబడుల కోసం రోజువారీ మరియు ఆర్థిక కాలిక్యులేటర్లు.",
+    "category_pet": "మీ కుక్క వయస్సు మరియు మానవ వయస్సుతో సమానమైన వయస్సును అంచనా వేసే సరళమైన విద్యా సాధనం.",
+    "why_eyebrow": "ఎందుకు AgeVerseGlobal",
+    "why_title": "రోజువారీ ఉపయోగం కోసం రూపొందించబడింది",
+    "why_text": "AgeVerseGlobal స్పష్టత, సౌలభ్యం మరియు వివిధ పరికరాల్లో ఒకే విధమైన అనుభవంపై దృష్టి పెడుతుంది.",
+    "accurate_title": "ఆలోచనాత్మక లెక్కలు",
+    "accurate_text": "మా కాలిక్యులేటర్లు స్పష్టంగా నిర్వచించిన పద్ధతులను ఉపయోగించి ఫలితాలను సులభంగా అర్థమయ్యే రూపంలో అందిస్తాయి.",
+    "simple_title": "సరళమైన అనుభవం",
+    "simple_text": "శుభ్రమైన ఇంటర్‌ఫేస్‌లు అనవసరమైన క్లిష్టత లేకుండా సమాచారాన్ని త్వరగా నమోదు చేసి ఫలితాలను అర్థం చేసుకోవడంలో సహాయపడతాయి.",
+    "privacy_title": "గోప్యతకు ప్రాధాన్యం",
+    "privacy_text": "AgeVerseGlobal గోప్యతను దృష్టిలో ఉంచుకుని రూపొందించబడింది మరియు అనవసరమైన సమాచార సేకరణను తగ్గించడానికి ప్రయత్నిస్తుంది.",
+    "languages_title": "బహుభాషా అనుభవం",
+    "languages_text": "వినియోగదారులు తమకు సౌకర్యమైన భాషలో సాధనాలను ఉపయోగించేందుకు AgeVerseGlobal అనేక భాషలకు మద్దతు ఇస్తుంది.",
+    "cta_title": "లెక్కించడానికి సిద్ధంగా ఉన్నారా?",
+    "cta_text": "AgeVerseGlobal కాలిక్యులేటర్లను అన్వేషించి మీకు అవసరమైన సాధనాన్ని కనుగొనండి.",
+    "cta_button": "కాలిక్యులేటర్లను అన్వేషించండి"
+  },
+  "contact_page": {
+    "eyebrow": "AgeVerseGlobal ను సంప్రదించండి",
+    "title": "AgeVerseGlobal ను సంప్రదించండి",
+    "intro": "మీ అభిప్రాయం, సూచనలు మరియు ప్రశ్నలకు మేము విలువ ఇస్తాము. మీ సూచనలు AgeVerseGlobal అనుభవాన్ని మెరుగుపరచడంలో సహాయపడతాయి.",
+    "feedback_title": "అభిప్రాయం మరియు సూచనలు",
+    "feedback_text": "మీకు నచ్చినది, మెరుగుపరచాల్సినది లేదా తరువాత ఏ కాలిక్యులేటర్ కావాలో మాకు తెలియజేయండి.",
+    "support_title": "కాలిక్యులేటర్ సహాయం",
+    "support_text": "లెక్కింపు, ప్రదర్శన లేదా వినియోగంలో సమస్య కనిపిస్తే సమీక్ష కోసం సంబంధిత వివరాలను పంచుకోండి.",
+    "contact_title": "సాధారణ విచారణలు",
+    "contact_text": "AgeVerseGlobal, దాని కాలిక్యులేటర్లు లేదా వెబ్‌సైట్ గురించి సాధారణ ప్రశ్నలకు AgeVerseGlobal బృందాన్ని సంప్రదించండి.",
+    "email_title": "సంప్రదించండి",
+    "email_text": "ప్రశ్నలు, అభిప్రాయం లేదా సహాయం కోసం అధికారిక AgeVerseGlobal సంప్రదింపు ఇమెయిల్‌ను ఉపయోగించండి.",
+    "email_placeholder": "contact@ageverse.global",
+    "cta_title": "AgeVerseGlobal ను మెరుగుపరచడంలో సహాయపడినందుకు ధన్యవాదాలు.",
+    "cta_text": "మీ అభిప్రాయం మెరుగైన మరియు మరింత ఉపయోగకరమైన లెక్కింపు అనుభవాన్ని రూపొందించడంలో సహాయపడుతుంది.",
+    "cta_button": "AgeVerseGlobal కు తిరిగి వెళ్లండి",
+    "form_title": "మమ్మల్ని సంప్రదించండి",
+    "form_intro": "మీ ప్రశ్న, సూచన లేదా సహాయ అభ్యర్థనను పంపండి. మేము మీ సందేశాన్ని పరిశీలించి అవసరమైతే సమాధానం ఇస్తాము.",
+    "open_form": "సంప్రదింపు ఫారమ్ తెరవండి",
+    "name": "పేరు",
+    "email": "ఇమెయిల్",
+    "subject": "విషయం",
+    "message": "సందేశం",
+    "submit": "సందేశం పంపండి",
+    "sending": "పంపుతోంది…",
+    "success": "మీ సందేశం విజయవంతంగా పంపబడింది.",
+    "error": "ప్రస్తుతం మీ సందేశాన్ని పంపలేకపోయాము. మళ్లీ ప్రయత్నించండి.",
+    "close": "మూసివేయండి",
+    "page_label": "పేజీ",
+    "name_required": "దయచేసి మీ పేరు నమోదు చేయండి.",
+    "email_required": "దయచేసి మీ ఇమెయిల్ నమోదు చేయండి.",
+    "email_invalid": "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ నమోదు చేయండి.",
+    "subject_required": "దయచేసి విషయం నమోదు చేయండి.",
+    "message_required": "దయచేసి మీ సందేశాన్ని నమోదు చేయండి.",
+    "privacy_notice": "మీ ప్రశ్నకు సమాధానం ఇవ్వడానికి మాత్రమే మీ పేరు మరియు ఇమెయిల్ సేకరిస్తాము. ప్రకటనల కోసం ఈ సమాచారాన్ని విక్రయించము లేదా పంచుకోము.",
+    "subject_general_enquiry": "సాధారణ విచారణ",
+    "subject_calculator_issue": "కాలిక్యులేటర్ సమస్య",
+    "subject_calculation_result_issue": "లెక్కింపు / ఫలిత సమస్య",
+    "subject_translation_language_issue": "అనువాదం / భాషా సమస్య",
+    "subject_website_problem": "వెబ్‌సైట్ సమస్య",
+    "subject_suggestion": "సూచన",
+    "subject_business_partnership": "వ్యాపారం / భాగస్వామ్యం",
+    "subject_other": "ఇతర"
+  },
+  "privacy_page": {
+    "eyebrow": "గోప్యత",
+    "title": "గోప్యతా విధానం",
+    "intro": "AgeVerseGlobal సమాచారం, గోప్యత మరియు తన వెబ్‌సైట్ మరియు కాలిక్యులేటర్ల వినియోగాన్ని ఎలా నిర్వహిస్తుందో ఈ గోప్యతా విధానం వివరిస్తుంది.",
+    "information_title": "మీరు నమోదు చేసే సమాచారం",
+    "information_text": "కాలిక్యులేటర్లలో నమోదు చేసిన సమాచారం కోరిన లెక్కింపును అందించడానికి ఉపయోగించబడుతుంది మరియు కాలిక్యులేటర్ స్వయంగా దాన్ని అనవసరంగా నిల్వ చేయదు.",
+    "data_storage_title": "డేటా నిల్వ",
+    "data_storage_text": "అనవసరమైన సమాచార నిల్వను తగ్గించడానికి AgeVerseGlobal ప్రయత్నిస్తుంది. కొన్ని సాంకేతిక లేదా సేవా సంబంధిత సమాచారాన్ని హోస్టింగ్, భద్రత, అనలిటిక్స్ లేదా ఇతర వెబ్‌సైట్ మౌలిక సదుపాయాల ప్రదాతలు ప్రాసెస్ చేయవచ్చు.",
+    "analytics_title": "అనలిటిక్స్",
+    "analytics_text": "వెబ్‌సైట్ వినియోగాన్ని అర్థం చేసుకోవడానికి, పనితీరును మెరుగుపరచడానికి మరియు మెరుగుదల అవసరమైన ప్రాంతాలను గుర్తించడానికి AgeVerseGlobal అనలిటిక్స్ సాధనాలను ఉపయోగించవచ్చు.",
+    "cookies_title": "కుకీలు మరియు సమాన సాంకేతికతలు",
+    "cookies_text": "కార్యాచరణ, ప్రాధాన్యతలు, అనలిటిక్స్ లేదా ఇతర చట్టబద్ధమైన వెబ్‌సైట్ అవసరాల కోసం అవసరమైనప్పుడు కుకీలు లేదా సమాన సాంకేతికతలు ఉపయోగించబడవచ్చు.",
+    "third_party_title": "మూడవ పక్ష సేవలు",
+    "third_party_text": "హోస్టింగ్, అనలిటిక్స్, భద్రత మరియు ఇతర వెబ్‌సైట్ కార్యకలాపాల కోసం AgeVerseGlobal మూడవ పక్ష సేవలపై ఆధారపడవచ్చు. అవి తమ స్వంత విధానాల ప్రకారం సమాచారాన్ని ప్రాసెస్ చేయవచ్చు.",
+    "security_title": "భద్రత",
+    "security_text": "వెబ్‌సైట్ భద్రత మరియు విశ్వసనీయతకు AgeVerseGlobal తగిన చర్యలు తీసుకుంటుంది; అయితే ఏ ఇంటర్నెట్ సేవా సంపూర్ణ భద్రతకు హామీ ఇవ్వదు.",
+    "changes_title": "ఈ విధానంలో మార్పులు",
+    "changes_text": "వెబ్‌సైట్, సేవలు లేదా వర్తించే అవసరాల్లో మార్పులను ప్రతిబింబించేందుకు ఈ గోప్యతా విధానం కాలానుగుణంగా నవీకరించబడవచ్చు.",
+    "contact_title": "గోప్యతపై ప్రశ్నలు",
+    "contact_text": "ఈ గోప్యతా విధానం లేదా AgeVerseGlobal గోప్యతా పద్ధతుల గురించి ప్రశ్నలు ఉంటే AgeVerseGlobal బృందాన్ని సంప్రదించండి.",
+    "advertising_title": "ప్రకటనలు మరియు Google AdSense",
+    "advertising_text": "ప్రకటనలను ప్రదర్శించడానికి AgeVerseGlobal Google AdSense మరియు ఇతర మూడవ పక్ష ప్రకటన సేవలను ఉపయోగించవచ్చు. వినియోగదారుల ఆసక్తులు మరియు పరస్పర చర్యల ఆధారంగా ప్రకటనలను అందించడానికి, కొలవడానికి మరియు వ్యక్తిగతీకరించడానికి ఈ సేవలు కుకీలు మరియు ఇలాంటి సాంకేతికతలను ఉపయోగించవచ్చు. ఈ వెబ్‌సైట్ మరియు ఇతర వెబ్‌సైట్‌లకు వినియోగదారులు చేసిన సందర్శనల ఆధారంగా ప్రకటనలను చూపించడానికి Google ప్రకటన కుకీలను ఉపయోగించవచ్చు. Google Ads Settings ద్వారా వినియోగదారులు వ్యక్తిగతీకరించిన ప్రకటనలను నిర్వహించవచ్చు లేదా నిలిపివేయవచ్చు. మూడవ పక్ష ప్రకటనదారులకు వారి స్వంత గోప్యతా విధానాలు మరియు పద్ధతులు ఉండవచ్చు."
+  },
+  "terms_page": {
+    "eyebrow": "నిబంధనలు మరియు షరతులు",
+    "title": "నిబంధనలు మరియు షరతులు",
+    "intro": "AgeVerseGlobal వెబ్‌సైట్ మరియు దాని కాలిక్యులేటర్ల వినియోగానికి సంబంధించిన సాధారణ నిబంధనలను ఈ నిబంధనలు వివరిస్తాయి.",
+    "calculator_title": "కాలిక్యులేటర్ల వినియోగం",
+    "calculator_text": "AgeVerseGlobal కాలిక్యులేటర్లు సాధారణ సమాచార మరియు విద్యా ప్రయోజనాల కోసం అందించబడతాయి. మీరు నమోదు చేసిన సమాచారం మరియు పొందిన ఫలితాలను సమీక్షించడం మీ బాధ్యత.",
+    "accuracy_title": "ఫలితాలు మరియు ఖచ్చితత్వం",
+    "accuracy_text": "AgeVerseGlobal ఉపయోగకరమైన మరియు విశ్వసనీయమైన లెక్కలను అందించడానికి ప్రయత్నిస్తుంది, కానీ అంచనాలు, రౌండింగ్, ఇన్‌పుట్ నాణ్యత లేదా వాస్తవ పరిస్థితుల తేడాల వల్ల ఫలితాలు మారవచ్చు.",
+    "health_title": "ఆరోగ్య సంబంధిత సాధనాలు",
+    "health_text": "ఆరోగ్య కాలిక్యులేటర్ ఫలితాలు సమాచారానికే పరిమితం; అవి వైద్య సలహా, నిర్ధారణ లేదా చికిత్సకు ప్రత్యామ్నాయం కావు.",
+    "financial_title": "ఆర్థిక సాధనాలు",
+    "financial_text": "ఆర్థిక కాలిక్యులేటర్ ఫలితాలు సాధారణ సమాచారానికి సంబంధించిన అంచనాలు; వాటిని ఆర్థిక, పెట్టుబడి, బ్యాంకింగ్ లేదా పన్ను సలహాగా పరిగణించకూడదు.",
+    "pet_title": "పెంపుడు జంతు సాధనాలు",
+    "pet_text": "పెంపుడు జంతు కాలిక్యులేటర్ ఫలితాలు సుమారు విద్యా అంచనాలు మరియు అర్హత కలిగిన పశువైద్య నిపుణుడి సలహాకు ప్రత్యామ్నాయం కావు.",
+    "availability_title": "వెబ్‌సైట్ లభ్యత",
+    "availability_text": "అవసరమైనప్పుడు AgeVerseGlobal వెబ్‌సైట్ ఫీచర్లు లేదా కాలిక్యులేటర్లను నవీకరించవచ్చు, మార్చవచ్చు, నిలిపివేయవచ్చు లేదా తొలగించవచ్చు.",
+    "responsibility_title": "వినియోగదారు బాధ్యత",
+    "responsibility_text": "వెబ్‌సైట్‌ను సరిగ్గా ఉపయోగించడం మరియు అవసరమైనప్పుడు తగిన వృత్తిపరమైన లేదా అధికారిక మూలాల సమాచారంపై ఆధారపడి నిర్ణయాలు తీసుకోవడం వినియోగదారుడి బాధ్యత.",
+    "changes_title": "ఈ నిబంధనల్లో మార్పులు",
+    "changes_text": "ఈ నిబంధనలు కాలానుగుణంగా నవీకరించబడవచ్చు. నవీకరణ తర్వాత AgeVerseGlobal వినియోగాన్ని కొనసాగించడం సవరించిన నిబంధనలను అంగీకరించినట్లు పరిగణించబడుతుంది.",
+    "contact_title": "సంప్రదింపు",
+    "contact_text": "ఈ నిబంధనల గురించి ప్రశ్నలకు AgeVerseGlobal బృందాన్ని సంప్రదించండి."
+  },
+  "disclaimer_page": {
+    "eyebrow": "నిరాకరణ",
+    "title": "నిరాకరణ",
+    "intro": "AgeVerseGlobal అందించే సమాచారం మరియు కాలిక్యులేటర్ ఫలితాలు సాధారణ సమాచార మరియు విద్యా ప్రయోజనాల కోసం మాత్రమే.",
+    "notice_title": "ముఖ్యమైన గమనిక",
+    "notice_text": "కాలిక్యులేటర్ ఫలితాలను అంచనాలుగా పరిగణించాలి. అవి అధికారిక సంస్థలు, నిపుణులు, బ్యాంకులు, ఆరోగ్య సేవా ప్రదాతలు లేదా ఇతర అధికారిక మూలాల ఫలితాల నుండి భిన్నంగా ఉండవచ్చు.",
+    "accuracy_title": "లెక్కింపు ఖచ్చితత్వం",
+    "accuracy_text": "AgeVerseGlobal నిర్వచించిన లెక్కింపు పద్ధతులను ఉపయోగిస్తుంది, కానీ రౌండింగ్, అంచనాలు, ఇన్‌పుట్ విలువలు మరియు వాస్తవ నియమాలు లేదా పరిస్థితుల తేడాల వల్ల ఫలితాలు మారవచ్చు.",
+    "health_title": "ఆరోగ్య సమాచారం",
+    "health_text": "ఆరోగ్య సంబంధిత లెక్కలు వైద్య సలహా కావు మరియు వ్యాధిని నిర్ధారించడానికి, చికిత్స చేయడానికి లేదా నివారించడానికి ఉపయోగించకూడదు. అవసరమైనప్పుడు అర్హత కలిగిన ఆరోగ్య నిపుణుడిని సంప్రదించండి.",
+    "financial_title": "ఆర్థిక సమాచారం",
+    "financial_text": "ఆర్థిక లెక్కలు అంచనాలు మాత్రమే; అవి ఆర్థిక, పెట్టుబడి, బ్యాంకింగ్ లేదా పన్ను సలహా కావు. వర్తించే రేట్లు, విధానాలు, ఫీజులు, పన్నులు మరియు ఇతర పరిస్థితుల ప్రకారం వాస్తవ ఫలితాలు మారవచ్చు.",
+    "pet_title": "పెంపుడు జంతు సమాచారం",
+    "pet_text": "కుక్క వయస్సు మరియు ఇతర పెంపుడు జంతు లెక్కలు సుమారు విద్యా అంచనాలు; వృత్తిపరమైన పశువైద్య మార్గదర్శకానికి ప్రత్యామ్నాయం కావు.",
+    "external_title": "బాహ్య సేవలు మరియు లింకులు",
+    "external_text": "AgeVerseGlobal బాహ్య సేవలను ఉపయోగించవచ్చు లేదా మూడవ పక్ష వనరులకు లింక్ చేయవచ్చు. బాహ్య సేవల కంటెంట్, విధానాలు లేదా లభ్యతను AgeVerseGlobal నియంత్రించదు.",
+    "responsibility_title": "వినియోగదారు బాధ్యత",
+    "responsibility_text": "నిర్ణయం తీసుకునే ముందు ముఖ్యమైన సమాచారాన్ని తగిన అధికారిక, వృత్తిపరమైన లేదా విశ్వసనీయ మూలాల ద్వారా ధృవీకరించాలి.",
+    "contact_title": "ప్రశ్నలు",
+    "contact_text": "ఈ నిరాకరణ గురించి ప్రశ్నలకు AgeVerseGlobal బృందాన్ని సంప్రదించండి."
+  },
+  "not_found_page": {
+    "eyebrow": "404",
+    "title": "పేజీ కనుగొనబడలేదు",
+    "description": "మీరు వెతుకుతున్న పేజీ లేదు లేదా అది తరలించబడి ఉండవచ్చు.",
+    "home_button": "హోమ్‌కు వెళ్లండి"
+  },
+  "Notification permission is blocked. Please allow notifications for AgeVerseGlobal to receive the reminder.": "నోటిఫికేషన్ అనుమతి బ్లాక్ చేయబడింది. రిమైండర్‌ను స్వీకరించడానికి దయచేసి AgeVerseGlobal కోసం నోటిఫికేషన్‌లను అనుమతించండి.",
+  "Event reminder service is not configured.": "ఈవెంట్ రిమైండర్ సేవ కాన్ఫిగర్ చేయబడలేదు.",
+  "Example: {{amount1}} Monthly SIP with a 10% yearly step-up becomes {{amount2}} in the second year, {{amount3}} in the third year, and so on.": "ఉదాహరణ: {{amount1}} నెలవారీ SIP కి సంవత్సరానికి 10% స్టెప్-అప్ ఉంటే రెండవ సంవత్సరంలో {{amount2}}, మూడవ సంవత్సరంలో {{amount3}} మరియు తరువాత కూడా అలాగే ఉంటుంది.",
+  "seo_content": {
+    "event_calculator": {
+      "name": "EventCalculatorSEOContent",
+      "eyebrow": "ఈవెంట్ తేదీ గైడ్",
+      "title": "ఈవెంట్ కాలిక్యులేటర్: మీ ప్రత్యేక క్షణాలకు కౌంట్‌డౌన్",
+      "intro": "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్‌తో ముఖ్యమైన తేదీలను ప్లాన్ చేయండి మరియు రాబోయే సందర్భాలను తనిఖీ చేయండి.",
+      "sections": [
+        [
+          "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్ సందర్భాలు, మైలురాళ్లు, వేడుకలు మరియు ఇతర ప్రణాళికాబద్ధ కార్యకలాపాల కోసం తేదీలతో పని చేయడంలో మీకు సహాయపడుతుంది. ఈవెంట్ ఎప్పుడు వస్తుంది మరియు ఎంత సమయం మిగిలి ఉందో అర్థం చేసుకోవడానికి ఇది సహాయపడుతుంది."
+          ]
+        ],
+        [
+          "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్‌ను ఎలా ఉపయోగించాలి",
+          [
+            "ఈవెంట్‌ను ఎంచుకోండి, కాలిక్యులేటర్ అడిగిన తేదీని నమోదు చేయండి, రోజు, నెల మరియు సంవత్సరం నమోదు చేయండి, సమయాన్ని లెక్కించండి, ఆపై ముందుగా ప్లాన్ చేయడానికి ఫలితాన్ని సమీక్షించండి."
+          ]
+        ],
+        [
+          "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్ ఎలా పని చేస్తుంది?",
+          [
+            "ఈవెంట్ సమయం క్యాలెండర్ తేదీలపై ఆధారపడి ఉంటుంది. మిగిలిన సమయం ప్రస్తుత తేదీ మరియు ఈవెంట్ తేదీపై ఆధారపడుతుంది. పునరావృతమయ్యే సందర్భాల కోసం, సాధనం తదుపరి సంభవాన్ని ఉపయోగిస్తుందా లేదా ఎంచుకున్న ఖచ్చితమైన తేదీని ఉపయోగిస్తుందా అని నిర్ధారించండి."
+          ]
+        ],
+        [
+          "AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్‌ను ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "పుట్టినరోజులు, వార్షికోత్సవాలు, సెలవులు, వ్యక్తిగత మైలురాళ్లు, ప్రయాణాలు మరియు షెడ్యూల్ చేసిన కార్యకలాపాల కోసం AgeVerseGlobal ఈవెంట్ కాలిక్యులేటర్‌ను ఉపయోగించండి."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "పుట్టినరోజు",
+          "వ్యక్తిగత వేడుక",
+          "సన్నాహాలను ప్లాన్ చేయండి"
+        ],
+        [
+          "వార్షికోత్సవం",
+          "వ్యక్తిగత లేదా పని మైలురాయి",
+          "రాబోయే తేదీని ట్రాక్ చేయండి"
+        ],
+        [
+          "ప్రయాణం లేదా అపాయింట్‌మెంట్",
+          "షెడ్యూల్ చేయబడిన కార్యకలాపం",
+          "మిగిలిన సమయాన్ని సమీక్షించండి"
+        ]
+      ],
+      "features": [
+        [
+          "తేదీ-కేంద్రీకృత ప్రణాళిక",
+          "సందర్భాలు మరియు మైలురాళ్లతో పని చేయండి."
+        ],
+        [
+          "కౌంట్‌డౌన్ అవగాహన",
+          "రాబోయే ఈవెంట్ ఎంత దగ్గరలో ఉందో అర్థం చేసుకోండి."
+        ],
+        [
+          "సులభమైన వర్క్‌ఫ్లో",
+          "ఈవెంట్‌ను ఎంచుకోండి, తేదీని నమోదు చేయండి మరియు ఫలితాన్ని సమీక్షించండి."
+        ],
+        [
+          "రోజువారీ ఉపయోగం",
+          "వ్యక్తిగత మరియు షెడ్యూల్ చేసిన ఈవెంట్‌లకు దీన్ని వర్తింపజేయండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "దీనిని పుట్టినరోజులకు ఉపయోగించవచ్చా?",
+          "అవును, ఇది పుట్టినరోజులు, వార్షికోత్సవాలు మరియు ఇతర సందర్భాలకు ఉపయోగపడుతుంది."
+        ],
+        [
+          "గత ఈవెంట్‌ను లెక్కించవచ్చా?",
+          "కాలిక్యులేటర్ గత తేదీని అనుమతించే చోట, ఫలితం ఎంచుకున్న తేదీని ప్రతిబింబిస్తుంది."
+        ],
+        [
+          "తేదీని జాగ్రత్తగా తనిఖీ చేయాలా?",
+          "అవును. తప్పు రోజు, నెల లేదా సంవత్సరం ఫలితాన్ని మార్చవచ్చు."
+        ],
+        [
+          "ఇది రిమైండర్లను భర్తీ చేస్తుందా?",
+          "లేదు. మీకు అలర్ట్ అవసరమైతే క్యాలెండర్ రిమైండర్‌ను ఉపయోగించండి."
+        ],
+        [
+          "ఇది ఉచితమా?",
+          "అవును, ఆన్‌లైన్ AgeVerseGlobal సాధనం కాలిక్యులేటర్ ఫీజు లేకుండా అందుబాటులో ఉంది."
+        ]
+      ],
+      "related": [
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ],
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "రిటైర్మెంట్ కాలిక్యులేటర్",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "కాలిక్యులేటర్ ఎలా పని చేస్తుందో అర్థం చేసుకోవడానికి ఈ ఉదాహరణలను అన్వేషించండి.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే మరియు నమోదు చేసిన విలువలు మరియు తేదీలను బట్టి మారవచ్చు.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "ఈ కాలిక్యులేటర్ గురించి సాధారణ ప్రశ్నలకు సమాధానాలను కనుగొనండి.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని లెక్కలు మరియు ప్రణాళిక కోసం ఈ సంబంధిత సాధనాలను అన్వేషించండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "retirement": {
+      "name": "RetirementCalculatorSEOContent",
+      "eyebrow": "రిటైర్మెంట్ ప్లానింగ్ గైడ్",
+      "title": "రిటైర్మెంట్ కాలిక్యులేటర్: మీ రిటైర్మెంట్ తేదీ మరియు మిగిలిన సమయాన్ని లెక్కించండి",
+      "intro": "మీ పుట్టిన తేదీ, చేరిన తేదీ మరియు ఎంచుకున్న రిటైర్మెంట్ వయస్సును ఉపయోగించి రిటైర్మెంట్ మైలురాయిని అంచనా వేయండి. అధికారిక సేవా నియమాలను విడిగా ధృవీకరించండి.",
+      "sections": [
+        [
+          "రిటైర్మెంట్ కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "రిటైర్మెంట్ కాలిక్యులేటర్ వ్యక్తిగత మరియు ఉపాధి సంబంధిత తేదీలు మరియు లక్ష్య రిటైర్మెంట్ వయస్సు నుండి రిటైర్మెంట్ తేదీని అంచనా వేస్తుంది. అంచనా వేసిన తేదీ వరకు మిగిలిన సమయాన్ని అర్థం చేసుకోవడానికి ఇది సహాయపడుతుంది.",
+            "వాస్తవ రిటైర్మెంట్ యజమాని విధానం, సేవా నియమాలు, అధికార పరిధి మరియు వ్యక్తిగత పరిస్థితులపై ఆధారపడి ఉంటుంది."
+          ]
+        ],
+        [
+          "AgeVerseGlobal రిటైర్మెంట్ కాలిక్యులేటర్‌ను ఎలా ఉపయోగించాలి",
+          [
+            "మీ పుట్టిన తేదీ మరియు చేరిన తేదీని నమోదు చేయండి, మీ ప్రణాళిక లేదా సేవా నియమాలకు సంబంధించిన రిటైర్మెంట్ వయస్సును ఎంచుకోండి, ఆపై అంచనా వేసిన తేదీని లెక్కించి సమీక్షించండి."
+          ]
+        ],
+        [
+          "రిటైర్మెంట్ తేదీ ఎలా అంచనా వేయబడుతుంది?",
+          [
+            "ప్రాథమిక అంచనా ఎంచుకున్న రిటైర్మెంట్ వయస్సును పుట్టిన తేదీకి జోడిస్తుంది. చేరిన తేదీ ఉపాధి సందర్భానికి సంబంధించినది కావచ్చు, కానీ అధికారిక నియమాలు వేరే సంప్రదాయాన్ని పేర్కొనవచ్చు.",
+            "మీ యజమాని లేదా సంబంధిత అధికారంతో తుది తేదీని నిర్ధారించండి, ముఖ్యంగా రిటైర్మెంట్ నెల చివరి లేదా సేవా నియమాల ద్వారా నిర్ణయించబడితే."
+          ]
+        ],
+        [
+          "AgeVerseGlobal రిటైర్మెంట్ కాలిక్యులేటర్‌ను ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "ప్రాథమిక కెరీర్ ప్రణాళిక కోసం మరియు HR లేదా పెన్షన్ కార్యాలయానికి ప్రశ్నలను సిద్ధం చేయడానికి AgeVerseGlobal రిటైర్మెంట్ కాలిక్యులేటర్‌ను ఉపయోగించండి. అంచనాను అధికారిక సేవా నిర్ణయంగా పరిగణించవద్దు."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "పుట్టిన తేదీ",
+          "1 జూలై 1966",
+          "ఉదాహరణ ఇన్‌పుట్"
+        ],
+        [
+          "ఎంచుకున్న రిటైర్మెంట్ వయస్సు",
+          "60 సంవత్సరాలు",
+          "వినియోగదారు ఎంచుకున్న విలువ"
+        ],
+        [
+          "అంచనా మైలురాయి",
+          "1 జూలై 2026",
+          "అధికారిక నియమాలు భిన్నంగా ఉండవచ్చు"
+        ]
+      ],
+      "features": [
+        [
+          "తేదీ ఆధారిత అంచనా",
+          "పుట్టిన తేదీ నుండి రిటైర్మెంట్ వయస్సును జోడించడం ద్వారా అంచనా వేయండి."
+        ],
+        [
+          "మిగిలిన సమయం",
+          "అంచనా తేదీ వరకు ఎంత సమయం ఉందో చూడండి."
+        ],
+        [
+          "సులభమైన ఇన్‌పుట్‌లు",
+          "పుట్టిన తేదీ, చేరిన తేదీ మరియు రిటైర్మెంట్ వయస్సును నమోదు చేయండి."
+        ],
+        [
+          "ప్రణాళిక మద్దతు",
+          "ప్రాథమిక కెరీర్ ప్రణాళిక కోసం ఉపయోగించండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "నేను మరొక రిటైర్మెంట్ వయస్సును ఎంచుకోవచ్చా?",
+          "అవును, మీ ప్రణాళిక లేదా సేవా నియమాలకు అనుగుణంగా వేరే వయస్సును ఎంచుకోవచ్చు."
+        ],
+        [
+          "నియమాలు తేదీని మార్చగలవా?",
+          "అవును, యజమాని విధానం, నెల చివరి నియమాలు లేదా సేవా నియమాలు తుది తేదీని ప్రభావితం చేయవచ్చు."
+        ],
+        [
+          "ఇది అధికారిక నిర్ణయమా?",
+          "లేదు, ఇది అంచనా మాత్రమే. అధికారిక నిర్ధారణ కోసం మీ యజమానిని సంప్రదించండి."
+        ],
+        [
+          "ఇది ఉచితమా?",
+          "అవును, AgeVerseGlobal రిటైర్మెంట్ సాధనం ఉచితంగా అందుబాటులో ఉంది."
+        ],
+        [
+          "ఇది ఆర్థిక సలహానా?",
+          "కాదు. ఇది తేదీలను ప్రణాళిక చేయడానికి ఉపయోగించే సాధనం మాత్రమే; ఆర్థిక లేదా న్యాయ సలహా కాదు."
+        ]
+      ],
+      "related": [
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ],
+        [
+          "ఈవెంట్ కాలిక్యులేటర్",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఈ ఉదాహరణలు రిటైర్మెంట్ అంచనా ఎలా పని చేస్తుందో చూపుతాయి.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే, అధికారిక నియమాలు భిన్నంగా ఉండవచ్చు.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "రిటైర్మెంట్ లెక్కల గురించి సాధారణ ప్రశ్నలకు సమాధానాలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని తేదీ మరియు ప్రణాళిక లెక్కల కోసం ఈ సాధనాలను ఉపయోగించండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "sip": {
+      "name": "SIPCalculatorSEOContent",
+      "eyebrow": "SIP ప్లానింగ్ గైడ్",
+      "title": "SIP కాలిక్యులేటర్: మీ SIP పెట్టుబడి భవిష్యత్తు విలువను అంచనా వేయండి",
+      "intro": "AgeVerseGlobal SIP కాలిక్యులేటర్ క్రమం తప్పని పెట్టుబడులు మరియు అంచనా రిటర్న్ ఆధారంగా భవిష్యత్తు విలువను అంచనా వేస్తుంది. వాస్తవ రిటర్న్‌లు మారవచ్చు.",
+      "sections": [
+        [
+          "SIP కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "SIP అంచనా ఆవర్తన రిటర్న్ అంచనాను క్రమం తప్పని పెట్టుబడుల శ్రేణికి వర్తిస్తుంది. ఫలితం పెట్టుబడి మొత్తం, ఫ్రీక్వెన్సీ, వ్యవధి మరియు అంచనా రిటర్న్‌పై ఆధారపడుతుంది.",
+            "Mutual fund returns are market-linked and not guaranteed."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "నెలవారీ పెట్టుబడి మొత్తం, వ్యవధి మరియు అంచనా రిటర్న్ రేటు నమోదు చేయండి, ఆపై లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "దీర్ఘకాల పెట్టుబడి ప్రణాళిక మరియు లక్ష్యాలను పోల్చడానికి ఉపయోగించండి. ఇది హామీ కాదు.",
+            "Actual outcomes vary because markets fluctuate and costs or taxes may apply."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal SIP కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal SIP కాలిక్యులేటర్ to explore investment scenarios and set a savings target. Consider goals, risk tolerance and personal circumstances before investing."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "నెలవారీ చందా",
+          "₹1,000",
+          "ఉదాహరణ పరిస్థితి"
+        ],
+        [
+          "పెట్టుబడి కాలం",
+          "5 years",
+          "ఉదాహరణ పరిస్థితి"
+        ],
+        [
+          "ఆశించిన రాబడి",
+          "ఊహ మాత్రమే",
+          "హామీ లేదు"
+        ]
+      ],
+      "features": [
+        [
+          "క్రమం తప్పని పెట్టుబడి",
+          "నెలవారీ పెట్టుబడుల ప్రభావాన్ని చూడండి."
+        ],
+        [
+          "రిటర్న్ అంచనా",
+          "అంచనా రేటుతో భవిష్యత్తు విలువ."
+        ],
+        [
+          "లక్ష్య ప్రణాళిక",
+          "వివిధ వ్యవధులను పోల్చండి."
+        ],
+        [
+          "సులభ వాడకం",
+          "విలువలను నమోదు చేసి ఫలితం చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "SIP రిటర్న్‌లు హామీనా?",
+          "లేదు, మార్కెట్ హెచ్చుతగ్గులు మరియు ఖర్చులపై ఆధారపడుతుంది."
+        ],
+        [
+          "నేను ఏ రాబడి రేటును నమోదు చేయాలి?",
+          "వివిధ పరిస్థితులను అంచనా వేయడానికి ఒక ఊహాత్మక రాబడి రేటును ఉపయోగించండి. ఇది హామీ ఇవ్వబడిన రాబడి కాదు."
+        ],
+        [
+          "పన్నులు మరియు ఫీజులు లెక్కలో చేర్చబడతాయా?",
+          "కాదు. పన్నులు మరియు ఫీజులు ఈ లెక్కలో చేర్చబడవు; అవసరమైతే వాటిని విడిగా లెక్కించాలి."
+        ],
+        [
+          "ఎక్కువ కాలం పెట్టుబడి పెట్టడం ఫలితాన్ని మార్చగలదా?",
+          "అవును. ఊహించిన రాబడి రేటు ప్రకారం ఎక్కువ కాలం పెట్టుబడి పెట్టడం మరియు మరిన్ని చెల్లింపులు చేయడం అంచనా మొత్తాన్ని మార్చగలవు."
+        ],
+        [
+          "ఇది పెట్టుబడి సలహానా?",
+          "కాదు. ఇది అంచనాలను లెక్కించడానికి ఉపయోగించే సాధనం మాత్రమే; వ్యక్తిగత పెట్టుబడి సలహా కాదు."
+        ]
+      ],
+      "related": [
+        [
+          "FD కాలిక్యులేటర్",
+          "/utility/fd-calculator"
+        ],
+        [
+          "RD కాలిక్యులేటర్",
+          "/utility/rd-calculator"
+        ],
+        [
+          "EMI కాలిక్యులేటర్",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "SIP ఎలా పని చేస్తుందో ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు అంచనా మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "SIP గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "percentage": {
+      "name": "PercentageCalculatorSEOContent",
+      "eyebrow": "శాతం లెక్కింపు గైడ్",
+      "title": "శాతం కాలిక్యులేటర్: శాతం, విలువ మరియు తేడాను సులభంగా లెక్కించండి",
+      "intro": "AgeVerseGlobal శాతం కాలిక్యులేటర్ సంపూర్ణంలో ఒక భాగాన్ని 100 లో భాగంగా వ్యక్తపరుస్తుంది.",
+      "sections": [
+        [
+          "శాతం కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "శాతం అనేది 100 లో భాగం. సంఖ్యలో శాతాన్ని కనుగొనడానికి ఉపయోగిస్తారు.",
+            "Percentages are used in discounts, marks, budgets, taxes and comparisons."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "ఆపరేషన్ ఎంచుకోండి, విలువలు నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "మార్కులు, డిస్కౌంట్, వడ్డీ లెక్కలకు ఉపయోగించండి.",
+            "To express one value as a percentage of another, divide the part by the whole and multiply by 100. The whole must not be zero."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal శాతం కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal శాతం కాలిక్యులేటర్ for discounts, exam scores, increases or decreases, budgeting, business metrics and comparing quantities. Confirm which formula your task requires."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "500లో 20%",
+          "500 × 20 ÷ 100",
+          "100"
+        ],
+        [
+          "60లో 45",
+          "45 ÷ 60 × 100",
+          "75%"
+        ],
+        [
+          "200ను 10% పెంచండి",
+          "200 + 20",
+          "220"
+        ]
+      ],
+      "features": [
+        [
+          "సాధారణ లెక్కలు",
+          "శాతం, విలువ, తేడా."
+        ],
+        [
+          "వేగవంతమైన ఫలితం",
+          "తక్షణ లెక్క."
+        ],
+        [
+          "రోజువారీ ఉపయోగం",
+          "పరీక్షలు, షాపింగ్."
+        ],
+        [
+          "స్పష్టమైన ఇన్‌పుట్‌లు",
+          "సులభంగా నమోదు."
+        ]
+      ],
+      "faqs": [
+        [
+          "శాతం పెరుగుదలను లెక్కించవచ్చా?",
+          "అవును, ఎంపికలను బట్టి పెరుగుదలను లెక్కించవచ్చు."
+        ],
+        [
+          "ఒక సంఖ్య మరొక సంఖ్యలో ఎంత శాతమో ఎలా కనుగొనాలి?",
+          "మొత్తం సున్నా కాకపోతే, భాగాన్ని మొత్తంతో భాగించి 100తో గుణించండి."
+        ],
+        [
+          "నేను శాతం పెరుగుదలను లెక్కించవచ్చా?",
+          "అందుబాటులో ఉన్న సంబంధిత ఎంపికను ఉపయోగించండి లేదా మార్పును అసలు విలువతో పోల్చండి."
+        ],
+        [
+          "ఫలితంలో దశాంశాలు ఎందుకు కనిపిస్తాయి?",
+          "కొన్ని లెక్కల్లో భిన్న విలువలు వస్తాయి; చూపించే దశాంశాల సంఖ్య ఆధారంగా ఫలితం రౌండ్ చేయబడుతుంది."
+        ],
+        [
+          "AgeVerseGlobalలో శాతం కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal Percentage Calculator‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "డిస్కౌంట్ కాలిక్యులేటర్",
+          "/utility/discount-calculator"
+        ],
+        [
+          "GST కాలిక్యులేటర్",
+          "/utility/gst-calculator"
+        ],
+        [
+          "యూనిట్ కన్వర్టర్",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "శాతం గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "pregnancy": {
+      "name": "PregnancyCalculatorSEOContent",
+      "eyebrow": "గర్భధారణ సమయ గైడ్",
+      "title": "గర్భధారణ కాలిక్యులేటర్: గడువు తేదీ మరియు మైలురాళ్లను అంచనా వేయండి",
+      "intro": "AgeVerseGlobal గర్భధారణ కాలిక్యులేటర్ చివరి రుతుక్రమం మొదటి రోజు వంటి తేదీల నుండి గర్భధారణ సమయాన్ని అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "గర్భధారణ కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "సాధారణ అంచనా చివరి రుతుక్రమం మొదటి రోజు నుండి సుమారు 40 వారాలు లెక్కిస్తుంది. ఇది సాధారణ సంప్రదాయం, డెలివరీ తేదీకి హామీ కాదు.",
+            "Pregnancy dating can vary with cycle length, ovulation timing, ultrasound findings and clinical history."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "అందించే తేదీ పద్ధతిని ఎంచుకోండి, అడిగిన తేదీని జాగ్రత్తగా నమోదు చేయండి, అంచనా వేయండి, ఆపై ఆరోగ్య నిపుణుడితో చర్చించండి."
+          ]
+        ],
+        [
+          "గడువు తేదీ ఖచ్చితమైనదా?",
+          [
+            "గడువు తేదీ ఖచ్చితమైనది కాదు. క్లినికల్ వివరాల ఆధారంగా వైద్యుడు అంచనాను సర్దుబాటు చేయవచ్చు.",
+            "A clinician may adjust the estimate based on cycle details and clinical findings."
+          ]
+        ],
+        [
+          "ఎప్పుడు వైద్యుడిని సంప్రదించాలి?",
+          [
+            "ప్రశ్నలు లేదా ఆందోళనల కోసం ఆరోగ్య నిపుణుడితో చర్చించండి. ఇది వైద్య నిర్ణయాన్ని భర్తీ చేయదు."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "చివరి రుతుక్రమం",
+          "1 జనవరి 2025",
+          "అంచనా గడువు"
+        ],
+        [
+          "గర్భధారణ వారం",
+          "12 వారాలు",
+          "మైలురాయి"
+        ],
+        [
+          "Clinical assessment",
+          "Healthcare provider review",
+          "Follow professional guidance"
+        ]
+      ],
+      "features": [
+        [
+          "సమయ అంచనా",
+          "మద్దతు ఉన్న ఇన్‌పుట్‌ల నుండి సుమారు సమయం."
+        ],
+        [
+          "మైలురాయి అవగాహన",
+          "సంబంధిత మైలురాళ్లను అర్థం చేసుకోండి."
+        ],
+        [
+          "జాగ్రత్త గమనిక",
+          "వైద్య సలహాను భర్తీ చేయదు."
+        ],
+        [
+          "సులభ వాడకం",
+          "తేదీ నమోదు చేసి ఫలితం చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "వైద్యుడు తేదీని మార్చగలరా?",
+          "అవును, సైకిల్ వివరాలు మరియు క్లినికల్ ఫలితాల ఆధారంగా వైద్యుడు సర్దుబాటు చేయవచ్చు."
+        ],
+        [
+          "నేను ఏ తేదీని నమోదు చేయాలి?",
+          "క్యాలిక్యులేటర్ అడిగిన తేదీని నమోదు చేయండి. ఆ పద్ధతి అందుబాటులో ఉంటే, చివరి నెలసరి ప్రారంభ తేదీని ఉపయోగించండి."
+        ],
+        [
+          "వైద్య నిపుణుడు తేదీని మార్చగలరా?",
+          "అవును. వైద్య సమాచారం మరియు అల్ట్రాసౌండ్ ఫలితాల వల్ల అంచనా తేదీ మారవచ్చు."
+        ],
+        [
+          "నేను వైద్య నిర్ణయాల కోసం దీనిని ఉపయోగించవచ్చా?",
+          "కాదు. ఇది సాధారణ సమాచారానికే ఉపయోగించాలి; వైద్య నిర్ణయాల కోసం మీ ఆరోగ్య సంరక్షణ నిపుణుడి సలహాను అనుసరించండి."
+        ],
+        [
+          "నేను ఎప్పుడు అత్యవసర వైద్య సహాయం పొందాలి?",
+          "తీవ్రమైన నొప్పి, అధిక రక్తస్రావం, మూర్ఛ లేదా ఇతర తీవ్రమైన లక్షణాలు ఉంటే వెంటనే అత్యవసర వైద్య సహాయం పొందండి."
+        ]
+      ],
+      "related": [
+        [
+          "సమగ్ర ఆరోగ్య ప్రొఫైల్",
+          "/health-profile"
+        ],
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు అంచనా మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "గర్భధారణ గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "health_profile": {
+      "name": "HealthProfileCalculatorSEOContent",
+      "eyebrow": "ఆరోగ్య ప్రొఫైల్ గైడ్",
+      "title": "సమగ్ర ఆరోగ్య ప్రొఫైల్: BMI • BMR • కేలరీలు • నీరు • పోషకాహారం",
+      "intro": "AgeVerseGlobal ఆరోగ్య ప్రొఫైల్ కాలిక్యులేటర్ ఎంచుకున్న వ్యక్తిగత కొలతలను ఒకచోట చేర్చి సాధారణ సూచికలను అందిస్తుంది.",
+      "sections": [
+        [
+          "ఆరోగ్య ప్రొఫైల్ అంటే ఏమిటి?",
+          [
+            "లెక్కించిన సూచికలు రోగ నిర్ధారణ కాదు. వ్యక్తిగత ఆరోగ్యం సాధారణ కాలిక్యులేటర్ పూర్తిగా అంచనా వేయలేని అనేక అంశాలపై ఆధారపడుతుంది.",
+            "Calculated indicators are not a diagnosis. Individual health depends on many factors that a simple calculator cannot fully assess."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "వయస్సు మరియు ఇతర అడిగిన ఫీల్డ్‌లను నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు వైద్యుడిని సంప్రదించాలి?",
+          [
+            "లక్షణాలు, నివారణ సంరక్షణ, ఆహారం లేదా ఆరోగ్య ప్రశ్నల కోసం ఆరోగ్య నిపుణుడిని సంప్రదించండి.",
+            "If a result concerns you or you have symptoms, consult a healthcare professional."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal సమగ్ర ఆరోగ్య ప్రొఫైల్?",
+          [
+            "Use AgeVerseGlobal సమగ్ర ఆరోగ్య ప్రొఫైల్ for general awareness, organising measurements or preparing for a healthcare appointment. Do not use it to diagnose a condition, change medication or delay urgent care."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "బిఎంఐ",
+          "వయస్సు మరియు కొలతలు",
+          "సూచిక"
+        ],
+        [
+          "బిఎంఆర్",
+          "వయస్సు మరియు లింగం",
+          "అంచనా కేలరీలు"
+        ],
+        [
+          "Displayed result",
+          "General information",
+          "Discuss concerns with a health advisor/ professional"
+        ]
+      ],
+      "features": [
+        [
+          "బహుళ సూచికలు",
+          "BMI, BMR, కేలరీలు, నీరు."
+        ],
+        [
+          "అవగాహన",
+          "ఆరోగ్య అవగాహనకు మద్దతు."
+        ],
+        [
+          "స్పష్టమైన పరిమితులు",
+          "రోగ నిర్ధారణ కాదు."
+        ],
+        [
+          "సులభ వాడకం",
+          "విలువలు నమోదు చేసి చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "ఇది వైద్యుడిని భర్తీ చేస్తుందా?",
+          "లేదు, ఇది అవగాహన కోసం మాత్రమే."
+        ],
+        [
+          "ఫలితం గురించి ఆందోళన కలిగితే ఏమి చేయాలి?",
+          "అర్హత కలిగిన ఆరోగ్య నిపుణుడితో ఫలితాన్ని చర్చించండి."
+        ],
+        [
+          "ఇది వైద్య సలహానా?",
+          "కాదు. ఇది సాధారణ సమాచారం అందించే సాధనం మాత్రమే; వైద్య సలహా లేదా నిర్ధారణకు ప్రత్యామ్నాయం కాదు."
+        ],
+        [
+          "కొలతల యూనిట్లు ముఖ్యమా?",
+          "అవును. క్యాలిక్యులేటర్ కోరిన యూనిట్లలో కొలతలను నమోదు చేయండి."
+        ],
+        [
+          "ఇది వైద్య సలహానా?",
+          "కాదు. ఇది సమాచార ప్రయోజనాల కోసం మాత్రమే ఉపయోగించే సాధనం."
+        ]
+      ],
+      "related": [
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "గర్భధారణ కాలిక్యులేటర్",
+          "/pregnancy-calculator"
+        ],
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు సూచికలు మాత్రమే, రోగ నిర్ధారణ కాదు.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "ఆరోగ్య ప్రొఫైల్ గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "rd": {
+      "name": "RDCalculatorSEOContent",
+      "eyebrow": "RD ప్లానింగ్ గైడ్",
+      "title": "RD కాలిక్యులేటర్: రికరింగ్ డిపాజిట్ మెచ్యూరిటీని అంచనా వేయండి",
+      "intro": "AgeVerseGlobal RD కాలిక్యులేటర్ ఎంచుకున్న కాలంలో క్రమం తప్పని డిపాజిట్ల నుండి మెచ్యూరిటీ మొత్తాన్ని అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "RD కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "RD అంచనా అంచనా రేటు మరియు లెక్కింపు పద్ధతి కింద క్రమం తప్పని డిపాజిట్లను వడ్డీతో కలుపుతుంది. డిపాజిట్లు కాలక్రమేణా చేయబడతాయి కాబట్టి ప్రతి వాయిదా వేర్వేరు వ్యవధికి వడ్డీని పొందవచ్చు.",
+            "The actual maturity value depends on the bank’s calculation method, schedule, penalties and product terms."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "నెలవారీ డిపాజిట్, రేటు మరియు కాలాన్ని నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "రికరింగ్ డిపాజిట్ ప్రణాళిక మరియు పోలిక కోసం ఉపయోగించండి.",
+            "The bank’s actual method and terms determine the final amount."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal RD కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal RD కాలిక్యులేటర్ to plan regular savings, compare deposit tenures or estimate a goal amount before opening an RD. Confirm the terms with the bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Monthly deposit",
+          "₹500",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Tenure",
+          "1 year",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Interest rate",
+          "బ్యాంకు వడ్డీ రేటు",
+          "ప్రస్తుత ఆఫర్‌ను నిర్ధారించండి"
+        ]
+      ],
+      "features": [
+        [
+          "డిపాజిట్ పోలిక",
+          "డిపాజిట్ మొత్తాలు మరియు వ్యవధులను పోల్చండి."
+        ],
+        [
+          "వడ్డీ అవగాహన",
+          "నెలవారీ సహకారం, రేటు మరియు కాలం ప్రభావం."
+        ],
+        [
+          "ప్రణాళిక మద్దతు",
+          "పొదుపు ప్రణాళికకు సహాయం."
+        ],
+        [
+          "సులభ వాడకం",
+          "విలువలు నమోదు చేసి చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "కాలాలను పోల్చవచ్చా?",
+          "అవును, వేర్వేరు కాలాలను నమోదు చేసి ఫలితాలను పోల్చండి."
+        ],
+        [
+          "అన్ని డిపాజిట్లకు ఒకే కాలానికి వడ్డీ వస్తుందా?",
+          "కాదు. వేర్వేరు తేదీల్లో చేసిన డిపాజిట్లకు వేర్వేరు కాలాల పాటు వడ్డీ రావచ్చు."
+        ],
+        [
+          "జరిమానాలు కూడా లెక్కలో ఉన్నాయా?",
+          "కాదు. చెల్లించని వాయిదాలు లేదా ముందస్తు ఖాతా మూసివేతకు సంబంధించిన బ్యాంకు నియమాలను తనిఖీ చేయండి."
+        ],
+        [
+          "నేను డిపాజిట్ మొత్తాలను పోల్చవచ్చా?",
+          "అవును. నెలవారీ డిపాజిట్ మొత్తాన్ని మార్చి మళ్లీ లెక్కించి ఫలితాలను పోల్చండి."
+        ],
+        [
+          "AgeVerseGlobalలో RD కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal RD Calculator‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "FD కాలిక్యులేటర్",
+          "/utility/fd-calculator"
+        ],
+        [
+          "SIP కాలిక్యులేటర్",
+          "/utility/sip-calculator"
+        ],
+        [
+          "శాతం కాలిక్యులేటర్",
+          "/utility/percentage-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "RD ఎలా పని చేస్తుందో ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు అంచనా మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "RD గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "gst": {
+      "name": "GSTCalculatorSEOContent",
+      "eyebrow": "GST లెక్కింపు గైడ్",
+      "title": "GST కాలిక్యులేటర్: GST మొత్తాన్ని సులభంగా జోడించండి లేదా తీసివేయండి",
+      "intro": "AgeVerseGlobal GST కాలిక్యులేటర్ ధర మరియు ఎంచుకున్న రేటు కోసం GST మొత్తాన్ని అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "GST కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "GST కాలిక్యులేటర్ బేస్ మొత్తానికి GST జోడించగలదు లేదా పన్నుతో కూడిన మొత్తం నుండి GST ను వేరు చేయగలదు, మోడ్‌ను బట్టి.",
+            "Confirm the applicable rate and invoicing requirements for your transaction."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "మీరు నమోదు చేసిన ధరకు సరిపోయే మోడ్‌ను ఎంచుకోండి, రేటు ఎంచుకుని లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "ఇన్‌వాయిస్, ధర మరియు బడ్జెట్ తనిఖీల కోసం ఉపయోగించండి. పన్ను ఫైలింగ్ కోసం కాదు.",
+            "For an inclusive amount, the GST component is extracted from the total. The formula depends on whether the entered price already includes GST."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal GST కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal GST కాలిక్యులేటర్ for preliminary pricing, purchase comparisons and invoice checks. For official filing, verify the current rules and the correct rate for the goods or services."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "₹1,000 before GST",
+          "18%",
+          "₹180 GST; ₹1,180 total"
+        ],
+        [
+          "₹500 before GST",
+          "5%",
+          "₹25 GST; ₹525 total"
+        ],
+        [
+          "₹1,180 inclusive",
+          "18% included",
+          "Approx. ₹180 GST component"
+        ]
+      ],
+      "features": [
+        [
+          "GST జోడించు/తీసివేయి",
+          "ఎంచుకున్న రేటుతో లెక్కించండి."
+        ],
+        [
+          "రేటు ఎంపిక",
+          "వర్తించే రేటును ఎంచుకోండి."
+        ],
+        [
+          "ధర తనిఖీ",
+          "అదనపు ఫీజులకు ముందు ధరలను తనిఖీ చేయండి."
+        ],
+        [
+          "వ్యాపార మద్దతు",
+          "ఇన్‌వాయిస్ అవసరాలను నిర్ధారించండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "GST కాలిక్యులేటర్‌ను పన్ను ఫైలింగ్‌కు ఉపయోగించవచ్చా?",
+          "లేదు, ఇది అంచనా కోసం మాత్రమే. వర్తించే రేటు మరియు ఇన్‌వాయిస్ అవసరాలను నిర్ధారించండి."
+        ],
+        [
+          "GST కలిపిన ధరకు, GST విడిగా జోడించే ధరకు తేడా ఏమిటి?",
+          "GST విడిగా ఉంటే మూల ధరకు పన్ను జోడిస్తారు; GST కలిపి ఉంటే నమోదు చేసిన మొత్తం ధరలో పన్ను ఇప్పటికే ఉంటుంది."
+        ],
+        [
+          "AgeVerseGlobal GST Calculator‌ను పన్ను రిటర్న్ దాఖలు చేయడానికి ఉపయోగించవచ్చా?",
+          "దీనిని అంచనా కోసం మాత్రమే ఉపయోగించండి; పన్ను రిటర్న్ దాఖలు చేసే ముందు వర్తించే నియమాలను నిర్ధారించండి."
+        ],
+        [
+          "అన్ని ఉత్పత్తులకు GST రేటు ఒకటేనా?",
+          "కాదు. వస్తువులు, సేవలు మరియు ప్రస్తుతం అమలులో ఉన్న నియమాల ఆధారంగా GST రేట్లు మారవచ్చు."
+        ],
+        [
+          "AgeVerseGlobalలో GST కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal GST Calculator‌ను ఎలాంటి కాలిక్యులేటర్ రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "శాతం కాలిక్యులేటర్",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "EMI కాలిక్యులేటర్",
+          "/utility/emi-calculator"
+        ],
+        [
+          "డిస్కౌంట్ కాలిక్యులేటర్",
+          "/utility/discount-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "GST లెక్కల ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "GST గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "dog_age": {
+      "name": "DogAgeCalculatorSEOContent",
+      "eyebrow": "కుక్క వయస్సు లెక్కింపు గైడ్",
+      "title": "కుక్క వయస్సు కాలిక్యులేటర్: కుక్క వయస్సును మానవ వయస్సుతో పోల్చండి",
+      "intro": "AgeVerseGlobal కుక్క వయస్సు కాలిక్యులేటర్ కుక్క వయస్సు మరియు మానవ వయస్సు సమానమైనది మధ్య సుమారు పోలికను అందిస్తుంది.",
+      "sections": [
+        [
+          "కుక్క వయస్సు కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal కుక్క వయస్సు కాలిక్యులేటర్ కుక్క వయస్సు మరియు మానవ-వయస్సు సమానమైనది మధ్య సుమారు పోలికను అందిస్తుంది. కుక్కలు పరిమాణం, జాతి మరియు వ్యక్తిగత ఆరోగ్యాన్ని బట్టి వేర్వేరు రేటుతో పరిపక్వం చెందుతాయి.",
+            "A simple rule such as multiplying every dog year by seven is an oversimplification."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "కుక్క వయస్సు మరియు ఇతర అడిగిన ఫీల్డ్‌లను నమోదు చేయండి, మానవ వయస్సు గైడ్‌తో పోల్చండి."
+          ]
+        ],
+        [
+          "కుక్క వయస్సు నమూనాలు ఎలా భిన్నంగా ఉంటాయి?",
+          [
+            "ప్రతి కుక్క సంవత్సరాన్ని ఏడుతో గుణించడం వంటి సాధారణ నియమం అతి సరళీకరణ. వృద్ధాప్య నమూనాలు భిన్నంగా ఉంటాయి.",
+            "A veterinarian can provide more relevant guidance about your dog’s health and life stage."
+          ]
+        ],
+        [
+          "ఎప్పుడు పశువైద్యుడిని సంప్రదించాలి?",
+          [
+            "లక్షణాలు, నివారణ సంరక్షణ, ఆహారం లేదా వయస్సు సంబంధిత ఆరోగ్య ప్రశ్నల కోసం పశువైద్యుడిని సంప్రదించండి."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 సంవత్సరం వయస్సు కుక్క",
+          "చిన్న జాతి",
+          "వయోజన దశ"
+        ],
+        [
+          "5 సంవత్సరాల కుక్క",
+          "మధ్యస్థ జాతి",
+          "వయోజన దశ"
+        ],
+        [
+          "10 సంవత్సరాల కుక్క",
+          "పెద్ద జాతి",
+          "సీనియర్ దశ"
+        ]
+      ],
+      "features": [
+        [
+          "వయస్సు పోలిక",
+          "కుక్క వయస్సును మానవ వయస్సు గైడ్‌తో పోల్చండి."
+        ],
+        [
+          "జాతి అవగాహన",
+          "పరిమాణం మరియు జాతిని బట్టి పరిపక్వత భిన్నంగా ఉంటుంది."
+        ],
+        [
+          "ఆరోగ్య గమనిక",
+          "కుక్క ఆరోగ్యం గురించి పశువైద్యుడిని అడగండి."
+        ],
+        [
+          "సులభ వాడకం",
+          "వయస్సు నమోదు చేసి ఫలితం చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "ఇది నా కుక్క ఆరోగ్యాన్ని అంచనా వేయగలదా?",
+          "లేదు, ఇది వయస్సు పోలిక మాత్రమే. ఆరోగ్యం కోసం పశువైద్యుడిని సంప్రదించండి."
+        ],
+        [
+          "ఏడు రెట్లు నియమం ఖచ్చితమైనదా?",
+          "లేదు, ఇది అతి సరళీకరణ. కుక్కలు వేర్వేరు రేటుతో పరిపక్వం చెందుతాయి."
+        ],
+        [
+          "ఈ సాధనం నా కుక్క ఆరోగ్యాన్ని అంచనా వేయగలదా?",
+          "కాదు. ఇది వయస్సు యొక్క సుమారు పోలిక మాత్రమే; పశువైద్య పరీక్షకు ప్రత్యామ్నాయం కాదు."
+        ],
+        [
+          "నేను ఎప్పుడు పశువైద్యుడిని సంప్రదించాలి?",
+          "లక్షణాలు, నివారణ సంరక్షణ, ఆహారం లేదా వయస్సుకు సంబంధించిన ఆరోగ్య సందేహాల కోసం పశువైద్యుడిని సంప్రదించండి."
+        ],
+        [
+          "AgeVerseGlobalలో కుక్క వయస్సు కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal Dog Age Calculator‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "సమగ్ర ఆరోగ్య ప్రొఫైల్",
+          "/health-profile"
+        ],
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "ఈవెంట్ కాలిక్యులేటర్",
+          "/event-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "కుక్క వయస్సు పోలిక ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు సుమారు అంచనా మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "కుక్క వయస్సు గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "fd": {
+      "name": "FDCalculatorSEOContent",
+      "eyebrow": "FD ప్లానింగ్ గైడ్",
+      "title": "FD కాలిక్యులేటర్: ఫిక్స్‌డ్ డిపాజిట్ మెచ్యూరిటీ విలువను అంచనా వేయండి",
+      "intro": "AgeVerseGlobal FD కాలిక్యులేటర్ అసలు, రేటు, వ్యవధి మరియు కాంపౌండింగ్ పద్ధతి ఆధారంగా మెచ్యూరిటీ విలువను అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "FD కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal ఫిక్స్‌డ్ డిపాజిట్ కాలిక్యులేటర్ అసలు, రేటు, వ్యవధి మరియు సాధనం మద్దతు ఇచ్చే కాంపౌండింగ్ పద్ధతి ఆధారంగా డిపాజిట్ మెచ్యూరిటీ వద్ద ఎంత ఉండవచ్చో అంచనా వేస్తుంది.",
+            "Actual returns depend on bank terms, compounding, payout choice, taxes and premature-withdrawal rules."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "అసలు, రేటు, వ్యవధి మరియు కాంపౌండింగ్ ఫ్రీక్వెన్సీని నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "FD మొత్తాలను మరియు వ్యవధులను పోల్చడానికి ఉపయోగించండి. వాస్తవ రిటర్న్‌లు బ్యాంక్ నిబంధనలపై ఆధారపడి ఉంటాయి.",
+            "Confirm the rate, compounding frequency, taxes and maturity value with the bank."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal FD కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal FD కాలిక్యులేటర్ to compare deposit tenures and rates before opening or renewing a fixed deposit. Verify final figures with the bank."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Principal",
+          "₹50,000",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Interest rate",
+          "6.5% per year",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Tenure",
+          "1 year",
+          "Final value depends on product terms"
+        ]
+      ],
+      "features": [
+        [
+          "మెచ్యూరిటీ అంచనా",
+          "అసలు, రేటు, వ్యవధి ఆధారంగా అంచనా."
+        ],
+        [
+          "వ్యవధి పోలిక",
+          "వివిధ వ్యవధులను పోల్చండి."
+        ],
+        [
+          "బ్యాంక్ నిబంధనల అవగాహన",
+          "కాంపౌండింగ్ మరియు పన్ను వివరాలను నిర్ధారించండి."
+        ],
+        [
+          "సులభ వాడకం",
+          "విలువలు నమోదు చేసి చూడండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "డిపాజిట్ మొత్తాలను పోల్చవచ్చా?",
+          "అవును, వేర్వేరు మొత్తాలను నమోదు చేసి మెచ్యూరిటీని పోల్చండి."
+        ],
+        [
+          "పన్నులు చేర్చబడ్డాయా?",
+          "లేదు, బ్యాంక్ నిబంధనలు, పన్నులను విడిగా తనిఖీ చేయండి."
+        ],
+        [
+          "పన్ను కూడా ఇందులో ఉందా?",
+          "పన్ను విధానం వర్తించే నియమాలు మరియు క్యాలిక్యులేటర్ సౌకర్యాలపై ఆధారపడి ఉంటుంది; విడిగా నిర్ధారించండి."
+        ],
+        [
+          "నేను వేర్వేరు డిపాజిట్ కాలాలను పోల్చవచ్చా?",
+          "అవును. వేర్వేరు కాలాలు మరియు వడ్డీ రేట్లతో లెక్కించి ఫలితాలను పోల్చండి."
+        ],
+        [
+          "AgeVerseGlobalలో FD కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal FD Calculator‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "RD కాలిక్యులేటర్",
+          "/utility/rd-calculator"
+        ],
+        [
+          "SIP కాలిక్యులేటర్",
+          "/utility/sip-calculator"
+        ],
+        [
+          "EMI కాలిక్యులేటర్",
+          "/utility/emi-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "FD లెక్కల ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు అంచనా మాత్రమే, బ్యాంక్ నిబంధనలు భిన్నంగా ఉండవచ్చు.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "FD గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "emi": {
+      "name": "EMICalculatorSEOContent",
+      "eyebrow": "EMI ప్లానింగ్ గైడ్",
+      "title": "EMI కాలిక్యులేటర్: మీ నెలవారీ రుణ వాయిదాను అంచనా వేయండి",
+      "intro": "AgeVerseGlobal EMI కాలిక్యులేటర్ రుణం కోసం సమాన నెలవారీ వాయిదాను అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "EMI కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal EMI కాలిక్యులేటర్ రుణం కోసం సమాన నెలవారీ వాయిదాను అంచనా వేస్తుంది. ఇది సుమారు నెలవారీ చెల్లింపు మరియు ఎంచుకున్న కాలంలో మొత్తం చెల్లింపును అర్థం చేసుకోవడానికి సహాయపడుతుంది.",
+            "Actual costs can differ if lender fees, insurance or other conditions apply."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "రుణ మొత్తం, వడ్డీ రేటు మరియు కాలాన్ని నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎలా లెక్కించబడుతుంది?",
+          [
+            "ఎక్కువ కాలం తరచుగా నెలవారీ వాయిదాను తగ్గిస్తుంది కానీ మొత్తం వడ్డీని పెంచవచ్చు.",
+            "Processing fees, insurance, penalties or lender-specific adjustments may not be included."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "స్థోమతను తనిఖీ చేయడానికి మరియు వివిధ కాలాలను పోల్చడానికి ఉపయోగించండి. తుది నిబంధనలను రుణదాతతో నిర్ధారించండి."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "Loan amount",
+          "₹5,00,000",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Interest rate",
+          "10% per year",
+          "ఉదాహరణ కోసం ఇచ్చిన ఇన్‌పుట్"
+        ],
+        [
+          "Tenure",
+          "5 years",
+          "EMI depends on all inputs"
+        ]
+      ],
+      "features": [
+        [
+          "EMI అంచనా",
+          "నెలవారీ వాయిదాను అంచనా వేయండి."
+        ],
+        [
+          "మొత్తం చెల్లింపు",
+          "కాలంలో మొత్తం చెల్లింపును చూడండి."
+        ],
+        [
+          "కాల పోలిక",
+          "వివిధ కాలాలను పోల్చండి."
+        ],
+        [
+          "బడ్జెట్ ప్రణాళిక",
+          "స్థోమతను తనిఖీ చేయండి."
+        ]
+      ],
+      "faqs": [
+        [
+          "ఎక్కువ కాలం ఫలితాన్ని మార్చగలదా?",
+          "అవును, ఎక్కువ కాలం నెలవారీ వాయిదాను తగ్గిస్తుంది కానీ మొత్తం వడ్డీ పెరగవచ్చు."
+        ],
+        [
+          "జరిమానాలు చేర్చబడ్డాయా?",
+          "లేదు, ఫీజులు మరియు తుది నిబంధనలను రుణదాతతో నిర్ధారించండి."
+        ],
+        [
+          "రుణ కాలవ్యవధి EMIపై ఎలా ప్రభావం చూపుతుంది?",
+          "ఎక్కువ కాలవ్యవధి సాధారణంగా నెలవారీ వాయిదాను తగ్గిస్తుంది, కానీ మొత్తం వడ్డీని పెంచవచ్చు."
+        ],
+        [
+          "నేను ఏ వడ్డీ రేటును నమోదు చేయాలి?",
+          "కాలిక్యులేటర్ కోరిన విధంగా వడ్డీ రేటును నమోదు చేయండి; సాధారణంగా ఇది వార్షిక వడ్డీ రేటు."
+        ],
+        [
+          "ఇది ఉచితమా?",
+          "అవును. ఈ ఆన్‌లైన్ కాలిక్యులేటర్‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "GST కాలిక్యులేటర్",
+          "/utility/gst-calculator"
+        ],
+        [
+          "శాతం కాలిక్యులేటర్",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "SIP కాలిక్యులేటర్",
+          "/utility/sip-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "EMI లెక్కల ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు అంచనా మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "EMI గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "date_difference": {
+      "name": "DateDifferenceSEOContent",
+      "eyebrow": "తేదీ తేడా గైడ్",
+      "title": "తేదీ వ్యత్యాసం: ఏ రెండు తేదీల మధ్య ఖచ్చితమైన తేడాను కనుగొనండి",
+      "intro": "AgeVerseGlobal తేదీ వ్యత్యాసం రెండు వేర్వేరు తేదీల మధ్య గడిచిన సమయాన్ని కనుగొంటుంది.",
+      "sections": [
+        [
+          "తేదీ వ్యత్యాసం అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal తేదీ వ్యత్యాసం రెండు వేర్వేరు తేదీల మధ్య గడిచిన సమయాన్ని కనుగొంటుంది. ఫలితంలో సంవత్సరాలు, నెలలు, రోజులు లేదా మొత్తం రోజులు ఉండవచ్చు.",
+            "The calculator validates both dates and helps you compare them without manually counting every calendar day."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "ప్రారంభ తేదీ మరియు ముగింపు తేదీని నమోదు చేయండి, లెక్కించండి."
+          ]
+        ],
+        [
+          "ఎలా లెక్కించబడుతుంది?",
+          [
+            "క్యాలెండర్ తేడా పుట్టిన తేదీని ముగింపు తేదీతో పోల్చడం ద్వారా లెక్కించబడుతుంది. ముగింపు రోజు చిన్నదైతే మునుపటి నెల నుండి రోజులు అప్పుగా తీసుకోబడతాయి.",
+            "For example, 1 March to 11 March is 10 elapsed days when the start date is not counted as a full elapsed day. Some official deadlines use inclusive counting, so follow the applicable rules."
+          ]
+        ],
+        [
+          "ఎవరు ఉపయోగించవచ్చు?",
+          [
+            "విద్యార్థులు, కుటుంబాలు, ఉద్యోగులు ఎవరైనా ఉపయోగించవచ్చు."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 March 2026",
+          "11 March 2026",
+          "10 elapsed days"
+        ],
+        [
+          "1 January 2025",
+          "1 January 2026",
+          "365 elapsed days"
+        ],
+        [
+          "1 January 2024",
+          "1 January 2025",
+          "366 elapsed days (leap year)"
+        ]
+      ],
+      "features": [
+        [
+          "క్యాలెండర్ అవగాహన",
+          "లీపు సంవత్సరాలను పరిగణిస్తుంది."
+        ],
+        [
+          "సులభ వర్క్‌ఫ్లో",
+          "రెండు తేదీలు నమోదు చేయండి."
+        ],
+        [
+          "మొత్తం సమయం",
+          "మొత్తం నెలలు, వారాలు చూడండి."
+        ],
+        [
+          "రోజువారీ ఉపయోగం",
+          "ప్రణాళిక కోసం."
+        ]
+      ],
+      "faqs": [
+        [
+          "AgeVerseGlobal తేదీల మధ్య వ్యత్యాస క్యాలిక్యులేటర్ భవిష్యత్తు తేదీలను అనుమతిస్తుందా?",
+          "అవును. గత తేదీలు, భవిష్యత్తు తేదీలు లేదా ఈ రెండింటి కలయికను పోల్చవచ్చు."
+        ],
+        [
+          "AgeVerseGlobal తేదీల మధ్య వ్యత్యాస క్యాలిక్యులేటర్ లీపు సంవత్సరాలను పరిగణనలోకి తీసుకుంటుందా?",
+          "అవును. వర్తించే సందర్భాల్లో గడిచిన రోజుల లెక్కలో లీపు సంవత్సరంలోని అదనపు రోజులు కూడా చేరుతాయి."
+        ],
+        [
+          "ప్రారంభ తేదీని కూడా లెక్కిస్తారా?",
+          "గడిచిన రోజుల వ్యత్యాసం సాధారణంగా ప్రారంభ తేదీ తర్వాతి సమయాన్ని కొలుస్తుంది. గడువులో ప్రారంభ రోజును కూడా లెక్కించాల్సి ఉంటే సంబంధిత నియమాలను అనుసరించండి."
+        ],
+        [
+          "నేను తేదీలను వ్యతిరేక క్రమంలో నమోదు చేయవచ్చా?",
+          "అవును. ఏ తేదీని ముందుగా నమోదు చేసినా కాలిక్యులేటర్ రెండు తేదీల మధ్య తేడాను లెక్కిస్తుంది."
+        ],
+        [
+          "AgeVerseGlobalలో తేదీ వ్యత్యాసంను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal Date Difference Calculator‌ను ఆన్‌లైన్‌లో ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ],
+        [
+          "ఈవెంట్ కాలిక్యులేటర్",
+          "/event-calculator"
+        ],
+        [
+          "రిటైర్మెంట్ కాలిక్యులేటర్",
+          "/retirement-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఉదాహరణలను చూడండి.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "సాధారణ ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "discount": {
+      "name": "DiscountSEOContent",
+      "eyebrow": "డిస్కౌంట్ లెక్కింపు గైడ్",
+      "title": "డిస్కౌంట్ కాలిక్యులేటర్: డిస్కౌంట్, పొదుపు మరియు తుది అమ్మకపు ధరను త్వరగా లెక్కించండి",
+      "intro": "AgeVerseGlobal డిస్కౌంట్ కాలిక్యులేటర్ శాతం డిస్కౌంట్ ద్వారా ధర ఎంత తగ్గిందో అంచనా వేస్తుంది.",
+      "sections": [
+        [
+          "డిస్కౌంట్ కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "డిస్కౌంట్ కాలిక్యులేటర్ ధర తగ్గింపును లెక్కిస్తుంది.",
+            "The final price can differ if taxes, delivery charges, coupons or other offers apply separately."
+          ]
+        ],
+        [
+          "ఎలా లెక్కించాలి?",
+          [
+            "డిస్కౌంట్ మొత్తం = అసలు ధర × శాతం ÷ 100."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "షాపింగ్ ఆఫర్లను పోల్చడానికి.",
+            "For example, a 20% discount on ₹1,000 saves ₹200, leaving ₹800 before additional charges."
+          ]
+        ],
+        [
+          "When Should You Use AgeVerseGlobal డిస్కౌంట్ కాలిక్యులేటర్?",
+          [
+            "Use AgeVerseGlobal డిస్కౌంట్ కాలిక్యులేటర్ when comparing sale prices, checking offers, planning a shopping budget or verifying advertised savings. Read offer terms for exclusions and extra charges."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "₹1,000 original price",
+          "10% discount",
+          "₹100 off; ₹900"
+        ],
+        [
+          "₹2,500 original price",
+          "20% discount",
+          "₹500 off; ₹2,000"
+        ],
+        [
+          "₹800 original price",
+          "25% discount",
+          "₹200 off; ₹600"
+        ]
+      ],
+      "features": [
+        [
+          "వేగవంతమైన లెక్క",
+          "త్వరగా లెక్కించండి."
+        ],
+        [
+          "పొదుపు అవగాహన",
+          "ఎంత ఆదా అవుతుందో చూడండి."
+        ],
+        [
+          "ఆఫర్ పోలిక",
+          "వివిధ రేట్లను పోల్చండి."
+        ],
+        [
+          "రోజువారీ ఉపయోగం",
+          "షాపింగ్ కోసం."
+        ]
+      ],
+      "faqs": [
+        [
+          "డిస్కౌంట్ మొత్తాన్ని ఎలా లెక్కించాలి?",
+          "అసలు ధరను డిస్కౌంట్ శాతంతో గుణించి, వచ్చిన మొత్తాన్ని 100తో భాగించండి."
+        ],
+        [
+          "డిస్కౌంట్ చేసిన ధరలో GST ఉంటుందా?",
+          "తప్పనిసరిగా కాదు. పన్ను చేర్చడం ధర నిర్ణయ విధానం మరియు విక్రేతపై ఆధారపడి ఉంటుంది."
+        ],
+        [
+          "నేను రెండు ఆఫర్లను పోల్చవచ్చా?",
+          "అవును. ప్రతి ఆఫర్‌కు అసలు ధర మరియు డిస్కౌంట్ శాతాన్ని నమోదు చేసి లెక్కించండి."
+        ],
+        [
+          "డిస్కౌంట్ తర్వాత కూపన్ వర్తిస్తే ఏమి చేయాలి?",
+          "ఆఫర్ నిబంధనలను అనుసరించండి; కూపన్ నియమాల కోసం విడిగా లెక్కించాల్సి రావచ్చు."
+        ],
+        [
+          "AgeVerseGlobalలో డిస్కౌంట్ కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal Discount Calculator‌ను ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "GST కాలిక్యులేటర్",
+          "/utility/gst-calculator"
+        ],
+        [
+          "శాతం కాలిక్యులేటర్",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "యూనిట్ కన్వర్టర్",
+          "/utility/unit-converter"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "ఉదాహరణలు చూడండి.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "సాధారణ ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "ఉదాహరణ",
+        "ఇన్‌పుట్",
+        "ఫలితం"
+      ]
+    },
+    "unit_converter": {
+      "name": "UnitConverterSEOContent",
+      "eyebrow": "యూనిట్ కన్వర్షన్ గైడ్",
+      "title": "యూనిట్ కన్వర్టర్: కొలతలను ఒక యూనిట్ నుండి మరొక యూనిట్‌కు మార్చండి",
+      "intro": "AgeVerseGlobal యూనిట్ కన్వర్టర్‌తో సపోర్ట్ చేయబడిన కేటగిరీలో కొలతను ఒక యూనిట్ నుండి మరొక యూనిట్‌కు మార్చండి.",
+      "sections": [
+        [
+          "యూనిట్ కన్వర్టర్ అంటే ఏమిటి?",
+          [
+            "AgeVerseGlobal యూనిట్ కన్వర్టర్ కొలతను ఒక యూనిట్ నుండి మరొక యూనిట్‌కు మారుస్తుంది, పొడవు, ద్రవ్యరాశి, ఉష్ణోగ్రత లేదా ఇతర అందుబాటులో ఉన్న కొలత రకాలు వంటి సపోర్ట్ చేయబడిన కేటగిరీలో.",
+            "The converted value represents the same quantity expressed in a different unit."
+          ]
+        ],
+        [
+          "ఎలా పని చేస్తుంది?",
+          [
+            "AgeVerseGlobal యూనిట్ కన్వర్టర్ మార్పిడి కారకం లేదా సూత్రాన్ని ఉపయోగిస్తుంది. కొన్ని కేటగిరీలు గుణకాన్ని ఉపయోగిస్తాయి, ఉష్ణోగ్రత మార్పిడులకు ఆఫ్‌సెట్ కూడా అవసరం."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "కొలత కేటగిరీని ఎంచుకోండి, విలువను నమోదు చేయండి, మూలం మరియు లక్ష్య యూనిట్లను ఎంచుకోండి, ఆపై మార్చండి మరియు ఫలితం మరియు యూనిట్ చిహ్నాలను సమీక్షించండి.",
+            "Choose units from the same measurement category for a meaningful conversion."
+          ]
+        ],
+        [
+          "ఎప్పుడు ఉపయోగించాలి?",
+          [
+            "మాన్యువల్‌గా మార్పిడి సూత్రాలను వర్తించకుండా ఉండటానికి మరియు అదే కొలత కేటగిరీలోని యూనిట్లను పోల్చడానికి ఉపయోగించండి."
+          ]
+        ]
+      ],
+      "examples": [
+        [
+          "1 kilometre",
+          "1000 metres",
+          "Length"
+        ],
+        [
+          "1 kilogram",
+          "1000 grams",
+          "Mass"
+        ],
+        [
+          "1 hour",
+          "60 minutes",
+          "Time"
+        ]
+      ],
+      "features": [
+        [
+          "బహుళ కేటగిరీలు",
+          "సాధనంలో అందుబాటులో ఉన్న కేటగిరీల నుండి ఎంచుకోండి."
+        ],
+        [
+          "యూనిట్ చిహ్నాలు",
+          "ఫలితం మరియు యూనిట్ చిహ్నాలను సమీక్షించండి."
+        ],
+        [
+          "వేగవంతమైన మార్పిడి",
+          "మాన్యువల్ సూత్రాలను నివారించండి."
+        ],
+        [
+          "రోజువారీ ఉపయోగం",
+          "పొడవు, ద్రవ్యరాశి, ఉష్ణోగ్రతకు."
+        ]
+      ],
+      "faqs": [
+        [
+          "యూనిట్లను మార్చవచ్చా?",
+          "అవును, మూలం మరియు లక్ష్య యూనిట్లను మార్చవచ్చు."
+        ],
+        [
+          "ఉష్ణోగ్రత మార్పిడులు భిన్నంగా ఉంటాయా?",
+          "అవును, ఉష్ణోగ్రతకు గుణకంతో పాటు ఆఫ్‌సెట్ కూడా అవసరం."
+        ],
+        [
+          "ఏ యూనిట్లు అందుబాటులో ఉన్నాయి?",
+          "అందుబాటులో ఉన్న యూనిట్లు కన్వర్టర్‌లో అందించిన కేటగిరీలపై ఆధారపడి ఉంటాయి."
+        ],
+        [
+          "యూనిట్లను పరస్పరం మార్చవచ్చా?",
+          "క్యాలిక్యులేటర్‌లో యూనిట్లను మార్చే నియంత్రణ ఉంటే దాన్ని ఉపయోగించండి."
+        ],
+        [
+          "AgeVerseGlobalలో యూనిట్ కన్వర్టర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. AgeVerseGlobal Unit Converter‌ను ఆన్‌లైన్‌లో ఎలాంటి రుసుము లేకుండా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "related": [
+        [
+          "శాతం కాలిక్యులేటర్",
+          "/utility/percentage-calculator"
+        ],
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ],
+        [
+          "వయస్సు కాలిక్యులేటర్",
+          "/age-calculator"
+        ]
+      ],
+      "examplesTitle": "ప్రాక్టికల్ ఉదాహరణలు",
+      "examplesIntro": "యూనిట్ మార్పిడి ఉదాహరణలు.",
+      "examplesNote": "ఫలితాలు ఉదాహరణకు మాత్రమే.",
+      "featuresTitle": "ప్రధాన ఫీచర్లు",
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "యూనిట్ కన్వర్టర్ గురించి ప్రశ్నలు.",
+      "relatedTitle": "మరిన్ని కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "మరిన్ని సాధనాలను చూడండి.",
+      "tableHeaders": [
+        "నుండి",
+        "కు",
+        "విలువ"
+      ]
+    },
+    "age_calculator": {
+      "name": "AgeCalculatorSEOContent",
+      "eyebrow": "వయస్సు లెక్కింపు గైడ్",
+      "title": "వయస్సు కాలిక్యులేటర్: పూర్తి వివరాలతో మీ ఖచ్చితమైన వయస్సును లెక్కించండి",
+      "intro": "AgeVerseGlobal వయస్సు కాలిక్యులేటర్ మీ పుట్టిన తేదీ మరియు ఎంచుకున్న ముగింపు తేదీ మధ్య సమయాన్ని లెక్కిస్తుంది.",
+      "sections": [
+        [
+          "వయస్సు కాలిక్యులేటర్ అంటే ఏమిటి?",
+          [
+            "ఈ సాధనం పుట్టిన తేదీ మరియు ముగింపు తేదీ మధ్య సమయాన్ని సంవత్సరాలు, నెలలు, రోజులుగా విభజిస్తుంది.",
+            "AgeVerseGlobal Advanced వయస్సు కాలిక్యులేటర్ makes age calculation simple. Enter your birth date, keep the calculation date set to today or choose a specific date, and select Calculate. The result helps you understand your calendar age and see how much time has passed between the two dates."
+          ]
+        ],
+        [
+          "ఎలా ఉపయోగించాలి?",
+          [
+            "పుట్టిన తేదీ నమోదు చేయండి, నేటి తేదీ లేదా నిర్దిష్ట తేదీ ఎంచుకోండి, లెక్కించు నొక్కండి.",
+            "For example, a person born on 15 March 2000 is 25 years old on 15 March 2025. If the calculation date is 14 March 2025, the person has not yet reached their 25th birthday.",
+            "Total days, hours, minutes and seconds are separate elapsed-time totals. Because calendar months have different lengths and leap years add an extra day, calendar age should not be calculated by treating every month as exactly 30 days."
+          ]
+        ],
+        [
+          "ఎలా లెక్కించబడుతుంది?",
+          [
+            "క్యాలెండర్ వయస్సు పుట్టిన తేదీని ముగింపు తేదీతో పోల్చడం ద్వారా లెక్కించబడుతుంది. రోజు సంఖ్య చిన్నదైతే మునుపటి నెల నుండి రోజులు అప్పుగా తీసుకోబడతాయి.",
+            "ఉదాహరణకు 15 మార్చి 2000 న జన్మించిన వ్యక్తి 15 మార్చి 2025 న 25 సంవత్సరాలు."
+          ]
+        ]
+      ],
+      "stepsTitle": "AgeVerseGlobal వయస్సు కాలిక్యులేటర్ ఎలా పని చేస్తుంది?",
+      "stepsIntro": "మీ వయస్సును లెక్కించడానికి ఈ దశలను అనుసరించండి:",
+      "steps": [
+        [
+          "మీ పుట్టిన తేదీని నమోదు చేయండి.",
+          "మీరు జన్మించిన రోజు, నెల మరియు సంవత్సరం ఎంచుకోండి."
+        ],
+        [
+          "లెక్కింపు తేదీని ఎంచుకోండి.",
+          "ప్రస్తుత వయస్సుకు నేటిని ఉంచండి లేదా మరొక తేదీని ఎంచుకోండి."
+        ],
+        [
+          "లెక్కించు ఎంచుకోండి.",
+          "కాలిక్యులేటర్ తేదీలను తనిఖీ చేసి తేడాను లెక్కిస్తుంది."
+        ],
+        [
+          "మీ ఫలితాన్ని సమీక్షించండి.",
+          "సంవత్సరాలు, నెలలు, రోజులలో వయస్సు మరియు తదుపరి పుట్టినరోజు సమాచారాన్ని చూడండి."
+        ]
+      ],
+      "examplesTitle": "అడ్వాన్స్‌డ్ వయస్సు లెక్కింపు ఉదాహరణలు",
+      "examplesIntro": "వేర్వేరు తేదీలతో కాలిక్యులేటర్ ఎలా పని చేస్తుందో చూపే ఉదాహరణలు.",
+      "tableHeaders": [
+        "పుట్టిన తేదీ",
+        "వయస్సు లెక్కించే తేదీ",
+        "వయస్సు"
+      ],
+      "examples": [
+        [
+          "15 మార్చి 2000",
+          "15 మార్చి 2025",
+          "25 సంవత్సరాలు, 0 నెలలు, 0 రోజులు"
+        ],
+        [
+          "10 జనవరి 1998",
+          "25 సెప్టెంబర్ 2026",
+          "28 సంవత్సరాలు, 8 నెలలు, 15 రోజులు"
+        ],
+        [
+          "1 జూన్ 2010",
+          "1 జూన్ 2025",
+          "15 సంవత్సరాలు, 0 నెలలు, 0 రోజులు"
+        ]
+      ],
+      "examplesNote": "ఇవి క్యాలెండర్-వయస్సు ఉదాహరణలు. మీ ఫలితం నమోదు చేసిన తేదీలపై ఆధారపడుతుంది.",
+      "featuresTitle": "AgeVerseGlobal వయస్సు కాలిక్యులేటర్ ఫీచర్లు",
+      "features": [
+        [
+          "సంవత్సరాలు, నెలలు మరియు రోజులలో వయస్సు",
+          "మీ క్యాలెండర్ వయస్సును చూడండి."
+        ],
+        [
+          "నేడు లేదా నిర్దిష్ట తేదీ",
+          "ప్రస్తుత వయస్సు లేదా మరొక తేదీలో వయస్సు."
+        ],
+        [
+          "మొత్తం సమయ లెక్కలు",
+          "మొత్తం నెలలు, వారాలు, రోజులు, గంటలు, నిమిషాలు, సెకన్లు."
+        ],
+        [
+          "తదుపరి పుట్టినరోజు సమాచారం",
+          "రాబోయే పుట్టినరోజు తేదీ మరియు మిగిలిన రోజులు."
+        ],
+        [
+          "సులభమైన ఆన్‌లైన్ యాక్సెస్",
+          "బ్రౌజర్‌లో ప్రత్యేక యాప్ లేకుండా ఉపయోగించండి."
+        ]
+      ],
+      "faqEyebrow": "సాధారణ ప్రశ్నలు",
+      "faqTitle": "తరచుగా అడిగే ప్రశ్నలు",
+      "faqIntro": "వయస్సు లెక్కల గురించి త్వరిత సమాధానాలు.",
+      "faqs": [
+        [
+          "నా ఖచ్చితమైన వయస్సును ఎలా లెక్కించాలి?",
+          "మీ పుట్టిన తేదీని నమోదు చేసి “లెక్కించు” ఎంచుకోండి. కాలిక్యులేటర్ సాధారణంగా నేటి తేదీని ఉపయోగించి మీ వయస్సును సంవత్సరాలు, నెలలు, రోజుల్లో చూపిస్తుంది. నిర్దిష్ట తేదీ నాటికి వయస్సు తెలుసుకోవడానికి ఆ తేదీని కూడా ఎంచుకోవచ్చు."
+        ],
+        [
+          "గత లేదా భవిష్యత్తు తేదీ నాటికి నా వయస్సును లెక్కించవచ్చా?",
+          "అవును. “నిర్దిష్ట తేదీ” ఎంపికను ఎంచుకుని కావలసిన తేదీని నమోదు చేయండి. ఎంచుకున్న తేదీ మీ పుట్టిన తేదీ కంటే ముందుగా ఉండకూడదు."
+        ],
+        [
+          "సంవత్సరాల్లో వయస్సు మరియు మొత్తం రోజుల మధ్య తేడా ఏమిటి?",
+          "సంవత్సరాల్లో వయస్సు క్యాలెండర్ యూనిట్లను ఉపయోగిస్తుంది; మొత్తం రోజులు గడిచిన రోజుల సంఖ్యను సూచిస్తాయి. నెలల పొడవు మారుతుండటంతో సంవత్సరాలను 365తో లేదా నెలలను 30తో గుణించడం ద్వారా ఖచ్చితమైన రోజులను ఎల్లప్పుడూ పొందలేము."
+        ],
+        [
+          "ఈ కాలిక్యులేటర్ మొత్తం గంటలను చూపగలదా?",
+          "అవును. ఇది మొత్తం నెలలు, వారాలు, రోజులు, గంటలు, నిమిషాలు మరియు సెకన్లను చూపగలదు."
+        ],
+        [
+          "లీపు సంవత్సరాలను పరిగణనలోకి తీసుకుంటుందా?",
+          "అవును. లీపు సంవత్సరాలు మరియు నెలల వాస్తవ పొడవులను పరిగణనలోకి తీసుకుంటుంది. ఫిబ్రవరి 29న పుట్టినవారి పుట్టినరోజు ఎలా లెక్కించాలనేది ఉపయోగించే సంప్రదాయంపై ఆధారపడవచ్చు."
+        ],
+        [
+          "తదుపరి పుట్టినరోజు వరకు ఎంత సమయం ఉందో తెలుసుకోవచ్చా?",
+          "అవును. ఫలితంలో తదుపరి పుట్టినరోజు తేదీ మరియు దానికి మిగిలిన సమయపు కౌంట్‌డౌన్ చూపబడుతుంది."
+        ],
+        [
+          "AgeVerseGlobalలో వయస్సు కాలిక్యులేటర్ను ఉపయోగించడం ఉచితమా?",
+          "అవును. పుట్టిన తేదీ నుంచి నేటి తేదీ వరకు లేదా మీరు ఎంచుకున్న నిర్దిష్ట తేదీ వరకు వయస్సును లెక్కించడానికి AgeVerseGlobal Advanced Age Calculator‌ను ఆన్‌లైన్‌లో ఉచితంగా ఉపయోగించవచ్చు."
+        ]
+      ],
+      "relatedTitle": "మరిన్ని తేదీ కాలిక్యులేటర్లను అన్వేషించండి",
+      "relatedIntro": "ఇతర తేదీ లెక్కల కోసం సంబంధిత సాధనాలను ఉపయోగించండి.",
+      "related": [
+        [
+          "తేదీ వ్యత్యాసం",
+          "/date-difference"
+        ],
+        [
+          "ఈవెంట్ కాలిక్యులేటర్",
+          "/event-calculator"
+        ],
+        [
+          "రిటైర్మెంట్ కాలిక్యులేటర్",
+          "/retirement-calculator"
+        ]
+      ]
+    }
+  }
+}
